@@ -49,12 +49,3 @@ General CE advising information, including what you need to bring to your advisi
         
 * Week 10 Times
   * Scheduled in extenuating circumstances only. Please sign up during week 7 through week 9, or make a special appointment with me in week 11.
-
-## Internship and Job Search Resources
-  * Talk with your faculty and advisor
-  * [MSOE Career Services](http://www.msoe.edu/explore-your-future/career-services/), including the Handshake system and annual Career Fair
-  * "[Ask the Headhunter](http://www.pbs.org/newshour/author/ncorcodilos/)"" series by Nick Corcodilos on the *PBS NewsHour*
-  * "[The Workologist](http://www.nytimes.com/column/workologist)" column by Rob Walker at the *New York Times*
-
-</body>
-</html>

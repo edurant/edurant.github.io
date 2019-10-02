@@ -1,5 +1,6 @@
 ---
 title: "CE Academic Advising: Elective Rules"
+date: 2019-10-02 15:40:17 -0500
 ---
 
 # CE elective rules
@@ -37,7 +38,6 @@ title: "CE Academic Advising: Elective Rules"
 * Certain sophomore level classes from other majors (that aren't significantly duplicative of CE content), including SE2811, SE2840, SE2800, SE2832
   * SE2040 may <em>not</em> be used as a program elective.
 * Credits must add up. For example, if your curriculum version requires 6 PE credits, you might take an approved EECS class for 4 credits and a 2-credit CE499.
-</ul>
 
 ## Free Elective and GE (General Education) Elective
 * Effective with a 2018-02-06 email to all CE students, the GE elective is now functionally the same as the free elective. This is based on new flexibility that MSOE granted the programs in designating classes as meeting the GE elective.
