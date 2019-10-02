@@ -1,3 +1,6 @@
+---
+modified: 10/2/2019 2:21:58 PM
+---
 <!DOCTYPE html>
 <html>
 <head>
@@ -62,6 +65,8 @@ I also post a detailed weekly schedule on my door.</p>
 <p>This	page was last updated on {{ page.date }} .</p>
 
 <p>This	page was last updated on {% include {{ page.date | date: "%c"}} %}.</p>
+
+<p>This	page was last updated on {{ page.modified | date: "%c"}} %}.</p>
 
 </body>
 </html>
