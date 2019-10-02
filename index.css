@@ -1,0 +1,13 @@
+body {
+	background: #fff;
+	color: #333;
+	font: normal normal 16px/1.1625em Calibri, "Lucida Grande", Helvetica, Tahoma, Arial, Verdana, sans-serif; /* 16Ã—1.1625=18.6px */
+	*font-size: 100%; /* normalize IE */
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Cambria, Georgia, Calibri, "Lucida Grande", Helvetica, Tahoma, Arial, Verdana, sans-serif;
+	line-height: 1.5em;
+}
