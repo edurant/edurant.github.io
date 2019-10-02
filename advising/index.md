@@ -68,5 +68,5 @@ Two-degree tracks exist for CE in combination with CS, EE and SE. These tracks a
 ## Internship and Job Search Resources
   * Talk with your faculty and advisor
   * [MSOE Career Services](http://www.msoe.edu/explore-your-future/career-services/), including the Handshake system and annual Career Fair
-  * "[Ask the Headhunter](http://www.pbs.org/newshour/author/ncorcodilos/)"" series by Nick Corcodilos on the *PBS NewsHour*
+  * "[Ask the Headhunter](http://www.pbs.org/newshour/author/ncorcodilos/)" series by Nick Corcodilos on the *PBS NewsHour*
   * "[The Workologist](http://www.nytimes.com/column/workologist)" column by Rob Walker at the *New York Times*
