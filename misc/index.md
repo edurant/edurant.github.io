@@ -24,9 +24,7 @@ title: "Dr. Durant: Miscellaneous"
    * AoV Multiplier (FF over 10D/1.6&times;)
      * <a href="AoVmultiplier.pdf">Adobe PDF</a>
      * <a href="AoVmultiplier.xls">Microsoft Excel 2002 Worksheet</a>
-   * <a href="miscPix/">Miscellaneous old photos</a>
    * <a href="lls/">Lens coverage graph, etc.</a>
-   * <a href="packers/">Pictures from Packer games</a>
  * <a href="recipes/">Recipes</a>
  * University of Michigan 
    * PhD in Electrical Engineering received in January 2002
@@ -43,7 +41,4 @@ title: "Dr. Durant: Miscellaneous"
  * MSOE student stuff
    * Business manager and Webmaster of the student newspaper, *Ingenium*.
    * <a HREF="seed/">Senior design group</a> designed and built a user-friendly power supply in 1996-1997.
-   * <a href="msoe-classes.htm">Classes taken</a>
- * <a href="gpsComparison.pdf">GPS comparison (1 page PDF, updated 12:49 AM Thursday 11/25/2004 CST)</a> - I bought the Quest and moved to the Nuvi 760 in 8/2008.
- * <a href="usenet/">USENET posting history</a>
- * <a href="stpatstrivia.htm">St. Pat's Trivia</a>
+   * <a href="msoe-classes.html">Classes taken</a>
