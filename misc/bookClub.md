@@ -30,7 +30,7 @@ date: 2019-10-04 10:05:21 -0500
 * [Lights Out: A Cyberattack, A Nation Unprepared, Surviving the Aftermath](https://www.amazon.com/dp/B00UQERM4C), by Ted Koppel, discussed on 2016-03-14.
 * [Abundance: The Future Is Better Than You Think](https://www.amazon.com/dp/B005FLOGMM), by Peter Diamondis & Steven Kotler, discussed on 2016-01-29.
 * [College: What It Was, Is, and Should Be](https://www.amazon.com/dp/B00P6ZJ6MM), by Andrew Delbanco, discussed on 2015-12-14.
-* [Make It Stick: The Science of Successful Learning](https://www.amazon.com/B00JQ3FN7M), by Peter C. Brown, discussed on 2015-10-15.
+* [Make It Stick: The Science of Successful Learning](https://www.amazon.com/dp/B00JQ3FN7M), by Peter C. Brown, discussed on 2015-10-15.
 * [A Mind For Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)](https://www.amazon.com/dp/B00G3L19ZU), by Barbara Oakley, discussed on 2015-05-07.
 * [The New Science of Learning](https://www.amazon.com/dp/B07MKPNV39), by Terry Doyle and Todd Zakrajsek, discussed on 2015-03-12.
 * [The Curious Incident of the Dog in the Night-Time](https://www.amazon.com/dp/B000FC1MCS), by Mark Haddon, discussed on 2014-12-16.
