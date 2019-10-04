@@ -1,4 +1,4 @@
----
+ï»¿---
 title: "MSOE Faculty and Staff Book Club Selections"
 date: 2019-10-04 10:05:21 -0500
 ---
@@ -14,9 +14,9 @@ date: 2019-10-04 10:05:21 -0500
 * [The Tangled Tree: A Radical New History of Life](https://www.amazon.com/dp/B075RX2QY4), by David Quammen, discussed on 2019-01-28.
 * [Small Teaching](https://www.amazon.com/dp/1118944496), by James M. Lang, discussed on 2018-11-28.
 * [Whistling Vivaldi: How Stereotypes Affect Us and What We Can Do (Issues of Our Time)](https://www.amazon.com/dp/0393339726), by Claude M. Steele, discussed on 2018-09-10.
-* [Teaching Naked: How Moving Technology Out of Your College Classroom Will Improve Student Learning](https://www.amazon.com/dp/B008GI0IE6), by José Antonio Bowen, discussed on 2018-05-31.
+* [Teaching Naked: How Moving Technology Out of Your College Classroom Will Improve Student Learning](https://www.amazon.com/dp/B008GI0IE6), by JosÃ© Antonio Bowen, discussed on 2018-05-31.
 * [iGen](https://www.amazon.com/dp/1501152017), by Jean M. Twenge, discussed on 2018-04-24.
-* [Bored & Brilliant: How spacing out can unlock your most productive and creative self](https://www.amazon.com/dp/B06VTZYPTF), by Manoush Zomorodi, discussed on 2018-03-06.
+* [Bored and Brilliant: How spacing out can unlock your most productive and creative self](https://www.amazon.com/dp/B06VTZYPTF), by Manoush Zomorodi, discussed on 2018-03-06.
 * [Inferior: How Science Got Women Wrong-and the New Research That's Rewriting the Story](https://www.amazon.com/dp/B01L5KFW2E), by Angela Saini, discussed on 2018-01-18.
 * [The Demon-Haunted World: Science as a Candle in the Dark](https://www.amazon.com/dp/B004W0I00Q), by Carl Sagan, discussed on 2017-12-07.
 * [Scienceblind: Why Our Intuitive Theories About the World Are So Often Wrong](https://www.amazon.com/dp/B01K3WN1FU), by Andrew Shtulman, discussed on 2017-10-26.
@@ -40,5 +40,5 @@ date: 2019-10-04 10:05:21 -0500
 * [How Children Succeed](https://www.amazon.com/dp/B0070ZLZ1G), by Paul Tough, discussed on 2014-03-25.
 * [How Learning Works: Seven Research-Based Principles for Smart Teaching](https://www.amazon.com/dp/0470484101), by Susan Ambrose et al., discussed on 2014-02-11.
 * [Player Piano](https://www.amazon.com/dp/B002QJZ9V8), by Kurt Vonnegut, discussed on 2014-01-17.
-* [Quiet: The Power of Introverts in a World That Can’t Stop Talking](https://www.amazon.com/dp/B004J4WNL2), by Susan Cain, discussed on 2013-11-07.
+* [Quiet: The Power of Introverts in a World That Canâ€™t Stop Talking](https://www.amazon.com/dp/B004J4WNL2), by Susan Cain, discussed on 2013-11-07.
 * [Creating Innovators](https://www.amazon.com/dp/B005GG0NFU), by Tony Wagner, discussed on 2013-10-01.
