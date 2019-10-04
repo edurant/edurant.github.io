@@ -6,6 +6,7 @@ title: "Dr. Durant: Miscellaneous"
 
  * <a href="../ceiac/">CE IAC Homepage</a>
  * <a href="../opcomp/">Op Computer Competition Homepage</a>
+ * [Faculty and Staff Book Club](bookClub.html)
  * <a href="../ce2016/">CE2016</a>
  * For MSOE Faculty
    * In-service presentation handouts
