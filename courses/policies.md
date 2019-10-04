@@ -3,8 +3,6 @@ title: "Dr. Eric Durant: General Course Policies"
 date: 2019-10-02 16:43:00 -0500
 ---
 
-# {{page.title}}
-
 ## Academic Honesty
 
 Students are expected to observe high standards of professional
@@ -90,7 +88,7 @@ we can ensure that you have a plan to stay up to date on the material.
 
 I will not drop you for missing class.  If you wish to drop the
 course, I recommend that you first check with me and your academic
-advisor.  After that, please consult the Registrar's Office for the 
+advisor.  After that, please consult the Registrar's Office for the
 <a href="https://www.msoe.edu/academics/departments/registrar/">appropriate form
 and procedure</a>.
 

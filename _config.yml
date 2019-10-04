@@ -1,1 +1,9 @@
 encoding: utf-8
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # avoid applying to everything, including .css, etc.
+    values:
+      layout: "default"
