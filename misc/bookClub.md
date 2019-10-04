@@ -1,7 +1,6 @@
 ---
 title: "MSOE Faculty and Staff Book Club Selections"
 date: 2019-10-04 10:05:21 -0500
-encoding: UTF-8
 ---
 
 # {{page.title}}
