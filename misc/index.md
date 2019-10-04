@@ -2,8 +2,6 @@
 title: "Dr. Durant: Miscellaneous"
 ---
 
-# {{page.title}}
-
  * <a href="../ceiac/">CE IAC Homepage</a>
  * <a href="../opcomp/">Op Computer Competition Homepage</a>
  * [Faculty and Staff Book Club](bookClub.html)

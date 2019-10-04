@@ -2,7 +2,6 @@
 title: "Dr. Eric Durant: 2015 In-service: Getting Things Done"
 ---
 
-# {{page.title}}
 # Some key takeaways
 
 *MSOE In-service presentation by Eric Durant<br/>
@@ -20,7 +19,7 @@ People often have anxiety about their work stemming from a &ldquo;lack of contro
 Many books on being effective in business focus at a very high level; indeed, it is good to work at this strategic level sometimes. Other books focus on important operational details of one&rsquo;s profession (e.g., active learning strategies for freshman engineering students). GTD, in contrast, sits at a middle level &ndash; it outlines a system for implementing your strategy so you can be completely focused on the right operational task at the right time.
 
 A failing of many tools that try to do this is that they are cumbersome and get in the way of the actual work you&rsquo;re trying to accomplish, as when you spend 20 minutes trying to complete a simple task such as printing an attached file from an unfamiliar program. GTD strives to give you a process that you will trust and use automatically to focus on your important work.
- 
+
 Key concepts in GTD are:
 * &ldquo;Stuff&rdquo; &mdash; everything you need to process and decide whether to act on,
 * &ldquo;In box&rdquo; &mdash; the place where you put stuff so that it is at hand when you&rsquo;re ready to decide what to do with it,

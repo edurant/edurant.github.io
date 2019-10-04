@@ -3,8 +3,6 @@ title: "MSOE Faculty and Staff Book Club Selections"
 date: 2019-10-04 10:05:21 -0500
 ---
 
-# {{page.title}}
-
 * [Machines Like Me](https://www.amazon.com/dp/0385545118), by Ian McEwan, discussed on 2020-01-06?.
 * [The Optimist's Telescope: Thinking Ahead in a Reckless Age](https://www.amazon.com/dp/B07L2HY8L8), by by Bina Venkataraman, discussed on 2019-12-02?.
 * [What Is Real?: The Unfinished Quest for the Meaning of Quantum Physics](https://www.amazon.com/dp/B073P4GBPD), by Adam Becker, Greg Tremblay, et al., discussed on 2019-10-21.

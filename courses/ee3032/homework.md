@@ -3,8 +3,6 @@ title: "Dr. Durant: EE-3032: Homework"
 date: 2019-10-02 16:36:00 -0500
 ---
 
-# {{page.title}}
-
 ## 2019
 
 * <a href="hw0.pdf">Homework 0, due Monday of week 2 at beginning of class</a> <a href="hw0sol.pdf">Solution</a>
