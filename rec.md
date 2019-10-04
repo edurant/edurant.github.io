@@ -2,8 +2,6 @@
 title: "Letters of Recommendation, and References"
 ---
 
-# {{page.title}}
-
 In most cases, I will be glad to help you (students and recent alumni) by writing a letter of recommendation (often required for graduate school and competitive scholarships and internships) or acting as a reference (often required for internships and permanent positions). When choosing which faculty to ask, keep in mind that the more positive experiences we have with your hard work, attitude, and success the stronger the letter or reference we can provide. These experiences come through classes, advising, volunteering, incidental encounters, etc. Once I agree to write a letter or act as a reference for you, I will need a completed copy of <a href="http://www.msoe.edu/campus-life/wp-content/uploads/sites/5/2017/06/Student-Reference-Request.pdf">this form</a>, preferably emailed as a scanned image, PDF preferred, with your written signature.
 
 ## Letters of Recommendation

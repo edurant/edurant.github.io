@@ -3,8 +3,6 @@ title: "CE Academic Advising"
 date: 2019-10-02 15:25:05 -0500
 ---
 
-# {{page.title}}
-
 ## Advising policy
 
 Computer engineering students see their advisors regularly to discuss academic and career plans and progress. In most terms, CE students must receive their advisors' clearance before registering; the online registration system enforces this. Beat the registration rush by contacting your advisor early in the quarter. You are welcomed and encouraged to meet with your advisor even in terms when it is not required to discuss your internship search, career goals, etc.
@@ -27,11 +25,11 @@ Starting in week 7 sign-up sheets with available advising slots are normally pos
   * Students first enrolled in <a href="https://catalog.msoe.edu/preview_program.php?catoid=10&poid=506&returnto=364">F'15</a>,
             <a href="https://catalog.msoe.edu/preview_program.php?catoid=14&poid=704&returnto=394">F'16</a>,
 	    <a href="https://catalog.msoe.edu/preview_program.php?catoid=16&poid=810&returnto=442">F'17</a>, and
-            <a href="https://catalog.msoe.edu/preview_program.php?catoid=18&poid=914&returnto=511">F'18</a>, 
+            <a href="https://catalog.msoe.edu/preview_program.php?catoid=18&poid=914&returnto=511">F'18</a>,
              follow curriculum 4.0/4.1/4.2. <a href="curriculum-4.0rev08.pdf">Flowchart</a>
   * Students first enrolled in F'13 and <a href="https://catalog.msoe.edu/preview_program.php?catoid=8&poid=410&returnto=220">F'14</a>
             follow curriculum 3.5. <a href="curriculum-3.5rev01.pdf">Flowchart</a>
-	
+
 * Your preliminary plans for the next quarter's schedule
 * Your curriculum track (course list). Hardcopies are available outside of the CE/SE/Math office area. Electronic copies are available for newer versions at <a href="https://catalog.msoe.edu/">https://catalog.msoe.edu/</a>. Be sure to select the catalog year that you first enrolled at MSOE.
 * Any questions you may have

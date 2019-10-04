@@ -1,8 +1,6 @@
 ---
-title: "Dr. Eric Durant: CE Academic Advising"
+title: "CE Academic Advising: Dr. Durant"
 ---
-
-# Academic advising
 
 General CE advising information, including what you need to bring to your advising meeting, how to find who your advisor is, and who the CE advisors are, is available on the
 [CE advising information webpage](./).
@@ -26,26 +24,26 @@ General CE advising information, including what you need to bring to your advisi
 
 ## Advising times
 
-* Week 7 Times        
+* Week 7 Times
   * Monday 4/23: 9:00-11:00 AM
   * Tuesday 4/24: 9:00-10:45 AM
   * Wednesday 4/25: (no times available)
   * Thursday 4/26: (no times available)
   * Friday 4/27: 9:00-10:00 AM, 1:30-3:15 PM
-        
+
 * Week 8 Times
   * Monday 4/30: 9:00-11:30 AM
   * Tuesday 5/1: 9:00-10:45 AM
   * Wednesday 5/2: (no times available)
   * Thursday 5/3: 10:00-11:30 AM
   * Friday 5/4: 9:00-10:00 AM, 1:00-3:00 PM
-        
+
 * Week 9 Times
   * Monday 5/7: 9:00-11:30 AM
   * Tuesday 5/8: 9:00-10:45 AM
   * Wednesday 5/9: (no times available)
   * Thursday 5/10: 10:00-11:30 AM
   * Friday 5/11: 9:00-10:00 AM
-        
+
 * Week 10 Times
   * Scheduled in extenuating circumstances only. Please sign up during week 7 through week 9, or make a special appointment with me in week 11.
