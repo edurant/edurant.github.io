@@ -1,0 +1,24 @@
+entity TRUCK is port(
+	A: in bit;
+	B, C: in bit;
+	F: out bit
+);
+end entity TRUCK;
+
+architecture DF of TRUCK is
+
+begin
+	-- F <= A or (B and C);
+	-- with A&B&C select F <=
+	-- 	'0' when "000",
+	-- 	'0' when "001" | "010",
+	-- 	'1' when "011",
+	-- 	'1' when others;
+	-- F <= '1' when A = '1' else
+	--	 '1' when B = '1' and C = '1' else
+	--	 '0';
+	F <= '1' when A = '1' else
+		 '0' when B = '1' and C = '1' else
+		 '1';
+
+end architecture DF;

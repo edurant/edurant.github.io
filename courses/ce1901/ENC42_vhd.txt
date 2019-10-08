@@ -1,0 +1,19 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity ENC42 is port( -- straight encoder
+	I: in std_logic_vector(3 downto 0);
+	O: out std_logic_vector(1 downto 0)
+);
+end entity ENC42;
+
+architecture DF of ENC42 is
+
+begin
+	with I select
+		O <= B"00" when B"0001",
+			 B"01" when B"0010",
+			 B"10" when B"0100",
+			 B"11" when B"1000",
+			 "XX" when others;
+end architecture DF;

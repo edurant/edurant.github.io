@@ -1,0 +1,31 @@
+-- Dr. Durant <durant@msoe.edu>
+-- 5 October 2015
+-- VHDL documentation example that shows various ways to
+-- implement a 2:1 MUX.
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity muxex is port(
+	s: in std_logic; -- select input
+	d: in std_logic_vector(1 downto 0); -- data inputs
+	y: out std_logic -- output, selects d(s)
+	-- If this is a top-level design for your DE0 board, also document which devices and pins should be assigned.
+);
+end;
+
+architecture behav of muxex is
+
+begin
+	-- Each of the following behavioral VHDL statements implements a 2:1 MUX using
+	-- a different method. Use Tools | Netlist Viewers | RTL Viewer to see the generated hardware.
+
+	-- y <= (not s and d(0)) or (s and d(1)); -- minimized MUX logic equation
+	
+	--with s&d select y <= -- specify truth table
+	--	'1' when "001"|"011"|"110"|"111",
+	--	'0' when others;
+		
+	y <=  d(0) when s = '0' else -- when-else has the flexibility of an if-else-if-... statement
+			d(1);
+end;

@@ -1,0 +1,226 @@
+---
+title: "Dr. Durant: CE-1901 Practice Problems"
+---
+
+<!--
+<p>Homework must be submitted on paper and will normally be turned in in class or in lab.  Homework may also be left in my mailbox in L350.
+Either handwritten work or a computer printout is acceptable.  Remember the <a href="../policies.shtml">general course policies</a>; you may discuss and work on problems with other students, but you
+must develop your own solution to each problem.</p>
+-->
+
+<p>Abbreviation of dates: WmDn refers to the nth day of lecture in the mth week of class.  WmL refers to the lab in week m.  For example, W3D2 is the 2nd lecture
+of week 3 (regardless of whether the lab period is before or after the 2nd lecture period).</p>
+
+<h2>W1D1<!-- (10 points, due W1D2)--></h2>
+
+<ol start=1>
+<li>List the powers of 2 starting with the 0th power and ending with the 16th power.</li>
+
+<li>Convert 151, 257, and 640 from decimal to binary.  Show all calculations.</li>
+
+<li>Convert 1011, 1010_0101, and 0111_1101_1010 from unsigned binary to decimal. Illustrate key steps.</li>
+
+<li>In decimal (base 10), we can quickly divide by 10 by dropping the least significant digit from the right of a number (e.g., 387 becomes 38 -- note this rounds down).  What similar shortcut can be taken for division in binary (base 2)?  Demonstrate the outcome for the binary number 1_0001.</li>
+</ol>
+
+<h2>W1D2<!-- (10 points, due W2D1)--></h2>
+
+<ol start=5>
+
+<li>Complete problem 3 from day 1 by converting the given binary numbers to hexadecimal and octal.  Illustrate key steps.  Hint: It
+is easier to work from base 2 than from base 10.</li>
+
+<li>Convert 7103<sub>8</sub> to binary.</li>
+
+<li>Convert 3F and 3CEA from hexadecimal to both decimal and binary.  Illustrate key steps.</li>
+
+<li>Add the following pairs of 8-bit binary numbers, under the constraint that there are 8 bits available for the result.  Interpret the results and indicate whether an unsigned overflow occurred.
+Explain the problem that an unsigned overflow indicates.
+	<ol type=a>
+	<li>1010_0011 + 0110_0101</li>
+	<li>0011_1111 + 0001_1010</li>
+	</ol>
+</li>
+
+</ol>
+
+<h2>W2D1<!-- (8 points, due W2D2)--></h2>
+
+<ol start=9>
+
+<li>Draw a truth table for the 3-input AND and OR functions.</li>
+
+<li>Draw the truth table for the following Boolean functions: F(xyz) = x'y'z + x'yz' + xyz', F(xyz) = (y'z'+yz)[y'+z'(xz)']. Include columns for <em>all</em> intermediate terms.</li>
+
+</li>
+
+</ol>
+
+<h2>W2D2<!-- (10 points, due W3D1)--></h2>
+
+<ol start=11>
+
+<li>P1.35, P1.38 (pages 34-); Derive the Boolean function for the truth table as in Table 1.7 (page 13) where F1 = 10011000, where the MSB (on the left) corresponds to minterm 7 (bottom to top)</li>
+<li>Use a truth table to show that the following expressions are true:
+	<ul>
+	<li>x' + y + xy' = 1</li>
+	<li>(xz')(x'+z) = 0</li>
+	<li>[(a xor b xor c) + ab] (a'b'c)' = ac' + ab + bc'</li></li>
+
+</ol>
+
+<h2>W3D1<!-- (10 points, due W3D2)--></h2>
+
+<ol start=13>
+
+<li>F(abc) = m0 + m1 + m2 + m3 + m4
+
+<ol type=a>
+<li>Draw the truth table for F.  (Note: For equations in canonical form, beginning this week, it is not
+    necessary to show intermediate steps in the truth table.)</li>
+<li>Express F in canonical sum of products form without using a shorthand notation</li>
+<li>Express F as a sum of minterms using &Sigma; notation</li>
+<li>Draw a Karnaugh map for F.  Box in the prime implicants (for each 1-minterm, the largest subcube [see class notes or textbook]
+    that contains it; some of these will cover more than 1 term, so you will generally have far fewer boxes than minterms).
+    Label each prime implicant with the value(s) of the 1-3 variables that are needed to define it.</li>
+<li>Using your result from the previous step, write a minimized sum-of-products version of F.</li>
+<li>Show how to implement your equation from the previous step using NOT/AND/OR gates.  (Or, if you prefer, only NAND gates; see Figure 1.15 on page 31.)</li>
+</ol>
+
+</ol>
+
+<h2>W4D1<!-- (20 points, due W4D2)--></h2>
+
+<ol start=14>
+
+<li>Given the following 4-variable Boolean function F(wxyz):
+	<ul>
+		<li>1-minterms: 1, 5, 11, 13, 15</li>
+		<li>Don't care minterms: 3, 9, 14</li>
+	</ul>
+<ol type=a>
+<li>Draw a K-map to show how to find the simplest sum-of-products form.  Take the best possible advantage of don't cares.  Be sure that you label, on the K-map, each term
+that you select for the reduced function.  Also, state the fully reduced SOP function.</li>
+<li>Re-do all parts of the previous item, including labeled K-map reduction, but this time ignore the don't cares (they must output 0).</li>
+<li>Calculate the number of gates (NOT, 2-input AND, and 2-input OR only) required to implement your equation from (a).</li>
+<li>Calculate the number of gates (NOT, 2-input AND, and 2-input OR only) required to implement your equation from (b).</li>
+<li>Calculate the reduction ratio between the two implementations above.</li>
+<li>Implement the equation from (a) using the gates that you tallied in (c).</li>
+<li>Convert the circuit from (f) so that it uses only NOT and NAND gates. You are <em>not</em> limited to NAND2 gates.</li>
+</ol>
+</li>
+
+<li>Refer to the schematic diagram provided by the instructor [please ask if this is not posted by the time you're ready to work on this problem]
+<!--See problem 3.1(d) on page 92 of your textbook.-->
+<ol type=a>
+<li>Draw the truth table, labeling and evaluating as many intermediate terms as you need, but at least the outputs of all the multi-input gates.</li>
+<li>Draw the K-map for the truth table you just derived.  Use it to derive the most reduced SOP version of the function, showing work as in the previous problem.</li>
+<li>Implement your fully reduced equation.  This time, in addition to the NOT and 2-input AND and OR gates, 3-input AND and OR gates are available.  Use the minimum number of gates.</li>
+<li>Calculate the reduction ratio for your circuit drawn in the previous step compared with the original circuit given in the textbook.</li>
+</ol>
+</li>
+
+</ol>
+
+<h2>W5D2<!-- (7 points, due W6D1)--></h2>
+
+<ol start=16>
+<li>Calculate the range of an 8-bit unsigned number.</li>
+<li>Calculate the range of an 8-bit signed number.</li>
+<li>Convert -80 and -40 to 8-bit signed format.</li>
+<li>Perform binary addition of the 2 8-bit numbers above.</li>
+<li>Interpret the sum as the unsigned result of adding two unsigned numbers.  Is there unsigned overflow?</li>
+<li>Interpret the sum as the signed result of adding two signed numbers.  Is there signed overflow?</li>
+</ol>
+
+<h2>W7D2<!-- (10 points, due W8L)--></h2>
+
+<ol start=22>
+<p><li>Design an ALU that performs the following 4 operations:
+<ul>
+<li>S=00: Subtract  (A-B)</li>
+<li>S=01: Decrement (A-1)</li>
+<li>S=10: Or        (A OR B)</li>
+<li>S=11: Nand      (A NAND B)</li>
+</ul></p>
+
+<p>The design will consist of
+<ol type="a">
+<li>(required) a function table</li>
+<li>(optional) a truth table for the logic extender</li>
+<li>(optional) a truth table for the arithmetic extender</li>
+<li>(optional) a truth table for the carry extender</li>
+</ol></p>
+
+<p>Next, reduce the LE, AE, and CE equations.  Some of the equations may be
+simple enough to write directly from the tables above.  For the remaining ones, however,
+it will be necessary to show a K-map to ensure that you have found the simplest sum-of-products
+implementation.  (An alternative design method is to use 4:1 or 16:1 MUXes,
+but for this problem you must use K-maps.)</p>
+
+<p>The final element of the design is to show how these 3 components, which you may now represent
+using block symbols (do not draw all the gates), are connected to FAs (full adders) to create an
+ALU.  Be sure to show at least a 2-bit ALU so that the connections of the FA carry inputs and
+outputs are unambiguous.</p></li>
+
+</ol>
+
+<h2>W8D1<!-- (10 points, due W8D2)--></h2>
+
+<ol start=23>
+<li>Draw the gate schematic for the 2-to-4 decoder with enable.</li>
+<li>Draw the gate schematic for the 8-to-3 encoder.</li>
+<li>Show how you could combine five 2-to-4 decoders to make a 4-to-16 decoder. All decoders in this problem have an enable input.  Draw only the blocks for the decoder components (not the gates).  Hint: if the 2 MSBs are both on, you know that one of the outputs between 1100 (12) and 1111 (15) is on.</li>
+</ol>
+
+<h2>W8D2<!-- (10 points, due W9D1)--></h2>
+
+<ol start=26>
+<li>Draw the circuit for a 4-to-2 priority encoder using the intermediate V signals as discussed in class.</li>
+<li>Use three 16-to-1 multiplexers to implement a 4-to-2 priority encoder.  Remember that a 2^N:1 MUX implements a truth table with N inputs.</li>
+<li>Which of the above designs requires more gates?</li>
+<li>Why might you use the design with more gates instead of the one with fewer?</li>
+</ol>
+
+<h2>W9D1<!-- (15 points, due W9D2)--></h2>
+
+<ol start=30>
+<li><p>P4.19.  Do this in Quartus, turning in your (a) <strong>schematic</strong> for the 4:2
+priority encoder, (b) your <strong>VHDL or schematic</strong> for the 2:1 priority encoder, and (c) your simulation for the 4:2 priority encoder showing all possible input combinations.
+If you choose to use buses for the inputs to the 2:1 priority encoder, they must be named
+with care.  For example, you may have a need to take 2 signals off a bus of 4 signals and
+put them onto another bus.  One way to do this is...</p>
+
+<pre>X[3..0] ===============
+           |       |
+           |X[3]   |X[2]
+           |       |
+          ====================
+                       X[3..2]</pre>
+
+<p>To keep the wiring simpler, you may wish to avoid using buses for this assignment.</p>
+
+<p>You may use the "21mux" component that is available in Quartus (be sure to label whether A is D0 or D1), or you may implement your own 2:1 MUX.</p></li>
+</ol>
+
+<h2>W10D2<!-- (10 points, due W10 Friday)--></h2>
+
+<ol start=31>
+<li>Derive the truth table for comparing two unsigned 2-bit operands for the greater-than-or-equal-to relationship.  Derive the equation and circuit from this truth table. Note: This is <em>not</em> the "ripple" comparator designed in class.</li>
+<li>Draw the circuit for a 4-bit shifter that realizes the following operation table.
+  <ul>
+  <li>S = 0: Rotate left</li>
+  <li>S = 1: Arithmetic right shift</li>
+  <li>S = 2: Output 0</li>
+  <li>S = 3: Rotate right</li>
+  <li>S = 4: Shift right and fill with 0 (what's the other name for this operation?)</li>
+  <li>S = 5: Pass through</li>
+  <li>S = 6: Shift left and fill with 0</li>
+  <li>S = 7: Output +1 in signed binary</li>
+  </ul>
+</li>
+<!--
+<li>P4.33: Hint: You only need 2<sup>3</sup> input rows.  Write outputs as needed in
+    terms of the d<sub>i</sub> inputs.</li>
+-->
+</ol>

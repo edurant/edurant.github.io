@@ -1,0 +1,58 @@
+-- **********************************************************
+-- * FILENAME:		adder4.vhd								*
+-- * AUTHOR:		durant@msoe.edu							*
+-- * DATE:			10 Jan 2007								*
+-- * PROVIDES:												*
+-- * - 1-bit full adder (dataflow)							*
+-- * - 4-bit ripple-carry adder (structural)				*
+-- **********************************************************
+
+-- *** 1-bit full adder ***
+entity FULL_ADDER is port (
+	XI:		in bit;		-- addend at i
+	YI:		in bit;		-- addend at i
+	CI:		in bit;		-- carry in (at i)
+	CI1:	out bit;	-- carry out (at i+1)
+	SI:		out bit		-- sum at i
+);
+end entity FULL_ADDER;
+
+architecture FULL_ADDER_DF of FULL_ADDER is
+begin
+	CI1 <= (YI and CI) or (XI and CI) or (XI and YI); -- 2-level version, parentheses required!
+	-- the book uses a 3-level version of CI1 that has fewer gates, but a gate delay of 3 delta
+	-- instead of 2 delta like the sum-of-products (with no inverters) form above.
+	SI <= XI xor YI xor CI;
+end architecture FULL_ADDER_DF;
+
+-- *** 4-bit ripple-carry adder (builds on 1-bit full adder) ***
+-- We could improve this by generalizing 4 to be a "generic" constant (see page 564).
+-- In CE1900, we will keep everything in a single file.  ADDER4 matches the name of this file.
+--	Also, ADDER4 is the top-level entity for simulation.  Ideally, FULL_ADDER would be in a
+--	separate file, and a separate project would be set up for simulating it.
+entity ADDER4 is port (
+	X: in bit_vector(3 downto 0); -- most significant bit on left, per convention
+	Y: in bit_vector(3 downto 0);
+	CO: out bit;
+	SUM: out bit_vector(3 downto 0)
+);
+end entity ADDER4;
+
+architecture STRUCTURAL_ADDER4 of ADDER4 is
+	-- Declare an existing component to use
+	-- The interface and the component name must match the entity name above (see page 576).
+	component FULL_ADDER port (
+		XI, YI, CI: in bit;
+		CI1, SI: out bit
+	);
+	end component FULL_ADDER;
+
+	signal CARRY: bit_vector(3 downto 1);
+
+begin
+		FA3: FULL_ADDER port map (CARRY(3), X(3), Y(3), CO,		  SUM(3)); -- start with label
+		FA2: FULL_ADDER port map (CARRY(2), X(2), Y(2), CARRY(3), SUM(2));
+		FA1: FULL_ADDER port map (CARRY(1), X(1), Y(1), CARRY(2), SUM(1));
+		FA0: FULL_ADDER port map ('0',		X(0), Y(0), CARRY(1), SUM(0));
+		-- an alternative to repeating 4 times is "for generate" -- see page 103
+end architecture STRUCTURAL_ADDER4;

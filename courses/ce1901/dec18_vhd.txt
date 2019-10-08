@@ -1,0 +1,43 @@
+-- *************************************************************
+-- * FILENAME: 		dec18.vhd                                  *
+-- * AUTHOR:        meier@msoe.edu <Dr. M.>                    *
+-- * DATE:          18 Dec 2006                                *
+-- * PROVIDES:                                                 *
+-- * - VHDL-1993 description of the dec18 lecture problem      *
+-- * - F(ABCD) = Sm(0,2,8,10,12,13)                            *
+-- *************************************************************
+
+-- *************************************************************
+-- * ENTITY DECLARATION -- describe pins                       *
+-- *************************************************************
+
+entity DEC18 is
+port(
+		A: in bit;
+		B: in bit;
+		C: in bit;
+		D: in bit;
+		F: out bit
+	);
+end entity DEC18;
+
+-- ************************************************************
+-- * ENTITY DESCRIPTIONS -- blueprint of the behavior         *
+-- ************************************************************
+
+architecture BEHAVIORAL of DEC18 is
+	signal ABCD : bit_vector(3 downto 0);
+begin
+
+    ABCD <= A&B&C&D;
+
+	with ABCD select
+		F <= '1' when B"0000",
+		     '1' when B"0010",
+		     '1' when B"1000",
+		     '1' when B"1010",
+		     '1' when B"1100",
+		     '1' when B"1101",
+		     '0' when others;
+		
+end architecture BEHAVIORAL;

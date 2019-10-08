@@ -1,0 +1,73 @@
+-- *************************************************************
+-- * FILENAME:  bvDecoder.vhd                                  *
+-- * AUTHOR:    Dr. Durant <durant@msoe.edu>                   *
+-- * DATE:      29 October 2009                                *
+-- * PROVIDES:  a VHDL dataflow implementation of a decoder    *
+-- *            that converts a 3-bit input into various       *
+-- *            expanded formats and summary bits.             *
+-- *                                                           *
+-- *            Decoders are responsible for taking bits       *
+-- *            specifying a function, state, or behavior and  *
+-- *            converting them into multibit or single bit    *
+-- *            values needed to control specific hardware     *
+-- *            (e.g., external display device).               *
+-- *                                                           *
+-- * HOW-TO USE:                                               *
+-- * Use this component via structural VHDL (covered later) or *
+-- * as a block in a Quartus schematic to decode a 3-bit       *
+-- * control signal.                                           *
+-- *************************************************************
+
+-- *************************************************************
+-- * ENTITY DECLARATION                                        *
+-- * Input                                                     *
+-- *  CODE: the 3-bit code to be expanded and interpreted      *
+-- * Outputs                                                   *
+-- *  EXPANDED: the 8-bit output that is all 1s (0s) if the    *
+-- *   input is all 1s (0s), alternating 1s and 0s if the      *
+-- *   input is alternating 1s and 0s, and mostly 0s otherwise.*
+-- *  PALINDROME_N: asserted (0) if the input is a palindrome. *
+-- *   'N' is sometimes used to indicate negative or active-   *
+-- *   low logic.                                              *
+-- *  SWAPLR: the input with the left and right bits swapped   *
+-- *************************************************************
+-- * PIN ASSIGNMENTS                                           *
+-- * - none because this is not a top-level component          *
+-- *************************************************************
+entity BVDECODER is port(
+	CODE: in bit_vector(2 downto 0); -- like CODE[2..0] in schematic
+	EXPANDED: out bit_vector(7 downto 0);
+	PALINDROME_N: out bit;
+	SWAPLR: out bit_vector(2 downto 0)
+);
+end entity BVDECODER;
+
+-- *************************************************************
+-- * ARCHITECTURE DESCRIPTION                                  *
+-- * - dataflow specification for each output as described     *
+-- *   above                                                   *
+-- *************************************************************
+architecture DF of BVDECODER is
+
+begin
+	-- use "" for multi-bit strings, both input and output
+	with CODE select EXPANDED <=
+		"00000000" when "000", 
+		"11111111" when "111",
+		"10101010" when "101" | "010",
+		"00010000" when others;
+
+	-- access individual bits with () in VHDL {similar to [] in schematic}
+	PALINDROME_N <= CODE(2) xor CODE(0); 
+
+	-- you can assign to individual bits, too
+	--SWAPLR(2) <= CODE(0); 
+	--SWAPLR(1) <= CODE(1);
+	--SWAPLR(0) <= CODE(2);
+	
+	-- combining...
+	--SWAPLR(2 downto 0) <= CODE(0) & CODE(1) & CODE(2);
+	
+	-- more simply...
+	SWAPLR <= CODE(0) & CODE(1) & CODE(2); -- omitting () references all bits
+end architecture DF;

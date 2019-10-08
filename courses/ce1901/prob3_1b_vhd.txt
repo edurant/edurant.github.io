@@ -1,0 +1,63 @@
+-- *************************************************************
+-- * FILENAME:  prob3_1b.vhd                                   *
+-- * AUTHOR:    durant@msoe.edu and meier@msoe.edu             *
+-- * DATE:      13 Dec 2006, rev. 12 Dec 2007                  *
+-- * PROVIDES:                                                 *
+-- * - 4-bit to 1-bit combinational function from 3.1b         *
+-- *************************************************************
+
+-- *************************************************************
+-- * ENTITY DECLARATION                                        *
+-- * - describes the input and output pins of the black box    *
+-- * - each pin has direction and type bit declared            *
+-- *************************************************************
+
+entity PROB3_1B is
+port (
+       W : in bit;
+       X : in bit;
+       Y : in bit;
+       Z : in bit;
+       F : out bit
+     );
+end entity PROB3_1B;
+
+-- *************************************************************
+-- * ARCHITECTURE DESCRIPTION                                  *
+-- * - describes the functional behavior of the black box      *
+-- * - this example: with-select describes truth table rows    *
+-- * -               commented-out is when-else alternative    *
+-- * - note how W&X&Y&Z "concatenates" input pins into a number*
+-- * - note that single signals have energy levels with ' '    *
+-- * - note that multiple signals have energy levels with " "  *
+-- * - note that binary sets are prefixed with B               *
+-- *************************************************************
+
+architecture DATAFLOW of PROB3_1B is
+begin
+
+  -- efficient since it generates a single MUX with 4 control inputs
+  with W&X&Y&Z select
+    F <= '1' when B"0010",
+         '1' when B"0110",
+         '1' when B"1010",
+         '1' when B"1011",
+         '1' when B"1100",
+         '1' when B"1101",
+         '1' when B"1110",
+         '1' when B"1111",
+         '0' when others;
+
+
+  -- inefficient since it generates MUXes (several equality comparisons); with-select does better
+  --  F <= '1' when W&X&Y&Z = B"0010" else
+  --       '1' when W&X&Y&Z = B"0110" else
+  --       '1' when W&X&Y&Z = B"1010" else
+  --       '1' when W&X&Y&Z = B"1011" else
+  --       '1' when W&X&Y&Z = B"1100" else
+  --       '1' when W&X&Y&Z = B"1101" else
+  --       '1' when W&X&Y&Z = B"1110" else
+  --       '1' when W&X&Y&Z = B"1111" else
+  --       '0';
+
+end architecture DATAFLOW;

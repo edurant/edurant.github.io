@@ -1,0 +1,189 @@
+---
+title: "Dr. Durant: CE-1901 Digital Logic I"
+---
+
+<h2>Main course website [moved since I last taught this course]</h2>
+
+<p>The main course website includes textbook information, weekly lab objectives, course-specific policies, and daily learning objectives.</p>
+
+<h2>Lab</h2>
+
+<p>Weekly lab details will be available on the main course website.
+All prelab assignments will be conducted individually. Some in-lab activities will be conducted in pairs.
+All lab assignments will be weighted equally by weeks (2-week labs count twice as much as 1-week labs) and
+will be evaluated using a checklist provided by the instructor.</p>
+
+<!--
+<h3><a href="usb-blaster-win7.htm">Installation of USB Blaster driver on Windows 7 (not needed until week 4; for Quartus 9, through 2012; Quartus 13 information for 2013 coming soon)</a></h3>
+-->
+
+<h3>Lab Check-out Sheets</h3>
+<ul>
+<li><em>None currently posted</em></li>
+<!--
+<li><a href="lw02checklist.pdf">Week 2</a></li>
+<li><a href="lw03checklist.pdf">Week 3</a></li>
+<li><a href="lw04checklist.pdf">Week 4</a></li>
+<li><a href="lw05checklist.pdf">Week 5</a></li>
+<li><a href="lw06checklist.pdf">Week 6</a></li>
+<li><a href="lw07checklist.pdf">Week 7</a></li>
+<li><a href="lw08checklist.pdf">Week 8</a></li>
+<li><a href="lw09checklist.pdf">Week 9</a></li>
+<li><a href="lw10checklist.pdf">Week 10</a></li>
+-->
+</ul>
+
+<h2><a href="practiceProbs.html">Old Additional Practice Problems</a></h2>
+
+<h2>Quartus Checklist</h2>
+
+<p>Especially when working with multi-entity projects and the simulator, Quartus sometimes gives unexpected errors. This checklist will eliminate virtually all of these errors, although often it is not necessary to follow all of these items.</p>
+
+<ol>
+<li>Use lowercase (or uppercase) exclusively for all named items (ports, signals, structural instances, etc.)</li>
+<li>Use that same case for the project and filename.
+<li>Don't have spaces or punctuation in the project name</li>
+<li>Don't have spaces or punctuation in the project directory name itself, but parent directories can have spaces</li>
+<li>One directory per project</li>
+<li>Only necessary files in project (from Project Navigator [View | Utility Windows | Project Navigator if needed], click Files tab.
+    Right-click and remove any unnecessary files, especially BDF or VHD files).</li>
+<li>Have the project name match the top-level entity name</li>
+<li>Have the directory name match the project name</li>
+<li>Have the design file with the top-level entity have a file name base that is the same as the entity name</li>
+<li>Have the top-level entity name set correctly to the entity to be simulated (to fix, select Project | Set as Top-Level entity while viewing the entity to simulate)</li>
+<li>After using certain reserved words for port names the design will appear to synthesize correctly but will fail during simulation (common examples: &quot;i&quot;, &quot;input&quot;, &quot;output&quot;)</li>
+<li>If part or all of the crosshatching (unknown values) remains after simulating, you may have mismatched or illegal input/output names in your entity and VWF. Ctrl-K to ensure your latest node names are available to the waveform editor.
+    Correct input/output node names in VWF if you recognize the problem, otherwise delete and re-add them.</li>
+<li>Choosing an unlicensed chip type (one not available free for university use) will cause various problems including simulations silently failing in some cases.
+    If you select a chip, be sure it is a licensed one. See the first CE1901 Quartus tutorial regarding which chip you should select for your DE0-Nano board.</li>
+<li>If nothing above solves the problem and your project synthesizes correctly (no errors after Ctrl-K) but generates non-correctable errors during simulation (usually a status of "Errors during simulation" with no further information),
+    re-installing just the simulator may help. Run ModelSimSetup-&lt;version&gt;. If you get a warning that this will create "instance 2" or similar of the installer,
+    it seems to be necessary to uninstall and re-install all of Quartus. If you simply receive a warning that the simulator is already installed (or no warning at all), this should work.</li>
+<li>Uninstall/reinstall Quartus. Avoid spaces in install directory.</li>
+</ol>
+
+<h2>Readings</h2>
+<h3>2016</h3>
+<ul>
+<li>Butler, Richard and Rishi Sanyal. &quot;<a href="https://www.dpreview.com/news/7168986570/canon-shows-dynamism-eos-80d-breaks-new-ground-for-canon-low-iso-dr">Showing
+    dynamism: EOS 80D breaks new ground for Canon low ISO DR.</a>&quot; <cite>DPReview</cite>, 21 March 2016.</li>
+<li>Chafkin, Max and Ian King. &quot;<a href="http://www.bloomberg.com/news/articles/2016-06-09/how-intel-makes-a-chip">How Intel Makes a Chip.</a>&quot; <cite>Bloomberg</cite>, 9 June 2016.</li>
+<li>Kang, Cecilia. &quot;<a href="http://www.nytimes.com/2016/09/21/technology/the-15-point-federal-checklist-for-self-driving-cars.html">The 15-Point Federal Checklist for Self-Driving Cars.</a>&quot; <cite>New York Times</cite>, 20 September 2016.</li>
+</ul>
+<h3>2015</h3>
+<ul>
+<li>Niccolai, James. &quot;<a href="http://www.computerworld.com/article/2991558/computer-processors/developers-getting-more-help-with-heterogenous-processors.html">Developers getting
+	more help with heterogenous processors.</a>&quot; <cite>Computerworld</cite>, 12 October 2015.</li>
+<li>___. &quot;<a href="http://www.economist.com/news/technology-quarterly/21662644-chipmaking-moores-law-may-be-running-out-steam-chip-costs-will-continue">Difference engine: More from Moore.</a>&quot;
+	<cite>The Economist</cite>, 5 September 2015.</li>
+</ul>
+<h3>2014</h3>
+<ul>
+<li>Johnson, Dexter. "<a href="http://spectrum.ieee.org/nanoclast/semiconductors/devices/transistors-made-from-2d-materials">Transistors Made From 2-D Materials Promise New Class of Electronic
+Devices.</a>" <cite>IEEE Spectrum</cite>, 4 June 2014.</li>
+</ul>
+
+<h3>2013</h3>
+<ul>
+<li>___. &quot;<a href="http://www.economist.com/news/science-and-technology/21586807-computers-future-may-be-made-carbon-tubes-cylinder-head">A carbonic computer: Cylinder head: Computers of the future may be made of carbon tubes.</a>&quot; <cite>The Economist</cite>, 28 September 2013.</li>
+<li>Grotta Wiener, Sally and Daniel Grotta. &quot;<a href="http://spectrum.ieee.org/geek-life/tools-toys/pixels-size-matters">Pixels: Size Matters.</a>&quot; <cite>IEEE Spectrum</cite>, April 2012.</li>
+<li>Wiegand, Thomas and Gary J. Sullivan. &quot;<a href="http://spectrum.ieee.org/telecom/standards/video-telephony-has-finally-arrived">The Picturephone is Here. Really</a>.&quot; <cite>IEEE Spectrum</cite>, September 2011, pp. 50-54.</li>
+</ul>
+
+<h2>Examples</h2>
+
+<ul>
+<li>Fall 2015
+	<ul>
+	<li><a href="vhdlSummary.pdf">VHDL Summary</a></li>
+	<li><a href="muxex_vhd.txt">Week 5: VHDL documentation and 3 ways to make a 2:1 MUX</a></li>
+	</ul>
+</li>
+<li>Fall 2013
+	<ul>
+	<li><a href="muxRecur.pdf">Week 9: MUX illustration: large MUXes from small MUXes</a></li>
+	<li><a href="decEx.pdf">Week 8: Decoder illustration: 4:16 from 5&times; 2:4 decoder</a></li>
+	</ul>
+</li>
+<li>Fall 2009
+	<ul>
+	<li><a href="../cs280/circlesBy16.pdf">Worksheet for 4-bit 2's complement</a></li>
+	<li><a href="truck_vhd.txt">W4D2 example: gates, with-select, when-else</a></li>
+	<li><a href="bvDecoder_vhd.txt">Advanced decoder VHDL example</a> with <a href="bvDecoder_rpt.png">simulation results</a>
+	</ul>
+</li>
+<li>Winter 2008-2009
+	<ul>
+	<li><a href="prob3_1b_vhd.txt">with-select and when-else examples for problem 3.1(b) in VHDL</a></li>
+	<li><a href="dec18_vhd.txt">with-select using internal signals (required by some synthesizers)</a></li>
+	<li><a href="q4-s4solution.pdf">Section 4 quiz 4 solution: a K-map with no essential prime implicants and 2 correct solutions</a></li>
+	<li><a href="addSub.pdf">3-bit adder subtracter block diagram with simulation example from W6D1</a></li>
+	<li>Full adder (dataflow) and 4-bit ripple-carry adder (structural): <a href="adder4_vhd.txt">VHDL</a> and
+		<a href="adder4_vwf.txt">Simulation waveform</a></li>
+	<li>16:4 priority encoder using 4:2 priority encoders and 4:1 MUXes
+		<ul>
+		<li><a href="prienc164_vhd.txt">VHDL structural implementation</a></li>
+		<li>Quartus schematic version: <a href="prienc164s_bdf.txt">Quartus Block Diagram File (right-click and "Save Link As")</a>, <a href="prienc164s.pdf">PDF</a></li>
+		</ul>
+	</li>
+	<li><a href="ENC42_vhd.txt">4:2 encoder using output don't cares</a></li>
+	<li><a href="PRIENC_vhd.txt">4:2 priority encoder using when-else</a></li>
+	</ul>
+</li>
+</ul>
+
+<h2>Quizzes</h2>
+
+<p>Quizzes will be given during the first 15 minutes of most lab periods. The lowest
+quiz grade will be dropped. No make-up quizzes will be given.</p>
+
+<h3>Quiz solutions</h3>
+<ul>
+	<li>Winter, 2016-2017:
+	<a href="quiz01sol-w1617.pdf">Quiz 1</a>,
+	<a href="quiz02sol-w1617.pdf">Quiz 2</a>,
+	<a href="quiz03sol-w1617.pdf">Quiz 3</a>,
+	<a href="quiz04sol-w1617.pdf">Quiz 4</a>,
+	<a href="quiz05sol-w1617.pdf">Quiz 5</a>,
+	<a href="quiz06sol-w1617.pdf">Quiz 6</a>,
+	<a href="quiz07sol-w1617.pdf">Quiz 7</a>,
+	<a href="quiz08sol-w1617.pdf">Quiz 8</a>
+	</li>
+	<li>Fall, 2016:
+	<a href="quiz01sol-f16.pdf">Quiz 1</a>,
+	<a href="quiz02sol-f16.pdf">Quiz 2</a>,
+	<a href="quiz03sol-f16.pdf">Quiz 3</a>,
+	<a href="quiz04sol-f16.pdf">Quiz 4</a>,
+	<a href="quiz05sol-f16.pdf">Quiz 5</a>,
+	<a href="quiz06sol-f16.pdf">Quiz 6</a>,
+	<a href="quiz07sol-f16.pdf">Quiz 7</a>,
+	<a href="quiz08sol-f16.pdf">Quiz 8</a>
+	</li>
+	<li>Fall, 2015:
+	<a href="quiz01sol-f15.pdf">Quiz 1</a>,
+	<a href="quiz02sol-f15.pdf">Quiz 2</a>,
+	<a href="quiz03sol-f15.pdf">Quiz 3</a>,
+	<a href="quiz04sol-f15.pdf">Quiz 4</a>,
+	<a href="quiz05sol-f15.pdf">Quiz 5</a>,
+	<a href="quiz06sol-f15.pdf">Quiz 6</a>,
+	<a href="quiz07sol-f15.pdf">Quiz 7</a>,
+	<a href="quiz08sol-f15.pdf">Quiz 8</a>,
+	<a href="quiz10sol-f15.pdf">Quiz 10</a>
+	</li>
+</ul>
+
+<h2>Final exam</h2>
+
+<p>The final exam will be given per the schedule that is published by the Registrar's Office in approximately week 6.
+It may cover any of the learning objectives from the course, which are posted on the main course website.
+The exam will last 2 hours. No notes, books, calculators, etc. may be used on the final.</p>
+
+<h2><a href="../policies.html">General course policies</a></h2>
+
+<h2>Grading algorithm</h2>
+
+<table>
+<tr><td>Labs</td>		<td align="right">33&#8531;%</td></tr>
+<tr><td>Quizzes</td>		<td align="right">33&#8531;%</td></tr>
+<tr><td>Final Exam</td>		<td align="right">33&#8531;%</td></tr>
+</table>

@@ -1,0 +1,92 @@
+-- *************************************************************
+-- * FILENAME:  prienc164.vhd                                  *
+-- * AUTHOR:    durant@msoe.edu                                *
+-- * DATE:      28 January 2008                                *
+-- * PROVIDES:  a VHDL structural implementation of a 16:4     *
+-- *            priority encoder                               *
+-- *                                                           *
+-- * HOW-TO USE:                                               *
+-- * - Use this component in other entities to identify the    *
+-- *   highest of (up to) 16 input signals that are asserted.  *
+-- *   Tie any any unused inputs to logic 0.                   *
+-- *************************************************************
+
+-- *************************************************************
+-- * ENTITY DECLARATION                                        *
+-- * - I(15..0): the active-high inputs that may be asserted   *
+-- * - Z: output indicating whether any inputs are asserted    *
+-- *      and whether Y is valid and should be read            *
+-- * - Y(3..0): the ID number of the highest input asserted    *
+-- *************************************************************
+-- * PIN ASSIGNMENTS                                           *
+-- * - none because this is not a top-level component          *
+-- *************************************************************
+
+entity PRIENC164 is port
+(
+	I : in bit_vector(15 downto 0);
+	Z : out bit;
+	Y : out bit_vector(3 downto 0)
+);
+end entity PRIENC164;
+
+-- *************************************************************
+-- * ARCHITECTURE DESCRIPTION                                  *
+-- * - structural architecture using MUXes and smaller         *
+-- *   priority encoders                                       *
+-- *                                                           *
+-- *   - component PRIENC42: a 4:2 priority encoder            *
+-- *   - component MUX41: a 4:1 multiplexor                    *
+-- *************************************************************
+architecture STRUCTURAL of PRIENC164 is
+
+	component PRIENC42 port
+	(
+		I : in bit_vector(3 downto 0);
+		Z : out bit;
+		Y : out bit_vector(1 downto 0)
+	);
+	end component PRIENC42;
+	
+	component MUX41 port
+	(
+		D : in bit_vector(3 downto 0);
+		S : in bit_vector(1 downto 0);
+		Y : out bit
+	);
+	end component MUX41;
+
+	signal Z_SLICE : bit_vector(3 downto 0); -- assertion of each slice
+	
+	signal Y_LS3 : bit_vector(1 downto 0); -- 2 LSBs of each slice of 4
+	signal Y_LS2 : bit_vector(1 downto 0);
+	signal Y_LS1 : bit_vector(1 downto 0);
+	signal Y_LS0 : bit_vector(1 downto 0);
+	
+	signal Y_MS : bit_vector(3 downto 2); -- 2 MSBs of output
+	-- "internal" signal avoids need for "buffer", which is problematic
+	
+begin
+	-- slice the 16 incoming signals across 4, 4:2 priority encoders
+	PE3 : PRIENC42 port map(I(15 downto 12), Z_SLICE(3), Y_LS3);
+	PE2 : PRIENC42 port map(I(11 downto  8), Z_SLICE(2), Y_LS2);
+	PE1 : PRIENC42 port map(I( 7 downto  4), Z_SLICE(1), Y_LS1);
+	PE0 : PRIENC42 port map(I( 3 downto  0), Z_SLICE(0), Y_LS0);
+	
+	-- now, send the 4 Z (active) outputs from the above encoders into 
+	-- another priority encoder to determine which of the 4 encoders above 
+	-- has the highest priority active source.
+	PE_MS : PRIENC42 port map(Z_SLICE, Z, Y_MS);
+	
+	-- the 2 encoded bits are the top 2 bits of our overall 4-bit answer 
+	-- because of the way that we sliced the 16 input bits.
+	Y(3 downto 2) <= Y_MS;
+
+	-- To get the remaining bits, we use these 2 most significant bits to 
+	-- select from among the 4 groups of bits coming out of the first 4 
+	-- encoders.  We use a separate 4:1 MUX for bit in the answer.  The 
+	-- concatenations bring together the candidate bits 1 and 0 from the
+	-- top-level encoders.
+	M1 : MUX41 port map(Y_LS3(1)&Y_LS2(1)&Y_LS1(1)&Y_LS0(1), Y_MS, Y(1));
+	M0 : MUX41 port map(Y_LS3(0)&Y_LS2(0)&Y_LS1(0)&Y_LS0(0), Y_MS, Y(0));	
+end architecture STRUCTURAL;
