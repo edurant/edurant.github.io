@@ -1,4 +1,4 @@
----
+ï»¿---
 title: "Installation of USB Blaster driver on Windows 7"
 ---
 
@@ -11,11 +11,11 @@ Note: This method does not require rebooting with the unsigned drivers option
 3. Receive unsuccessful installation message
 4. Go to the Device Manager (can search from Start menu)
 5. Right click on Unknown device under Other devices
-6. Update driver software…
+6. Update driver softwareâ€¦
 7. Browse my computer for driver software
 8. Browse to the folder with the zip file contents.  Do not go into a subdirectory (e.g., use usb-blaster, not x64)
 9. Ok, Ok, Next
-10. Warning message appears: “Windows can’t verify the publisher of this driver software”
-11. Click “install this driver software anyway”
-12. Receive success message that “Altera USB-Blaster” has been installed
+10. Warning message appears: â€œWindows canâ€™t verify the publisher of this driver softwareâ€
+11. Click â€œinstall this driver software anywayâ€
+12. Receive success message that â€œAltera USB-Blasterâ€ has been installed
 13. Close
