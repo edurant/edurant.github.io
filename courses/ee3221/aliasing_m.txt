@@ -1,0 +1,32 @@
+% EE-3220 Digital Signal Processing
+% Tuesday 1 December 2009
+% Dr. Durant <durant@msoe.edu
+
+% Demonstrate that, when sampled at fs = 4 Hz, 1.5 and 2.5 Hz
+% cosine waves are aliased to the same values.  Nyquist tells us 
+% that we will have aliasing for frequencies above fs/2 = 2 Hz.  
+% Recall that the 2 signals have 2-sided spectrum frequencies 
+% of -1.5 and 1.5, and -2.5 and 2.5 Hz.  They are aliased 
+% about fs = 4 Hz, so we have images of the 2.5 Hz wave 
+% at 4-2.5=1.5 and 4+2.5=6.5 Hz.  There are also images 
+% at all integer multiples of fs, including the negative ones
+% of fs, including -fs = -4 Hz, giving -4-2.5 = -6.5 Hz and
+% -4+2.5 = -1.5 Hz.  We see +/-1.5 Hz are among the aliased
+% images of the 2.5 Hz signal, explaining why they have the
+% same samples at fs = 4 Hz.
+
+t = linspace(0,1); % time from 0 to 1 s, default 100 samples for plenty of detail
+y1_5 = cos(2*pi*1.5*t); % 1.5 Hz cosine at all times t
+y2_5 = cos(2*pi*2.5*t); % 2.5 Hz cosine
+plot(t,y1_5, t,y2_5) % Plot both cosines vs. time
+
+frs = [1.5 2.5]; % put the cosine frequencies in an array for reference below
+fs = 4; % sampling frequency, Hz
+N = 5; % number of samples
+t_samp = linspace(0, (N-1)/fs, N) % sampling time: start, finish, number of samples
+
+hold on % add to existing plot instead of replacing it
+for tv = t_samp % foreach sampling time,
+	% plot circles representing sampled value for all frequencies...
+	plot(tv, cos(2*pi*frs*tv), 'ko'); % black circles
+end

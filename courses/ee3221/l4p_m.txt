@@ -1,0 +1,41 @@
+% EE3220, Dr. Durant, 1/8/2014
+% This may be useful for the additional problems for lab 4.
+% Adding shifted and variably scaled copies of a signal...
+% Let y(n) = x(n) + 2*n*x(n-1);
+
+x = [9 2 3 4]; % samples starting at n=0
+
+% n for the output will be 0:4 (5 samples) since the shifted copy
+% of the input runs from n=1 to 4 (0 to 3 delayed by 1 sample).
+% In MATLAB, it is easiest to do this by having each copy of the
+% signal to be added in a length 5 array.  We can append 0 to either
+% end to accomplish this.
+
+% The other task is multiplying by n, which ranges from 0 to 4.  0:4
+% will give us the needed values.  To multiply 2, 1x5 vectors element-
+% by element, use the .* operator.  A "." before most operators tells
+% MATLAB to apply the operation to corresponding elements, not the
+% matrices as wholes.
+
+% So, ...
+y = [x 0] + ... % unshifted copy with x(4) appended to make length 5
+    [0 x] * 2 .* (0:4); % shifted copy, scaled up by 2n
+
+% Instead of hardcoding the maximum on 4, we can write more general code...
+N = length(x);
+y2 = [x 0] + [0 x] * 2 .* (0:N);
+
+% Let's make sure y and y2 contain the same values; they should since
+% they're different methods of calculating the same sequence.  The numbers
+% might vary very slightly due to the order of the floating point
+% operations, so we don't want to ask MATLAB if they're exactly equal, but
+% just if they're very close, so we calculate the sum of the squared error
+% between the 2 sequences:
+err = y-y2; % error sequence
+e = sum(err.^2); % SSE
+fprintf('The error between the 2 methods of computation is %g.\n', e)
+
+% Also, the number of samples of delay, which is the number of 0s, can
+% also be a variable:
+d = 3; % example delay (note that this is d-1 longer than the d=1 example above)
+y3 = [x zeros(1,d)] + [zeros(1,d) x] * 2 .* (0:(N+d-1));

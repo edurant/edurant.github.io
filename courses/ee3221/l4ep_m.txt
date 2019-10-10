@@ -1,0 +1,61 @@
+% Lab 4 Additional Problems
+% Dr. Durant <durant@msoe.edu>, 11 January 2015
+
+% Consider T2 and T5 from Problem 2.11.  Let x1 = [3 2 1] and x2 = [-4 3 -1], where both start at n=0.
+% Perform the following tests either by hand or by writing MATLAB code.
+% 1. Test the systems for linearity using x1+x2.
+% 2. Test the systems for time-invariance using x1 and a delay of 2 samples.
+
+n = 0:2;
+x1 = [3 2 1];
+x2 = [-4 3 -1];
+x12 = x1 + x2;
+N = 2; % delay
+x1d = [zeros(1,N) x1];
+
+fprintf('T2[x(n)] = x(n) + nx(n+1)\n')
+fprintf('1. Linearity test\n')
+n2 = [n(1)-1 n]; % include one earlier sample due to (n+1) argument
+fprintf('Add signals then apply system\n')
+y12_t2 = [0 x12] + n2 .* [x12 0] % omit ; to display result
+fprintf('Apply system then add signals\n')
+y1_t2 = [0 x1] + n2 .* [x1 0];
+y2_t2 = [0 x2] + n2 .* [x2 0];
+y1p2_t2 = y1_t2+y2_t2
+% Are the results the same?
+err_t2l = norm(y12_t2 - y1p2_t2); % 2-norm (Euclidean magnitude) of a vector - see doc for details
+fprintf('T2 linearity: error relative to linearity is %g, so truth of T2 is linear is %d.\n', ...
+    err_t2l, abs(err_t2l) < eps('single'))
+
+fprintf('2. Time-invariance test\n')
+nd = [n2 n2(end)+(1:N)];
+fprintf('delay then apply system\n')
+y1d_t2 = [0 x1d] + nd .* [x1d 0]
+fprintf('apply system then delay\n')
+yd1_t2 = [zeros(1,N) y1_t2]
+err_t2t = norm(y1d_t2 - yd1_t2);
+fprintf('T2 time-invariance: error relative to TI is %g, so truth of T2 is TI is %d.\n', ...
+    err_t2t, abs(err_t2t) < eps('single'))
+
+fprintf('T5[x(n)] = x(2n)\n')
+fprintf('1. Linearity test\n')
+n5 = n(mod(n,2)==0) / 2; % keep the ns that are even, then divide them by 2 to reflect the output n
+fprintf('Add signals then apply system\n')
+y12_t5 = x12(2*n5+1) % +1 goes from 0-based indexing to MATLAB's 1-based indexing
+fprintf('Apply system then add signals\n')
+y1_t5 = x1(2*n5+1);
+y2_t5 = x2(2*n5+1);
+y1p2_t5 = y1_t5 + y2_t5
+% Are the results the same?
+err_t5l = norm(y12_t5 - y1p2_t5);
+fprintf('T5 linearity: error relative to linearity is %g, so truth of T5 is linear is %d.\n', ...
+    err_t5l, abs(err_t5l) < eps('single'))
+
+fprintf('2. Time-invariance test: see comments for solution\n')
+% We could write general MATLAB code for this, but it gets complex enough that functions are
+% needed to do it reasonably. To keep this example simpler, we do it numerically...
+% x1  = [3 2 1]; x1d = [0 0 3 2 1]; % both start at 0, so we take 0,2,4,... to yield 0,1,2 in output
+% y1  = [3   1]; y1d = [0   3   1]; % apply system after delaying
+% yd1 = [0 0 3 1]; % delay after applying system
+% Note that y1d has half of the leading 0s as yd1.  Since interchanging the order of
+% (system),(delay) doesn't give the same output, T5 is NOT time-invariant.

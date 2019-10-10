@@ -1,0 +1,22 @@
+% Textbook (Ingle & Proakis) FFT speed example
+% modified by Dr. Durant <durant@msoe.edu>, 2014-01-27
+
+% The given script for visualizing the speed of MATLAB's FFT needs to be
+% updated for modern builds (such as 2012a), probably due to the inclusion
+% of the FFTW engine, which is much more efficient than the older
+% algorithms.  Note also that FFTW has various self-optimizing features, so
+% you are likely to see slower performance the first time (or few times)
+% you run this.  In real-time systems, the same length FFT is typically used
+% repeatedly, so it is worth the up-front cost of heavily optimizing it.
+
+Nmax = 8192; % 2048 bound low to see speed pattern on modern hardware/MATLAB
+fft_time = NaN(1,Nmax); % it is better style, in most cases, to initialize unknown values to NaN than to 0.  This prevents accidental use of the 0 data in most contexts.
+for n=1:Nmax
+    x = rand(1,n); % perhaps this should be out of the loop, but it is cheap; note that MATLAB indexing sometimes costs more than you might expect (due to bounds checking, support of multiple dimensions, ...)
+    tic; % was t=clock; % clock has sub-second resolution, but not nearly enough on modern hardware to reliably time a short FFT (up to 2048 and probably far beyond)
+    fft(x);
+    fft_time(n) = toc; % was etime(clock,t); % see doc tic and doc for details
+end
+n = 1:Nmax;
+plot(n, fft_time, '.')
+xlabel('N'), ylabel('Time (s)'), title('FFT execution times')

@@ -1,0 +1,73 @@
+% EE3220 - Tuesday 1/26/2010 - Dr. Durant
+% MATLAB DFT/IDFT example with phase
+
+% In this file we construct a 7-sample signal with 3 components, including one 
+% that is phase shifted, have MATLAB calculate its DFT, speculate what its DFT 
+% should be based on our knowledge of the 2-sided phase spectrum, and then verify 
+% that the two are the same.
+
+% Let's start by constructing a 7-sample signal that has 3 components
+% * 0th harmonic (DC)          , magnitude -5
+% * 1st harmonic (Fundamental) , magnitude 3, cosine with phase lag of 45 degrees
+% * 2nd harmonic (1st overtone), nothing
+% * 3rd harmonic (2nd overtone), magnitude 1, cosine, 
+
+% Note that the 3nd harmonic will go through 3 complete cycles (by definition),
+% but that each cycle does NOT line up with an integer number of samples.
+% Each cycle will take N/3 = 7/3 = 2.333 samples.  This is perfectly fine.
+
+format compact
+N = 7;
+n = 0 : (N-1);
+
+% Here are the 3 components by frequency
+xDC  = -5 * cos (2*pi * 0 * n / N)
+x1st =  3 * cosd(360  * 1 * n / N - 45)
+x3rd =  1 * cos (2*pi * 3 * n / N)
+
+% Add the 3 components into a single signal
+x = xDC + x1st + x3rd
+
+% Plot with circled points, connecting lines, and a legend...
+plot(n,xDC,'bo-', n,x1st,'go-', n,x3rd,'ro-', n,x,'ko-')
+legend('DC','1st harmonic','3rd harmonic','sum')
+
+c = fft(x);
+
+% without going through the detailed math, we expect the following values
+c0 = N * -5; % DC level
+c1 = N/2 * 3 * exp(-j*pi/4) % delay = negative phase added
+c2 = 0;
+c3 = N/2 * 1
+c4 = conj(c3); 
+c5 = conj(c2);
+c6 = conj(c1);
+% Notes on c4+: c4 = conjugate(c[N-4]) = conjugate(c[3]); we're lowering the 
+% frequency of the complex exponential by 2pi (no effect due to period), so we 
+% arrive at the negative frequency, which we know has opposite phase due to 
+% Euler's decomposition of the cosine function. So c3&c4 (c3 & c-3) form a pair 
+% and the /2 divides the real signal energy between them.
+
+% Now put them together in an array:
+cc = [c0 c1 c2 c3 c4 c5 c6]
+
+% If we interpreted everything above correctly, c, calculated using the 
+% DFT summation formula by MATLAB, and cc, calculated using our understanding 
+% of 2-sided spectra, should agree. Let's calculate the difference, 
+% element-by-element:
+diff = c - cc
+
+% It looks like everything is pretty close to 0.  To get a single number to 
+% evaluate how close it is, let's add up the squared magnitudes of the errors (so 
+% we don't get out of phase errors appearing to cancel).
+SSE_c = sum(abs(diff).^2)
+
+% Mathematically, this is equivalent to taking the dot product of the complex error vector with itself...
+SSE_c2 = dot(diff,diff)
+% This is about 5 * 10^-29, which is virtually 0.  It is not exactly 0 due to rounding errors
+
+% And, we can invert the transform to get back to the original data:
+xx = ifft(cc)
+
+% And, confirm that the reconstructed signal equals the original (error is ~ 0)...
+SSE_x = sum((x-xx).^2)

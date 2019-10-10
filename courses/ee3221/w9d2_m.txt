@@ -1,0 +1,16 @@
+% 2/9/2010 Dr. Durant EE3220 W9D2 - linear phase FIR filter design
+
+format compact
+format short g
+
+fs = 22050;
+f = [0 5000 7000 11025] / (fs/2); % normalized frequency bands
+a = [1 1    0    0]; % passband and stopband gain
+
+for N = [100 10] % compare short with long length effects
+	b = firpm(N,f,a); % Remez Exchange / Parks-McClellan algorithm
+	% B=FIRPM(N,F,A) % length, frequency bands, amplitude; fs/2 corresponds to 1
+	figure, stem(b)
+	figure, freqz(b)
+	figure, zplane(b) % input coefficients, row understood to be in B/A form, not Z/P form
+end

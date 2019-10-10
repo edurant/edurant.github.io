@@ -1,0 +1,86 @@
+% EE3220 Week 8, Day 3 - Dr. Durant <durant@msoe.edu> - 2014-02-07
+% additions by Dr. Rothe
+% Oversampling demonstration - read the comments for more information.
+% Try different values for oversampling factor and periods of interpolation
+% filter.
+
+function w8oversampling(osf,pif)
+%% Setup
+% If either or both inputs are omitted, use defaults:
+if exist('osf','var')~=1, osf = 5; end % Oversampling factor, must be integer
+if exist('pif','var')~=1, pif = 4; end % periods of interpolation filter (computation cost, delay, fidelity)
+% So, calling w8oversampling(5,4) is same as calling without arguments and accepting defaults
+
+close all % figure windows
+
+fs = 10; % Hz
+T = 20; % seconds
+N = fs*T; % total samples
+n = 0:N-1; % time indexes
+t = n/fs; % time of each sample
+
+%% Figure 1: The original signal and spectrum at base sampling rate
+x = cos(2*pi*4*t); % 4 Hz wave, near Nyquist
+X = fft(x) / sqrt(N) / sqrt(N); % Effectively dividing by N. Two parts represent:
+% (a) Convert Energy of signal to Power (average per sample) and
+% (b) Normalize power for transform length.  (b) is necessary since the
+% 1/N factor in the IDFT must be partitioned as 1/sqrt(N) for both the DFT
+% and IDFT to preserve energy scaling across domains.  Following MA383
+% terminology, the DFT and IDFTs have all eigenvalues equal to sqrt(N) and
+% 1/sqrt(N), respectively.  This scaling makes all eigenvalues of both equal
+% to 1.  In both cases, the eigenvectors are the positive/negative rotating
+% complex exponentials of the DFT frequencies sampled at N points.
+
+f_res = fs / N; % resolution of the above spectrum
+f_dft = (0:N-1)*f_res; % frequency samples resulting from the DFT
+
+stemPlotAndSpectrum(t(1:20), x(1:20), 'Original signal (20 samples)', f_dft, X)
+
+%% Figure 2: Select oversampling parameters and design interpolation filter
+% Unwanted aliases will be stronger as pif decreases, but you can often get
+% away with a fairly small pif in practice.
+nh = -(osf*pif):(osf*pif); % widen by OSF
+
+h = sinc(nh/osf); % Here we omit the 1/osf = Omega1/pi factor derived in class.
+% This compensates for the power reduction from the 0-insertion step.
+figure,stem(nh,h), title('(Non-causal) interpolation filter')
+
+%% Figure 3: Perform 0-insertion and view the results in time and frequency domains
+fsos = fs * osf; % Our new, higher sampling frequency
+nos = 0:(fsos*T-1);
+tos = nos/fsos;
+xus = reshape([x; zeros(osf-1,N)],1,[]); % 0-insertion
+
+XUS = fft(xus) / length(xus); % energy->power & power normalizations discussed above, make dB come out correctly
+f_res = fsos / length(xus);
+f_dft = (0:length(xus)-1)*f_res;
+
+stemPlotAndSpectrum(tos(1:(osf*20)), xus(1:(osf*20)),'Upsampled signal (OSF * 20 samples)', f_dft, XUS)
+% Note the peaks at 4 Hz (baseband) and fs*n +/- 4 Hz
+
+%% Figure 4: Apply the interpolation filter and see how the time/frequency results improve
+
+y = filter(h,1,xus); % osf*pif-sample delay since h implicitly moved to 0 for causality
+% The time domain signal looks like a cosine with the proper samples/s,
+% But the spectrum will highlight any subtle flaws.
+Y = fft(y) / length(y); % energy->power & power normalizations discussed above, make dB come out correctly
+
+stemPlotAndSpectrum(tos(1:(osf*20)), y(1:(osf*20)), 'Interpolated, oversampled signal (OSF * 20 samples)', f_dft, Y)
+% There will be a phase shift due to shifting h in time, but the phase plot
+% isn't very interesting with only 1 component.
+% The spectrum isn't perfect, but it looks pretty good.  If nh is wide
+% relative to T, the transient will create some "spillage", mainly
+% around the main peak.
+
+end % function
+
+%% Subfunction encapsulating repetitive graphing code
+function stemPlotAndSpectrum(t,x,ttl,f,X)
+figure
+% Time domain:
+subplot(2,2,1), stem(t,x), title(ttl)
+subplot(2,2,3), plot(t,x)
+% Frequency domain:
+subplot(2,2,2), plot(f,          abs(X) ), ylabel('Magnitude')
+subplot(2,2,4), plot(f, 20*log10(abs(X))), ylabel('dB'), xlabel('Hz')
+end % subfunction

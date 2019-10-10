@@ -1,0 +1,28 @@
+% EE3221-41 W9D2 Example - Window design method for FIR
+% Designing a linear-phase FIR (b coefficients only) filter given a magnitude response
+
+N = 20; % delay - gives more precision at the cost of more delay and more coefficients/calculations
+L = 2*N+1; % length of b array of coefficients, order is 2*N
+k = 0:(L-1); % DFT frequency indexes; notice none lands at exactly Nyquist
+kUpper = 0:N; % upper half of unit circle - positive DTFT frequencies
+normFreq = kUpper / (N + 1/2);
+% The next 3 lines construct the desired magnitude response.
+HmagUpper = zeros(size(normFreq)); % initialize to 0s, will keep at normalized frequencies < 0.2
+HmagUpper(normFreq >= .2) = 1; % gain of 1 to pass signals through with frequencies above 0.2
+HmagUpper(normFreq >= .6) = 0.2; % gain of 0.2 to attenuate signals with frequencies above 0.6
+%figure,plot(normFreq,HmagUpper,'bo'),title('Desired DFT magnitude') % just omega = 0->pi portion
+Hmag = [HmagUpper HmagUpper(end:-1:2)]; % symmetric part from pi->2pi (-pi->0), take care not to replicate DC value
+normFreq = k / (N + 1/2); % match to longer/complete Hmag
+figure,plot(normFreq,Hmag,'bo'),title('Desired DFT magnitude')
+h = ifft(Hmag); % it's easier to leave the phase at 0 (non-causal result!) instead of -omega*N; we correct for this below
+norm(imag(h)) % This should be 0 within roundoff error; if it is not, you didn't construct Hmag with the proper symmetry
+%figure,plot(k,h); % non-causal version, b_{-1}, etc. wrap around to left side
+h = fftshift(h); % delays by N samples, adding the correct phase
+figure,plot(k,h),title('h(n) without windowing')
+figure,freqz(h),title('Response without windowing')
+subplot(2,1,1),axis([0 1 -100 50]) % we zoomed in manually in class; this accomplishes the zooming in code
+figure,zplane(h),title('Non-windowed')
+
+h2 = h .* hamming(L)'; % try other windows
+figure,freqz(h2),title('Response with windowing')
+figure,zplane(h2),title('Windowed')

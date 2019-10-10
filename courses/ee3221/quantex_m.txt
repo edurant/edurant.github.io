@@ -1,0 +1,47 @@
+function quantex()
+% quantex - Dr. Durant - EE3220 - W10D2 - Numerical quantization error example
+
+N = 15; % signal length
+x = rand(1,N)*2-1; % random signal on (-1,1)
+n = 0:N-1;
+
+L = 8; % quantization levels
+xq_int = floor((x+1) * (L/2)); % integer from 0 to L-1
+xq = (xq_int - L/2 + 1/2) / (L/2); % quantized value
+
+er = xq - x; % Error introduced by quantization
+
+% Now, recover the bandlimited underlying analog signals using upsampling
+osf = 10; % oversampling factor
+per = 10; % periods of sync on either side of 0
+nh = -(osf*per):(osf*per);
+h = sinc(nh/osf); % interpolation filter
+
+xi  = upsamp(x , h, osf, per); plotInterp(x , xi , 'Original: sampled and "analog"')
+xqi = upsamp(xq, h, osf, per); plotInterp(xq, xqi, 'Quantized: sampled and "analog"')
+eri = upsamp(er, h, osf, per); plotInterp(er, eri, 'Error: sampled and "analog"')
+
+% norm(eri - (xqi - xi)) % This should just be interpolation truncation error if everything above is done correctly
+
+%figure, hist(er) , title('Histogram of quantization errors in samples')
+
+sigPow = mean(x.^2); % Power is voltage squared divided by time (assume 1 Ohm / normalized resistance)
+noisePow = mean(er.^2);
+snr = 10*log10(sigPow/noisePow); % Signal to noise ratio
+sprintf('The signal power is %g and the noise power is %g, so the SNR is %g dB.\n', sigPow, noisePow, snr)
+
+end % function
+
+function interp = upsamp(x, h, osf, per) % subfunction
+interp = filter(h,1,[reshape([x; zeros(osf-1,length(x))],1,[]) zeros(1,osf*per)]);
+% extra 0s at end make the interpolant go long enough to interpolate through all original samples given the time delay of h
+interp = interp(osf*per+1:end); % advance since non-causal (throw away "warm up" at beginning / align interpolant with original)
+end % subfunction
+
+function plotInterp(x, xus, t)
+osf = length(xus)/length(x);
+figure
+plot(0:length(x)-1        ,x  ,'-o', ...
+     (0:length(xus)-1)/osf,xus,'--x')
+title(t)
+end % subfunction

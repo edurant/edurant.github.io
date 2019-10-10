@@ -1,0 +1,40 @@
+% 12/9/2013 Dr. Durant EE3220
+% Problem 2.1.2 example solution
+
+n=-10:10;
+figure % create main figure
+
+%% Method 1
+x=exp(-abs(n/2)); % set delta (unit pulse) argument to 0 and solve for k, ignoring, for now, constraint that k must be an integer
+x(mod(n,2)==1)=0; % if n is not even, k is not an integer, so set those values to 0
+% Enter the pieces above without semicolons to have MATLAB show you the various steps to help your understanding: mod(n,2), mod(n,2)==1, x(mod(n,2)==1)
+subplot(311), stem(n,x), title('Poblem 2.1.2: Method 1')
+
+%% Method 2
+x2a=zeros(1,length(n)); % allocate vector of appropriate size, initialize to 0s
+for k=-5:5
+	x2a(2*k==n)=exp(-abs(k)); % for each value of k, solve for the appropriate subscript where the delta function is active
+    % Experiment with parts so you understand what the above does.  E.g., k=-3, 2*k, 2*k==n
+end
+subplot(312), stem(n,x2a), title('Poblem 2.1.2: Method 2')
+
+%% Method 3
+x2b=zeros(1,length(n));
+idx = mod(n,2)==0; % boolean array to index n & x to values where n is even
+% n(idx), this expression will confirm that n is even at the calculated indexes
+x2b(idx) = exp(-abs(n(idx)/2)); % Where n is even, solve for k (=n/2) and insert those values into n
+% Again, enter the above subexpressions from the inside out to understand how MATLAB performs the calculation
+subplot(313), stem(n,x2b), title('Poblem 2.1.2: Method 3')
+
+%% Commentary
+% MATLAB has great flexibility.  The number one priority when developing
+% code is clarity.  Efficiency only becomes a priority later (specifically,
+% code-level efficiency; algorithm-level efficiency is the subject of a
+% separate design process).  The developer familiar with C or Java tends to
+% write too many for loops when learning MATLAB; vector-based code such as
+% methods 1 and 3 tend to be easier for MATLAB to interpret efficiency,
+% using vector operations on the processor, etc.  However, method 2 may be
+% clearer.  In general, prefer the clear code and avoid premature optimization;
+% MATLAB providessophisticated profiling tools to help you find inefficient code 
+% when it becomes necessary.  The inefficiencies are often not where you would
+% expect.

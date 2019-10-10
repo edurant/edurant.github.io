@@ -1,0 +1,45 @@
+% EE3220 - Dr. Durant - 2014-02-18
+% DFT and scaling of power
+
+% Summary: Simply taking 20*log10(abs(DFT_value)) gives you relative
+% decibels that are useful for COMPARING power spectra of 2 signals of the
+% same length.  This approach ignores the reference level.  What are the dB
+% relative to?  The code below shows one standard reference level: 0 dB
+% represents 1 W assuming that the signal voltage is applied across a 1 Ohm
+% resistive load.  There are many other standard reference levels in use;
+% see http://en.wikipedia.org/wiki/Decibel#Voltage
+
+fs = 10; % Sampling frequency, Hz
+f = 1; % Signal frequency, Hz
+A = 5; % Amplitude, Volts
+T = [1 100]; % Duration, s; 2 values to demonstrate the difference between energy and power
+N = T*fs; % Number of samples for each T
+t = (0:max(N)-1)/fs; % Time values in s - we'll use a subset when the selected T is not the maximum T
+x = A * cos(2*pi*f*t); % Voltage waveform
+figure
+for idxT = 1:length(T) % Create a graph pair for each duration
+    Y = fft(x(1:N(idxT)));
+    normFreqs = (0:N(idxT)-1) / N(idxT) * 2; % Number of pi's at frequency sampling point
+    subplot(2,length(T),idxT) % 1st plot will be UNNORMALIZED dB
+    plot(normFreqs,20*log10(abs(Y)))
+    title(sprintf('Spectra for %g s sinusoid', T(idxT)))
+    if idxT==1, ylabel('Magnitude, unnormalized (dB)'), end % only label leftmost graph
+    subplot(2,length(T),idxT+length(T)) % 2nd plot will have dB NORMALIZED relative to 1 W assuming 1 Ohm load
+    Y = Y / sqrt(N(idxT)); % Correction #1: DFT increases energy; this is corrected by 1/N factor in IDFT.
+    % To avoid energy scaling, DFT and IDFT each need to be scaled by 1/sqrt(N),
+    % but that requires an expensive square root and divisions.  Note that
+    % the 1/N in the IDFT is often just a shift since N is often a power of 2.
+    Y = Y / sqrt(N(idxT)); % Correction #2: DFT now conserves energy, but it is standard to plot
+    % a POWER spectrum, not an ENERGY spectrum.  So, we need to divide
+    % energy by time; on the voltage side of the equation, this is
+    % equivalent to dividing by the square root of time.
+    plot(normFreqs,20*log10(abs(Y)))
+    xlabel('Normalized digital frequency (radians/sample \times\pi)')
+    if idxT==1, ylabel('Magnitude, normalized (dB)'), end % only label leftmost graph
+end
+
+% So, was the normalization correct?  Let's see
+Vrms = A/sqrt(2) % RMS voltage given sinusoid amplitude
+Pavg = Vrms^2 % Average power, W, assuming 1 Ohm load
+PavgHalf = Pavg/2 % Power is divided between + and - frequencies in DFT
+dbExpected = 10*log10(PavgHalf) % convert to dB re 1 W

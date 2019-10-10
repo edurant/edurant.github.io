@@ -1,0 +1,14 @@
+% EE3220, Week 4, Dr. Durant, January 7, 2014
+% TeX-formatted titles, etc., example.
+
+% _ in titles, etc., will give you a subscript, which might not be what you intend.
+% See the examples below for controlling how MATLAB formats plot titles, etc.
+
+figure
+plot([0 1], [0 1])
+title('ab_c') % This creates a subscript c, which might not be what you want
+title('ab_c','Interpreter','none') % Setting the Interpreter property to 'none' is often the best solution to get a literal _
+xlabel('x_{53}') % Multi-character subscript
+ylabel('filtered\_level < e^{j2\pi f_0}') % Use the escape character \ to get a literal _ when you want other text to still be interpreted
+h = legend('xy_z'); % Interpreter doesn't work quite the same way with legend...
+set(h,'Interpreter','none') % ...but you can use a handle to disable TeX interpretation and display literal text

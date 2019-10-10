@@ -1,0 +1,29 @@
+% EE-3220 Digital Signal Processing
+% Wednesday 4 December 2013
+% Dr. Durant <durant@msoe.edu>
+
+%  Demonstrate periodicity in frequency - see page 33 of textbook for more information.
+
+w1 = 2*pi*0.375; % radians per sample
+w2 = 2*pi*1.375; % 2pi more radians per sample.
+% After trying this, instead of (0.375+1) for w2, try (0.375-1).  Note that this 
+% results in a negative frequency for the cosine.  What is the relationship 
+% between the cos(x) and cos(-x)?  What does this tell you about negative frequencies?
+% Also, try other values such as 0.2 and 1.2, etc.
+
+n = 0:4; % sample numbers
+
+y1_5 = cos(w1*n); % sampled cosines
+y2_5 = cos(w2*n);
+
+plot(n,y1_5,'ko', n,y2_5,'bo') % Plot both sampled cosines vs sample number; blacK and Blue circles
+xlabel('Sample number')
+
+t = linspace(0,max(n)); % see what's going on between the integer samples, default 100 samples for plenty of detail (approximate continuous signal)
+
+hold on % add to existing plot instead of replacing it
+plot(t,cos(w1*t),'k-', t,cos(w2*t),'b-')
+hold off
+
+legend('y1 samples'   ,'y2 samples'    ,...
+       'y1 continuous', 'y2 continuous','Location','EastOutside')

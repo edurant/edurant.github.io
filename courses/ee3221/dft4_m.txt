@@ -1,0 +1,32 @@
+% EE3220 - Tuesday 1/26/2010 - Dr. Durant
+% MATLAB portion of the example done in class + additional notes
+
+format compact
+N = 4;
+x = [6 -1 4 -1] % signal constructed in class w/ DC, fundamental, and 2nd harmonic
+% all happen to be 0-phase cosines
+c = fft(x) % performs the DFT using a "Fast Fourier Transform" algorithm
+% The c values match what we calculated by hand in class
+w = exp(-j * 2*pi / N) % the smallest step on the unit circle given length N
+% Note that w has a negative imaginary exponent because the DFT does, and that
+% negative sign ultimately came from z^-1 representing a unit delay.
+
+% Now define the functions that show up in the inverse transform.  The negative
+% exponents on w make the phase of these values positive, which is opposite of
+% the phases in the (non-inverse) DFT values.  You can just memorize this fact,
+% but it turns out that it only affects imaginary components of the input signal
+% x, because for real signals x (the only kind we have in EE3220), the 2 negative
+% frequency components always have negative phases, so their imaginary parts
+% cancel.
+w0 = [w^0 w^0  w^0  w^0 ] % for k=0, DC
+w1 = [w^0 w^-1 w^-2 w^-3] % for k=1, fundamental, 1st harmonic
+w2 = [w^0 w^-2 w^-4 w^-6] % for k=2, 2nd harmonic (1st overtone)
+w3 = [w^0 w^-3 w^-6 w^-9] % for k=3, 3rd (complex) harmonic, equivalent to k=-1 because of 2pi period of e^-(j*Omega*n)
+c(1) * w0 % reconstruct just the DC component of x; this is c0, but MATLAB starts counting at 1
+xx = (c(1) * w0 + c(2)*w1 + c(3)*w2 + c(4)*w3) / 4 % reconstruct x from c0...c3
+
+% x should match xx if we've done it correctly.  Calculate the sum of the squared
+% errors, which should be very close to 0...
+SSE = sum( (x-xx).^2 ) % .^ exponentiates each element, ^ exponentiates a matrix
+% Due to rounding errors, SSE will virtually never be 0, but it should be very close.
+% In this case, it is a complex number with magnitude 1.6 x 10^-30

@@ -1,0 +1,69 @@
+% 1/28/2010 7:33AM EE3220 Dr. Durant
+% Week 7, Day 3: DFT examples, fundamental frequency
+% Components that aren't at a multiple of the fundamental
+% Detective work on a given ECG
+
+format short g
+format compact
+
+fs = 8000;
+f = 1000; % cosine, fundamental for transform
+N = fs / f % Required N for this fundamental
+
+n = 0 : N-1
+t = n / fs
+x = cos(2*pi*f*t)
+subplot(2,1,1), plot(n,x)
+subplot(2,1,2), stem(n,abs(fft(x)))
+
+%%%%%%%%%%%%%%%%%
+% Keep the signal at 1000, but double the DFT window
+x = [x x];
+N = length(x)
+% Question: What is the fundamental now?
+subplot(2,1,1), plot(0:N-1,x)
+subplot(2,1,2), stem(0:N-1,abs(fft(x)))
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+x = x(1:end/2) % back to 1 cycle
+x = round(x*10)/10 % "quantize"
+N = length(x)
+subplot(2,1,1), plot(0:N-1,x)
+subplot(2,1,2), stem(0:N-1,20*log10(abs(fft(x))))
+
+%%%%%%%%%%%%%%%%%%%%%%% have 1.5 cycles?
+N = 1.5 * (fs/f)
+T = N / fs
+n = 0 : N-1
+t = n / fs
+x = cos(2*pi*f*t)
+subplot(2,1,1), plot(n,x)
+subplot(2,1,2), stem(n,abs(fft(x)))
+
+%%%%%%%%%%
+% repeat above but let multiplier be 100.5, 100
+
+%%%%%%%%%%%%%%%%%
+% Given the following ECG file (on general course website)
+% and that there is a strong interference at 60 Hz (US AC power
+% frequency), do some detective work
+x = load('ECG-Plus-60Hz.txt')
+N = length(x) % 1000
+n = 0 : N-1
+y = abs(fft(x));
+subplot(2,1,1), plot(n,x)
+subplot(2,1,2), stem(n,y)
+% From the graph we can see that the
+% 50th harmonic is 60 Hz noise, therefore fundamental = 1.2 Hz
+% Finding this using MATLAB code...
+NN = find(y==max(y)) % find the MATLAB indexes of the maximum value in y
+NN = NN(1)-1; % Take the 1st because the 2nd is the complex conjugate, -1 since MATLAB starts at 1, answer is 50
+
+f1 = 60/NN % 60 Hz (given) divided by harmonic number gives us the fundamental frequency for this sample
+% reciprocal of fundamental frequency is the total duration
+T = 1/f1;
+fs = N/T % samples total / seconds total = samples per second
+
+plot(abs(fft(x,1024))) % We'll see later why N = power of 2 leads to a much faster DFT computation.
+% The speedup is so great that we usually put up with not being able to have key frequencies of
+% interest at harmonics (integer multiples of the fundamental frequency = 1st harmonic)

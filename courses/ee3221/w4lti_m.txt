@@ -1,0 +1,41 @@
+% EE3220, Week 4, January 7, 2014, Dr. Durant
+
+% Example to test numerically whether a function is (1) linear and (2)
+% time-invariant in MATLAB.  Note: A numeric test is not a proof.  If a
+% test of sufficient complexity indicates linearity or TI, it is probably,
+% but not certainly, true.  If a numeric test shows a function is NOT
+% linear or TI, then you know that it is definitely not.  So, we can prove
+% falsity, but not truth.
+
+x1 = [1 2 3]; % Two test input signals
+x2 = [4 -1 -3]; % both assumed to start at n=0
+
+x1p2 = x1+x2;
+
+% In this example, the system is y(n) = x(n)^2
+
+% Is the system linear (at least for the test signals)?
+y1 = x1.^2; % apply system to x1
+y2 = x2.^2;
+y_x1p2 = x1p2.^2; % apply system AFTER summing inputs
+y1p2 = y1 + y2; % apply summation AFTER system
+error_seq_lin = y_x1p2 - y1p2 % no semicolon displays the error sequence
+fprintf('The error relative to being a linear system is %g.\n',...
+    sum(abs(error_seq_lin).^2))
+
+% Is the system time-invariant?  Test using x1 and a delay of 2 samples
+x1_d = [zeros(1,2) x1]; % delay by 2 samples
+y_x1d = x1_d.^2; % apply the system AFTER the delay
+
+y1d = [zeros(1,2) y1]; % apply the delay AFTER the system
+error_seq_ti = y_x1d - y1d % display the time-invariance error sequence (0 if time invariant)
+fprintf('The error relative to being a time-invariant system is %g.\n',...
+    sum(abs(error_seq_ti).^2))
+
+% In this case, the error relative to being a linear system is 404,
+% therefore the system is not linear.
+
+% In this case, the error relative to being a time-invariant system is 0,
+% therefore we were unable to prove that the system is not time-invariant
+% and we will assume it is time-invariant (and, it is indeed
+% time-invariant).

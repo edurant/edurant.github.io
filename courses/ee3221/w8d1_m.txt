@@ -1,0 +1,50 @@
+% 2/1/2010, EE3220, Dr. Durant, W8D1 example
+% DFTs: 3 periodic components, slight truncation, windowing
+
+% The classic paper on windowing, which contains excellent analysis, common 
+% pitfalls, and a handy chart of window functions is "On the Use of Windows for 
+% Harmonic Analysis with the Discrete Fourier Transform" by Fredric J. Harris in 
+% the January, 1978 (v68) Proceedings of the IEEE, pages 51-83. 
+% http://web.mit.edu/xiphmont/Public/windows.pdf
+
+% harmonics 18, 19, 20 of a 100 sample/period signal
+A  = [0.3 1.0 0.8]; % amplitude
+hn = [18  19  20 ]; % harmonic number
+
+N = 100;
+n = 0 : N-1;
+
+Omega = 2 * pi * hn / N % digital frequencies
+
+x = zeros(1,N); % make room for 1 signal (row) of the proper length
+for idx = 1 : length(A) % iterate over the 3 components
+	x = x + A(idx) * cos(Omega(idx) * n);
+end
+
+% Subplot divides a plot area into a grid. We use a 2x2 grid and select the 1st grid area...
+figure(1), subplot(221), plot(n,x), title('Original Signal')
+
+% Switch to figure 2 (create it if necessary) and go to the first of the 2x2 subplots
+figure(2), subplot(221), stem(n,abs(fft(x))/N), title('DFT of original signal')
+
+xTrunc = x(1:end-3); % throw away last 3 samples
+NTrunc = length(xTrunc)
+nTrunc = 0 : NTrunc-1;
+
+% Ensure we're in figure 2 and move on to its second subplot...
+figure(2), subplot(222), stem(nTrunc,abs(fft(xTrunc))/NTrunc)
+title('DFT of truncated signal')
+
+wHamming = 0.54 - 0.46 * cos (2 * pi * nTrunc / (NTrunc-1));
+% Note that the denominator is N-1 so that the phase makes the full cycle
+% from 0 to 2pi and the window reaches 0.54-0.46 = 0.08 at both ends.
+
+figure(1), subplot(222), plot(nTrunc, wHamming)
+title('Hamming window')
+
+xWindowed = xTrunc .* wHamming;
+figure(1), subplot(223), plot(nTrunc,xWindowed)
+title('Truncated and windowed signal')
+
+figure(2), subplot(223), stem(nTrunc, abs(fft(xWindowed) / NTrunc))
+title('DFT of truncated and windowed signal')

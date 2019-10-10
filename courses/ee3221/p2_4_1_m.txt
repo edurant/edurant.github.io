@@ -1,0 +1,29 @@
+% Problem 2.4.1 - EE-3220 - Dr. Durant - 12/16/2013
+
+% P2.4.1: Let x(n) = {2,4,-3,__1__,-5,4,7}. Generate and plot the samples (use the stem function) of the following sequences.
+% 1. x1(n) = 2x(n-3) + 3x(n+4) - x(n)
+
+x = [2 4 -3 1 -5 4 7]; % input signal
+n0_x = -3; % n corresponding to left element of x
+n0_h = -4; % n corresponding to earliest response for input at n=0, due to x(n+4)
+n9_h =  3; % n corresponding to latest   response for input at n=0, due to x(n-3)
+n0_x1 = n0_x + n0_h; % n corresponding to left element of output.
+l_h = n9_h - n0_h + 1; % length of x1's impulse response
+x1 = zeros(1, length(x)+l_h-1); % the length of the response is the sum of the length of the input and the impulse response, minus 1
+
+% Now, accumulate the impact of each term in the x1 equation into the output.
+% L is the MATLAB index of the leftmost element of the impact.
+% idx is the list of indexes where the scaled replica of x goes for the impact
+L =  3+n0_x-n0_x1+1; idx = L+(0:length(x)-1); x1(idx) = x1(idx) + 2*x;
+L = -4+n0_x-n0_x1+1; idx = L+(0:length(x)-1); x1(idx) = x1(idx) + 3*x;
+L =  0+n0_x-n0_x1+1; idx = L+(0:length(x)-1); x1(idx) = x1(idx) -   x;
+disp(x1)
+% Since we know x1 is 0 before the 1st case above, the impact due to x(n-3) could have been more simply calculated as
+% x1(3+n0_x-n0_x1+(1:length(x))) = 2*x;
+
+% For confirmation, calculate error relative to finding the response by convolution.
+h = [3 0 0 0 -1 0 0 2];
+assert (l_h == length(h),'Logic error: impulse response used for testing does not have expected length')
+fprintf('Code error relative to direct conv = %g.\n', sum((conv(x,h) - x1).^2))
+
+figure, stem(n0_x1+(0:length(x1)-1), x1), title('P2.4.1 - Dr. Durant')
