@@ -1,4 +1,4 @@
----
+ï»¿---
 title: "Dr. Durant: EE-3221: Additional Homework"
 ---
 
@@ -6,7 +6,7 @@ Recommended homework problems from Ingle & Proakis, 3rd Edition
 
 # Chapter 4
 * Basic: 4.1.1-3. We didn't cover MATLAB techniques for verification, so skip this part.
-  * Medium: MATLAB can take a ratio of two polynomials in z and perform the division to give you the coefficients of the powers of z in descending order, which are equivalent to the time-domain samples. Try [q,r] = deconv([1 0 0 0 0 0],[1 -.5]) to see the first several samples of a familiar geometric series and consult the documentation for further details.
+  * Medium: MATLAB can take a ratio of two polynomials in z and perform the division to give you the coefficients of the powers of z in descending order, which are equivalent to the time-domain samples. Try \[q,r\] = deconv(\[1 0 0 0 0 0\],\[1 -.5\]) to see the first several samples of a familiar geometric series and consult the documentation for further details.
   * Advanced: Investigate how to use the Symbolic Toolbox in MATLAB to check some of these problems. [MATLAB Symbolic Toolbox article on z-transforms](http://www.mathworks.com/help/symbolic/compute-z-transforms-and-inverse-z-transforms.html)
 * Medium: 4.2
 * Medium: 4.3
@@ -28,11 +28,11 @@ Recommended homework problems from Ingle & Proakis, 3rd Edition
 * Medium: 5.3. This problem demonstrates density vs. resolution.
 * Advanced: 5.6: This illustrates that sampling in frequency can lead to aliasing in time.
 * Medium: 5.26: This is a generalization of the circular convolution examples from class.
-* Medium: 5:40: Modify radix-4 to radix-2 to reflect the algorithm we covered in class. This is good practice in understanding the FFT that we did in class and you’ll see several additional symmetries that can be used for runtime optimization of the calculation.
+* Medium: 5:40: Modify radix-4 to radix-2 to reflect the algorithm we covered in class. This is good practice in understanding the FFT that we did in class and you'll see several additional symmetries that can be used for runtime optimization of the calculation.
 
 # Chapter 7
 * Basic: 7.2. We proved this in class for order 6. Try to prove it in general, or for order 4 or 8.
-* Medium: 7.3. This is a bit more challenging, but is a good test of whether you understand the proof above. The key is to factor out the linear phase shift that makes the ends of the filter symmetric, even if its frequency isn’t an integer multiple of ?.
+* Medium: 7.3. This is a bit more challenging, but is a good test of whether you understand the proof above. The key is to factor out the linear phase shift that makes the ends of the filter symmetric, even if its frequency isn't an integer multiple of \[symbol corrupted\].
 * Advanced: 7.4 and 7.5 can be solved using Euler's decomposition of the sine function whereas the two above used the cosine function.
 * Medium: 7.6: This is a generalization of sample code we wrote in class.
 * Medium: 7.7: A good way to solve these is to multiply out the factored forms given the roots and then look at the symmetry properties, but there are other solution techniques.
