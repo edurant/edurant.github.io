@@ -38,15 +38,15 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 
 
 ## Examples
-### 2017-'18</h3>
+### 2017-'18
 
 * <a href="firWindowDesign_m.txt">FIR Window Design Method</a>
 
-### 2016-'17</h3>
+### 2016-'17
 
 * <a href="p2_1_2_m.txt">Lab 1: Help on Problem 2.1.2</a>
 
-### 2014-'15</h3>
+### 2014-'15
 
 * <a href="l4ep_m.txt">Lab 4: MATLAB solution to additional problems on linearity and time-invariance</a>
 * <a href="dftFrequencyResolution.pdf">DFT frequency resolution vs. density: detailed example</a>
@@ -55,7 +55,7 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 * <a href="w9exercise.wav">w9exercise.wav</a> for in-class exercise
 * <a href="quantex_m.txt">Quantization noise example</a> and <a href="quantex.xlsx">analysis spreadsheet</a>
 
-### 2013-'14</h3>
+### 2013-'14
 
 * <a href="p196_m.txt">Page 196 script (MATLAB FFT performance) with my updates and comments</a>
 * <a href="l4p_m.txt">Lab 4: Example of shifting and applying variable scaling to sequences</a>
@@ -65,7 +65,7 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 * <a href="freqPeriodicity_m.txt">Frequency periodicity example</a>
 * Solutions to Problem 2.4.1: <a href="p2_4_1b_m.txt">Basic</a>, <a href="p2_4_1_m.txt">More general, but more complex</a>
 
-### Older</h3>
+### Older
 
 * <a href="aliasing_m.txt">Simple aliasing example</a>
 * <a href="dft4_m.txt">DFT/IDFT example in MATLAB: 4 samples, phase = 0</a>
@@ -141,13 +141,13 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 * <a href="final-w0910.pdf">2009-'10</a>
 
 ## Additional Readings
-### Current (2017-18)</h3>
+### Current (2017-18)
 
 * Harris, Fredric J. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1455106">On the Use of Windows for Harmonic Analysis with the Discrete Fourier Transform</a>, <cite>Proc. IEEE</cite>, 1978-01.
 * Montgomery, Chris. <a href="https://people.xiph.org/~xiphmont/demo/neil-young.html">24/192 Music Downloads ...and why they make no sense</a>, <cite>xiph.org</cite>, 2014-03-15.</a>
 
 
-### Older Readings</h3>
+### Older Readings
 
 * Amend, James M. <a href="http://wardsauto.com/vehicles-technology/gm-reveals-investment-fuel-saving-powertrain-startup">GM Reveals Investment in Fuel-Saving Powertrain Startup</a>,
 	<cite>WardsAuto</cite>, 2015 January 5.
