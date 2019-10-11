@@ -5,7 +5,6 @@ title: "Dr. Durant: Miscellaneous"
  * <a href="../ceiac/">CE IAC Homepage</a>
  * <a href="../opcomp/">Op Computer Competition Homepage</a>
  * [Faculty and Staff Book Club](bookClub.html)
- * <a href="../ce2016/">CE2016</a>
  * For MSOE Faculty
    * In-service presentation handouts
      * <a href="2015inserviceGtd.html">2015: Getting Things Done</a>
@@ -15,17 +14,12 @@ title: "Dr. Durant: Miscellaneous"
      * <a href="boiceSurveyAnalysis.xlsx">Analysis spreadsheet (Excel)</a>
    * <a href="eval.xls">Instructor evaluation summary (New format) (Excel)</a>
    * <a href="load.xls">Load calculation (Excel)</a>
- * Photography  
+ * Photography
    * **Main site:** <a href="http://edurant.smugmug.com/">http://edurant.smugmug.com/</a>
-   * Canon Camera/Lens Interactions: I recommend that you get the PDF version unless you wish to see the formulas.
-     * <a href="cameraLens.pdf">Adobe PDF</a>
-     * <a href="cameraLens.xls">Microsoft Excel 2002 Worksheet</a>
-   * AoV Multiplier (FF over 10D/1.6&times;)
-     * <a href="AoVmultiplier.pdf">Adobe PDF</a>
-     * <a href="AoVmultiplier.xls">Microsoft Excel 2002 Worksheet</a>
-   * <a href="lls/">Lens coverage graph, etc.</a>
+   * Canon Camera/Lens Interactions: <a href="cameraLens.pdf">PDF</a>, <a href="cameraLens.xls">Excel</a>
+   * AoV Multiplier (FF over 10D/1.6&times;): <a href="AoVmultiplier.pdf">PDF</a>, <a href="AoVmultiplier.xls">Excel</a>
  * <a href="recipes/">Recipes</a>
- * University of Michigan 
+ * University of Michigan
    * PhD in Electrical Engineering received in January 2002
        * Dissertation title: *Hearing Aid Fitting with Genetic Algorithms*
        * Advisor and Chair: Dr. Gregory H. Wakefield</a>, Associate Professor, EECS
@@ -35,7 +29,7 @@ title: "Dr. Durant: Miscellaneous"
          * Dr. Dianne VanTasell, VP Advanced Research, Starkey Laboratories
    * MSE in Electrical Engineering received in December 1999
    * Major / minor: signal processing / communications
-   * <a HREF="mich-classes.html">Classes taken</a>  
+   * <a HREF="mich-classes.html">Classes taken</a>
  * <a href="papers/" title="Abstracts and complete text of select papers">Papers</a>
  * MSOE student stuff
    * Business manager and Webmaster of the student newspaper, *Ingenium*.
