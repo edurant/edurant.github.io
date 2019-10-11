@@ -2,8 +2,7 @@
 title: "Dr. Durant: Miscellaneous"
 ---
 
- * <a href="../ceiac/">CE IAC Homepage</a>
- * <a href="../opcomp/">Op Computer Competition Homepage</a>
+ * [CE IAC Homepage](../ceiac/)
  * [Faculty and Staff Book Club](bookClub.html)
  * For MSOE Faculty
    * In-service presentation handouts
@@ -33,5 +32,4 @@ title: "Dr. Durant: Miscellaneous"
  * <a href="papers/" title="Abstracts and complete text of select papers">Papers</a>
  * MSOE student stuff
    * Business manager and Webmaster of the student newspaper, *Ingenium*.
-   * <a HREF="seed/">Senior design group</a> designed and built a user-friendly power supply in 1996-1997.
    * <a href="msoe-classes.html">Classes taken</a>
