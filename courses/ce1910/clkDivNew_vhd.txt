@@ -1,0 +1,171 @@
+----------------------------------------------------------------------------
+--
+-- Modified version of clock divider example in Rapid Prototyping By Hamblen 
+-- Professor Barnekow
+-- May 2009
+--
+----------------------------------------------------------------------------
+LIBRARY IEEE;
+USE  IEEE.STD_LOGIC_1164.all;
+USE  IEEE.STD_LOGIC_ARITH.all;
+USE  IEEE.STD_LOGIC_UNSIGNED.all;
+
+ENTITY clkDivNew IS
+
+	PORT
+	(
+		clock_25Mhz				: IN		STD_LOGIC;
+		clock_1MHz				: BUFFER	STD_LOGIC;
+		clock_100KHz			: BUFFER	STD_LOGIC;
+		clock_10KHz				: BUFFER	STD_LOGIC;
+		clock_1KHz				: BUFFER	STD_LOGIC;
+		clock_100Hz				: BUFFER	STD_LOGIC;
+		clock_10Hz				: BUFFER	STD_LOGIC;
+		clock_1Hz				: BUFFER	STD_LOGIC);
+	
+END clkDivNew;
+
+ARCHITECTURE a OF clkDivNew IS
+
+	SIGNAL	count_1Mhz: INTEGER RANGE 0 TO 31; 
+	SIGNAL	count_100Khz, count_10Khz, count_1Khz : INTEGER RANGE 0 TO 10;
+	SIGNAL	count_100hz, count_10hz, count_1hz : INTEGER RANGE 0 TO 10;
+	SIGNAL  clock_1Mhz_int, clock_100Khz_int, clock_10Khz_int, clock_1Khz_int: STD_LOGIC; 
+	SIGNAL	clock_100hz_int, clock_10Hz_int, clock_1Hz_int : STD_LOGIC;
+
+BEGIN
+	PROCESS 
+	BEGIN
+-- Divide by 24
+		WAIT UNTIL rising_edge(clock_25Mhz);
+			IF count_1Mhz < 24 THEN
+				count_1Mhz <= count_1Mhz + 1;
+			ELSE
+				count_1Mhz <= 0;
+			END IF;
+			IF count_1Mhz < 12 THEN
+				clock_1Mhz_int <= '0';
+			ELSE
+				clock_1Mhz_int <= '1';
+			END IF;	
+
+		-- Ripple clocks are used in this code to save prescalar hardware
+		-- Sync all clock prescalar outputs back to master clock signal
+			clock_1Mhz <= clock_1Mhz_int;
+			clock_100Khz <= clock_100Khz_int;
+			clock_10Khz <= clock_10Khz_int;
+			clock_1Khz <= clock_1Khz_int;
+			clock_100hz <= clock_100hz_int;
+			clock_10hz <= clock_10hz_int;
+			clock_1hz <= clock_1hz_int;
+	END PROCESS;	
+
+		-- Divide by 10
+	PROCESS 
+	BEGIN
+
+		WAIT UNTIL rising_edge(clock_1Mhz);
+			IF count_100Khz < 10 THEN
+				count_100Khz <= count_100Khz + 1;
+			ELSE
+				count_100khz <= 0;
+			END IF;
+			IF count_100khz < 5 THEN
+				clock_100khz_int <= '0';
+			ELSE
+				clock_100khz_int <= '1';
+			END IF;
+
+	END PROCESS;	
+
+		-- Divide by 10
+	PROCESS
+	BEGIN
+
+		WAIT UNTIL rising_edge(clock_100khz);
+			IF count_10Khz < 10 THEN
+				count_10Khz <= count_10Khz + 1;
+			ELSE
+				count_10khz <= 0;
+			END IF;
+			IF count_10khz < 5 THEN
+				clock_10khz_int <= '0';
+			ELSE
+				clock_10khz_int <= '1';
+			END IF;
+
+	END PROCESS;	
+
+		-- Divide by 10
+	PROCESS 
+	BEGIN
+
+		WAIT UNTIL rising_edge(clock_10khz);
+			IF count_1Khz < 10 THEN
+				count_1Khz <= count_1Khz + 1;
+			ELSE
+				count_1khz <= 0;
+			END IF;
+			IF count_1khz < 5 THEN
+				clock_1khz_int <= '0';
+			ELSE
+				clock_1khz_int <= '1';
+			END IF;
+
+	END PROCESS;	
+
+		-- Divide by 10
+	PROCESS 
+	BEGIN
+
+		WAIT UNTIL rising_edge(clock_1khz);
+			IF count_100hz < 10 THEN
+				count_100hz <= count_100hz + 1;
+			ELSE
+				count_100hz <= 0;
+			END IF;
+			IF count_100hz < 5 THEN
+				clock_100hz_int <= '0';
+			ELSE
+				clock_100hz_int <= '1';
+			END IF;
+
+	END PROCESS;	
+
+		-- Divide by 10
+	PROCESS 
+	BEGIN
+
+		WAIT UNTIL rising_edge(clock_100hz);
+			IF count_10hz < 10 THEN
+				count_10hz <= count_10hz + 1;
+			ELSE
+				count_10hz <= 0;
+			END IF;
+			IF count_10hz < 5 THEN
+				clock_10hz_int <= '0';
+			ELSE
+				clock_10hz_int <= '1';
+			END IF;
+
+	END PROCESS;	
+
+		-- Divide by 10
+	PROCESS
+	BEGIN
+
+		WAIT UNTIL rising_edge(clock_10hz);
+			IF count_1hz < 10 THEN
+				count_1hz <= count_1hz + 1;
+			ELSE
+				count_1hz <= 0;
+			END IF;
+			IF count_1hz < 5 THEN
+				clock_1hz_int <= '0';
+			ELSE
+				clock_1hz_int <= '1';
+			END IF;
+
+	END PROCESS;	
+
+END a;
