@@ -1,0 +1,79 @@
+---
+title: "CS-489 Enterprise Architect Code Generation Hints"
+---
+
+<p align="center">by Dr. Durant
+<br/>Dr. Welch developed an EA6/C++ hints document, upon which this one for EA7/Java is based.</p>
+
+<br>Here are some things I learned while doing code generation in Enterprise 
+Architect. I hope you find this useful.
+<ul>
+
+<li>Enterprise Architect (EA) Basics
+<ul>
+<li>Most of the EA dialogs have context sensitive help buttons that are helpful</li>
+<li>Set-up a local map for your source code (and perhaps more) from Settings | Local Paths&nbsp; ...
+<ul>
+	<li>Create symbolic names for localized paths</li>
+	<li>Each developer can have their own working directories as each EA user keeps their own Local Paths</li>
+	<li>During saves any paths that match have the symbolic name substituted</li>
+	<li>During load the symbolic name is replaced with the localized path</li>
+	<li>If one developer uses Local Paths all should</li>
+	<li>Path: <em>D:\My Documents\cs489\CodeCounter\src</em>, ID: <em>srcRoot</em>, Type: <em>Java</em> (Everyone sets srcRoot according to his or her preferences)</li>
+</ul>
+</li>
+<li>Set-up EA Code Engineering Properties
+<ul>
+	<li>Tools | Options (Ctrl-F9)</li>
+	<li>Select Source Code Engineering | Attribute/Operations</li>
+	<li>Select all options but &quot;On reverse synch, delete model associations not 
+	in code&quot;</li>
+</ul></li>
+
+<li>Assign classes to your target directory (e.g., src directory for Java)</li>
+<ul>
+	<li>Right-click each class and select Generate Code</li>
+	<li>Click ... and select the location for the source code (if you placed the class in a package using EA [e.g., via a Package diagram], indicate the appropriate subdirectory [e.g., yourWorkspace\ProjectName\src\packageName])</li>
+	<li>Confirm that the Target language is correct</li>
+	<li>Select Generate to do the initial generation or generate the group of classes all together (Select all and hit F11 -- EA sometimes reverts to an old path if you use this batch generation method, so double-check its output, especially if you change paths mid-project)</li>
+</ul>
+
+<li>Note: Although EA is a round-trip CASE tool, you can not simultaneously make changes in both the model and the code and retain both...
+<ul>
+	<li>If you make changes to the code, be sure to save them (so they are committed to disk and visible to EA) and use EA's Synchronize Model with Code option to bring the code changes into the model.  (It is not necessary to do this for added comments, after filling in method stubs, etc. -- only for changes to the class structure [new methods, changing argument types, removing attributes, etc.].  However, since EA recognizes Javadoc comments, you should do this if you add documentation in this format so that it is visible and editable in EA.)
+	<li>If you make changes to the model, you can push them into the code using Generate Code (F11).
+
+
+</ul>
+</li>
+</ul>
+
+<li>Creating the project in Eclipse (instructions based on version 3.3)
+<ul>
+	<li>Bring up the new Java Project dialog in Eclipse</li>
+	<li>Enter the project name that matches the generation directory you created in EA</li>
+	<li>A warning that "a resource with the project name already exists" should appear; this indicates that you have the locations matched between EA and Eclipse</li>
+	<li>Change "Contents" to "Create project from existing source" and select the project's root folder (one level above the "src" directory)</li>
+	<li>Click Next and confirm that your source files show up in your project.</li>
+	<li>Click Finish to create the project</li>
+</ul>
+
+
+<li>Caveats<ul>
+
+	<li>EA isn't really good at making code changes when attributes and 
+	association role types change in the model<ul>
+		<li>If it isn't working, simply delete the old declaration from the 
+		source code and then generate the code again</li>
+
+	</ul></li>
+</ul></li>
+<li>Recommendations:</li>
+
+
+<ul>
+	<li>Take full advantage of the "Notes" fields provided in the EA Properties windows. These not only help describe your model but the
+text is exported as comments in the appropriate place in your source code.  For example, for Java, class, method, argument, and attribute descriptions generate (and can be synchronized from) Javadoc comments in the source code.
+This is a nice feature.</li>
+</ul></li>
+</ul>

@@ -1,0 +1,117 @@
+---
+title: "CS-489 Product Specification"
+---
+
+<h2>Overview</h2>
+
+<p>The goal of this project is to develop a software package that derives 
+information from program source files. This software tool will provide data to 
+estimate and track the size of software development projects. Initially, this 
+application will focus primarily on non-comment lines of code (NCLOC). Because 
+the actual act of NCLOC counting can be made rather trivial with the proper 
+coding standard <em>the goal of this project is to focus on the management and 
+tracking aspects of this problem</em>. (For example, as we are counting lines, a 
+format that puts all braces on separate lines will generate a higher LOC count 
+than a more condensed standard format. There are more sophisticated methods 
+that address these issues, such as counting expressions and statements, but 
+these are significantly more complex and are beyond the scope of this project.) 
+In fact, a properly designed code counter can be easily reconfigured to count to 
+multiple coding standards and languages by separating the standard/language 
+aspect from the actual counter. <em>Your project will be required to support 
+such a mechanism.</em> (Hint: Use a Line of Code base class or similar 
+mechanism.)</p>
+
+<p><em>Note:</em> Because part of the software engineering process is the elicitation
+and definition of requirements, this specification is purposely vague in
+some details and may be missing other relevant information. Please consult
+your client (the professor) for any needed clarification.</p>
+
+<h2>Acknowledgement</h2>
+
+<p>This project is based on an assignment developed by Dr. Welch,
+which, in turn, draws on work done by Watts Humphrey of the <a href="http://www.sei.cmu.edu/">Software
+Engineering Institute</a>. Elements of this project are taken from Humphrey's
+text on the Team Software Process (TSP). Humphrey has written several software
+engineering books, including two on the Personal
+Software Process (PSP) and one on the Team Software Process.</p>
+
+<h2>Cycle 1 specification</h2>
+
+<p>The program information application analyzes a specified set of source files.
+You may chose to analyze either C++, Java, or C# files (your analyzed language choice does
+not need to be the same as your coding language choice; indeed, your application will
+be extensible so that modifications allowing analysis of source files from a wide variety of languages will be
+possible. When analyzing C++, you must support both ".h" and ".cpp" files. The user specifies which files are to
+be analyzed. Note that the files may be in more than one directory, and
+there could thus be more than one file with the same name.</p>
+
+<p>The number of non-comment lines of code in each file is to be counted
+and reported, by file and in aggregate. At a minimum, the "//' comment
+style must be supported.</p>
+
+<p>The analysis results should be displayed on the screen and, upon user
+request, saved as a text file containing file names and size (NCLOC) for
+each file, and the total size for all files.</p>
+
+<p>The software package must operate properly in the Windows XP
+environment; it is expected that that an appropriate GUI framework will be used
+(e.g., MFC for C++, Swing for Java, Windows Forms for C#). Student teams wishing to use other frameworks should get 
+permission from the professor before doing so.</p>
+
+<p>The following features are optional additions for Cycle 1:
+
+<ul>
+
+<li>Handling stylized versions of "/* */" comments, in which the "/*" is the
+first non-whitespace element on a line and the "*/" is on a line by itself
+(perhaps with whitespace).</li>
+
+<li>Reporting of internal documentation size (comment LOC) as well as program
+size. NOTE: This should not count white space lines.</li>
+
+<li>Printed report of program information, using standard "print"
+and "print preview" mechanisms.</li>
+
+<li>Maintain history files of previous length analyses containing a list
+of file paths and length metrics so that code size change reports can be automatically
+generated.</li>
+
+</ul>
+</p>
+
+<h2>Cycle 2 specifications</h2>
+
+<p>In this cycle, all the Cycle 1 capabilities must be retained. In addition,
+the program information application must also determine the size (NCLOC)
+of individual classes. This new information includes
+the total size of each class (definition, all member functions, etc.),
+the number of methods (member functions) in each class, and the average size for all 
+the methods in each class.</p>
+
+<p>The various analysis options (at least the file LOC and object/method
+LOC) must be individually selectable by the user, and any or all may be
+chosen at one time.</p>
+
+<p>[Implementation note: the specification does not require you to write a 
+parser for the analyzed language. It is permissible to use other techniques (such as 
+embedding special comments {perhaps using JavaDoc with a coding standard that includes
+comment formatting} to identify sections of source code. Hint: Using comments isn't 
+necessary if you use a coding standard that rigorously specifies formatting, perhaps
+including indentation, columns for braces when ending a method, etc.</p>
+
+<p>The following features are optional additions for cycle 2:
+
+<ul>
+
+<li>Categorizing classes and/or methods by type (e.g., data handling, calculation,
+logic/control, etc.).</li>
+
+<li>Preparation of a set of "code review" source file print-outs which might
+use colors to highlight comments or other code aspects.</li>
+
+<li>Compute the actual NCLOC for each individual member function.</li>
+
+<li>Maintain history files similar to those of Cycle 1.</li>
+
+</ul>
+</p>

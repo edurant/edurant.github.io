@@ -1,0 +1,265 @@
+---
+title: "CS-489 Process Details"
+---
+
+<p align="center">by Dr. Durant
+<br/>This process is based on materials developed by Dr. Welch and Dr. Sebern.</p>
+
+<h2>Overview</h2>
+
+<p>As part of the software development process for this course, all team members
+are expected to track and report process data. A more detailed discussion of
+this process, including spreadsheets for some of the tables, can be found on Dr. Welch's SE280 page.</p>
+
+<h2>Acknowledgement</h2>
+
+<p>The time and defect tracking tools used here are taken from Watts Humphrey's
+<a href="http://en.wikipedia.org/wiki/Personal_Software_Process">Personal
+Software Process</a> (PSP). However, they represent only one small part
+of the PSP; as the course goes on, other parts of the process will be discussed.
+Unfortunately, the time available does not permit training in the complete
+PSP, and students are encouraged to pursue additional PSP study on their
+own or as part of another course.</p>
+
+<h2>Time tracking and reporting</h2>
+
+<p>Time tracking is done with a time log sheet, resembling the following form:
+<center><table BORDER=2 CELLPADDING=3>
+
+<tr>
+<th>Date</th>
+<th>Start</th>
+<th>Stop</th>
+<th>Interruption Time</th>
+<th>Delta Time</th>
+<th>Phase</th>
+<th>Comments</th>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+
+</tr>
+</table></center>
+
+<p>The project phases are:
+
+<ul>
+<li>Planning (includes analysis)</li>
+<li>Design</li>
+<li>Design review</li>
+<li>Coding</li>
+<li>Code review</li>
+<li>Compile</li>
+<li>Test</li>
+<li>Postmortem</li>
+</ul>
+
+<p>Note that these are <b>phases</b>, not <b>activities</b>. For example,
+the "compile" phase begins on the first compile and ends when a "clean
+compile" has been achieved, even if fixing defects in this phase requires
+going back and redoing some of the analysis or design. Time spent in team
+meetings and research should be included in the phase you are in, though
+it should be labeled (in "comments") separately in the time recording log.
+
+<p>During the postmortem, the time in each phase should be summarized by
+developer (team member) and for the team as a whole.
+
+<h2>Defect tracking and reporting</h2>
+
+<p>Defect tracking is done with a defect recording log:
+
+<br>
+
+<table BORDER=2 CELLPADDING=3 >
+<tr>
+<th>Date</th>
+<th>ID Number</th>
+<th>Occurrences</th>
+<th>Type</th>
+<th>Inject Phase</th>
+<th>Remove Phase</th>
+<th>Fix Time</th>
+<th>Fix Defect</th>
+<th>Description</th>
+</tr>
+
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+
+
+<p>Some notes on these items:
+
+<ul>
+<li>ID Number - a sequential serial number assigned to each defect.</li>
+<li>Occurrences - number of instances of the same defect (e.g., incorrect data
+object name) found at the same time.</li>
+<li>Type - defect type code (see table below).</li>
+<li>Fix defect - if you inject another defect (defect B) while fixing a previous
+defect (defect A), put the ID number of defect A in the "fix defect" field
+of defect B.</li>
+</ul>
+
+<p>Defect types:
+<br>
+<table BORDER=2 CELLPADDING=3 >
+
+<tr>
+<th ALIGN=CENTER>Type Number</th>
+<th ALIGN=CENTER>Type Name</th>
+<th ALIGN=CENTER>Description</th>
+</tr>
+
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP>10</td>
+<td VALIGN=TOP>Documentation</td>
+<td VALIGN=TOP>comments, messages</td>
+</tr>
+
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP>20</td>
+<td VALIGN=TOP>Syntax</td>
+<td VALIGN=TOP>spelling, punctuation, typos, instruction formats</td>
+</tr>
+
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP>30</td>
+<td VALIGN=TOP>Build, package</td>
+<td VALIGN=TOP>change management, library, version control</td>
+</tr>
+
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP>40</td>
+<td VALIGN=TOP>Assignment</td>
+<td VALIGN=TOP>declaration, duplicate names, scope, limits</td>
+</tr>
+
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP>50</td>
+<td VALIGN=TOP>Interface</td>
+<td VALIGN=TOP>procedure calls and references, I/O, user formats</td>
+</tr>
+
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP>60</td>
+<td VALIGN=TOP>Checking</td>
+<td VALIGN=TOP>error messages, inadequate checks</td>
+</tr>
+
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP>70</td>
+<td VALIGN=TOP>Data</td>
+<td VALIGN=TOP>structure content</td>
+</tr>
+
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP>80</td>
+<td VALIGN=TOP>Function</td>
+<td VALIGN=TOP>logic, pointers, loops, recursion, computation, function defects</td>
+</tr>
+
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP>90</td>
+<td VALIGN=TOP>System</td>
+<td VALIGN=TOP>configuration, timing, memory</td>
+</tr>
+
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP>100</td>
+<td VALIGN=TOP>Environment</td>
+<td VALIGN=TOP>design, compile, test or other support system problems</td>
+</tr>
+</table>
+
+
+<p>During the postmortem, the number of defects injected and removed in
+each phase should be summarized, by developer and for the team as a whole.
+The defect types should be used to improve the design and code review checklists.
+
+
+<p>Excel spreadsheets containing versions of these form can be downloaded from Dr. Welch's website [no longer online].</p>
