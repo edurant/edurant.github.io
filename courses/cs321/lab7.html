@@ -1,0 +1,184 @@
+---
+title: "CS-321 Lab 7: 3-D Transformations and Perspective"
+---
+
+<img src="lab7GUI.png" width="704" height="514" alt="[Sample 3-D GUI]" align="right" />
+
+<h2>Overview</h2>
+
+<p>In this lab you will build upon an existing matrix class to create a transform class.  This transform class will be used to render polyhedra from a user-specified 
+viewpoint using a perspective projection. This is a 3-week lab with two phases. A report is due for each phase as outlined below.</p>
+
+<p><a href="lab7examples.html">These examples</a> show how the application will allow viewing of a model much as a camera allows viewing of the world.</p>
+
+<h2>Demonstration (during Friday lecture of week 10<!--during week 10 lab-->)</h2>
+
+<p>You will need to demonstrate your final project to the instructor during the
+week 10 <!--lab meeting-->Friday lecture. The demonstration will count for 25% of your
+Phase II project grade.</p>
+
+<h2>Activities</h2>
+
+<br clear="all" />
+
+<ol>
+
+<li>Develop a transform class built around a matrix class.
+  Use <a href="http://www.techsoftpl.com/matrix/download.htm">this matrix class</a>
+  class, which is free for educational use. Provide functions (perhaps including operator overloading) so that a convenient coding style for applying transforms is supported. The following is an example of one such style. "QPoint3" represents a 3-D point (not actually a Qt class).
+<pre>    Transform T;
+    T.applyTranslate(deltax, deltay, deltaz);
+    math::matrix&lt;double&gt; u(3,1), v(3,1), V(3,1), n(3,1), N(3,1);
+    // calculate V and N
+    u = cross(V,N);
+    u /= u.norm(); // normalize u
+    // more calculations
+    T.applyBasisChange(u, v, n); // objects aligned with u are now aligned with x, etc.
+    // apply a perspective transformation
+    // ultimately polyhedron::Draw will need access to this transformation
+    // ...
+    QPoint3 p; // and initialize somewhere
+    QPoint pprime = T * p; // transform a single point, accounts for non-unity h, discards z
+    QPointArray psPrime = T * myContainerOf3DPoints; // transform a bunch of points (perhaps in a matrix)</pre>
+</li>
+
+<li>Develop a polyhedron class. Objects of this class could just contain a container of line endpoint pairs (but not line objects &#8211; that would be inefficient &#8211; a polyhedron has 1 color, is read as a single object, etc.). A better implementation would only maintain one copy of each vertex, but this is not required.</li>
+
+<li>Allow the specification of polyhedra using files. The files <a href="/~cs321/lab7a.dat">lab7a.dat (cube)</a>, <a href="/~cs321/lab7b.dat">lab7b.dat (tetrahedron)</a>, and <a href="box.drg">box.drg ("building" used in figure above)</a>
+contain examples that specify a polyhedra as a set of
+edges. (i.e., There are two 3-D points per line. This is <b>not</b> the
+best long term specification, but it is sufficient for the requirements
+of this assignment.) You may find it necessary to edit these files to conform
+to your polyhedron::Read.</li>
+
+<li>When it is time to Draw each polyhedron, you should perform the device transformation (invert the y direction and move the origin to the center of the drawArea).</li>
+
+<li>Allow the user to specify the observer position, the point the user is looking at (which will be rendered in the center of the window), and the look-up direction. The user must also specify the distance to the projection plane from the observer (which is also used as the projection reference point).</li>
+
+<li>An interface that allows the user to easily change a single parameter while being aware of the overall set of viewing parameters is required. See the figure for one example of such an interface. </li>
+
+<li>Augment your derived shell class so that the Zoom, UnZoom, Erase, and Reset buttons work
+as follows:
+
+<ul>
+  <li>Zoom&#8212;perform a zoom by a factor of 2 by doubling the distance from the observer to the projection plane. (By definition, zoom means moving the projection plane, not the observer.)</li>
+  <li>UnZoom&#8212;perform an unzoom by a factor of 2 by halving the distance from the observer to the projection plane.</li>
+  <li>Erase&#8212;erase your image and update() the drawing area.</li>
+  <li>Reset&#8212;reset the user inputs to some reasonable default values (what is reasonable, exactly, depends on the image, but you can used fixed defaults &#8211; up should be specified as preferring the positive y direction, the projection plane should be between the observer and the look at point, etc.) and draw the image.</li>
+</ul>
+</li>
+
+<li>When it is time to update the view (e.g., the user pressed a particular button), you should calculate a composite transform that moves the drawing into the correct position (viewing transformation) and performs the perspective transformation.</li>
+
+</ol>
+
+<h2>Hints</h2>
+
+<ul>
+  <li>It is not necessary that your previous shape classes work in this 3-D lab.</li>
+  <li>You should derive polyhedron from shape (or perhaps a variant of varshape).</li>
+  <li>Polyhedra should be able to be read from files, but it is not necessary to provide a Write() function; no other method of entering polyhedra into your program is required.
+  <li>Work in phases. For example: transform class, viewing GUI, polyhedron reading, viewing transform without perspective, add perspective, etc.</li>
+  <li>Make sure your transforms do not &quot;damage&quot; your geometry. An
+    Unzoom followed by a Zoom should recover the original image so don't let
+    Unzoom irrecoverably round off your coordinates. (When drawing always apply the complete transform to the original points.)</li>
+  <li>#include &lt;matrix.h&gt; // place in /usr/local/include on your computer, or ./include on defiant</li>
+  <li>The constructors for the matrix class do not guarantee that any particular values are in the matrix. Use .Null() for a matrix of zeros. Use .Unit() for an identity matrix.</li>
+  <li>The easiest way to allow programs using matrix.h to work with Qt is to disable exceptions in the 
+matrix class. To do this, update your .pro file to include <tt>DEFINES *= _NO_EXCEPTION</tt></li>
+  <li>It is recommended that you use 3x1 vectors (use the matrix class to represent a vector in the mathematical sense, not the STL vector class) when calculating the values for the composite viewing 
+rotation matrix. Functions to perform the cross product and to normalize vectors will be useful. The matrix class does not have a normalize function, but it does have a function that will give you the magnitude of a vector.</li>
+  <li>z<sub>prp</sub>=0 since the camera is located at the observer's eye.</li>
+  <li>For matrixes, a *= b; means a = a * b;  Be careful&#8211;when composing transforms, you usually need left multiplies: a = b * a;
+  <li>Since you will have several pieces of text to convert to numbers (as opposed as a stream to break into numbers), using the atof() [see the atof manual page on your Linux system] function instead of the istringstream extraction method is recommended. You may also want to experiment with the <a href="http://doc.trolltech.com/qdial.html">dial</a>, <a href="http://doc.trolltech.com/qslider.html">slider</a> or <a href="http://doc.trolltech.com/qspinbox.html">spinbox</a> controls.</li>
+
+</ul>
+
+<p>There are plenty of areas for extra credit with this assignment (e.g., surface modeling and animations [pans, zooms, etc.]), however
+you must complete the basic requirements in order to receive the extra
+credit. Consult with your professor in
+advance before adding extra-credit elements to your program.
+
+<h2>Phase 1 Lab Report (due by 11 P.M., the day of the week 9 lab): Transformation Class</h2>
+
+<p>Your lab report need not be self-contained. This means that it is
+<strong>not</strong> necessary to restate the entire specification in your report.</p>
+
+<ul>
+  <li>Prepare your report in the XML format described in the
+      Electronic Submission
+      Guidelines.</li>
+  <li>Include...
+  <ul>
+      <li>details of any problems you encountered;</li>
+      <li>suggestions for how the lab could be improved;</li>
+      <li>things you could not figure out how to do;</li>
+      <li>a list of extra features that you implemented, if any;</li>
+      <li>A summary of your activity log indicating how much time you spent
+          on the assignment.  Follow the requirements for this item
+          from <a href="lab2.html">lab 2</a>.</li>
+      <li>A <strong><font color="orange">detailed test plan</font></strong> describing the 
+          tests you ran on your transform class to
+          verify and validate its operation including a table that clearly indicates which
+          tests have been passed and those that have failed.</li>
+      <li>Sufficient output to demonstrate that your transform class is functional.</li>
+      <li>Documented source code
+          <ul>
+            <li>If a file has not changed since the last assignment, note this in your
+                report and do not include the unchanged file.</li>
+          </ul>
+      </li>
+  </ul>
+  </li>
+  <li>Follow the report submission requirements.</li>
+  <li>Email this file to the instructor (<a
+      href="mailto:durant@msoe.edu">durant@msoe.edu</a>) with a subject and message
+      body indicating that this is your CS-321 Lab 7 Phase 1 submission.</li>
+</ul>
+
+<h2>Phase 2 Lab Report (due by 11 P.M., Friday of week 10): Working 3-D System</h2>
+
+<p>Your lab report need not be self-contained. This means that it is
+<strong>not</strong> necessary to restate the entire specification in your report.</p>
+
+<ul>
+  <li>Prepare your report in the XML format described in the
+      Electronic Submission
+      Guidelines.</li>
+  <li>Include...
+  <ul>
+      <li>details of any problems you encountered;</li>
+      <li>suggestions for how the lab could be improved;</li>
+      <li>things you could not figure out how to do;</li>
+      <li>a list of extra features that you implemented, if any;</li>
+      <li>A summary of your activity log indicating how much time you spent
+          on the assignment.  Follow the requirements for this item
+          from <a href="lab2.html">lab 2</a>.</li>
+      <li>Documented source code&#8212;See
+          <a href="lab2.html">lab 2</a> for information on gensrc, which
+          helps format your code for your XML report.
+          <ul>
+            <li>If a file has not changed since the last assignment, note this in your
+                report and do not include the unchanged file.</li>
+          </ul>
+      </li>
+      <li><strong><font color="orange">Sample output</font></strong>: one or more screenshots of your program displaying a scene.
+          Include the data file used in the source code section of your report.</li>
+  </ul>
+  </li>
+  <li>Follow the report submission requirements.</li>
+  <li>Email this file to the instructor (<a
+      href="mailto:durant@msoe.edu">durant@msoe.edu</a>) with a subject and message
+      body indicating that this is your CS-321 Lab 7 Phase 2 submission.</li>
+</ul>
+
+<h2>Course Objectives Addressed</h2>
+
+<ul>        
+<li>understand the design of graphical user interfaces.</li>
+<li>understand and be able to apply concepts of object-oriented programming, inheritance, polymorphism, and event-driven systems.</li>
+<li>be able to use reference materials to gain knowledge of an unfamiliar software library</li>     
+<li>be able to implement multi-module software systems incorporating components developed by others.</li>
+<li>be able to clarify and document software requirements when specifications are initially incomplete or ambiguous.</li>
+<li>understand the need for extensive internal software documentation, and be able to provide it.</li>
+</ul>

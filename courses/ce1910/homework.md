@@ -8,7 +8,7 @@ Abbreviation of dates: WmDn refers to the nth day of lecture in the mth week of 
 of week 3 (regardless of whether the lab period is before or after the 2nd lecture period). 
 
 ## W1D1
-* (4 points) Draw a truth table for the digital logic circuit below, being sure to include the values of intermediate signals M and N.<br/><img src="w1d1figure.png" width=612 height=165 />
+* (4 points) Draw a truth table for the digital logic circuit below, being sure to include the values of intermediate signals M and N.<br/>[W1D1 Figure 1](w1d1figure.png)
 * (3 points) Draw the K-maps for the functions F and G that you enumerated above. Use the K-maps to find the minimum SOP expressions for F and G.
 * (3 points) Draw logic circuits for F and G in SOP form based on your K-map expressions.
 
@@ -18,7 +18,7 @@ of week 3 (regardless of whether the lab period is before or after the 2nd lectu
   * (6 points) A printout of your simulation output showing interesting behavior. You should annotate this printout by hand, explaining why several output values are correct given the inputs and prior state.
 
 ## W2D1
-* (5 points) A DFF with enable and asynchronous clear is available in Quartus. Create a Quartus project with a block diagram top-level file. Add the "DFFE" component, connecting the PRN active low input to a constant logic 1 (component name VCC). Create all the other DFFE inputs and outputs to input and output objects respectively. Simulate it using the waveform below (it may be easiest to slow down the time scale by a factor of two since the waveform editor by default allows changes in 10 ns and larger intervals (not 5 ns intervals)).<br/><img src="w2d1figure.png" width=1386 height=218/>
+* (5 points) A DFF with enable and asynchronous clear is available in Quartus. Create a Quartus project with a block diagram top-level file. Add the "DFFE" component, connecting the PRN active low input to a constant logic 1 (component name VCC). Create all the other DFFE inputs and outputs to input and output objects respectively. Simulate it using the waveform below (it may be easiest to slow down the time scale by a factor of two since the waveform editor by default allows changes in 10 ns and larger intervals (not 5 ns intervals)).<br/>[W2D1 Figure](w2d1figure.png)
 * (5 points) Explain the simulation, noting why each transition meets your expectations.
 
 ## W3D1

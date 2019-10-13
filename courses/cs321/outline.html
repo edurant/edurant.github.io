@@ -1,0 +1,210 @@
+---
+title: "Dr. Durant: CS-321 Outline (Fall 2004)"
+---
+
+<p>Note on textbook and readings: The 3rd edition is the official, required text. If you already have the 2nd edition, you should be able to make use of it by referring to the alternate page numbers below.  Surrounding or within the assigned readings are code examples in PHIGS (2nd edition) and OpenGL (3rd edition).  Although we will be using Qt API instead of PHIGS or OpenGL in CS-321, you should find skimming over these examples helpful, but you are only responsible for the Qt API portions covered by lecture and lab; you are not responsible for knowing the PHIGS or OpenGL APIs.</p>
+
+<table border>
+<tr>
+    <th>Week</th>
+    <th>Day</th>
+    <th>Topics</th>
+    <th>Reading (2 ed.)</th><th>Reading (3 ed.)</th>
+    <th>Lab</th>
+</tr>
+
+<tr>
+    <td rowspan="3" align="center">1<br>6-10 September</td>
+    <td align="center">M</td>
+    <td><em>Labor Day</em></td>
+    <td></td>
+    <td></td>
+    <td rowspan="3" align="center"><a href="cs321-01.pdf">Course introduction</a><br/>
+    <a href="prerequisiteAssessment.pdf">Prerequisite Assessment</a><br/>
+    <a href="lab1.html">Lab 1: Introduction to Unix</a></td>
+</tr>
+<tr>
+    <td align="center">W</td>
+    <td><a href="cs321-02.pdf">Computer Graphics Hardware: CRTs and LCDs</a></td>
+    <td>3-81</td><td>2-73</td>
+</tr>
+<tr>
+    <td align="center">F</td>
+    <td>CG Hardware: Video card architecture</td>
+    <td></td><td></td>
+</tr>
+
+<tr>
+    <td rowspan="3" align="center">2<br>13-17 September</td>
+    <td align="center">M</td>
+    <td><a href="cs321-03.pdf">Point and line drawing</a></td>
+    <td>84-88</td><td>92-95</td>
+    <td rowspan="6" align="center"><a href="/~welch/courses/cs321/cs321-l2.pdf">Inheritance review</a>
+      <br/>Week 2: qmake/make/gcc introduction
+      <br/>Week 3: gdb (GNU debugger) / ElectricFence
+      <br/><a href="lab2.html">Lab 2: Derived and container classes</a></td>
+</tr>
+<tr>
+    <td align="center">W</td>
+    <td><a href="cs321-04.pdf">Bresenham's algorithm</a></td>
+    <td>88-96</td><td>95-102</td>
+</tr>
+<tr>
+    <td align="center">F</td>
+    <td><a href="cs321-05.pdf">Circles and ellipses</a></td>
+    <td>97-113</td><td>103-119</td>
+</tr>
+
+<tr>
+    <td rowspan="3" align="center">3<br>20-24 September</td>
+    <td align="center">M</td>
+    <td><a href="cs321-06.pdf">Coordinate systems, pixel size issues, filling intro.</a></td>
+    <td>114-117</td><td>120-123</td>
+</tr>
+<tr>
+    <td align="center">W</td>
+    <td><a href="cs321-07.pdf">Filling: inside/outside tests</a></td>
+    <td>117-130</td><td>123-129<!-- filling intro, relevant polygon concepts, splitting, inside/outside rules, winding --></td>
+</tr>
+<tr>
+    <td align="center">F</td>
+    <td><a href="cs321-08.pdf">Filling algorithms: scanline, edge order, and integer recursion</a></td>
+    <td></td>
+    <td>196-200<!-- scan-line polygon fill, edge table data structure --></td>
+</tr>
+
+<tr>
+    <td rowspan="3" align="center">4<br>27&nbsp;September - 1&nbsp;October</td>
+    <td align="center">M</td>
+    <td>Filling: pixel-based methods
+     // <a href="presentations.html">discuss presentations</a></td>
+    <td></td>
+    <td>201-205<!-- pixel-based: boundary and flood fill --></td>
+    <td rowspan="3" align="center">UML: Class and Sequence Diagrams
+      <br/><a href="lab3.html">Lab 3: Introduction to the graphics shell</a></td>
+</tr>
+<tr>
+    <td align="center">W</td>
+    <td><a href="cs321-09.pdf">Drawing attributes</a>
+    <td>144-163</td><td>172-177, 183-186, 193-196</td>
+</tr>
+<tr>
+    <td align="center">F</td>
+    <td><a href="cs321-10.pdf">Anti-aliasing</a></td>
+    <td>171-180</td><td>214-221</td>
+</tr>
+
+<tr>
+    <td rowspan="3" align="center">5<br>4-8 October</td>
+    <td align="center">M</td>
+    <td><a href="cs321-11.pdf">Introduction to transformations</a></td>
+    <td>184-190, 600-620</td><td>230-240, 787-808</td>
+    <td rowspan="3" align="center"><a href="http://www.cl.cam.ac.uk/~mgk25/rcsintro.html">RCS (Revision Control System)</a>
+        <br/><a href="lab4.html">Lab 4: Lines and color</a></td>
+</tr>
+<tr>
+    <td align="center">W</td>
+    <td><!--a href="midterm.txt"-->Review for midterm<!--/a--></td>
+    <td></td>
+</tr>
+<tr>
+    <td align="center">F</td>
+    <td>Midterm Exam <em>(Dr. Meier)</em></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td rowspan="3" align="center">6<br>11-15 October</td>
+    <td align="center">M</td>
+    <td><a href="cs321-12.pdf">2-D transformations</a></td>
+    <td>191-205</td><td>241-256</td>
+    <td rowspan="3" align="center"><a href="lab5.html">Lab 5: Polygons</a></td>
+</tr>
+<tr>
+    <td align="center">W</td>
+    <td><a href="cs321-13.pdf">Multiple coordinate systems</a></td>
+    <td>205-207, 217-224</td><td>259-261, 296-305</td>
+</tr>
+<tr>
+    <td align="center">F</td>
+    <td><a href="cs321-16.pdf">3-D graphics</a></td>
+    <td>297-310</td><td>344-349, 129-133</td>
+</tr>
+
+<tr>
+    <td rowspan="3" align="center">7<br>18-22 October</td>
+    <td align="center">M</td>
+    <td><a href="cs321-17.pdf">3-D object representation</a></td>
+    <td>310-334</td><td>402-442</td>
+    <td rowspan="3" align="center"><a href="lab6.html">Lab 6: B&eacute;zier curves</a></td>
+</tr>
+<tr>
+    <td align="center">W</td>
+    <td>Line Clipping: Cohen-Sutherland and Liang-Barsky<!--14--></td>
+    <td>224-244</td><td>315-329</td>
+</tr>
+<tr>
+    <td align="center">F</td>
+    <td><!--a href="cs321-15.pdf"-->Polygon Clipping: Sutherland-Hodgeman and Weiler-Atherton<!--/a--></td>
+    <td></td><td>329-338</td>
+</tr>
+
+<tr>
+    <td rowspan="3" align="center">8<br>25-29 October</td>
+    <td align="center">M</td>
+    <td><a href="cs321-18.pdf">3-D transformations</a></td>
+    <td>408-429</td><td>261-283</td>
+    <td rowspan="9" align="center"><a href="lab7.html">Lab 7: Transformations and 3-D</a></td>
+</tr>
+<tr>
+    <td align="center">W</td>
+    <td>catch up</td>
+</tr>
+<tr>
+    <td align="center">F</td>
+    <td><a href="cs321-19.pdf">3-D viewing</a></td>
+    <td>432-447</td><td>349-356</td>
+</tr>
+
+<tr>
+    <td rowspan="3" align="center">9<br>1-5 November</td>
+    <td align="center">M</td>
+    <td><a href="cs321-20.pdf">Perspective transformations</a></td>
+    <td>447-468</td><td>356-383</td>
+</tr>
+<tr>
+    <td align="center">W</td>
+    <td><a href="cs321-21.pdf">Hidden surface removal</a></td>
+    <td>470-481</td><td>528-540</td>
+</tr>
+<tr>
+    <td align="center">F</td>
+    <td>catch up</td>
+</tr>
+
+<tr>
+    <td rowspan="3" align="center">10<br>8-12 November</td>
+    <td align="center">M</td>
+    <td><a href="cs321-22.pdf">Illumination</a></td>
+    <td>495-522</td><td>556-581</td>
+</tr>
+<tr>
+    <td align="center">W</td>
+    <td><a href="cs321-23.pdf">Color models</a></td>
+    <td>565-581</td><td>712-730</td>
+</tr>
+<tr>
+    <td align="center">F</td>
+    <td>Characters and text</td>
+    <td>131-134, 163-168, 244</td><td>147-149, 211-213, 339
+</tr>
+
+<tr>
+    <td align="center">11<br>15-19 November</td>
+    <td align="center">R</td>
+    <td colspan="3"><strong>Common Final Exam</strong>: 11:00 A.M. - 1:00 P.M., CC-49</td>
+</tr>
+
+</table>
+
+<p>Other potential tool topics for lab discussions: gprof and doxygen.</p>
