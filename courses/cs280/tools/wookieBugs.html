@@ -1,0 +1,669 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html;charset=iso-8859-1" />
+		<title>Mantis</title>
+<script language="JavaScript" type="text/javascript"><!--if(document.layers) {document.write("<style>td{padding:0px;}<\/style>")}//--></script>
+	</head>
+
+<body>
+<div class="center"><span class="pagetitle">Mantis</span></div>
+<table class="hide"><tr><td class="login-info-left">Logged in as: <span class="italic">durant</span> <span class="small">(administrator)</span></td><td class="login-info-middle"><span class="italic">03-24-2005 20:40 CST</span></td><td class="login-info-right"><form method="post" name="form_set_project" action="set_project.php"><select name="project_id" class="small" onchange="document.forms.form_set_project.submit();"><option value="0">All Projects</option><option value="4" selected="selected" >Chewie</option><input type="submit" value="Switch" class="small" /></form></td></tr></table>
+
+<br />
+
+		<form method="post" name="filters" action="view_all_set.php?f=3">
+		<input type="hidden" name="type" value="1" />
+				<input type="hidden" name="sort" value="last_updated" />
+		<input type="hidden" name="dir" value="DESC" />
+		<input type="hidden" name="page_number" value="1" />
+		<table class="width100" cellspacing="0">
+
+                <tr class="row-category2">
+            <td class="small-caption">Reporter</td>
+
+            <td class="small-caption">Assigned To</td>
+            <td class="small-caption">Category</td>
+            <td class="small-caption">Severity</td>
+            <td class="small-caption">Status</td>
+            <td class="small-caption">Show</td>
+            <td class="small-caption">Changed(hrs)</td>
+
+            <td class="small-caption">Hide Status</td>
+        </tr>
+
+		        <tr>
+                        <td>
+                <select name="reporter_id">
+                    <option value="any">any</option>
+                </select>
+
+            </td>
+
+                        <td>
+                <select name="handler_id">
+                    <option value="any">any</option>
+                </select>
+
+            </td>
+
+                        <td>
+                <select name="show_category">
+                    <option value="any">any</option>
+                    <option value="any"></option>
+                                        <option value="Defect">Defect</option><option value="Enhancement">Enhancement</option><option value="Issue">Issue</option><option value="Other">Other</option><option value="Risk">Risk</option>                </select>
+
+            </td>
+
+                        <td>
+                <select name="show_severity">
+                    <option value="any">any</option>
+                    <option value="any"></option>
+                    <option value="10">feature</option><option value="20">trivial</option><option value="30">text</option><option value="40">tweak</option><option value="50">minor</option><option value="60">major</option><option value="70">crash</option><option value="80">block</option>                </select>
+
+            </td>
+
+                        <td>
+                <select name="show_status">
+                    <option value="any">any</option>
+                    <option value="any"></option>
+                    <option value="10">new</option><option value="20">feedback</option><option value="30">acknowledged</option><option value="40">confirmed</option><option value="50">assigned</option><option value="80">resolved</option><option value="90">closed</option>                </select>
+
+            </td>
+
+                        <td>
+                <input type="text" name="per_page" size="3" maxlength="7" value="50" />
+            </td>
+
+                        <td>
+                <input type="text" name="highlight_changed" size="3" maxlength="7" value="6" />
+            </td>
+
+                        <td>
+                <input type="checkbox" name="hide_resolved"  />&nbsp;Resolved                <input type="checkbox" name="hide_closed"  checked="checked"  />&nbsp;Closed            </td>
+        </tr>
+
+                <tr class="row-category2">
+            <td class="small-caption" colspan="2">Search</td>
+            <td class="small-caption" colspan="2"><!--Start Date--></td>
+            <td class="small-caption" colspan="2"><!--End Date--></td>
+
+            <td class="small-caption" colspan="2">&nbsp;</td>
+        </tr>
+
+                <tr>
+                        <td colspan="2">
+                <input type="text" size="16" name="search" value="" />
+            </td>
+
+                        <td class="left" colspan="2">
+            <!--
+                <select name="start_month">
+                    <option value="1">January</option><option value="2">February</option><option value="3" selected="selected">March</option><option value="4">April</option><option value="5">May</option><option value="6">June</option><option value="7">July</option><option value="8">August</option><option value="9">September</option><option value="10">October</option><option value="11">November</option><option value="12">December</option>                </select>
+                <select name="start_day">
+                    <option value="1" selected="selected"> 1 </option><option value="2"> 2 </option><option value="3"> 3 </option><option value="4"> 4 </option><option value="5"> 5 </option><option value="6"> 6 </option><option value="7"> 7 </option><option value="8"> 8 </option><option value="9"> 9 </option><option value="10"> 10 </option><option value="11"> 11 </option><option value="12"> 12 </option><option value="13"> 13 </option><option value="14"> 14 </option><option value="15"> 15 </option><option value="16"> 16 </option><option value="17"> 17 </option><option value="18"> 18 </option><option value="19"> 19 </option><option value="20"> 20 </option><option value="21"> 21 </option><option value="22"> 22 </option><option value="23"> 23 </option><option value="24"> 24 </option><option value="25"> 25 </option><option value="26"> 26 </option><option value="27"> 27 </option><option value="28"> 28 </option><option value="29"> 29 </option><option value="30"> 30 </option><option value="31"> 31 </option>                </select>
+                <select name="start_year">
+                    <option value="2005" selected="selected"> 2005 </option><option value="2004"> 2004 </option><option value="2003"> 2003 </option><option value="2002"> 2002 </option><option value="2001"> 2001 </option><option value="2000"> 2000 </option>                </select>
+            -->
+
+            </td>
+
+                        <td class="left" colspan="2">
+            <!--
+                <select name="end_month">
+                    <option value="1">January</option><option value="2">February</option><option value="3" selected="selected">March</option><option value="4">April</option><option value="5">May</option><option value="6">June</option><option value="7">July</option><option value="8">August</option><option value="9">September</option><option value="10">October</option><option value="11">November</option><option value="12">December</option>                </select>
+                <select name="end_day">
+                    <option value="1"> 1 </option><option value="2"> 2 </option><option value="3"> 3 </option><option value="4"> 4 </option><option value="5"> 5 </option><option value="6"> 6 </option><option value="7"> 7 </option><option value="8"> 8 </option><option value="9"> 9 </option><option value="10"> 10 </option><option value="11"> 11 </option><option value="12"> 12 </option><option value="13"> 13 </option><option value="14"> 14 </option><option value="15"> 15 </option><option value="16"> 16 </option><option value="17"> 17 </option><option value="18"> 18 </option><option value="19"> 19 </option><option value="20"> 20 </option><option value="21"> 21 </option><option value="22"> 22 </option><option value="23"> 23 </option><option value="24" selected="selected"> 24 </option><option value="25"> 25 </option><option value="26"> 26 </option><option value="27"> 27 </option><option value="28"> 28 </option><option value="29"> 29 </option><option value="30"> 30 </option><option value="31"> 31 </option>                </select>
+                <select name="end_year">
+                    <option value="2005" selected="selected"> 2005 </option><option value="2004"> 2004 </option><option value="2003"> 2003 </option><option value="2002"> 2002 </option><option value="2001"> 2001 </option><option value="2000"> 2000 </option>                </select>
+            -->
+            </td>
+
+                        <td class="right" colspan="2">
+                <input type="submit" name="filter" value="Apply Filter" />
+            </td>
+        </tr>
+
+        </table>
+        </form>
+
+
+<br />
+<form method="get" action="bug_actiongroup_page.php">
+<table class="width100" cellspacing="1">
+<tr>
+		<td class="form-title" colspan="8">
+		Viewing Bugs		(1 - 15 / 15)
+				<span class="small">
+			[&nbsp;Print Reports&nbsp;]&nbsp;[&nbsp;CSV Export&nbsp;]		</span>
+
+			</td>
+
+		<td class="right" colspan="2">
+		<span class="small">
+					</span>
+	</td>
+</tr>
+<tr class="row-category">
+	<td class="center">&nbsp;</td>
+
+	<td class="center">&nbsp;</td>
+
+		<td class="center">
+		P			</td>
+
+		<td class="center">
+		ID			</td>
+
+		<td class="center">
+
+		#
+	</td>
+
+
+		<td class="center">
+		Category			</td>
+
+		<td class="center">
+		Severity			</td>
+
+		<td class="center">
+		Status			</td>
+
+		<td class="center">
+		Updated		<!--img src="http://OLDSERVER.msoe.edu/mantis/images/down.gif" alt="" /-->	</td>
+
+		<td class="center">
+
+		Summary			</td>
+</tr>
+<tr>
+	<td class="spacer" colspan="10">&nbsp;</td>
+</tr>
+<tr bgcolor="#cceedd">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="29" />
+	</td>
+
+		<td class="center">
+
+	<!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /-->	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+		<td class="center">
+		0000029	</td>
+
+		<td class="center">
+		<span class="bold">3</span>	</td>
+
+
+		<td class="center">
+		Enhancement	</td>
+		<td class="center">
+		minor	</td>
+
+		<td class="center">
+		<u><a title="fixed">resolved</a></u> (durant)	</td>
+		<td class="center">
+		<span class="bold">2005-03-24</span>	</td>
+		<td class="left">
+		Dynamically finding RST files for code	</td>
+
+</tr>
+<tr bgcolor="#cceedd">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="771" />
+	</td>
+
+		<td class="center">
+	<!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /-->	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+		<td class="center">
+		0000771	</td>
+
+		<td class="center">
+		<span class="bold">3</span>	</td>
+
+
+		<td class="center">
+
+		Defect	</td>
+		<td class="center">
+		minor	</td>
+		<td class="center">
+		<u><a title="fixed">resolved</a></u> (durant)	</td>
+		<td class="center">
+
+		<span class="bold">2005-03-24</span>	</td>
+		<td class="left">
+		Update Memory xx08-xx0F	</td>
+</tr>
+<tr bgcolor="#cceedd">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="794" />
+	</td>
+
+
+		<td class="center">
+	<!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /-->	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+		<td class="center">
+		0000794	</td>
+
+		<td class="center">
+		<span class="bold"><a href="bug_view_page.php?bug_id=0000794&amp;nbn=2#bugnotes">2</a></span>	</td>
+
+
+		<td class="center">
+		Defect	</td>
+		<td class="center">
+		<span class="bold">crash</span>	</td>
+
+		<td class="center">
+		<u><a title="fixed">resolved</a></u> (durant)	</td>
+		<td class="center">
+		<span class="bold">2005-03-24</span>	</td>
+		<td class="left">
+		1.70 Crashes or infinitely loops on S19 double-click	</td>
+
+</tr>
+<tr bgcolor="#ffffb0">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="770" />
+	</td>
+
+		<td class="center">
+	<a href="bug_update_page.php?bug_id=0000770"><!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /--></a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000770" title="[confirmed] Crash: opening S19 from CD-ROM (anything RO?)">0000770</a>	</td>
+
+		<td class="center">
+		<span class="bold"><a href="bug_view_page.php?bug_id=0000770&amp;nbn=2#bugnotes">2</a></span>	</td>
+
+
+		<td class="center">
+
+		Defect	</td>
+		<td class="center">
+		<span class="bold">crash</span>	</td>
+		<td class="center">
+		<u><a title="open">confirmed</a></u>	</td>
+		<td class="center">
+
+		<span class="bold">2005-03-24</span>	</td>
+		<td class="left">
+		Crash: opening S19 from CD-ROM (anything RO?)	</td>
+</tr>
+<tr bgcolor="#ffffb0">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="800" />
+	</td>
+
+
+		<td class="center">
+	<a href="bug_update_page.php?bug_id=0000800"><!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /--></a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000800" title="[confirmed] Browse memory allows edit on some address columns">0000800</a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+
+		<td class="center">
+		Defect	</td>
+		<td class="center">
+		text	</td>
+
+		<td class="center">
+		<u><a title="open">confirmed</a></u>	</td>
+		<td class="center">
+		<span class="bold">2005-03-24</span>	</td>
+		<td class="left">
+		Browse memory allows edit on some address columns	</td>
+
+</tr>
+<tr bgcolor="#ffffb0">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="766" />
+	</td>
+
+		<td class="center">
+	<a href="bug_update_page.php?bug_id=0000766"><!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /--></a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000766" title="[confirmed] Windows Settings .ini should contain Memory Watches">0000766</a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+
+		<td class="center">
+		Enhancement	</td>
+
+		<td class="center">
+		feature	</td>
+		<td class="center">
+		<u><a title="open">confirmed</a></u>	</td>
+		<td class="center">
+		2004-12-26	</td>
+		<td class="left">
+
+		Windows Settings .ini should contain Memory Watches	</td>
+</tr>
+<tr bgcolor="#ffffb0">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="767" />
+	</td>
+
+		<td class="center">
+	<a href="bug_update_page.php?bug_id=0000767"><!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /--></a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000767" title="[confirmed] Memory Watch columns should be sortable">0000767</a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+
+		<td class="center">
+		Enhancement	</td>
+		<td class="center">
+		feature	</td>
+		<td class="center">
+		<u><a title="open">confirmed</a></u>	</td>
+
+		<td class="center">
+		2004-12-26	</td>
+		<td class="left">
+		Memory Watch columns should be sortable	</td>
+</tr>
+<tr bgcolor="#ffffb0">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="768" />
+	</td>
+
+
+		<td class="center">
+	<a href="bug_update_page.php?bug_id=0000768"><!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /--></a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000768" title="[confirmed] Should confirm (exit via border icon) to avoid lost settings">0000768</a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+
+		<td class="center">
+		Enhancement	</td>
+		<td class="center">
+		feature	</td>
+
+		<td class="center">
+		<u><a title="open">confirmed</a></u>	</td>
+		<td class="center">
+		2004-12-26	</td>
+		<td class="left">
+		Should confirm (exit via border icon) to avoid lost settings	</td>
+</tr>
+
+<tr bgcolor="#ff50a8">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="765" />
+	</td>
+
+		<td class="center">
+	<a href="bug_update_page.php?bug_id=0000765"><!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /--></a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000765" title="[feedback] Pin scope causes an eventually fatal memory leak">0000765</a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+
+		<td class="center">
+		Defect	</td>
+
+		<td class="center">
+		<span class="bold">crash</span>	</td>
+		<td class="center">
+		<u><a title="open">feedback</a></u>	</td>
+		<td class="center">
+		2004-12-17	</td>
+
+		<td class="left">
+		Pin scope causes an eventually fatal memory leak	</td>
+</tr>
+<tr bgcolor="#ffffb0">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="24" />
+	</td>
+
+		<td class="center">
+	<a href="bug_update_page.php?bug_id=0000024"><!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /--></a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000024" title="[confirmed] Default button on dialogs is 'close'">0000024</a>	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000024&amp;nbn=1#bugnotes">1</a>	</td>
+
+
+		<td class="center">
+		Enhancement	</td>
+		<td class="center">
+		trivial	</td>
+		<td class="center">
+		<u><a title="open">confirmed</a></u>	</td>
+
+		<td class="center">
+		2004-12-17	</td>
+		<td class="left">
+		Default button on dialogs is 'close'	</td>
+</tr>
+<tr bgcolor="#cceedd">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="31" />
+	</td>
+
+
+		<td class="center">
+	<a href="bug_update_page.php?bug_id=0000031"><!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /--></a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000031" title="[resolved] Keyboard shortcuts">0000031</a>	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000031&amp;nbn=1#bugnotes">1</a>	</td>
+
+
+		<td class="center">
+		Enhancement	</td>
+		<td class="center">
+		tweak	</td>
+
+		<td class="center">
+		<u><a title="not a bug">resolved</a></u>	</td>
+		<td class="center">
+		2004-12-17	</td>
+		<td class="left">
+		Keyboard shortcuts	</td>
+</tr>
+
+<tr bgcolor="#ffffb0">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="687" />
+	</td>
+
+		<td class="center">
+	<a href="bug_update_page.php?bug_id=0000687"><!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /--></a>	</td>
+
+		<td class="center">
+		<!--img src="https://OLDSERVER.msoe.edu/mantis/images/priority_1.gif" alt="" /-->	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000687" title="[confirmed] Single 'Brief Case' mode defaults to normal expanded">0000687</a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+
+		<td class="center">
+		Defect	</td>
+
+		<td class="center">
+		<span class="bold">major</span>	</td>
+		<td class="center">
+		<u><a title="open">confirmed</a></u>	</td>
+		<td class="center">
+		2004-05-10	</td>
+
+		<td class="left">
+		Single 'Brief Case' mode defaults to normal expanded	</td>
+</tr>
+<tr bgcolor="#ffffb0">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="662" />
+	</td>
+
+		<td class="center">
+	<a href="bug_update_page.php?bug_id=0000662"><!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /--></a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000662" title="[confirmed] Keypad lock for single-step debugging">0000662</a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+
+		<td class="center">
+		Enhancement	</td>
+		<td class="center">
+		feature	</td>
+		<td class="center">
+		<u><a title="open">confirmed</a></u>	</td>
+
+		<td class="center">
+		2004-04-08	</td>
+		<td class="left">
+		Keypad lock for single-step debugging	</td>
+</tr>
+<tr bgcolor="#ffffb0">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="28" />
+	</td>
+
+
+		<td class="center">
+	<a href="bug_update_page.php?bug_id=0000028"><!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /--></a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000028" title="[confirmed] Code windows follows active line when stepping">0000028</a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+
+		<td class="center">
+		Enhancement	</td>
+		<td class="center">
+		minor	</td>
+
+		<td class="center">
+		<u><a title="open">confirmed</a></u>	</td>
+		<td class="center">
+		2004-03-07	</td>
+		<td class="left">
+		Code windows follows active line when stepping	</td>
+</tr>
+
+<tr bgcolor="#ffffb0">
+		<td>
+		<input type="checkbox" name="bug_arr[]" value="25" />
+	</td>
+
+		<td class="center">
+	<a href="bug_update_page.php?bug_id=0000025"><!--img border="0" src="https://OLDSERVER.msoe.edu/mantis/images/update.png" alt="Update Bug" /--></a>	</td>
+
+		<td class="center">
+		&nbsp;	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000025" title="[confirmed] Reloading of RST files for an S19">0000025</a>	</td>
+
+		<td class="center">
+		<a href="bug_view_page.php?bug_id=0000025&amp;nbn=2#bugnotes">2</a>	</td>
+
+
+		<td class="center">
+
+		Enhancement	</td>
+		<td class="center">
+		minor	</td>
+		<td class="center">
+		<u><a title="open">confirmed</a></u>	</td>
+		<td class="center">
+		2004-03-07	</td>
+
+		<td class="left">
+		Reloading of RST files for an S19	</td>
+</tr>
+
+	<tr>
+		<td colspan="8">
+			<select name="action">
+				<option value="MOVE">Move</option><option value="ASSIGN">Assign</option><option value="CLOSE">Close</option><option value="DELETE">Delete</option><option value="RESOLVE">Resolve</option><option value="UP_PRIOR">Update Priority</option><option value="UP_STATUS">Update Status</option>			</select>
+
+			<input type="submit" value="OK" />
+		</td>
+				<td class="right" colspan="2">
+			<span class="small">
+							</span>
+		</td>
+	</tr>
+</table>
+</form>
+
+<br /><table class="width100" cellspacing="1"><tr><td class="small-caption" width="14%" bgcolor="#ffa0a0">new</td><td class="small-caption" width="14%" bgcolor="#ff50a8">feedback</td><td class="small-caption" width="14%" bgcolor="#ffd850">acknowledged</td><td class="small-caption" width="14%" bgcolor="#ffffb0">confirmed</td><td class="small-caption" width="14%" bgcolor="#c8c8ff">assigned</td><td class="small-caption" width="14%" bgcolor="#cceedd">resolved</td><td class="small-caption" width="14%" bgcolor="#e8e8e8">closed</td></tr></table><br /><hr size="1" /><span class="timer"><a href="http://www.mantisbt.org/">Mantis 0.18.3</a></span><address>Copyright &copy; 2000 - 2004</address><address>sdladmin@sdl.msoe.edu</address>77 total queries executed.<br />76 unique queries executed.<br />
+</body>
+</html>

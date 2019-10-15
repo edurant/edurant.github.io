@@ -1,0 +1,399 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Mantis - WinBug11</title>
+<style type="text/css">
+body 				{ background-color: #ffffff; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; margin-left: 4px; margin-right: 4px; margin-top: 6px; margin-bottom: 6px; }
+p 					{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
+p.center			{ text-align: center }
+address 			{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt }
+span				{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; }
+table				{ }
+td 					{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; padding: 4px; text-align: left }
+a					{}
+a.small				{ font-size: 8pt; }
+
+input.small			{ font-size: 8pt; }
+select.small		{ font-size: 8pt; }
+
+span.print			{ font-size: 8pt; }
+
+span.required 		{ font-size: 8pt; color: #bb0000; }
+span.small 			{ font-size: 8pt; font-weight: normal; }
+span.pagetitle		{ font-size: 12pt; font-weight: bold; text-align: center }
+span.bold			{ font-weight: bold; }
+span.italic			{ font-style: italic; }
+span.italic			{ font-style: italic; font-size: 8pt; }
+
+table.hide			{ width: 100%; border-color: #ffffff; }
+table.width100		{ width: 100%; border-color: #000000; border-style: solid; border-width: 1px; }
+table.width75		{ width: 75%;  border-color: #000000; border-style: solid; border-width: 1px; }
+table.width60		{ width: 60%;  border-color: #000000; border-style: solid; border-width: 1px; }
+table.width50		{ width: 50%;  border-color: #000000; border-style: solid; border-width: 1px; }
+
+td.center			{ text-align: center; }
+td.left				{ text-align: left; }
+td.right			{ text-align: right; }
+td.category			{ background-color: #c8c8e8; color: #000000; font-weight: bold; }
+td.col-1			{ background-color: #d8d8d8; color: #000000; }
+td.col-2			{ background-color: #e8e8e8; color: #000000; }
+td.form-title		{ background-color: #ffffff; color: #000000; font-weight: bold; }
+td.nopad			{ padding: 0px; }
+td.spacer			{ background-color: #ffffff; color: #000000; font-size: 1pt; line-height: 0.1; }
+td.small-caption	{ font-size: 8pt; }
+td.print			{ font-size: 8pt; text-align: left; padding: 2px; }
+td.print-category	{ font-size: 8pt; color: #000000; font-weight: bold; text-align: right; padding: 2px; }
+td.print-bottom		{ border-bottom: 1px solid #000000; }
+td.print-spacer		{ background-color: #ffffff; color: #000000; font-size: 1pt; line-height: 0.1; padding: 0px;}
+
+tr.center			{ text-align: center; }
+tr.row-1			{ background-color: #d8d8d8; color: #000000; }
+tr.row-2			{ background-color: #e8e8e8; color: #000000; }
+tr.spacer			{ background-color: #ffffff; color: #000000; }
+tr.row-category		{ background-color: #c8c8e8; color: #000000; font-weight: bold; }
+tr.row-category2	{ background-color: #c8c8e8; color: #000000; }
+tr.print			{ vertical-align: top; }
+tr.print-category	{ color: #000000; font-weight: bold; }
+
+td.login-info-left	{ width: 33%; padding: 0px; text-align: left; }
+td.login-info-middle{ width: 33%; padding: 0px; text-align: center; }
+td.login-info-right	{ width: 33%; padding: 0px; text-align: right; }
+span.login-username	{ font-style: italic; }
+span.login-time		{ font-size: 8pt; font-style: italic; }
+
+td.menu				{ background-color: #e8e8e8; color: #000000; text-align: center; width: 100%; padding: 1px; }
+
+td.quick-summary-left	{ width: 50%; text-align: left; }
+td.quick-summary-right	{ width: 50%; text-align: right; }
+
+td.news-heading		{ background-color: #d8d8d8; color: #000000; text-align: left; border-bottom: 1px solid #000000; }
+td.news-body		{ background-color: #ffffff; color: #000000; padding: 16px; }
+span.news-headline	{ font-weight: bold; }
+span.news-date		{ font-style: italic; font-size: 8pt; }
+a.news-email		{ font-size: 8pt; }
+</style>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+if(document.layers) {document.write('<style>td{padding:0px;}</style>')}
+//-->
+</script>
+
+<noscript></noscript>
+</head>
+<body>
+<div align="center"><span class="pagetitle">Mantis - WinBug11</span></div><table class="hide"><form method="post" action="https://OLDSERVER.msoe.edu/mantis/set_project.php"><tr><td class="login-info-left">Logged in as: <span class="login-username">[username]</span> <span class="small">(manager)</span></td><td class="login-info-middle"><span class="login-time">04-16-04 17:27 CDT</span></td><td class="login-info-right"><select name="f_project_id" class="small"><option value="0000000">All Projects</option><option value="0000004">Chewie</option><option value="0000016">CourseDB</option><option value="0000002">CourseDB_Old</option><option value="0000014">EBT</option><option value="0000003">FacSched</option><option value="0000022">FAST</option><option value="0000011">Lab Issues</option><option value="0000020">Leia</option><option value="0000021">MetaViz</option><option value="0000019">Metrics</option><option value="0000015">PalmUI</option><option value="0000018">PIP</option><option value="0000017">Planning</option><option value="0000006">SCM</option><option value="0000005">SEPG</option><option value="0000007">SQA</option><option value="0000009">TestIgnore</option><option value="0000023">TPS</option><option value="0000008">Training</option><option value="0000012" SELECTED>WinBug11</option></select><input type="submit" value="Switch" class="small"></td></tr></form></table><table class="width100" cellspacing="0"><tr><td class="menu"><a href="https://OLDSERVER.msoe.edu/mantis/main_page.php">Main</a> | <a href="https://OLDSERVER.msoe.edu/mantis/view_all_bug_page.php">View Bugs</a> | <a href="https://OLDSERVER.msoe.edu/mantis/report_bug_page.php">Report Bug</a> | <a href="https://OLDSERVER.msoe.edu/mantis/summary_page.php">Summary</a> | <a href="https://OLDSERVER.msoe.edu/mantis/account_page.php">Account</a> | <a href="https://OLDSERVER.msoe.edu/mantis/proj_user_menu_page.php">Users</a> | <a href="https://OLDSERVER.msoe.edu/mantis/news_menu_page.php">Edit News</a> | <a href="https://OLDSERVER.msoe.edu/mantis/proj_doc_page.php">Docs</a> | <a href="https://OLDSERVER.msoe.edu/mantis/logout_page.php">Logout</a></td><form method="post" action="https://OLDSERVER.msoe.edu/mantis/jump_to_bug.php"><td nowrap class="right"><input type="text" name="f_id" size="10" class="small">&nbsp;<input type="submit" value="Jump" class="small">&nbsp;</td></form></tr></table>
+<p>
+<table class="width100" cellspacing="0">
+<form method="post" action="https://OLDSERVER.msoe.edu/mantis/view_all_set.php?f=3">
+<input type="hidden" name="f_type" value="1">
+<input type="hidden" name="f_sort" value="last_updated">
+<input type="hidden" name="f_dir" value="DESC">
+<input type="hidden" name="f_page_number" value="1">
+<input type="hidden" name="f_per_page" value="50">
+<tr class="row-category2">
+    <td class="small-caption">
+		Reporter	</td>
+    <td class="small-caption">
+		Assigned To	</td>
+    <td class="small-caption">
+		Category	</td>
+    <td class="small-caption">
+		Severity	</td>
+    <td class="small-caption">
+		Status	</td>
+    <td class="small-caption">
+		Show	</td>
+    <td class="small-caption">
+		Changed(hrs)	</td>
+    <td class="small-caption">
+		Hide Closed	</td>
+</tr>
+<tr>
+	<td>
+		<select name="f_user_id">
+			<option value="any">any</option>
+			<option value="any"></option>
+			<option value="0000053">listOfUsers</option>		</select>
+	</td>
+	<td>
+		<select name="f_assign_id">
+			<option value="any">any</option>
+			<option value="none" >none</option>
+			<option value="any"></option>
+			<option value="0000053">listOfUsers</option>		</select>
+	</td>
+	<td>
+		<select name="f_show_category">
+			<option value="any">any</option>
+			<option value="any"></option>
+						<option value="Defect">Defect</option><option value="Enhancement">Enhancement</option><option value="Issue">Issue</option><option value="Other">Other</option><option value="Risk">Risk</option>		</select>
+	</td>
+	<td>
+		<select name="f_show_severity">
+			<option value="any">any</option>
+			<option value="any"></option>
+			<option value="10">feature</option><option value="20">trivial</option><option value="30">text</option><option value="40">tweak</option><option value="50">minor</option><option value="60">major</option><option value="70">crash</option><option value="80">block</option>		</select>
+	</td>
+	<td>
+		<select name="f_show_status">
+			<option value="any">any</option>
+			<option value="any"></option>
+			<option value="10">new</option><option value="20">feedback</option><option value="30">acknowledged</option><option value="40">confirmed</option><option value="50">assigned</option><option value="80">resolved</option><option value="90">closed</option>		</select>
+	</td>
+	<td>
+		<input type="text" name="f_per_page" size="3" maxlength="7" value="50">
+	</td>
+	<td>
+		<input type="text" name="f_highlight_changed" size="3" maxlength="7" value="6">
+	</td>
+	<td>
+		<input type="checkbox" name="f_hide_closed" CHECKED>
+	</td>
+</tr>
+<tr class="row-category2">
+    <td class="small-caption">
+        Search    </td>
+<!--	<td class="small-caption" colspan="2">Start Date</td>
+	<td class="small-caption" colspan="2">End Date</td>-->
+	<td class="small-caption" colspan="7">
+		&nbsp;
+	</td>
+</tr>
+<tr>
+	<td>
+	    <input type="text" size="16" name="f_search" value="">
+	</td>
+<!--	<td class="left" colspan="2">
+		<select name="f_start_month">
+			<option value="1">January</option><option value="2">February</option><option value="3">March</option><option value="4" SELECTED>April</option><option value="5">May</option><option value="6">June</option><option value="7">July</option><option value="8">August</option><option value="9">September</option><option value="10">October</option><option value="11">November</option><option value="12">December</option>		</select>
+		<select name="f_start_day">
+			<option value="1" SELECTED> 1 </option><option value="2"> 2 </option><option value="3"> 3 </option><option value="4"> 4 </option><option value="5"> 5 </option><option value="6"> 6 </option><option value="7"> 7 </option><option value="8"> 8 </option><option value="9"> 9 </option><option value="10"> 10 </option><option value="11"> 11 </option><option value="12"> 12 </option><option value="13"> 13 </option><option value="14"> 14 </option><option value="15"> 15 </option><option value="16"> 16 </option><option value="17"> 17 </option><option value="18"> 18 </option><option value="19"> 19 </option><option value="20"> 20 </option><option value="21"> 21 </option><option value="22"> 22 </option><option value="23"> 23 </option><option value="24"> 24 </option><option value="25"> 25 </option><option value="26"> 26 </option><option value="27"> 27 </option><option value="28"> 28 </option><option value="29"> 29 </option><option value="30"> 30 </option><option value="31"> 31 </option>		</select>
+		<select name="f_start_year">
+			<option value="2004" SELECTED> 2004 </option><option value="2003"> 2003 </option><option value="2002"> 2002 </option><option value="2001"> 2001 </option><option value="2000"> 2000 </option>		</select>
+	</td>
+	<td class="left" colspan="2">
+		<select name="f_end_month">
+			<option value="1">January</option><option value="2">February</option><option value="3">March</option><option value="4" SELECTED>April</option><option value="5">May</option><option value="6">June</option><option value="7">July</option><option value="8">August</option><option value="9">September</option><option value="10">October</option><option value="11">November</option><option value="12">December</option>		</select>
+		<select name="f_end_day">
+			<option value="1"> 1 </option><option value="2"> 2 </option><option value="3"> 3 </option><option value="4"> 4 </option><option value="5"> 5 </option><option value="6"> 6 </option><option value="7"> 7 </option><option value="8"> 8 </option><option value="9"> 9 </option><option value="10"> 10 </option><option value="11"> 11 </option><option value="12"> 12 </option><option value="13"> 13 </option><option value="14"> 14 </option><option value="15"> 15 </option><option value="16" SELECTED> 16 </option><option value="17"> 17 </option><option value="18"> 18 </option><option value="19"> 19 </option><option value="20"> 20 </option><option value="21"> 21 </option><option value="22"> 22 </option><option value="23"> 23 </option><option value="24"> 24 </option><option value="25"> 25 </option><option value="26"> 26 </option><option value="27"> 27 </option><option value="28"> 28 </option><option value="29"> 29 </option><option value="30"> 30 </option><option value="31"> 31 </option>		</select>
+		<select name="f_end_year">
+			<option value="2004" SELECTED> 2004 </option><option value="2003"> 2003 </option><option value="2002"> 2002 </option><option value="2001"> 2001 </option><option value="2000"> 2000 </option>		</select>
+	</td>-->
+	<td class="right" colspan="7">
+		<input type="submit" name="f_filter" value="Apply Filter">
+		<input type="submit" name="f_csv" value="CSV Export">
+	</td>
+</tr>
+</form>
+</table>
+
+
+<p>
+<form method="post" action="https://OLDSERVER.msoe.edu/mantis/view_all_bug_update.php">
+<table class="width100" cellspacing="1">
+<tr>
+	<td class="form-title" colspan="8">
+		Viewing Bugs		(1 - 7 / 7)		<span class="small">[ <a href="https://OLDSERVER.msoe.edu/mantis/print_all_bug_page.php">Print Reports</a> ]</span>
+	</td>
+	<td class="right">
+		[
+		1&nbsp;		]
+	</td>
+</tr>
+<tr class="row-category">
+	<td class="center" width="2%">
+		&nbsp;
+	</td>
+	<td class="center" width="5%">
+		<a href="https://OLDSERVER.msoe.edu/mantis/view_all_set.php?f_sort=priority&f_dir=DESC&f_type=2">P</a>			</td>
+	<td class="center" width="8%">
+		<a href="https://OLDSERVER.msoe.edu/mantis/view_all_set.php?f_sort=id&f_dir=DESC&f_type=2">ID</a>			</td>
+	<td class="center" width="3%">
+		#
+	</td>
+	<td class="center" width="12%">
+		<a href="https://OLDSERVER.msoe.edu/mantis/view_all_set.php?f_sort=category&f_dir=DESC&f_type=2">Category</a>			</td>
+	<td class="center" width="10%">
+		<a href="https://OLDSERVER.msoe.edu/mantis/view_all_set.php?f_sort=severity&f_dir=DESC&f_type=2">Severity</a>			</td>
+	<td class="center" width="10%">
+		<a href="https://OLDSERVER.msoe.edu/mantis/view_all_set.php?f_sort=status&f_dir=DESC&f_type=2">Status</a>			</td>
+	<td class="center" width="12%">
+		<a href="https://OLDSERVER.msoe.edu/mantis/view_all_set.php?f_sort=last_updated&f_dir=ASC&f_type=2">Updated</a>		<!--IMG SRC="https://OLDSERVER.msoe.edu/mantis/images/up.gif" ALT=""-->	</td>
+	<td class="center" width="38%">
+		<a href="https://OLDSERVER.msoe.edu/mantis/view_all_set.php?f_sort=summary&f_dir=DESC&f_type=2">Summary</a>			</td>
+</tr>
+<tr>
+	<td class="spacer" colspan="9">
+		&nbsp;
+	</td>
+</tr>
+<tr>
+		<td bgcolor="#ffa0a0">
+			<input type="checkbox" name="f_bug_arr[]" value="0000660">
+	</td>
+		<td class="center" bgcolor="#ffa0a0">
+		<!--IMG SRC="https://OLDSERVER.msoe.edu/mantis/images/mantis-space.gif" ALT=""-->	</td>
+	<td class="center" bgcolor="#ffa0a0">
+		<a href="https://OLDSERVER.msoe.edu/mantis/view_bug_page.php?f_id=0000660">0000660</a>	</td>
+	<td class="center" bgcolor="#ffa0a0">
+		&nbsp;	</td>
+	<td class="center" bgcolor="#ffa0a0">
+		Issue	</td>
+	<td class="center" bgcolor="#ffa0a0">
+		feature	</td>
+	<td class="center" bgcolor="#ffa0a0">
+		new	</td>
+	<td class="center" bgcolor="#ffa0a0">
+		2004-03-31	</td>
+	<td class="left" bgcolor="#ffa0a0">
+		Memory display font should be of fixed pitch/width	</td>
+</tr>
+<tr>
+		<td bgcolor="#ffffb0">
+			<input type="checkbox" name="f_bug_arr[]" value="0000654">
+	</td>
+		<td class="center" bgcolor="#ffffb0">
+		<!--IMG SRC="https://OLDSERVER.msoe.edu/mantis/images/mantis-space.gif" ALT=""-->	</td>
+	<td class="center" bgcolor="#ffffb0">
+		<a href="https://OLDSERVER.msoe.edu/mantis/view_bug_page.php?f_id=0000654">0000654</a>	</td>
+	<td class="center" bgcolor="#ffffb0">
+		&nbsp;	</td>
+	<td class="center" bgcolor="#ffffb0">
+		Defect	</td>
+	<td class="center" bgcolor="#ffffb0">
+		tweak	</td>
+	<td class="center" bgcolor="#ffffb0">
+		confirmed	</td>
+	<td class="center" bgcolor="#ffffb0">
+		2004-03-11	</td>
+	<td class="left" bgcolor="#ffffb0">
+		'Memory View' obscured after 'Memory Display'	</td>
+</tr>
+<tr>
+		<td bgcolor="#ffffb0">
+			<input type="checkbox" name="f_bug_arr[]" value="0000653">
+	</td>
+		<td class="center" bgcolor="#ffffb0">
+		<!--IMG SRC="https://OLDSERVER.msoe.edu/mantis/images/mantis-space.gif" ALT=""-->	</td>
+	<td class="center" bgcolor="#ffffb0">
+		<a href="https://OLDSERVER.msoe.edu/mantis/view_bug_page.php?f_id=0000653">0000653</a>	</td>
+	<td class="center" bgcolor="#ffffb0">
+		&nbsp;	</td>
+	<td class="center" bgcolor="#ffffb0">
+		Defect	</td>
+	<td class="center" bgcolor="#ffffb0">
+		minor	</td>
+	<td class="center" bgcolor="#ffffb0">
+		confirmed	</td>
+	<td class="center" bgcolor="#ffffb0">
+		2004-03-11	</td>
+	<td class="left" bgcolor="#ffffb0">
+		Status line not updated during long talker init	</td>
+</tr>
+<tr>
+		<td bgcolor="#ffffb0">
+			<input type="checkbox" name="f_bug_arr[]" value="0000534">
+	</td>
+		<td class="center" bgcolor="#ffffb0">
+		<!--IMG SRC="https://OLDSERVER.msoe.edu/mantis/images/mantis-space.gif" ALT=""-->	</td>
+	<td class="center" bgcolor="#ffffb0">
+		<a href="https://OLDSERVER.msoe.edu/mantis/view_bug_page.php?f_id=0000534">0000534</a>	</td>
+	<td class="center" bgcolor="#ffffb0">
+		&nbsp;	</td>
+	<td class="center" bgcolor="#ffffb0">
+		Defect	</td>
+	<td class="center" bgcolor="#ffffb0">
+		minor	</td>
+	<td class="center" bgcolor="#ffffb0">
+		confirmed	</td>
+	<td class="center" bgcolor="#ffffb0">
+		2004-03-07	</td>
+	<td class="left" bgcolor="#ffffb0">
+		S19 checksums not validated	</td>
+</tr>
+<tr>
+		<td bgcolor="#ffffb0">
+			<input type="checkbox" name="f_bug_arr[]" value="0000536">
+	</td>
+		<td class="center" bgcolor="#ffffb0">
+		<!--IMG SRC="https://OLDSERVER.msoe.edu/mantis/images/mantis-space.gif" ALT=""-->	</td>
+	<td class="center" bgcolor="#ffffb0">
+		<a href="https://OLDSERVER.msoe.edu/mantis/view_bug_page.php?f_id=0000536">0000536</a>	</td>
+	<td class="center" bgcolor="#ffffb0">
+		1	</td>
+	<td class="center" bgcolor="#ffffb0">
+		Defect	</td>
+	<td class="center" bgcolor="#ffffb0">
+		<span class="bold">major</span>	</td>
+	<td class="center" bgcolor="#ffffb0">
+		confirmed	</td>
+	<td class="center" bgcolor="#ffffb0">
+		2004-03-07	</td>
+	<td class="left" bgcolor="#ffffb0">
+		High resource consumption during execute: IOCTL_SERIAL_GET_COMMSTATUS	</td>
+</tr>
+<tr>
+		<td bgcolor="#ffa0a0">
+			<input type="checkbox" name="f_bug_arr[]" value="0000038">
+	</td>
+		<td class="center" bgcolor="#ffa0a0">
+		<!--IMG SRC="https://OLDSERVER.msoe.edu/mantis/images/mantis-space.gif" ALT=""-->	</td>
+	<td class="center" bgcolor="#ffa0a0">
+		<a href="https://OLDSERVER.msoe.edu/mantis/view_bug_page.php?f_id=0000038">0000038</a>	</td>
+	<td class="center" bgcolor="#ffa0a0">
+		&nbsp;	</td>
+	<td class="center" bgcolor="#ffa0a0">
+		Defect	</td>
+	<td class="center" bgcolor="#ffa0a0">
+		<span class="bold">major</span>	</td>
+	<td class="center" bgcolor="#ffa0a0">
+		new	</td>
+	<td class="center" bgcolor="#ffa0a0">
+		2001-04-27	</td>
+	<td class="left" bgcolor="#ffa0a0">
+		Can't easily reload updated version of same S19 file	</td>
+</tr>
+<tr>
+		<td bgcolor="#c8c8ff">
+			<input type="checkbox" name="f_bug_arr[]" value="0000018">
+	</td>
+		<td class="center" bgcolor="#c8c8ff">
+		<!--IMG SRC="https://OLDSERVER.msoe.edu/mantis/images/mantis-space.gif" ALT=""-->	</td>
+	<td class="center" bgcolor="#c8c8ff">
+		<a href="https://OLDSERVER.msoe.edu/mantis/view_bug_page.php?f_id=0000018">0000018</a>	</td>
+	<td class="center" bgcolor="#c8c8ff">
+		2	</td>
+	<td class="center" bgcolor="#c8c8ff">
+		Issue	</td>
+	<td class="center" bgcolor="#c8c8ff">
+		<span class="bold">major</span>	</td>
+	<td class="center" bgcolor="#c8c8ff">
+		(sebern)	</td>
+	<td class="center" bgcolor="#c8c8ff">
+		2001-04-27	</td>
+	<td class="left" bgcolor="#c8c8ff">
+		The 68HC11 Bootloader places PORTD in wired-or mode	</td>
+</tr>
+<tr>
+	<td colspan="9">
+		<select name="f_project_id">
+		<option value="0000004">Chewie</option><option value="0000016">CourseDB</option><option value="0000002">CourseDB_Old</option><option value="0000014">EBT</option><option value="0000003">FacSched</option><option value="0000022">FAST</option><option value="0000011">Lab Issues</option><option value="0000020">Leia</option><option value="0000021">MetaViz</option><option value="0000019">Metrics</option><option value="0000015">PalmUI</option><option value="0000018">PIP</option><option value="0000017">Planning</option><option value="0000006">SCM</option><option value="0000005">SEPG</option><option value="0000007">SQA</option><option value="0000009">TestIgnore</option><option value="0000023">TPS</option><option value="0000008">Training</option><option value="0000012">WinBug11</option>		</select>
+		<!--
+		# @@@ not functional yet
+		<select name="f_action">
+		<option value="">Move Bugs</option><option value="">Assign</option><option value=""></option><option value="">Resolve</option>		</select>
+		-->
+		<input type="submit" value="Move Bugs">
+	</td>
+</tr>
+</table>
+</form>
+
+<p>
+<div align="center">
+[ View Prev 50 ][ View Next 50 ]</div>
+
+<p><table class="width100" cellspacing="1"><tr><td class="small-caption" bgcolor="#ffa0a0">new</td><td class="small-caption" bgcolor="#ff50a8">feedback</td><td class="small-caption" bgcolor="#ffd850">acknowledged</td><td class="small-caption" bgcolor="#ffffb0">confirmed</td><td class="small-caption" bgcolor="#c8c8ff">assigned</td><td class="small-caption" bgcolor="#cceedd">resolved</td><td class="small-caption" bgcolor="#ffffff">closed</td></tr></table>
+<p><hr size="1"><span class="timer"><a href="http://mantisbt.sourceforge.net/">Mantis 0.17.5</a></span><address>Copyright (C) 2000 - 2002</address><address>sebern@msoe.edu</address></body></html>
+	
