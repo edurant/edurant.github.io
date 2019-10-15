@@ -2,13 +2,12 @@
 title: "CS-280 Lab 7: Interrupt-Driven Feedback Control"
 ---
 
-<p align="center">by Dr. Eric A. Durant
-<br/>This lab was developed in conjunction with <a href="/~welch/">Dr. 
-Henry L Welch</a>.
+by Dr. Eric A. Durant
+<br/>This lab was developed in conjunction with Dr. Henry L Welch.
 
 ## Overview
 
-In this lab, you will expand upon your work from <a href="../lab6/">lab 6</a>
+In this lab, you will expand upon your work from lab 6
 to develop a programmable &quot;DC&quot; power supply. Using assembly language
 you will develop an application that controls whether the
 capacitor in the RC circuit is charging or discharging in an attempt to generate
@@ -130,7 +129,7 @@ Note: No late reports will be accepted after 11 P.M. Wednesday of week 11.
         various inputs.
     * Detail any problems you encountered and any questions
         that remain.
-* Remember that FAST time entry will be checked with this report -- see the course <a href="../outline.shtml">outline</a> for details.
+* Remember that FAST time entry will be checked with this report -- see the course outline for details.
 * Create a Zip archive including your report, source files, final listing files (.rst), and executable file (.s19).
 * Follow the report
     submission requirements.

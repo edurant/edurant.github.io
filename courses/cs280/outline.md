@@ -126,7 +126,7 @@ labs 4 and 7 are graded.
 </tr>
 
 <tr>
-    <th colspan="3" align="center">Spring Break</td>
+    <th colspan="3" align="center">Spring Break</th>
 </tr>
 
 <tr>

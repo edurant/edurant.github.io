@@ -33,7 +33,7 @@ The .s filename extension signifies human-readable assembly language.
 ## Tools
 
 Since you will need them for this and future labs, install the tools available from the
-<a href="../tools/">tools page</a>. Skip section V, since it applies to the
+<a href="tools/">tools page</a>. Skip section V, since it applies to the
 MSOE briefcase, which we are not using.
 
 Next, assemble the program from a command prompt (be sure to see the

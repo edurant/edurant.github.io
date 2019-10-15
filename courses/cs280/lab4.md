@@ -114,7 +114,7 @@ of 100% if all optional requirements are met.
     * Summarize how much time each group member spent on
         the lab using the following categories: design,
         code, test, debug, report writing, and other.
-    * Remember that FAST time entry will be checked with this report -- see the course <a href="../outline.shtml">outline</a> for details.
+    * Remember that FAST time entry will be checked with this report -- see the course outline for details.
     * Document your design. Use appropriate diagrams or tables,
         including flow charts (required) and state diagrams (recommended).
     * Show sample output. This might be a text representation of what was

@@ -16,9 +16,9 @@ download, and run a program. The program you will be writing is a
 display animation program. Specifically, you will scroll a message
 of more than 16 characters across the first line of the 2&times;16 character display.
 
-Begin by carefully studying the <a href="hello.s">sample program</a>.
+Begin by carefully studying the sample program.
 Download it into your "ROOT"\lab3 directory and try it on your Fox11.
-You will also need to download <a href="wytec.s">wytec.s</a> and place
+You will also need to download wytec.s and place
 it in your "ROOT" directory.
 Note that the LCD_LINE1 routine "clobbers" registers D (A:B) and X.
 This can be a problem if you have important values in those registers.

@@ -28,11 +28,11 @@ must use another algorithm to generate the LED pattern. Use the time
 delay (wait) routine discussed in class.
 
 All the downloadable programs are available at the <a
-href="../tools/">tools page</a>.
+href="tools/">tools page</a>.
 
 ## Hints
 
-You can use the <a href="../led-demo.s">LED demo program</a> from class
+You can use the <a href="led-demo.s">LED demo program</a> from class
 as a starting point. The instructions you will use for this project
 include the __JSR__ (or __BSR__) instruction
 to call the wait function. When moving the on LED position to the right,
