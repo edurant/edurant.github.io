@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dr. Eric Durant: EE-393 VLSI Design"
 ---
 

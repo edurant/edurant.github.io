@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dr. Eric Durant: CS-421 Advanced Graphics: (Winter 2004-2005)"
 ---
 

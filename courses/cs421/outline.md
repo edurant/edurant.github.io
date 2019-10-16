@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dr. Durant: CS-421 Advanced Graphics: Course Outline (Winter 2004-2005)"
 ---
 

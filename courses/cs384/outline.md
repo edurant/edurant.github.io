@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dr. Durant: CS-384 Design of Operating Systems: Course Outline"
 ---
 

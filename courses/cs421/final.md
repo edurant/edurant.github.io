@@ -1,4 +1,4 @@
----
+﻿---
 title: ">Dr. Durant: CS-421: Final Exam Educational Objectives"
 ---
 
@@ -44,7 +44,7 @@ For the final exam a student should be able to...
 
 * (not in w0405) Explain the 2-D midpoint displacement algorithm for terrain generation.
 
-* (not in w0405) Describe the basics of the Julia-Fatou sets and the Mandlebr�t set.
+* (not in w0405) Describe the basics of the Julia-Fatou sets and the Mandlebröt set.
 
 * Define an affine map in terms of either Cartesian or homogeneous coordinates.
 

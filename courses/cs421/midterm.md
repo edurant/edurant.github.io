@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dr. Eric Durant: CS-421: Midterm Educational Objectives (Winter 2003-2004)"
 ---
 

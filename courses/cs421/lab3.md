@@ -1,4 +1,4 @@
----
+﻿---
 title: "CS-421 Lab 3: Lego Models"
 
 *__Note__: Numerous links to Qt documentation pages that are no longer hosted at TrollTech have been removed.*
