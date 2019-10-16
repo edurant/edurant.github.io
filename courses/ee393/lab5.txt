@@ -1,0 +1,100 @@
+The Schmitt trigger is basically an input circuit that has 2 states.
+
+Draw Vo vs. Vi curve for an inverter.  Draw 0-5 V transition at approximately Vdd/2, illustrate that Vth is determined along the line Vo=Vi.
+
+Now, draw a curve coming back with Vth lower than before.  Label with flow arrows.  This is hysteresis and provides resistance to noise in the input signals.  (Draw time-domain examples with input jumping around threshold/noisy. -- demonstrate how the Schmitt trigger cleans up output signal.)
+
+As signals are going through a bus and are transitioning at various times, and due to inductive/capacitive coupling, the input signals may appear very noisy.  Consider a motherboard input bus, such as PCI.
+
+The triggers are after the bus.
+
+Draw picture of ~4 parallel bus lines.  Draw ~2-3 multiple devices connected to this parallel bus.  Draw Schmitt trigger inverter symbol IN A DEVICE input line.
+
+A common one is the 74HCT14 -- there is the "hysteresis" symbol in the triangle to indicate this is a Schmitt trigger inverter.  Note that the 74HCT04 will not have the hysteresis symbol.  Draw cross-coupling capacitances between bus lines.
+
+Not only will devices receive signals from the bus, but they will drive the bus, and we want to use a BiCMOS driver for that.  Draw inverter symbol (non-Schmitt) (output buffer) on an output driving line.  This structure is called a "transceiver".  Draw the tristate control ("Z") going into the OBUF.  Note that Z is asserted (tristate OBUF) when we're taking data in.
+
+Part 1 is just the Schmitt trigger.
+
+Now, part 2 of lab... If the CS signal is high (inactive), you don't care about R/~W, and your OBUF is in Z state (could read).
+
+When CS goes low, we are selected.  When R/~W = 1, we are being asked to write out to the bus.  When R/~W = 0, we are being written to from the bus.  (In lab example, we are the memory, and the CPU is talking to us across the bus.)
+
+So, effectively, we use this combination of 2 bits to tell us whether to tristate the OBUF.
+
+Now, let's look at the PSpice schematic.
+
+And, let's look at the Vth expression (in back cover of book)...
+
+          Vdd + Vtp + Vtn sqrt(beta_n/beta_p)
+V_{th} =  -----------------------------------
+             1 + sqrt(beta_n/beta_p)
+
+Consider. Vtp = -1 V, Vtn = 1 V, Vdd = 5 V, beta_p = beta_n
+
+5 - 1 + 1 sqrt(1)   5
+----------------- = - = 2.5
+  1 + sqrt(1)       2
+
+Now, what happens if we change so that beta_n = 16 beta_p...
+
+5 - 1 + 1 * 4   8
+------------- = - = 1.6 V
+   1 + 4        5
+
+Now, what is beta...
+
+beta = Kp W / L : so, I can change beta if I can change the width
+
+Approaches:
+* use a 2nd transistor of a 2nd size
+* put a transistor in parallel
+
+Use a *switch* t connect/disconnect -- this is just a pass transistor!
+
+Now, build up the circuit on the board.
+
+Draw a CMOS inverter (M1(n)/M2)
+M4: Put another PMOS to the right, in parallel, (but leave drain unconnected).
+M3: Put another NMOS to the right, in parallel, (but leave drain unconnected).
+Draw the output line from the first inverter going over to the right.
+Note to make parallel, we just connect these drains to the output line.
+Now, we're going to use FETs to connect/disconnect the 2nd set.
+M8: Put PMOS control along upper path (gate down, towards center) - drain of parallel PMOS
+M7: Put NMOS control along lower path (gate up) - along drain of parallel NMOS.
+Then, connect the right sides of these to the output line.
+Note, the gates of these control FETs are not connected yet.
+Note, in one transition, we want larger Wn, in the other we want larger Wp, so we only connect one at a time.
+So, we drive these control gates by using another inverter - invert the main output line to drive the gates of these control FETs.
+
+So, when output is high, M7 has channel induced, beta n increases, bringing down the Vth.
+
+Note, you don't see hysteresis in DC output.  You can only go 0-5 or 5-0.  So, you have to run twice.  Note, you have to change the sign of the step.
+
+Note that we change between about 1.5 and 2.1 Vth.
+
+One way to graph is to take data into Excel spreadsheet and combine to get hysteresis.
+PSpice
+	Click on the single signal name that you want in the legend
+	Edit | Copy
+Excel
+	Edit | Paste
+
+Paste the 2nd one in Excel
+Show the need to make columns wider
+Label at least the output columns (e.g., rising/falling)
+Show how to do the sort by V_Vin for the descending sweep.
+Then do the XY graph with lines (so you can see the quick vert transition)
+Do some chart cleanup
+	xmax,ymax = 5
+	select and label data points on transition
+
+For Acharya, he said that week 10 will be fine (Durant will do same).
+
+For part 1, how should they attach the Vth -- 2-D experimentation -- see steps in example SCH sent to student -- increase M4 (?), since the lower, make the PMOS stronger to increase the threshold during rise
+
+Complete Separate output stage to get output driver current?
+
+? Are there enough transistors to do the BiCMOS output driver
+
+2nd part under part 1: let's discuss -- this means do the transient analysis and see the 2 different transitions (can tweak frequency/load if you want) (triangle is pulse with PW=0)

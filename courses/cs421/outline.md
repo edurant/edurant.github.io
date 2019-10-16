@@ -157,7 +157,8 @@ title: "Dr. Durant: CS-421 Advanced Graphics: Course Outline (Winter 2004-2005)"
 </tr>
 </table>
 
-<h2>Optional Topics</h2>
+## Optional Topics
+
 <table border summary="Optional Topics Not Covered This Quarter">
 <tr>
     <th>Lecture Topics</th>
@@ -184,7 +185,6 @@ title: "Dr. Durant: CS-421 Advanced Graphics: Course Outline (Winter 2004-2005)"
     <td><!--a href="cs421-16.txt"-->Quaternions<!--/a--></td>
     <td>HB2: pp. 419-420, 617-618<br/>HB3: TBA</td>
 </tr>
-
 </table>
 
-<p>Key: HB2 (Hearn &amp; Baker, 2ed), HB3 (Hearn &amp; Baker, 3ed), GL (OpenGL Programming Guide, v1.4)</p>
+Key: HB2 (Hearn &amp; Baker, 2ed), HB3 (Hearn &amp; Baker, 3ed), GL (OpenGL Programming Guide, v1.4)
