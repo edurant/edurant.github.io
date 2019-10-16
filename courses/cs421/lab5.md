@@ -6,14 +6,16 @@ You may work in pairs or alone on this lab assignment.
 
 Enhance your program from last week to include animation.
 
+*Numerous links to Qt documentation pages that are no longer hosted at TrollTech have been removed.*
+
 ## Required
 
 * Create an animation in which two or more Lego blocks move into their
   places in a model. Each block must move independently.
 * Control the frame rate using either an easily updated compile-time constant or a
   UI.
-* Use double-buffering (automatic, by default, when deriving from <a href="http://doc.trolltech.com/qglwidget.html">QGLWidget</a>).
-* Start the timing chain by using <a href="http://doc.trolltech.com/qtimer.html">QTimer</a>::singleShot from to register
+* Use double-buffering (automatic, by default, when deriving from QGLWidget).
+* Start the timing chain by using QTimer::singleShot from to register
   your timer function. This should be done from an override of the virtual
   polish function in your class derived from QGLWidget.
 * Your timer function should update the simulation time, trigger an update

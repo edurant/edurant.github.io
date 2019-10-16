@@ -33,7 +33,7 @@ pp. 18-19*\]. You are not required to compile it, but doing so is
 a good exercise and will get your computer set up to compile other
 examples from the text and from class.  See <a href="glut.html">Using GLUT</a>.
 
-2. Read the Qt documentation on <a href="http://doc.trolltech.com/qglwidget.html">QGLWidget</a>.
+2. Read the Qt documentation on QGLWidget.
 
 In order to make the simple program from the book work under Linux/Qt the
 <a href="lab2start.zip">following components</a> are needed:
