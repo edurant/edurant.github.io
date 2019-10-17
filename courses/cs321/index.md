@@ -6,12 +6,10 @@ title: "Dr. Durant: CS-321 Computer Graphics (Fall 2004)"
 
 ## Textbook
 
-<ul>
-    <li>Required: <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0130153907/">Donald
-        Hearn and M. Pauline Baker, <cite>Computer Graphics with OpenGL (3rd Edition)</cite>, Prentice Hall, 2004.</a></li>
-    <li>Optional: <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0596000642/">Matthias
-        Kalle Dalheimer, <cite>Programming with Qt (2nd Edition)</cite>, O'Reilly, 2002.</a></li>
-</ul>
+* Required: [Donald
+  Hearn and M. Pauline Baker, *Computer Graphics with OpenGL (3rd Edition)*, Prentice Hall, 2004.](https://www.amazon.com/exec/obidos/tg/detail/-/0130153907/)
+* Optional: [Matthias
+  Kalle Dalheimer, *Programming with Qt (2nd Edition)*, O'Reilly, 2002.](https://www.amazon.com/exec/obidos/tg/detail/-/0596000642/)
 
 ## Schedule
 

@@ -2,14 +2,6 @@
 title: "Dr. Durant: CS-280 Embedded Systems Software: Course Outline (Spring 2006)"
 ---
 
-You will need to keep track of the time you spend each week on the lab
-assignments and enter it in the FAST system.
-The FAST system is only available on campus or via MSOE's VPN.
-Your student ID number is your initial password. FAST provides
-both you and me with easy access to your time summary information. You are
-encouraged to enter your times regularly, but they will be checked when
-labs 4 and 7 are graded.
-
 <table border>
 <tr>
     <th>Week</th>

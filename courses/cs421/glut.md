@@ -14,10 +14,10 @@ Win32 and most Linuxen.
 
 RedHat 9 GLUT binaries are compatible with FC2.
 GLUT requires GL and GLU, so ensure that the officially supported
-xorg-x11-Mesa-lib{GL,GLU} are installed.  (Use up2date as root.)
+xorg-x11-Mesa-lib{GL,GLU} are installed. (Use up2date as root.)
 
 Install the glut and glut-devel RPMs listed below (or found via
-an Rpmfind-type resource).  As of 5-Dec-2004, Fedora binaries
+an Rpmfind-type resource). As of 5-Dec-2004, Fedora binaries
 were not available, but the RH9 binaries work correctly on FC2.
 Download the RPMs and install them as root with `rpm -ivh glut-*.rpm`.
 
@@ -36,11 +36,10 @@ So, a complete compile under FC2 might look like
 <pre>g++ example1_2.cpp -o example1_2 -lglut -lGL -lGLU -L/usr/X11R6/lib -lXi -lXmu</pre>
 
 When attempting to run the application, GLUT will abort if it cannot access
-the OpenGL interface to your X11-based display (via <a href="http://www.sgi.com/products/software/opensource/glx/">GLX</a>).  If this happens
-on FC2, in /etc/X11/xorg.conf [edit as root], uncomment the 'Load "glx"'
-line in the "Module" Section and restart the X Server (Ctrl-Alt-Backspace
-[this will kill any jobs that are using the X Server]).  On other Linuxen,
-the relevant file is XF86Config, sometimes in the /etc directory.  This
+the OpenGL interface to your X11-based display (via <a href="http://www.sgi.com/products/software/opensource/glx/">GLX</a>). If this happens
+on FC2, in /etc/X11/xorg.conf (edit as root), uncomment the 'Load "glx"'
+line in the "Module" Section and restart the X Server (Ctrl-Alt-Backspace - this will kill any jobs that are using the X Server). On other Linuxen,
+the relevant file is XF86Config, sometimes in the /etc directory. This
 has been tested under FC2 under VMWare 4.5.2 (software emulation of OpenGL).
 If you have installed accelerated video drivers, hardware acceleration of
 OpenGL will probably be available via a module with a name like "nvidia-glx".

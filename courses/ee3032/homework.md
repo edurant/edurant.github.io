@@ -6,7 +6,7 @@ date: 2019-10-02 16:36:00 -0500
 ## 2019
 
 * <a href="hw0.pdf">Homework 0, due Monday of week 2 at beginning of class</a> <a href="hw0sol.pdf">Solution</a>
-* Homework 1, due Tuesday of week 3 at the beginning of class. Be sure to support answers; for example, if you were to say that 1.24(b) is <em>neither</em> show why using at least one of a sketch, a proof, properties of products of even and odd functions, etc. 1.20(c), 1.21(b,c), 1.23(c), 1.24(b), 1.28(c), 1.30(a,b),
+* Homework 1, due Tuesday of week 3 at the beginning of class. Be sure to support answers; for example, if you were to say that 1.24(b) is *neither* show why using at least one of a sketch, a proof, properties of products of even and odd functions, etc. 1.20(c), 1.21(b,c), 1.23(c), 1.24(b), 1.28(c), 1.30(a,b),
 	    <a href="hw1sol.pdf">Solution</a>
 * Homework 2, due Tuesday of week 4 at the beginning of class. 1.33(a,b), 1.35(a), 1.38(b), 2.1(b,e), 2.2(a,e), 2.5(a,c)
 

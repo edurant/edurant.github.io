@@ -2,18 +2,18 @@
 title: "Dr. Durant: CS-489 Software Engineering Design"
 ---
 
-## <a href="outline.html">Outline of topics and labs</a>
+## [Outline of topics and labs](outline.html)
 
 ## Textbook
 
-* <cite><a href="http://www.amazon.com/gp/product/0131489062/">Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design 3rd Edition</a></cite> by Craig Larman, Prentice-Hall, 2005.
+* *[Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design 3rd Edition](https://www.amazon.com/gp/product/0131489062/)* by Craig Larman, Prentice-Hall, 2005.
 
 ## References
 
-* <cite><a href="http://www.amazon.com/gp/product/0201633612/">Design Patterns: Elements of Reusable Object-Oriented Software</a></cite> by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides, Addison-Wesley, 1995.
-* <cite><a href="http://www.amazon.com/gp/product/020147719X/">Introduction to the Team Software Process</a></cite> by Watts S. Humphrey, Addison-Wesley, 1999.
-* 2008 Example: <a href="CCCP.docx">Word 2007</a>, <a href="CCCP.pdf">PDF</a>
-* <a href="http://edurant.smugmug.com/gallery/6105474_jwCbu">Photos of board drawings</a>
+* *[Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/gp/product/0201633612/)* by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides, Addison-Wesley, 1995.
+* *[Introduction to the Team Software Process](https://www.amazon.com/gp/product/020147719X/)* by Watts S. Humphrey, Addison-Wesley, 1999.
+* 2008 Example: [PDF](CCCP.pdf)
+* [Photos of board drawings](https://edurant.smugmug.com/MSOE/CS489-F08-Some-board-drawings/)
 
 ## Schedule
 

@@ -36,7 +36,7 @@ date: 2019-10-13 13:52:00 -0500
 * Can also take CE499/CS499/SE499/EE499 independent study (and similar numbers) for 1-3 credits.
 * The complete UGR498x sequence consists of 6 credits and meets 2 CE PEs. Like the EE program, CE does not accept a partial UGR sequence for PE credit. However, see the note under the free elective.
 * Certain sophomore level classes from other majors (that aren't significantly duplicative of CE content), including SE2811, SE2840, SE2800, SE2832
-  * SE2040 may <em>not</em> be used as a program elective.
+  * SE2040 may *not* be used as a program elective.
 * Credits must add up. For example, if your curriculum version requires 6 PE credits, you might take an approved EECS class for 4 credits and a 2-credit CE499.
 
 ## Free Elective and GE (General Education) Elective

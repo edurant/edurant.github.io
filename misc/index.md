@@ -6,7 +6,7 @@ title: "Dr. Durant: Miscellaneous"
  * [Faculty and Staff Book Club](bookClub.html)
  * For MSOE Faculty
    * In-service presentation handouts
-     * <a href="2015inserviceGtd.html">2015: Getting Things Done</a>
+     * [2015: Getting Things Done](2015inserviceGtd.html)
      * <a href="2007inserviceSeniorProjectTeams.pdf">2007: Senior Design (PDF)</a>
      * <a href="2006InServiceDevelopmentalAdvising.pdf">2006: Developmental Advising (PDF)</a>
    * <a href="boiceSurvey.doc">Boice's feedback survey (Word)</a>

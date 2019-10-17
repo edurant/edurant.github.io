@@ -41,7 +41,7 @@ analog voltage on the capacitor. This should work as follows:
 1. Accept user input of a desired voltage using up to three keypresses (0&#8211;500). "5" should be interpreted
   as 0.05 V, "50" or "050" should be interpreted as 0.50 V, and "23456" should have characters
   after the 3rd ignored and be interpreted as 2.34 V. You are not required to do special
-  error handling for inputs such as "740"&#8212;this is just a voltage 
+  error handling for inputs such as "740"&#8212;this is just a voltage
   that is higher than attainable,
   so your algorithm should naturally seek out the maximum voltage when given such a large value.
 2. The display should show the actual voltage (using the averaging and scaling technique from lab 6) on the top line.
@@ -49,7 +49,7 @@ analog voltage on the capacitor. This should work as follows:
    The display should show either the voltage being entered or the target voltage (if the input buffer is empty) on the bottom line.
 
     The display should be updated about 10 times per second via a dedicated timer interrupt.
-3. Develop another ISR that monitors the analog voltage and either sets or 
+3. Develop another ISR that monitors the analog voltage and either sets or
 clears the control pin as follows about 100 times per second:
     * If the voltage is too low output a 1
     * If the voltage is too high output a 0
@@ -61,7 +61,7 @@ with the following functionality:
     * &quot;A&quot; increases the desired output by 0.10 V. (do not go over limit of 9.99)
     * &quot;B&quot; decreases the desired output by 0.10 V. (do not go under limit of 0.00)
     * &quot;E&quot; enter the numeric entry in progress
-    * &quot;F&quot; backspace&#8212;Be sure to handle the case 
+    * &quot;F&quot; backspace&#8212;Be sure to handle the case
         where there is no entry in progress.
 
 5. Under all circumstances the program should continue to control the
@@ -71,9 +71,9 @@ with the following functionality:
 
 Note: When the program starts up, the target voltage should be 2.50 V.
 
-The component values may vary somewhat without materially affecting 
-operation of the circuit; RF2 should be small, but not so small as to draw 
-too much current when the control pin goes to ground. The RC time constant 
+The component values may vary somewhat without materially affecting
+operation of the circuit; RF2 should be small, but not so small as to draw
+too much current when the control pin goes to ground. The RC time constant
 RF1&times;CF should be between roughly 0.5 and 1.0 s.
 
 ### Hints and Caveats
@@ -85,31 +85,31 @@ RF1&times;CF should be between roughly 0.5 and 1.0 s.
     this, your setting will be remembered for the active S19 file, so you do not need to
     do this repeatedly. <strong>However</strong>, some features of the Wytec debugger
     are affected by using a non-default value for the prescaler (TMSK2:PR).  So,
-    you should debug your code with TMSK2:PR==0.  You may use either TMSK2:PR==0 (come as 
+    you should debug your code with TMSK2:PR==0.  You may use either TMSK2:PR==0 (come as
     close to the timing requirements as possible) or TMSK2:PR==3 for final testing
     and your demonstration.  (An example of a debugging problem with PR!=0 is that
     single-step will actually step several instructions.)
 * PE0-PE3 are used for the keypad, so it is recommended that you use PE4 for your analog
     input.  Port E can be used for analog and digital input simultaneously.  Digital reads
     are done via "porte" and analog reads are done via "adrN".
-* Set-up the A/D in continuous conversion mode. Then you do not need to 
-    poll for A/D completion. Just look in the ADR* registers for 
+* Set-up the A/D in continuous conversion mode. Then you do not need to
+    poll for A/D completion. Just look in the ADR* registers for
     the most recent values when you need them.
-* Use two separate timer interrupts&#8212;one for the display and one 
-    for the digital control output. Be sure to schedule the next 
-    interrupt during the ISR. A <strong>very common error</strong> is 
-    forgetting to clear the interrupt flag before ending the ISR. This 
-    will cause your system to continually handle interrupts and not accept 
+* Use two separate timer interrupts&#8212;one for the display and one
+    for the digital control output. Be sure to schedule the next
+    interrupt during the ISR. A <strong>very common error</strong> is
+    forgetting to clear the interrupt flag before ending the ISR. This
+    will cause your system to continually handle interrupts and not accept
     key input, etc.
-* Design and test the program in <strong>small chunks</strong>. For example, get the 
-    display interrupt working and make sure it shows you the proper 
-    voltage (try manually connecting the digital input to logic 0 and 
+* Design and test the program in <strong>small chunks</strong>. For example, get the
+    display interrupt working and make sure it shows you the proper
+    voltage (try manually connecting the digital input to logic 0 and
     logic 1). Then, enable key input and setting of the target voltage.
-    Finally, implement and enable the control interrupt. A few different 
+    Finally, implement and enable the control interrupt. A few different
     implementation paths are possible; this is only a suggestion.
-* Although Wookie does not simulate the A/D system or your 2&times;16 display, it does simulate 
-    timer interrupts. So, you can use Wookie with the A/D in continuous 
-    conversion mode and the Registers window open for manually modifying 
+* Although Wookie does not simulate the A/D system or your 2&times;16 display, it does simulate
+    timer interrupts. So, you can use Wookie with the A/D in continuous
+    conversion mode and the Registers window open for manually modifying
     the ADR* registers to test part of your program.
 
 ## Report (due by Friday of Week 10, 11 P.M.)
@@ -125,11 +125,10 @@ Note: No late reports will be accepted after 11 P.M. Wednesday of week 11.
         code, test, debug, report writing, and other.
     * Document your design.
     * Discuss how the various parts of your program shared the desired voltage.  Be sure to mention all parts of the program that needed access to this value.
-    * Instead of sample output, discuss the behavior of your system (accuracy, speed) for 
+    * Instead of sample output, discuss the behavior of your system (accuracy, speed) for
         various inputs.
     * Detail any problems you encountered and any questions
         that remain.
-* Remember that FAST time entry will be checked with this report -- see the course outline for details.
 * Create a Zip archive including your report, source files, final listing files (.rst), and executable file (.s19).
 * Follow the report
     submission requirements.

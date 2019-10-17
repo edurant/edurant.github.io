@@ -10,7 +10,7 @@ Recommended homework problems from Ingle & Proakis, 3rd Edition
   * Advanced: Investigate how to use the Symbolic Toolbox in MATLAB to check some of these problems. [MATLAB Symbolic Toolbox article on z-transforms](http://www.mathworks.com/help/symbolic/compute-z-transforms-and-inverse-z-transforms.html)
 * Medium: 4.2
 * Medium: 4.3
-* Basic: 4.9.  Hint: use conv.
+* Basic: 4.9. Hint: use conv.
 * Basic: 4.15.1-2
 * Advanced: 4.15.3
 * Medium: 4.17.1-2
@@ -18,7 +18,6 @@ Recommended homework problems from Ingle & Proakis, 3rd Edition
 * Basic-Medium: 4.18.1-4
 * Medium: 4.20
 * Basic: 4.25
-</ul>
 
 # Chapter 5
 * Basic: 5.1: Calculate the DFT for the given examples. Check your results in MATLAB.
@@ -44,14 +43,14 @@ Recommended homework problems from Ingle & Proakis, 3rd Edition
 The following problems are from the old version of the class. Although we cover the topics in a different order now, you should be able to complete all of them by the end of the course.
 Please contact me directly if you wish to try the software mentioned in some of the problems.
 
-<strong>PROB-A: Reconstruction, Aliasing, Zero Order Hold:</strong> Two cosines are summed and sampled at fs=20 kHz.  A ZOH and an ideal reconstruction LPF are then used to create continuous time signals from the samples.  The cosines before sampling are at frequencies of 1000 Hz (with magnitude of 0.7 and phase of -30 degrees) and 9000 Hz (with magnitude of 0.4 and phase of +45 degrees).  Determine the mathematical expressions for the resulting continuous-time cosine signals in the frequency range from zero to fs/2 Hz.  Re-do the problem if fs=10 kHz (aliasing!).
+<strong>PROB-A: Reconstruction, Aliasing, Zero Order Hold:</strong> Two cosines are summed and sampled at fs=20 kHz. A ZOH and an ideal reconstruction LPF are then used to create continuous time signals from the samples. The cosines before sampling are at frequencies of 1000 Hz (with magnitude of 0.7 and phase of -30 degrees) and 9000 Hz (with magnitude of 0.4 and phase of +45 degrees). Determine the mathematical expressions for the resulting continuous-time cosine signals in the frequency range from zero to fs/2 Hz. Re-do the problem if fs=10 kHz (aliasing!).
 
-<strong>PROB-B: Pole/Zero Design:</strong> Find the transfer function and difference equation of a notch filter if the sample rate is 1000 Hz and the notch is at 60 Hz.  Use ZBode to verify the design.
+<strong>PROB-B: Pole/Zero Design:</strong> Find the transfer function and difference equation of a notch filter if the sample rate is 1000 Hz and the notch is at 60 Hz. Use ZBode to verify the design.
 
-<strong>PROB-C: Windowing:</strong> Using fs=1000 Hz, find 30 samples of three periods of a 1-volt, zero phase cosine.  Determine the spectrum using Dr. Reyer's "Fourier" program.  You may also wish to use either Matlab or a spreadsheet.  Now shorten the list by 2 samples and find the spectrum.  Use a Hamming window on the 28-point list.  Find the resulting spectrum.  Compare all spectra.
+<strong>PROB-C: Windowing:</strong> Using fs=1000 Hz, find 30 samples of three periods of a 1-volt, zero phase cosine. Determine the spectrum using Dr. Reyer's "Fourier" program. You may also wish to use either MATLAB or a spreadsheet. Now shorten the list by 2 samples and find the spectrum. Use a Hamming window on the 28-point list. Find the resulting spectrum. Compare all spectra.
 
-<strong>PROB-D: FFT:</strong> One period of a periodic function is:  15.5, 14.6, -1.57, 3.2, -15.5, -14.6, 1.57, -3.2.  Using a DIT FFT find (by hand, with a calculator) the magnitudes and phases of cosine contributions at 125 Hz, 250 Hz, and 375 Hz.  The sample rate is 1000 Hz.
+<strong>PROB-D: FFT:</strong> One period of a periodic function is:  15.5, 14.6, -1.57, 3.2, -15.5, -14.6, 1.57, -3.2. Using a DIT FFT find (by hand, with a calculator) the magnitudes and phases of cosine contributions at 125 Hz, 250 Hz, and 375 Hz. The sample rate is 1000 Hz.
 
-<strong>PROB-E: IIR Filter Design:</strong> Using the Bilinear Transform method (paper/pencil/calculator approach), design an IIR lowpass filter if fs=1000 Hz, 3rd order, cutoff freq = 150 Hz, DC gain = +4 dB.  Find the transfer function.  Test the transfer function with ZBode.
+<strong>PROB-E: IIR Filter Design:</strong> Using the Bilinear Transform method (paper/pencil/calculator approach), design an IIR lowpass filter if fs=1000 Hz, 3rd order, cutoff freq = 150 Hz, DC gain = +4 dB. Find the transfer function. Test the transfer function with ZBode.
 
-<strong>PROB-F: Interpolation and Decimation:</strong> Assume you have a signal that is bandlimited to the range of 0-3 kHz.  The sample rate is 12 kHz.  The desire is to change the sample rate to 9 kHz.  Determine a strategy for doing the sample rate change.  Sketch spectra and filters needed, including cutoff frequencies and gains.
+<strong>PROB-F: Interpolation and Decimation:</strong> Assume you have a signal that is bandlimited to the range of 0-3 kHz. The sample rate is 12 kHz. The desire is to change the sample rate to 9 kHz. Determine a strategy for doing the sample rate change. Sketch spectra and filters needed, including cutoff frequencies and gains.

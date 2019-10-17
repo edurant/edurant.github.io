@@ -80,15 +80,15 @@ Meeting these requirements will result in additional points on the demos.
 
 ### Connecting the keypad
 
-The keypad will only work when connected to J6 (near the DIP switches) such that the 
-keypad is facing up when it is bent away from the Fox11 board. There are 10 holes in the 
+The keypad will only work when connected to J6 (near the DIP switches) such that the
+keypad is facing up when it is bent away from the Fox11 board. There are 10 holes in the
 socket but 8 pins on K6&mdash;there is one unused pin on each side of the socket.
 
 ### .include "keypad.s"
 
-If you use .include "keypad.s" to access the keypad code from your main program, 
-you should do so at the end of your .s file. Otherwise, the keypad code will be assembled 
-before the \_start of your program, so you would need to use an address different than 8400 
+If you use .include "keypad.s" to access the keypad code from your main program,
+you should do so at the end of your .s file. Otherwise, the keypad code will be assembled
+before the \_start of your program, so you would need to use an address different than 8400
 (which could be found in the .rst file) to start your program.
 
 ## Demonstrations
@@ -114,7 +114,6 @@ of 100% if all optional requirements are met.
     * Summarize how much time each group member spent on
         the lab using the following categories: design,
         code, test, debug, report writing, and other.
-    * Remember that FAST time entry will be checked with this report -- see the course outline for details.
     * Document your design. Use appropriate diagrams or tables,
         including flow charts (required) and state diagrams (recommended).
     * Show sample output. This might be a text representation of what was

@@ -2,7 +2,7 @@
 title: "Dr. Durant: CS-280 Embedded Systems Software (Spring 2006)"
 ---
 
-## Course description and outcomes [no longer available onine]
+## Course description and outcomes [no longer available online]
 
 ## <a href="objectives.pdf">Detailed learning objectives</a>
 
@@ -17,13 +17,10 @@ title: "Dr. Durant: CS-280 Embedded Systems Software (Spring 2006)"
 No textbook is required for this course. However, each student is required to purchase a FOX11 kit with keypad and display. These are available in the bookstore and will be used in CS-384 and perhaps other classes in the junior and senior years.
 
 You will need a copy of a Motorola
-reference guide, which will be distributed in class. It is also available in
-Acrobat format, as is a more comprehensive reference manual:
+reference guide, which will be distributed in class. It is also available in PDF, as is a more comprehensive reference manual:
 
-<ul>
-  <li>MC68HC11 E Series Programming Reference Guide</li>
-  <li>MC68HC11 Reference Manual</li>
-</ul>
+* MC68HC11 E Series Programming Reference Guide
+* MC68HC11 Reference Manual
 
 ## Schedule
 

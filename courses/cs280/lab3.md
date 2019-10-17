@@ -1,5 +1,5 @@
 ---
-title: "CS-280 Lab 3: Scroling Message"
+title: "CS-280 Lab 3: Scrolling Message"
 ---
 
 ## Overview
@@ -23,20 +23,20 @@ it in your "ROOT" directory.
 Note that the LCD_LINE1 routine "clobbers" registers D (A:B) and X.
 This can be a problem if you have important values in those registers.
 A solution is to save copies of the important values before calling the
-subroutine and to restore them after.  This can be done using the stack.
+subroutine and to restore them after. This can be done using the stack.
 
 <pre>    psha                ; Save important value from A to stack
     pshx                ; Same for X
-    jsr     LCD_LINE1   ; LCD_LINE1 destroys D (A:B) and X.  Y is untouched.
+    jsr     LCD_LINE1   ; LCD_LINE1 destroys D (A:B) and X. Y is untouched.
     pulx                ; Restore important value from stack to X (stack/nested order)
     pula                ; Same for A</pre>
 
 Use the time delay (wait) routine from the last lab so that there is enough
 time to see that your message is scrolling. You are only required to scroll
-the message once, but may scroll it repeatedly or cause it to bounce back and forth if you 
-wish.  You may adapt the strnlen code
+the message once, but may scroll it repeatedly or cause it to bounce back and forth if you
+wish. You may adapt the strnlen code
 from the first lab to calculate the length of the string, which will allow
-you to calculate the number of frames to display.  Or, you may just check for the NUL 
+you to calculate the number of frames to display. Or, you may just check for the NUL
 character at the end of your .asciz string.
 
 For example, if your string is "Quis custodiet ipsos custodes?", your successive frames would be...
@@ -57,14 +57,14 @@ et ipsos custode
 t ipsos custodes
  ipsos custodes?</pre>
 
-The display on the Fox11 uses the ubiquitous Hitachi chipset.  Specifically,
-the display is manufactured by Hantronix.  As can be seen in the sample program for
+The display on the Fox11 uses the ubiquitous Hitachi chipset. Specifically,
+the display is manufactured by Hantronix. As can be seen in the sample program for
 this lab, we are interfacing with the display at a fairly high level using routines
-in the Fox11 ROM.  LCD_SPEC.PDF on your Fox11 CD (or in your Ep2IDE/document folder
+in the Fox11 ROM. LCD_SPEC.PDF on your Fox11 CD (or in your Ep2IDE/document folder
 after installation) contains a wealth of information about the display, but, for the
-current lab, page 8 in the PDF is of interest.  It shows that the Hitachi chipset
+current lab, page 8 in the PDF is of interest. It shows that the Hitachi chipset
 supports all of the standard ASCII characters, plus a number of Japanese and
-scientific characters.  For comparison, here is the 7-bit
+scientific characters. For comparison, here is the 7-bit
 <a href="lowASCIIchart.gif">ASCII character set</a>.
 
 ## Report (due by the beginning of the week 4 lab)

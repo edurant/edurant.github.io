@@ -13,16 +13,16 @@ shortcomings in accompanying documentation.
 
 You are encouraged to discuss assignments with your colleagues, but
 you must do your own work. This may include discussing the structure or
-syntax and meaning of various, <em>specific</em> parts of a design.  However,
+syntax and meaning of various, *specific* parts of a design.  However,
 examining another student's work outside of this limited context is
-<em>not</em> acceptable, <em>regardless</em> of whether you have his or her
+*not* acceptable, *regardless* of whether you have his or her
 permission, except for the purposes of assigned reviews and group
 projects or after all parties have submitted their assignments.
 
 You must acknowledge the original ideas of others unless they are
 widely known in the field. If you have any doubt, you should acknowledge
 an idea. If you have questions about any of these standards or what you
-should do in a particular situation, <em>please ask me</em>. Failure to observe
+should do in a particular situation, *please ask me*. Failure to observe
 these standards will result in penalties ranging from an F on an
 assignment to an F for the course.
 

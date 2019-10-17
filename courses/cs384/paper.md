@@ -22,7 +22,7 @@ material in the textbook.
 A __preliminary outline and bibliography__ is to be submitted before the
 full paper; due dates are shown in the course schedule.
 
-The final paper must be submitted in Word, PDF, or other agreed upon 
+The final paper must be submitted in Word, PDF, or other agreed upon
 format via email and will be posted on the Web.
 
 Each student will give a short oral presentation, covering the highlights of the term
@@ -99,16 +99,16 @@ You must provide a citation in several situations, including...
   criteria.</blockquote>
 
 The bracketed numbers are from the
-IEEE citatation format \[1\] -- you may use any appropriate, standard citation format.
+IEEE citation format \[1\] -- you may use any appropriate, standard citation format.
 
-Failure to follow these guidelines is an 
-ethical breach and is considered plagiarism. You __must__ give credit to those whose 
+Failure to follow these guidelines is an
+ethical breach and is considered plagiarism. You __must__ give credit to those whose
 thoughts and ideas you are borrowing for your paper.
 
-\[1\] &quot;Documentation: IEEE 
-Style&quot;, Engineering Communication Centre @ The University of Toronto, \[Cited 
+\[1\] &quot;Documentation: IEEE
+Style&quot;, Engineering Communication Centre @ The University of Toronto, \[Cited
 19-December-2005\].
 
-<hr> 
-        
+<hr>
+
 This assignment is based on a similar assignment by Dr. Welch

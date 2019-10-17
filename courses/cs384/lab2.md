@@ -31,12 +31,10 @@ multiple processes running at the same time.
 __Child process 1.__ The first child process should copy the text file &lt;infile&gt; to &lt;outfile&gt;, a line at a time. As each line is copied,
 modify it as follows:
 
-<ul>
 * Capitalize the last letter of each word, and turn every other letter to lowercase, with "word" defined as a sequence of non-whitespace characters.  "Hello
-there, how are you?" becomes "hellO therE, hoW arE yoU?".  Do not modify puncuation.
+there, how are you?" becomes "hellO therE, hoW arE yoU?".  Do not modify punctuation.
 * Reverse the order of words in the line, with "word" defined as a sequence of non-whitespace characters
       (e.g., "hellO therE, hoW arE yoU?" becomes "yoU? arE hoW therE, hellO").
-</ul>
 
 __Note:__ you may wish to perform these two operations separately; see part 2 below.
 

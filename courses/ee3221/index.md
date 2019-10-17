@@ -8,21 +8,19 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 
 <a href="../ee3032/errata-chaparro.html">Textbook errata</a>
 
-
 ## <a href="outline.pdf">Outline and reading assignments</a>
 
 ## Lab
 
-* <a href="/prust/EE3221/RTDSP_Lab1.pdf">Lab 1</a>, <a href="/prust/EE3221/LAB_1.zip">.zip</a>, <a href="l01apSol.pdf">Solution (additional problems)</a>
-* <a href="/prust/EE3221/RTDSP_Lab2.pdf">Lab 2</a>, <a href="/prust/EE3221/LAB_2.zip">.zip</a>
-* <a href="/prust/EE3221/RTDSP_Lab3.pdf">Lab 3</a>, <a href="/prust/EE3221/LAB_3.zip">.zip</a>, <a href="l03apSol.pdf">Solution (additional problems)</a>
+* <a href="https://faculty-web.msoe.edu/prust/EE3221/RTDSP_Lab1.pdf">Lab 1</a>, <a href="https://faculty-web.msoe.edu/prust/EE3221/LAB_1.zip">.zip</a>, <a href="l01apSol.pdf">Solution (additional problems)</a>
+* <a href="https://faculty-web.msoe.edu/prust/EE3221/RTDSP_Lab2.pdf">Lab 2</a>, <a href="https://faculty-web.msoe.edu/prust/EE3221/LAB_2.zip">.zip</a>
+* <a href="https://faculty-web.msoe.edu/prust/EE3221/RTDSP_Lab3.pdf">Lab 3</a>, <a href="https://faculty-web.msoe.edu/prust/EE3221/LAB_3.zip">.zip</a>, <a href="l03apSol.pdf">Solution (additional problems)</a>
 * <a href="l04-w1718.pdf">Lab 4</a>
-* <a href="/prust/EE3221/RTDSP_Lab4.pdf">Lab 5 (Real-Time DSP Lab 4)</a>, <a href="/prust/EE3221/LAB_4.zip">.zip</a>
+* <a href="https://faculty-web.msoe.edu/prust/EE3221/RTDSP_Lab4.pdf">Lab 5 (Real-Time DSP Lab 4)</a>, <a href="https://faculty-web.msoe.edu/prust/EE3221/LAB_4.zip">.zip</a>
 * <a href="l06-w1718.pdf">Lab 6</a>
 * <a href="l07-w1718.pdf">Lab 7</a>
-* <a href="/prust/EE3221/RTDSP_Lab5.pdf">Lab 8 (Real-Time DSP Lab 5)</a>, <a href="l08extraInstructions.pdf">Extra instructions and hints</a>, <a href="l08/">Data files</a>
+* <a href="https://faculty-web.msoe.edu/prust/EE3221/RTDSP_Lab5.pdf">Lab 8 (Real-Time DSP Lab 5)</a>, <a href="l08extraInstructions.pdf">Extra instructions and hints</a>, <a href="l08/">Data files</a>
 * <a href="l09-w1718.pdf">Lab 9</a>, <a href="Peppers.bmp">Peppers.bmp</a>
-
 
 ### Old Materials (Winter, 2016-2017)
 
@@ -33,9 +31,8 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 <a href="l06-w1617.pdf">Lab 6</a>,
 <a href="l07-w1617.pdf">Lab 7</a> (<!--a href="l07/"-->Data files<!--/a-->),
 <a href="l08-w1617.pdf">Lab 8</a>,
-<a href="l09-w1617.pdf">Lab 9</a> (<a href="/prust/armdsp/">Dr. Prust's FM4 files</a>)
+<a href="l09-w1617.pdf">Lab 9</a> (<a href="https://faculty-web.msoe.edu/prust/armdsp/">Dr. Prust's FM4 files</a>)
 <a href="https://faculty-web.msoe.edu/prust/c6713dsk/">Dr. Prust's C6713 files</a>
-
 
 ## Examples
 ### 2017-'18
@@ -143,35 +140,33 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 ## Additional Readings
 ### Current (2017-18)
 
-* Harris, Fredric J. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1455106">On the Use of Windows for Harmonic Analysis with the Discrete Fourier Transform</a>, <cite>Proc. IEEE</cite>, 1978-01.
-* Montgomery, Chris. <a href="https://people.xiph.org/~xiphmont/demo/neil-young.html">24/192 Music Downloads ...and why they make no sense</a>, <cite>xiph.org</cite>, 2014-03-15.</a>
-
+* Harris, Fredric J. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1455106">On the Use of Windows for Harmonic Analysis with the Discrete Fourier Transform</a>, *Proc. IEEE*, 1978-01.
+* Montgomery, Chris. <a href="https://people.xiph.org/~xiphmont/demo/neil-young.html">24/192 Music Downloads ...and why they make no sense</a>, *xiph.org*, 2014-03-15.</a>
 
 ### Older Readings
 
 * Amend, James M. <a href="http://wardsauto.com/vehicles-technology/gm-reveals-investment-fuel-saving-powertrain-startup">GM Reveals Investment in Fuel-Saving Powertrain Startup</a>,
-	<cite>WardsAuto</cite>, 2015 January 5.
-* Chen, C. et al. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7736177">Indoor Global Positioning System with Centimeter Accuracy Using Wi&ndash;Fi</a>, <cite>IEEE Signal Processing Magazine</cite> 2016-11.
-* Chernock, R. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7366687">Next-Generation Broadcast Television: ATSC 3.0</a>, <cite>IEEE Signal Processing Magazine</cite> 2016-01.
-* Demolder, Damien. <a href="http://www.dpreview.com/articles/2914705706/mit-algorithm-aims-to-eradicate-reflections-from-photos-taken-through-windows">MIT algorithm aims to eradicate reflections from photos taken through windows</a>, <cite>DPReview</cite>, 2015 May 14.
-* Edwards, John. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6784045">Signal Processing Leads a Photographic and Imaging Revolution</a>, <cite>IEEE Signal Processing Magazine</cite>, May 2014.
-* Hansen, John. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7298570">Speaker Recognition by Machines and Humans: A tutorial review</a>, <cite>IEEE Signal Processing Magazine</cite>, November 2015.
-* Maxfield, Max. <a href="http://www.eetimes.com/document.asp?doc_id=1326420">Cadence Tensilica Fusion DSP Core Targets IoT, Wearables</a>, <cite>EE Times</cite>, 2015-04-22.</a>
+	*WardsAuto*, 2015 January 5.
+* Chen, C. et al. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7736177">Indoor Global Positioning System with Centimeter Accuracy Using Wi&ndash;Fi</a>, *IEEE Signal Processing Magazine* 2016-11.
+* Chernock, R. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7366687">Next-Generation Broadcast Television: ATSC 3.0</a>, *IEEE Signal Processing Magazine* 2016-01.
+* Demolder, Damien. <a href="http://www.dpreview.com/articles/2914705706/mit-algorithm-aims-to-eradicate-reflections-from-photos-taken-through-windows">MIT algorithm aims to eradicate reflections from photos taken through windows</a>, *DPReview*, 2015 May 14.
+* Edwards, John. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6784045">Signal Processing Leads a Photographic and Imaging Revolution</a>, *IEEE Signal Processing Magazine*, May 2014.
+* Hansen, John. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7298570">Speaker Recognition by Machines and Humans: A tutorial review</a>, *IEEE Signal Processing Magazine*, November 2015.
+* Maxfield, Max. <a href="http://www.eetimes.com/document.asp?doc_id=1326420">Cadence Tensilica Fusion DSP Core Targets IoT, Wearables</a>, *EE Times*, 2015-04-22.</a>
 * Moore, Samuel K. <a href="http://spectrum.ieee.org/computing/hardware/new-class-of-digital-signal-processor-wipes-out-wasted-power">New Class of Digital Signal Processor Wipes Out Wasted Power</a>,
-	<cite>IEEE Spectrum</cite>, 2008 November.
-* Pickering, Paul. <a href="http://electronicdesign.com/systems/how-get-big-sounds-small-speakers">How To Get Big Sounds From Small Speakers</a>, <cite>Electronic Design</cite>, 2016 February 16.
+	*IEEE Spectrum*, 2008 November.
+* Pickering, Paul. <a href="http://electronicdesign.com/systems/how-get-big-sounds-small-speakers">How To Get Big Sounds From Small Speakers</a>, *Electronic Design*, 2016 February 16.
 * Quain, John R. <a href="http://www.nytimes.com/2016/11/11/automobiles/autoreviews/giving-todays-car-a-well-tuned-interior.html">Giving Today’s Car a Well-Tuned Interior</a>,
-	<citeThe New York Times</cite>, 2016 November 10.
+	*The New York Times*, 2016 November 10.
 * Schneider, David. <a href="http://spectrum.ieee.org/computing/hardware/could-supercomputing-turn-to-signal-processors-again/">Could Supercomputing Turn to Signal Processors (Again)?</a>,
-	<cite>IEEE Spectrum</cite>, 2012 September 25.
+	*IEEE Spectrum*, 2012 September 25.
 * Shiung, David, et al. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7368237">Cascading Tricks for Designing Composite Filters with Sharp Transition Bands</a>,
-	<cite>IEEE Signal Processing Magazine</cite>, 2016 January.
+	*IEEE Signal Processing Magazine*, 2016 January.
 * Solomon, Brett. <a href="http://www.technologytell.com/in-car-tech/11672/hear-whatchalike-harmans-isz-individual-sound-zones-technology/">Hear what you like with Harman Individual Sound Zones</a>,
-	<cite>Technology Tell Car Tech</cite>, 2015 January 24.
-* Wang, DeLiang. <a href="http://spectrum.ieee.org/consumer-electronics/audiovideo/deep-learning-reinvents-the-hearing-aid">Deep Learning Reinvents the Hearing Aid</a>, <cite>IEEE Spectrum</cite>, 6 December 2016.
+	*Technology Tell Car Tech*, 2015 January 24.
+* Wang, DeLiang. <a href="http://spectrum.ieee.org/consumer-electronics/audiovideo/deep-learning-reinvents-the-hearing-aid">Deep Learning Reinvents the Hearing Aid</a>, *IEEE Spectrum*, 6 December 2016.
 * ___. <a href="http://www.bdti.com/InsideDSP/2013/10/23/SingularComputing">Imperfect Processing: A Functionally Feasible (and Fiscally Attractive) Option, Says Singular Computing</a>
-	<a href="2013-10-22articleImperfectProcessing.pdf">(printable)</a>, <cite>BDTi: Inside DSP</cite>, 22 October 2013.
-
+	<a href="2013-10-22articleImperfectProcessing.pdf">(printable)</a>, *BDTi: Inside DSP*, 22 October 2013.
 
 ## Final exam
 
