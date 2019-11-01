@@ -4,6 +4,7 @@ title: "Dr. Durant: Miscellaneous"
 
  * [CE IAC Homepage](../ceiac/)
  * [Faculty and Staff Book Club](bookClub.html)
+ * [Op Computer on Dr. Hasker's site](https://faculty-web.msoe.edu/hasker/opcomp/)
  * For MSOE Faculty
    * In-service presentation handouts
      * [2015: Getting Things Done](2015inserviceGtd.html)
