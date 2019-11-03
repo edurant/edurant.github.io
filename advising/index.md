@@ -1,6 +1,6 @@
 ---
 title: "CE Academic Advising"
-date: 2019-10-02 15:25:05 -0500
+date: 2019-11-03 11:11:05 -0600
 ---
 
 ## Advising policy
@@ -9,18 +9,19 @@ Computer engineering students see their advisors regularly to discuss academic a
 
 The policy is:
 * Freshman or sophomore: meet with advisor every quarter
+* Juniors in winter: meet with advisor
 * Seniors in fall: meet with advisor
 * Any GPA < 2.25: meet with advisor
 * All others: advising not required, no hold will be automatically placed
 
-"Freshman,"" etc. are based on credits and are defined in the &quot;Grade Level&quot; section of the &quot;Academic Regulations and Policies&quot; section of the <a href="https://catalog.msoe.edu/">MSOE Undergraduate Catalog</a>.
+"Freshman," etc. are based on credits and are defined in the &quot;Grade Level&quot; section of the &quot;Academic Regulations and Policies&quot; section of the <a href="https://catalog.msoe.edu/">MSOE Undergraduate Catalog</a>.
 
 Remember that you can schedule your advising appointment before you receive your quarterly registration notice from the Registrar, so do not wait until the last week!
 
 Starting in week 7 sign-up sheets with available advising slots are normally posted on your advisor's office door. Please sign up for one of these slots; signing up early will give you a wider choice of times. Some advisors will notify you of other appointment procedures (e.g., Outlook) or walk-in advising hours.
 
 ## What to bring to the meeting with your advisor
-* A copy of the CE curriculum flowchart for your curriculum version marked with the courses you have successfully completed. Hardcopies are available outside of the CE/SE/Math office area.
+* A copy of the CE curriculum flowchart for your curriculum version marked with the courses you have successfully completed. Hardcopies are available outside of the CE/EE/Math office area.
   * Students first enrolled in <a href="https://catalog.msoe.edu/preview_program.php?catoid=20&poid=1001&returnto=562">F'19</a> follow curriculum 4.3. <a href="curriculum-4.3rev01.pdf">Flowchart</a>
   * Students first enrolled in <a href="https://catalog.msoe.edu/preview_program.php?catoid=10&poid=506&returnto=364">F'15</a>,
             <a href="https://catalog.msoe.edu/preview_program.php?catoid=14&poid=704&returnto=394">F'16</a>,
@@ -31,9 +32,8 @@ Starting in week 7 sign-up sheets with available advising slots are normally pos
             follow curriculum 3.5. <a href="curriculum-3.5rev01.pdf">Flowchart</a>
 
 * Your preliminary plans for the next quarter's schedule
-* Your curriculum track (course list). Hardcopies are available outside of the CE/SE/Math office area. Electronic copies are available for newer versions at <a href="https://catalog.msoe.edu/">https://catalog.msoe.edu/</a>. Be sure to select the catalog year that you first enrolled at MSOE.
+* Your curriculum track (course list). Hardcopies are available outside of the CE/EE/Math office area. Electronic copies are available for newer versions at <a href="https://catalog.msoe.edu/">https://catalog.msoe.edu/</a>. Be sure to select the catalog year that you first enrolled at MSOE.
 * Any questions you may have
-
 
 ## Advisors
 The MSOE Registrar keeps track of the advisor assigned to each student. If you are not sure who your advisor is, you can find out by following these steps.
@@ -42,7 +42,7 @@ The MSOE Registrar keeps track of the advisor assigned to each student. If you a
   * Click Academic Info within the My Info window
   * Your advisors will be listed in the first section.
 
-The CE advisors are Drs. <a href="durant.html">Durant</a>, Livingston, Meier, Rothe, and Varnell. All their offices are located on the 3rd floor of the Library.
+The CE advisors are Profs. <a href="durant.html">Durant</a>, Livingston, Meier, Rothe, and Varnell. All their offices are located on the 3rd floor of the Library.
 
 ## Elective Options, Planned Offerings
 
