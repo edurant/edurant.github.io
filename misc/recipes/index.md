@@ -13,6 +13,7 @@ title: "The Durants' Favorite Recipes"
     * [Carrot Cake](CarrotCake.html)
     * [Easter Nests](EasterNests.html)
     * [Favorite Cheesecake](FavoriteCheesecake.html)
+    * [German Chocolate Cake](GermanChocolateCake.html)
     * [Harvey Wallbanger](HarveyWallbanger.html)
     * [Margarita Pie](MargaritaPie.html)
     * [No-Bake Pumpkin Pie](No-BakePumpkinPie.html)
