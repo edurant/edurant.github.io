@@ -15,6 +15,18 @@ h1, h2, h3, h4, h5, h6 {
 @media (prefers-color-scheme: dark) {
 	body {
 		background: #000;
-		color: #ccc
+		color: #ccc;
+	}
+	a:link {
+	    color: Orange;
+	}
+	a:visited {
+	    color: SlateBlue;
+	}
+	a:hover {
+	    color: Tomato;
+	}
+	a:active {
+	    color: Magenta;
 	}
 }
