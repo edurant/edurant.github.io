@@ -3,8 +3,6 @@ title: "CE Academic Advising: Elective Rules"
 date: 2019-11-08 13:29:00 -0600
 ---
 
-# CE elective rules
-
 ## Sci EL = Science Elective, 3+ credits
 * BI102
 * CH200, CH201, and successor classes
