@@ -1,0 +1,29 @@
+% EE3032 W6D2 F19 Example - Dr. Durant
+
+% Key point: All (reasonable) periodic signals can be represented a
+% (possibly infinite) sum of sinusoids. Since we know how an LTI system
+% affects each sinusoid, we can apply superposition to get the overall
+% response.
+
+% TRY: ADD/REMOVE components to k and X to get a higher/lower order approximation
+
+% Today, we just show that a square wave can be approximated arbitrarily
+% well (technically, in an energy sense) by a series of sinusoids.
+
+% Let x(t) be an even, 1 V peak (with x(0) = 1), square wave with fundamental...
+T0 = 1; % s
+k = [ 1  3    5   7]; % multipliers of the fundamental frequency
+X = [1 -1/3 +1/5 -1/7]; % we will learn how to derive this series given the square wave later.
+ 
+omega = 2*pi*k/T0; % radians/s for each of the components. 1/T0 is Hz, convert to radians, and calculate frequency multiple/harmonic
+
+t = linspace(-3, 3, 1000);
+
+x = zeros(size(t)); % initialize x(t) to be the correct size
+for idx = 1:length(omega) % for each of the frequencies
+   part = abs(X(idx)) * cos (omega(idx)*t + angle(X(idx))); % calculate the contribution using the corresponding X phasor
+   plot(t,part), hold on % plot that component, and "hold" previous plots as more are added
+   x = x + part;
+end
+
+plot(t,x) % and plot the final signal

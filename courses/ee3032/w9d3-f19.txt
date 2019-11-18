@@ -1,0 +1,27 @@
+% EE3032-4 W9D3 Dr. Durant In-Class Example
+% Based on problem 5.39 - see figure in book.
+% x(t) = (A/T), 0<t<T; 0, otherwise
+
+% Symbolic integration
+syms t w A T
+X = int((A/T)*t*exp(-1j*w*t),t,0,T)
+
+% Then, transcribe and calculate the X(w) function
+T = 10; % Duration, s
+A = 4; % Maximum amplitude
+w = linspace(-5,5,1000); % radians/s
+X = A/T*(exp(-1j*w*T).*(1+1j*w*T)-1)./(w.^2); % Values of X(w)
+
+figure
+subplot(211),plot(w,abs(X)),title('Magnitude and phase of X(\omega)')
+subplot(212),plot(w,angle(X)),xlabel('\omega (radians/s)')
+
+% Modify X(w) and do inverse Fourier transform numerically; we predicted the result in class
+X(abs(w)>1) = 0; % set X(w) to 0 at high frequencies
+t = linspace(-T/2, T*1.5, 2000);
+dt = diff(t(1:2)); % time step for Riemann integration
+x = dt * sum( X.' .* exp(1j*w'*t),1) / (2*pi); % Numeric approximation of inverse F.T. Integrating along real variable omega, both real and imaginary parts accumulate. We diagrammed the shapes of the vectors in class. We use an outer product to calculate the t-by-omega values required for all the integrals.
+fprintf('Norm of real and imaginary parts of x(t), should be real within roundoff:\n%g, %g\n', norm(real(x)), norm(imag(x)))
+assert(norm(imag(x)) < 1e-12) % abort with error if imag part is bigger than expected for numeric roundoff
+x = real(x);
+figure,plot(t,x),title('x(t) for modified X(\omega)')

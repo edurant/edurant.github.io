@@ -1,0 +1,30 @@
+% EE3032-4 W7D2 Dr. Durant
+% Fourier series of square wave
+% This finds an, the cosine coefficient, for any n > 0.
+% a0 would also work, except leading coefficient is 1/T0 not 2/T0 since a0 does NOT come from 2 unique conjugate terms.
+% bn for sin could be found similarly, but we know they are all 0 in this case since x(t) is even.
+
+T0 = 1; % fundamental frequency, seconds
+f0 = 1/T0; % Hz
+
+t = linspace(-T0/2,T0/2,1000); % 1 period
+x = (abs(t)<T0/4) + -1 * (abs(t)>=T0/4); % 1 V-P, even, "cosine phase" square wave
+n = 3; % TRY DIFFERENT VALUES OF n !
+cn = cos(n*2*pi*f0*t); % cosine basis (building block) function at frequency multiple n
+ig = x .* cn; % values of the integrand
+plot(t,x,t,cn,t,ig)
+legend('x(t)','c_n(t)=cos(n\omega{t})','x(t)c_n(t)')
+
+% Numeric integration (there are more accurate methods in MATLAB)
+dt = diff(t(1:2));
+I = dt*(2/T0)*sum(ig); % 2 comes from 2 conjugate terms being added to get the trigonometric term.
+% The code below gives the analytic result for the square wave.
+if mod(n,2)==0 % even n
+    an = 0;
+else % odd n
+    % The 1/n term is what is left over after the (n-1)/n segments have +/- area cancellations.
+    % Raise -1 to an appropriate power to get the alternating signs as derived in class.
+    an = 4/pi*(1/n)*((-1)^((n-1)/2)); % careful with precedence, ^ before unary -
+end
+
+fprintf('For n=%g, the integral value is %g and the analytic value is %g.\n', n, I, an)

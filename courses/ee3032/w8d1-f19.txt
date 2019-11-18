@@ -1,0 +1,15 @@
+% EE3032 Dr. Durant - W8D1 - Fall, 2019
+% Demonstrate how the Fourier series changes for a periodic signal as the period T0 -> infinity.
+% In the limit, this will give us the Fourier transform for a non-periodic signal.
+% Note that the height of the F.S. decreases as T0 rises, but the *density* stays the same.
+% In class, we showed when x(t) is a rectangular pulse of height A and width tau centered at t=0, the F.S. is:
+A = 4;
+tau = 2;
+T0 = 10; % try several values of the period, let T0 get large, -> infinity
+f0 = 1/T0;
+w0 = 2*pi*f0;
+nmax = ceil(5*T0); n = -nmax:nmax; % Display more n's as w0->0 so that the displayed frequency range in radians/s is constant
+% If you're not sure what ceil() does, type `doc ceil` to find out.
+X = A*tau/T0 * sinc(n*w0*tau/2/pi); % Fourier series, /pi in MATLAB sinc
+figure
+stem(n*w0, X), xlabel('Frequency (rad/sec)'), ylabel('X_n')

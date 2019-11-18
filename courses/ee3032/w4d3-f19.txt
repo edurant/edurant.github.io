@@ -1,0 +1,25 @@
+% EE3032 - W4D3 - Dr. Durant
+% In class, we defined x(t) and h(t) piecewise.
+% This script creates the signals in MATLAB and convolves them.
+
+t = linspace(-5,5,5000); % [-5,5] s, 5000 total steps (including both ends)
+
+h = nan(size(t)); % Make size of h match t, but initialize to NaN (not a number, representing invalid result)
+r0 = t<=-1; % Region 0, there the h(t) is 0
+r1 = (t>-1) & (t<=0); % Region 1, -1 < t <= 0
+r2 = t>=0; % Region 2
+h(r0) = 0;
+h(r1) = t(r1)+1; % Note that we select the region 1 values of t, apply the function (t+1) and assign to the corresponding region 1 values of h
+h(r2) = exp(-0.5*t(r2));
+
+x = zeros(size(t)); % x is 0 almost everywhere, so we initialize to 0 and only write regions where it might not be 0
+rX = (t>=0) & (t<2); % Here's the region where it might not be 0 (t=0 is the edge)
+x(rX) = 2*t(rX); % 2*t == 2*r(t) in the region of interest
+
+dt = t(2)-t(1); % width in Riemann sum
+y = conv(x,h) * dt; % Do the convolution integral, evaluated numerically using a Riemann sum
+times = linspace(2*t(1), 2*t(end), 2*length(t)-1); % Width property tells us how much wider the result can be
+
+figure, plot(t,h, t,x, times,y) % Note that y is defined on a wider domain than h and x
+legend('h(t)', 'x(t)', 'y(t)') % When there is more then 1, it is usually best to label them for clarity.
+xlabel('Time (s)'), ylabel('Signal value, often voltage')

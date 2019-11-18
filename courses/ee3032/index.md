@@ -1,28 +1,25 @@
----
+﻿---
 title: "Dr. Durant: EE-3032 Signals and Systems"
 ---
 
 ## Textbook
 
-<a href="http://ss2.eecs.umich.edu/">Signals and Systems: Theory and Applications</a> by Fawwaz T. Ulaby and Andrew E. Yagle, published 2018, ISBN: 978-1-60785-486-9
+[Signals and Systems: Theory and Applications](http://ss2.eecs.umich.edu/) by Fawwaz T. Ulaby and Andrew E. Yagle, published 2018, ISBN: 978-1-60785-486-9
 
-## <a href="dailySchedule.pdf">Outline and reading assignments</a>
+## [Outline and reading assignments](dailySchedule.pdf)
 
 ## Learning objectives
 
 * Compute the output of a continuous-time, LTI system (*system analysis*)
   * Using time-domain techniques (*convolution*)
   * Using frequency-domain techniques (*Fourier analysis*)
-
 * Analyze a continuous-time signal (*signal analysis*)
   * Derive the *Fourier series* coefficients for a given periodic CT signal
   * Determine the *Fourier transform* of a signal by using the FT integral or a table of common pairs and properties
   * Compute the power or energy, as appropriate, of a CT signal using its time- or frequency-domain representation (*power/energy*)
-
 * Plot a signal in the time or frequency domain (*signal visualization*)
   * Plot a signal as a function of time (*time plot*)
   * Determine and plot the magnitude and phase spectra of a CT signal using Fourier analysis (*Fourier spectrum*)
-
 * Determine an appropriate *sampling* frequency and the subsequent frequency-domain representation of a sampled CT signal
   * Determine an appropriate sampling frequency in order to avoid aliasing of a CT signal (*Nyquist*)
   * Plot the magnitude and phase spectra of an impulse-train-sampled CT signal (*sampled spectrum*)
@@ -30,7 +27,17 @@ title: "Dr. Durant: EE-3032 Signals and Systems"
 ## Examples
 ### Winter, 2019-2020
 ### Fall, 2019
-* <a href="w3d4.txt">W3D4: Convolution example from class</a>
+* [W3D4: Convolution example from class](w3d4-f19.txt)
+* [W4D3: Another convolution example from class](w4d3-f19.txt)
+* W5D2: Problem 2.17(b) with additional analysis: [PDF](w5d2-f19.pdf), [MATLAB Live Script](w5d2-f19.mlx)
+* W5D4: Class example, transfer function/exponential decay: [MATLAB Live Script](w5d4-f19.mlx), [PDF](w5d4-f19.pdf)
+* [W6D2: Demonstrate that a square wave can be represented as a sum of sinusoids](w6d2-f19.txt)
+* [W7D2: Numerical confirmation of Fourier series cosine coefficients for square wave](w7d2-f19.txt)
+* W7D4: Class example continuation, line spectra and Parseval's relation: [MATLAB Live Script](w7d4-f19.mlx), [PDF](w7d4-f19.pdf)
+* [W8D1: Illustrate Fourier series&rarr;transform as T0 approaches &infin;](w8d1-f19.txt)
+* W9D1: Exponential Fourier Series construction building on quiz 8 [MATLAB Live Script](w9d1-f19.mlx), [PDF](w9d1-f19.pdf)
+* [W9D3: In class exercise, finding and modifying X(&omega), then reconstructing new x(t)](w9d3-f19.txt)
+* W10D2: Lowpass and bandpass design, causality, modulation property: [MATLAB Live Script](w10d2-f19.mlx), [PDF](w10d2-f19.pdf)
 
 ### 2017
 * <a href="w1d1-f17.txt">W1D1: Complex exponential</a>
@@ -54,11 +61,12 @@ title: "Dr. Durant: EE-3032 Signals and Systems"
 ## [Quizzes with Solutions](quiz/)
 
 ## Sample Exams
-* <a href="final-f17.pdf">2017</a> (<a href="final-f17-sol.pdf">solution</a>)
+* [2019 Practice](finalPractice-f19.pdf)
+* [2017](final-f17.pdf) ([solution](final-f17-sol.pdf))
 
 ## Additional Readings
-* Harris, Fredric J. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1455106">On the Use of Windows for Harmonic Analysis with the Discrete Fourier Transform</a>, <cite>Proc. IEEE</cite>, 1978-01.
-* Montgomery, Chris. <a href="https://people.xiph.org/~xiphmont/demo/neil-young.html">24/192 Music Downloads ...and why they make no sense</a>, <cite>xiph.org</cite>, 2014-03-15.</a>
+* Harris, Fredric J. [On the Use of Windows for Harmonic Analysis with the Discrete Fourier Transform](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1455106), <cite>Proc. IEEE</cite>, 1978-01.
+* Montgomery, Chris. [24/192 Music Downloads ...and why they make no sense](https://people.xiph.org/~xiphmont/demo/neil-young.html), <cite>xiph.org</cite>, 2014-03-15.</a>
 
 ## Final exam
 
@@ -66,7 +74,7 @@ The final exam will be given per the schedule that is published by the Registrar
 It may cover any material from the course.
 The exam will last 2 hours.
 
-## <a href="../policies.html">General course policies</a>
+## [General course policies](../policies.html)
 
 ## EE3032-specific course policies
 
