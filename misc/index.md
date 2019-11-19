@@ -3,7 +3,8 @@ title: "Dr. Durant: Miscellaneous"
 ---
 
  * [CE IAC Homepage](../ceiac/)
- * [Faculty and Staff Book Club](bookClub.html)
+ * [MSOE Faculty and Staff Book Club](bookClub.html)
+ * [University of Michigan Milwaukee Alumni Book Club](bookClubUmMke.html)
  * [Op Computer on Dr. Hasker's site](https://faculty-web.msoe.edu/hasker/opcomp/)
  * For MSOE Faculty
    * In-service presentation handouts
