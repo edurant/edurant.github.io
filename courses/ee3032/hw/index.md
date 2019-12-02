@@ -1,9 +1,10 @@
 ---
 title: "Dr. Durant: EE-3032: Homework"
-date: 2019-11-05 18:00:00 -0600
+date: 2019-12-02 14:32:30 -0500
 ---
 
 ## Winter, 2019-20
+* [Homework 1, due Monday of week 2 in class](hw1-w1920.pdf)
 
 ## Fall, 2019
 * <a href="hw0-f19.pdf">Homework 0, due Monday of week 2 at beginning of class</a> <a href="hw0-f19sol.pdf">Solution</a>
