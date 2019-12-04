@@ -36,7 +36,7 @@ title: "Dr. Durant: EE-3032 Signals and Systems"
 * W7D4: Class example continuation, line spectra and Parseval's relation: [MATLAB Live Script](w7d4-f19.mlx), [PDF](w7d4-f19.pdf)
 * [W8D1: Illustrate Fourier series&rarr;transform as T0 approaches &infin;](w8d1-f19.txt)
 * W9D1: Exponential Fourier Series construction building on quiz 8 [MATLAB Live Script](w9d1-f19.mlx), [PDF](w9d1-f19.pdf)
-* [W9D3: In class exercise, finding and modifying X(&omega), then reconstructing new x(t)](w9d3-f19.txt)
+* [W9D3: In class exercise, finding and modifying X(&omega;), then reconstructing new x(t)](w9d3-f19.txt)
 * W10D2: Lowpass and bandpass design, causality, modulation property: [MATLAB Live Script](w10d2-f19.mlx), [PDF](w10d2-f19.pdf)
 
 ### 2017
@@ -65,8 +65,9 @@ title: "Dr. Durant: EE-3032 Signals and Systems"
 * [2017](final-f17.pdf) ([solution](final-f17-sol.pdf))
 
 ## Additional Readings
-* Harris, Fredric J. [On the Use of Windows for Harmonic Analysis with the Discrete Fourier Transform](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1455106), <cite>Proc. IEEE</cite>, 1978-01.
-* Montgomery, Chris. [24/192 Music Downloads ...and why they make no sense](https://people.xiph.org/~xiphmont/demo/neil-young.html), <cite>xiph.org</cite>, 2014-03-15.</a>
+* Hammack, Bill. [Intro/History: Introducing a 100-year-old mechanical computer](https://www.youtube.com/watch?v=NAsM30MAHLg), YouTube video, 2014-11-11.
+* Harris, Fredric J. [On the Use of Windows for Harmonic Analysis with the Discrete Fourier Transform](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1455106), *Proc. IEEE*, 1978-01.
+* Montgomery, Chris. [24/192 Music Downloads ...and why they make no sense](https://people.xiph.org/~xiphmont/demo/neil-young.html), *xiph.org*, 2014-03-15.
 
 ## Final exam
 
