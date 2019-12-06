@@ -1,15 +1,17 @@
 ---
 title: "Dr. Durant: EE-3032: Homework"
-date: 2019-12-02 14:32:30 -0500
+date: 2019-12-06 10:58:30 -0500
 ---
 
 ## Winter, 2019-20
 * [Homework 1, due Monday of week 2 in class](hw1-w1920.pdf)
+* Homework 2, due Monday of week 3 at the beginning of class. Be sure to support answers; for example, if you were to say that 1.24(a) is *neither* show why using at least one of a sketch, a proof, properties of products of even and odd functions, etc. 1.19(b), 1.20(a), 1.21(d), 1.23(b), 1.24(a), 1.28(b), 1.31(b)
+
 
 ## Fall, 2019
 * <a href="hw0-f19.pdf">Homework 0, due Monday of week 2 at beginning of class</a> <a href="hw0-f19sol.pdf">Solution</a>
-* Homework 1, due Tuesday of week 3 at the beginning of class. Be sure to support answers; for example, if you were to say that 1.24(b) is *neither* show why using at least one of a sketch, a proof, properties of products of even and odd functions, etc. 1.20(c), 1.21(b,c), 1.23(c), 1.24(b), 1.28(c), 1.30(a,b),
-    <a href="hw1-f19sol.pdf">Solution</a>
+* Homework 1, due Tuesday of week 3 at the beginning of class. 1.20(c), 1.21(b,c), 1.23(c), 1.24(b), 1.28(c), 1.30(a,b),
+    [Solution](hw1-f19sol.pdf)
 * Homework 2, due Tuesday of week 4 at the beginning of class. 1.33(a,b), 1.35(a), 1.38(b), 2.1(b,e), 2.2(a,e), 2.5(a,c) <a href="hw2-f19sol.pdf">Solution</a>
 * Homework 3, due Tuesday of week 5 at the beginning of class. <a href="hw3-f19sol.pdf">Solution</a>
   * 2.10(b)
@@ -31,7 +33,5 @@ date: 2019-12-02 14:32:30 -0500
 * <a href="hw5b-f17.pdf">Homework 5b, for practice only, do not turn in</a>
 * <a href="hw6-f17.pdf">Homework 6, due Thursday of week 9 at beginning of class</a> <a href="hw6-f17sol.pdf">Solution</a>
 * <a href="hw7-f17.pdf">Homework 7, due Thursday of week 10 at beginning of class</a> <a href="hw7-f17sol.pdf">Solution</a>
-
-<hr>
 
 This page was last updated on {{page.date}}.
