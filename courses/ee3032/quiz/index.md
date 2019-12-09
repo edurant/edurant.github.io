@@ -3,6 +3,7 @@ title: "Dr. Durant: EE-3032 Signals and Systems: Quizzes with Solutions"
 ---
 
 # Winter, 2019-2020
+* [Quiz 1](q01-w1920-ans.pdf)
 
 # Fall, 2019
 * [Quiz 1](q01-f19-ans.pdf)
