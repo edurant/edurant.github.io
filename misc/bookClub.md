@@ -1,10 +1,13 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2019-10-04 10:05:21 -0500
----
+date: 2019-12-09 11:50:30 -0600
 
-* [Machines Like Me](https://www.amazon.com/dp/0385545118), by Ian McEwan, discussed on 2020-01-06?.
-* [The Optimist's Telescope: Thinking Ahead in a Reckless Age](https://www.amazon.com/dp/B07L2HY8L8), by by Bina Venkataraman, discussed on 2019-12-02?.
+* [An Enchantress of Numbers: A Novel of Ada Lovelace](https://www.amazon.com/dp/B06XK2TCFD), by Jennifer Chiaverini, discussed on ~May, 2020.
+* [Three Laws Lethal](https://www.amazon.com/dp/B07DZJHF4T), by David Walton, discussed on ~April, 2020.
+* [Headstrong: 52 Women Who Changed Science - And The World](https://www.amazon.com/dp/B00N6PD7W4), by Rachel Swaby, discussed on 2020-03-10.
+* [Educated: A Memoir](https://www.amazon.com/dp/B072BLVM83), by Tara Westover, discussed on 2020-02-10.
+* [Machines Like Me](https://www.amazon.com/dp/0385545118), by Ian McEwan, discussed on 2020-01-06.
+* [The Optimist's Telescope: Thinking Ahead in a Reckless Age](https://www.amazon.com/dp/B07L2HY8L8), by by Bina Venkataraman, discussed on 2019-12-03.
 * [What Is Real?: The Unfinished Quest for the Meaning of Quantum Physics](https://www.amazon.com/dp/B073P4GBPD), by Adam Becker, Greg Tremblay, et al., discussed on 2019-10-21.
 * [Recursion: A Novel](https://www.amazon.com/dp/B07HDSHP7N), by Blake Crouch, discussed on 2019-09-16.
 * [Circe](https://www.amazon.com/dp/B074M5TLLJ), by Madeline Miller, discussed on 2019-05-13.
