@@ -1,6 +1,7 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
 date: 2019-12-09 11:50:30 -0600
+---
 
 * [An Enchantress of Numbers: A Novel of Ada Lovelace](https://www.amazon.com/dp/B06XK2TCFD), by Jennifer Chiaverini, discussed on ~May, 2020.
 * [Three Laws Lethal](https://www.amazon.com/dp/B07DZJHF4T), by David Walton, discussed on ~April, 2020.
