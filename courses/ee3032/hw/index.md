@@ -4,7 +4,7 @@ date: 2019-12-06 10:58:30 -0500
 ---
 
 ## Winter, 2019-20
-* [Homework 1, due Monday of week 2 in class](hw1-w1920.pdf)
+* [Homework 1, due Monday of week 2 in class](hw1-w1920.pdf) [Solution](hw0-w1920sol.pdf)
 * Homework 2, due Monday of week 3 in class. Be sure to support answers; for example, if you were to say that 1.24(a) is *neither* show why using at least one of a sketch, a proof, properties of products of even and odd functions, etc. 1.19(b), 1.20(a), 1.21(d), 1.23(b), 1.24(a), 1.28(b), 1.31(b)
 
 
