@@ -2,6 +2,7 @@
 title: "Dr. Durant: Miscellaneous"
 ---
 
+ * [CV](cv.pdf)
  * [CE IAC Homepage](../ceiac/)
  * [MSOE Faculty and Staff Book Club](bookClub.html)
  * [University of Michigan Milwaukee Alumni Book Club](bookClubUmMke.html)
@@ -17,6 +18,7 @@ title: "Dr. Durant: Miscellaneous"
    * <a href="load.xls">Load calculation (Excel)</a>
  * Photography
    * **Main site:** <a href="http://edurant.smugmug.com/">http://edurant.smugmug.com/</a>
+   * [Dr. Steven Reyer's Milwaukee Architecture Website](/mke/)
    * Canon Camera/Lens Interactions: <a href="cameraLens.pdf">PDF</a>, <a href="cameraLens.xls">Excel</a>
    * AoV Multiplier (FF over 10D/1.6&times;): <a href="AoVmultiplier.pdf">PDF</a>, <a href="AoVmultiplier.xls">Excel</a>
  * <a href="recipes/">Recipes</a>

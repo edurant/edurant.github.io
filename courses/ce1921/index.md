@@ -2,9 +2,9 @@
 title: "Dr. Durant: CE-1921 Computer Architecture"
 ---
 
-* (not currently posted) Main website including textbook information, lab assignments, course-specific policies, and daily learning objectives.
+* [Main website including textbook information, lab assignments, course-specific policies, and daily learning objectives](https://faculty-web.msoe.edu/meier/ce1921/)
 * [Policies](../policies.html)
-* [ARMSim#&ndash;ARM assembly language execution simulator](http://armsim.cs.uvic.ca/) (403 Forbidden error as of 2019-10-29)
+* [ARMSim#&ndash;ARM assembly language execution simulator](https://webhome.cs.uvic.ca/~nigelh/ARMSim-V2.1/)
 * [ARM Instruction Format Quick Reference](armInstructionFormat.pdf)
 * [VHDL review sheet](../ce1901/vhdlSummary.pdf)
 * Online tools
@@ -18,6 +18,10 @@ title: "Dr. Durant: CE-1921 Computer Architecture"
     * [Thumb version of DE10-Lite lab assembly program](thumbV1.s)
 
 ## Additional readings
+
+### 2020
+* *Coming soon...*
+
 ### 2018
 * ___. <a href="https://developer.arm.com/products/processors/machine-learning/arm-ml-processor">Arm Machine Learning Processor</a>.
   <cite>arm Developer</cite>, retrieved 28 March 2018.
@@ -128,38 +132,36 @@ Quizzes will be given during most lab periods. The lowest
 quiz grade will be dropped. No make-up quizzes will be given.
 
 * Spring, 2018 Solutions:
-<a href="q01ans-s18.pdf">Quiz 1</a>,
-<a href="q02ans-s18.pdf">Quiz 2</a>,
-<a href="q03ans-s18.pdf">Quiz 3</a>,
-<a href="q04ans-s18.pdf">Quiz 4</a>,
-<a href="q05ans-s18.pdf">Quiz 5</a>,
-<a href="q06ans-s18.pdf">Quiz 6</a>,
-<a href="q07ans-s18.pdf">Quiz 7</a>,
-<a href="q08ans-s18.pdf">Quiz 8</a>,
-<a href="q09ans-s18.pdf">Quiz 9</a>,
-<a href="q10ans-s18.pdf">Quiz 10</a>
-
+  <a href="q01ans-s18.pdf">Quiz 1</a>,
+  <a href="q02ans-s18.pdf">Quiz 2</a>,
+  <a href="q03ans-s18.pdf">Quiz 3</a>,
+  <a href="q04ans-s18.pdf">Quiz 4</a>,
+  <a href="q05ans-s18.pdf">Quiz 5</a>,
+  <a href="q06ans-s18.pdf">Quiz 6</a>,
+  <a href="q07ans-s18.pdf">Quiz 7</a>,
+  <a href="q08ans-s18.pdf">Quiz 8</a>,
+  <a href="q09ans-s18.pdf">Quiz 9</a>,
+  <a href="q10ans-s18.pdf">Quiz 10</a>
 * Spring, 2017 Solutions:
-<a href="q01ans-s17.pdf">Quiz 1</a>,
-<a href="q02ans-s17.pdf">Quiz 2</a>,
-<a href="q03ans-s17.pdf">Quiz 3</a>,
-<a href="q04ans-s17.pdf">Quiz 4</a>,
-<a href="q05ans-s17.pdf">Quiz 5</a>,
-<a href="q06ans-s17.pdf">Quiz 6</a>,
-<a href="q07ans-s17.pdf">Quiz 7</a>,
-<a href="q09ans-s17.pdf">Quiz 8 (Week 9)</a>,
-<a href="q10ans-s17.pdf">Quiz 9 (Week 10)</a>
-
+  <a href="q01ans-s17.pdf">Quiz 1</a>,
+  <a href="q02ans-s17.pdf">Quiz 2</a>,
+  <a href="q03ans-s17.pdf">Quiz 3</a>,
+  <a href="q04ans-s17.pdf">Quiz 4</a>,
+  <a href="q05ans-s17.pdf">Quiz 5</a>,
+  <a href="q06ans-s17.pdf">Quiz 6</a>,
+  <a href="q07ans-s17.pdf">Quiz 7</a>,
+  <a href="q09ans-s17.pdf">Quiz 8 (Week 9)</a>,
+  <a href="q10ans-s17.pdf">Quiz 9 (Week 10)</a>
 * Spring, 2016 Solutions:
-<a href="q01ans-s16.pdf">Quiz 1</a>,
-<a href="q02ans-s16.pdf">Quiz 2</a>,
-<a href="q03ans-s16.pdf">Quiz 3</a>,
-<a href="q04ans-s16.pdf">Quiz 4</a>,
-<a href="q05ans-s16.pdf">Quiz 5</a>,
-<a href="q06ans-s16.pdf">Quiz 6</a>,
-<a href="q07ans-s16.pdf">Quiz 7</a>,
-<a href="q09ans-s16.pdf">Quiz 8 (Week 9)</a>,
-<a href="q10ans-s16.pdf">Quiz 9 (Week 10)</a>
+  <a href="q01ans-s16.pdf">Quiz 1</a>,
+  <a href="q02ans-s16.pdf">Quiz 2</a>,
+  <a href="q03ans-s16.pdf">Quiz 3</a>,
+  <a href="q04ans-s16.pdf">Quiz 4</a>,
+  <a href="q05ans-s16.pdf">Quiz 5</a>,
+  <a href="q06ans-s16.pdf">Quiz 6</a>,
+  <a href="q07ans-s16.pdf">Quiz 7</a>,
+  <a href="q09ans-s16.pdf">Quiz 8 (Week 9)</a>,
+  <a href="q10ans-s16.pdf">Quiz 9 (Week 10)</a>
 
 ## Final exam
 The final exam (samples: [2017](final-s17.pdf), [2009](final-s09.pdf)) will be given per the schedule that is published by the Registrar's Office in approximately week 6.
