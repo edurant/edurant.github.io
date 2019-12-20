@@ -8,24 +8,18 @@ title: "Dr. Durant: EE-3032 Signals and Systems"
 
 ## [Outline and reading assignments](dailySchedule.pdf)
 
-## Learning objectives
+## [Homework](hw/)
 
-* Compute the output of a continuous-time, LTI system (*system analysis*)
-  * Using time-domain techniques (*convolution*)
-  * Using frequency-domain techniques (*Fourier analysis*)
-* Analyze a continuous-time signal (*signal analysis*)
-  * Derive the *Fourier series* coefficients for a given periodic CT signal
-  * Determine the *Fourier transform* of a signal by using the FT integral or a table of common pairs and properties
-  * Compute the power or energy, as appropriate, of a CT signal using its time- or frequency-domain representation (*power/energy*)
-* Plot a signal in the time or frequency domain (*signal visualization*)
-  * Plot a signal as a function of time (*time plot*)
-  * Determine and plot the magnitude and phase spectra of a CT signal using Fourier analysis (*Fourier spectrum*)
-* Determine an appropriate *sampling* frequency and the subsequent frequency-domain representation of a sampled CT signal
-  * Determine an appropriate sampling frequency in order to avoid aliasing of a CT signal (*Nyquist*)
-  * Plot the magnitude and phase spectra of an impulse-train-sampled CT signal (*sampled spectrum*)
+## [Quizzes with Solutions](quiz/)
+
+## Sample Exams
+* [2019 Practice](finalPractice-f19.pdf)
+* [2017](final-f17.pdf) ([solution](final-f17-sol.pdf))
 
 ## Examples
 ### Winter, 2019-2020
+* [W3D4: Convolution example from class](w3d4_w1920.txt)
+
 ### Fall, 2019
 * [W3D4: Convolution example from class](w3d4-f19.txt)
 * [W4D3: Another convolution example from class](w4d3-f19.txt)
@@ -56,14 +50,6 @@ title: "Dr. Durant: EE-3032 Signals and Systems"
 * <a href="w9d4-f17.txt">W9D4: Effects of ZOH (zero-order hold) on digital signal. Applies in D/A (not A/D as described in text).</a>
 * <a href="errata-chaparro.html">Errata from previous textbook (Chaparro)</a>
 
-## [Homework](hw/)
-
-## [Quizzes with Solutions](quiz/)
-
-## Sample Exams
-* [2019 Practice](finalPractice-f19.pdf)
-* [2017](final-f17.pdf) ([solution](final-f17-sol.pdf))
-
 ## Additional Readings
 * Hammack, Bill. [Intro/History: Introducing a 100-year-old mechanical computer](https://www.youtube.com/watch?v=NAsM30MAHLg), YouTube video, 2014-11-11.
 * Harris, Fredric J. [On the Use of Windows for Harmonic Analysis with the Discrete Fourier Transform](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1455106), *Proc. IEEE*, 1978-01.
@@ -84,6 +70,22 @@ of equations with complex coefficients, and with the ability to perform symbolic
 
 Show all work, and work neatly, on your quiz and exam problems - a simple numeric answer is generally not sufficient.
 No credit given for work your professor cannot easily read or readily follow.
+
+## Learning objectives
+
+* Compute the output of a continuous-time, LTI system (*system analysis*)
+  * Using time-domain techniques (*convolution*)
+  * Using frequency-domain techniques (*Fourier analysis*)
+* Analyze a continuous-time signal (*signal analysis*)
+  * Derive the *Fourier series* coefficients for a given periodic CT signal
+  * Determine the *Fourier transform* of a signal by using the FT integral or a table of common pairs and properties
+  * Compute the power or energy, as appropriate, of a CT signal using its time- or frequency-domain representation (*power/energy*)
+* Plot a signal in the time or frequency domain (*signal visualization*)
+  * Plot a signal as a function of time (*time plot*)
+  * Determine and plot the magnitude and phase spectra of a CT signal using Fourier analysis (*Fourier spectrum*)
+* Determine an appropriate *sampling* frequency and the subsequent frequency-domain representation of a sampled CT signal
+  * Determine an appropriate sampling frequency in order to avoid aliasing of a CT signal (*Nyquist*)
+  * Plot the magnitude and phase spectra of an impulse-train-sampled CT signal (*sampled spectrum*)
 
 ## Grading algorithm
 

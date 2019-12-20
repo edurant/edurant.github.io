@@ -1,0 +1,28 @@
+% EE3032-2 Winter 2019-20 W3D4 example
+
+% In class yesterday, we calculated the segment of the output y(t) on 0<=t<=1
+% given the input x(t) and the impulse response h(t).
+
+% Today in MATLAB we will:
+% 1. graph x(t) and h(t)
+% 2. have MATLAB compute the convolution y(t) and graph it
+% 3. graph our computed segment of y(t) and confirm it matches.
+
+dt = 0.001; % Time step for plotting and Riemann integral approximation
+t = -0.5:dt:2.5;
+h = zeros(size(t)); % impulse response value vector, initially all 0s
+r1 = 0<=t & t<=1; % Boolean vector that is true in region 1: 0<=t<=1
+h(r1) = 1-t(r1); % In region 1: apply the given line equation to calculate h values.
+
+x = zeros(size(t));
+x(r1) = t(r1); % x has the same region 1 as h, but different values
+r2 = 1<=t & t<=2; % region 2 where x(t) = 1
+x(r2) = 1;
+
+yCalc = zeros(size(t)); % using calculus, we found y(t) in region 1
+yCalc(r1) = t(r1).^2/2 - t(r1).^3/6;
+
+y = dt*conv(x,h); % conv is digital convolution; multiplying by dt gives Riemann approximation to continuous-time convolution
+t2 = (t(1)*2):dt:(t(end)*2); % apply the width property to find the time support for the convolution result
+plot(t,h, t,x, t2,y, t,yCalc)
+legend('h(t)', 'x(t)', 'y(t)', 'yCalcR1(t)')
