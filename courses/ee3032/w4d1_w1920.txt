@@ -1,0 +1,55 @@
+% EE3032 W4D1, Winter 2019-20
+% Consider 2 systems in series with input x(t), where systems are indicated as [impulse response]:
+% x(t) -> [h1(t)] -> [h2(t)] -> y(t)
+% In class, we showed that y(t) = x(t) * h1(t) * h2(t), where * indicates convolution.
+% Convolution is both commutative and associative.
+
+% HINT: Type `doc functionName` for any function you don't understand
+
+close all % close all plot windows each time you run this script so that only plots created by this script remain.
+
+dt = 0.01; % use this timestep when plotting functions and estimating the convolution integral with Riemann sums
+t = -2:dt:10; % [-2,10] s; with steps of dt. Because of the way we calculate the convolution time scale (using the width property)
+% below, it is better to use this approach than linspace.
+
+% Start by plotting h1 and h2, which we drew on the board in class.
+% Here we write the region expressions directly instead of using intermediate variables.
+h1 = zeros(size(t)); h1(0<=t & t<=3) = 1;
+h2 = zeros(size(t)); h2(t>0) = exp(-t(t>0));
+subplot(4,1,1), plot(t,h1,t,h2), legend('h_1(t)','h_2(t)')
+
+% Analogous to multiplication or addition, the order of the 2 convolutions does not matter.
+% We chose to first find h(t) = h1(t) * h2(t) analytically on the board. Translating to MATLAB:
+h = zeros(size(t));
+r1 = 0<=t & t<=3; % region 1
+h(r1) = 1-exp(-t(r1));
+r2 = t>=3; % region 2, where the integral took a different forum
+h(r2) = exp(-(t(r2)-3)) - exp(-t(r2));
+subplot(4,1,2),plot(t,h),title('Combined impulse response')
+
+% And, here is x(t)
+x = zeros(size(t));
+r1x = 0<=t & t<=1;
+r2x = 1<=t & t<=2;
+x(r1x) = t(r1x); % x(t) = t in this region
+x(r2x) = 2-t(r2x); % x(t) = 2-t in this region
+subplot(4,1,3),plot(t,x),title('x(t)')
+
+% Next, have MATLAB calculate the convolution of x(t) with the the combined h(t).
+y = dt*conv(h, x); % conv does the convolution by Riemann approximation but assumes the spacing/width is 1, so multiply by dt.
+t2 = (2*t(1)):dt:(2*t(end)); % start and end per the convolution width property.
+subplot(4,1,4), plot(t2,y),title('y(t) by convolution')
+
+% Let's make one more addition to what was done in class: have MATLAB
+% calculate h = h1 * h2 directly and see if it matches our analytic solution.
+h_mat = dt*conv(h1,h2); % similar to y, the domain of h_mat is t2, but we want it to be just t for comparison
+rt = t2>=t(1) & t2<=t(end);
+h_mat = h_mat(rt); % throw away values outside of domain of t
+subplot(4,1,2) % go back to combined impulse response plot
+hold on % add to current plot instead of replacing it
+plot(t,h_mat)
+legend('Analytic','Numeric')
+% We can see the plots are nearly identical. Let's calculate the error
+% between them (type doc norm to see what norm does).
+err = norm(h-h_mat) / length(h); % This gives the RMSE: root of the mean-squared error; a common error measure
+fprintf('The error between h calculated analytically and numerically is: %g.\n', err)
