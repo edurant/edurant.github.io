@@ -1,0 +1,42 @@
+%% EE3032, Winter 2019-'20, W4D4, Dr. Durant
+% The inputs were given graphically and were 0 outside of [0,2].
+% In class we derived the first segment of y(t) using convolution.
+% This script completes the example.
+
+%% Get a fresh start...
+close all % closes any open windows, etc.
+clearvars % removes any existing variables from workspace
+
+%% Setup...
+dt = 0.01; % time step for plotting
+t = -1 : dt : 5;
+r02 = 0 <= t & t <= 2; % Boolean vector matching shape of t, true when 0<=t<=2
+r24 = 2 <= t & t <= 4;
+
+%% x and h
+x = zeros(size(t));
+h = x; % initialize the same way
+x(r02) = 1-t(r02)/2;
+h(r02) = 4-t(r02);
+% Note: In some languages, "h=x" would make the variables refer to the same vector/matrix and would lead to an incorrect result.
+% MATLAB is a "copy-on-write" language, which increases efficiency (but makes implementing MATLAB more complex);
+% initially "h=x" has the objects share memory, but when you write to h or x,
+% MATLAB understands that it needs to make an independent copy.
+
+%% Now let's have MATLAB's Symbolic Toolbox do more of the work for us...
+syms tt tau % tt is the symbol corresponding to 't', which we are already using
+hh = 4-tau; % h(tau); hh becomes symbolic automatically
+xx = tau/2 + 1 - tt/2; % x(t-tau) as derived in class
+y02 = int(hh*xx, tau, 0, tt); % integrate d\tau from 0 to tt
+y24 = int(hh*xx, tau, tt-2, 2);
+disp('y(t), 0<=t<=2'), collect(y02) % collect() is one of several functions that tells MATLAB how to show a symbolic result (factored various ways, expanded, etc.). `doc collect` for more information.
+disp('y(t), 2<=t<=4'), collect(y24)
+
+%% y(t) on [0,2] was calculated in class and graphed. Complete the function...
+y = zeros(size(t));
+y(r02) = t(r02).^3/12 - 3/2*t(r02).^2 + 4 * t(r02); % This matches symbolic result above
+% But, let's use MATLAB's symbolic result for 2<=t<=4 to compute numeric results in that range...
+y24s = matlabFunction(y24);
+y(r24) = y24s(t(r24));
+figure, plot(t,x, t,h, t,y)
+legend('x(t)','h(t)','y(t)')

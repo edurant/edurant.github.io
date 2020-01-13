@@ -20,6 +20,7 @@ title: "Dr. Durant: EE-3032 Signals and Systems"
 ### Winter, 2019-2020
 * [W4D1: Convolution example from class](w4d1_w1920.txt)
 * [W3D4: Convolution example from class](w3d4_w1920.txt)
+* [W4D4: Convolution example from class](w4d4_w1920.txt)
 
 ### Fall, 2019
 * [W3D4: Convolution example from class](w3d4-f19.txt)
