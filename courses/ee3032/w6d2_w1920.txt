@@ -1,0 +1,38 @@
+% EE3032 W6D2 example: Deriving the Fourier Series for the even square wave
+% with no DC offset and where where x(0) = A.
+
+% When declaring symbolic variables, you can add any of the following
+% constraints: real, positive, integer, rational. It is not always
+% necessary to include constraints, but it can help MATLAB simplify the
+% result. For example, MATLAB can only figure out that bn are 0 if it knows
+% that n is an integer.
+syms A t real % a single constraint/assumption can be stated when declaring a symbolic variable
+syms n T0 positive
+assumeAlso(n, 'integer')
+
+% Here's how we did a1 in class
+a1 = 2/T0 * int(A*cos(2*pi/T0*t), t) % indefinite integral
+% When evaluating we took advantage of symmetry and changed the interval of integration accordingly...
+a1 = 8/T0 * int(A*cos(2*pi/T0*t), t, 0, T0/4) % definite integral
+
+% For the following, we'll let MATLAB find all the simplifications...
+% Square wave x(t), when even, changes at T0 * [... -3/4 -1/4 1/4 3/4 ...]
+% x(t) goes on for ever, but we define it to be correct on at least the period on +/-T0/2:
+x = A*(-heaviside(t+3*T0/4)+2*heaviside(t+T0/4)-2*heaviside(t-T0/4)+2*heaviside(t-3*T0/4));
+
+% Calculate several a's and a b...
+a2 = 2/T0*int(x*cos(2*2*pi/T0*t),t,-T0/2,T0/2)
+a3 = 2/T0*int(x*cos(3*2*pi/T0*t),t,-T0/2,T0/2)
+b3 = 2/T0*int(x*sin(3*2*pi/T0*t),t,-T0/2,T0/2)
+a4 = 2/T0*int(x*cos(4*2*pi/T0*t),t,-T0/2,T0/2)
+a5 = 2/T0*int(x*cos(5*2*pi/T0*t),t,-T0/2,T0/2)
+
+% Calculate a and b in general for n>0
+an = 2/T0*int(x*cos(n*2*pi/T0*t),t,-T0/2,T0/2)
+bn = 2/T0*int(x*sin(n*2*pi/T0*t),t,-T0/2,T0/2)
+
+% Notice that an includes "sin((pi*n)/2)" which equals "sin(n * pi/2)".
+% pi/2 is 90 degrees, so this generates the sequence, starting with n=1 of:
+% 1 0 -1 0 1 0 -1 0 1 0 -1 ...
+% This corresponds to the even terms of an dropping out and the odd terms
+% alternating in sign.
