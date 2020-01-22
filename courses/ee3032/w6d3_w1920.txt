@@ -1,0 +1,48 @@
+% EE3032 W6D3 Example, Winter 2019-'20, Dr. Durant
+% Apply an averaging/integrating/rectangular impulse response to a periodic
+% waveform using the transfer function and Fourier Series coefficients.
+
+% Bug from class; now fixed: in the expressions for part, "2*pi" should have 
+% been used to convert from hertz to radians/second, but the "*pi" was missing.
+
+% ***** Try different values of T, T0, n, etc.! (Adjust t and the first omega if needed.)
+
+close all
+T = 0.372; % s, duration of the averaging system
+omega = -40:0.01:40; % omegas for plotting the system transfer function
+Hmag = T * sinc((omega*T/2)/pi); % on the board, we separated magnitude...
+Hang = -T*omega/2; % and phase components of H(omega).
+% The "/pi" above converts from the engineer's definition of sinc to MATLAB's definition.
+figure
+subplot(2,1,1), plot(omega,Hmag), ylabel('Gain (V/V)'), title('H(\omega)')
+subplot(2,1,2), plot(omega,Hang), ylabel('Phase shift (radians)')
+xlabel('Frequency \omega (rad/s)')
+
+% Now, calculate the Fourier Series coefficients for the even, 0 V average,
+% triangle wave. These will later be put through the transfer function
+% H(omega) to compute the output. These are based on Table 5-4 from page 210.
+n = 1:2:5; % :2: means step by 2, so only use odd numbers; the table told us only the odd components are present in this signal
+an = 8 ./ (n.^2*pi^2); % formula from the table
+
+T0 = 1; % period of the input signal
+t = -2:0.01:2; % time for plotting input and input
+x = zeros(size(t));
+for idx=1:length(n) % foreach n
+    part = an(idx) * cos(2*pi*n(idx)*t/T0); % FS coefficient * basis function/building block
+    x = x + part; % summation per the FS formula
+end
+%figure,plot(t,x) % plot just the input
+
+omega = n * (1/T0) * 2*pi; % omegas (n * (f * 2pi)) for the FS frequencies of the input
+Hmag = T * sinc((omega*T/2)/pi); % Same formulas as before; apply to the new omegas
+Hang = -T*omega/2;
+
+y = zeros(size(t));
+for idx=1:length(n)
+    % same as the loop for x, except we've added gain Hmag and phase shift Hang
+    part = an(idx) * Hmag(idx) * ...
+        cos(2*pi*n(idx)*t/T0 + Hang(idx));
+    y = y + part;
+end
+figure,plot(t,x, t,y),legend('x(t)','y(t)')
+xlabel('Time (s)'), ylabel('Voltage (V)')
