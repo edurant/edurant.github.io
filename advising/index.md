@@ -1,6 +1,6 @@
 ---
 title: "CE Academic Advising"
-date: 2019-11-03 11:11:05 -0600
+date: 2020-01-27 14:42:30 -0600
 ---
 
 ## Advising policy
@@ -8,7 +8,8 @@ date: 2019-11-03 11:11:05 -0600
 Computer engineering students see their advisors regularly to discuss academic and career plans and progress. In most terms, CE students must receive their advisors' clearance before registering; the online registration system enforces this. Beat the registration rush by contacting your advisor early in the quarter. You are welcomed and encouraged to meet with your advisor even in terms when it is not required to discuss your internship search, career goals, etc.
 
 The policy is:
-* Freshman or sophomore: meet with advisor every quarter
+* Freshman: meet with advisor every quarter
+* Sophomores in fall and spring: meet with advisor
 * Juniors in winter: meet with advisor
 * Seniors in fall: meet with advisor
 * Any GPA < 2.25: meet with advisor
