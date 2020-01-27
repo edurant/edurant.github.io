@@ -9,7 +9,7 @@ date: 2020-01-27 14:28:30 -0600
 * Homework 3, due Wednesday of week 4 in class. 1.33(d), 1.35(b), 1.37(c), 1.39(a), 2.1(a,g), 2.2(b,g), 2.10(a). [Solution](hw3-w1920sol.pdf)
 * Homework 4, due Monday of week 6 in class. 2.14, 2.15(b), 2.16(a), 2.22(b,f), 2.27, 2.29(c,d,f), 2.31. [Solution](hw4-w1920sol.pdf)
 * Homework 5, due Monday of week 8 in class. 2.32, 2.37, 5.1(b).
-* Homework 6, due Monday of week 9 in class. 5.8(a-e, all parts). Also, calculate the power using at least 2 methods: directly from x(t), and using Parseval’s relation.
+* Homework 6, due Monday of week 9 in class. 5.8(a-e, all parts). Also, calculate the power using at least 2 methods: directly from x(t), and using Parseval&rsquo;s relation.
 
 ## Fall, 2019
 * [Homework 0, due Monday of week 2](hw0-f19.pdf) [Solution](hw0-f19sol.pdf)
@@ -23,7 +23,7 @@ date: 2020-01-27 14:28:30 -0600
   * 2.17(b) (also show your result as a plot, either by hand or using software)
   * 2.22(a,c,e)
 * Homework 4, due Tuesday of week 7 at the beginning of class. 2.28, 2.29(a,c,d), 2.30(a, b), 2.36, 5.2(a). [Solution](hw4-f19sol.pdf)
-* Homework 5, due Friday of week 8 at the beginning of class. 5.7(a-e, all parts). Also, calculate the power using at least 2 methods: directly from x(t), and using Parseval's relation.
+* Homework 5, due Friday of week 8 at the beginning of class. 5.7(a-e, all parts). Also, calculate the power using at least 2 methods: directly from x(t), and using Parseval&rsquo;s relation.
     Solution: [PDF](hw5-f19sol.pdf), [MATLAB Live Script](hw5-f19sol.mlx)
 
 ## 2017
