@@ -1,0 +1,26 @@
+% EE3032 W7D3 Dr. Durant, Winter 2019-'20
+% We derived the Fourier Series for a pulse train with voltage A, period
+% T0, and on duration tau, with an on period centered about t=0 (thus an
+% even signal).
+
+% Parameters - try varying them
+A = 1;
+T0 = 3;
+tau = 1;
+
+% Derived parameters
+w0 = 2*pi/T0; % fundamental frequency in radians/s
+nMax = T0*10; % scale up with T0 or 1/f0 so that the total frequency domain is unchanged as T0 varies.
+n = -nMax:nMax;
+
+% Here is the expression we derived for the FS. Added /pi due to MATLAB implementation of sinc.
+x = A*tau/T0*sinc(n*w0*tau/2/pi);
+% The FS is real since x(t) is even. The real portions of the FS coefficients
+% correspond to cosines, which are the even signal building blocks.
+% What would it indicate about x(t) if the FS coefficients were purely imaginary?
+% Given that we take x(t) to be real, what constraint would this impose on the 0th FS coefficient?
+
+% Figure:
+figure % create a new figure for each run to allow comparing various T0 values, etc.
+stem(n*w0,x, 'LineWidth',3),xlabel('Frequency (radians/s)')
+title(T0)

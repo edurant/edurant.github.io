@@ -24,6 +24,7 @@ title: "Dr. Durant: EE-3032 Signals and Systems"
 * [W5D3: Decomposition of square wave into harmonically related phasors; apply transfer function and superposition](w5d3_w1920.txt)
 * [W6D2: Deriving the Fourier Series of a square wave](w6d2_w1920.txt)
 * [W6D3: Apply an averaging system to a triangle wave using the transfer function and Fourier Series](w6d3_w1920.txt)
+* [W7D3: FS of a pulse train, experiment with increasing the period](w7d3_w1920.txt)
 
 ### Fall, 2019
 * [W3D4: Convolution example from class](w3d4-f19.txt)
