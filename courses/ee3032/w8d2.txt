@@ -1,0 +1,20 @@
+% EE3032 W8D2 Dr. Durant - Fourier Transform of a single period of a sinusoid
+
+% Define the input sinusoid x(t)
+f0 = 20; % Hz
+T0 = 1/f0; % s
+w0 = 2*pi*f0; % rad/s
+dt = T0/100; % 100 steps per period (for plotting and Riemann sum calculations)
+t = -(T0/2) : dt : (T0/2); % 1 period, symmetric about t=0, 
+x = cos(w0*t);
+
+figure, plot(t,x), title('x(t)')
+
+% Fourier transform
+w = 0 : (w0/100) : (3*w0); % Frequency range for evaluation Fourier Transform
+X = dt * sum(x .* exp(-1j * w' * t), 2); % Riemann approximation of FT integral
+% w' * t = column * row = outer product, matrix result
+figure, plot(w/(2*pi),abs(X)) % |X(omega)| vs. f (omega/(2pi))
+title('X(\omega)'),xlabel('Frequency (Hz)'),ylabel('|X(\omega)|')
+
+% Test your understanding: Why are there nulls (zeros of X(omega)) at 40 and 60 Hz?
