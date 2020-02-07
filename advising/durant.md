@@ -39,11 +39,11 @@ General CE advising information, including what you need to bring to your advisi
   * Friday 2/7: 10:45-11:45 AM, 4:00-4:45 PM
 
 * Week 9 Times
-  * Monday 2/3: 2:00-2:45
-  * Tuesday 2/4: 2:00-2:45 and 4:00-5:00 PM
-  * Wednesday 2/5: 4:00-5:00 PM
-  * Thursday 2/6: (no times available)
-  * Friday 2/7: 4:00-4:45 PM
+  * Monday 2/10: 2:00-2:45
+  * Tuesday 2/11: 2:00-2:45 and 4:00-5:00 PM
+  * Wednesday 2/12: 4:00-5:00 PM
+  * Thursday 2/13: (no times available)
+  * Friday 2/14: 4:00-4:45 PM
 
 * Week 10 Times
   * Scheduled in extenuating circumstances only. Please sign up during week 7 through week 9, or make a special appointment with me in week 11.
