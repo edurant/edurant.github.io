@@ -10,6 +10,7 @@ title: "Dr. Durant: EE-3032 Signals and Systems: Quizzes with Solutions"
 [Quiz 5](q05-w1920-ans.pdf)
 [Quiz 6](q06-w1920-ans.pdf)
 [Quiz 7](q07-w1920-ans.pdf)
+[Quiz 8](q08-w1920-ans.pdf)
 
 # Fall, 2019
 * [Quiz 1](q01-f19-ans.pdf)
