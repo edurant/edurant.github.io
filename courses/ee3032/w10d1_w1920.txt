@@ -1,0 +1,27 @@
+% EE3032 W10D1 Winter 2019-2020 - Aliasing Example - Dr. Durant
+
+f = 1; % true input frequency, Hz
+Ts = 0.6; % sampling period, s
+n = 0:5; % sample number (remember, t = n * Ts)
+x = cos(2*pi*f*(n*Ts)); % sampled version of input signal; samples might not be taken often enough to describe frequency f!
+
+t = 0 : 0.01 : (max(n)*Ts); % small dt to approximate continuous time
+xanalog = cos(2*pi*f*t); % original analog signal that was sampled
+
+% On the board, we made the following calculations
+fs = 1/Ts; % sampling frequency, Hz
+fn = fs/2; % Nyquist frequency; only frequencies less than this can be sampled without loss of information (baseband assumption)
+
+if false % specific case from class
+    fa = 2/3; % Hz, calculated on board
+else % more general case; works for fn <= f <= 2*fn
+    fExcess = f-fn; % amount that input frequency is too high
+    assert(0 <= fExcess && fExcess <= fn, 'This program cannot handle the given inputs')
+    fa = fn - fExcess; % direction reverses as shown on the board
+end
+fprintf('For input frequency %g Hz and sampling frequency %g Hz (Nyquist frequency %g Hz),\nthe aliased frequency is %g Hz.\n',...
+        f, fs, fn, fa)
+xalias = cos(2*pi*fa*t);
+
+figure, plot(t,xanalog,'b-', n*Ts,x,'ro', t,xalias,'g-')
+legend('x(t) original', 'x[n] sampled', 'x(t) aliased')

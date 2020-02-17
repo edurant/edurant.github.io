@@ -26,6 +26,7 @@ title: "Dr. Durant: EE-3032 Signals and Systems"
 * [W6D3: Apply an averaging system to a triangle wave using the transfer function and Fourier Series](w6d3_w1920.txt)
 * [W7D3: FS of a pulse train, experiment with increasing the period](w7d3_w1920.txt)
 * [W8D2: FS of a finite number of cycles of a sinusoid](w8d2_w1920.txt)
+* [W10D1: Aliasing example](w10d1_w1920.txt)
 
 ### Fall, 2019
 * [W3D4: Convolution example from class](w3d4-f19.txt)
