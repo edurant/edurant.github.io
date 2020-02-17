@@ -1,10 +1,10 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2019-12-09 11:50:30 -0600
+date: 2020-02-17 14:04:30 -0600
 ---
 
-* [An Enchantress of Numbers: A Novel of Ada Lovelace](https://www.amazon.com/dp/B06XK2TCFD), by Jennifer Chiaverini, discussed on ~May, 2020.
-* [Three Laws Lethal](https://www.amazon.com/dp/B07DZJHF4T), by David Walton, discussed on ~April, 2020.
+* [An Enchantress of Numbers: A Novel of Ada Lovelace](https://www.amazon.com/dp/B06XK2TCFD), by Jennifer Chiaverini, discussed on 2020-05-05.
+* [Three Laws Lethal](https://www.amazon.com/dp/B07DZJHF4T), by David Walton, discussed on 2020-04-07.
 * [Headstrong: 52 Women Who Changed Science - And The World](https://www.amazon.com/dp/B00N6PD7W4), by Rachel Swaby, discussed on 2020-03-10.
 * [Educated: A Memoir](https://www.amazon.com/dp/B072BLVM83), by Tara Westover, discussed on 2020-02-10.
 * [Machines Like Me](https://www.amazon.com/dp/0385545118), by Ian McEwan, discussed on 2020-01-06.
