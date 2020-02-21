@@ -1,0 +1,30 @@
+% EE3032 W10D4 W1920 Dr. Durant
+% Design of filter/impulse response having arbitrary transfer
+% function/Fourier Transform.
+
+f = -1000:1:1000; % frequency range of interest, H(w)=0 outside of this
+w = 2*pi*f;
+
+dt = 0.0001; % This must at least satisfy the Nyquist criterion for the highest frequency feature (800 Hz -> 1/(2*f) = 1/1600 s), but can be somewhat smaller to plot with more smoothness.
+t = -0.05:dt:0.05; % Choose a range over which to calculate h(t). This is also the time over which we truncate it for analysis later.
+
+% Set up H(w), the Fourier Transform of the impulse response = the transfer function. We make the phase 0, which
+% means it has no delay and is not causal. We will modify the response later to make it physically realizable.
+% This code was written to match the shape we sketched on the board.
+H = ones(size(w));
+H(abs(w) > 2*pi*800) = 0;
+r1 = abs(f) < 200;
+H(r1) = 2 - abs(f(r1))/200;
+figure,plot(f,H),title('Ideal Transfer Function Magnitude'),xlabel('Frequency (Hz)')
+
+dw = w(2)-w(1);
+h = dw * sum(H .* exp(1j*t'*w), 2) / (2*pi); % Riemann approximation of the inverse Fourier Transform integral
+assert(norm(imag(h))/norm(real(h)) < eps('single')) % check imag part is ~0
+h = real(h); % discard the imaginary part due to numeric roundoff
+figure,plot(t,h),title('Impulse response (non-causal)'),xlabel('Delay (s)')
+
+t = t-min(t); % Delay the impulse response to make it causal
+Hreal = dt * sum(h' .* exp(-1j*w'*t), 2) ;
+figure
+subplot(211),plot(f,abs(Hreal)),title('Realized Transfer Function Magnitude')
+subplot(212),plot(f,unwrap(angle(Hreal))),title('Realized Transfer Function Phase'),xlabel('Frequency (Hz)')
