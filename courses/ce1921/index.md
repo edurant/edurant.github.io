@@ -20,7 +20,7 @@ title: "Dr. Durant: CE-1921 Computer Architecture"
 ## Additional readings
 
 ### 2020
-* *Coming soon...*
+* England, Rachel. [An algorithm could make CPUs a cheap way to train AI](https://www.engadget.com/2020/03/03/rice-university-slide-cpu-gpu-machine-learning/). *engadget*, 3 March 2020. [discussed 2020-03-09]
 
 ### 2018
 * ___. <a href="https://developer.arm.com/products/processors/machine-learning/arm-ml-processor">Arm Machine Learning Processor</a>.
