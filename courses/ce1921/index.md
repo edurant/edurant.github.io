@@ -170,8 +170,8 @@ It may cover any of the learning objectives from the course, which are posted on
 The exam will last 2 hours. No notes, books, calculators, etc. may be used on the final.
 
 ## Grading
-<table>
-<tr><td>Labs</td>	<td align="right">33 1/3%</td></tr>
-<tr><td>Quizzes</td>	<td align="right">33 1/3%</td></tr>
-<tr><td>Final Exam</td>	<td align="right">33 1/3%</td></tr>
-</table>
+| Component  | Weight      | Weight if Final Canceled |
+| ---------- | ----------: | -----------------------: |
+| Labs       | 33&frac13;% | 60%                      |
+| Quizzes    | 33&frac13;% | 40%                      |
+| Final Exam | 33&frac13;% |  0%                      |
