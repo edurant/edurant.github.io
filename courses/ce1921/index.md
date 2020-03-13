@@ -171,8 +171,8 @@ The exam will last 2 hours. No notes, books, calculators, etc. may be used on th
 
 ## Grading
 
-| Component  | Weight      | Weight if Final Canceled |
-| :---       |        ---: |                     ---: |
-| Labs       | 33&frac13;% | 60%                      |
-| Quizzes    | 33&frac13;% | 40%                      |
-| Final Exam | 33&frac13;% |  0%                      |
+| Component  | Weight | Weight if Final Canceled |
+| :---       |   ---: |                     ---: |
+| Labs       | 34%    | 60%                      |
+| Quizzes    | 33%    | 40%                      |
+| Final Exam | 33%    |  0%                      |
