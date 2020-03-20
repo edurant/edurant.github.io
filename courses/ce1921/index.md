@@ -126,7 +126,7 @@ Weekly lab details are available on the main course website.
 Most prelab assignments and in-lab activities will be conducted individually, but you are free to consult with other students and the professor on your assignment.
 
 ### Lab Check-out Sheets
-* (not yet posted)
+* [Week 2](lw2-s20-checklist.pdf)
 
 ## Quizzes
 Quizzes will be given during most lab periods. The lowest
