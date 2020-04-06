@@ -7,13 +7,13 @@ General CE advising information, including what you need to bring to your advisi
 
 ## Scheduling an advising appointment if I am your advisor
 
-* Send me an Outlook meeting request.
+* Send me an Outlook meeting request. During periods away from campus, I recommend using the "New Teams Meeting" feature on the Outlook Calendar Home menu, but I'll just start the meeting with you in Teams Chat if you don't set it up this way.
   * I try to accept all requests upon receipt, but may reject requests received within 24 hours of the appointment time.
   * Available times are those that both appear in the list below and appear as "tentative" in my availability. Times that are already taken by another student appear as "busy".
   * Note: Some clients may treat "tentative" times as busy and will tell you I'm unavailable during all advising times. You can override and send the invitation regardless, but may get a decline from me if another student has that time.
 * Use the option that requires me to confirm the meeting (usually the default).
 * Use one of the following meeting titles: "Advising", "Advising-YourLastName", or "Advising-YourLastName/Durant".
-* Use the following meeting location: "L339". (Several people view my calendar, so a location like "Your Office" will lead to confusion.)
+* Use the following meeting location: "L339" (or "Microsoft Teams" if online). (Several people view my calendar, so a location like "Your Office" will lead to confusion.)
 * Many clients that connect to our Exchange Server work well. Here are some options (let me know of other popular options that are confirmed to work):
   * Windows: Outlook desktop client
   * Web: [Outlook Web Access](https://outlook.com/owa/msoe.edu) using Chrome or Internet Explorer
@@ -24,26 +24,26 @@ General CE advising information, including what you need to bring to your advisi
 
 ## Advising times
 
-* Week 7 Times
-  * Monday 1/27: 2:00-2:45, 4:00-5:00 PM
-  * Tuesday 1/28: 2:00-2:45 and 4:00-5:00 PM
-  * Wednesday 1/29: 4:00-5:00 PM
-  * Thursday 1/30: (no times available)
-  * Friday 1/31: 10:45-11:45 AM, 4:00-4:45 PM
+* Week 7 (old 8) Times
+  * Monday 4/27: (no times available)
+  * Tuesday 4/28: 12:00-12:30, 3:00-4:00, and 4:30-5:00 PM
+  * Wednesday 4/29: (no times available)
+  * Thursday 4/30: 12:00-12:30, 2:30-3:00, 3:30-4:00 PM
+  * Friday 5/1: 1:00-1:30 PM
 
-* Week 8 Times
-  * Monday 2/3: 2:00-2:45, 4:00-5:00 PM
-  * Tuesday 2/4: 2:00-2:45 and 4:00-5:00 PM
-  * Wednesday 2/5: 4:00-5:00 PM
-  * Thursday 2/6: (no times available)
-  * Friday 2/7: 10:45-11:45 AM, 4:00-4:45 PM
+* Week 8 (old 9) Times
+  * Monday 5/4: (no times available)
+  * Tuesday 5/5: 12:00-12:30, 3:00-4:00, and 4:30-5:00 PM
+  * Wednesday 5/6: (no times available)
+  * Thursday 5/7: 12:00-12:30, 2:30-3:00, 3:30-4:00 PM
+  * Friday 5/8: 1:00-1:30 PM
 
-* Week 9 Times
-  * Monday 2/10: 2:00-2:45
-  * Tuesday 2/11: 2:00-2:45 and 4:00-5:00 PM
-  * Wednesday 2/12: 4:00-5:00 PM
-  * Thursday 2/13: (no times available)
-  * Friday 2/14: 4:00-4:45 PM
+* Week 9 (old 10) Times
+  * Monday 5/11: (no times available)
+  * Tuesday 5/12: 12:00-12:30, 3:00-4:00, and 4:30-5:00 PM
+  * Wednesday 5/13: (no times available)
+  * Thursday 5/14: 3:00-3:30 PM
+  * Friday 5/15: 3:00-3:30 PM
 
-* Week 10 Times
-  * Scheduled in extenuating circumstances only. Please sign up during week 7 through week 9, or make a special appointment with me in week 11.
+* Week 10 (old 11) Times
+  * Scheduled in extenuating circumstances only. Please sign up during week 7 through week 9, or contact me for alternate times if necessary.
