@@ -1,6 +1,6 @@
 ---
 title: "CE Academic Advising: Elective Rules"
-date: 2019-11-15 16:54:00 -0600
+date: 2020-04-06 14:03:30 -0600
 ---
 
 ## Sci EL = Science Elective, 3+ credits
@@ -43,6 +43,6 @@ date: 2019-11-15 16:54:00 -0600
 * EE1000, for students who took it during their initial term of enrollment.
 * Includes anything listed above, plus most sophomore level classes from other majors that aren't significantly duplicative of CE content, even if they don't count as a program elective.
 * UGR498x I-II, without III, consists of 3 credits and meets one of these electives. This combination does not meet a CE technical elective.
-* MA120 can be used by students who are advised to take it per CE faculty decision on 2018-04-12.
+* MA120 can be used by students who were required to take it prior to entry to calculus.
 
 This page was last updated on {{page.date}}.
