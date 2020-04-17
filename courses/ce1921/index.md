@@ -131,10 +131,16 @@ Most prelab assignments and in-lab activities will be conducted individually, bu
 * [Week 3](lw3-s20-checklist.pdf)
 * [Week 4](lw4-s20-checklist.pdf)
 * [Week 5](lw5-s20-checklist.pdf)
+* [Week 6](lw6-s20-checklist.pdf)
 
 ## Quizzes
 Quizzes will be given during most lab periods. The lowest
 quiz grade will be dropped. No make-up quizzes will be given.
+
+* Spring, 2020 Solutions:
+  Quiz 1,
+  Quiz 2,
+  [Quiz 3](q03ans-s20.pdf)
 
 * Spring, 2018 Solutions:
   <a href="q01ans-s18.pdf">Quiz 1</a>,
