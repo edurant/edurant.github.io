@@ -132,6 +132,7 @@ Most prelab assignments and in-lab activities will be conducted individually, bu
 * [Week 4](lw4-s20-checklist.pdf)
 * [Week 5](lw5-s20-checklist.pdf)
 * [Week 6](lw6-s20-checklist.pdf)
+* [Week 7](lw7-s20-checklist.pdf)
 
 ## Quizzes
 Quizzes will be given during most lab periods. The lowest
