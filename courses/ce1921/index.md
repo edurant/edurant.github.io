@@ -1,4 +1,4 @@
-c---
+---
 title: "Dr. Durant: CE-1921 Computer Architecture"
 ---
 
