@@ -1,4 +1,4 @@
----
+c---
 title: "Dr. Durant: CE-1921 Computer Architecture"
 ---
 
@@ -133,6 +133,7 @@ Most prelab assignments and in-lab activities will be conducted individually, bu
 * [Week 5](lw5-s20-checklist.pdf)
 * [Week 6](lw6-s20-checklist.pdf)
 * [Week 7](lw7-s20-checklist.pdf)
+* [Week 9](lw9-s20-checklist.pdf)
 
 ## Quizzes
 Quizzes will be given during most lab periods. The lowest
@@ -141,7 +142,9 @@ quiz grade will be dropped. No make-up quizzes will be given.
 * Spring, 2020 Solutions:
   Quiz 1,
   Quiz 2,
-  [Quiz 3](q03ans-s20.pdf)
+  [Quiz 3](q03ans-s20.pdf),
+  Quiz 4,
+  [Quiz 5](q05ans-s20.pdf)
 * Spring, 2018 Solutions:
   <a href="q01ans-s18.pdf">Quiz 1</a>,
   <a href="q02ans-s18.pdf">Quiz 2</a>,
