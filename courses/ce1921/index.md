@@ -145,6 +145,7 @@ quiz grade will be dropped. No make-up quizzes will be given.
   [Quiz 3](q03ans-s20.pdf),
   Quiz 4,
   [Quiz 5](q05ans-s20.pdf)
+  [Quiz 6](q06ans-s20.pdf)
 * Spring, 2018 Solutions:
   <a href="q01ans-s18.pdf">Quiz 1</a>,
   <a href="q02ans-s18.pdf">Quiz 2</a>,
