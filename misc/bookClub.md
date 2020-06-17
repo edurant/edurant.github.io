@@ -1,10 +1,11 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2020-05-18 08:57:30 -0600
+date: 2020-06-17 07:44:30 -0600
 ---
 
-* [Prediction Machines: The Simple Economics of Artificial Intelligence](https://www.amazon.com/dp/1633695670), by Ajay Agrawal, discussed on 2020-08-25.
-* [The End of October](https://www.amazon.com/dp/B07WKJSP4J), by Lawrence Wright, discussed on 2020-07-21.
+* [Prediction Machines: The Simple Economics of Artificial Intelligence](https://www.amazon.com/dp/1633695670), by Ajay Agrawal, discussed on 2020-09-15.
+* [The End of October](https://www.amazon.com/dp/B07WKJSP4J), by Lawrence Wright, discussed on 2020-08-25.
+* [Educated in Whiteness. Good Intentions and Diversity in Schools](https://manifold.umn.edu/projects/educated-in-whiteness), by Angelina E. Castagno, discussed on 2020-07-21.
 * [Bottle of Lies: The Inside Story of the Generic Drug Boom](https://www.amazon.com/dp/B086JWVLTB), by Katherine Eban, discussed on 2020-06-16.
 * [An Enchantress of Numbers: A Novel of Ada Lovelace](https://www.amazon.com/dp/B06XK2TCFD), by Jennifer Chiaverini, discussed on 2020-05-19.
 * [Three Laws Lethal](https://www.amazon.com/dp/B07DZJHF4T), by David Walton, discussed on 2020-04-28.
