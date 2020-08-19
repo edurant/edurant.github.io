@@ -2,11 +2,17 @@
 title: "Dr. Durant: EE-3032 Signals and Systems"
 ---
 
+## Canvas
+
+Beginning in fall, 2020, this course will live primarily in [Canvas](https://msoe.instructure.com/). However, this site contains many reference materials that you may find useful including MATLAB examples and previous homework, quizzes, and exams.
+
 ## Textbook
 
-[Signals and Systems: Theory and Applications](http://ss2.eecs.umich.edu/) by Fawwaz T. Ulaby and Andrew E. Yagle, published 2018, ISBN: 978-1-60785-486-9
+[Signals and Systems: Theory and Applications](https://ss2.eecs.umich.edu/) by Fawwaz T. Ulaby and Andrew E. Yagle, published 2018, ISBN: 978-1-60785-486-9
 
 ## [Outline and reading assignments](dailySchedule.pdf)
+
+The is the winter, 2019-2020 outline and will be virtually unchanged for fall, 2020. Please see Canvas for the exact outline we will follow.
 
 ## [Homework](hw/)
 
@@ -98,8 +104,4 @@ No credit given for work your professor cannot easily read or readily follow.
 
 ## Grading algorithm
 
-<table>
-<tr><td>Homework</td>			<td align="right">15%</td></tr>
-<tr><td>Weekly Quizzes</td>		<td align="right">55%</td></tr>
-<tr><td>Comprehensive Final Exam</td>	<td align="right">30%</td></tr>
-</table>
+Please see Canvas for how your course grade will be calculated.
