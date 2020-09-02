@@ -1,6 +1,6 @@
 ---
 title: "CE Academic Advising"
-date: 2020-01-27 14:42:30 -0600
+date: 2020-09-02 16:20:30 -0500
 ---
 
 ## Advising policy
@@ -8,22 +8,22 @@ date: 2020-01-27 14:42:30 -0600
 Computer engineering students see their advisors regularly to discuss academic and career plans and progress. In most terms, CE students must receive their advisors' clearance before registering; the online registration system enforces this. Beat the registration rush by contacting your advisor early in the quarter. You are welcomed and encouraged to meet with your advisor even in terms when it is not required to discuss your internship search, career goals, etc.
 
 The policy is:
-* Freshman: meet with advisor every quarter
+* First year students: meet with advisor every quarter
 * Sophomores in fall and spring: meet with advisor
 * Juniors in winter: meet with advisor
 * Seniors in fall: meet with advisor
 * Any GPA < 2.25: meet with advisor
 * All others: advising not required, no hold will be automatically placed
 
-"Freshman," etc. are based on credits and are defined in the &quot;Grade Level&quot; section of the &quot;Academic Regulations and Policies&quot; section of the <a href="https://catalog.msoe.edu/">MSOE Undergraduate Catalog</a>.
+"Sophomore," etc. are based on credits and are defined in the &quot;Grade Level&quot; section of the &quot;Academic Regulations and Policies&quot; section of the <a href="https://catalog.msoe.edu/">MSOE Undergraduate Catalog</a>.
 
 Remember that you can schedule your advising appointment before you receive your quarterly registration notice from the Registrar, so do not wait until the last week!
 
-Starting in week 7 sign-up sheets with available advising slots are normally posted on your advisor's office door. Please sign up for one of these slots; signing up early will give you a wider choice of times. Some advisors will notify you of other appointment procedures (e.g., Outlook) or walk-in advising hours.
+You will be able to sign up for an advising appointment starting in week 7. You will be notified of your advisor's appointment sign-up procedures by the end of week 6.
 
-## What to bring to the meeting with your advisor
-* A copy of the CE curriculum flowchart for your curriculum version marked with the courses you have successfully completed. Hardcopies are available outside of the CE/EE/Math office area.
-  * Students first enrolled in <a href="https://catalog.msoe.edu/preview_program.php?catoid=20&poid=1001&returnto=562">F'19</a> follow curriculum 4.3. <a href="curriculum-4.3rev01.pdf">Flowchart</a>
+## What to have available during the meeting with your advisor
+* A copy (physical or virtual) of the CE curriculum flowchart for your curriculum version marked with the courses you have successfully completed.
+  * Students first enrolled in <a href="https://catalog.msoe.edu/preview_program.php?catoid=22&poid=1101&returnto=630">F'20</a> and <a href="https://catalog.msoe.edu/preview_program.php?catoid=20&poid=1001&returnto=562">F'19</a> follow curriculum 4.3. <a href="curriculum-4.3rev01.pdf">Flowchart</a>
   * Students first enrolled in <a href="https://catalog.msoe.edu/preview_program.php?catoid=10&poid=506&returnto=364">F'15</a>,
             <a href="https://catalog.msoe.edu/preview_program.php?catoid=14&poid=704&returnto=394">F'16</a>,
 	    <a href="https://catalog.msoe.edu/preview_program.php?catoid=16&poid=810&returnto=442">F'17</a>, and
@@ -33,7 +33,7 @@ Starting in week 7 sign-up sheets with available advising slots are normally pos
             follow curriculum 3.5. <a href="curriculum-3.5rev01.pdf">Flowchart</a>
 
 * Your preliminary plans for the next quarter's schedule
-* Your curriculum track (course list). Hardcopies are available outside of the CE/EE/Math office area. Electronic copies are available for newer versions at <a href="https://catalog.msoe.edu/">https://catalog.msoe.edu/</a>. Be sure to select the catalog year that you first enrolled at MSOE.
+* Your curriculum track (course list). Electronic copies are available at <a href="https://catalog.msoe.edu/">https://catalog.msoe.edu/</a>. Be sure to select the catalog year that you first enrolled at MSOE.
 * Any questions you may have
 
 ## Advisors
@@ -47,8 +47,10 @@ The CE advisors are Profs. <a href="durant.html">Durant</a>, Livingston, Meier, 
 
 ## Elective Options, Planned Offerings
 
-* EECS electives for 2019-2020: follow the link at <a href="https://www.msoe.edu/academics/departments/registrar/#Registration">Registrar's Registration Resources</a>
-* <a href="https://msoe.s3.amazonaws.com/files/resources/smsoe-regis19031814230-2.pdf">Summer, 2019 classes (PDF)</a>
+Follow the link at <a href="https://www.msoe.edu/academics/departments/registrar/#Registration">Registrar's Registration Resources</a> for
+
+* EECS electives, updated annually
+* Summer classes, published approximately each February
 
 ## <a href="ceElectiveRules.html">CE Elective Rules, etc.</a>
 
