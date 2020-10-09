@@ -5,6 +5,10 @@ title: "CE Academic Advising: Dr. Durant"
 General CE advising information, including what you need to bring to your advising meeting, how to find who your advisor is, and who the CE advisors are, is available on the
 [CE advising information webpage](./).
 
+## Email advising option
+
+While distancing restrictions are in place, advisees have the option of asynchronous advising by email or synchronous advising by Teams. For email advising, please send me any questions (including on internships, electives, etc.) and your planned courses to the extent that you know them. If you have a hold, I will remove it and notify you after we have settled on your plan for the term. Please email me at least a week before your registration time.
+
 ## Scheduling an advising appointment if I am your advisor
 
 * We will meet using Teams.
@@ -28,25 +32,25 @@ General CE advising information, including what you need to bring to your advisi
 ## Advising times
 
 * Week 7 Times
-  * Monday 4/27: (no times available)
-  * Tuesday 4/28: 12:00-12:30, 3:00-4:00, and 4:30-5:00 PM
-  * Wednesday 4/29: (no times available)
-  * Thursday 4/30: 12:00-12:30, 2:30-3:00, 3:30-4:00 PM
-  * Friday 5/1: 1:00-1:30 PM
+  * Monday 10/19: 9-10:30 AM
+  * Tuesday 10/20: 9-10:30 AM
+  * Wednesday 10/21: (no times available)
+  * Thursday 10/22: 9-10:30 AM
+  * Friday 10/23: 9-10:30 AM
 
 * Week 8 Times
-  * Monday 5/4: (no times available)
-  * Tuesday 5/5: 12:00-12:30, 3:00-4:00, and 4:30-5:00 PM
-  * Wednesday 5/6: (no times available)
-  * Thursday 5/7: 12:00-12:30, 2:30-3:00, 3:30-4:00 PM
-  * Friday 5/8: 1:00-1:30 PM
+  * Monday 10/26: 9-10:30 AM
+  * Tuesday 10/27: 9-10:30 AM
+  * Wednesday 10/28: (no times available)
+  * Thursday 10/29: (no times available)
+  * Friday 10/30: 9-10:30 AM
 
 * Week 9 Times
-  * Monday 5/11: (no times available)
-  * Tuesday 5/12: 12:00-12:30, 3:00-4:00, and 4:30-5:00 PM
-  * Wednesday 5/13: (no times available)
-  * Thursday 5/14: 3:00-3:30 PM
-  * Friday 5/15: 3:00-3:30 PM
+  * Monday 11/2: 9-10:30 AM
+  * Tuesday 11/3: 9-10:30 AM
+  * Wednesday 11/4: (no times available)
+  * Thursday 11/5: 9-10:30 AM
+  * Friday 11/6: 9-10:30 AM
 
 * Week 10 Times
   * Scheduled in extenuating circumstances only. Please sign up during week 7 through week 9, or contact me for alternate times if necessary.
