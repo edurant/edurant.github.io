@@ -1,9 +1,9 @@
 ---
 title: "University of Michigan Milwaukee Alumni Book Club Selections"
-date: 2019-11-19 13:25:00 -0600
+date: 2020-10-12 09:45:30 -0500
 ---
 
-* [Tear it Down (Peter Ash #4)](https://www.amazon.com/dp/B07CKFBW65), by Nick Petrie, discussed on 2020-11?.
+* [Tear it Down (Peter Ash #4)](https://www.amazon.com/dp/B07CKFBW65), by Nick Petrie, discussed on 2020-11-23.
 * [The Library Book](https://www.amazon.com/dp/B07CL5ZLHX), by Susan Orlean, discussed on 2020-08-27.
 * [Trick Mirror: Reflections on Self-Delusion ](https://www.amazon.com/dp/B07L2JGLZ9), by Jia Tolentino, discussed on 2020-05-11.
 * [Little Fires Everywhere](https://www.amazon.com/dp/B01N4VW75U), by Celeste Ng, discussed on 2020-02-18.
