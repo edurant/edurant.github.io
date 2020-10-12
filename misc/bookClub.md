@@ -1,9 +1,10 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2020-08-31 14:36:30 -0500
+date: 2020-10-12 08:34:30 -0500
 ---
 
-* [Prediction Machines: The Simple Economics of Artificial Intelligence](https://www.amazon.com/dp/1633695670), by Ajay Agrawal, discussed on 2020-10-20.
+* [Evicted: Poverty and Profit in the American City](https://bookshop.org/books/evicted-poverty-and-profit-in-the-american-city/9780553447453), by Matthew Desmond, discussed on 2020-11-24.
+* [Prediction Machines: The Simple Economics of Artificial Intelligence](https://bookshop.org/books/prediction-machines-the-simple-economics-of-artificial-intelligence/9781633695672), by Ajay Agrawal, discussed on 2020-10-20.
 * [White Fragility](https://www.amazon.com/dp/B07638ZFN1), by Robin DiAngelo, discussed on 2020-09-29.
 * [The End of October](https://www.amazon.com/dp/B07WKJSP4J), by Lawrence Wright, discussed on 2020-08-25.
 * [Educated in Whiteness. Good Intentions and Diversity in Schools](https://manifold.umn.edu/projects/educated-in-whiteness), by Angelina E. Castagno, discussed on 2020-07-21.
