@@ -71,7 +71,7 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 * <a href="w8d1_m.txt">DFT windowing</a>
 * <a href="w9d2_m.txt">Linear phase FIR filter design in MATLAB</a>
 
-## <a href="homework.shtml">Optional Homework</a>
+## <a href="homework.html">Optional Homework</a>
 
 ## Quizzes with Solutions
 
@@ -174,7 +174,7 @@ The final exam will be given per the schedule that is published by the Registrar
 It may cover any material from the course.
 The exam will last 2 hours.
 
-## <a href="../policies.shtml">General course policies</a>
+## <a href="../policies.html">General course policies</a>
 
 ## EE3221-specific course policies
 
