@@ -2,15 +2,17 @@
 title: "Dr. Durant: EE-3221 Digital Signal Processing"
 ---
 
+## Canvas
+
+Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas](https://msoe.instructure.com/). However, this site contains many reference materials that you may find useful including MATLAB examples and previous homework, quizzes, and exams.
+
 ## Textbook
 
-[Signals and Systems Using MATLAB, 2nd Edition](https://www.amazon.com/dp/B00IMBVXXC) by Luis F. Chaparro, published 2014-02-10, ISBN-13: 978-0123948120
-
-<a href="../ee3032/errata-chaparro.html">Textbook errata</a>
+[Signals and Systems: Theory and Applications](https://ss2.eecs.umich.edu/) by Fawwaz T. Ulaby and Andrew E. Yagle, published 2018, ISBN: 978-1-60785-486-9
 
 ## <a href="outline.pdf">Outline and reading assignments</a>
 
-## Lab
+## Lab (2017&ndash;2018)
 
 * <a href="https://faculty-web.msoe.edu/prust/EE3221/RTDSP_Lab1.pdf">Lab 1</a>, <a href="https://faculty-web.msoe.edu/prust/EE3221/LAB_1.zip">.zip</a>, <a href="l01apSol.pdf">Solution (additional problems)</a>
 * <a href="https://faculty-web.msoe.edu/prust/EE3221/RTDSP_Lab2.pdf">Lab 2</a>, <a href="https://faculty-web.msoe.edu/prust/EE3221/LAB_2.zip">.zip</a>
@@ -22,7 +24,7 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 * <a href="https://faculty-web.msoe.edu/prust/EE3221/RTDSP_Lab5.pdf">Lab 8 (Real-Time DSP Lab 5)</a>, <a href="l08extraInstructions.pdf">Extra instructions and hints</a>, <a href="l08/">Data files</a>
 * <a href="l09-w1718.pdf">Lab 9</a>, <a href="Peppers.bmp">Peppers.bmp</a>
 
-### Old Materials (Winter, 2016-2017)
+### Older Materials (Winter, 2016&ndash;2017)
 
 <a href="l01-w1617.pdf">Lab 1</a>,
 <a href="l02-w1617.pdf">Lab 2</a> (<a href="l02alias_m.txt">Demonstration/help on aliasing</a>, <a href="fft_on_scope.pdf">Oscilloscope FFT handout</a>),
@@ -35,15 +37,15 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 <a href="https://faculty-web.msoe.edu/prust/c6713dsk/">Dr. Prust's C6713 files</a>
 
 ## Examples
-### 2017-'18
+### 2017&ndash;'18
 
 * <a href="firWindowDesign_m.txt">FIR Window Design Method</a>
 
-### 2016-'17
+### 2016&ndash;'17
 
 * <a href="p2_1_2_m.txt">Lab 1: Help on Problem 2.1.2</a>
 
-### 2014-'15
+### 2014&ndash;'15
 
 * <a href="l4ep_m.txt">Lab 4: MATLAB solution to additional problems on linearity and time-invariance</a>
 * <a href="dftFrequencyResolution.pdf">DFT frequency resolution vs. density: detailed example</a>
@@ -52,7 +54,7 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 * <a href="w9exercise.wav">w9exercise.wav</a> for in-class exercise
 * <a href="quantex_m.txt">Quantization noise example</a> and <a href="quantex.xlsx">analysis spreadsheet</a>
 
-### 2013-'14
+### 2013&ndash;'14
 
 * <a href="p196_m.txt">Page 196 script (MATLAB FFT performance) with my updates and comments</a>
 * <a href="l4p_m.txt">Lab 4: Example of shifting and applying variable scaling to sequences</a>
@@ -75,7 +77,7 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 
 ## Quizzes with Solutions
 
-* 2017-2018:
+* 2017&ndash;2018:
 	<a href="q01-w1718-ans.pdf">Quiz 1</a>,
 	<a href="q02-w1718-ans.pdf">Quiz 2</a>,
 	<a href="q03-w1718-ans.pdf">Quiz 3</a>,
@@ -85,7 +87,7 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 	<a href="q07-w1718-ans.pdf">Quiz 7</a>,
 	<a href="q08-w1718-ans.pdf">Quiz 8</a>,
 	<a href="q09-w1718-ans.pdf">Quiz 9</a>
-* 2016-2017:
+* 2016&ndash;2017:
 	<a href="q01-w1617-ans.pdf">Quiz 1</a>,
 	<a href="q02-w1617-ans.pdf">Quiz 2</a>,
 	<a href="q03-w1617-ans.pdf">Quiz 3</a>,
@@ -94,7 +96,7 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 	<a href="q06-w1617-ans.pdf">Quiz 6</a>,
 	<a href="q07-w1617-ans.pdf">Quiz 7</a>,
 	<a href="q08-w1617-ans.pdf">Quiz 8</a>
-* 2015-2016:
+* 2015&ndash;2016:
 	<a href="q01-w1516-ans.pdf">Quiz 1</a>,
 	<a href="q02-w1516-ans.pdf">Quiz 2</a>,
 	<a href="q03-w1516-ans.pdf">Quiz 3</a>,
@@ -114,7 +116,7 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 	<a href="q07-s15-ans.pdf">Quiz 7</a>,
 	<a href="q08-s15-ans.pdf">Quiz 8</a>,
 	<a href="q09-s15-ans.pdf">Quiz 9</a>
-* 2014-2015:
+* 2014&ndash;2015:
 	<a href="q02-w1415-ans.pdf">Quiz 2</a>,
 	<a href="q03-w1415-ans.pdf">Quiz 3</a>,
 	<a href="q04-w1415-ans.pdf">Quiz 4</a>,
@@ -123,7 +125,7 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 	<a href="q07-w1415-ans.pdf">Quiz 7</a>,
 	<a href="q08-w1415-ans.pdf">Quiz 8</a>,
 	<a href="q09-w1415-ans.pdf">Quiz 9</a>
-* 2013-2014:
+* 2013&ndash;2014:
 	<a href="q01-w1314-ans.pdf">Quiz 1</a>,
 	<a href="q02-w1314-ans.pdf">Quiz 2</a>,
 	<a href="q03-w1314-ans.pdf">Quiz 3</a>,
@@ -138,7 +140,7 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 * <a href="final-w0910.pdf">2009-'10</a>
 
 ## Additional Readings
-### Current (2017-18)
+### 2017&ndash;18
 
 * Harris, Fredric J. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1455106">On the Use of Windows for Harmonic Analysis with the Discrete Fourier Transform</a>, *Proc. IEEE*, 1978-01.
 * Montgomery, Chris. <a href="https://people.xiph.org/~xiphmont/demo/neil-young.html">24/192 Music Downloads ...and why they make no sense</a>, *xiph.org*, 2014-03-15.</a>
@@ -184,7 +186,7 @@ of equations with complex coefficients, and with the ability to perform symbolic
 Show all work, and work neatly, on your lab, quiz, and exam problems - a simple numeric answer is generally not sufficient.
 No credit given for work your professor cannot easily read or readily follow.
 
-## Grading algorithm
+## Grading algorithm (2017&ndash;2018)
 
 <table>
 <tr><td>Lab</td>			<td align="right">33&#8531;%</td></tr>
