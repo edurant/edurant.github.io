@@ -1,8 +1,11 @@
 ---
 title: "University of Michigan Milwaukee Alumni Book Club Selections"
-date: 2020-10-12 09:45:30 -0500
+date: 2020-11-24 13:55:30 -0600
 ---
 
+* [The Selected Poems of Donald Hall](https://bookshop.org/books/the-selected-poems-of-donald-hall/9781328745606), by Donald Hall, discussed on 2021-08-23 (tentative date).
+* [The Wild One (Peter Ash #5)](https://bookshop.org/books/the-wild-one-9780525535447/9780593188057), by Nick Petrie, discussed on 2021-05-10 (tentative date).
+* [Say You're One of Them](https://bookshop.org/books/say-you-re-one-of-them/9780316086370), by Uwem Akpan, discussed on 2021-02-15 (tentative date).
 * [Tear it Down (Peter Ash #4)](https://www.amazon.com/dp/B07CKFBW65), by Nick Petrie, discussed on 2020-11-23.
 * [The Library Book](https://www.amazon.com/dp/B07CL5ZLHX), by Susan Orlean, discussed on 2020-08-27.
 * [Trick Mirror: Reflections on Self-Delusion ](https://www.amazon.com/dp/B07L2JGLZ9), by Jia Tolentino, discussed on 2020-05-11.
