@@ -4,13 +4,9 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 
 ## Canvas
 
-Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas](https://msoe.instructure.com/). However, this site contains many reference materials that you may find useful including MATLAB examples and previous homework, quizzes, and exams.
+Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas](https://msoe.instructure.com/). The syllabus is avilable both [on this site](syllabus.html) and in Canvas. This site contains many reference materials that you may find useful including MATLAB examples and previous homework, quizzes, and exams.
 
-## Textbook
-
-[Signals and Systems: Theory and Applications](https://ss2.eecs.umich.edu/) by Fawwaz T. Ulaby and Andrew E. Yagle, published 2018, ISBN: 978-1-60785-486-9
-
-## <a href="outline.pdf">Outline and reading assignments</a>
+## <a href="outline-w1718.pdf">Old (2017-18) outline and reading assignments</a>
 
 ## Lab (2017&ndash;2018)
 
@@ -73,7 +69,7 @@ Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas
 * <a href="w8d1_m.txt">DFT windowing</a>
 * <a href="w9d2_m.txt">Linear phase FIR filter design in MATLAB</a>
 
-## <a href="homework.html">Optional Homework</a>
+## <a href="homework.html">Old Homework</a>
 
 ## Quizzes with Solutions
 
@@ -169,27 +165,3 @@ Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas
 * Wang, DeLiang. <a href="http://spectrum.ieee.org/consumer-electronics/audiovideo/deep-learning-reinvents-the-hearing-aid">Deep Learning Reinvents the Hearing Aid</a>, *IEEE Spectrum*, 6 December 2016.
 * ___. <a href="http://www.bdti.com/InsideDSP/2013/10/23/SingularComputing">Imperfect Processing: A Functionally Feasible (and Fiscally Attractive) Option, Says Singular Computing</a>
 	<a href="2013-10-22articleImperfectProcessing.pdf">(printable)</a>, *BDTi: Inside DSP*, 22 October 2013.
-
-## Final exam
-
-The final exam will be given per the schedule that is published by the Registrar's Office in approximately week 6.
-It may cover any material from the course.
-The exam will last 2 hours.
-
-## <a href="../policies.html">General course policies</a>
-
-## EE3221-specific course policies
-
-You will need the use of a calculator capable of performing complex number arithmetic and simultaneous equation solution
-of equations with complex coefficients, and with the ability to perform symbolic substitutions (such as a TI-89 or TI-89 Titanium).
-
-Show all work, and work neatly, on your lab, quiz, and exam problems - a simple numeric answer is generally not sufficient.
-No credit given for work your professor cannot easily read or readily follow.
-
-## Grading algorithm (2017&ndash;2018)
-
-<table>
-<tr><td>Lab</td>			<td align="right">33&#8531;%</td></tr>
-<tr><td>Weekly Quizzes (Lab)</td>	<td align="right">33&#8531;%</td></tr>
-<tr><td>Comprehensive Final Exam</td>	<td align="right">33&#8531;%</td></tr>
-</table>

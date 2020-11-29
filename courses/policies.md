@@ -36,8 +36,7 @@ Also, you must cite your prior work.
 
 You may use your laptop computer in lecture and laboratory for appropriate activities such as note-taking,
 to follow-along with classroom examples, or to test designs and run simulations. However, consider that
-<a href="https://www.nytimes.com/2017/11/22/business/laptops-not-during-lecture-or-meeting.html">much
-recent research shows that there are learning drawbacks to using laptops for note-taking</a>.
+[much recent research shows that there are learning drawbacks to using laptops for note-taking](https://www.nytimes.com/2017/11/22/business/laptops-not-during-lecture-or-meeting.html).
 Do not instant message, use Facebook, watch videos, or play games during lecture or laboratory.
 These activities are important parts of modern life but distract other students around you.
 There are more appropriate times for these activities.
@@ -46,8 +45,7 @@ There are more appropriate times for these activities.
 
 Grades will be based on a weighted average of all graded work. The
 weights for the main categories (tests, labs, homework, etc.) will be
-given during the first week of class. In general, the
-<a href="http://catalog.msoe.edu/content.php?catoid=16&navoid=436#Grades_and_Grading">MSOE grading scale</a>
+given during the first week of class. In general, the MSOE grading scale
 will be used. I may use a more favorable scale when appropriate, such as
 when it would result in better agreement between clusters of scores and
 assigned grades.
@@ -74,23 +72,22 @@ Lab reports and other assignments must be submitted at or before the
 specified time on the specified due date.  Late assignments will generally be
 penalized by 10% of the maximum grade for every business day or part of
 a business day they are late.  Certain assignments, normally homework
-assignments, may not be accepted late, particularly if the solution was given in
-class.  Certain time-critical assignments, especially demos and homework in certain classes, will be penalized
+assignments, may not be accepted late, particularly if the solution was given.
+Certain time-critical assignments, especially demos and homework in certain classes, will be penalized
 at double or triple the normal rate.  Assignments may not be accepted after 11&nbsp;P.M.
 on Friday of week 10.
 
 ## Attendance
 
 Regular attendance is a foundational element of academic success and
-attendance will be recorded at various times throughout the quarter.  You
+attendance will be recorded at various times throughout the quarter. You
 should check with me if you need to miss class for any reason so that
 we can ensure that you have a plan to stay up to date on the material.
 
-I will not drop you for missing class.  If you wish to drop the
+I will not drop you for missing class. If you wish to drop the
 course, I recommend that you first check with me and your academic
-advisor.  After that, please consult the Registrar's Office for the
-<a href="https://www.msoe.edu/academics/departments/registrar/">appropriate form
-and procedure</a>.
+advisor. After that, please consult the Registrar's Office for the
+[appropriate form and procedure](https://www.msoe.edu/academics/departments/registrar/).
 
 ## Announcements
 
