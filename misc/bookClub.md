@@ -1,8 +1,9 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2020-12-07 14:08:30 -0600
+date: 2021-01-14 16:44:30 -0600
 ---
 
+* [Ruth Bader Ginsburg](https://bookshop.org/books/ruth-bader-ginsburg-a-life/9781984897831), by Jane Sherron de Hart, discussed on 2021-03-24.
 * [The Warmth of Other Suns: The Epic Story of America's Great Migration](https://bookshop.org/books/the-warmth-of-other-suns-the-epic-story-of-america-s-great-migration/9780679763888), by Isabel Wilkerson, discussed on 2021-02-24.
 * [Blackout: How Black America Can Make Its Second Escape from the Democrat Plantation](https://bookshop.org/books/blackout-how-black-america-can-make-its-second-escape-from-the-democrat-plantation/9781982133276), by Candace Owens, discussed on 2021-01-20.
 * [Caste: The Origins of our Discontents](https://bookshop.org/books/caste-oprah-s-book-club-the-origins-of-our-discontents/9780593230251/), by Isabel Wilkerson, discussed on 2020-12-21.
