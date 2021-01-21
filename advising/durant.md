@@ -39,7 +39,7 @@ While distancing restrictions are in place, advisees have the option of asynchro
   * Friday 1/29: 9:30-11:00 AM
 
 * Week 8 Times
-  * Monday 2/1: 9:30-11:30 AM
+  * Monday 2/1: 10:15-11:30 AM
   * Tuesday 2/2: (no times available)
   * Wednesday 2/3: (no times available)
   * Thursday 2/4: 9:30 AM-12:30 PM
