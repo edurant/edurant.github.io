@@ -10,26 +10,12 @@ Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas
 
 ## Lab (2017&ndash;2018)
 
-* <a href="https://faculty-web.msoe.edu/prust/EE3221/RTDSP_Lab1.pdf">Lab 1</a>, <a href="https://faculty-web.msoe.edu/prust/EE3221/LAB_1.zip">.zip</a>, <a href="l01apSol.pdf">Solution (additional problems)</a>
-* <a href="https://faculty-web.msoe.edu/prust/EE3221/RTDSP_Lab2.pdf">Lab 2</a>, <a href="https://faculty-web.msoe.edu/prust/EE3221/LAB_2.zip">.zip</a>
-* <a href="https://faculty-web.msoe.edu/prust/EE3221/RTDSP_Lab3.pdf">Lab 3</a>, <a href="https://faculty-web.msoe.edu/prust/EE3221/LAB_3.zip">.zip</a>, <a href="l03apSol.pdf">Solution (additional problems)</a>
-* <a href="l04-w1718.pdf">Lab 4</a>
-* <a href="https://faculty-web.msoe.edu/prust/EE3221/RTDSP_Lab4.pdf">Lab 5 (Real-Time DSP Lab 4)</a>, <a href="https://faculty-web.msoe.edu/prust/EE3221/LAB_4.zip">.zip</a>
-* <a href="l06-w1718.pdf">Lab 6</a>
-* <a href="l07-w1718.pdf">Lab 7</a>
-* <a href="https://faculty-web.msoe.edu/prust/EE3221/RTDSP_Lab5.pdf">Lab 8 (Real-Time DSP Lab 5)</a>, <a href="l08extraInstructions.pdf">Extra instructions and hints</a>, <a href="l08/">Data files</a>
-* <a href="l09-w1718.pdf">Lab 9</a>, <a href="Peppers.bmp">Peppers.bmp</a>
+* <a href="l01apSol.pdf">Week 1: Solution to Fourier Transform and sampling problems</a>
+* <a href="l03apSol.pdf">Week 3: Solution to discrete-time transform and period problems</a>
 
 ### Older Materials (Winter, 2016&ndash;2017)
 
-<a href="l01-w1617.pdf">Lab 1</a>,
-<a href="l02-w1617.pdf">Lab 2</a> (<a href="l02alias_m.txt">Demonstration/help on aliasing</a>, <a href="fft_on_scope.pdf">Oscilloscope FFT handout</a>),
-<a href="l03-w1617.pdf">Lab 3</a>,
-<a href="l05-w1617.pdf">Lab 5</a>,
-<a href="l06-w1617.pdf">Lab 6</a>,
-<a href="l07-w1617.pdf">Lab 7</a> (<!--a href="l07/"-->Data files<!--/a-->),
-<a href="l08-w1617.pdf">Lab 8</a>,
-<a href="l09-w1617.pdf">Lab 9</a> (<a href="https://faculty-web.msoe.edu/prust/armdsp/">Dr. Prust's FM4 files</a>)
+Lab 9: <a href="https://faculty-web.msoe.edu/prust/armdsp/">Dr. Prust's FM4 files</a>,
 <a href="https://faculty-web.msoe.edu/prust/c6713dsk/">Dr. Prust's C6713 files</a>
 
 ## Examples
@@ -139,7 +125,7 @@ Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas
 ### 2017&ndash;18
 
 * Harris, Fredric J. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1455106">On the Use of Windows for Harmonic Analysis with the Discrete Fourier Transform</a>, *Proc. IEEE*, 1978-01.
-* Montgomery, Chris. <a href="https://people.xiph.org/~xiphmont/demo/neil-young.html">24/192 Music Downloads ...and why they make no sense</a>, *xiph.org*, 2014-03-15.</a>
+* Montgomery, Chris. <a href="https://people.xiph.org/~xiphmont/demo/neil-young.html">24/192 Music Downloads ...and why they make no sense</a>, *xiph.org*, 2014-03-15.
 
 ### Older Readings
 
@@ -150,7 +136,7 @@ Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas
 * Demolder, Damien. <a href="http://www.dpreview.com/articles/2914705706/mit-algorithm-aims-to-eradicate-reflections-from-photos-taken-through-windows">MIT algorithm aims to eradicate reflections from photos taken through windows</a>, *DPReview*, 2015 May 14.
 * Edwards, John. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6784045">Signal Processing Leads a Photographic and Imaging Revolution</a>, *IEEE Signal Processing Magazine*, May 2014.
 * Hansen, John. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7298570">Speaker Recognition by Machines and Humans: A tutorial review</a>, *IEEE Signal Processing Magazine*, November 2015.
-* Maxfield, Max. <a href="http://www.eetimes.com/document.asp?doc_id=1326420">Cadence Tensilica Fusion DSP Core Targets IoT, Wearables</a>, *EE Times*, 2015-04-22.</a>
+* Maxfield, Max. <a href="http://www.eetimes.com/document.asp?doc_id=1326420">Cadence Tensilica Fusion DSP Core Targets IoT, Wearables</a>, *EE Times*, 2015-04-22.
 * Moore, Samuel K. <a href="http://spectrum.ieee.org/computing/hardware/new-class-of-digital-signal-processor-wipes-out-wasted-power">New Class of Digital Signal Processor Wipes Out Wasted Power</a>,
 	*IEEE Spectrum*, 2008 November.
 * Pickering, Paul. <a href="http://electronicdesign.com/systems/how-get-big-sounds-small-speakers">How To Get Big Sounds From Small Speakers</a>, *Electronic Design*, 2016 February 16.
