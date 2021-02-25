@@ -1,8 +1,10 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2021-01-14 16:44:30 -0600
+date: 2021-02-25 10:08:30 -0600
 ---
 
+* [A Curse upon the Nation: Race, Freedom, and Extermination in America and the Atlantic world](https://bookshop.org/books/a-curse-upon-the-nation-race-freedom-and-extermination-in-america-and-the-atlantic-world/9780820351278), by Kay Wright Lewis, discussed on 2021-05-24.
+* [Sula](https://bookshop.org/books/sula/9781400033430), by Toni Morrison, discussed on 2021-04-20.
 * [Ruth Bader Ginsburg](https://bookshop.org/books/ruth-bader-ginsburg-a-life/9781984897831), by Jane Sherron de Hart, discussed on 2021-03-24.
 * [The Warmth of Other Suns: The Epic Story of America's Great Migration](https://bookshop.org/books/the-warmth-of-other-suns-the-epic-story-of-america-s-great-migration/9780679763888), by Isabel Wilkerson, discussed on 2021-02-24.
 * [Blackout: How Black America Can Make Its Second Escape from the Democrat Plantation](https://bookshop.org/books/blackout-how-black-america-can-make-its-second-escape-from-the-democrat-plantation/9781982133276), by Candace Owens, discussed on 2021-01-20.
