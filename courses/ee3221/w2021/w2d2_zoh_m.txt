@@ -1,0 +1,52 @@
+% Dr. Durant, EE3221, W2D2, 2020-12-09
+% Adapted from EE3032, W9D4, 2017-11-03.
+
+% zoh
+
+% Show effects of the following 2 practical (non-ideal) operations, which share an analysis:
+% a. A/D: average input over short period instead of using delta(t-nTs)
+% b. D/A: ZOH (zero-order hold) on an ideal impulse train from DSP
+% The analysis is useful since it tells you about the attenuation at higher frequencies
+% that occur in the ZOH portion of one of the standard D/A implementations,
+% when the analog output is being reconstructed from the DSP's digital signal output.
+% The analysis is also useful since it shows that the high (approaching
+% Nyquist) frequency attenuation in an averaging A/D is very small even for
+% somewhat poor averaging ratios.
+
+% See EE3221 lecture notes from week 2 for derivation of the results illustrated below.
+
+% See also 6-13.14 in Ulaby and Yagle. This section confounds some A/D concepts
+% with D/A concepts, but the FT analysis is interesting.
+
+LineWidth = 3; FontSize = 12; % Used later to make figure details large enough
+
+fs = 5; % Hz, samples/s, arbitrary, try changing
+Ts = 1/fs;
+omegaSamp = 2*pi*fs;
+
+Delta = 0 : (Ts/5) : Ts; % hold/averaging time, s; a few cases from ideal to worst possible
+
+omega = -omegaSamp/2 : (omegaSamp/1000) : omegaSamp/2; % Nyquist range
+% arg = argument that appears twice in H, outer product, rows are the Delta
+% values to show, columns are the omega values along the plot axis
+arg = Delta'*omega/2;
+% H = FT of h(t). Don't forget MATLAB sinc scaling.
+H = sinc(arg/pi).*exp(-1j*arg);
+% Practical issue: derivation applies gain 1/Delta to balance time interval Delta;
+% this gain also amplifies analog noise; so, analog system noise becomes a
+% larger problem as Delta approaches 0 to approximate the ideal case.
+
+figure
+subplot(2,1,1)
+hm = plot(omega, abs(H), 'LineWidth', LineWidth);
+title(sprintf('Averaging D/A Magnitude, f_s = %g Hz, T_s = %g', fs, Ts))
+ylabel('Gain (unitless, e.g., V/V)')
+ax = gca; ax.FontSize = FontSize;
+
+subplot(2,1,2)
+hp = plot(omega, rad2deg(angle(H)), 'LineWidth', LineWidth);
+title('Phase')
+xlabel('\omega (axis spans \pm{f_s}/2 = \pm\pi\omega_s)')
+ylabel('Phase shift, negative is delay (degrees)')
+legend(hp([1 end]), '\Delta = 0 (ideal impulse sampling)', 'Delta = T_s (maximum hold time)')
+ax = gca; ax.FontSize = FontSize;

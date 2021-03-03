@@ -19,13 +19,21 @@ Lab 9: <a href="https://faculty-web.msoe.edu/prust/armdsp/">Dr. Prust's FM4 file
 <a href="https://faculty-web.msoe.edu/prust/c6713dsk/">Dr. Prust's C6713 files</a>
 
 ## Examples
-### 2017&ndash;'18
 
-* <a href="firWindowDesign_m.txt">FIR Window Design Method</a>
+### 2020&ndash;'21
 
-### 2016&ndash;'17
-
-* <a href="p2_1_2_m.txt">Lab 1: Help on Problem 2.1.2</a>
+* [W1D3 Aliased Sampling](w2021/w1d3_aliased_sampling_m.txt)
+* [W2D1 Sinc Reconstruction](w2021/w2d1_sinc_reconstruction_m.txt)
+* [W2D2 Zero-order Hold](w2021/w2d2_zoh_m.txt)
+* [W3D2 Ex. 7.3 Sampled Sinusoid Period](w2021/w3d2_ex73_periodic_m.txt)
+* [W5D3 z-transform Partial Fractions](w2021/w5d3_z_part_frac_m.txt)
+* [W6D1 z-domain Pole-zero Cancellation](w2021/w6d1_z_cancellation_m.txt)
+* [W6D2 z-transform Example](w2021/w6d2_z_transform_ex_m.txt)
+* [W7D3 z-domain Frequency Scaling](w2021/w7d3_z_freq_scaling_m.txt)
+* [W8D2 Fourier Family Comparisons](w2021/w8d2_fourier_family_m.txt)
+* [W8D3 DFT Density and Resolution](w2021/w8d3a_dft_density_m.txt)
+* [W8D3 DFT For Convolution](w2021/w8d3b_dft_conv_m.txt)
+* [W10D2 FIR Design, Window Method](w2021/w10d2_fir_window_m.txt)
 
 ### 2014&ndash;'15
 
@@ -41,7 +49,6 @@ Lab 9: <a href="https://faculty-web.msoe.edu/prust/armdsp/">Dr. Prust's FM4 file
 * <a href="p196_m.txt">Page 196 script (MATLAB FFT performance) with my updates and comments</a>
 * <a href="l4p_m.txt">Lab 4: Example of shifting and applying variable scaling to sequences</a>
 * <a href="w4lti_m.txt">Lab 4: Numerical test for linearity and time invariance</a>
-* <a href="w4d1_m.txt">Week 4, Day 1: Demonstrate aliased sampling of cosine.</a>
 * <a href="w4tex_m.txt">Formatting of labels and titles: _, Greek letters, etc.</a>
 * <a href="freqPeriodicity_m.txt">Frequency periodicity example</a>
 * Solutions to Problem 2.4.1: <a href="p2_4_1b_m.txt">Basic</a>, <a href="p2_4_1_m.txt">More general, but more complex</a>

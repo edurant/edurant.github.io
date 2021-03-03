@@ -1,0 +1,93 @@
+% EE3221 W7D3 1/29/2021 Dr. Durant
+
+% z_freq_scaling
+
+% There was a question today about whether z-domain transfer functions can be
+% scaled in frequency. They can, with the same caveats about complex signals
+% that we had in EE3032 in continuous time.
+
+% From Table 7-6.5, the relevant property is
+% a^n x[n] u[n] <--> X(z/a)
+
+% That is, if you multiply x[n] by a geometric series, you are also affecting
+% its z-transform by replacing all the z's with z/a.
+
+% Let a = e^(jw0), where w0 is the shift frequency in radians per sample.
+
+% This accomplishes a shift of the frequency response by w0, and rotates all
+% the poles and zeros by w0. But, it also takes a real impulse response and
+% makes it complex and, correspondingly, breaks the conjugate symmetry of the
+% transfer function, which only exists for real impulse responses:
+% H(e^(jw) =? H*(e^-(jw)).
+
+% The same real-to-complex issues occur in continuous time. See Table 5-7, Property 5 (Frequency shift).
+
+% There are many approaches to filter design and transformation. To shift a
+% frequency response (roughly) up by w0 radians/sample, you could rotate all the
+% poles at non-negative frequencies (0<=w<=pi) by +w0 and all the conjugate poles
+% at non-positive frequencies by -w0. This has the complication that you won't get
+% the intended effect if you rotate anything past w=0 or w=pi=Nyquist. I write
+% "roughly" since the part of the response due to the distance to the conjugate poles
+% and zeros changes in a non-trivial way since H(z) is being evaluated on a circle.
+
+% For example, we looked at the following (stable) filter today:
+
+clearvars
+close all
+
+a = [0.9157    0.7922    0.9595    0.6557]; % a0..a3
+b = [0.9649    0.1576    0.9706    0.9572]; % b0..b3
+
+po = roots(a)
+ze = roots(b)
+
+% Work in polar form...
+po_mag = abs(po) % observe they're < 1, so stable H(z), h(n)
+po_angle = angle(po)/pi % fraction between 0 and 1 (Nyquist) - corresponds to frequency in rad/sample
+
+ze_mag = abs(ze)
+ze_angle = angle(ze)/pi
+
+% Shift frequency up, maintaining conjugate symmetry
+w_shift = 0.2;
+po_angle = [po_angle(1)+w_shift; po_angle(2)-w_shift; po_angle(3)]
+ze_angle = [ze_angle(1)+w_shift; ze_angle(2)-w_shift; ze_angle(3)]
+
+% Put mag and angle together into a complex number
+po_new = po_mag .* exp(1j*pi*po_angle)
+ze_new = ze_mag .* exp(1j*pi*ze_angle)
+
+% poly takes roots and gives a monic polynomial; the leading coefficient's
+% scaling was lost when we called roots, so we restore it here...
+a_new = poly(po_new) * a(1);
+b_new = poly(ze_new) * b(1);
+
+% Floating point roundoff on the rotated poles and zeros will cause tiny
+% imaginary portions in new a and b coefficients. Confirm they're
+% negligibly small and then discard them.
+assert(norm(imag(a_new))/norm(real(a_new)) < 10*eps, 'Unexpected imaginary component in new a')
+assert(norm(imag(b_new))/norm(real(b_new)) < 10*eps, 'Unexpected imaginary component in new b')
+a_new = real(a_new) % Keep just the real part
+b_new = real(b_new)
+
+if false
+    % Simple approach with separate figures since freqz doesn't work with subplot.
+    figure, zplane(b,a), title('Original')
+    figure, zplane(b_new,a_new), title('Shifted')
+    figure, freqz(b,a), title('Original')
+    figure, freqz(b_new,a_new), title('Shifted')
+else
+    % More complicated approach that uses subplots. freqz is used just to return
+    % values (not plot) in this case and then user code handles the plotting in subplots.
+    [H,w] = freqz(b,a);
+    [H_new,w_new] = freqz(b_new,a_new);
+    figure
+    subplot(221),zplane(b,a),title('Original H(z) Roots')
+    subplot(222),plot(w/pi,mag2db(abs(H)),w_new/pi,mag2db(abs(H_new))),grid
+    legend('Original', 'Shifted')
+    ylabel('Magnitude (dB)')
+    subplot(223),zplane(b_new,a_new),title('Shifted H(z) Roots')
+    subplot(224),plot(w/pi,rad2deg(angle(H)),w_new/pi,rad2deg(angle(H_new))),grid
+    xlabel('Normalized Frequency (\times\pi rad/sample)')
+    ylabel('Phase (degrees')
+end

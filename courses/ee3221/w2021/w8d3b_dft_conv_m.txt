@@ -1,0 +1,40 @@
+% W8D3 Example: Convolution in DFT domain, Dr. Durant, 2/2021, EE3221
+
+% dft_conv
+
+x = [ 1 2 3 4];
+h = [ 2 -2 3 7];
+y1 = conv(x,h) % for length N, convolution takes N^2 multiplies.
+% Prohibitive has N gets large
+
+% The z-domain convolution theorem suggests a speedup
+% y(n) = h(n) * x(n)
+% Y(z) = H(z) X(z)
+
+% DFT is sampled from DTFT which is H(z) at z=e^(j omega), so we can use
+% we can also multiply DFTs to get eh desired result
+
+X = fft(x)
+H = fft(h)
+Y = X .* H
+y2 = ifft(Y)
+% Problem observed: The DFT length is 4, so the convolution result is 4.
+% Note that the result is "aliased in time" since we did not sample at a
+% high enough rate in frequency (DFT radians/sample)! The samples that
+% should be at n=4..6 are aliased down by N0 samples and added onto the
+% output at n=0..3
+
+% Solution: 0-pad the inputs to sample at a sufficient rate in frequency
+X7 = fft([x 0 0 0]); % better yet, write fft(x,7) to tell MATLAB to efficiently 0-pad the input to length 7
+H7 = fft([h 0 0 0]);
+Y7 = X7 .* H7;
+y7 = ifft(Y7)
+
+figure
+plot((0:length(Y )-1)/length(Y ), abs(Y ), 'b-o',...
+     (0:length(Y7)-1)/length(Y7), abs(Y7), 'g-^')
+legend('Y at length 4','Y at length 7')
+xlabel('Normalized frequency')
+ylabel('DFT Magnitude (V)')
+% The graph is consistent with the fact that the 4- and 7-point DFTs are
+% both sampling the same underlying continuous frequency DTFT.

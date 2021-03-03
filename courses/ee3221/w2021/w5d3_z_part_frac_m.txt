@@ -1,0 +1,52 @@
+% Week 5 Day 3 - Friday 1/15/2021
+% Example on whiteboard showing how to use the z-transform to compute the
+% convolution of possibly infinite-length sequences.
+% Givens:
+% x(n) = u(n) + 0.9^n u(n)
+% h(n) = (-0.5)^n u(n)
+
+% z_part_frac
+
+% Key steps of board calculations:
+% X(z) = ... work on whiteboard = (2z^2 - 1.9z)/((z-1)(z-0.9))
+% H(z) = z/(z+0.5)
+% Y(z) = H(z) X(z) ... ...
+% Y(z)/z = (2z^2-1.9z)/((z+0.5)(z-1)(z-0.9))
+%        = A/(z+0.5) + B/(z-1) + C/(z-0.9)
+% We then manipulated the equation to get 3 equations to determine ABC
+% In matrix form: x = D * ABC
+D = [1 1 1; -1.9 -0.4 -0.5; 0.9 -.45 -.5]
+x = [2; -1.9; 0]
+% ABC = (D^-1) * x % inverting a matrix is expensive and numerically
+% unstable. When we need the ABC vector, but not D^-1 explicitly, it is
+% better to ask MATLAB to solve the linear system
+ABC = linsolve(D,x); % doc linsolve for details (D\x also solves system)
+% When we know the results will be rational numbers, we can ask MATLAB to
+% try to recover the exact rational values:
+rats(ABC)
+
+% For convenience, extract ABC into the 3 constants
+A = ABC(1); B = ABC(2); C = ABC(3);
+
+% Now, plot the system response
+n = 0:20;
+y = A * ((-0.5).^n) + B + C * (0.9.^n);
+stem(n,y)
+
+% Also, MATLAB can do partial fraction expansion directly!
+% Recall: Y(z)/z = (2z^2-1.9z)/((z+0.5)(z-1)(z-0.9))
+b = [2 -1.9 0]; % numerator polynomial in order descending to z^0 coefficient
+a = conv(conv([1 0.5],[1 -1]),[1 -0.9]) % denominator polynomial is product of 3 terms
+% As we showed yesterday, z-domain polynomial multiplication corresponds to
+% convolution in discrete time.
+[r,p,k] = residue(b,a) % partial fraction expansion. r contains ABC.
+% p contains corresponding "pole" values where each denominator goes to 0.
+% And, k (empty here) contains any quotient polynomial terms due to
+% degree of numerator being >= degree of denominator.
+
+y2 = r(1)*p(1).^n + r(2)*p(2).^n + r(3)*p(3).^n;
+
+% confirm that the error between y and y2 is within roundoff:
+norm(y2-y) % result will be very small (~1e-13)
+
+% Type doc <function_name> to learn more about any function.

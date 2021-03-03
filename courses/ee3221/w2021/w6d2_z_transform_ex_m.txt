@@ -1,0 +1,108 @@
+% EE3221 W6D2 Dr. Durant 1/2021
+
+% z_transform_ex
+
+clearvars
+close all
+
+%% Part 1: Notes on W6 homework
+% Check the roots in problem 1.
+% Real and distinct, real and repeated, and conjugate pairs lead us to various
+% lines of Table 7-5. General approach is to use partial fractions, but
+% conjugate pairs need not be separate if you use lines 5 through 7 from
+% the table.
+if false % don't run the code; change to true to run
+    roots([1 -5/4 1/4]) % a0 z^2 + a1 z^1 + a2 z^0 = a0 z^2 + a1 z + a2 = z^2 (a0 + a1 z^-1 + a2 z^-2)
+    roots([1 -5/12 -1/4])
+    roots([1 -sqrt(3) 1])
+    conv([2 -3 4],[1 2 1]) % convolution = polynomial multiplication
+    deconv([1 1 0 -1 -1],[1 1 1]) % deconvolution = polynomial division
+end
+
+%% Part 2: Main example
+% Use the z-transform to calculate the output for infinitely long
+% sinusoidal input (causal, therefore transient caused at n=0) and
+% infinitely long impulse response.
+
+% x(n) = cos(Wn) u(n)
+% X(z) = (z^2 - z cos(W))/(z^2 - 2z cos(W) + 1)
+Omega = pi/4; % Let W=Omega = pi/4 radians/sample, giving a period of 8 samples
+% Note: the z-transform is not restricted to frequencies that result in
+% periodic signals.
+% Note: The denominator roots are the same for both the sine and the cosine.
+%  The roots determine the frequency and decay rate of sinusoidal signals.
+% e^jW = 1/sqrt(2) + j 1/sqrt(2) = cos(W) + j sin(W)
+% X(z) = (z^2 - z/sqrt(2)) / (z^2 - z*sqrt(2) + 1)
+disp('Check roots of X(z) denominator...')
+p = roots([1 -sqrt(2) 1])
+disp('Check root magnitude (decay rate)...')
+abs(p)
+
+% Let h(n) = 0.8^n u(n)
+% H(z) = z/(z-0.8)
+
+% Y(z)/z = H(z)X(z)/z = (z^2 - z/sqrt(2))/((z^2 - z*sqrt(2) + 1)(z-0.8))
+%  = A/(z-0.8) + (Bz+C)/(z^2 - z*sqrt(2) + 1)
+% z^2 - z/sqrt(2) = A(z^2 - z*sqrt(2) + 1) + (Bz+C)(z-0.8)
+% z^2: 1 = A+B
+% z^1: -1/sqrt(2) = -A sqrt(2) - 0.8B + C
+% z^0: 0 = A - 0.8C
+% M*ABC = k
+M = [1 1 0; -sqrt(2) -0.8 1; 1 0 -0.8]
+k = [1; -1/sqrt(2); 0]
+ABC = linsolve(M,k)
+A = ABC(1); B = ABC(2); C = ABC(3);
+% Y(z) = Az/(z-0.8) + (Bz^2+Cz)/(z^2 - z*sqrt(2) + 1)
+% The second fraction matches Table 7-5.7, cosine with arbitrary phase shift.
+
+% This is as far as we got by the end of class Thursday 1/21/2021.
+
+% From denominator: -2 cos(Omega) = -sqrt(2) -> Omega = pi/4
+% This is expected since the system is LTI: output frequency = input frequency
+% Matching our numerator to the table, introducing unknown amplitude D:
+% Bz^2+Cz = D(cos(theta) z^2 - z cos(Omega-theta))
+% Treating each power of z separately:
+% z^2: B = D cos(theta)
+% z^1: C = -D cos(Omega-theta)
+% We have 2 (non-linear) equations in 2 unknowns: theta and D.
+% Solve both for D and set equal:
+% B/cos(theta) = -C/cos(Omega-theta)
+% -C cos(theta) = B cos(Omega-theta) [cross multiply]
+% -C/B cos(theta) = cos(Omega)cos(theta) + sin(Omega)sin(theta) [angle difference formula]
+% -C/B = cos(Omega) + sin(Omega)tan(theta) [divide by cos(theta)]
+tan_theta = -(C/B+cos(Omega))/sin(Omega)
+theta = atan(tan_theta); % arctangent = inverse of tangent
+% Inspect equations: atan covers half of circle ([-pi/2, pi/2]), so theta
+% might be off by 180 degrees, but this will be corrected since the
+% amplitude solution D will then be negative. A 180-degree phase shift
+% (pi radians) just inverts a sinusoid.
+D = B/cos(theta);
+D2 = -C/cos(Omega-theta);
+D_error = (D-D2)^2
+% Calculating D using both equations and confirming that the result is the
+% same ensures we have a correct solution.
+
+fprintf('A (transient amplitude) = %g\n', A)
+fprintf('D (output amplitude) = %g\n', D)
+fprintf('theta (output phase shift) = %g radians = %g degrees\n', ...
+    theta, rad2deg(theta))
+
+% y(n) = {A 0.8^n + D cos(Omega*n+theta)} u(n)
+n = 0:40;
+y = A * 0.8.^n + D * cos(Omega * n + theta);
+
+% Let's calculate the convolution directly from the 1st several samples and
+% compare to the z-transform result.
+x = cos(Omega*n);
+h = 0.8.^n;
+y_conv = conv(x,h); % will be valid through sample n. Samples after that have wrong value since the inputs are 0 outside of defined range.
+
+figure
+subplot(2,1,1)
+plot(n,y,'b-o'),title('Results via z-transform')
+subplot(2,1,2)
+plot(n,x,'k-+', n,h,'r-*', n,y_conv(1:length(n)),'b-o')
+title('Results via direct convolution of samples')
+legend('x(n)','h(n)','y(n)')
+
+fprintf('The error between the 2 methods of calculating y is %g\n', norm(y-y_conv(1:length(n))))

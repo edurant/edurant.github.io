@@ -1,0 +1,70 @@
+% EE3221 Week 10 Day 1 and 2, Dr. Durant, 2/15,18/2021
+% Designing a linear phase FIR filter using the window method
+
+% fir_window
+
+% On day 1 we designed the basic filter by setting its magnitude response at
+% the points of H(e^jW) that the DFT samples from the DTFT. On day 2
+% we will improve the result using the window method.
+
+close all
+clearvars
+
+N = 20; % delay
+L = 2*N+1; % length
+% order = 2N = L-1
+% 0..40 --> 0 DC, 1..20 upper half of z-plane, (no Nyquist),
+% 21..40 lower half -- determined by conjugate symmetry: b_5 = b_{-5} = b_{36}.
+kUpper = 0:N; % DFT k not in the lower half of H(z)'s z-plane
+normFreq = kUpper / (N + 1/2); % 1 == Nyquist
+HmagUpper = ones(size(normFreq));
+if N == 20 % we wrote code for this specific case
+    HmagUpper((end-4):(end)) = 0; % block the top 5 frequencies
+    HmagUpper(end-10:end-5) = 6; % give the next 6 frequency bins a gain of 6 (= 15.56 dB)
+else % but, we need to make the frequency breakpoints scale with the frequency step, 2pi/L
+    breaks = round([10 4] / 20.5 * (N+1/2));
+    HmagUpper(end-breaks(2):end) = 0;
+    HmagUpper(end-breaks(1):end-breaks(2)) = 6;
+end
+plot(normFreq, HmagUpper, 'bo-')
+Hmag = [HmagUpper HmagUpper(end:-1:2)];
+k = 0:(L-1);
+normFreq = k / (N + 1/2);
+plot(normFreq, Hmag, 'bo-')
+title(sprintf('Designed magnitude response H, filter length = %g',L))
+xlabel('Normalized frequency (Nyquist = 1)'), ylabel('Gain (V/V)')
+h = ifft(Hmag);
+% Hmag is real and we didn't insert phase term, so this will be shifted by
+% delay N=20. Like circular convolution, the samples of h will wrap around
+% with a period L=41= DFT length
+assert(norm(imag(h))<eps('single')) % ensure h is 0 to within roundoff; helps catch errors in setting up Hmag
+h = real(h); % discard negligible imaginary roundoff
+% Note: newer versions of MATLAB are fairly sophisticated and can often
+% realize that the input Hmag precisely has even symmetry so the result, h, is
+% real. Still, it is good to check in case that detection fails.
+h = fftshift(h); % rotates the samples so 21..40 move back to 0..20, delay of 20.
+% Shifting the halves of DFTs is such a common operation, MATLAB has this function that does it for us.
+% Calling fftshift is easier than setting up the phase vector exp(-1j*2*pi/L*k/2) for Hmag.
+figure, freqz(h), title('Unwindowed frequency response H')
+figure
+subplot(2,1,1), stem(0:L-1,h,'b-*'), title('Unwindowed impulse response h(n)')
+subplot(2,1,2), zplane(h,1), title('z-plane view of unwindowed h(n)')
+
+% Day 2 additions...
+win = hamming(L)';
+hw = h .* win; assert(isvector(hw))
+% Windowing this way does not affect phase. The fact that the filter is
+% symmetric of length 2*N+1 is unchanged, so its delay remains N samples.
+% figure, freqz(hw), title('Windowed frequency response H')
+figure % combining 2+ freqz plots takes more work...
+[Huw,~] = freqz(h);
+[Hw ,w] = freqz(hw);
+plot(w/pi, mag2db(abs(Huw)), 'g-', w/pi, mag2db(abs(Hw)), 'b-', ...
+    normFreq(1:N+1), mag2db(Hmag(1:N+1)), 'r+')
+legend('Unwindowed', 'Windowed', 'Target'), title('Frequency Response')
+xlabel('Normalized Frequency (\times\pi rad/sample)')
+
+figure
+subplot(2,1,1), plot(0:L-1,hw,'b-', 0:L-1,win,'r-.')
+title('Windowed impulse response h(n)')
+subplot(2,1,2), zplane(hw,1), title('z-plane view of windowed h(n)')

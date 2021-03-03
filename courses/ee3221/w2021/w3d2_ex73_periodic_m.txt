@@ -1,0 +1,54 @@
+% EE3221 Details of Example 7-3 from book, page 356
+
+% ex73_periodic
+
+clearvars
+close % close figure windows
+LineWidth = 3; % used later
+
+% Given: A discrete-time signal with a frequency of Omega = 7.2 pi radians/sample.
+% We can show this is periodic since there is an integer solution for (N0, k) in
+% N0 = (2pi k)/(7.2 pi) = k/3.6 = 5k/18 (most reduced integer form)
+k = 18; % Smallest integer k that yields integer N0
+disp('Confirm N0 is an integer...')
+N0 = k/3.6 % no ;, display
+% Omega0 is the fundamental angular frequency in radians per sample.
+Omega0 = 2*pi/N0;
+fprintf('Omega0 = pi * %g\n', Omega0/pi)
+% So, we have k=18 complete sinusoid cycles in N0=5 samples.
+% Let's take a closer look at this signal's frequency.
+% First, aliasing tells use we can add multiples of 2pi (Omega radians/sample
+% corresponding to f0 = fs) without changing the samples. Let's choose the
+% multiple so that we are in the Nyquist (non-aliasing) range [-pi, pi]...
+% 7.2pi - 4*(2pi) = -0.8 pi = -4/5 pi...
+% N0 = (2pi k)/(-4/5 pi) = -5k/2. N0 must be the same as before
+% (since we haven't changed the sample values) and therefore positive.
+% So, we have k = 2*N0/-5 = 2*5/-5 = -2, which means
+% abs(k)=2 complete sinusoid cycles in N0=5 samples. That k is negative
+% affects the phase of the sinusoid, but not the frequency.
+
+n_max = 2*N0; % Show 2 of the repeating cycles
+dt = 1/100;
+t = 0:dt:n_max; % t_max = n_max means we're assuming fs=1 Hz for this example.
+% This simplifies the math (since radians/sample = radians/second),
+% but does not change the conclusions.
+xt = 3*cos(7.2*pi*t+2); % continuous time signal at original high frequency
+n = 0:n_max; % integer sample numbers
+% x = 3*cos(7.2*pi*n+2); % sampled signal, original form
+% x = 3*cos(-0.8*pi*n+2); % use aliasing: equivalent baseband signal when sampled,
+% allowing Omega<0. But k < 0 just changes the phase...
+% cos() is even, so cos(-Omega*n+phi) = cos(-(Omega*n-phi)) = cos(Omega*n-phi)
+x = 3*cos(0.8*pi*n-2); % another equivalent form, with 0 <= Omega < pi
+
+Omega_alias = -0.8*pi; % This is k*Omega_0, not the same as Omega_0...
+x_alias = 3*cos(Omega_alias*t+2);
+
+fprintf('k = Omega_alias / Omega0 = multiple of the fundamental = %g.\n', Omega_alias/Omega0)
+
+figure
+plot(n, x, 'ro', ...
+     t, xt, 'b-', ...
+     t, x_alias, 'g.-', 'LineWidth', LineWidth)
+legend('x[n]', 'x(t)', 'x_{alias}(t)')
+title('Example 7-3, Expanded')
+xlabel('Time (s) and n (sample number); implicit f_s = 1 Hz')

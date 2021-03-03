@@ -1,0 +1,61 @@
+% W8D2 Example: DTFS, DTFT, DFT
+
+% fourier_family
+
+clearvars
+close all
+
+N = [4 20]; % fundamental periods of sinusoidal components
+Omega = (2*pi)./N; % fundamental frequencies, radians/sample
+N0 = lcm(N(1), N(2)); % fundamental period of sum of signals
+
+n = 0:(N0-1);
+x = cos(Omega(1)*n) + cos(Omega(2)*n);
+plot(n,x,'bo-'), title('x(n)')
+
+% DTFS - signal is periodic
+Omega0 = 2*pi/N0;
+for k = 0:(N0-1)
+    X_FS(k+1) = exp(-1j*Omega0*k*n)*x'; % Riemann sum
+end
+figure, plot(Omega0*(0:(N0-1)), abs(X_FS), 'b*-'), grid
+xlabel('Frequency (rad/sample)'),ylabel('Level (V)')
+title('DTFS')
+
+% DTFT
+f = 0:0.0002:1; % normalized frequency, (half cycles)/sample
+Omega = pi*f; % digital frequency, radians/sample
+n = 0:length(x)-1;
+for k = 1:length(f)
+    X_FT(k) = exp(-1j*Omega(k)*n)*x'; % Riemann sum
+end
+figure, plot(Omega, abs(X_FT)), grid
+xlabel('Frequency (rad/sample)'),ylabel('Level (V)')
+title('DTFT')
+
+% Observation: The formulas are the same for the DTFS and DTFT except that
+% the DTFS is defined at specific frequency values instead of continuous
+% frequency. Thus, the DTFS of a periodic signal *samples* the DTFT of one
+% period of that same periodic signal.
+
+% What happens if we perform the DTFS math on a (finite-length) signal that
+% is not periodic? The DTFS is unchanged, but now sampling to get the DTFS
+% is technically not allowed since we don't know the signal is periodic. If
+% we go ahead with the sampling, though, we have the DFT.
+
+% DFT - for periodic signals, the DFT equals the DTFS (except for a
+% constant scaling factor related to signal length in some definitions).
+% Recognizing that the loop for the DTFS is N0 inner products, we can
+% recast this as a matrix multiplication problem...
+k = 0:(N0-1);
+kn = k'*n; % outer product, square matrix, rows are frequency indexes k and columns are time indexes n
+DFT = exp(-1j*Omega0*kn); % also a square matrix. Omega0*k*n at each entry is the phase for that frequency, time sample
+X_DFT = DFT * x'; % linear algebra: square transformation matrix times row vector yields column vector result
+% Note: DFT is its own transpose (k and n are both 0..N0-1) and has many
+% other symmetries due to Euler's Formula. We'll exploit these in the FFT.
+figure, plot(Omega0*k, abs(X_DFT), 'b*-'), grid
+xlabel('Frequency (rad/sample)'),ylabel('Level (V)')
+title('DFT')
+% Due to conjugate symmetry, we don't actually need to compute all the
+% elements of X_DFT...
+% X_(N0-1) = X_-1 = X*_1, etc.

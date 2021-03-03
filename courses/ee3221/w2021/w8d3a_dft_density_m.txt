@@ -1,0 +1,46 @@
+% W8D3 Example: DFT, resolution, density, Dr. Durant, 2/2021, EE3221
+
+% dft_density
+
+% Experiment by varying 3 items:
+% do2components: true or false to see 2 or 1 component at a time
+% N_meas: set to values higher (or lower) than N0 the period of the input
+% amount of 0-padding
+
+clearvars
+% close all
+
+do2components = true; % false for only 1 cosine component
+
+if do2components
+    N = [4 20]; % fundamental periods of sinusoidal components
+    Omega = (2*pi)./N; % fundamental frequencies, radians/sample
+    N0 = lcm(N(1), N(2)); % fundamental period of sum of signals
+else
+    N = 20;
+    Omega = (2*pi)./N;
+    N0 = N;
+end
+N_meas = 207; % Did we measure period N0 or another number such as 150 or 50 or...
+n = 0:(N_meas-1);
+if do2components
+    x = cos(Omega(1)*n) + cos(Omega(2)*n);
+else
+    x = cos(Omega(1)*n);
+end
+
+% 0 padding to increase density (view of DTFT) (but not resolution = amount of information in x)
+x = [x zeros(1,0)]; % 2nd argument is number of 0s to add. Set to 0 to not do padding
+n = 0:(length(x)-1);
+
+figure, plot(0:length(x)-1,x,'bo-'), title('x(n)')
+
+Omega0 = 2*pi/length(x); % For DFT; was dividing by N0 in class W8D3, should be length(x)
+
+k = 0:(length(x)-1);
+kn = k'*n; % outer product, square matrix, rows are frequency indexes k and columns are time indexes n
+DFT = exp(-1j*Omega0*kn); % also a square matrix. Omega0*k*n at each entry is the phase for that frequency, time sample
+X_DFT = DFT * x'; % linear algebra: square transformation matrix times row vector yields column vector result
+figure, plot(Omega0*k, abs(X_DFT), 'b*-'), grid
+xlabel('Frequency (rad/sample)'),ylabel('Level (V)')
+title('DFT')
