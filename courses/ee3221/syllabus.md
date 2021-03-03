@@ -1,6 +1,6 @@
 ---
-title: "Dr. Durant: EE-3221-11 Digital Signal Processing: Syllabus, Winter, 2020-2021"
-date: 2020-11-29 10:05:30 -0600
+title: "Dr. Durant: EE-3221-31 Digital Signal Processing: Syllabus, Spring, 2021"
+date: 2021-03-03 13:40:30 -0600
 ---
 
 This file was last updated on {{page.date}}.
@@ -9,10 +9,10 @@ This file was last updated on {{page.date}}.
 [https://durant.io/](https://durant.io/)
 
 ## Course Outline, Topics, Gradebook, and Homework
-in Canvas at [https://msoe.instructure.com/courses/5964/](https://msoe.instructure.com/courses/5964/)
+in Canvas at [https://msoe.instructure.com/courses/7142](https://msoe.instructure.com/courses/7142)
 
 ## Teams
-Enrolled students are members of the "EE3221-11 2Q21" team.
+Enrolled students are members of the "EE3221-31 3Q21" team.
 
 ## Course Description and Learning Outcomes
 [https://catalog.msoe.edu/](https://catalog.msoe.edu/)
@@ -33,7 +33,7 @@ There will be different lab assignments in most weeks for remote and in-person s
 
 Remote students will submit all work through Canvas. In-person students will use a mix of Canvas and in-person hardcopy submissions.
 
-Homework will be assigned and weekly quizzes are planned, both during lab. You will be permitted to use your current homework as a reference during quizzes.
+Homework will be assigned most weeks and will be due in lab. Weekly quizzes are planned during lab. You may use your current homework as a reference during quizzes.
 
 ## Attendance
 
@@ -42,7 +42,7 @@ attendance will be recorded at various times throughout the quarter. You
 should check with me if you need to miss class for any reason so that
 we can ensure that you have a plan to stay up to date on the material.
 
-I will not drop you for missing class. If you wish to drop the
+Faculty members cannot drop you for missing class. If you wish to drop the
 course, I recommend that you first check with me and your academic
 advisor. After that, please consult the Registrar's Office for the
 [appropriate form and procedure](https://www.msoe.edu/academics/departments/registrar/).
@@ -67,18 +67,18 @@ An incomplete final grade (e.g., F*) is rarely awarded and only under extenuatin
 
 ### Late Labs and Homework
 
-Lab reports and other assignments must be submitted at or before the specified time on the specified due date.  Late assignments will generally be penalized by 10% of the maximum grade for every business day or part of a business day they are late.  Certain assignments, normally homework, may not be accepted late, particularly if the solution was given. Certain time-critical assignments, especially demos and homework in certain classes, will be penalized at double or triple the normal rate.  Assignments may not be accepted after 11&nbsp;P.M. on Friday of week 10.
+Lab reports and other assignments must be submitted at or before the specified time on the specified due date. Late assignments will generally be penalized by 10% of the maximum grade for every business day or part of a business day they are late. Certain assignments, normally homework, may not be accepted late, particularly if the solution was given. Certain time-critical assignments, especially demos and homework in certain classes, will be penalized at double or triple the normal rate. Assignments may not be accepted after 11&nbsp;P.M. on Friday of week 10.
 
 ### Exams
 * If you have a valid excuse for missing an exam, you must contact me in advance to discuss your situation and to make arrangements to take the exam at another time. Exams missed without making such prior arrangements may only be taken later under the most exceptional of circumstances.
 * The midterm and the final are in-person and on paper except for students approved by MSOE for online-only delivery; these students will take exams in Canvas at the designated times.
 * The midterm is given during the week 6 lab period (there is no week 6 quiz).
-* The final is given at the default time, which is 8 AM on Monday of week 11 for this 8 AM class. It may cover any material from the course. The final exam will last 2 hours.
+* The final is given at the default time, which is 2 PM on Thursday of week 11 for this 4 PM class. It may cover any material from the course. The final exam will last 2 hours.
 
 ### Homework
 * Homework will be assigned throughout the quarter and is due as specified.
-* Homework must be done on 8.5 inch by 11 inch “paper” (scanned hardcopy or in a software program such as OneNote) with ≈1 inch margins on all sides - violating this format may result in rejection of the submission (otherwise problems arise, such as the edges are clipped in electronic files). All students may submit in Canvas. In-person students may instead submit hardcopy homework during lab.
-* Mark each problem number distinctly and clearly (bold circle or square around the problem number, for example).
+* Homework must be done on 8.5 inch by 11 inch “paper” (scanned hardcopy or in a software program such as OneNote) with ≈1 inch margins on all sides - violating this format may result in rejection of the submission. All students may submit in Canvas. In-person students may instead submit hardcopy homework during lab.
+* Mark each problem number distinctly and clearly.
 
 ## Sources of Academic Help: Instructor (class sessions, office hours, Canvas, Teams, phone)
 
@@ -96,7 +96,7 @@ shortcomings in accompanying documentation.
 
 You are encouraged to discuss homework assignments with your colleagues, but
 you must do your own work. This may include discussing the structure or
-syntax and meaning of various, *specific* parts of a design.  However,
+syntax and meaning of various, *specific* parts of a design. However,
 examining another student's work outside of this limited context is
 *not* acceptable, *regardless* of whether you have his or her
 permission, except for the purposes of assigned reviews and group
