@@ -35,7 +35,7 @@ n = 0:(length(x)-1);
 
 figure, plot(0:length(x)-1,x,'bo-'), title('x(n)')
 
-Omega0 = 2*pi/length(x); % For DFT; was dividing by N0 in class W8D3, should be length(x)
+Omega0 = 2*pi/length(x); % For DFT
 
 k = 0:(length(x)-1);
 kn = k'*n; % outer product, square matrix, rows are frequency indexes k and columns are time indexes n

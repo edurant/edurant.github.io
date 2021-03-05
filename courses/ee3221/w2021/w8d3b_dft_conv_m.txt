@@ -5,14 +5,14 @@
 x = [ 1 2 3 4];
 h = [ 2 -2 3 7];
 y1 = conv(x,h) % for length N, convolution takes N^2 multiplies.
-% Prohibitive has N gets large
+% Prohibitive as N gets large
 
 % The z-domain convolution theorem suggests a speedup
 % y(n) = h(n) * x(n)
 % Y(z) = H(z) X(z)
 
-% DFT is sampled from DTFT which is H(z) at z=e^(j omega), so we can use
-% we can also multiply DFTs to get eh desired result
+% DFT is sampled from DTFT which is H(z) at z=e^(j omega), so we can
+% instead multiply DFTs to get the DFT of the desired result.
 
 X = fft(x)
 H = fft(h)

@@ -36,7 +36,7 @@ xlabel('Normalized frequency (Nyquist = 1)'), ylabel('Gain (V/V)')
 h = ifft(Hmag);
 % Hmag is real and we didn't insert phase term, so this will be shifted by
 % delay N=20. Like circular convolution, the samples of h will wrap around
-% with a period L=41= DFT length
+% with a period L=41 = DFT length
 assert(norm(imag(h))<eps('single')) % ensure h is 0 to within roundoff; helps catch errors in setting up Hmag
 h = real(h); % discard negligible imaginary roundoff
 % Note: newer versions of MATLAB are fairly sophisticated and can often
