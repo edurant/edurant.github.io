@@ -1,6 +1,6 @@
 ---
 title: "Dr. Durant: EE-3221-31 Digital Signal Processing: Syllabus, Spring, 2021"
-date: 2021-03-03 13:40:30 -0600
+date: 2021-04-01 10:57:30 -0500
 ---
 
 This file was last updated on {{page.date}}.
@@ -73,7 +73,7 @@ Lab reports and other assignments must be submitted at or before the specified t
 * If you have a valid excuse for missing an exam, you must contact me in advance to discuss your situation and to make arrangements to take the exam at another time. Exams missed without making such prior arrangements may only be taken later under the most exceptional of circumstances.
 * The midterm and the final are in-person and on paper except for students approved by MSOE for online-only delivery; these students will take exams in Canvas at the designated times.
 * The midterm is given during the week 6 lab period (there is no week 6 quiz).
-* The final is given at the default time, which is 2 PM on Thursday of week 11 for this 4 PM class. It may cover any material from the course. The final exam will last 2 hours.
+* The final is given in week 11 per the schedule published by the Registrar's Office. The exam schedule is normally published by the end of week 4. The final may cover any material from the course. The final will last 2 hours.
 
 ### Homework
 * Homework will be assigned throughout the quarter and is due as specified.
