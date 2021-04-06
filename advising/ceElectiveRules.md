@@ -1,6 +1,6 @@
 ---
 title: "CE Academic Advising: Elective Rules"
-date: 2020-05-05 11:44:30 -0500
+date: 2021-04-06 10:16:30 -0500
 ---
 
 ## Sci EL = Science Elective, 3+ credits
@@ -22,8 +22,9 @@ date: 2020-05-05 11:44:30 -0500
 
 ## HU/SS EL = Humanities or Social Science Elective
 * Students must have a total of 5, and at least 2 in each category
-* All numbered HU4\* and SS4\*. There is a button to show just these in Scheduler 2008.
+* Includes all numbered HU4\* and SS4\*. There is a button to show just these in Scheduler 2008.
 * Should include anything listed in Scheduler 2008. Note that some classes are &ldquo;closed&rdquo; from the beginning; these are often classes that involve an overseas trip. The student needs to talk to the professor if they are interested in these classes.
+* HU332 Bioethics may be taken as an HU elective by students for whom HU432 Ethics is required, including CEs.
 * As of the 2016-&rsquo;17 catalog the restriction regarding a minimum Language II for HU credit is removed. Now, language courses follow the same HU elective rules as all other HU courses.
 
 ## Technical Elective = Tech EL = Prog EL = PE = Program Elective
