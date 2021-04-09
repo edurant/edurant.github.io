@@ -32,25 +32,25 @@ While distancing restrictions are in place, advisees have the option of asynchro
 ## Advising times
 
 * Week 7 Times
-  * Monday 1/25: (no times available)
-  * Tuesday 1/26: (no times available)
-  * Wednesday 1/27: (no times available)
-  * Thursday 1/28: 9:30 AM-12:30 PM
-  * Friday 1/29: 9:30-11:00 AM
+  * Monday 4/19: (no times available)
+  * Tuesday 4/20: (no times available)
+  * Wednesday 4/21: 1:30-3:30 PM
+  * Thursday 4/22: (no times available)
+  * Friday 4/23: (no times available)
 
 * Week 8 Times
-  * Monday 2/1: 10:15-11:30 AM
-  * Tuesday 2/2: (no times available)
-  * Wednesday 2/3: (no times available)
-  * Thursday 2/4: 9:30 AM-12:30 PM
-  * Friday 2/5: 9:30-11:00 AM
+  * Monday 4/26: 8:00-9:30 AM
+  * Tuesday 4/27: 8:00-9:30 AM
+  * Wednesday 4/28: 1:30-3:30 PM
+  * Thursday 4/29: (no times available)
+  * Friday 4/30: (no times available)
 
 * Week 9 Times
-  * Monday 2/8: 9:30-11:30 AM
-  * Tuesday 2/9: (no times available)
-  * Wednesday 2/10: (no times available)
-  * Thursday 2/11: 9:30 AM-12:30 PM
-  * Friday 2/12: 9:30-11:00 AM
+  * Monday 5/3: 8:00-9:30 AM
+  * Tuesday 5/4: 8:00-9:30 AM
+  * Wednesday 5/5: 1:30-3:30 PM
+  * Thursday 5/6: (no times available)
+  * Friday 5/7: (no times available)
 
 * Week 10 Times
   * Scheduled in extenuating circumstances only. Please sign up during week 7 through week 9, or contact me for alternate times if necessary.
