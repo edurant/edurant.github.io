@@ -47,10 +47,10 @@ While distancing restrictions are in place, advisees have the option of asynchro
 
 * Week 9 Times
   * Monday 5/3: 8:00-9:30 AM
-  * Tuesday 5/4: 8:00-9:30 AM
-  * Wednesday 5/5: 1:30-3:30 PM
-  * Thursday 5/6: (no times available)
-  * Friday 5/7: (no times available)
+  * Tuesday 5/4: (no times available)
+  * Wednesday 5/5: (no times available)
+  * Thursday 5/6: 8:00-11:00 AM
+  * Friday 5/7: 1:00-3:00 PM
 
 * Week 10 Times
   * Scheduled in extenuating circumstances only. Please sign up during week 7 through week 9, or contact me for alternate times if necessary.
