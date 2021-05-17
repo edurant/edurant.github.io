@@ -1,6 +1,6 @@
 ---
 title: "CE Academic Advising: Elective Rules"
-date: 2021-04-06 10:16:30 -0500
+date: 2021-05-17 08:12:30 -0500
 ---
 
 ## Sci EL = Science Elective, 3+ credits
@@ -28,7 +28,7 @@ date: 2021-04-06 10:16:30 -0500
 * As of the 2016-&rsquo;17 catalog the restriction regarding a minimum Language II for HU credit is removed. Now, language courses follow the same HU elective rules as all other HU courses.
 
 ## Technical Elective = Tech EL = Prog EL = PE = Program Elective
-* Anything in the &ldquo;CE&rdquo; column on the annual list published annually by the EECS department.
+* Anything in the &ldquo;CE&rdquo; column on the list published annually by the EECS department.
 * Any CS/EE/SE 3\*/4\* class that is not significantly duplicative of CE content. Specifically approved courses include SE3910.
 * Can also take CE499/CS499/SE499/EE499 independent study (and similar numbers) for 1-3 credits.
 * The complete UGR498x sequence consists of 6 credits and meets 2 CE technical electives. Like the EE program, CE does not accept a partial UGR sequence for technical elective credit. However, see the note under the free elective.
