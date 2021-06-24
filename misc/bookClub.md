@@ -1,10 +1,10 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2021-04-27 14:16:30 -0500
+date: 2021-06-24 08:25:30 -0500
 ---
 
 * [The Sympathizer](https://bookshop.org/books/the-sympathizer-a-novel-pulitzer-prize-for-fiction/9780802124944), by Viet Thanh Nguyen, discussed on 2021-08-16 (tentative).
-* [The United States of War, Volume 48: A Global History of America's Endless Conflicts, from Columbus to the Islamic State](https://bookshop.org/books/the-united-states-of-war-volume-48-a-global-history-of-america-s-endless-conflicts-from-columbus-to-the-islamic-state/9780520300873), by David Vine, discussed on 2021-07-19 (tentative).
+* [The United States of War, Volume 48: A Global History of America's Endless Conflicts, from Columbus to the Islamic State](https://bookshop.org/books/the-united-states-of-war-volume-48-a-global-history-of-america-s-endless-conflicts-from-columbus-to-the-islamic-state/9780520300873), by David Vine, discussed on 2021-07-12 (tentative).
 * [Black Wave: Saudi Arabia, Iran, and the Forty-Year Rivalry That Unraveled Culture, Religion, and Collective Memory in the Middle East](https://bookshop.org/books/black-wave-saudi-arabia-iran-and-the-forty-year-rivalry-that-unraveled-culture-religion-and-collective-memory-in-the-middle-e/9781250131201), by Kim Ghattas, discussed on 2021-06-21.
 * [A Curse upon the Nation: Race, Freedom, and Extermination in America and the Atlantic world](https://bookshop.org/books/a-curse-upon-the-nation-race-freedom-and-extermination-in-america-and-the-atlantic-world/9780820351278), by Kay Wright Lewis, discussed on 2021-05-24.
 * [Sula](https://bookshop.org/books/sula/9781400033430), by Toni Morrison, discussed on 2021-04-20.
