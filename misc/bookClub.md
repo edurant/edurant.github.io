@@ -1,13 +1,13 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2021-08-02 09:50:30 -0600
+date: 2021-09-15 17:37:30 -0600
 ---
 * [Once We Were Brothers](https://bookshop.org/books/once-we-were-brothers/), by Ronald Balson, discussed on 2022-02-TBD.
 * [Astoria](https://bookshop.org/books/astoria-astor-and-jefferson-s-lost-pacific-empire-a-tale-of-ambition-and-survival-on-the-early-american-frontier-9780062218308), by Peter Stark, discussed on 2022-01-TBD.
 * [Life of Pi](https://bookshop.org/books/life-of-pi-9780156027328), by Yann Martel, discussed on 2021-12-TBD.
 * [The Merit Myth: How Our Colleges Favor the Rich and Divide America](https://bookshop.org/books/the-merit-myth-how-our-colleges-favor-the-rich-and-divide-america/), by Anthony Carnevale, Peter Schmidt, and Jeff Strohl, discussed on 2021-11-TBD.
-* [Hamnet](https://bookshop.org/books/hamnet-0fcffd36-0ecb-4a6d-a913-4efbc6a4d6ef), by Maggie O'Farrell, discussed on 2021-10-TBD.
-* [The Premonition](https://bookshop.org/books/the-premonition-a-pandemic-story-9781713631897), by Michael Lewis, discussed on 2021-09-TBD.
+* [Hamnet](https://bookshop.org/books/hamnet-0fcffd36-0ecb-4a6d-a913-4efbc6a4d6ef), by Maggie O'Farrell, discussed on 2021-10-11.
+* [The Premonition](https://bookshop.org/books/the-premonition-a-pandemic-story-9781713631897), by Michael Lewis, discussed on 2021-09-13.
 * [The Sympathizer](https://bookshop.org/books/the-sympathizer-a-novel-pulitzer-prize-for-fiction/9780802124944), by Viet Thanh Nguyen, discussed on 2021-08-16.
 * [The United States of War, Volume 48: A Global History of America's Endless Conflicts, from Columbus to the Islamic State](https://bookshop.org/books/the-united-states-of-war-volume-48-a-global-history-of-america-s-endless-conflicts-from-columbus-to-the-islamic-state/9780520300873), by David Vine, discussed on 2021-07-12.
 * [Black Wave: Saudi Arabia, Iran, and the Forty-Year Rivalry That Unraveled Culture, Religion, and Collective Memory in the Middle East](https://bookshop.org/books/black-wave-saudi-arabia-iran-and-the-forty-year-rivalry-that-unraveled-culture-religion-and-collective-memory-in-the-middle-e/9781250131201), by Kim Ghattas, discussed on 2021-06-21.
