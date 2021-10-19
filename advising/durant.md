@@ -35,7 +35,7 @@ General CE advising information, including what you need to bring to your advisi
   * Monday 10/25: (no times available)
   * Tuesday 10/26: 3:00-4:00 PM
   * Wednesday 10/27: 3:00-5:30 PM
-  * Thursday 10/28: 3:00-5:30 PM
+  * Thursday 10/28: 3:00-4:30 PM
   * Friday 10/29: 8:00-10:00 AM
 
 * Week 9 Times
