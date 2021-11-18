@@ -1,6 +1,6 @@
 ---
-title: "Dr. Durant: EE-3221-31 Digital Signal Processing: Syllabus, Spring, 2021"
-date: 2021-04-01 10:57:30 -0500
+title: "Dr. Durant: EE-3221 Digital Signal Processing: Syllabus, Winter, 2021–2022"
+date: 2021-11-18 09:20:30 -0600
 ---
 
 This file was last updated on {{page.date}}.
@@ -9,10 +9,7 @@ This file was last updated on {{page.date}}.
 [https://durant.io/](https://durant.io/)
 
 ## Course Outline, Topics, Gradebook, and Homework
-in Canvas at [https://msoe.instructure.com/courses/7142](https://msoe.instructure.com/courses/7142)
-
-## Teams
-Enrolled students are members of the "EE3221-31 3Q21" team.
+in Canvas at [https://msoe.instructure.com/courses/9248](https://msoe.instructure.com/courses/9248)
 
 ## Course Description and Learning Outcomes
 [https://catalog.msoe.edu/](https://catalog.msoe.edu/)
@@ -27,13 +24,11 @@ Enrolled students are members of the "EE3221-31 3Q21" team.
 
 ## General Course Format
 
-All lectures are synchronous. Non-remote students should attend in-person. Remote students will attend in Teams using the General channel in the course team.
+Most lab assignments will last 1 week. Be sure to review them and do any assigned pre-work soon after they're posted in Canvas so that you're prepared for the lab period. Many of the labs will require checking out the FM4 hardware and an Analog Discovery from TSC.
 
-There will be different lab assignments in most weeks for remote and in-person students. All students will have some labs in MATLAB. The labs for remote students will not require any particular hardware.
+There will be weekly homework due in lab. Most students choose hard-copy submission, but Canvas submission is also available.
 
-Remote students will submit all work through Canvas. In-person students will use a mix of Canvas and in-person hardcopy submissions.
-
-Homework will be assigned most weeks and will be due in lab. Weekly quizzes are planned during lab. You may use your current homework as a reference during quizzes.
+There will be weekly quizzes in lab. You may use your current homework as a reference during quizzes.
 
 ## Attendance
 
@@ -67,11 +62,11 @@ An incomplete final grade (e.g., F*) is rarely awarded and only under extenuatin
 
 ### Late Labs and Homework
 
-Lab reports and other assignments must be submitted at or before the specified time on the specified due date. Late assignments will generally be penalized by 10% of the maximum grade for every business day or part of a business day they are late. Certain assignments, normally homework, may not be accepted late, particularly if the solution was given. Certain time-critical assignments, especially demos and homework in certain classes, will be penalized at double or triple the normal rate. Assignments may not be accepted after 11&nbsp;P.M. on Friday of week 10.
+Lab reports and other assignments must be submitted at or before the specified time on the specified due date. Late assignments will generally be penalized by 10% of the maximum grade for every business day or part of a business day they are late. Certain assignments, normally homework, may not be accepted late, particularly if the solution was given. Certain time-critical assignments, especially demos and homework in certain classes, will be penalized at double or triple the normal rate. Assignments may not be accepted after 5&nbsp;P.M. on Friday of week 10.
 
 ### Exams
 * If you have a valid excuse for missing an exam, you must contact me in advance to discuss your situation and to make arrangements to take the exam at another time. Exams missed without making such prior arrangements may only be taken later under the most exceptional of circumstances.
-* The midterm and the final are in-person and on paper except for students approved by MSOE for online-only delivery; these students will take exams in Canvas at the designated times.
+* The midterm and the final are in-person and on paper.
 * The midterm is given during the week 6 lab period (there is no week 6 quiz).
 * The final is given in week 11 per the schedule published by the Registrar's Office. The exam schedule is normally published by the end of week 4. The final may cover any material from the course. The final will last 2 hours.
 
@@ -80,11 +75,11 @@ Lab reports and other assignments must be submitted at or before the specified t
 * Homework must be done on 8.5 inch by 11 inch “paper” (scanned hardcopy or in a software program such as OneNote) with ≈1 inch margins on all sides - violating this format may result in rejection of the submission. All students may submit in Canvas. In-person students may instead submit hardcopy homework during lab.
 * Mark each problem number distinctly and clearly.
 
-## Sources of Academic Help: Instructor (class sessions, office hours, Canvas, Teams, phone)
+## Sources of Academic Help: Class sessions, Office, Canvas, Teams, Email
 
-* Use Teams, email, or Canvas for course-related content communications. Course-related content student messages with instructor responses can be broadcast to everyone in the class – you must specifically indicate in your message if you do not wish it to be broadcast..
-* Fellow classmates, especially using Discussion in Canvas
-* Other EE3221 instructors – ask your instructor first
+* Check Canvas for supplementary materials.
+* Use email or Teams chat for course-related content communications. Course-related content student messages with instructor responses can be broadcast to everyone in the class – you must specifically indicate in your message if you do not wish it to be broadcast.
+* See the professor's schedule on his website for office hour policies.
 
 ## Academic Honesty
 
