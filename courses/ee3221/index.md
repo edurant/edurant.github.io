@@ -6,66 +6,27 @@ title: "Dr. Durant: EE-3221 Digital Signal Processing"
 
 Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas](https://msoe.instructure.com/). The syllabus is avilable both [on this site](syllabus.html) and in Canvas. This site contains many reference materials that you may find useful including MATLAB examples and previous homework, quizzes, and exams.
 
-## <a href="outline-w1718.pdf">Old (2017-18) outline and reading assignments</a>
-
-## Lab (2017&ndash;2018)
-
-* <a href="l01apSol.pdf">Week 1: Solution to Fourier Transform and sampling problems</a>
-* <a href="l03apSol.pdf">Week 3: Solution to discrete-time transform and period problems</a>
-
-### Older Materials (Winter, 2016&ndash;2017)
-
-Lab 9: <a href="https://faculty-web.msoe.edu/prust/armdsp/">Dr. Prust's FM4 files</a>,
-<a href="https://faculty-web.msoe.edu/prust/c6713dsk/">Dr. Prust's C6713 files</a>
-
-## Examples
-
-### 2020&ndash;'21
-
-* [W1D3 Aliased Sampling](w2021/w1d3_aliased_sampling_m.txt)
-* [W2D1 Sinc Reconstruction](w2021/w2d1_sinc_reconstruction_m.txt)
-* [W2D2 Zero-order Hold](w2021/w2d2_zoh_m.txt)
-* [W3D2 Ex. 7.3 Sampled Sinusoid Period](w2021/w3d2_ex73_periodic_m.txt)
-* [W5D3 z-transform Partial Fractions](w2021/w5d3_z_part_frac_m.txt)
-* [W6D1 z-domain Pole-zero Cancellation](w2021/w6d1_z_cancellation_m.txt)
-* [W6D2 z-transform Example](w2021/w6d2_z_transform_ex_m.txt)
-* [W7D3 z-domain Frequency Scaling](w2021/w7d3_z_freq_scaling_m.txt)
-* [W8D2 Fourier Family Comparisons](w2021/w8d2_fourier_family_m.txt)
-* [W8D3 DFT Density and Resolution](w2021/w8d3a_dft_density_m.txt)
-* [W8D3 DFT For Convolution](w2021/w8d3b_dft_conv_m.txt)
-* [W10D2 FIR Design, Window Method](w2021/w10d2_fir_window_m.txt)
-
-### 2014&ndash;'15
-
-* <a href="l4ep_m.txt">Lab 4: MATLAB solution to additional problems on linearity and time-invariance</a>
-* <a href="dftFrequencyResolution.pdf">DFT frequency resolution vs. density: detailed example</a>
-* <a href="w8oversampling_m.txt">Week 8: Oversampling</a>
-* <a href="dftPower_m.txt">DFT and scaling of power</a>
-* <a href="w9exercise.wav">w9exercise.wav</a> for in-class exercise
-* <a href="quantex_m.txt">Quantization noise example</a> and <a href="quantex.xlsx">analysis spreadsheet</a>
-
-### 2013&ndash;'14
-
-* <a href="p196_m.txt">Page 196 script (MATLAB FFT performance) with my updates and comments</a>
-* <a href="l4p_m.txt">Lab 4: Example of shifting and applying variable scaling to sequences</a>
-* <a href="w4lti_m.txt">Lab 4: Numerical test for linearity and time invariance</a>
-* <a href="w4tex_m.txt">Formatting of labels and titles: _, Greek letters, etc.</a>
-* <a href="freqPeriodicity_m.txt">Frequency periodicity example</a>
-* Solutions to Problem 2.4.1: <a href="p2_4_1b_m.txt">Basic</a>, <a href="p2_4_1_m.txt">More general, but more complex</a>
-
-### Older
-
-* <a href="aliasing_m.txt">Simple aliasing example</a>
-* <a href="dft4_m.txt">DFT/IDFT example in MATLAB: 4 samples, phase = 0</a>
-* <a href="dft7_m.txt">DFT/IDFT example in MATLAB: 7 samples with phases</a>
-* <a href="w7d3_m.txt">DFT examples, fundamental frequencies, sampling for non-integer multiples of the fundamental</a>
-* <a href="w8d1_m.txt">DFT windowing</a>
-* <a href="w9d2_m.txt">Linear phase FIR filter design in MATLAB</a>
-
-## <a href="homework.html">Old Homework</a>
-
 ## Quizzes with Solutions
 
+* 2020&ndash;2021
+  * Blanks:
+	<a href="q01-w2021.pdf">Quiz 1</a>,
+	<a href="q02-w2021.pdf">Quiz 2</a>,
+	<a href="q03-w2021.pdf">Quiz 3</a>,
+	<a href="q04-w2021.pdf">Quiz 4</a>,
+	<a href="q05-w2021.pdf">Quiz 5</a>,
+	<a href="q06-w2021.pdf">Quiz 6</a>,
+	<a href="q07-w2021.pdf">Quiz 7</a>,
+	<a href="q08-w2021.pdf">Quiz 8</a>
+  * Solutions:
+	<a href="q01-w2021-ans.pdf">Quiz 1</a>,
+	<a href="q02-w2021-ans.pdf">Quiz 2</a>,
+	<a href="q03-w2021-ans.pdf">Quiz 3</a>,
+	<a href="q04-w2021-ans.pdf">Quiz 4</a>,
+	<a href="q05-w2021-ans.pdf">Quiz 5</a>,
+	<a href="q06-w2021-ans.pdf">Quiz 6</a>,
+	<a href="q07-w2021-ans.pdf">Quiz 7</a>,
+	<a href="q08-w2021-ans.pdf">Quiz 8</a>
 * 2017&ndash;2018:
 	<a href="q01-w1718-ans.pdf">Quiz 1</a>,
 	<a href="q02-w1718-ans.pdf">Quiz 2</a>,
@@ -128,6 +89,53 @@ Lab 9: <a href="https://faculty-web.msoe.edu/prust/armdsp/">Dr. Prust's FM4 file
 * <a href="final-w1314.pdf">2013-'14</a>
 * <a href="final-w0910.pdf">2009-'10</a>
 
+## Examples, Mostly MATLAB
+
+### 2020&ndash;'21
+
+* [W1D3 Aliased Sampling](w2021/w1d3_aliased_sampling_m.txt)
+* [W2D1 Sinc Reconstruction](w2021/w2d1_sinc_reconstruction_m.txt)
+* [W2D2 Zero-order Hold](w2021/w2d2_zoh_m.txt)
+* [W3D2 Ex. 7.3 Sampled Sinusoid Period](w2021/w3d2_ex73_periodic_m.txt)
+* [W5D3 z-transform Partial Fractions](w2021/w5d3_z_part_frac_m.txt)
+* [W6D1 z-domain Pole-zero Cancellation](w2021/w6d1_z_cancellation_m.txt)
+* [W6D2 z-transform Example](w2021/w6d2_z_transform_ex_m.txt)
+* [W7D3 z-domain Frequency Scaling](w2021/w7d3_z_freq_scaling_m.txt)
+* [W8D2 Fourier Family Comparisons](w2021/w8d2_fourier_family_m.txt)
+* [W8D3 DFT Density and Resolution](w2021/w8d3a_dft_density_m.txt)
+* [W8D3 DFT For Convolution](w2021/w8d3b_dft_conv_m.txt)
+* [W10D2 FIR Design, Window Method](w2021/w10d2_fir_window_m.txt)
+
+### 2014&ndash;'15
+
+* <a href="l4ep_m.txt">Lab 4: MATLAB solution to additional problems on linearity and time-invariance</a>
+* <a href="dftFrequencyResolution.pdf">DFT frequency resolution vs. density: detailed example</a>
+* <a href="w8oversampling_m.txt">Week 8: Oversampling</a>
+* <a href="dftPower_m.txt">DFT and scaling of power</a>
+* <a href="w9exercise.wav">w9exercise.wav</a> for in-class exercise
+* <a href="quantex_m.txt">Quantization noise example</a> and <a href="quantex.xlsx">analysis spreadsheet</a>
+
+### 2013&ndash;'14
+
+* <a href="p196_m.txt">Page 196 script (MATLAB FFT performance) with my updates and comments</a>
+* <a href="l4p_m.txt">Lab 4: Example of shifting and applying variable scaling to sequences</a>
+* <a href="w4lti_m.txt">Lab 4: Numerical test for linearity and time invariance</a>
+* <a href="w4tex_m.txt">Formatting of labels and titles: _, Greek letters, etc.</a>
+* <a href="freqPeriodicity_m.txt">Frequency periodicity example</a>
+* Solutions to Problem 2.4.1: <a href="p2_4_1b_m.txt">Basic</a>, <a href="p2_4_1_m.txt">More general, but more complex</a>
+
+### Older
+
+* <a href="aliasing_m.txt">Simple aliasing example</a>
+* <a href="dft4_m.txt">DFT/IDFT example in MATLAB: 4 samples, phase = 0</a>
+* <a href="dft7_m.txt">DFT/IDFT example in MATLAB: 7 samples with phases</a>
+* <a href="w7d3_m.txt">DFT examples, fundamental frequencies, sampling for non-integer multiples of the fundamental</a>
+* <a href="w8d1_m.txt">DFT windowing</a>
+* <a href="w9d2_m.txt">Linear phase FIR filter design in MATLAB</a>
+
+## <a href="homework.html">Old Homework</a>
+
+
 ## Additional Readings
 ### 2017&ndash;18
 
@@ -158,3 +166,15 @@ Lab 9: <a href="https://faculty-web.msoe.edu/prust/armdsp/">Dr. Prust's FM4 file
 * Wang, DeLiang. <a href="http://spectrum.ieee.org/consumer-electronics/audiovideo/deep-learning-reinvents-the-hearing-aid">Deep Learning Reinvents the Hearing Aid</a>, *IEEE Spectrum*, 6 December 2016.
 * ___. <a href="http://www.bdti.com/InsideDSP/2013/10/23/SingularComputing">Imperfect Processing: A Functionally Feasible (and Fiscally Attractive) Option, Says Singular Computing</a>
 	<a href="2013-10-22articleImperfectProcessing.pdf">(printable)</a>, *BDTi: Inside DSP*, 22 October 2013.
+
+## <a href="outline-w1718.pdf">Old (2017-18) outline and reading assignments</a>
+
+## Lab (2017&ndash;2018)
+
+* <a href="l01apSol.pdf">Week 1: Solution to Fourier Transform and sampling problems</a>
+* <a href="l03apSol.pdf">Week 3: Solution to discrete-time transform and period problems</a>
+
+### Older Materials (Winter, 2016&ndash;2017)
+
+Lab 9: <a href="https://faculty-web.msoe.edu/prust/armdsp/">Dr. Prust's FM4 files</a>,
+<a href="https://faculty-web.msoe.edu/prust/c6713dsk/">Dr. Prust's C6713 files</a>
