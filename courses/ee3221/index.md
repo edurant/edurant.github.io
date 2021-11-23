@@ -85,8 +85,8 @@ Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas
 	<a href="q07-w1314-ans.pdf">Quiz 7</a>
 
 ## Sample Exams
-* Final: <a href="final-w2021.pdf">2016-'17</a> <a href="final-w2021-ans.pdf">(solution)</a>
-* Midterm: <a href="midterm-w2021.pdf">2016-'17</a> <a href="midterm-w2021-ans.pdf">(solution)</a>
+* Final: <a href="final-w2021.pdf">2020-'21</a> <a href="final-w2021-ans.pdf">(solution)</a>
+* Midterm: <a href="midterm-w2021.pdf">2020-'21</a> <a href="midterm-w2021-ans.pdf">(solution)</a>
 * Final: <a href="final-w1617.pdf">2016-'17</a> <a href="final-w1617-ans.pdf">(solution)</a>
 * Final: <a href="final-w1314.pdf">2013-'14</a>
 * Final: <a href="final-w0910.pdf">2009-'10</a>
