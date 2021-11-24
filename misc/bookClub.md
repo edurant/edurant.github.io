@@ -1,10 +1,16 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2021-09-15 17:37:30 -0600
+date: 2021-11-24 08:27:30 -0600
 ---
+* [Lincoln: A Novel](https://bookshop.org/books/lincoln-9780375708763/9780375708763), by Gore Vidal, discussed on 2022-09-TBD.
+* [Zen and the Art of Motorcycle Maintenance](https://bookshop.org/books/zen-and-the-art-of-motorcycle-maintenance-an-inquiry-into-values/9780060839871), by Robert M. Pirsig, discussed on 2022-08-TBD.
+* [The Agony and the Ecstasy](https://bookshop.org/books/the-agony-and-the-ecstasy-a-biographical-novel-of-michelangelo/9780451213235), by Irving Stone, discussed on 2022-07-TBD.
+* [Consuming the Caribbean. From Arawaks to Zombies.](https://bookshop.org/books/consuming-the-caribbean-from-arawaks-to-zombies/9780415257602), by Mimi Sheller, discussed on 2022-06-TBD.
+* [On Earth We're Briefly Gorgeous](https://bookshop.org/books/on-earth-we-re-briefly-gorgeous/9780525562023), by Ocean Vuong, discussed on 2022-05-TBD.
+* [How not to be wrong](https://bookshop.org/books/how-not-to-be-wrong-the-power-of-mathematical-thinking/9780143127536), by Jordan Ellenberg, discussed on 2022-04-TBD.
 * [Once We Were Brothers](https://bookshop.org/books/once-we-were-brothers/), by Ronald Balson, discussed on 2022-02-TBD.
 * [Astoria](https://bookshop.org/books/astoria-astor-and-jefferson-s-lost-pacific-empire-a-tale-of-ambition-and-survival-on-the-early-american-frontier-9780062218308), by Peter Stark, discussed on 2022-01-TBD.
-* [Life of Pi](https://bookshop.org/books/life-of-pi-9780156027328), by Yann Martel, discussed on 2021-12-TBD.
+* [Life of Pi](https://bookshop.org/books/life-of-pi-9780156027328), by Yann Martel, discussed on 2021-12-20.
 * [The Merit Myth: How Our Colleges Favor the Rich and Divide America](https://bookshop.org/books/the-merit-myth-how-our-colleges-favor-the-rich-and-divide-america/), by Anthony Carnevale, Peter Schmidt, and Jeff Strohl, discussed on 2021-11-TBD.
 * [Hamnet](https://bookshop.org/books/hamnet-0fcffd36-0ecb-4a6d-a913-4efbc6a4d6ef), by Maggie O'Farrell, discussed on 2021-10-11.
 * [The Premonition](https://bookshop.org/books/the-premonition-a-pandemic-story-9781713631897), by Michael Lewis, discussed on 2021-09-13.
