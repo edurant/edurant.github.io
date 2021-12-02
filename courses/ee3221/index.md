@@ -95,6 +95,7 @@ Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas
 
 ### 2020&ndash;'21
 
+* [W1D2 Pulse Train Fourier Series](w1d2_pulseTrain_FS_m.txt)
 * [W1D3 Aliased Sampling](w2021/w1d3_aliased_sampling_m.txt)
 * [W2D1 Sinc Reconstruction](w2021/w2d1_sinc_reconstruction_m.txt)
 * [W2D2 Zero-order Hold](w2021/w2d2_zoh_m.txt)

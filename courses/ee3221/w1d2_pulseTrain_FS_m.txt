@@ -1,0 +1,36 @@
+% Dr. Durant, EE3221, W1D2, 12/2/2021
+% Explore the Fourier Series of the sampling impulse train
+% pulseTrain_FS
+
+% Equation 6.155 (page 323) shows that the pulse train (used to sample an
+% analog signal) has a FS with all terms equal to f_s.
+% δ_{T_s}(t)
+%  =     ∑_{n=-∞}^∞ δ(t-nT_s)        [definition]
+%  = f_s ∑_{n=-∞}^∞ e^{j 2π n f_s t} [Fourier Series]
+% (Note: I'm using LaTeX notation for equations, _ is subscript/text below,
+% ^ superscript/text above.)
+
+% The terms of the FS have conjugate symmetry (X_k = X*_{-k}) since the pulse train is real.
+% Also, since the terms are all real, only the even (cosine) portions
+% remain in the trigonometric form of the FS, which is expected since the
+% pulse train itself is even. (See Table 5-3, page 206 to review forms of the FS.)
+% a_0 = fs
+% a_k = 2 fs, k>1
+
+% Let's show the first several terms of the the FS...
+N = 20; % number of FS terms to show after n=0
+fs = 1000; % sampling frequency (= fundamental frequency), hertz
+Ts = 1/fs;
+Omega0 = 2*pi*fs; % sampling frequency, radians/sec
+
+t = -2*Ts : Ts/1000 : 2*Ts; % 4 periods of pulse train, 1000 samples per period
+
+x = [  fs*ones(size(t)); ... % n = 0 case
+     2*fs*cos( (1:N)' * Omega0 * t)]; % arg is column × scalar × row = rectangular matrix
+
+h = plot(t,x, t,sum(x,1)); % plot can return "handles" to each of the plotted lines
+set(h(end),'LineWidth',3) % ...which can be used to set their properties
+% Here, we're making the final, sum line (end) thicker (width=3).
+title(sprintf("δ_{T_s}(t) ≅ f_s ∑_{n=-%g}^{%g} e^{j 2π n f_s t}; fs = %g",N,N,fs))
+% Hint: For convenience, you can also write \delta in a string instead of δ
+xlabel('Time (s)')
