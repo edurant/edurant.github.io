@@ -93,7 +93,7 @@ Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas
 
 ## Examples, Mostly MATLAB
 
-### 2020&ndash;'21
+### 2020&ndash;'21 / 2021&ndash;'22
 
 * [W1D2 Pulse Train Fourier Series](w1d2_pulseTrain_FS_m.txt)
 * [W1D3 Aliased Sampling](w2021/w1d3_aliased_sampling_m.txt)

@@ -1,5 +1,5 @@
-% Dr. Durant, EE3221, W1D3, 12/4/2020
-% Demonstrate aliased sampling of cosine.
+% Dr. Durant, EE3221, W1D3, 12/4/2020, revised 12/2/2021
+% Demonstrate aliased sampling of sine.
 
 % aliased_sampling
 
@@ -7,13 +7,15 @@ clearvars
 close all
 
 fs = 40; % sampling frequency, Hz
-f = 30; % frequency of input cosine (no antialias filter; AA filter would wipe out any component above fs/2)
+f = 30; % frequency of input sine (no antialias filter; AA filter would wipe out any component above fs/2)
 N = 10;  % number of samples to illustrate
-n = 0:N-1;
-Ts = 1/fs
+n = 0:N-1; % sample number
+Ts = 1/fs; % sampling interval, s
+
+assert(f <= 3*fs/2, 'This code only considers the n=±1 images, so it requires f <= 3*(fs/2)')
 
 t_samp = n*Ts; % sampling time
-y_dig = sin(2*pi*f*t_samp); % samples of cosine
+y_dig = sin(2*pi*f*t_samp); % samples of sine
 
 t = 0 : Ts/100 : t_samp(end); % approximate continuous time; 100 is arbitrary but should be large
 y_ana = sin(2*pi*f*t); % values at highly sampled, continuous approximation
@@ -33,7 +35,7 @@ h = plot(t     ,y_ana    ,'b-',...
 % h is array of handles (like pointers) to the 3 traces (series) in the plot
 set(h, 'LineWidth', 4) % Make all lines thicker; can also modify select lines, e.g., h([1 3])
 set(h(2), 'MarkerSize', 15) % Make the circles on the 2nd series bigger
-legend('Analog source', 'Sampled', 'Analog reconstructed (aliased)')
+legend('Analog source', 'Sampled', 'Analog reconstructed (may be aliased)')
 xlabel('Time (s)'), ylabel('Signal level')
 title('Aliasing Example')
 set(gca, 'FontSize', 14)
