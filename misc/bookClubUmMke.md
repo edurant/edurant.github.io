@@ -1,9 +1,9 @@
 ---
 title: "University of Michigan Milwaukee Alumni Book Club Selections"
-date: 2021-09-13 09:35:30 -0500
+date: 2021-12-06 10:10:30 -0600
 ---
 
-* [The Breaker: A Peter Ash Novel, Book 6](https://bookshop.org/books/the-breaker-9781432883638), by Nick Petrie, discussed on 2022-02 (tentative date).
+* [The Breaker: A Peter Ash Novel, Book 6](https://bookshop.org/books/the-breaker-9781432883638), by Nick Petrie, discussed on 2022-03-09.
 * [The Vanishing Half](https://bookshop.org/books/the-vanishing-half-9780525536291), by Brit Bennett, discussed on 2021-11-23.
 * [The Selected Poems of Donald Hall](https://bookshop.org/books/the-selected-poems-of-donald-hall/9781328745606), by Donald Hall, discussed on 2021-08-30.
 * [The Wild One (Peter Ash #5)](https://bookshop.org/books/the-wild-one-9780525535447/9780593188057), by Nick Petrie, discussed on 2021-05-10.
