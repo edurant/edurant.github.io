@@ -67,7 +67,11 @@ Forms for declaring a minor, changing/adding a major, etc., are available on the
 Two-degree tracks exist for CE in combination with CS, EE and SE. These tracks are laid out for 5 years, but students have accelerated the course sequence and finished in one or two quarters beyond 4 years. Please see your advisor or program director (Dr. Durant) for more information.
 
 ## Internship and Job Search Resources
-  * Talk with your faculty and advisor
-  * [MSOE Career Services](http://www.msoe.edu/explore-your-future/career-services/), including the Handshake system and annual Career Fair
-  * "[Ask the Headhunter](http://www.pbs.org/newshour/author/ncorcodilos/)" series by Nick Corcodilos on the *PBS NewsHour*
-  * "[The Workologist](http://www.nytimes.com/column/workologist)" column by Rob Walker at the *New York Times*
+* Talk with your faculty and advisor
+* [MSOE Career Services](http://www.msoe.edu/explore-your-future/career-services/), including the Handshake system and annual Career Fair
+* "[Ask the Headhunter](http://www.pbs.org/newshour/author/ncorcodilos/)" series by Nick Corcodilos on the *PBS NewsHour*
+* "[The Workologist](http://www.nytimes.com/column/workologist)" column by Rob Walker at the *New York Times*
+
+## Research and Graduate School Preparation
+
+[This MSOE webpage](https://www.msoe.edu/academics/how-we-teach/labs-and-research/undergraduate-research/) outlines research opportunities for MSOE students including our undergraduate research program in which you work with a faculty member on a project over the course of a year and REUs, which are (usually) summer research experiences sponsored by the National Science Foundation that you can pursue at a variety of universities throughout the US. [This website](https://pathwaystoscience.org/) lists several REU and other opportunities. You can also [search for REU opportunities at the NSF's website](https://www.nsf.gov/crssprgm/reu/reu_search.jsp).
