@@ -1,6 +1,6 @@
 ---
 title: "CE Academic Advising"
-date: 2020-09-02 16:20:30 -0500
+date: 2022-01-14 14:31:30 -0500
 ---
 
 ## Advising policy
@@ -23,7 +23,7 @@ You will be able to sign up for an advising appointment starting in week 7. You 
 
 ## What to have available during the meeting with your advisor
 * A copy (physical or virtual) of the CE curriculum flowchart for your curriculum version marked with the courses you have successfully completed.
-  * Students first enrolled in <a href="https://catalog.msoe.edu/preview_program.php?catoid=22&poid=1101&returnto=630">F'20</a> and <a href="https://catalog.msoe.edu/preview_program.php?catoid=20&poid=1001&returnto=562">F'19</a> follow curriculum 4.3. <a href="curriculum-4.3rev01.pdf">Flowchart</a>
+  * Students first enrolled in <a href="https://catalog.msoe.edu/preview_program.php?catoid=24&poid=1200&returnto=711">F'21</a>, <a href="https://catalog.msoe.edu/preview_program.php?catoid=22&poid=1101&returnto=630">F'20</a>, and <a href="https://catalog.msoe.edu/preview_program.php?catoid=20&poid=1001&returnto=562">F'19</a> follow curriculum 4.3. <a href="curriculum-4.3rev01.pdf">Flowchart</a>
   * Students first enrolled in <a href="https://catalog.msoe.edu/preview_program.php?catoid=10&poid=506&returnto=364">F'15</a>,
             <a href="https://catalog.msoe.edu/preview_program.php?catoid=14&poid=704&returnto=394">F'16</a>,
 	    <a href="https://catalog.msoe.edu/preview_program.php?catoid=16&poid=810&returnto=442">F'17</a>, and
@@ -33,7 +33,7 @@ You will be able to sign up for an advising appointment starting in week 7. You 
             follow curriculum 3.5. <a href="curriculum-3.5rev01.pdf">Flowchart</a>
 
 * Your preliminary plans for the next quarter's schedule
-* Your curriculum track (course list). Electronic copies are available at <a href="https://catalog.msoe.edu/">https://catalog.msoe.edu/</a>. Be sure to select the catalog year that you first enrolled at MSOE.
+* Your curriculum track (course list). Electronic copies are available at the links above. Or, go to <a href="https://catalog.msoe.edu/">https://catalog.msoe.edu/</a> and select the catalog year that you first enrolled at MSOE.
 * Any questions you may have
 
 ## Advisors
