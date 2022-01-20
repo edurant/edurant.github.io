@@ -1,52 +1,68 @@
-% Week 5 Day 3 - Friday 1/15/2021
-% Example on whiteboard showing how to use the z-transform to compute the
-% convolution of possibly infinite-length sequences.
+% Week 5 Day 3 - 2021-01-15, updated 2022-01-20
+% Using the z-transform to compute the convolution of possibly infinite-length sequences.
+% Inverse z-transform, 3rd order denominator with real roots
+% Demonstrate a few solution methods
+
+% In the MATLAB section of Modules in Canvas, I uploaded a JPEG showing the
+% problem summary and partial results, X(z), H(z), and, Y(z) = X(z) H(z).
+
 % Givens:
 % x(n) = u(n) + 0.9^n u(n)
 % h(n) = (-0.5)^n u(n)
 
-% z_part_frac
+%% Method 1: We used a partial fractions approach on Y(z)/z and derived
+% the following system of equations for the partial fraction representation
+% in W5D3 lecture discussion.
 
 % Key steps of board calculations:
-% X(z) = ... work on whiteboard = (2z^2 - 1.9z)/((z-1)(z-0.9))
+% X(z) = ... work on board = (2z^2 - 1.9z)/((z-1)(z-0.9))
 % H(z) = z/(z+0.5)
 % Y(z) = H(z) X(z) ... ...
-% Y(z)/z = (2z^2-1.9z)/((z+0.5)(z-1)(z-0.9))
-%        = A/(z+0.5) + B/(z-1) + C/(z-0.9)
+% Y(z)/z = (2z^2-1.9z)/((z-1)(z-0.9)(z+0.5))
+%        = A/(z-1) + B/(z-0.9) + C/(z+0.5)
 % We then manipulated the equation to get 3 equations to determine ABC
-% In matrix form: x = D * ABC
-D = [1 1 1; -1.9 -0.4 -0.5; 0.9 -.45 -.5]
-x = [2; -1.9; 0]
-% ABC = (D^-1) * x % inverting a matrix is expensive and numerically
-% unstable. When we need the ABC vector, but not D^-1 explicitly, it is
-% better to ask MATLAB to solve the linear system
-ABC = linsolve(D,x); % doc linsolve for details (D\x also solves system)
-% When we know the results will be rational numbers, we can ask MATLAB to
-% try to recover the exact rational values:
-rats(ABC)
+% In matrix form: x = D * ABC [3x1 column vector of ABC], ABC to be solved for
 
-% For convenience, extract ABC into the 3 constants
-A = ABC(1); B = ABC(2); C = ABC(3);
+D = [1 1 1; -0.4 -0.5 -1.9; -0.45 -0.5 0.9] % no ; to display
+x = [2 -1.9 0]' % ' is transpose, makes this a column vector
+% doc linsolve % good way to solve system of linear equations; considers several special cases, see documentation
+ABC = linsolve(D,x) % (D\x also solves system)
 
-% Now, plot the system response
-n = 0:20;
-y = A * ((-0.5).^n) + B + C * (0.9.^n);
+(D^-1) * x % This method is theoretically valid per linear algebra and will often work, but taking
+% the inverse can be numerically unstable (roundoff error including sensitivity as intermediate terms
+% approach 0) and is often more work than is actually needed to solve the system. In particular,
+% there are stability problems there are very small eigenvalues of the matrix; read about the
+% condition number of a matrix for more information.
+
+rats(ABC) % MATLAB attempts to find rational representations of the result. Works here, but has some
+% limitations. This form may be preferred in this case since we know that the solution of a linear
+% system having rational coefficients must consist of only rational values.
+
+n = 0:15; % sample numbers for calculation and plotting
+
+A = ABC(1), B = ABC(2), C = ABC(3) % break ABC vector into 3 scalar variables for convenience
+
+y = A + B * 0.9.^n + C * (-0.5).^n
+% 0.9 ^ n % this generates an error. ^ is used for *matrix* powers and requires a scalar exponent
+% .^ says calculate elementwise
 stem(n,y)
 
-% Also, MATLAB can do partial fraction expansion directly!
+%% Method 2: Also, MATLAB can do partial fraction expansion directly!
 % Recall: Y(z)/z = (2z^2-1.9z)/((z+0.5)(z-1)(z-0.9))
-b = [2 -1.9 0]; % numerator polynomial in order descending to z^0 coefficient
-a = conv(conv([1 0.5],[1 -1]),[1 -0.9]) % denominator polynomial is product of 3 terms
-% As we showed yesterday, z-domain polynomial multiplication corresponds to
-% convolution in discrete time.
-[r,p,k] = residue(b,a) % partial fraction expansion. r contains ABC.
-% p contains corresponding "pole" values where each denominator goes to 0.
-% And, k (empty here) contains any quotient polynomial terms due to
-% degree of numerator being >= degree of denominator.
+b = [2 -1.9 0] % H(z) = B(z) / A(z), B,A are rational polynomials b_n z^n + ... + b_0, Y(z)/z form
+a = conv(conv([1 -1],[1 -0.9]),[1 0.5])
+% As we showed recently, z-domain polynomial multiplication corresponds to convolution in discrete time.
+[r,p,k] = residue(b,a) % residues (numerator roots = ABC above), poles, constant.
+% And, k (empty here) contains any quotient polynomial terms due to degree
+% of numerator being >= degree of denominator (z^+1, z^+2, ... coefficients).
 
-y2 = r(1)*p(1).^n + r(2)*p(2).^n + r(3)*p(3).^n;
+y2 = r(1)*p(1).^n + r(2)*p(2).^n + r(3)*p(3).^n % note standard form, sum of geometric series
+err_vec = y - y2 % element-wise errors are tiny (note 10^-13 scale)
+err = norm(y - y2) % error scalar, norm (Euclidean/Cartesian length) of error vector
 
-% confirm that the error between y and y2 is within roundoff:
-norm(y2-y) % result will be very small (~1e-13)
-
-% Type doc <function_name> to learn more about any function.
+%% Additional example: We did this on the board using X(z) H(z), but showed that it doesn't actually
+% save any work for a problem like this. But, it does illustrate why the z-transform convolution
+% theorem works, and lets us capture the resulting function in a single mathematical object (a
+% polynomial in z).
+x = [3 5 4]; h = [-6 4 2];
+y = conv(x,h)
