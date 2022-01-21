@@ -28,7 +28,7 @@ General CE advising information, including what you need to bring to your advisi
   * Monday 1/24: 9:00-10:30 AM, 2:00-4:30 PM
   * Tuesday 1/25: 1:00-4:00 PM
   * Wednesday 1/26: (no times available)
-  * Thursday 1/27: 9:00-10:30 AM, 1:00-3:00 PM
+  * Thursday 1/27: 9:00-10:30 AM, 1:30-3:00 PM
   * Friday 1/28: (no times available)
 
 * Week 8 Times
