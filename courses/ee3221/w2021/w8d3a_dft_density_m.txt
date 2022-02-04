@@ -1,35 +1,25 @@
-% W8D3 Example: DFT, resolution, density, Dr. Durant, 2/2021, EE3221
-
+% W8D3 Example: DFT, resolution, density, Dr. Durant, 2/2022, EE3221
 % dft_density
 
-% Experiment by varying 3 items:
-% do2components: true or false to see 2 or 1 component at a time
+% Experiment by varying:
+% Omega: 1 or more sinusoidal component frequencies
 % N_meas: set to values higher (or lower) than N0 the period of the input
 % amount of 0-padding
 
 clearvars
 % close all
 
-do2components = true; % false for only 1 cosine component
+Omega = [1.5 0.31]; % radians/sample; periodic iff Omega is pi times rational number
+% pi/2 is Nyquist = fs/2 = 1 on normalized frequency scale
 
-if do2components
-    N = [4 20]; % fundamental periods of sinusoidal components
-    Omega = (2*pi)./N; % fundamental frequencies, radians/sample
-    N0 = lcm(N(1), N(2)); % fundamental period of sum of signals
-else
-    N = 20;
-    Omega = (2*pi)./N;
-    N0 = N;
-end
-N_meas = 207; % Did we measure period N0 or another number such as 150 or 50 or...
+N_meas = 207; % Did we measure a full period N0 (if it exists) or another convenient number such as 256 or 1024 or...
+% N_meas is amount of information and determines resolution = 2*pi/N_meas
 n = 0:(N_meas-1);
-if do2components
-    x = cos(Omega(1)*n) + cos(Omega(2)*n);
-else
-    x = cos(Omega(1)*n);
-end
 
-% 0 padding to increase density (view of DTFT) (but not resolution = amount of information in x)
+x = sum(cos(Omega'*n)); % outer product, sum rows (1 for each Omega value)
+
+% 0 padding to increase density (view of DTFT) (but not resolution - amount of information in x)
+% This often allows the sinc peaks due to time-domain sinusoids and other features to be seen easily
 x = [x zeros(1,0)]; % 2nd argument is number of 0s to add. Set to 0 to not do padding
 n = 0:(length(x)-1);
 
@@ -40,6 +30,7 @@ Omega0 = 2*pi/length(x); % For DFT
 k = 0:(length(x)-1);
 kn = k'*n; % outer product, square matrix, rows are frequency indexes k and columns are time indexes n
 DFT = exp(-1j*Omega0*kn); % also a square matrix. Omega0*k*n at each entry is the phase for that frequency, time sample
+% kn is a large matrix, so the above will be slow for longer inputs; FFT next week will address this
 X_DFT = DFT * x'; % linear algebra: square transformation matrix times row vector yields column vector result
 figure, plot(Omega0*k, abs(X_DFT), 'b*-'), grid
 xlabel('Frequency (rad/sample)'),ylabel('Level (V)')
