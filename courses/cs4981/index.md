@@ -20,20 +20,27 @@ BMEs who want to take the course must have completed BE2200 and EE3221. The prof
 
 Rosie is MSOE's high performance supercomputer, which we will be using in this class. Please find the user's guide including instructions on requesting an account [here](https://msoe.dev/).
 
-We will most likely use MATLAB's Deep Learning Toolbox running on Rosie for this class. As a backup, we would use likely use Jupyter notebooks with Python/TensorFlow. The course does not assume knowledge of MATLAB or Python, etc.
+We will use MATLAB's Deep Learning Toolbox running on Rosie for this class. The course does not assume knowledge of MATLAB or Python, etc.
 
 ## MATLAB Deep Learning Toolbox on Rosie
 
-### Basic Method (Recommended)
+### Recommended Method
 
 1. [Launch interactive desktop on compute node using VNC.](https://dh-ood.hpc.msoe.edu/pun/sys/dashboard/batch_connect/sys/rosie_vnc_desktop/session_contexts/new)
 1. Select 1 GPU and the number of hours you need.
-1. Open a terminal window on the remote desktop.
+1. Open a terminal window on the remote desktop. You can do this by clicking the footprint icon in the upper left and searching for "term." Select "MATE Terminal."
 1. See procedure below to get a license file for MATLAB.
 1. `singularity exec --nv ~durant/matlab-r2021b.sif bash` (Temporary location until the Singularity image file is installed in a system location)
 1. `matlab&`
-1. Chose the option to activate manually, and then point MATLAB to the license file you downloaded from MathWorks and uploaded to Rosie.
-1. The MATLAB GUI appears and you have access to the [Deep Learning Toolbox](https://www.mathworks.com/help/deeplearning/getting-started-with-deep-learning-toolbox.html) and much more.
+   * If you receive an error that the license for a different computer is installed, `/opt/matlab/R2021b/bin/activate_matlab.sh` to manually start the activation process, which will allow you to select a different license file.
+1. Chose "Activate manually without the Internet", "Next", "Enter the full path...", "Browse" and then point MATLAB to the license file you downloaded from MathWorks and uploaded to Rosie. The activation GUI will disappear without reporting an error when you've successfully activated.
+1. `matlab&`
+1. The MATLAB GUI appears and you have access to:
+   * [Deep Learning Toolbox](https://www.mathworks.com/help/deeplearning/getting-started-with-deep-learning-toolbox.html)
+   * Signal Processing Toolbox
+   * Statistics and Machine Learning Toolbox
+   * Image Processing Toolbox
+   * and much more
 
 ### Alternate Method (Not Fully Tested)
 
@@ -49,7 +56,6 @@ Once you know which node you're on, you need to generate a MATLAB license file (
 
 You should complete these steps directly on your laptop using Chrome. This does not need to be done on Rosie.
 
-
 These instructions are adapted from [this MathWorks Central post](https://www.mathworks.com/matlabcentral/answers/235126-how-do-i-generate-a-matlab-license-file#answer_190013).
 
 1. Go to the License Center: https://www.mathworks.com/licensecenter/licenses
@@ -58,11 +64,11 @@ These instructions are adapted from [this MathWorks Central post](https://www.ma
 1. Select the "Install and Activate" tab
 1. Click the "Activate to Retrieve License File" link under "Related Tasks" on the right side of the page.
 1. On the page titled "Activated Computers," click the blue "Activate a Computer" button on the right side of the page.
-1. Enter the required information to complete activation.
-1. Confirm that the the software is already installed on the machine.
-1. Enter your MSOE username (e.g., doej)
-1. Enter the MAC address of your assigned node. `/sbin/ifconfig eth0` on your assigned Rosie node. Copy the 6-byte address that shows up after `ether`
+1. Enter the required information to complete activation. Release = R2021b, Operating System = Linux
+1. For the Host ID, enter the MAC address of your assigned node. `/sbin/ifconfig eth0` on your assigned Rosie node. Copy the 6-byte address that shows up after `ether`
+1. For the Computer Login Name, enter your MSOE username (e.g., doej)
+1. For the Activation Label, make it correspond your node number, e.g., "Rosie dh-nodeNN" to aid in finding it later
+1. Select "Yes" when asked "Is the software installed?"
 1. MathWorks will verify your MSOE account through MSOE SSO. This sometimes generates an error message when attempting to open the SSO URL. If this happens, copy the entire (very long) URL from the error message and open it in a new tab. You should be told that verification was successful (you may need to enter your MSOE username and password if not already authenticated). At this point, you should be able to go back to the MathWorks window and finish downloading your license file.
 1. Download the license file. Recommended naming convention: license-username-node.lic, e.g., license-durant-dh-node18.lic
-1. Label the license file in your MathWorks account according to the node number, e.g., "Rosie dh-nodeNN"
 1. Upload to Rosie. Recommended method is selecting Files, Home Directory from your [Rosie Dashboard](https://dh-ood.hpc.msoe.edu/pun/sys/dashboard), but you could also use a SecureFTP program connected to one of the management nodes.
