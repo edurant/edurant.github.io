@@ -1,0 +1,67 @@
+% EE3221 - Dr. Durant - W10D3 - 2022-02-18 - Upsampling
+
+function w10d3()
+% Example: increase sample rate 3x.
+% Step 1: Insert 2 0s between every sample
+% Step 2: Apply sinc lowpass filter to interpolate, which removes the extra
+% (periodic extension) images in the frequency domain.
+
+% Upsampling (increasing the sampling rate) is closely related to oversampling (using a sampling
+% rate much higher than Nyquist demands to allow the antialias or reconstruction filter requirements
+% to be relaxed). For an oversampling example, see
+% https://durant.io/courses/ee3221/w8oversampling_m.txt
+
+fs = 8000;
+f = 2500; % Test signal frequency
+N = 100;
+n = 0:(N-1); % Sample number
+t = n/fs; % time in seconds
+x = sinpi(f/fs*2*n); % sinpi(x) == sin(pi*x)
+f_res = fs / N; % resolution of the above spectrum
+f_dft = (0:N-1)*f_res; % frequency samples resulting from the DFT
+X = fft(x) / sqrt(N) / sqrt(N); % Effectively dividing by N. Two parts represent:
+% (a) Convert Energy of signal to Power (average per sample) and
+% (b) Normalize power for transform length.  (b) is necessary since the
+% 1/N factor in the IDFT must be partitioned as 1/sqrt(N) for both the DFT
+% and IDFT to preserve energy scaling across domains. Following MA383
+% terminology, the DFT and IDFTs have all eigenvalues equal to sqrt(N) and
+% 1/sqrt(N), respectively.  This scaling makes all eigenvalues of both equal
+% to 1.  In both cases, the eigenvectors are the positive/negative rotating
+% complex exponentials of the DFT frequencies sampled at N points.
+stemPlotAndSpectrum(t, x, 'Original signal', f_dft, X)
+
+p = 3; % upsampling factor
+fs2 = p*fs; % Our new, higher sampling frequency
+n2 = 0:(N*p-1); % new sample numbers
+t2 = n2/fs2;
+pif = 4; % periods of interpolation filter (computation cost, delay, fidelity)
+
+nh = -(p*pif):(p*pif); % widen by upsampling factor
+
+h = sinc(nh/p); % Here we omit the 1/p = Omega1/pi factor derived in class.
+% This compensates for the power reduction from the 0-insertion step.
+
+xus = reshape([x; zeros(p-1,N)],1,[]); % 0-insertion
+
+XUS = fft(xus) / length(xus); % energy->power & power normalizations discussed above, make dB come out correctly
+f_res = fs2 / length(xus);
+f_dft = (0:length(xus)-1)*f_res;
+stemPlotAndSpectrum(t2, xus, 'Upsampled signal', f_dft, XUS)
+
+y = filter(h,1,xus); % p*pif-sample delay since h implicitly moved to 0 for causality
+% The time domain signal looks like a sinusoid with the proper samples/s,
+% But the spectrum will highlight any subtle flaws.
+Y = fft(y) / length(y); % energy->power & power normalizations discussed above, make dB come out correctly
+stemPlotAndSpectrum(t2, y, 'Interpolated, upsampled signal', f_dft, Y)
+end % function
+
+%% Function encapsulating repetitive graphing code
+function stemPlotAndSpectrum(t,x,ttl,f,X)
+figure
+% Time domain:
+subplot(2,2,1), stem(t,x), title(ttl)
+subplot(2,2,3), plot(t,x)
+% Frequency domain:
+subplot(2,2,2), plot(f,          abs(X) ), ylabel('Magnitude')
+subplot(2,2,4), plot(f, 20*log10(abs(X))), ylabel('dB'), xlabel('Hz')
+end % function

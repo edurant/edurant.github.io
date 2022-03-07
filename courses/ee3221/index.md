@@ -108,6 +108,7 @@ Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas
 * [W8D3 DFT Density and Resolution](w2021/w8d3a_dft_density_m.txt)
 * [W8D3 DFT For Convolution](w2021/w8d3b_dft_conv_m.txt)
 * [W10D2 FIR Design, Window Method](w2021/w10d2_fir_window_m.txt)
+* [W10D3 Oversampling](w2021/w10d3_upsampling_m.txt)
 
 ### 2014&ndash;'15
 

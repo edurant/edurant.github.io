@@ -12,9 +12,14 @@ clearvars
 
 N = 20; % delay
 L = 2*N+1; % length
-% order = 2N = L-1
-% 0..40 --> 0 DC, 1..20 upper half of z-plane, (no Nyquist),
-% 21..40 lower half -- determined by conjugate symmetry: b_5 = b_{-5} = b_{36}.
+% 0..2N --> 0 DC, 1..N upper half of z-plane, (no Nyquist),
+% N+1..2N lower half -- determined by conjugate symmetry: b_5 = b_{-5} = b_{36} (when N=20, L=41).
+% The filter is of order 2N. The order is the maximum delay in the difference equation.
+% As proven in class a linear phase delay (constant time delay) results in
+% a symmetric h[n] and vice versa. We showed that the phase shift of this
+% filter is -N*Omega, which is a delay of N samples. Generalizing, a symmetric
+% FIR filter of order N has a delay of N/2 samples. (This is true even if N
+% is not even - order 5 gives a delay of 2.5 samples.)
 kUpper = 0:N; % DFT k not in the lower half of H(z)'s z-plane
 normFreq = kUpper / (N + 1/2); % 1 == Nyquist
 HmagUpper = ones(size(normFreq));
