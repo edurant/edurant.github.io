@@ -12,6 +12,8 @@ This elective course provides an overview of deep learning methods and models as
 
 This is a new, special-topics elective being offered for the first time in spring, 2022.
 
+## [Course in Canvas](https://msoe.instructure.com/courses/10080)
+
 ## [Course Outline and Grading (PDF)](outline.pdf)
 
 ## [General Course Policies](../policies.html)
