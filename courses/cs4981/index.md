@@ -16,6 +16,10 @@ This is a new, special-topics elective being offered for the first time in sprin
 
 ## [General Course Policies](../policies.html)
 
+## Labs
+
+* [Week 1 Lab](week1lab.html)
+
 ## BMEs
 
 BMEs who want to take the course must have completed BE2200 and EE3221. The professor is willing to recommend a prerequisite waiver for these students, but final approval lies at the department level. Students may register without meeting the prerequisites, but may receive notice that they will be removed during week 1 if they have not resolved prerequisite issues.
@@ -30,14 +34,15 @@ We will use MATLAB's Deep Learning Toolbox running on Rosie for this class. The 
 
 ### Recommended Method
 
-1. [Launch interactive desktop on compute node using VNC.](https://dh-ood.hpc.msoe.edu/pun/sys/dashboard/batch_connect/sys/rosie_vnc_desktop/session_contexts/new)
-1. Select 1 GPU and the number of hours you need.
+1. [Launch interactive desktop on compute node using VNC.](https://dh-ood.hpc.msoe.edu/pun/sys/dashboard/batch_connect/sys/rosie_vnc_desktop/session_contexts/new) Use your username *without* @msoe.edu to log in.
+1. Select 1 GPU and the number of hours you need. Select "Launch."
+1. It may take a minute to prepare your session. Select "Launch Rosie VNC Desktop" when given the option.
 1. Open a terminal window on the remote desktop. You can do this by clicking the footprint icon in the upper left and searching for "term." Select "MATE Terminal."
 1. See procedure below to get a license file for MATLAB.
-1. `singularity exec --nv ~durant/matlab-r2021b.sif bash` (Temporary location until the Singularity image file is installed in a system location)
+1. `singularity exec --nv /data/containers/matlab-r2021b.sif bash`
 1. `matlab&`
    * If you receive an error that the license for a different computer is installed, `/opt/matlab/R2021b/bin/activate_matlab.sh` to manually start the activation process, which will allow you to select a different license file.
-1. Chose "Activate manually without the Internet", "Next", "Enter the full path...", "Browse" and then point MATLAB to the license file you downloaded from MathWorks and uploaded to Rosie. The activation GUI will disappear without reporting an error when you've successfully activated.
+1. Chose "Activate manually without the Internet", "Next", "Enter the full path...", "Browse" and then point MATLAB to the license file you downloaded from MathWorks and uploaded to Rosie. Click "Next," receive success message, and click "Finish" to exit.
 1. `matlab&`
 1. The MATLAB GUI appears and you have access to:
    * [Deep Learning Toolbox](https://www.mathworks.com/help/deeplearning/getting-started-with-deep-learning-toolbox.html)
@@ -51,7 +56,7 @@ We will use MATLAB's Deep Learning Toolbox running on Rosie for this class. The 
 This method is incomplete; a method for forwarding the GUI (e.g., tunneling VNC) has not yet been documented.
 
 1. ssh into a Rosie management node
-1. `srun --partition=teaching --gres=gpu:t4:1 singularity exec --nv ~durant/matlab-r2021b.sif bash`
+1. `srun --partition=teaching --gres=gpu:t4:1 singularity exec --nv /data/containers/matlab-r2021b.sif bash`
 1. `matlab&`
 
 ### Get MATLAB License File
@@ -62,7 +67,7 @@ You should complete these steps directly on your laptop using Chrome. This does 
 
 These instructions are adapted from [this MathWorks Central post](https://www.mathworks.com/matlabcentral/answers/235126-how-do-i-generate-a-matlab-license-file#answer_190013).
 
-1. Go to the License Center: https://www.mathworks.com/licensecenter/licenses
+1. Go to the [License Center](https://www.mathworks.com/licensecenter/licenses)
 1. Log into (or create) your MathWorks Account if you are not already logged in
 1. Select your license number from the list. If you don't see your license, use the links in the upper left hand corner to toggle between Licenses, Trials, and Prereleases
 1. Select the "Install and Activate" tab
