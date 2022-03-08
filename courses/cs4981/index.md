@@ -12,6 +12,10 @@ This elective course provides an overview of deep learning methods and models as
 
 This is a new, special-topics elective being offered for the first time in spring, 2022.
 
+## [Course Outline and Grading (PDF)](outline.pdf)
+
+## [General Course Policies](../policies.html)
+
 ## BMEs
 
 BMEs who want to take the course must have completed BE2200 and EE3221. The professor is willing to recommend a prerequisite waiver for these students, but final approval lies at the department level. Students may register without meeting the prerequisites, but may receive notice that they will be removed during week 1 if they have not resolved prerequisite issues.
