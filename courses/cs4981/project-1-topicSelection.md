@@ -1,10 +1,10 @@
-# Term Project — Milestone 1: Topic Selection and References
+# Term Projectâ€”Milestone 1: Topic Selection and References
 
 This page describes the first of six project milestones and is due at the end of week 2.
 
 For your term project, teams of 2 are recommended. Teams of 3 are allowed if the project has sufficient scope. You may work individually if you prefer. Make only 1 submission per team in Canvas (from any student on the team) and clearly identify the team members on the first page.
 
-All projects must *implement* and *evaluate* a DNN (deep neural network). [MATLAB's Deep Learning Toolbox](https://www.mathworks.com/help/deeplearning/) is recommended, but you may choose another appropriate tool/API if you prefer; [TensorFlow (including Keras)](https://www.tensorflow.org/) and [PyTorch](https://pytorch.org/) are acceptable—please check with the professor before choosing other APIs.
+All projects must *implement* and *evaluate* a DNN (deep neural network). [MATLAB's Deep Learning Toolbox](https://www.mathworks.com/help/deeplearning/) is recommended, but you may choose another appropriate tool/API if you prefer; [TensorFlow (including Keras)](https://www.tensorflow.org/) and [PyTorch](https://pytorch.org/) are acceptableâ€”please check with the professor before choosing other APIs.
 
 You might expand the scope, especially if you are building on an existing solution; the scope may be adjusted as you research the topic. For example, you may choose to focus on *transfer learning*, *model pruning*, *quantization*, and/or *deployment*.
 
@@ -19,7 +19,7 @@ You should look at abstracts and outlines of your sources with the goal of ident
 For each reference, include a short paragraph explaining why it should be useful.
 
 Some places to get started:
-* [IEEEXplore](https://ieeexplore.ieee.org/)—the MSOE Library has access to most IEEE publications
+* [IEEEXplore](https://ieeexplore.ieee.org/)â€”the MSOE Library has access to most IEEE publications
 * [Google Scholar](https://scholar.google.com/)
 * [MSOE Library Guides](https://libguides.msoe.edu/)
   * [Computer Science Resources](https://libguides.msoe.edu/computer-science)
