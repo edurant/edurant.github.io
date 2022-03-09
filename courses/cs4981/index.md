@@ -21,6 +21,18 @@ This is a new, special-topics elective being offered for the first time in sprin
 ## Labs
 
 * [Week 1 Lab](week1lab.html)
+* Week 2 Lab
+* Week 3 Lab
+* Week 4 Lab
+
+## Project
+
+* [Milestone 1: Topic Selection and References](project1-topicSelection.html)
+* Milestone 2: Background Paper
+* Milestone 3: Preliminary Results
+* Milestone 4: Presentation Draft
+* Milestone 5: Presentation
+* Milestone 6: Final Paper
 
 ## BMEs
 
