@@ -14,7 +14,7 @@ You should look at abstracts and outlines of your sources with the goal of ident
 * How has the same or a similar problem been solved with DNNs and perhaps without DNNs?
 * What are the challenges in solving this problem?
 * Is an appropriate dataset freely available? (Some are installed in Rosie in common locations, which makes it easy for any user to load them; we can add more upon request.)
-* Is it appropriate to evaluate your solution using a basic like error function like MSE or binary cross-entropy, or should additional measures of performance (e.g., quality metrics accepted in the industry) be considered?
+* Is it appropriate to evaluate your solution using a basic error function like MSE or binary cross-entropy, or should additional measures of performance (e.g., quality metrics accepted in the industry) be considered?
 
 For each reference, include a short paragraph explaining why it should be useful.
 
