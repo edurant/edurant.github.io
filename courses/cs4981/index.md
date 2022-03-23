@@ -46,7 +46,7 @@ We will use MATLAB's Deep Learning Toolbox running on Rosie for this class. The 
 
 ## MATLAB Deep Learning Toolbox on Rosie
 
-### Recommended Method
+### Recommended Method (Rosie VNC Desktop in local browser)
 
 1. [Launch interactive desktop on compute node using VNC.](https://dh-ood.hpc.msoe.edu/pun/sys/dashboard/batch_connect/sys/rosie_vnc_desktop/session_contexts/new) Use your username *without* @msoe.edu to log in.
 1. Select 1 GPU and the number of hours you need. Select "Launch."
@@ -65,12 +65,12 @@ We will use MATLAB's Deep Learning Toolbox running on Rosie for this class. The 
    * Image Processing Toolbox
    * and much more
 
-### Alternate Method (Not Fully Tested)
+### Alternate Method (X11 forwarding)
 
-This method is incomplete; a method for forwarding the GUI (e.g., tunneling VNC) has not yet been documented.
+This method forwards the GUI calls from your node on Rosie, through a Roise management node, back to your local computer. It requires an X Server such as [VcXsrv for Windows](https://sourceforge.net/projects/vcxsrv/). MATLAB licensing is handled as above. The key steps follow.
 
-1. ssh into a Rosie management node
-1. `srun --partition=teaching --gres=gpu:t4:1 singularity exec --nv /data/containers/matlab-r2021b.sif bash`
+1. ssh into a Rosie management node (dh-mgmtN.hpc.msoe.edu, where N is between 1 and 4.). Use -X (capital), or the equivalent option in your ssh client, to enable X11 forwarding.
+1. `srun --time=01:00:00 --pty --partition=teaching --gres=gpu:t4:1 --x11 singularity exec --nv /data/containers/matlab-r2021b.sif bash`
 1. `matlab&`
 
 ### Get MATLAB License File
