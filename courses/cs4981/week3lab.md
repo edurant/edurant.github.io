@@ -12,7 +12,7 @@ There are several short helper functions given near the end of the tutorial. You
 
 A few adaptations will need to be made to the tutorial to work with the data and network formats from week 2.
 * `preprocessMiniBatch.m` assumes 4-D data (height, width, channel, sampleNumber). It *might* be necessary to modify it if using other data formats. You'll likely get an error if this is necessary.
-* See (pruningMain.m)[pruningMain_m.txt] here or on Canvas for the other needed adaptions, including how to resize the images to the 227&times;227 format required by AlexNet
+* See (pruningMain.m)[pruningMain_m.txt] for the other needed adaptions, including how to resize the images to the 227&times;227 format required by AlexNet. If you need hints on additional adaptations, please check with the professor.
 
 1. Provide a graph of model accuracy vs. sparsity (or a similar graph that shows the sparsity/accuracy tradeoff). Be sure to sample at enough sparsity proportions to clearly see how the model degrades. Your model might degrade at very low sparsity values (10%) or require very high sparsity values to show degradation (>98%).
 1. Make a decision about a sparsity/accuracy tradeoff and discuss why you chose this particular tradeoff.
