@@ -22,7 +22,7 @@ This is a new, special-topics elective being offered for the first time in sprin
 
 * [Week 1 Lab](week1lab.html)
 * Week 2 Lab
-* Week 3 Lab
+* [Week 3 Lab](week3lab.html)
 * Week 4 Lab
 
 ## Project
