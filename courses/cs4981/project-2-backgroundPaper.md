@@ -18,7 +18,7 @@ In this section, include a subsection for each reference summarizing the key poi
 
 After reading this section, the reader should understand what work you plan and what software tools you plan to use (likely including MATLAB Deep Learning Toolbox or another framework as specified on the previous assignment). The level of detail should be sufficient so that if you were unavailable for a couple of weeks another student with similar background to you could begin work on the project in the direction you intend.
 
-For example, are you focusing on *implementing* and *evaluating* a DNN, or is this already done and you plan to focus on modifying the network to achieve some goal, use transfer learning to solve a related problem, and/or investigate model quantization and deployment on some particular platform, etc.?
+For example, are you focusing on *implementing* and *evaluating* a DNN (then you'd discuss key planned blocks of the model, input transformations, desired accuracy, etc.), or is this already done and you plan to focus on modifying the network to achieve some goal, use transfer learning to solve a related problem, and/or investigate model quantization and deployment on some particular platform, etc.?
 
 ## Data Source
 
