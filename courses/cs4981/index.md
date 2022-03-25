@@ -28,7 +28,7 @@ This is a new, special-topics elective being offered for the first time in sprin
 ## Project
 
 * [Milestone 1: Topic Selection and References](project-1-topicSelection.html)
-* Milestone 2: Background Paper
+* [Milestone 2: Background Paper](project-2-backgroundPaper.html)
 * Milestone 3: Preliminary Results
 * Milestone 4: Presentation Draft
 * Milestone 5: Presentation
