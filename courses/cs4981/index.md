@@ -21,7 +21,9 @@ This is a new, special-topics elective being offered for the first time in sprin
 ## Labs
 
 * [Week 1 Lab](week1lab.html)
-* Week 2 Lab
+* Week 2 Lab (posted only on Canvas) - two options, depending on your previous experience with machine learning.
+  * The Signal Representation option is recommended for those with some machine learning experience, or those who are very comfortable working in MATLAB and can adapt the tutorial examples to different data.
+  * The Transfer Learning in MATLAB option is recommended for those new to machine learning.  MATLAB is required here.
 * [Week 3 Lab](week3lab.html)
 * [Week 4 Lab](week4lab.html)
 
@@ -40,7 +42,7 @@ BMEs who want to take the course must have completed BE2200 and EE3221. The prof
 
 ## Toolset
 
-Rosie is MSOE's high performance supercomputer, which we will be using in this class. Please find the user's guide including instructions on requesting an account [here](https://msoe.dev/).
+Rosie is MSOE's high performance supercomputer, which we will be using in this class. Please find the user's guide [here](https://msoe.dev/).
 
 We will use MATLAB's Deep Learning Toolbox running on Rosie for this class. The course does not assume knowledge of MATLAB or Python, etc.
 
@@ -69,8 +71,10 @@ We will use MATLAB's Deep Learning Toolbox running on Rosie for this class. The 
 
 This method forwards the GUI calls from your node on Rosie, through a Roise management node, back to your local computer. It requires an X Server such as [VcXsrv for Windows](https://sourceforge.net/projects/vcxsrv/). MATLAB licensing is handled as above. The key steps follow.
 
-1. ssh into a Rosie management node (dh-mgmtN.hpc.msoe.edu, where N is between 1 and 4.). Use -X (capital), or the equivalent option in your ssh client, to enable X11 forwarding.
-1. `srun --time=01:00:00 --pty --partition=teaching --gres=gpu:t4:1 --x11 singularity exec --nv /data/containers/matlab-r2021b.sif bash`
+1. ssh into a Rosie management node (dh-mgmtN.hpc.msoe.edu, where N is between 1 and 4.).
+   * Use -X (capital), or the equivalent option in your ssh client, to enable X11 forwarding.
+   * Use -C (capital), or the equivalent option in your ssh client, to enable compression.
+1. `srun --time=01:00:00 --pty --partition=teaching --gres=gpu:t4:1 --x11 singularity exec --nv /data/containers/matlab-r2021b.sif bash`, set to more than 1 hour if needed
 1. `matlab&`
 
 ### Get MATLAB License File

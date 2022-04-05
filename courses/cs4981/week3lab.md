@@ -2,7 +2,11 @@
 
 # Week 3 Lab
 
+## Background
+
 Model pruning is a common step when deploying a DL DSP system. When a network is trained, a much higher capacity (more trainable parameters) is often needed than what is actually needed at runtime to achieve the same validation metrics (with validation accuracy being the most common). Pruning is essentially setting some weights to 0 reducing the inference computational load, and, depending on the model structure, the dimensions of the trainable sections can often be reduced. There are many approaches to model pruning and it is an important and active area of current research.
+
+## Overview
 
 This week you will apply at least "magnitude pruning." You may try additional methods if you wish. Magnitude pruning often works surprisingly well given its simplicity. Given a proportion, it sets that proportion of model weights to 0 by selecting the ones with the smallest magnitude. You will be following [this MATLAB example](https://www.mathworks.com/help/deeplearning/ug/parameter-pruning-and-quantization-of-image-classification-network.html) and applying it to any of the DL classifiers from last week's lab. (If you did not design a DL classifier in last week's lab, the professor recommends building the one based on AlexNet that classifies the PNG images provided in the .zip file; you should be able to generate a reasonable accuracy (>75%) network fairly quickly.)
 
@@ -13,6 +17,8 @@ There are several short helper functions given near the end of the tutorial. You
 A few adaptations will need to be made to the tutorial to work with the data and network formats from week 2.
 * `preprocessMiniBatch.m` assumes 4-D data (height, width, channel, sampleNumber). It *might* be necessary to modify it if using other data formats. You'll likely get an error if this is necessary.
 * See [pruningMain.m](pruningMain_m.txt) for the other needed adaptions, including how to resize the images to the 227&times;227 format required by AlexNet. If you need hints on additional adaptations, please check with the professor.
+
+## Informal Report
 
 1. Provide a graph of model accuracy vs. sparsity (or a similar graph that shows the sparsity/accuracy tradeoff). Be sure to sample at enough sparsity proportions to clearly see how the model degrades. Your model might degrade at very low sparsity values (10%) or require very high sparsity values to show degradation (>98%).
 1. Make a decision about a sparsity/accuracy tradeoff and discuss why you chose this particular tradeoff.
