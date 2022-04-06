@@ -12,7 +12,7 @@ Throughout the lab, for your report, be sure to take screenshots of key results 
 
 ## Dataset
 
-Read about the dataset here: https://www.cs.toronto.edu/~kriz/cifar.html
+Read about the dataset at [https://www.cs.toronto.edu/~kriz/cifar.html](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 Also, I recommend you download the dataset from the Linux bash prompt instead of following the first 2 steps in the tutorial. I assume you're doing this from your home directory.
 

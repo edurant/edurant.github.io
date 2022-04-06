@@ -21,9 +21,19 @@ Remember that you can schedule your advising appointment before you receive your
 
 You will be able to sign up for an advising appointment starting in week 7. You will be notified of your advisor's appointment sign-up procedures by the end of week 6.
 
+## Semester transition
+MSOE transitions to semesters in F'23.
+* Students who start on the quarter system by F'22 will receive a customized transition plan around F'22 showing exactly which quarter and semester classes they need to take to earn their degree.
+* Graduation
+  * Students who were planning to graduate in a spring quarter will graduate in the corresponding spring semester.
+  * Students who were planning to graduate in a fall quarter will graduate in the corresponding fall semester.
+  * Students who were planning to graduate in a winter quarter will graduate in either fall or spring semester depending on their classes and credits remaining.
+* For students who are *exactly* on the standard track, there are [standard transition plans](standardTransitionPlans.pdf). For students who are not *exactly* on the standard track, the transition plans will look somewhat different to ensure your total credits, topical coverage, etc. come out correctly, so you will need to refer to your customized transition plan.
+
 ## What to have available during the meeting with your advisor
 * A copy (physical or virtual) of the CE curriculum flowchart for your curriculum version marked with the courses you have successfully completed.
-  * Students first enrolled in <a href="https://catalog.msoe.edu/preview_program.php?catoid=24&poid=1200&returnto=711">F'21</a>, <a href="https://catalog.msoe.edu/preview_program.php?catoid=22&poid=1101&returnto=630">F'20</a>, and <a href="https://catalog.msoe.edu/preview_program.php?catoid=20&poid=1001&returnto=562">F'19</a> follow curriculum 4.3. <a href="curriculum-4.3rev01.pdf">Flowchart</a>
+  * Students first enrolled in F'23 follow curriculum 5.0. <a href="curriculum-5.0rev01.pdf">Flowchart</a>
+  * Students first enrolled in F'22, <a href="https://catalog.msoe.edu/preview_program.php?catoid=24&poid=1200&returnto=711">F'21</a>, <a href="https://catalog.msoe.edu/preview_program.php?catoid=22&poid=1101&returnto=630">F'20</a>, and <a href="https://catalog.msoe.edu/preview_program.php?catoid=20&poid=1001&returnto=562">F'19</a> follow curriculum 4.3. <a href="curriculum-4.3rev01.pdf">Flowchart</a>
   * Students first enrolled in <a href="https://catalog.msoe.edu/preview_program.php?catoid=10&poid=506&returnto=364">F'15</a>,
             <a href="https://catalog.msoe.edu/preview_program.php?catoid=14&poid=704&returnto=394">F'16</a>,
 	    <a href="https://catalog.msoe.edu/preview_program.php?catoid=16&poid=810&returnto=442">F'17</a>, and
