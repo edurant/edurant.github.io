@@ -1,13 +1,13 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2021-02-15 14:35:30 -0500
+date: 2022-05-06 15:03:30 -0500
 ---
 * [Lincoln: A Novel](https://bookshop.org/books/lincoln-9780375708763/9780375708763), by Gore Vidal, discussed on 2022-09-TBD.
 * [Zen and the Art of Motorcycle Maintenance](https://bookshop.org/books/zen-and-the-art-of-motorcycle-maintenance-an-inquiry-into-values/9780060839871), by Robert M. Pirsig, discussed on 2022-08-TBD.
 * [The Agony and the Ecstasy](https://bookshop.org/books/the-agony-and-the-ecstasy-a-biographical-novel-of-michelangelo/9780451213235), by Irving Stone, discussed on 2022-07-TBD.
 * [Consuming the Caribbean. From Arawaks to Zombies.](https://bookshop.org/books/consuming-the-caribbean-from-arawaks-to-zombies/9780415257602), by Mimi Sheller, discussed on 2022-06-TBD.
 * [On Earth We're Briefly Gorgeous](https://bookshop.org/books/on-earth-we-re-briefly-gorgeous/9780525562023), by Ocean Vuong, discussed on 2022-05-TBD.
-* [How not to be wrong](https://bookshop.org/books/how-not-to-be-wrong-the-power-of-mathematical-thinking/9780143127536), by Jordan Ellenberg, discussed on 2022-04-TBD.
+* [How not to be wrong](https://bookshop.org/books/how-not-to-be-wrong-the-power-of-mathematical-thinking/9780143127536), by Jordan Ellenberg, discussed on 2022-04-25.
 * [Invisible Women: Data Bias in a World Designed for Men](https://bookshop.org/books/invisible-women-data-bias-in-a-world-designed-for-men/9781419735219), by Caroline Criado Perez, discussed on 2022-03-16.
 * [Once We Were Brothers](https://bookshop.org/books/once-we-were-brothers/), by Ronald Balson, discussed on 2022-02-08.
 * [Astoria](https://bookshop.org/books/astoria-astor-and-jefferson-s-lost-pacific-empire-a-tale-of-ambition-and-survival-on-the-early-american-frontier-9780062218308), by Peter Stark, discussed on 2022-01-17.

@@ -1,12 +1,12 @@
 ---
 title: "University of Michigan Milwaukee Alumni Book Club Selections"
-date: 2021-12-08 14:09:30 -0600
+date: 2022-04-06 17:02:30 -0500
 ---
 
 * [Chasing the Last Laugh: How Mark Twain Escaped Debt and Disgrace with a Round-The-World Comedy Tour](https://bookshop.org/books/chasing-the-last-laugh-how-mark-twain-escaped-debt-and-disgrace-with-a-round-the-world-comedy-tour/), by Richard Zacks, discussed on 2/2023 (TBD).
 * [Desert Boys: Fiction](https://bookshop.org/books/desert-boys-fiction/), by Chris McCormick, discussed on 11/2022 (TBD).
 * [Plunder: A Memoir of Family Property and Nazi Treasure](https://bookshop.org/books/plunder-a-memoir-of-family-property-and-nazi-treasure-9780358699170), by Menachem Kaiser, discussed on 8/2022 (TBD).
-* [Tomorrow Will Be Better](https://bookshop.org/books/tomorrow-will-be-better/), by Betty Smith, discussed on 5/2022 (TBD).
+* [Tomorrow Will Be Better](https://bookshop.org/books/tomorrow-will-be-better/), by Betty Smith, discussed on 2022-05-18.
 * [The Breaker: A Peter Ash Novel, Book 6](https://bookshop.org/books/the-breaker-9781432883638), by Nick Petrie, discussed on 2022-03-09.
 * [The Vanishing Half](https://bookshop.org/books/the-vanishing-half-9780525536291), by Brit Bennett, discussed on 2021-11-23.
 * [The Selected Poems of Donald Hall](https://bookshop.org/books/the-selected-poems-of-donald-hall/9781328745606), by Donald Hall, discussed on 2021-08-30.
