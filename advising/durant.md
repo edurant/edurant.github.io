@@ -25,25 +25,25 @@ General CE advising information, including what you need to bring to your advisi
 ## Advising times
 
 * Week 7 Times
-  * Monday 1/24: 9:00-10:30 AM, 2:00-4:30 PM
-  * Tuesday 1/25: 1:00-4:00 PM
-  * Wednesday 1/26: (no times available)
-  * Thursday 1/27: 9:00-10:30 AM, 1:30-3:00 PM
-  * Friday 1/28: (no times available)
+  * Monday 4/18: 2:15-5:00 PM
+  * Tuesday 4/19: (no times available)
+  * Wednesday 4/20: (no times available)
+  * Thursday 4/21: 9:15-11:30 AM
+  * Friday 4/22: (no times available)
 
 * Week 8 Times
-  * Monday 1/31: 9:00-10:30 AM, 2:00-4:30 PM
-  * Tuesday 2/1: 1:00-4:00 PM
-  * Wednesday 2/2: (no times available)
-  * Thursday 2/3: 9:00-10:30 AM
-  * Friday 2/4: 9:00-10:30 AM
+  * Monday 4/25: 2:15-4:00 PM
+  * Tuesday 4/26: 1:00-2:45 PM
+  * Wednesday 4/27: (no times available)
+  * Thursday 4/28: 12:30-1:45 PM
+  * Friday 4/29: 1:00-2:45 PM
 
 * Week 9 Times
-  * Monday 2/7: 3:00-4:30 PM
-  * Tuesday 2/8: 1:00-4:00 PM
-  * Wednesday 2/9: (no times available)
-  * Thursday 2/10: 9:00-10:30 AM, 1:00-3:00 PM
-  * Friday 2/11: 9:00-10:30 AM
+  * Monday 5/2: 2:15-4:30 PM
+  * Tuesday 5/3: 1:00-2:45 PM
+  * Wednesday 5/4: (no times available)
+  * Thursday 5/5: 12:30-1:45 PM
+  * Friday 5/6: 1:00-2:45 PM
 
 * Week 10 Times
   * Scheduled in extenuating circumstances only. Please sign up during week 7 through week 9, or contact me for alternate times if necessary.
