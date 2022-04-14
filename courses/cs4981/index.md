@@ -32,7 +32,7 @@ This is a new, special-topics elective being offered for the first time in sprin
 * [Milestone 1: Topic Selection and References](project-1-topicSelection.html)
 * [Milestone 2: Background Paper](project-2-backgroundPaper.html)
 * [Milestone 3: Preliminary Results](project-3-preliminaryResults.html)
-* Milestone 4: Presentation Draft
+* [Milestone 4: Presentation Draft](project-4-presentationDraft.html)
 * Milestone 5: Presentation
 * Milestone 6: Final Paper
 
