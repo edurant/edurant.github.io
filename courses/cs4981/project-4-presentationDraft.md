@@ -23,7 +23,7 @@ You might also include notes on what you plan to say if it would help a reviewer
 
 The title slide should include your names, the class and project name, and the date the presentation is given. In addition to setting the context for your audience, these details are useful when presentation slides or videos are referenced by colleagues later.
 
-Then, give a high-level statement of the problem you solved and briefly describe the quality/type of your results (Were you successful? Did you end up solving slightly different problem? Did you learn some methods that wouldn't work and clarify the challenges, especially if you did not achieve successful results?).
+Then, give a high-level statement of the problem you solved and briefly describe the quality/type of your results (Were you successful? Did you end up solving a slightly different problem? Did you learn some methods that wouldn't work and clarify the challenges, especially if you did not achieve successful results?).
 
 Then, you should describe your general approach to the problem, drawing on your references and research.
 
