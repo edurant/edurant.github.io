@@ -28,7 +28,7 @@ MSOE transitions to semesters in F'23.
   * Students who were planning to graduate in a spring quarter will graduate in the corresponding spring semester.
   * Students who were planning to graduate in a fall quarter will graduate in the corresponding fall semester.
   * Students who were planning to graduate in a winter quarter will graduate in either fall or spring semester depending on their classes and credits remaining.
-* For students who are *exactly* on the standard track, there are [standard transition plans](standardTransitionPlans.pdf). For students who are not *exactly* on the standard track, the transition plans will look somewhat different to ensure total credits, topical coverage, etc. come out correctly. These students will need to refer to their customized transition plans.
+* As of 4/29/2022, standard transition plans are under review and are expected to be published soon. The CE faculty are looking into ways to increase elective options.
 
 ## What to have available during the meeting with your advisor
 * A copy (physical or virtual) of the CE curriculum flowchart for your curriculum version marked with the courses you have successfully completed.
