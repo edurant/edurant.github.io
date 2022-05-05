@@ -34,7 +34,7 @@ This is a new, special-topics elective being offered for the first time in sprin
 * [Milestone 3: Preliminary Results](project-3-preliminaryResults.html)
 * [Milestone 4: Presentation Draft](project-4-presentationDraft.html)
 * Milestone 5: Presentation
-* Milestone 6: Final Paper
+* [Milestone 6: Final Paper](project-6-finalResults.html)
 
 ## BMEs
 
