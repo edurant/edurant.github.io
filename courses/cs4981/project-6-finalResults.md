@@ -26,7 +26,7 @@ The abstract is a brief summary of the entire paper. It is used by readers to de
 
 ### Introduction
 
-The introduction serves two purposes. First, it introduces the problem that you solved and describes it (some details of the description may be deferred to the background section if they fit there and are no essential to a general understanding). Second, it briefly (usually in 1 paragraph) summarizes the the remaining sections of the paper giving the reader a high level view of what they will find in each section, e.g., "In the results section we show that we were able to achieve a training accuracy of 97% with a precision of 90%."
+The introduction serves two purposes. First, it introduces the problem that you solved and describes it (some details of the description may be deferred to the background section if they fit there and are not essential to a general understanding). Second, it briefly (usually in 1 paragraph) summarizes the the remaining sections of the paper giving the reader a high level view of what they will find in each section, e.g., "In the results section we show that we were able to achieve a training accuracy of 97% with a precision of 90%."
 
 ### Background
 
