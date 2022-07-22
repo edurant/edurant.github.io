@@ -1,9 +1,9 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2022-06-20 10:07:30 -0500
+date: 2022-07-22 11:06:30 -0500
 ---
 * [Lincoln: A Novel](https://bookshop.org/books/lincoln-9780375708763/9780375708763), by Gore Vidal, discussed on 2022-09-TBD.
-* [Zen and the Art of Motorcycle Maintenance](https://bookshop.org/books/zen-and-the-art-of-motorcycle-maintenance-an-inquiry-into-values/9780060839871), by Robert M. Pirsig, discussed on 2022-08-TBD.
+* [Zen and the Art of Motorcycle Maintenance](https://bookshop.org/books/zen-and-the-art-of-motorcycle-maintenance-an-inquiry-into-values/9780060839871), by Robert M. Pirsig, discussed on 2022-08-22.
 * [The Agony and the Ecstasy](https://bookshop.org/books/the-agony-and-the-ecstasy-a-biographical-novel-of-michelangelo/9780451213235), by Irving Stone, discussed on 2022-07-19.
 * [Consuming the Caribbean. From Arawaks to Zombies.](https://bookshop.org/books/consuming-the-caribbean-from-arawaks-to-zombies/9780415257602), by Mimi Sheller, discussed on 2022-06-06.
 * [On Earth We're Briefly Gorgeous](https://bookshop.org/books/on-earth-we-re-briefly-gorgeous/9780525562023), by Ocean Vuong, discussed on 2022-05-11.
