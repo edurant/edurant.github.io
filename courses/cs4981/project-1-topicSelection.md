@@ -1,6 +1,6 @@
 # Term Project—Milestone 1: Topic Selection and References
 
-This page describes the first of six project milestones and is due at the end of week 2.
+This page describes the first of six project milestones and is due at the end of week 3.
 
 For your term project, teams of 2 are recommended. Teams of 3 are allowed if the project has sufficient scope. You may work individually if you prefer. Make only 1 submission per team in Canvas (from any student on the team) and clearly identify the team members on the first page.
 
