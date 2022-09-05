@@ -15,6 +15,7 @@ You will write a research paper covering your project. It will have the followin
 * Discussion
 * Conclusions
 * References
+* Appendix: Source Code
 
 Some of these sections will likely be updated and expanded versions of items you've previously written, especially for your background paper and preliminary results.
 
@@ -32,6 +33,8 @@ The introduction serves two purposes. First, it introduces the problem that you 
 
 This section will likely borrow heavily from your background paper. Here you summarize and cite the existing approaches to solving the problem on which you're building. Also, you summarize and cite any key references that enable the work to be done such as special loss metrics or references of special use in your particular domain (e.g., human hearing, steganography).
 
+Here and throughout the paper, you should use in-line citations (also called in-text citations), that is, brief citations right in the text next to the relevant idea that can be used to look up the full citation in your references section. You may use any standard format you wish (APA, MLA, etc.) but may want to consider [IEEE style](https://pitt.libguides.com/citationhelp/ieee), which is common in this subject area.
+
 ### Methods
 
 Here you discuss the various approaches you used to solve the problem, perhaps including a few variations that you tried to improve performance. Diagrams or other illustrations of your network architecture are appropriate here.
@@ -47,3 +50,7 @@ Here you discuss your results and evaluate how successful you were. Are the resu
 ### Conclusions
 
 Here you succinctly evaluate the success or lack thereof of your work and give key lessons learned. It is also common to discuss future work or what you think the next steps should be in this area and why.
+
+### Appendex: Source Code
+
+Include either or both of a full listing of all your source code and a link to an online version of your code (e.g., git repository).
