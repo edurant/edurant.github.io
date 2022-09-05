@@ -2,7 +2,7 @@
 title: "Dr. Durant: Patents"
 ---
 
-I am an inventor on 7 US patents in the areas of:
+I am an inventor on 8 US patents in the areas of:
 * [Genetic algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm) for efficiently fitting audio processing parameters in hearing aids
   * [7650004](http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&p=1&u=/netahtml/PTO/search-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=7650004.PN.)
   * [9049529](http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&p=1&u=/netahtml/PTO/search-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=9049529.PN.)
