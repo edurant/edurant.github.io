@@ -11,8 +11,8 @@ title: "Dr. Durant: CS-4981 Deep Learning in Signal Processing"
 This elective course provides an overview of deep learning methods and models as used in digital signal processing (DSP), including key DSP concepts that appear in and adjacent to such models in both real-time and off-line applications. Key topics include training pipelines, convolutional layers of various dimensions used on both time series and time-frequency representations of data, common network architectures, mitigation of overfitting, error metrics, and performance evaluation. Topics of student interest will be addressed by special lecture topics and course projects.
 
 ## Course in Canvas
+* [Fall, 2022](https://msoe.instructure.com/courses/10863)
 * [Spring, 2022](https://msoe.instructure.com/courses/10080)
-* Fall, 2022
 
 ## [Course Outline and Grading (PDF)](outline.pdf)
 
