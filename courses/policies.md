@@ -1,6 +1,6 @@
 ---
 title: "Dr. Eric Durant: General Course Policies"
-date: 2019-10-02 16:43:00 -0500
+date: 2022-09-06 12:34:30 -0500
 ---
 
 ## Academic Honesty
@@ -40,6 +40,27 @@ to follow-along with classroom examples, or to test designs and run simulations.
 Do not instant message, use Facebook, watch videos, or play games during lecture or laboratory.
 These activities are important parts of modern life but distract other students around you.
 There are more appropriate times for these activities.
+
+## Raider Center for Academic Success (RCAS)
+
+*Raider Success Coaches* provide emotional, personal and academic support
+through one-on-one meetings to assist students in developing a plan,
+establishing goals, identifying the habits to help achieve success. To schedule
+a meeting, contact RCAS (rcas@msoe.edu) or email the Coach listed on your class
+schedule.
+
+*Raider Success Allies* are upperclassmen peers who assist students in their
+pursuit of success in and out of the classroom; mentorship, accountability,
+study partner—an ally can serve in a variety of capacities. Students looking
+to enhance their academic skills should stop by the RCAS HYPE Desk M-F |
+8:30AM-4:30PM. The RCAS HYPE Desk is located on the second floor of the library
+in the RCAS tutoring space.
+
+*Tutoring* offers free peer and professional academic support through one-on-
+one, group, and online sessions. Tutoring is located on the 2nd floor of the
+Library and online via Teams. To schedule a one-on-one, group, or online session
+please go to https://tutoring.msoe.edu. Writing assistance is located at
+https://www.msoe.edu/tutoring-services.
 
 ## Grading
 
