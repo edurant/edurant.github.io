@@ -15,15 +15,15 @@ Acnkowledgement: This lab was originally developed by Dr. Sheila Ross.
 ## Option 1: Signal Representation
 
 ### Problem Description
-In this lab, you are to classify 1-dimensional signals as representing a “hill” or a “valley”.
+In this lab, you are to classify 1-dimensional signals as representing a ?hill? or a ?valley?.
 
 We will be using the [UCI Machine Learning Repository: Hill-Valley Data Set](https://archive.ics.uci.edu/ml/datasets/Hill-Valley), and I will provide several versions of this data to assist you in the various approaches you may choose to classify the signals.
 
-The dataset consists of 1212 signals of “clean” data, in which each signal is smooth and clearly shows a hill or valley. Each signal consists of 100 points.
+The dataset consists of 1212 signals of ?clean? data, in which each signal is smooth and clearly shows a hill or valley. Each signal consists of 100 points.
 
 Examples of the signals when plotted: ![Three plotted signals](week3lab_hillvaley.png "Three plotted signals")
 
-For additional challenge, the dataset also provides 1212 signals of “noisy” data, where the hill or valley can still be discerned by the human eye, but the classification is more difficult.
+For additional challenge, the dataset also provides 1212 signals of ?noisy? data, where the hill or valley can still be discerned by the human eye, but the classification is more difficult.
 
 You may use the original text files from the UCI site, the MATLAB files I have created containing the signals and labels in various forms, or the image files I have created containing plots of the signals. A detailed description of the available formats will be included at the end of this document. You may use any computational environment you wish; MATLAB is not required.
 
@@ -42,31 +42,31 @@ Submit your file or a link to your file/video via Canvas.
 ### Available Data Files
 In addition to the original text files from the UCI site, I have saved the signals in a variety of formats, to facilitate different approaches to the classification problem.
 
-* MATLAB file hillvalley.mat contains the signals in both the time domain and frequency domain formats. The noisy signals have \_n in the variable names. These representations are the most convenient for heuristic calculations and shallow neural networks. The “target” variables contain the signal labels in the format needed by MATLAB’s shallow neural networks, and the signals are arranged so that each column of the matrix is an individual signal.
+* MATLAB file hillvalley.mat contains the signals in both the time domain and frequency domain formats. The noisy signals have \_n in the variable names. These representations are the most convenient for heuristic calculations and shallow neural networks. The ?target? variables contain the signal labels in the format needed by MATLAB?s shallow neural networks, and the signals are arranged so that each column of the matrix is an individual signal.
 * MATLAB files hillvalley_cells.mat and hillvalley_n_cells.mat contain the signals in cell array form. The data in this file would be compatible with the approach taken in the MATLAB tutorials on sequence-to-label classification using the Japanese Vowels example dataset: [Create Simple Sequence Classification Network Using Deep Network Designer - MATLAB & Simulink (mathworks.com)](https://www.mathworks.com/help/deeplearning/gs/create-simple-sequence-classification-network.html) Note the separate cell arrays for training and validation, which were taken from the training/testing breakdown given in the original dataset. I have created both time domain and frequency domain representations in these files for you to use in your experiments.
-* The zip files hillvalley_plots and hillvalley_noisy_plots contain plots of the signals with the y axis starting at zero and ending at 1.2 times the max value, similar to a standard MATLAB plot. The signal is positioned in roughly the same place in the plot for each of these images. The files hillvalley_zoomed_in and hillvalley_noisy_zoomed_in plot the signals in a more “zoomed-in” fashion. These images could be classified with a deep network with convolutional layers.
+* The zip files hillvalley_plots and hillvalley_noisy_plots contain plots of the signals with the y axis starting at zero and ending at 1.2 times the max value, similar to a standard MATLAB plot. The signal is positioned in roughly the same place in the plot for each of these images. The files hillvalley_zoomed_in and hillvalley_noisy_zoomed_in plot the signals in a more ?zoomed-in? fashion. These images could be classified with a deep network with convolutional layers.
 
 [^1]: The [fft() function in MATLAB](https://www.mathworks.com/help/matlab/ref/fft.html) will provide the coefficients for the frequency components of the signal, as a vector going from the lowest to highest frequency components. These coefficients are produced as complex numbers. It is common to represent the coefficients using a magnitude value and phase value, specifying the amplitude and phase of the sinusoidal components. Thus, the single 1-D signal sequence in the time domain becomes two real-valued sequences in the frequency domain. The function abs() provides the magnitude of a complex number and the function angle() provides the phase.
 
 ## Option 2: Transfer Learning in MATLAB
 
 ### Problem Description
-In this lab, you are to classify images of 1-dimensional signals as representing a “hill” or a “valley”.
+In this lab, you are to classify images of 1-dimensional signals as representing a ?hill? or a ?valley?.
 
-The data originates from the [UCI Machine Learning Repository: Hill-Valley Data Set](https://archive.ics.uci.edu/ml/datasets/Hill-Valley). The dataset consists of 1212 signals of “clean” data, in which each signal is smooth and clearly shows a hill or valley. For additional challenge, the dataset also provides 1212 signals of “noisy” data, where the hill or valley can still be discerned by the human eye, but the classification is more difficult.
+The data originates from the [UCI Machine Learning Repository: Hill-Valley Data Set](https://archive.ics.uci.edu/ml/datasets/Hill-Valley). The dataset consists of 1212 signals of ?clean? data, in which each signal is smooth and clearly shows a hill or valley. For additional challenge, the dataset also provides 1212 signals of ?noisy? data, where the hill or valley can still be discerned by the human eye, but the classification is more difficult.
 
-While it is possible to classify these signals using traditional signal processing techniques and very simple neural networks, in this lab we will practice using the Deep Learning Network Designer to classify plots of these signals as being “hill” or “valley”.
+While it is possible to classify these signals using traditional signal processing techniques and very simple neural networks, in this lab we will practice using the Deep Learning Network Designer to classify plots of these signals as being ?hill? or ?valley?.
 
-The zip files hillvalley_plots and hillvalley_noisy_plots contain plots of the signals with the y axis starting at zero and ending at 1.2 times the max value, similar to a standard MATLAB plot. The signal is positioned in roughly the same place in the plot for each of these images. The files hillvalley_zoomed_in and hillvalley_noisy_zoomed_in plot the signals in a more “zoomed-in” fashion. You may use either the plot or “zoomed-in” versions in your analysis; whichever works better for you. Start by classifying the “clean” data, which is an easier problem, then move on to the “noisy” data.
+The zip files hillvalley_plots and hillvalley_noisy_plots contain plots of the signals with the y axis starting at zero and ending at 1.2 times the max value, similar to a standard MATLAB plot. The signal is positioned in roughly the same place in the plot for each of these images. The files hillvalley_zoomed_in and hillvalley_noisy_zoomed_in plot the signals in a more ?zoomed-in? fashion. You may use either the plot or ?zoomed-in? versions in your analysis; whichever works better for you. Start by classifying the ?clean? data, which is an easier problem, then move on to the ?noisy? data.
 
 ### Assignment
 Follow the tutorial described in [Transfer Learning with Deep Network Designer - MATLAB & Simulink (mathworks.com)](https://www.mathworks.com/help/deeplearning/ug/transfer-learning-with-deep-network-designer.html), which describes how to use the SqueezeNet pretrained neural network to classify images. However, instead of using SqueezeNet and the object image files, use AlexNet (which is simpler) and your hill/valley image files. I highly recommend running this on ROSIE as you did in the Week 1 Lab.
 
 You will be starting with a neural network which has many layers. The layers near the top of the diagram in Deep Network Designer have identified very basic features that real-life images possess but random noise does not (like lines and patches of colors), while the lower layers towards the end have taken those basic features and decided how to put them together to tell one object from another. (For an introduction to deep learning/image feature learning, I recommend [Andrew Ng: "Deep Learning, Self-Taught Learning and Unsupervised Feature Learning" - YouTube](https://www.youtube.com/watch?v=pfFyZY1RPZU) which is an older video but really captures the excitement of early work in this area.)
 
-As you follow along with the tutorial, you will see that your job is to remove the layers toward the end which make the “final decision” about what object is in an image, and replace it with a “blank slate” which you will train to take those important features for discerning images and classify the images into the categories that you care about: hills and valleys.
+As you follow along with the tutorial, you will see that your job is to remove the layers toward the end which make the ?final decision? about what object is in an image, and replace it with a ?blank slate? which you will train to take those important features for discerning images and classify the images into the categories that you care about: hills and valleys.
 
-You may need to change the training options in order to get the training to finish; I changed the solver to “adam” and had better results.
+You may need to change the training options in order to get the training to finish; I changed the solver to ?adam? and had better results.
 
 If you are able to train the network to be over 90% correct in its predictions, then try to make things a little more challenging:
 
@@ -82,7 +82,7 @@ The images can be run through the final trained network in the workspace, to see
 
     ds = datastore(".", "LabelSource","foldernames", "IncludeSubfolders",true);
 
-Then create an “augmented datastore” which holds images scaled to fit the AlexNet network (227&times;227):
+Then create an ?augmented datastore? which holds images scaled to fit the AlexNet network (227&times;227):
 
     dsa = augmentedImageDatastore([227 227 3], ds);
 Pass the images through the trained network to obtain the classification results:
@@ -91,10 +91,10 @@ Pass the images through the trained network to obtain the classification results
 Grab the true categories of each of the images from inside the datastore:
 
     truth = ds.Labels;
-Find the images where the truth doesn’t match the result:
+Find the images where the truth doesn?t match the result:
 
     wrong = find(truth~=result)
-These are the image numbers that “tricked” the network. Do you see anything that might make these images harder to classify?
+These are the image numbers that ?tricked? the network. Do you see anything that might make these images harder to classify?
 
 ### Deliverables
 Provide a report, including the screen captures listed in the previous section, and a paragraph or two describing what you did and what you discovered in your results. If the network misclassified any of the images, include a few or describe what the tricky images looked like.
