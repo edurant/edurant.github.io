@@ -21,9 +21,7 @@ This elective course provides an overview of deep learning methods and models as
 ## Labs
 
 * [Week 1 Lab](week1lab.html)
-* Week 2 Lab (posted only on Canvas) - two options, depending on your previous experience with machine learning.
-  * The Signal Representation option is recommended for those with some machine learning experience, or those who are very comfortable working in MATLAB and can adapt the tutorial examples to different data.
-  * The Transfer Learning in MATLAB option is recommended for those new to machine learning.  MATLAB is required here.
+* [Week 2 Lab](week2lab.html)
 * [Week 3 Lab](week3lab.html)
 * [Week 4 Lab](week4lab.html)
 
