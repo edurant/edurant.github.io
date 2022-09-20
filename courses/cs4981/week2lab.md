@@ -86,15 +86,19 @@ The images can be run through the final trained network in the workspace, to see
 Then create an &ldquo;augmented datastore&rdquo; which holds images scaled to fit the AlexNet network (227&times;227):
 
     dsa = augmentedImageDatastore([227 227 3], ds);
+
 Pass the images through the trained network to obtain the classification results:
 
     result = classify(trainedNetwork_1, dsa);
+
 Grab the true categories of each of the images from inside the datastore:
 
     truth = ds.Labels;
+
 Find the images where the truth doesn&rsquo;t match the result:
 
     wrong = find(truth~=result)
+
 These are the image numbers that &ldquo;tricked&rdquo; the network. Do you see anything that might make these images harder to classify?
 
 ### Deliverables
