@@ -29,7 +29,7 @@ if true
     % Original tutorial code -- 10 steps from 0.0 to 0.9
     numIterations = 10;
     targetSparsity = 0.9;
-    iterationScheme = linspace(0.9,targetSparsity,numIterations);
+    iterationScheme = linspace(0.0,targetSparsity,numIterations);
 else
     % Focus on the range of interest for your model, which might span just a few percentage points
     numIterations = 20;
