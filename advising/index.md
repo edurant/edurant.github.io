@@ -23,7 +23,8 @@ You will be able to sign up for an advising appointment starting in week 7. You 
 
 ## Semester transition
 MSOE transitions to semesters in F'23.
-* Students who start on the quarter system by F'22 will receive a customized transition plan around F'22 showing exactly which quarter and semester classes they need to take to earn their degree.
+* [Semester Course Reference: Understanding your Transition Plan](semester-transition-ref.html)
+* Students who start on the quarter system by F'22 will receive a customized transition plan during F'22 showing exactly which quarter and semester classes they need to take to earn their degree.
 * Graduation
   * Students who were planning to graduate in a spring quarter will graduate in the corresponding spring semester.
   * Students who were planning to graduate in a fall quarter will graduate in the corresponding fall semester.
