@@ -6,6 +6,11 @@
 
 In this lab you will use MATLAB's hyperparameter optimization tools to automatically train several networks while varying details such as the number of dense layers and the training algorithm learning rate. Determining good (much less optimal) values of these hyperparameters is challenging and can consume much of a machine learning engineer's time.
 
+In particular, you will have MATLAB use a Bayesian optimization approach, which provides a powerful model for selecting the next set of hyperparameters to try given the hyperparameter combinations tried so far.
+
+* [A 10-minute YouTube video introduction to Bayesian optimization with clear examples](https://www.youtube.com/watch?v=M-NTkxfd7-8)
+* [A detailed technical tutorial on Bayesian Optimization](https://arxiv.org/abs/1807.02811): The abstract is worth reading, and you can dive deeper into the paper if you wish.
+
 This method might be useful as you explore hyperparameters in your term project.
 
 Throughout the lab, for your report, be sure to take screenshots of key results and graphics, including MATLAB console output showing the optimization process.
