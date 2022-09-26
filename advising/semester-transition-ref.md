@@ -56,7 +56,9 @@ Elective labels tagged with NONE are electives your advisor removed from the ter
 ## Summer
 
 * EECS: None
-* Math: MA 137, MA 2314, MA 2323, MA 235, MA 262, MA 330, MA 383
+* Math
+  * MA 137, MA 2314, MA 2323, MA 235, MA 262, MA 330, MA 383
+  * MA 2980: Topics in Mathematics (2 quarter credits). This course covers CALCULUS I (MTH 1110) material that was not included in MA 136. Upon successful completion of this course, a student can take MTH 1120.
 
 ## Circuits
 
