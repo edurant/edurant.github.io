@@ -1,4 +1,6 @@
-# Semester Course Reference: Understanding your Transition Plan
+# Reference: Understanding your Transition Plan
+
+# Semester Course Numbers
 
 COURSE | TITLE | SEMESTER CREDITS
 -- | -- | --
@@ -36,7 +38,7 @@ PHY1110 | Physics 1: Mechanics and Thermodynamics | 4
 PHY1120 | Physics 2: Electricity, Magnetism, and Optics | 4
 PHY3700 | Physics of Electronic Materials and Semiconductor Devices | 4
 
-You may also see electives:
+# Special Elective Codes on Transition Plans
 
 * ELC Free – Free Elective
 * ELC HU – Humanities Course (Art History, Fine Arts, German, History, Literature, Philosophy, Spanish)
@@ -48,3 +50,30 @@ You may also see electives:
 * PLC SS ‐ Placeholder for an SS course: This is an administrative tool we use to replicate ELC SS.
 
 Elective labels tagged with NONE are electives your advisor removed from the term as they balanced your course work.
+
+# Planned Offerings
+
+## Summer
+
+* EECS: None
+* Math: MA 137, MA 2314, MA 2323, MA 235, MA 262, MA 330, MA 383
+
+## Circuits
+
+Please note that EE2050 alone will not "count" for the first circuits course, ELE2001 in the semester system. EECS will be offering a special topics course EE2980 as a 2-2-3 in Spring as an "add-on" to EE2050 to provide equivalent credit for ELE2001.
+
+### Winter Offerings
+
+* EE2050. Registration will at first be limited to EE students as this is on their transition track.
+* EE2060. Registration will at first be limited to CE students as this is on their track. Note that EE2050+EE2060 will count for ELE2001 in the semester system. Those not taking EE2060 this term will still have the chance to take EE2980 next term for the ELE2001 equivalent.
+* EE2070. Registration will at first be limited to BME and EE students as this is on their track. Note that completion of EE2070 is required for students to receive equivalent credit for both ELE2001 and ELE2011.
+
+### Spring Offerings
+
+* EE2980. This 2-2-3 course will cover the remainder of the ELE2001 material beyond what is covered in EE2050. Registration will at first be limited to EE students as this is on their transition track. The course will be taught with MA137 as a strict co-req.
+* EE2070. Registration will at first be limited to CE students as this is on their track.
+
+### Some implications
+
+* Students will not be able to begin circuits in Spring. These students will need to wait until fall to take ELE2001 Circuits 1, which has a co-requisite of MTH1110 Calculus I.
+* Math co-reqs will be strictly enforced. Students with grades of F* in previous courses (MA120 F* for EE2050, MA136 F* or EE2050 F* for EE2980) will not be allowed to continue.
