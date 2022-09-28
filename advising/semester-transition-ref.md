@@ -1,4 +1,6 @@
-# Reference: Understanding your Transition Plan
+---
+title: "Reference: Understanding your Transition Plan"
+---
 
 # Semester Course Numbers
 

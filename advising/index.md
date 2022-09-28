@@ -1,6 +1,6 @@
 ---
 title: "CE Academic Advising"
-date: 2022-01-14 14:31:30 -0500
+date: 2022-09-28 11:40:30 -0600
 ---
 
 ## Advising policy
@@ -75,7 +75,7 @@ After your registration time, you may request entry into a closed section; every
 Forms for declaring a minor, changing/adding a major, etc., are available on the <a href="https://www.msoe.edu/campus-life/student-resources/registrar/">Registrar's website</a>.
 
 ## Two-degree Tracks
-Two-degree tracks exist for CE in combination with CS, EE and SE. These tracks are laid out for 5 years, but students have accelerated the course sequence and finished in one or two quarters beyond 4 years. Please see your advisor or program director (Dr. Durant) for more information.
+Two-degree tracks exist for CE in combination with CS, EE and SE. These tracks are laid out for 5 years, but students have accelerated the course sequence and finished in one or two quarters beyond 4 years. Please see your advisor or program director for more information.
 
 ## Internship and Job Search Resources
 * Talk with your faculty and advisor

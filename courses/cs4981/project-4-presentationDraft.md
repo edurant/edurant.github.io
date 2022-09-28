@@ -1,4 +1,6 @@
-# Term Project—Milestone 4: Presentation Draft
+---
+title: "CS4981 Deep Learning In Signal Processing: Project Milestone 4: Presentation Draft"
+---
 
 This page describes the fourth of six project milestones and is due at the end of week 7.
 

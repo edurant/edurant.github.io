@@ -1,6 +1,6 @@
-# CS4981 Deep Learning In Signal Processing
-
-# Week 3 Lab
+---
+title: "CS4981 Deep Learning In Signal Processing: Week 3 Lab"
+---
 
 ## Background
 

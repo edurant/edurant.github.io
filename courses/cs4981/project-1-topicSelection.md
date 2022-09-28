@@ -1,4 +1,6 @@
-# Term Project—Milestone 1: Topic Selection and References
+---
+title: "CS4981 Deep Learning In Signal Processing: Project Milestone 1: Topic Selection and References"
+---
 
 This page describes the first of six project milestones and is due at the end of week 3.
 

@@ -1,6 +1,6 @@
-# CS4981 Deep Learning In Signal Processing
-
-# Week 1 Lab
+---
+title: "CS4981 Deep Learning In Signal Processing: Week 1 Lab"
+---
 
 1. If you didn't already have a Rosie account, one has been created for you. You will be prompted to change the default password (see Canvas message or professor) on first login. Follow the instructions at [https://msoe.dev/#/access](https://msoe.dev/#/access) under "Shell Access." If you don't have an ssh (secure shell) client on your laptop from a previous class, it is recommended that you install PuTTY as described under "SSH Terminal Program."
 1. Start MATLAB with the Deep Learning Toolbox on Rosie as described on the course homepage. [https://durant.io/courses/cs4981/](https://durant.io/courses/cs4981/)
