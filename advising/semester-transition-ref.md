@@ -23,6 +23,9 @@ CPE4901 | Computer Engineering Senior Design 1 | 3
 CPE4902 | Computer Engineering Senior Design 2 | 3
 CSC1110 | Software Development | 4
 CSC1120 | Data Structures and Graphical Interfaces | 4
+CSC2611 | AI Tools (fall only) | 3
+CSC2621 | Intro to Data Science (spring only) | 3
+CSC4801 | Data Science Practicum (spring only) | 3
 ELE2001 | Electric Circuits 1: Theory and Applications | 4
 ELE2002 | Electric Circuits 2: Theory and Applications | 4
 ELE3101 | Electronics 1 | 4
@@ -48,8 +51,8 @@ PHY3700 | Physics of Electronic Materials and Semiconductor Devices | 4
 * ELC PROG – Technical Computer Engineering Program Elective
 * ELC SS – Social Science Course (Anthropology, Economics, Political Science, Psychology, Sociology)
 * PLC HU – Placeholder for an HU course: This is an administrative tool we use to replicate ELC HU.
-* PLC PROG ‐ Placeholder for CE Elective course: This is an administrative tool we use to replicate ELC PROG.
-* PLC SS ‐ Placeholder for an SS course: This is an administrative tool we use to replicate ELC SS.
+* PLC PROG – Placeholder for CE Elective course: This is an administrative tool we use to replicate ELC PROG.
+* PLC SS – Placeholder for an SS course: This is an administrative tool we use to replicate ELC SS.
 
 Elective labels tagged with NONE are electives your advisor removed from the term as they balanced your course work.
 
@@ -82,3 +85,37 @@ Please note that EE2050 alone will not "count" for the first circuits course, EL
 
 * Students will not be able to begin circuits in Spring. These students will need to wait until fall to take ELE2001 Circuits 1, which has a co-requisite of MTH1110 Calculus I.
 * Math co-reqs will be strictly enforced. Students with grades of F* in previous courses (MA120 F* for EE2050, MA136 F* or EE2050 F* for EE2980) will not be allowed to continue.
+
+# Semester Academic Catalog
+
+The updated academic catalog for 2023-24 will be published in January, 2023. Until it is published, you may need to check with your advisor with for certain questions (e.g., what are the exact prerequisites of new semester course) that you would normally look to the catalog for.
+
+# F22 Freshmen Starting in MA120
+
+In 2022, freshmen who start the math. sequence in MA120 in fall will take MA120-MA136-MA137 on quarters. In fall of 2023 they will take MTH2980T, a special transition course.
+
+# Minors
+
+MSOE and the EECS Department in particular are adding new minors with the switch to semesters. These include the following. Full information will be available when the updated academic catalog is published in January, 2023.
+
+## Data Science Minor
+
+(Not available to CS majors.)
+
+For CEs (and other majors that have a year of required software design courses), this minor consists of:
+
+* CSC2611 AI Tools (fall only, 3 credits)
+* CSC2621 Intro to Data Science (spring only, 3 credits)
+* CSC4801 DS Practicum (spring only, 3 credits)
+
+These courses must be taken in order, plus CSC4801 has a prerequisite of a statistics course such as MA262 or MTH2480. A practicum is an applied project course.
+
+These classes meet CE program/technical (and free) elective requirements.
+
+## Electrical Engineering Minor
+
+(Not available to EE majors.)
+
+## Computer Engineering Minor
+
+(Not available to CE majors.)
