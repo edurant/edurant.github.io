@@ -14,6 +14,8 @@ Note that you can use the MATLAB `save filebasename` command to save all the var
 
 There are several short helper functions given near the end of the tutorial. You can either copy and paste these into the MATLAB editor and save them as .m files or download the .zip of them posted on Canvas and unzip it into your MATLAB working directory.
 
+Note that the given code only tries sparsity up to 90%, which might not be sufficient to see accuracy decrease since your model likely has a lot of excess capacity, especially if you trained on the noiseless data. So, you may need to re-run with higher sparsity proportions (e.g., 80% to 98% in 0.2% increments).
+
 A few adaptations will need to be made to the tutorial to work with the data and network formats from week 2.
 * `preprocessMiniBatch.m` assumes 4-D data (height, width, channel, sampleNumber). It *might* be necessary to modify it if using other data formats. You'll likely get an error if this is necessary.
 * See [pruningMain.m](pruningMain_m.txt) for the other needed adaptions, including how to resize the images to the 227&times;227 format required by AlexNet. If you need hints on additional adaptations, please check with the professor.
