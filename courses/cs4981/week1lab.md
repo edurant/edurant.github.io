@@ -15,3 +15,7 @@ title: "CS4981 Deep Learning In Signal Processing: Week 1 Lab"
    * Are there topics you'd like to learn more about next?
 
 Submit your informal report covering the above items via Canvas as a Word file, PDF, etc.
+
+## Learning MATLAB
+
+In this course, I intend to provide good references and commented code since very few people have much MATLAB experience. I also recommend the MathWorks&rsquo; online courses and tutorials. Some of the content is free, and if you log in with an @msoe.edu account, you have access to much more. [This 2-hour overview](https://www.mathworks.com/learn/tutorials/matlab-onramp.html) is a good place to start, and I'm always glad to answer questions about MATLAB.

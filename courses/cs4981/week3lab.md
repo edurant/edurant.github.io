@@ -30,3 +30,7 @@ A few adaptations will need to be made to the tutorial to work with the data and
    * Are there topics you'd like to learn more about next?
 
 Submit your informal report covering the above items via Canvas as a Word file, PDF, etc.
+
+## Additional Reading
+
+[Here is a paper](https://arxiv.org/abs/1608.08710) whose abstract discusses the limits of the &ldquo;magnitude pruning&rdquo; approach we used in this lab and proposes a different approach more appropriate for convolutional layers. Pruning methods, to get good performance metrics (accuracy, etc.), good memory efficiency, and fast runtime implementations are an important area of current research.
