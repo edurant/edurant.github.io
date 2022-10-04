@@ -40,6 +40,7 @@ MTH2340 | Linear Algebra with Applications | 3
 MTH2480 | Probability and Statistics | 3
 PHL3101 | Ethics for Professional Managers and Engineers | 3
 PHY1110 | Physics 1: Mechanics and Thermodynamics | 4
+PHY1980T | Physics Transition | 1.33
 PHY1120 | Physics 2: Electricity, Magnetism, and Optics | 4
 PHY3700 | Physics of Electronic Materials and Semiconductor Devices | 4
 
