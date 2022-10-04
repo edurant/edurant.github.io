@@ -101,6 +101,12 @@ Find the images where the truth doesn&rsquo;t match the result:
 
 These are the image numbers that &ldquo;tricked&rdquo; the network. Do you see anything that might make these images harder to classify?
 
+It is good practice to save your results in case you need them later (e.g., for next week's lab). MATLAB will let you save workspace variables using the `save` function. There are other functions for saving plots, etc. To simply save all workspace variables, including your trained network, use
+
+    save week2labResults
+
+The .mat suffix will automatically be appended indicating this is a MATLAB data file.
+
 ### Deliverables
 Provide a report, including the screen captures listed in the previous section, and a paragraph or two describing what you did and what you discovered in your results. If the network misclassified any of the images, include a few or describe what the tricky images looked like.
 
