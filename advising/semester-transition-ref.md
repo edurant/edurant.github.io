@@ -106,7 +106,7 @@ MSOE and the EECS Department in particular are adding new minors with the switch
 For CEs (and other majors that have a year of required software design courses), this minor consists of:
 
 * CSC2611 AI Tools (fall only, 3 credits)
-* CSC2621 Intro to Data Science (spring only, 3 credits)
+* CSC2621 Intro to Data Science (every spring, plus fall of 2023, 3 credits)
 * CSC4801 DS Practicum (spring only, 3 credits)
 
 These courses must be taken in order, plus CSC4801 has a prerequisite of a statistics course such as MA262 or MTH2480. A practicum is an applied project course.
