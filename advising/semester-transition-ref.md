@@ -142,11 +142,13 @@ ELE3701 | Control Systems | 4
 
 This applies to 2022 freshmen and to most 2022 sophomores. Students further along in the curriculum should consult with their advisor if they will not complete the minor on the quarter system.
 
-Distilling the new, semester-based, math minor requirements relative to the CE major requirements, CEs need to take 2 additional classes to earn the math minor:
+Distilling the new, semester-based, math minor requirements relative to the CE major requirements, CEs need to take 2 additional math classes to earn the math minor, which may be 0, 1, or 2 additional classes in total beyond their CE major requirements:
 
 1. Fulfills CE free elective: MTH2130 Calculus III (3rd semester calculus) for 4 credits
-1. Fulfills MSOE General Education 6d elective: A 3000- or 4000- level class from an approved list. More options may be added. All of these have 3 credits and the prerequisites are from among CE-required classes or MTH2130 Calculus III:
+1. For students *entering* on the semester system, fulfills MSOE General Education 6d elective: A 3000- or 4000- level class from an approved list. More options may be added. All of these have 3 credits and the prerequisites are from among CE-required classes or MTH2130 Calculus III:
    * MTH3340 Abstract Algebra with Applications
    * MTH3410 Applied Regression Analysis
    * MTH4130 Complex Analysis
    * MTH4150 Partial Differential Equations
+
+The General Education 6d requirement applies to students who *enter* on the semester system. Students entering before the conversion (including freshmen in 2022-23) do not have a 6d elective and instead have humanities and social science credit counts that their advisors are ensuring are met on their transition plans.
