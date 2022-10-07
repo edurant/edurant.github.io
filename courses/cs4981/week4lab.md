@@ -32,7 +32,7 @@ MATLAB has a built-in helper function for loading this common image data set, an
 
 Since the training will take some time, I suggest you reserve a training node for 6 or more hours and also place `save successfulBayesianTraining` (or whatever filename you prefer) at the end of the `week4main.m` file so that it will save your all your workspace variables to a file if you are not present when it completes.
 
-Also, you may want turn the MATLAB diary on, which will log everything on the console (which will include training status updates, etc.) to a file. `diary on`
+Also, you should turn the MATLAB diary on, which will log everything on the console (which will include training status updates, etc.) to a file so you can review it after your session ends. This can be done with `diary on` or by specifying a filename as is done in `week4main.m` in the given code.
 
 ## Lab Steps
 
