@@ -32,12 +32,17 @@ ELE3101 | Electronics 1 | 4
 ELE3300 | Signals and Systems | 3
 ELE3320 | Digital Signal Processing | 3
 IDS2020 | Career Development | 0
-MTH1110 | Calculus 1 | 4
-MTH1120 | Calculus 2 | 4
+MTH1110 | Calculus I | 4
+MTH1120 | Calculus II | 4
+MTH2130 | Calculus III | 4
 MTH2140 | Differential Equations | 3
 MTH2310 | Discrete Mathematics | 3
 MTH2340 | Linear Algebra with Applications | 3
 MTH2480 | Probability and Statistics | 3
+MTH3340 | Abstract Algebra with Applications | 3
+MTH3410 |Applied Regression Analysis | 3
+MTH4130 |Complex Analysis | 3
+MTH4150 | Partial Differential Equations | 3
 PHL3101 | Ethics for Professional Managers and Engineers | 3
 PHY1110 | Physics 1: Mechanics and Thermodynamics | 4
 PHY1980T | Physics Transition | 1.33
@@ -117,6 +122,31 @@ These classes meet CE program/technical (and free) elective requirements.
 
 (Not available to EE majors.)
 
+CEs are already required to take many courses in the EE minor. To earn the minor, CEs follow the rule that they must take at least 6 credits not specifically required for their major. Note that these courses *can* be used to meet the CE program or free elective requirements.
+
+COURSE | TITLE | SEMESTER CREDITS | NOTES
+-- | -- | -- | --
+ELE3111 | Electronics II | 3
+ELE3201 | Electromagnetic Fields | 3
+ELE3211 | Electromagnetic Waves and T-lines | 2
+ELE3310 | Introduction to Probability and Random Processes | 3 | Need to confirm that this can be taken by majors like CE for whom MTH2480 is required.
+ELE3401 | Electric Power and Machines | 4
+ELE3510 | Digital Systems | 4 | Need to determine whether this course will be allowed for CEs.
+ELE3701 | Control Systems | 4
+
 ## Computer Engineering Minor
 
 (Not available to CE majors.)
+
+## Math Minor
+
+This applies to 2022 freshmen and to most 2022 sophomores. Students further along in the curriculum should consult with their advisor if they will not complete the minor on the quarter system.
+
+Distilling the new, semester-based, math minor requirements relative to the CE major requirements, CEs need to take 2 additional classes to earn the math minor:
+
+1. Fulfills CE free elective: MTH2130 Calculus III (3rd semester calculus) for 4 credits
+1. Fulfills MSOE General Education 6d elective: A 3000- or 4000- level class from an approved list. More options may be added. All of these have 3 credits and the prerequisites are from among CE-required classes or MTH2130 Calculus III:
+   * MTH3340 Abstract Algebra with Applications
+   * MTH3410 Applied Regression Analysis
+   * MTH4130 Complex Analysis
+   * MTH4150 Partial Differential Equations
