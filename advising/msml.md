@@ -16,6 +16,7 @@ The program and course information for the 2023-2024 graduate catalog (plus the 
   * As of October, 2022, MSOE is working internally to determine enrollment and scholarship rules for dual enrollment students.
 * Direct Admit to MS ML requirements (also apply to Graduate Certificate in Applied Machine Learning):
   * Technical bachelor's degree
+    * MSOE CS graduates replace CSC5610 and MTH5810 with approved electives.
   * Programming experience with an object-oriented language. One year of college coursework (culminating in e.g., CS2852, CSC1120, or Undergraduate AI Tools) or equivalent minimum.
     * Students with only one semester equivalent (similar to CS1021, CSC1110, or CSC1310) will be required to take CSC5120 Software Development for Machine Learning in one of the MS ML elective slots.
   * At least a year of differential and integral calculus required. Multivariable calculus or linear algebra preferred.
