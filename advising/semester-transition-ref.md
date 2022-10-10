@@ -2,32 +2,32 @@
 title: "Reference: Understanding your Transition Plan"
 ---
 
-# Semester Course Numbers
+# Key Semester Courses
 
-COURSE | TITLE | SEMESTER CREDITS
--- | -- | --
+COURSE | TITLE | SEMESTER CREDITS | PREREQUISITES
+-- | -- | -- | --
 BUS2221 | Microeconomics | 3
 BUS2411 | Building Inclusive Teams | 3
 BUS3420 | Innovation and Entrepreneurship | 3
 COM1001 | College Writing | 3
-COM2001 | Writing for the STEM Disciplines | 3
-COM3001 | Professional Presentations | 3
+COM2001 | Writing for the STEM Disciplines | 3-0-3 | COM1001 or GS1001 or …
+COM3001 | Professional Presentations | 3-0-3 | COM2001 or GS1002 or …
 CPE1500 | Digital Logic | 4
 CPE1510 | Computer Architecture and Assembly Language | 4
-CPE2600 | Systems Programming | 4
-CPE2610 | Embedded Systems | 4
-CPE3300 | Computer Networking | 4
-CPE3600 | Advanced Embedded Systems | 4
-CPE4800 | Information Security | 4
+CPE2600 | Systems Programming | 3-2-4 | CSC1110 or … or programming experience
+CPE2610 | Embedded Systems | 3-2-4 | CPE2600 or CSC2210
+CPE3300 | Computer Networking | 3-2-4 | (CPE2610 or CE2812) and (MTH2480 or MA262)
+CPE3600 | Advanced Embedded Systems | 3-2-4 | (CPE2610 or CE2812) and (CPE1510 or CE1921)
+CPE4800 | Information Security | 3-2-4 | 3rd year EECS standing
 CPE4901 | Computer Engineering Senior Design 1 | 3
 CPE4902 | Computer Engineering Senior Design 2 | 3
 CSC1110 | Software Development | 4
 CSC1120 | Data Structures and Graphical Interfaces | 4
-CSC2611 | AI Tools (fall only) | 3
-CSC2621 | Intro to Data Science (spring only) | 3
-CSC4801 | Data Science Practicum (spring only) | 3
-ELE2001 | Electric Circuits 1: Theory and Applications | 4
-ELE2002 | Electric Circuits 2: Theory and Applications | 4
+CSC2611 | AI Tools (fall only) | 2-2-3 | CSC1120 or CS2852 or …
+CSC2621 | Intro to Data Science (spring only) | 2-2-3 | CSC2611 or (CS2300 and CS2852)
+CSC4801 | Data Science Practicum (spring only) | 2-2-3 | (CSC2621 or CS3300) and (MTH2480 or MA262)
+ELE2001 | Electric Circuits I: Theory and Applications | 3-2-4 | HS physics, coreq MTH1110
+ELE2002 | Electric Circuits II: Theory and Applications | 4
 ELE3101 | Electronics 1 | 4
 ELE3300 | Signals and Systems | 3
 ELE3320 | Digital Signal Processing | 3
