@@ -26,28 +26,28 @@ CSC1120 | Data Structures and Graphical Interfaces | 4
 CSC2611 | AI Tools (fall only) | 2-2-3 | CSC1120 or CS2852 or …
 CSC2621 | Intro to Data Science (spring only) | 2-2-3 | CSC2611 or (CS2300 and CS2852)
 CSC4801 | Data Science Practicum (spring only) | 2-2-3 | (CSC2621 or CS3300) and (MTH2480 or MA262)
-ELE2001 | Electric Circuits I: Theory and Applications | 3-2-4 | HS physics, coreq MTH1110
-ELE2002 | Electric Circuits II: Theory and Applications | 4
-ELE3101 | Electronics 1 | 4
-ELE3300 | Signals and Systems | 3
-ELE3320 | Digital Signal Processing | 3
-IDS2020 | Career Development | 0
+ELE2001 | Electric Circuits I: Theory and Applications | 3-2-4 | HS physics and coreq MTH1110
+ELE2011 | Electric Circuits II: Theory and Applications | 4-0-4 | (ELE2011 or …) and coreq MTH2140
+ELE3101 | Electronics I | 3-2-4 | ELE2011 or EE2070
+ELE3300 | Signals and Systems | 3-0-3 | (ELE2011 or EE2070 or …) and (MTH2140 or MA235)
+ELE3320 | Digital Signal Processing | 2-2-3 | (ELE3300 or EE3032) and (CPE2600 or …)
+IDS2020 | Career Development | 1-0-0 | None
 MTH1110 | Calculus I | 4
 MTH1120 | Calculus II | 4
 MTH2130 | Calculus III | 4
 MTH2140 | Differential Equations | 3
-MTH2310 | Discrete Mathematics | 3
-MTH2340 | Linear Algebra with Applications | 3
-MTH2480 | Probability and Statistics | 3
+MTH2310 | Discrete Mathematics | 3-0-3 | MTH1110 or MA137 or sophomore standing
+MTH2340 | Linear Algebra with Applications | 3-0-3 | MTH1120 or MA2314
+MTH2480 | Probability and Statistics | 3-0-3 | MTH1110 or MA137
 MTH3340 | Abstract Algebra with Applications | 3
-MTH3410 |Applied Regression Analysis | 3
-MTH4130 |Complex Analysis | 3
-MTH4150 | Partial Differential Equations | 3
-PHL3101 | Ethics for Professional Managers and Engineers | 3
-PHY1110 | Physics 1: Mechanics and Thermodynamics | 4
+MTH3410 |Applied Regression Analysis | 3-0-3 | MTH2340 or MTH2140 or MTH2310 or MA383 or MA2310
+MTH4130 |Complex Analysis | 3-0-3 | MTH2130 or MTH2140 or MA235 or MA2323
+MTH4150 | Partial Differential Equations | 3-0-3 | MTH2130 or MTH2140 or MA235 or MA2323
+PHL3101 | Ethics for Professional Managers and Engineers | 3-0-3 | None
+PHY1110 | Physics I: Mechanics and Thermodynamics | 3-2-4 | B in year of HS physics and coreq MTH1110
 PHY1980T | Physics Transition | 1.33
-PHY1120 | Physics 2: Electricity, Magnetism, and Optics | 4
-PHY3700 | Physics of Electronic Materials and Semiconductor Devices | 4
+PHY1120 | Physics II: Electricity, Magnetism, and Optics | 3-2-4 | MTH1110 and (PHY1110 or PH2011) and coreq MTH1120
+PHY3700 | Physics of Electronic Materials and Semiconductor Devices | 3-2-4 | (PHY1120 or PH2021) and (MTH1120 or MA137)
 
 # Special Elective Codes on Transition Plans
 
