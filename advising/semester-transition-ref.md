@@ -25,6 +25,9 @@ CSC1110 | Software Development | 4
 CSC1120 | Data Structures and Graphical Interfaces | 4
 CSC2611 | AI Tools (fall only) | 2-2-3 | CSC1120 or CS2852 or …
 CSC2621 | Intro to Data Science (spring only) | 2-2-3 | CSC2611 or (CS2300 and CS2852)
+CSC4601 | Theory of Machine Learning | 2-2-3 | (MTH2130 or MA2323) and (MTH2340 or MA383) and (CSC2621 or CS2300)
+CSC4611 | Deep Learning | ?-?-3 | CSC4601 or CS3400
+CSC4631 | Artificial Intelligence | 2-2-3 | CSC2611 or CS2300
 CSC4801 | Data Science Practicum (spring only) | 2-2-3 | (CSC2621 or CS3300) and (MTH2480 or MA262)
 ELE2001 | Electric Circuits I: Theory and Applications | 3-2-4 | HS physics and coreq MTH1110
 ELE2011 | Electric Circuits II: Theory and Applications | 4-0-4 | (ELE2011 or …) and coreq MTH2140
