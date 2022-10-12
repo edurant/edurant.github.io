@@ -25,25 +25,25 @@ General CE advising information, including what you need to bring to your advisi
 ## Advising times
 
 * Week 7 Times
-  * Monday 4/18: 2:15-5:00 PM
-  * Tuesday 4/19: (no times available)
-  * Wednesday 4/20: (no times available)
-  * Thursday 4/21: 9:15-11:30 AM
-  * Friday 4/22: (no times available)
+  * Monday 10/17: (no times available, on ABET visit)
+  * Tuesday 10/18: (no times available, on ABET visit)
+  * Wednesday 10/19: 4:00-5:30 PM
+  * Thursday 10/20: 1:00-4:30 PM
+  * Friday 10/21: 1:00-2:45 PM
 
 * Week 8 Times
-  * Monday 4/25: 2:15-4:00 PM
-  * Tuesday 4/26: 1:00-2:45 PM
-  * Wednesday 4/27: (no times available)
-  * Thursday 4/28: 12:30-1:45 PM
-  * Friday 4/29: 1:00-2:45 PM
+  * Monday 10/24: 9:30-10:45 AM
+  * Tuesday 10/25: 9:30-10:45 AM
+  * Wednesday 10/26: 9:30-10:45 AM, 1:15-2:30 PM
+  * Thursday 10/27: 1:00-4:30 PM
+  * Friday 10/28: 9:30-10:45 AM
 
 * Week 9 Times
-  * Monday 5/2: 2:15-4:30 PM
-  * Tuesday 5/3: 1:00-2:45 PM
-  * Wednesday 5/4: (no times available)
-  * Thursday 5/5: 12:30-1:45 PM
-  * Friday 5/6: 1:00-2:45 PM
+  * Monday 10/31: 9:30-10:45 AM
+  * Tuesday 11/1: 9:30-10:45 AM
+  * Wednesday 11/2: 9:30-10:45 AM, 1:15-2:30 PM
+  * Thursday 11/3: 2:00-4:30 PM
+  * Friday 11/4: (no times available, out of town)
 
 * Week 10 Times
   * Scheduled in extenuating circumstances only. Please sign up during week 7 through week 9, or contact me for alternate times if necessary.
