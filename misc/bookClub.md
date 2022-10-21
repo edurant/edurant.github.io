@@ -1,8 +1,11 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2022-10-04 16:17:30 -0500
+date: 2022-10-21 10:37:30 -0500
 ---
+* Selection TBD for LGBT Pride Month, 2023-06-TBD.
+* Selection TBD for Asian Pacific American Heritage Month, 2023-05-TBD.
 * [Siddhartha](https://bookshop.org/books/siddhartha-8596a466-5e6b-42a1-b2d9-0324e5a988d3/9780553208849), by Herman Hesse, discussed on 2023-04-TBD.
+* Selection TBD for International Women's Day, 2023-03-TBD.
 * [A Beginner's Guide to America: For the Immigrant and the Curious](https://bookshop.org/books/a-beginner-s-guide-to-america-for-the-immigrant-and-the-curious/9780525656067), by Roya Hakakian, discussed on 2023-02-TBD.
 * [A Confederacy of Dunces](https://bookshop.org/books/a-confederacy-of-dunces-9780802130204), by Michael O’Toole, discussed on 2023-01-TBD.
 * [Braiding Sweetgrass](https://bookshop.org/books/braiding-sweetgrass-3e12996d-ea04-4dd2-b9a9-04cfd82f361f/9781571313560), by Robin Wall Kimmere, discussed on 2022-12-TBD.
@@ -18,7 +21,7 @@ date: 2022-10-04 16:17:30 -0500
 * [Once We Were Brothers](https://bookshop.org/books/once-we-were-brothers/), by Ronald Balson, discussed on 2022-02-08.
 * [Astoria](https://bookshop.org/books/astoria-astor-and-jefferson-s-lost-pacific-empire-a-tale-of-ambition-and-survival-on-the-early-american-frontier-9780062218308), by Peter Stark, discussed on 2022-01-17.
 * [Life of Pi](https://bookshop.org/books/life-of-pi-9780156027328), by Yann Martel, discussed on 2021-12-20.
-* [The Merit Myth: How Our Colleges Favor the Rich and Divide America](https://bookshop.org/books/the-merit-myth-how-our-colleges-favor-the-rich-and-divide-america/), by Anthony Carnevale, Peter Schmidt, and Jeff Strohl, discussed on 2021-11-TBD.
+* [The Merit Myth: How Our Colleges Favor the Rich and Divide America](https://bookshop.org/books/the-merit-myth-how-our-colleges-favor-the-rich-and-divide-america/), by Anthony Carnevale, Peter Schmidt, and Jeff Strohl, discussed on 2021-11-08.
 * [Hamnet](https://bookshop.org/books/hamnet-0fcffd36-0ecb-4a6d-a913-4efbc6a4d6ef), by Maggie O'Farrell, discussed on 2021-10-11.
 * [The Premonition](https://bookshop.org/books/the-premonition-a-pandemic-story-9781713631897), by Michael Lewis, discussed on 2021-09-13.
 * [The Sympathizer](https://bookshop.org/books/the-sympathizer-a-novel-pulitzer-prize-for-fiction/9780802124944), by Viet Thanh Nguyen, discussed on 2021-08-16.

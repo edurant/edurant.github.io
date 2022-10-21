@@ -14,7 +14,7 @@ The program and course information for the 2023-2024 graduate catalog (plus the 
   * BMEs entering before F23 probably need to decide to pursue the MS by the start of year 3 in order to fit the required classes into 5 years.
   * Typically 2 or 3 of the 5000-level MS ML courses can also meet BS program or free elective requirements at the discretion of the BS program.
   * As of October, 2022, MSOE is working internally to determine enrollment and scholarship rules for dual enrollment students.
-* Direct Admit to MS ML requirements (also apply to Graduate Certificate in Applied Machine Learning):
+* Direct Admit to MS ML requirements (also apply to [Graduate Certificate in Applied Machine Learning](https://onlineinfo.msoe.edu/machine-learning-certificate/)):
   * Technical bachelor's degree
     * MSOE CS graduates replace CSC5610 and MTH5810 with approved electives.
   * Programming experience with an object-oriented language. One year of college coursework (culminating in e.g., CS2852, CSC1120, or Undergraduate AI Tools) or equivalent minimum.
