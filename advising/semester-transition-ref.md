@@ -10,47 +10,47 @@ BUS2221 | Microeconomics | 3
 BUS2411 | Building Inclusive Teams | 3
 BUS3420 | Innovation and Entrepreneurship | 3
 COM1001 | College Writing | 3
-COM2001 | Writing for the STEM Disciplines | 3-0-3 | COM1001 or GS1001 or …
-COM3001 | Professional Presentations | 3-0-3 | COM2001 or GS1002 or …
+COM2001 | Writing for the STEM Disciplines | 3-0-3 | COM1001 &#124; GS1001 &#124; …
+COM3001 | Professional Presentations | 3-0-3 | COM2001 &#124; GS1002 &#124; …
 CPE1500 | Digital Logic | 4
 CPE1510 | Computer Architecture and Assembly Language | 4
-CPE2600 | Systems Programming | 3-2-4 | CSC1110 or … or programming experience
-CPE2610 | Embedded Systems | 3-2-4 | CPE2600 or CSC2210
-CPE3300 | Computer Networking | 3-2-4 | (CPE2610 or CE2812) and (MTH2480 or MA262)
-CPE3600 | Advanced Embedded Systems | 3-2-4 | (CPE2610 or CE2812) and (CPE1510 or CE1921)
+CPE2600 | Systems Programming | 3-2-4 | CSC1110 &#124; … &#124; programming experience
+CPE2610 | Embedded Systems | 3-2-4 | CPE2600 &#124; CSC2210
+CPE3300 | Computer Networking | 3-2-4 | (CPE2610 &#124; CE2812) &amp; (MTH2480 &#124; MA262)
+CPE3600 | Advanced Embedded Systems | 3-2-4 | (CPE2610 &#124; CE2812) &amp; (CPE1510 &#124; CE1921)
 CPE4800 | Information Security | 3-2-4 | 3rd year EECS standing
 CPE4901 | Computer Engineering Senior Design 1 | 3
 CPE4902 | Computer Engineering Senior Design 2 | 3
 CSC1110 | Software Development | 4
 CSC1120 | Data Structures and Graphical Interfaces | 4
-CSC2611 | AI Tools (fall only) | 2-2-3 | CSC1120 or CS2852 or …
-CSC2621 | Intro to Data Science (spring only) | 2-2-3 | CSC2611 or (CS2300 and CS2852)
-CSC4601 | Theory of Machine Learning | 2-2-3 | (MTH2130 or MA2323) and (MTH2340 or MA383) and (CSC2621 or CS2300)
-CSC4611 | Deep Learning | 2-2-3 | CSC4601 or CS3400
-CSC4631 | Artificial Intelligence | 2-2-3 | CSC2611 or CS2300
-CSC4801 | Data Science Practicum (spring only) | 2-2-3 | (CSC2621 or CS3300) and (MTH2480 or MA262)
-ELE2001 | Electric Circuits I: Theory and Applications | 3-2-4 | HS physics and coreq MTH1110
-ELE2011 | Electric Circuits II: Theory and Applications | 4-0-4 | (ELE2011 or …) and coreq MTH2140
-ELE3101 | Electronics I | 3-2-4 | ELE2011 or EE2070
-ELE3300 | Signals and Systems | 3-0-3 | (ELE2011 or EE2070 or …) and (MTH2140 or MA235)
-ELE3320 | Digital Signal Processing | 2-2-3 | (ELE3300 or EE3032) and (CPE2600 or …)
+CSC2611 | AI Tools (fall only) | 2-2-3 | CSC1120 &#124; CS2852 &#124; …
+CSC2621 | Intro to Data Science (spring only) | 2-2-3 | CSC2611 &#124; (CS2300 &amp; CS2852)
+CSC4601 | Theory of Machine Learning | 2-2-3 | (MTH2130 &#124; MA2323) &amp; (MTH2340 &#124; MA383) &amp; (CSC2621 &#124; CS2300)
+CSC4611 | Deep Learning | 2-2-3 | CSC4601 &#124; CS3400
+CSC4631 | Artificial Intelligence | 2-2-3 | CSC2611 &#124; CS2300
+CSC4801 | Data Science Practicum (spring only) | 2-2-3 | (CSC2621 &#124; CS3300) &amp; (MTH2480 &#124; MA262)
+ELE2001 | Electric Circuits I: Theory and Applications | 3-2-4 | HS physics &amp; coreq MTH1110
+ELE2011 | Electric Circuits II: Theory and Applications | 4-0-4 | (ELE2011 &#124; …) &amp; coreq MTH2140
+ELE3101 | Electronics I | 3-2-4 | ELE2011 &#124; EE2070
+ELE3300 | Signals and Systems | 3-0-3 | (ELE2011 &#124; EE2070 &#124; …) &amp; (MTH2140 &#124; MA235)
+ELE3320 | Digital Signal Processing | 2-2-3 | (ELE3300 &#124; EE3032) &amp; (CPE2600 &#124; …)
 IDS2020 | Career Development | 1-0-0 | None
 MTH1110 | Calculus I | 4
 MTH1120 | Calculus II | 4
 MTH2130 | Calculus III | 4
 MTH2140 | Differential Equations | 3
-MTH2310 | Discrete Mathematics | 3-0-3 | MTH1110 or MA137 or sophomore standing
-MTH2340 | Linear Algebra with Applications | 3-0-3 | MTH1120 or MA2314
-MTH2480 | Probability and Statistics | 3-0-3 | MTH1110 or MA137
+MTH2310 | Discrete Mathematics | 3-0-3 | MTH1110 &#124; MA137 &#124; sophomore standing
+MTH2340 | Linear Algebra with Applications | 3-0-3 | MTH1120 &#124; MA2314
+MTH2480 | Probability and Statistics | 3-0-3 | MTH1110 &#124; MA137
 MTH3340 | Abstract Algebra with Applications | 3
-MTH3410 |Applied Regression Analysis | 3-0-3 | MTH2340 or MTH2140 or MTH2310 or MA383 or MA2310
-MTH4130 |Complex Analysis | 3-0-3 | MTH2130 or MTH2140 or MA235 or MA2323
-MTH4150 | Partial Differential Equations | 3-0-3 | MTH2130 or MTH2140 or MA235 or MA2323
+MTH3410 |Applied Regression Analysis | 3-0-3 | MTH2340 &#124; MTH2140 &#124; MTH2310 &#124; MA383 &#124; MA2310
+MTH4130 |Complex Analysis | 3-0-3 | MTH2130 &#124; MTH2140 &#124; MA235 &#124; MA2323
+MTH4150 | Partial Differential Equations | 3-0-3 | MTH2130 &#124; MTH2140 &#124; MA235 &#124; MA2323
 PHL3101 | Ethics for Professional Managers and Engineers | 3-0-3 | None
-PHY1110 | Physics I: Mechanics and Thermodynamics | 3-2-4 | B in year of HS physics and coreq MTH1110
+PHY1110 | Physics I: Mechanics and Thermodynamics | 3-2-4 | B in year of HS physics &amp; coreq MTH1110
 PHY1980T | Physics Transition | 1.33
-PHY1120 | Physics II: Electricity, Magnetism, and Optics | 3-2-4 | MTH1110 and (PHY1110 or PH2011) and coreq MTH1120
-PHY3700 | Physics of Electronic Materials and Semiconductor Devices | 3-2-4 | (PHY1120 or PH2021) and (MTH1120 or MA137)
+PHY1120 | Physics II: Electricity, Magnetism, and Optics | 3-2-4 | MTH1110 &amp; (PHY1110 &#124; PH2011) &amp; coreq MTH1120
+PHY3700 | Physics of Electronic Materials and Semiconductor Devices | 3-2-4 | (PHY1120 &#124; PH2021) &amp; (MTH1120 &#124; MA137)
 
 # Special Elective Codes on Transition Plans
 
@@ -70,7 +70,7 @@ Elective labels tagged with NONE are electives your advisor removed from the ter
 ## Summer
 
 * Business: None
-* EECS: None
+* EECS: CS2852, may add more
 * Math
   * MA 137, MA 2314, MA 2323, MA 235, MA 262, MA 330, MA 383
   * MA 2980: Topics in Mathematics (2 quarter credits). This course covers CALCULUS I (MTH 1110) material that was not included in MA 136. Upon successful completion of this course, a student can take MTH 1120.
