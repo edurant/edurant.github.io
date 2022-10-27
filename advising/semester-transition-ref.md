@@ -75,6 +75,10 @@ Elective labels tagged with NONE are electives your advisor removed from the ter
   * MA 137, MA 2314, MA 2323, MA 235, MA 262, MA 330, MA 383
   * MA 2980: Topics in Mathematics (2 quarter credits). This course covers CALCULUS I (MTH 1110) material that was not included in MA 136. Upon successful completion of this course, a student can take MTH 1120.
 
+## BA3411 in Spring
+
+BA3411 (off track) will run in spring, 2023 in addition to BA3423 (on track). These courses or their semester versions (BUS2411 and BUS3420) are required for all CEs regardless of curriculum version.
+
 ## Circuits
 
 Please note that EE2050 alone will not "count" for the first circuits course, ELE2001 in the semester system. EECS will be offering a special topics course EE2980 as a 2-2-3 in Spring as an "add-on" to EE2050 to provide equivalent credit for ELE2001.
