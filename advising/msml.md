@@ -16,6 +16,8 @@ We expect that many of the students in the program will have tuition support fro
 
 More information will be posted soon. Please contact MS ML program director [Dr. Durant](/) with any questions.
 
+# [University Website: MSOE M.S. in Machine Learning](https://www.msoe.edu/academics/graduate-degrees/m-s-in-in-machine-learning/)
+
 # Admissions Pathways
 
 ## Dual Enrollment with Bachelor's Degree
