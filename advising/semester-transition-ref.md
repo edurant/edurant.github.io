@@ -65,6 +65,18 @@ PHY3700 | Physics of Electronic Materials and Semiconductor Devices | 3-2-4 | (P
 
 Elective labels tagged with NONE are electives your advisor removed from the term as they balanced your course work.
 
+# Common Freshman Variations
+
+## F22 Freshmen Starting in MA120
+
+In 2022, freshmen who start the math sequence in MA120 in fall will take MA120-MA136-MA137 on quarters. In fall of 2023 they will take MTH2980T, a special transition course.
+
+## CS1011 Not Finished In F22
+
+For students who don't take or pass CS1011 in fall, 2022, there are two options:
+* Take CS1011/1021/2852 in winter/spring/summer. Summer classes are usually not covered by scholarships; check with financial aid for details.
+* Take CS1011/1021/CSC1120 in winter/spring/fall.
+
 # Planned Offerings
 
 ## Summer
@@ -102,10 +114,6 @@ Please note that EE2050 alone will not "count" for the first circuits course, EL
 # Semester Academic Catalog
 
 The updated academic catalog for 2023-24 will be published in January, 2023. Until it is published, you may need to check with your advisor with for certain questions (e.g., what are the exact prerequisites of new semester course) that you would normally look to the catalog for.
-
-# F22 Freshmen Starting in MA120
-
-In 2022, freshmen who start the math. sequence in MA120 in fall will take MA120-MA136-MA137 on quarters. In fall of 2023 they will take MTH2980T, a special transition course.
 
 # Minors
 
