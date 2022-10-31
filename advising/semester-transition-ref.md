@@ -51,6 +51,7 @@ PHY1110 | Physics I: Mechanics and Thermodynamics | 3-2-4 | B in year of HS phys
 PHY1980T | Physics Transition | 1.33
 PHY1120 | Physics II: Electricity, Magnetism, and Optics | 3-2-4 | MTH1110 &amp; (PHY1110 &#124; PH2011) &amp; coreq MTH1120
 PHY3700 | Physics of Electronic Materials and Semiconductor Devices | 3-2-4 | (PHY1120 &#124; PH2021) &amp; (MTH1120 &#124; MA137)
+SWE2710 | Software Tools and Process | 3-2-4 |  CSC1120 &#124; CS2852
 
 # Special Elective Codes on Transition Plans
 
