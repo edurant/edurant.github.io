@@ -49,7 +49,7 @@ MSOE CS students and graduates replace CSC5610 and MTH5810 with approved electiv
 
 Course | Type | Title | Structure | Offered | Prerequisites
 -- | -- | -- | -- | -- | --
-CSC5120 | Background | Software Development for Machine Learning | 4-0-4 | summer beginning '23 or '24 TBD | CSC1110 &#124; CSC1310 &#124; consent
+CSC5120 | Background | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | CSC1110 &#124; CSC1310 &#124; consent
 CSC5201 | Required | Microservices and Cloud Computing | 4-0-4 | spring | SWE2710 &#124; (CSC3320 &amp; CSC3210) &#124; CPE2600 &#124; consent &#124; …
 CSC5241 | Elective | GPU Programming |
 CSC5601 | Elective | Theory of Machine Learning | 4-0-4 | fall &amp; spring | (MTH2130 &amp; MTH2340 &amp; CSC2610) &#124; consent
@@ -66,6 +66,7 @@ MTH5810 | Background | Mathematical Methods for Machine Learning | 4-0-4 | fall 
 PHL6001 | Required | AI Ethics and Governance | 4-0-4 | summer | None
 
 * Students may not receive credit for CSC5610 if they have completed CSC2611 AI Tools and CSC2621 Intro to Data Science.
+* In summer, 2023, MSOE will be on the quarter system and CSC5120 will be offered as 2, 3-credit classes in consecutive subterms. (3+3 quarter credits) &times; &frac23; = 4 semester credits
 * See [this document](semester-transition-ref.html) for information on undergraduate course numbers.
 
 ## Notes on Terms Offered
