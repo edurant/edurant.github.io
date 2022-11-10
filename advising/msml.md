@@ -47,24 +47,23 @@ MSOE CS students and graduates replace CSC5610 and MTH5810 with approved electiv
 
 # Course Details
 
-Course | Title | Structure | Offered | Prerequisites
--- | -- | -- | -- | --
-CSC5120 | Software Development for Machine Learning | 4-0-4 | summer | CSC1110 &#124; CSC1310 &#124; consent
-CSC5201 | Microservices and Cloud Computing | 4-0-4 | spring | SWE2710 &#124; (CSC3320 &amp; CSC3210) &#124; CPE2600 &#124; consent &#124; …
-CSC5241 | GPU Programming |
-CSC5xxx | Deep Learning in Signal Processing | 4-0-4 | 
-CSC5601 | Theory of Machine Learning | 4-0-4 | fall &amp; spring | (MTH2130 &amp; MTH2340 &amp; CSC2610) &#124; consent
-CSC5610 | AI Tools and Paradigms | 4-0-4 | fall &amp; spring | (MTH2130 &#124; MTH2340 &#124; MTH5810) &amp; (CSC1120 &#124; equivalent) &#124; consent
-CSC5611 | Deep Learning | 4-0-4 | spring | CSC4601 &#124; CSC5601 &#124; CSC6621 &#124; consent
-CSC5980 | Topics in Computer Science | varies
-CSC5981 | Topics in Computer Science with Laboratory | varies
-CSC6605 | Machine Learning Production Systems | 4-0-4 | fall &amp; summer | CSC6621 &#124; CSC4601 &#124; consent
-CSC6621 | Applied Machine Learning | 4-0-4 | spring &amp; summer | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
-CSC6980 | Topics in Computer Science | varies
-CSC6999 | Computer Science Independent Study | varies
-CSC7901 | Machine Learning Capstone | 4-0-4 | all terms | ≤ 1 year to completion
-MTH5810 | Mathematical Methods for Machine Learning | 4-0-4 | fall | Enrolled in MS ML
-PHL6001 | AI Ethics and Governance | 4-0-4 | summer | None
+Course | Type | Title | Structure | Offered | Prerequisites
+-- | -- | -- | -- | -- | --
+CSC5120 | Background | Software Development for Machine Learning | 4-0-4 | summer beginning '23 or '24 TBD | CSC1110 &#124; CSC1310 &#124; consent
+CSC5201 | Required | Microservices and Cloud Computing | 4-0-4 | spring | SWE2710 &#124; (CSC3320 &amp; CSC3210) &#124; CPE2600 &#124; consent &#124; …
+CSC5241 | Elective | GPU Programming |
+CSC5601 | Elective | Theory of Machine Learning | 4-0-4 | fall &amp; spring | (MTH2130 &amp; MTH2340 &amp; CSC2610) &#124; consent
+CSC5610 | Required | AI Tools and Paradigms | 4-0-4 | fall &amp; spring | (MTH2130 &#124; MTH2340 &#124; MTH5810) &amp; (CSC1120 &#124; equivalent) &#124; consent
+CSC5611 | Elective | Deep Learning | 4-0-4 | spring | CSC4601 &#124; CSC5601 &#124; CSC6621 &#124; consent
+CSC5651 | Elective | Deep Learning in Signal Processing | 4-0-4 |
+CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
+CSC6605 | Required | Machine Learning Production Systems | 4-0-4 | fall &amp; summer | CSC6621 &#124; CSC4601 &#124; consent
+CSC6621 | Required | Applied Machine Learning | 4-0-4 | spring &amp; summer | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
+CSC6980 | Elective | Topics in Computer Science | varies
+CSC6999 | Elective | Computer Science Independent Study | varies
+CSC7901 | Required | Machine Learning Capstone | 4-0-4 | all terms | ≤ 1 year to completion
+MTH5810 | Background | Mathematical Methods for Machine Learning | 4-0-4 | fall beginning '24 | Enrolled in MS ML
+PHL6001 | Required | AI Ethics and Governance | 4-0-4 | summer | None
 
 * Students may not receive credit for CSC5610 if they have completed CSC2611 AI Tools and CSC2621 Intro to Data Science.
 * See [this document](semester-transition-ref.html) for information on undergraduate course numbers.
