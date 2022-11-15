@@ -34,8 +34,8 @@ More information will be posted soon. Please contact MS ML program director [Dr.
 ## Direct Admit to MS ML requirements (also apply to [Graduate Certificate in Applied Machine Learning](https://onlineinfo.msoe.edu/machine-learning-certificate/))
 
 * Technical bachelor's degree
-* Programming experience with an object-oriented language. One year of college coursework (culminating in e.g., CS2852, CSC1120, or Undergraduate AI Tools) or equivalent minimum.
-  * Students with only one semester equivalent (similar to CS1021, CSC1110, or CSC1310) will be required to take CSC5120 Software Development for Machine Learning in one of the MS ML elective slots.
+* Programming experience with a modern language such as Python, C#, or Java. One year of college coursework (culminating in e.g., CS2852, CSC1120, or CSC2611) or equivalent minimum.
+  * Students with less experience (similar to CS1021, CSC1110, or CSC1310) will be encouraged to take CSC5120 Software Development for Machine Learning over the summer. This can count as an elective in the Master of Science in Machine Learning.
 * At least a year of differential and integral calculus required. Multivariable calculus or linear algebra preferred.
   * Students who don't have both topics will take MTH5810 Mathematical Methods for Machine Learning in one of the MS ML elective slots.
 
