@@ -8,7 +8,7 @@ This is a new degree offering beginning in the fall of 2023, coinciding with MSO
 
 All courses will be offered online (fully virtual or in classroom with technology enabling remote participation). Nearly all courses will be synchronous. The 4 classes that are part of graduate certificates (see track below) will be offered in the evening.
 
-The program and course information for the 2023-2024 graduate catalog (plus the undergraduate catalog) were approved early in 2022 and will be published by MSOE in early January, 2023.
+The program and course information for the 2023-2024 graduate catalog (plus the undergraduate catalog) were approved early in 2022 and will be published by MSOE on January 6, 2023.
 
 Students who were in the 2021-22 cohort of our applied ML graduate certificate, upon which the core classes in the MS ML are based, were generally working full-time and said that it was better for them to take 1 course at a time instead of 2. So, for the master's degree, that would translate to 3+ years depending on how many summer classes are taken. The program could be done in 2 years or a bit less if someone took 2 courses at a time.
 
