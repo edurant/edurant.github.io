@@ -55,15 +55,15 @@ CSC5241 | Elective | GPU Programming |
 CSC5601 | Elective | Theory of Machine Learning | 4-0-4 | fall &amp; spring | (MTH2130 &amp; MTH2340 &amp; CSC2610) &#124; consent
 CSC5610 | Required | AI Tools and Paradigms | 4-0-4 | fall &amp; spring | (MTH2130 &#124; MTH2340 &#124; MTH5810) &amp; (CSC1120 &#124; equivalent) &#124; consent
 CSC5611 | Elective | Deep Learning | 4-0-4 | spring | CSC4601 &#124; CSC5601 &#124; CSC6621 &#124; consent
-CSC5651 | Elective | Deep Learning in Signal Processing | 4-0-4 |
+CSC5651 | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
 CSC6605 | Required | Machine Learning Production Systems | 4-0-4 | fall &amp; summer | CSC6621 &#124; CSC4601 &#124; consent
 CSC6621 | Required | Applied Machine Learning | 4-0-4 | spring &amp; summer | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
 CSC7901 | Required | Machine Learning Capstone | 4-0-4 | all terms | ≤ 1 year to completion
-MTH5810 | Background | Mathematical Methods for Machine Learning | 4-0-4 | fall beginning '24 | Enrolled in MS ML
-PHL6001 | Required | AI Ethics and Governance | 4-0-4 | summer | None
+MTH5810 | Background | Mathematical Methods for Machine Learning | 4-0-4 | fall beginning &lsquo;24 | Enrolled in MS ML
+PHL6001 | Required | AI Ethics and Governance | 4-0-4 | likely summers beginning &lsquo;24 | None
 
 * Students may not receive credit for CSC5610 if they have completed CSC2611 AI Tools and CSC2621 Intro to Data Science.
 * In summer, 2023, MSOE will be on the quarter system and CSC5120 will be offered as 2, 3-credit classes in consecutive subterms. (3+3 quarter credits) &times; &frac23; = 4 semester credits
