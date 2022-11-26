@@ -1,6 +1,6 @@
 ---
 title: "Dr. Durant: EE-3221 Digital Signal Processing: Syllabus, Winter, 2021–2022"
-date: 2021-11-18 09:20:30 -0600
+date: 2022-11-26 13:06:30 -0600
 ---
 
 This file was last updated on {{page.date}}.
@@ -9,7 +9,9 @@ This file was last updated on {{page.date}}.
 [https://durant.io/](https://durant.io/)
 
 ## Course Outline, Topics, Gradebook, and Homework
-in Canvas at [https://msoe.instructure.com/courses/9248](https://msoe.instructure.com/courses/9248)
+in Canvas at…
+* Winter, 2022&ndash;&lsquo;23: [https://msoe.instructure.com/courses/12007](https://msoe.instructure.com/courses/12007)
+* Winter, 2021&ndash;&lsquo;22: [https://msoe.instructure.com/courses/9248](https://msoe.instructure.com/courses/9248)
 
 ## Course Description and Learning Outcomes
 [https://catalog.msoe.edu/](https://catalog.msoe.edu/)
@@ -42,7 +44,6 @@ course, I recommend that you first check with me and your academic
 advisor. After that, please consult the Registrar's Office for the
 [appropriate form and procedure](https://www.msoe.edu/academics/departments/registrar/).
 
-
 ## Grading
 
 | Area | Weight |
@@ -72,7 +73,7 @@ Lab reports and other assignments must be submitted at or before the specified t
 
 ### Homework
 * Homework will be assigned throughout the quarter and is due as specified.
-* Homework must be done on 8.5 inch by 11 inch “paper” (scanned hardcopy or in a software program such as OneNote) with ≈1 inch margins on all sides - violating this format may result in rejection of the submission. All students may submit in Canvas. In-person students may instead submit hardcopy homework during lab.
+* Homework must be done on 8.5 inch by 11 inch paper (original paper, scanned hardcopy, PDF from software program such as OneNote, etc. are acceptable) with ≈1 inch margins on all sides. Violating this format may result in rejection of the submission. Either in-person submisssion in lab or electronic submission in Canvas is acceptable.
 * Mark each problem number distinctly and clearly.
 
 ## Sources of Academic Help: Class sessions, Office, Canvas, Teams, Email
@@ -120,16 +121,6 @@ to follow-along with classroom examples, or to test designs and run simulations.
 Do not instant message, use Facebook, watch videos, or play games during lecture or laboratory.
 These activities are important parts of modern life but distract other students around you.
 There are more appropriate times for these activities.
-
-
-## COVID-19 Policies
-MSOE is committed to the health, safety, and well-being of all members of our community. In an effort to maintain such an environment, as well as to prevent further spread of COVID-19, students, faculty, staff and guests of the university must wear a facial covering when they are inside university buildings and when they are outdoors on campus and social distancing of at least six feet is not possible.
-
-* Failure to wear a facial covering in class or laboratory will result in your faculty member requiring you to leave class and not return until you have secured a facial covering for yourself.
-* Failure to comply with your faculty member’s instructions will result in immediate action from the Office of the Dean of Students.
-* Failure to comply with this policy will be handled according to the Student Code of Conduct and may result in sanctions, up to and including expulsion.
-* The university strongly encourages all students to keep an extra and clean facial covering on their person at all times and strongly discourages students from borrowing and lending others their facial coverings.
-* If you suspect you are ill, have symptoms of COVID-19, or have possibly been exposed to COVID-19, please contact the Dean of Students Office at deanofstudents@msoe.edu for guidance on testing and self-isolation procedures. Please do not physically come to campus if you are ill or suspect you may be ill. MSOE is committed to your education and will work with you to provide a virtual educational experience until you are cleared to return to campus.
 
 ## Additional Institutional Policies (beyond those linked in the course syllabus in Canvas)
 
