@@ -1,6 +1,6 @@
 ---
-title: "Dr. Durant: EE-3221 Digital Signal Processing: Syllabus, Winter, 2021–2022"
-date: 2022-11-26 13:06:30 -0600
+title: "Dr. Durant: EE-3221 Digital Signal Processing: Syllabus, Winter, 2022–2023"
+date: 2022-11-26 13:09:30 -0600
 ---
 
 This file was last updated on {{page.date}}.
