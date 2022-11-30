@@ -1,4 +1,4 @@
-% Dr. Durant, EE3221, W1D2, 12/2/2021
+% Dr. Durant, EE3221, W1D2, 12/2/2021, updated 11/30/2022
 % Explore the Fourier Series of the sampling impulse train
 % pulseTrain_FS
 
@@ -15,7 +15,7 @@
 % remain in the trigonometric form of the FS, which is expected since the
 % pulse train itself is even. (See Table 5-3, page 206 to review forms of the FS.)
 % a_0 = fs
-% a_k = 2 fs, k>1
+% a_k = 2 fs, k ≥ 1
 
 % Let's show the first several terms of the the FS...
 N = 20; % number of FS terms to show after n=0
