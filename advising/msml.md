@@ -43,27 +43,27 @@ More information will be posted soon. Please contact MS ML program director [Dr.
 
 MSOE CS students and graduates replace CSC5610 and MTH5810 with approved electives.
 
-<img src="msml-2y-1x.png" width="761" height="437" border="0" srcset="msml-2y-1x.png 1x, msml-2y-2x.png 2x, msml-2y-4x.png 4x"/>
+<img src="msml-2y-1x.png" width="748" height="235" border="0" srcset="msml-2y-1x.png 1x, msml-2y-2x.png 2x, msml-2y-4x.png 4x"/>
 
 # Course Details
 
-Course | Type | Title | Structure | Offered | Prerequisites
+Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 -- | -- | -- | -- | -- | --
-CSC5120 | Background | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | CSC1110 &#124; CSC1310 &#124; consent
-CSC5201 | Required | Microservices and Cloud Computing | 4-0-4 | spring | SWE2710 &#124; (CSC3320 &amp; CSC3210) &#124; CPE2600 &#124; consent &#124; …
-CSC5241 | Elective | GPU Programming |
-CSC5601 | Elective | Theory of Machine Learning | 4-0-4 | fall &amp; spring | (MTH2130 &amp; MTH2340 &amp; CSC2610) &#124; consent
-CSC5610 | Required | AI Tools and Paradigms | 4-0-4 | fall &amp; spring | (MTH2130 &#124; MTH2340 &#124; MTH5810) &amp; (CSC1120 &#124; equivalent) &#124; consent
-CSC5611 | Elective | Deep Learning | 4-0-4 | spring | CSC4601 &#124; CSC5601 &#124; CSC6621 &#124; consent
-CSC5651 | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26
+CSC5120 | Background | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | Dr. Magaña | CSC1110 &#124; CSC1310 &#124; consent
+CSC5201 | Required | Microservices and Cloud Computing | 4-0-4 | spring | Dr. Hasker | SWE2710 &#124; (CSC3320 &amp; CSC3210) &#124; CPE2600 &#124; consent &#124; …
+CSC5241 | Elective | GPU Programming | 4-0-4 | | Dr. Berisha
+CSC5601 | Elective | Theory of Machine Learning | 4-0-4 | fall &amp; spring | Dr. Bukowy | (MTH2130 &amp; MTH2340 &amp; CSC2610) &#124; consent
+CSC5610 | Required | AI Tools and Paradigms | 4-0-4 | fall &amp; spring | Dr. Nowling | (MTH2130 &#124; MTH2340 &#124; MTH5810) &amp; (CSC1120 &#124; equivalent) &#124; consent
+CSC5611 | Elective | Deep Learning | 4-0-4 | spring | Dr. Yoder | CSC4601 &#124; CSC5601 &#124; CSC6621 &#124; consent
+CSC5651 | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | Dr. Durant
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
-CSC6605 | Required | Machine Learning Production Systems | 4-0-4 | fall &amp; summer | CSC6621 &#124; CSC4601 &#124; consent
-CSC6621 | Required | Applied Machine Learning | 4-0-4 | spring &amp; summer | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
+CSC6605 | Required | Machine Learning Production Systems | 4-0-4 | fall &amp; summer | Dr. Nowling | CSC6621 &#124; CSC4601 &#124; consent
+CSC6621 | Required | Applied Machine Learning | 4-0-4 | spring &amp; summer | Dr. Nowling | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
-CSC7901 | Required | Machine Learning Capstone | 4-0-4 | all terms | ≤ 1 year to completion
-MTH5810 | Background | Mathematical Methods for Machine Learning | 4-0-4 | fall beginning &lsquo;24 | Enrolled in MS ML
-PHL6001 | Required | AI Ethics and Governance | 4-0-4 | likely summers beginning &lsquo;24 | None
+CSC7901 | Required | Machine Learning Capstone | 4-0-4 | all terms | | ≤ 1 year to completion
+MTH5810 | Background | Mathematical Methods for Machine Learning | 4-0-4 | fall beginning &lsquo;24 | Dr. Armstrong | Enrolled in MS ML
+PHL6001 | Required | AI Ethics and Governance | 4-0-4 | likely summers beginning &lsquo;24 | Dr. McAninch | None
 
 * Students may not receive credit for CSC5610 if they have completed CSC2611 AI Tools and CSC2621 Intro to Data Science.
 * In summer, 2023, MSOE will be on the quarter system and CSC5120 will be offered as 2, 3-credit classes in consecutive subterms. (3+3 quarter credits) &times; &frac23; = 4 semester credits
