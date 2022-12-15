@@ -8,11 +8,11 @@ This is a new degree offering beginning in the fall of 2023, coinciding with MSO
 
 All courses will be offered online (fully virtual or in classroom with technology enabling remote participation). Nearly all courses will be synchronous. The 4 classes that are part of graduate certificates (see track below) will be offered in the evening.
 
-Students who were in the 2021-22 cohort of our applied ML graduate certificate, upon which the core classes in the MS ML are based, were generally working full-time and said that it was better for them to take 1 course at a time instead of 2. So, for the master's degree, that would translate to 3+ years depending on how many summer classes are taken. The program could be done in 2 years or a bit less if someone took 2 courses at a time.
+Students who were in the 2021-22 cohort of our applied ML graduate certificate, upon which the core classes in the MSML are based, were generally working full-time and said that it was better for them to take 1 course at a time instead of 2. So, for the master's degree, that would translate to 3+ years depending on how many summer classes are taken. The program could be done in 2 years or a bit less if someone took 2 courses at a time.
 
 We expect that many of the students in the program will have tuition support from their employers. Depending on the company, taking one course at a time might also be the best path from a financial perspective if the employer has annual limits on tuition support.
 
-More information will be posted soon. Please contact MS ML program director [Dr. Durant](/) with any questions.
+More information will be posted soon. Please contact MSML program director [Dr. Durant](/) with any questions.
 
 # Dual Enrollment with Bachelor's Degree
 The MS can be taken as a 5-year dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees: BME, CE, CS, EE, and SE.
@@ -21,7 +21,7 @@ The MS can be taken as a 5-year dual enrollment program with many MSOE undergrad
 * CE, CS, EE, and SE majors should be able to add the MS as late as their 4th year, but acting sooner when possible is recommended.
 * BMEs generally need to act earlier. BMEs entering in F23 or later should elect the "AI Focus" option and then can generally elect adding the MS as late as fall of the 4th year.
 * BMEs entering before F23 probably need to decide to pursue the MS by the start of year 3 in order to fit the required classes into 5 years.
-* Typically 2 or 3 of the 5000-level MS ML courses can also meet BS program or free elective requirements at the discretion of the BS program.
+* Typically 2 or 3 of the 5000-level MSML courses can also meet BS program or free elective requirements at the discretion of the BS program.
   * CS and CE allow up to 3 of these to count as program or free electives.
   * These courses also count toward full-time undergraduate enrollment and normal undergraduate tuition applies prior to completing the undergraduate degree requirements.
 * As of December, 2022, MSOE is working internally to determine enrollment and scholarship rules for dual enrollment students.
@@ -48,13 +48,13 @@ The MS can be taken as a 5-year dual enrollment program with many MSOE undergrad
 * [Graduate Certificate in Maching Learning](https://onlineinfo.msoe.edu/machine-learning-certificate/)
 * Graduate Certificate in Machine Learning Engineering - offered in fall, 2023; site coming soon
 
-## Direct Admit to MS ML requirements (Graduate Certificate in Applied Machine Learning)
+## Direct Admit to MSML requirements (Graduate Certificate in Applied Machine Learning)
 
 * Technical bachelor's degree
 * Programming experience with a modern language such as Python, C#, or Java. One year of college coursework (culminating in e.g., CS2852, CSC1120, or CSC2611) or equivalent minimum.
   * Students with less experience (similar to CS1021, CSC1110, or CSC1310) will be encouraged to take CSC5120 Software Development for Machine Learning over the summer. This can count as an elective in the Master of Science in Machine Learning.
 * At least a year of differential and integral calculus required. Multivariable calculus or linear algebra preferred.
-  * Students who don't have both topics will take MTH5810 Mathematical Methods for Machine Learning in one of the MS ML elective slots.
+  * Students who don't have both topics will take MTH5810 Mathematical Methods for Machine Learning in one of the MSML elective slots.
 
 # Model 2-year Track
 
@@ -79,7 +79,7 @@ CSC6621 | Required | Applied Machine Learning | 4-0-4 | spring &amp; summer | Dr
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
 CSC7901 | Required | Machine Learning Capstone | 4-0-4 | all terms | | ≤ 1 year to completion
-MTH5810 | Background | Mathematical Methods for Machine Learning | 4-0-4 | fall beginning &lsquo;24 | Dr. Armstrong | Enrolled in MS ML
+MTH5810 | Background | Mathematical Methods for Machine Learning | 4-0-4 | fall beginning &lsquo;24 | Dr. Armstrong | Enrolled in MSML
 PHL6001 | Required | AI Ethics and Governance | 4-0-4 | likely summers beginning &lsquo;24 | Dr. McAninch | None
 
 * Students may not receive credit for CSC5610 if they have completed CSC2611 AI Tools and CSC2621 Intro to Data Science.
@@ -90,4 +90,4 @@ PHL6001 | Required | AI Ethics and Governance | 4-0-4 | likely summers beginning
 
 * Offering information for EECS courses is fairly firm but might change as of October, 2022.
 * Offering information is tentative for non-EECS courses.
-* The goal is to support the 5-year BS+MS combinations listed above plus 3-semester, 2-year, and 4-year options for direct admit MS ML students.
+* The goal is to support the 5-year BS+MS combinations listed above plus 3-semester, 2-year, and 4-year options for direct admit MSML students.
