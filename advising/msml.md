@@ -8,15 +8,11 @@ This is a new degree offering beginning in the fall of 2023, coinciding with MSO
 
 All courses will be offered online (fully virtual or in classroom with technology enabling remote participation). Nearly all courses will be synchronous. The 4 classes that are part of graduate certificates (see track below) will be offered in the evening.
 
-The program and course information for the 2023-2024 graduate catalog (plus the undergraduate catalog) were approved early in 2022 and will be published by MSOE on January 6, 2023.
-
 Students who were in the 2021-22 cohort of our applied ML graduate certificate, upon which the core classes in the MS ML are based, were generally working full-time and said that it was better for them to take 1 course at a time instead of 2. So, for the master's degree, that would translate to 3+ years depending on how many summer classes are taken. The program could be done in 2 years or a bit less if someone took 2 courses at a time.
 
 We expect that many of the students in the program will have tuition support from their employers. Depending on the company, taking one course at a time might also be the best path from a financial perspective if the employer has annual limits on tuition support.
 
 More information will be posted soon. Please contact MS ML program director [Dr. Durant](/) with any questions.
-
-# [University Website: MSOE M.S. in Machine Learning](https://www.msoe.edu/academics/graduate-degrees/m-s-in-in-machine-learning/)
 
 # Admissions Pathways
 
@@ -31,7 +27,26 @@ More information will be posted soon. Please contact MS ML program director [Dr.
   * These courses also count toward full-time undergraduate enrollment and normal undergraduate tuition applies prior to completing the undergraduate degree requirements.
 * As of October, 2022, MSOE is working internally to determine enrollment and scholarship rules for dual enrollment students.
 
-## Direct Admit to MS ML requirements (also apply to [Graduate Certificate in Applied Machine Learning](https://onlineinfo.msoe.edu/machine-learning-certificate/))
+# Official Websites
+
+## Catalog
+
+* https://catalog.msoe.edu/ - will be published January 6, 2023. Select 2023-2024 Graduate Catalog.
+
+## Academics
+* https://www.msoe.edu/academics/graduate-degrees/m-s-in-machine-learning/
+* https://www.msoe.edu/academics/certificates/graduate-certificate-machine-learning/
+
+## Admissions
+* https://online.msoe.edu/
+* https://online.msoe.edu/masters-machine-learning/
+* https://online.msoe.edu/graduate-certificates/machine-learning/
+
+## Landing / Information Request
+* https://onlineinfo.msoe.edu/machine-learning-masters/
+* https://onlineinfo.msoe.edu/machine-learning-certificate/
+
+## Direct Admit to MS ML requirements (Graduate Certificate in Applied Machine Learning)
 
 * Technical bachelor's degree
 * Programming experience with a modern language such as Python, C#, or Java. One year of college coursework (culminating in e.g., CS2852, CSC1120, or CSC2611) or equivalent minimum.
