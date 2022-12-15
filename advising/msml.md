@@ -14,37 +14,39 @@ We expect that many of the students in the program will have tuition support fro
 
 More information will be posted soon. Please contact MS ML program director [Dr. Durant](/) with any questions.
 
-# Admissions Pathways
+# Dual Enrollment with Bachelor's Degree
+The MS can be taken as a 5-year dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees: BME, CE, CS, EE, and SE.
 
-## Dual Enrollment with Bachelor's Degree
-* The MS can be taken as a 5-year dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees: BME, CE, CS, EE, and SE.
-* The likely tracks for CS and EE will require one summer course before (EE) or after (CS) year 4.
+* Some tracks require or more summer courses.
 * CE, CS, EE, and SE majors should be able to add the MS as late as their 4th year, but acting sooner when possible is recommended.
 * BMEs generally need to act earlier. BMEs entering in F23 or later should elect the "AI Focus" option and then can generally elect adding the MS as late as fall of the 4th year.
 * BMEs entering before F23 probably need to decide to pursue the MS by the start of year 3 in order to fit the required classes into 5 years.
 * Typically 2 or 3 of the 5000-level MS ML courses can also meet BS program or free elective requirements at the discretion of the BS program.
   * CS and CE allow up to 3 of these to count as program or free electives.
   * These courses also count toward full-time undergraduate enrollment and normal undergraduate tuition applies prior to completing the undergraduate degree requirements.
-* As of October, 2022, MSOE is working internally to determine enrollment and scholarship rules for dual enrollment students.
+* As of December, 2022, MSOE is working internally to determine enrollment and scholarship rules for dual enrollment students.
 
 # Official Websites
 
 ## Catalog
 
-* https://catalog.msoe.edu/ - will be published January 6, 2023. Select 2023-2024 Graduate Catalog.
+* [https://catalog.msoe.edu/](https://catalog.msoe.edu/) - will be published January 6, 2023. Select 2023-2024 Graduate Catalog.
 
 ## Academics
-* https://www.msoe.edu/academics/graduate-degrees/m-s-in-machine-learning/
-* https://www.msoe.edu/academics/certificates/graduate-certificate-machine-learning/
+* [MS in Machine Learning](https://www.msoe.edu/academics/graduate-degrees/m-s-in-machine-learning/)
+* [Graduate Certificate in Machine Learning](https://www.msoe.edu/academics/certificates/graduate-certificate-machine-learning/)
+* Graduate Certificate in Machine Learning Engineering - offered in fall, 2023; site coming soon
 
 ## Admissions
-* https://online.msoe.edu/
-* https://online.msoe.edu/masters-machine-learning/
-* https://online.msoe.edu/graduate-certificates/machine-learning/
+* [Maching Learning Programs](https://online.msoe.edu/)
+* [MS in Machine Learning](https://online.msoe.edu/masters-machine-learning/)
+* [Graduate Certificate in Machine Learning](https://online.msoe.edu/graduate-certificates/machine-learning/)
+* Graduate Certificate in Machine Learning Engineering - offered in fall, 2023; site coming soon
 
 ## Landing / Information Request
-* https://onlineinfo.msoe.edu/machine-learning-masters/
-* https://onlineinfo.msoe.edu/machine-learning-certificate/
+* [MS in Machine Learning](https://onlineinfo.msoe.edu/machine-learning-masters/)
+* [Graduate Certificate in Maching Learning](https://onlineinfo.msoe.edu/machine-learning-certificate/)
+* Graduate Certificate in Machine Learning Engineering - offered in fall, 2023; site coming soon
 
 ## Direct Admit to MS ML requirements (Graduate Certificate in Applied Machine Learning)
 
