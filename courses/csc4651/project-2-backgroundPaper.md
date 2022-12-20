@@ -1,5 +1,5 @@
----
-title: "CS4981 Deep Learning In Signal Processing: Project Milestone 2: Background Paper"
+﻿---
+title: "CSC4651/5651 Deep Learning In Signal Processing: Project Milestone 2: Background Paper"
 ---
 
 This page describes the second of six project milestones and is due at the end of week 5.

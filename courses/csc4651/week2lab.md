@@ -1,5 +1,5 @@
 ---
-title: "CS4981 Deep Learning In Signal Processing: Week 2 Lab"
+title: "CSC4651/5651 Deep Learning In Signal Processing: Week 2 Lab"
 ---
 
 The Week 2 Lab has two options, depending on your previous experience with machine learning.

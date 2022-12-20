@@ -1,5 +1,5 @@
----
-title: "CS4981 Deep Learning In Signal Processing: Project Milestone 1: Topic Selection and References"
+﻿---
+title: "CSC4651/5651 Deep Learning In Signal Processing: Project Milestone 1: Topic Selection and References"
 ---
 
 This page describes the first of six project milestones and is due at the end of week 3.

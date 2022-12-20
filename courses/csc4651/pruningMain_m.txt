@@ -1,10 +1,10 @@
 % Dr. Durant Week 3 Lab Example, Pruning example based on:
 % https://www.mathworks.com/help/deeplearning/ug/parameter-pruning-and-quantization-of-image-classification-network.html
-% 2022-03-24, CS4981
+% 2022-03-24, CSC4651/5651
 
 format compact % skip fewer lines to fit more output in console
 
-% Adapted to work with CS4981 week 2 lab network
+% Adapted to work with CSC4651/5651 week 2 lab network
 
 load hill_valley_alexSuccess.mat % get successful network in memory as trainedNetwork_1 (default name)
 

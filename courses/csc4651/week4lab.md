@@ -1,5 +1,5 @@
 ---
-title: "CS4981 Deep Learning In Signal Processing: Week 4 Lab"
+title: "CSC4651/5651 Deep Learning In Signal Processing: Week 4 Lab"
 ---
 
 ## Overview

@@ -1,5 +1,5 @@
----
-title: "CS4981 Deep Learning In Signal Processing: Project Milestone 6: Final Results"
+﻿---
+title: "CSC4651/5651 Deep Learning In Signal Processing: Project Milestone 6: Final Results"
 ---
 
 This page describes the final milestone out of six and is due at the end of week 10.

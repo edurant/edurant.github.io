@@ -36,7 +36,7 @@ This elective course provides an overview of deep learning methods and models as
 
 ## Toolset
 
-Rosie is MSOE's high performance supercomputer, which we will be using in this class. Please find the user's guide [here](https://msoe.dev/).
+Rosie is MSOE's high performance supercomputer, which we will be using in this class. Please see the [Rosie User Guide](https://docs.hpc.msoe.edu/).
 
 We will use MATLAB's Deep Learning Toolbox running on Rosie for this class. The course does not assume knowledge of MATLAB or Python, etc.
 

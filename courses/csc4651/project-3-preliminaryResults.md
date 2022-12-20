@@ -1,5 +1,5 @@
----
-title: "CS4981 Deep Learning In Signal Processing: Project Milestone 3: Preliminary Results"
+﻿---
+title: "CSC4651/5651 Deep Learning In Signal Processing: Project Milestone 3: Preliminary Results"
 ---
 
 This page describes the third of six project milestones and is due at the end of week 6.
