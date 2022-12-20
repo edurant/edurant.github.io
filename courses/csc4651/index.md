@@ -1,20 +1,36 @@
 ---
-title: "Dr. Durant: CS-4981 Deep Learning in Signal Processing"
+title: "Dr. Durant: CSC4651/5651 Deep Learning in Signal Processing"
 ---
-
-* Majors: BME, CE, CS, EE, and SE
-* Prerequisites: (MA383 or BE2200) and (CS2040 or CS3210 or EE3221)
-* Structure: 2-2-3
 
 ## Overview
 
 This elective course provides an overview of deep learning methods and models as used in digital signal processing (DSP), including key DSP concepts that appear in and adjacent to such models in both real-time and off-line applications. Key topics include training pipelines, loss functions including perceptual losses, confusion matrices and performance metrics, convolutional layers of various dimensions used on both time series and time-frequency representations of data, dropout, principal components analysis, autoencoders, various types of RNNs, common network architectures, mitigation of overfitting, frequency response, discrete Fourier transforms, spectrograms and windowing, and perfect reconstruction. Topics of student interest will be addressed by special lecture topics and course projects. Laboratory exercises include several weeks of guided exercises and culimnate with a term project.
 
+### CSC4651 (Undergraduate) Details
+* Majors: BME, CE, CS, EE, and SE
+* Structure: 2-2-3
+* Scheduled times overlap with graduate version. Students may participate online instead of in-person if they prefer.
+
+### CSC5651 (Graduate) Details
+* Majors: MSML, MSE
+* Structure: 4-0-4, online synchronous
+* Scheduled times overlap with undergraduate version. Students may participate in-person instead of online if they prefer.
+
+Graduate students enrolled in the course will prepare critical summaries of published research papers in addition to meeting the requirements of the undergraduate course. Milestones of these summaries will include regular reviews and feedback from the faculty member and presentations to the class.
+
+### Prerequisites
+1 from each category:
+* MTH5810 or MTH2340 or MTH2130 or MA383 or BE2200
+* CSC5610 or ELE3320 or CSC3310 or CSC2621 or CS2040 or CS3210 or EE3221
+
+Instructor consent will be given for students with other appropriate background from transfer credit and other MSOE courses.
+
 ## Course in Canvas
 * [Fall, 2022](https://msoe.instructure.com/courses/10863)
 * [Spring, 2022](https://msoe.instructure.com/courses/10080)
+* Fall, 2023: Not yet available
 
-## [Course Outline and Grading (PDF)](outline.pdf)
+## [Course Outline and Grading (PDF), Quarter Version](outline.pdf)
 
 ## [General Course Policies](../policies.html)
 
@@ -68,7 +84,7 @@ This method forwards the GUI calls from your node on Rosie, through a Roise mana
 1. ssh into a Rosie management node (dh-mgmtN.hpc.msoe.edu, where N is between 1 and 4.).
    * Use -X (capital), or the equivalent option in your ssh client, to enable X11 forwarding.
    * Use -C (capital), or the equivalent option in your ssh client, to enable compression.
-1. `srun --time=01:00:00 --pty --partition=teaching --gres=gpu:t4:1 --x11 singularity exec --nv /data/containers/matlab-r2022a.sif bash`, set to more than 1 hour if needed
+1. `srun --time=04:00:00 --pty --partition=teaching --gres=gpu:t4:1 --x11 singularity exec --nv /data/containers/matlab-r2022a.sif bash`, set to more than 4 hours if needed
 1. `matlab&`
 
 ### Get MATLAB License File
@@ -80,7 +96,7 @@ You should complete these steps directly on your laptop using Chrome. This does 
 These instructions are adapted from [this MathWorks Central post](https://www.mathworks.com/matlabcentral/answers/235126-how-do-i-generate-a-matlab-license-file#answer_190013).
 
 1. Go to the [License Center](https://www.mathworks.com/licensecenter/licenses)
-1. Log into (or create) your MathWorks Account if you are not already logged in
+1. Log into (or create) your MathWorks Account with your @msoe.edu address if you are not already logged in
 1. Select your license number from the list. If you don't see your license, use the links in the upper left hand corner to toggle between Licenses, Trials, and Prereleases
 1. Select the "Install and Activate" tab
 1. Click the "Activate to Retrieve License File" link under "Related Tasks" on the right side of the page.
