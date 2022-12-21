@@ -1,4 +1,4 @@
----
+﻿---
 title: "Master of Science in Machine Learning"
 ---
 
@@ -91,3 +91,18 @@ PHL6001 | Required | AI Ethics and Governance | 4-0-4 | likely summers beginning
 * Offering information for EECS courses is fairly firm but might change as of October, 2022.
 * Offering information is tentative for non-EECS courses.
 * The goal is to support the 5-year BS+MS combinations listed above plus 3-semester, 2-year, and 4-year options for direct admit MSML students.
+
+## Tentative Offerings and Faculty Assignments
+* Summer, 2023
+  * CSC5120: Dr. Magaña
+* Fall, 2023
+  * CSC5610: Dr. Nowling
+  * CSC5651: Dr. Durant
+  * CSC6605: Dr. Nowling
+* Spring, 2024
+  * CSC5201: Dr. Hasker
+  * CSC5241: Dr. Berisha
+  * CSC5601: TBD
+  * CSC5610: TBD
+  * CSC5611: TBD
+  * CSC6621: Dr. Berisha
