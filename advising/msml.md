@@ -60,7 +60,7 @@ The MS can be taken as a 5-year dual enrollment program with many MSOE undergrad
 
 MSOE CS students and graduates replace CSC5610 and MTH5810 with approved electives.
 
-<img src="msml-2y-1x.png" width="752" height="239" border="0" srcset="msml-2y-1x.png 1x, msml-2y-2x.png 2x, msml-2y-4x.png 4x"/>
+<img src="msml-2y-1x.png" width="749" height="248" border="0" srcset="msml-2y-1x.png 1x, msml-2y-2x.png 2x, msml-2y-4x.png 4x"/>
 
 # Course Details
 
