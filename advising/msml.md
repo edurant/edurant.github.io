@@ -56,11 +56,17 @@ The MS can be taken as a 5-year dual enrollment program with many MSOE undergrad
 * At least a year of differential and integral calculus required. Multivariable calculus or linear algebra preferred.
   * Students who don't have both topics will take MTH5810 Mathematical Methods for Machine Learning in one of the MSML elective slots.
 
-# Model 2-year Track
+# Model Tracks
+
+## 2-year Model Track
+
+<img src="msml-2y-1x.png" width="749" height="248" border="0" srcset="msml-2y-1x.png 1x, msml-2y-2x.png 2x, msml-2y-4x.png 4x"/>
 
 MSOE CS students and graduates replace CSC5610 and MTH5810 with approved electives.
 
-<img src="msml-2y-1x.png" width="749" height="248" border="0" srcset="msml-2y-1x.png 1x, msml-2y-2x.png 2x, msml-2y-4x.png 4x"/>
+## [4+1 Model Track with CS](https://csse.msoe.us/csml/)
+
+## [4+1 Model Track with SE](https://csse.msoe.us/seml/)
 
 # Course Details
 
