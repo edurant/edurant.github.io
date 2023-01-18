@@ -143,32 +143,30 @@ Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas
 ## Additional Readings
 ### 2017&ndash;18
 
-* Harris, Fredric J. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1455106">On the Use of Windows for Harmonic Analysis with the Discrete Fourier Transform</a>, *Proc. IEEE*, 1978-01.
+* Harris, Fredric J. <a href="https://ieeexplore.ieee.org/document/1455106/?arnumber=1455106">On the Use of Windows for Harmonic Analysis with the Discrete Fourier Transform</a>, *Proc. IEEE*, 1978-01.
 * Montgomery, Chris. <a href="https://people.xiph.org/~xiphmont/demo/neil-young.html">24/192 Music Downloads ...and why they make no sense</a>, *xiph.org*, 2014-03-15.
 
 ### Older Readings
 
-* Amend, James M. <a href="http://wardsauto.com/vehicles-technology/gm-reveals-investment-fuel-saving-powertrain-startup">GM Reveals Investment in Fuel-Saving Powertrain Startup</a>,
-	*WardsAuto*, 2015 January 5.
-* Chen, C. et al. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7736177">Indoor Global Positioning System with Centimeter Accuracy Using Wi&ndash;Fi</a>, *IEEE Signal Processing Magazine* 2016-11.
-* Chernock, R. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7366687">Next-Generation Broadcast Television: ATSC 3.0</a>, *IEEE Signal Processing Magazine* 2016-01.
-* Demolder, Damien. <a href="http://www.dpreview.com/articles/2914705706/mit-algorithm-aims-to-eradicate-reflections-from-photos-taken-through-windows">MIT algorithm aims to eradicate reflections from photos taken through windows</a>, *DPReview*, 2015 May 14.
-* Edwards, John. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6784045">Signal Processing Leads a Photographic and Imaging Revolution</a>, *IEEE Signal Processing Magazine*, May 2014.
-* Hansen, John. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7298570">Speaker Recognition by Machines and Humans: A tutorial review</a>, *IEEE Signal Processing Magazine*, November 2015.
-* Maxfield, Max. <a href="http://www.eetimes.com/document.asp?doc_id=1326420">Cadence Tensilica Fusion DSP Core Targets IoT, Wearables</a>, *EE Times*, 2015-04-22.
-* Moore, Samuel K. <a href="http://spectrum.ieee.org/computing/hardware/new-class-of-digital-signal-processor-wipes-out-wasted-power">New Class of Digital Signal Processor Wipes Out Wasted Power</a>,
+* Chen, C. et al. <a href="https://ieeexplore.ieee.org/document/7736177/?arnumber=7736177">Indoor Global Positioning System with Centimeter Accuracy Using Wi&ndash;Fi</a>, *IEEE Signal Processing Magazine* 2016-11.
+* Chernock, R. <a href="https://ieeexplore.ieee.org/document/7366687/?arnumber=7366687">Next-Generation Broadcast Television: ATSC 3.0</a>, *IEEE Signal Processing Magazine* 2016-01.
+* Demolder, Damien. <a href="https://www.dpreview.com/articles/2914705706/mit-algorithm-aims-to-eradicate-reflections-from-photos-taken-through-windows">MIT algorithm aims to eradicate reflections from photos taken through windows</a>, *DPReview*, 2015 May 14.
+* Edwards, John. <a href="https://ieeexplore.ieee.org/document/6784045/?arnumber=6784045">Signal Processing Leads a Photographic and Imaging Revolution</a>, *IEEE Signal Processing Magazine*, May 2014.
+* Hansen, John. <a href="https://ieeexplore.ieee.org/document/7298570/?arnumber=7298570">Speaker Recognition by Machines and Humans: A tutorial review</a>, *IEEE Signal Processing Magazine*, November 2015.
+* Maxfield, Max. <a href="https://www.eetimes.com/cadence-tensilica-fusion-dsp-core-targets-iot-wearables/">Cadence Tensilica Fusion DSP Core Targets IoT, Wearables</a>, *EE Times*, 2015-04-22.
+* Moore, Samuel K. <a href="https://spectrum.ieee.org/new-class-of-digital-signal-processor-wipes-out-wasted-power">New Class of Digital Signal Processor Wipes Out Wasted Power</a>,
 	*IEEE Spectrum*, 2008 November.
 * Pickering, Paul. <a href="http://electronicdesign.com/systems/how-get-big-sounds-small-speakers">How To Get Big Sounds From Small Speakers</a>, *Electronic Design*, 2016 February 16.
-* Quain, John R. <a href="http://www.nytimes.com/2016/11/11/automobiles/autoreviews/giving-todays-car-a-well-tuned-interior.html">Giving Today’s Car a Well-Tuned Interior</a>,
+* Quain, John R. <a href="https://www.nytimes.com/2016/11/11/automobiles/autoreviews/giving-todays-car-a-well-tuned-interior.html">Giving Today’s Car a Well-Tuned Interior</a>,
 	*The New York Times*, 2016 November 10.
-* Schneider, David. <a href="http://spectrum.ieee.org/computing/hardware/could-supercomputing-turn-to-signal-processors-again/">Could Supercomputing Turn to Signal Processors (Again)?</a>,
+* Schneider, David. <a href="https://spectrum.ieee.org/could-supercomputing-turn-to-signal-processors-again">Could Supercomputing Turn to Signal Processors (Again)?</a>,
 	*IEEE Spectrum*, 2012 September 25.
-* Shiung, David, et al. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7368237">Cascading Tricks for Designing Composite Filters with Sharp Transition Bands</a>,
+* Shiung, David, et al. <a href="https://ieeexplore.ieee.org/document/7368237/?arnumber=7368237">Cascading Tricks for Designing Composite Filters with Sharp Transition Bands</a>,
 	*IEEE Signal Processing Magazine*, 2016 January.
 * Solomon, Brett. <a href="http://www.technologytell.com/in-car-tech/11672/hear-whatchalike-harmans-isz-individual-sound-zones-technology/">Hear what you like with Harman Individual Sound Zones</a>,
 	*Technology Tell Car Tech*, 2015 January 24.
-* Wang, DeLiang. <a href="http://spectrum.ieee.org/consumer-electronics/audiovideo/deep-learning-reinvents-the-hearing-aid">Deep Learning Reinvents the Hearing Aid</a>, *IEEE Spectrum*, 6 December 2016.
-* ___. <a href="http://www.bdti.com/InsideDSP/2013/10/23/SingularComputing">Imperfect Processing: A Functionally Feasible (and Fiscally Attractive) Option, Says Singular Computing</a>
+* Wang, DeLiang. <a href="https://spectrum.ieee.org/deep-learning-reinvents-the-hearing-aid">Deep Learning Reinvents the Hearing Aid</a>, *IEEE Spectrum*, 6 December 2016.
+* ___. <a href="https://www.bdti.com/InsideDSP/2013/10/23/SingularComputing">Imperfect Processing: A Functionally Feasible (and Fiscally Attractive) Option, Says Singular Computing</a>
 	<a href="2013-10-22articleImperfectProcessing.pdf">(printable)</a>, *BDTi: Inside DSP*, 22 October 2013.
 
 ## <a href="outline-w1718.pdf">Old (2017-18) outline and reading assignments</a>
