@@ -2,7 +2,7 @@
 title: "Letters of Recommendation, and References"
 ---
 
-In most cases, I will be glad to help you (students and recent alumni) by writing a letter of recommendation (often required for graduate school and competitive scholarships and internships) or acting as a reference (often required for internships and permanent positions). When choosing which faculty to ask, keep in mind that the more positive experiences we have with your hard work, attitude, and success the stronger the letter or reference we can provide. These experiences come through classes, advising, volunteering, incidental encounters, etc. Once I agree to write a letter or act as a reference for you, I will need a completed copy of <a href="http://www.msoe.edu/campus-life/wp-content/uploads/sites/5/2017/06/Student-Reference-Request.pdf">this form</a>, preferably emailed as a scanned image, PDF preferred, with your written signature.
+In most cases, I will be glad to help you (students and recent alumni) by writing a letter of recommendation (often required for graduate school and competitive scholarships and internships) or acting as a reference (often required for internships and permanent positions). When choosing which faculty to ask, keep in mind that the more positive experiences we have with your hard work, attitude, and success the stronger the letter or reference we can provide. These experiences come through classes, advising, volunteering, incidental encounters, etc. Once I agree to write a letter or act as a reference for you, I will need a completed copy of <a href="https://s3.amazonaws.com/msoe/files/resources/student-reference-request.pdf">this form</a>, preferably emailed as a scanned image, PDF preferred, with your written signature.
 
 ## Letters of Recommendation
 
@@ -11,7 +11,7 @@ A good letter of recommendation takes 1-2 hours to write and submit, but I will 
  * Your resume
  * A list of all classes you have taken with me
  * A list of your key volunteer activities, etc., highlighting any that you worked with me on
- * <a href="http://www.insidehighered.com/blogs/gradhacker/writing-your-statement-purpose">Statement of purpose</a>, etc., if required by the application
+ * <a href="https://www.insidehighered.com/blogs/gradhacker/writing-your-statement-purpose">Statement of purpose</a>, etc., if required by the application
 
 It is traditional for letters of recommendation to be private between the author and the addressee.  This encourages utmost candor, increasing the credibility of the letter. FERPA legislation makes such letters on behalf of students and alumni not subject to this traditional privacy.  If your letter is addressed to an academic-affiliated institution (most are), you will be asked if you wish to waive your FERPA right in favor of tradition.  Your decision is communicated to the writer.  Please waive this right; I require it for all letters that I write.
 

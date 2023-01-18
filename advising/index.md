@@ -1,6 +1,6 @@
 ---
 title: "CE Academic Advising"
-date: 2022-09-28 11:40:30 -0600
+date: 2023-01-18 16:05:30 -0600
 ---
 
 ## Advising policy
@@ -72,16 +72,16 @@ After your registration time, you may request entry into a closed section; every
 * <a href="https://www.msoe.edu/academics/departments/registrar/independent-study-and-closed-section/">Policies for each department</a>
 
 ## Forms
-Forms for declaring a minor, changing/adding a major, etc., are available on the <a href="https://www.msoe.edu/campus-life/student-resources/registrar/">Registrar's website</a>.
+Forms for declaring a minor, changing/adding a major, etc., are available on the <a href="https://www.msoe.edu/academics/departments/registrar/#Student+Forms">Registrar's website</a>.
 
 ## Two-degree Tracks
 Two-degree tracks exist for CE in combination with CS, EE and SE. These tracks are laid out for 5 years, but students have accelerated the course sequence and finished in one or two quarters beyond 4 years. Please see your advisor or program director for more information.
 
 ## Internship and Job Search Resources
 * Talk with your faculty and advisor
-* [MSOE Career Services](http://www.msoe.edu/explore-your-future/career-services/), including the Handshake system and annual Career Fair
-* "[Ask the Headhunter](http://www.pbs.org/newshour/author/ncorcodilos/)" series by Nick Corcodilos on the *PBS NewsHour*
-* "[The Workologist](http://www.nytimes.com/column/workologist)" column by Rob Walker at the *New York Times*
+* [MSOE Career Connection Center](https://www.msoe.edu/the-msoe-advantage/career-connections-center/), including the Handshake system and annual Career Fair
+* "[Ask the Headhunter](https://www.pbs.org/newshour/author/ncorcodilos)" series by Nick Corcodilos on the *PBS NewsHour*
+* "[The Workologist](https://www.nytimes.com/column/workologist)" column by Rob Walker at the *New York Times*
 
 ## Research and Graduate School Preparation
 
