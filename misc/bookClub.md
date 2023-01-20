@@ -7,7 +7,7 @@ date: 2023-01-20 13:16:30 -0600
 * Selection TBD for Asian Pacific American Heritage Month, discussed on 2023-05-TBD.
 * [A Beginner's Guide to America: For the Immigrant and the Curious](https://bookshop.org/books/a-beginner-s-guide-to-america-for-the-immigrant-and-the-curious/9780525656067), by Roya Hakakian, discussed on 2023-04-TBD.
 * Selection TBD for International Women's Day, 2023-03-TBD.
-* [A Confederacy of Dunces](https://bookshop.org/books/a-confederacy-of-dunces-9780802130204), by Michael O’Toole, discussed on 2023-02-TBD.
+* [A Confederacy of Dunces](https://bookshop.org/books/a-confederacy-of-dunces-9780802130204), by John Kennedy Toole, discussed on 2023-02-TBD.
 * [The Icepick Surgeon: Murder, Fraud, Sabotage, Piracy, and Other Dastardly Deeds Perpetrated in the Name of Science](https://bookshop.org/p/books/the-icepick-surgeon-murder-fraud-sabotage-piracy-and-other-dastardly-deeds-perpetrated-in-the-name-of-science-sam-kean/15723245?ean=9780316496513), by Sam Kean, discussed on 2023-01-31.
 * [Braiding Sweetgrass](https://bookshop.org/books/braiding-sweetgrass-3e12996d-ea04-4dd2-b9a9-04cfd82f361f/9781571313560), by Robin Wall Kimmerer, discussed on 2022-12-14.
 * [Denial](https://bookshop.org/books/denial-9781982181833), by Jon Raymond, discussed on 2022-11-16.
