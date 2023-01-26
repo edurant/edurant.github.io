@@ -1,4 +1,4 @@
----
+﻿---
 title: "CE Academic Advising: Dr. Durant"
 ---
 
@@ -25,25 +25,17 @@ General CE advising information, including what you need to bring to your advisi
 ## Advising times
 
 * Week 7 Times
-  * Monday 10/17: (no times available, on ABET visit)
-  * Tuesday 10/18: (no times available, on ABET visit)
-  * Wednesday 10/19: 4:00-5:30 PM
-  * Thursday 10/20: 1:00-4:30 PM
-  * Friday 10/21: 1:00-2:45 PM
+  * Friday 1/27: 10–11:45 AM, 2:30–3:30 PM
 
 * Week 8 Times
-  * Monday 10/24: 9:30-10:45 AM
-  * Tuesday 10/25: 9:30-10:45 AM
-  * Wednesday 10/26: 9:30-10:45 AM, 1:15-2:30 PM
-  * Thursday 10/27: 1:00-4:30 PM
-  * Friday 10/28: 9:30-10:45 AM
+  * Monday 1/30: 9–10 AM, 2–2:15 PM
+  * Tuesday 1/31: 10 AM–12:15 PM, 1–2:15 PM
+  * Wednesday 2/1: 2–3 PM, 4–4:30 PM
+  * Thursday 10/27: (TBD)
+  * Friday 10/28: (TBD)
 
 * Week 9 Times
-  * Monday 10/31: 9:30-10:45 AM
-  * Tuesday 11/1: 9:30-10:45 AM
-  * Wednesday 11/2: 9:30-10:45 AM, 1:15-2:30 PM
-  * Thursday 11/3: 2:00-4:30 PM
-  * Friday 11/4: (no times available, out of town)
+  * (TBD)
 
 * Week 10 Times
-  * Scheduled in extenuating circumstances only. Please sign up during week 7 through week 9, or contact me for alternate times if necessary.
+  * Scheduled in extenuating circumstances only.
