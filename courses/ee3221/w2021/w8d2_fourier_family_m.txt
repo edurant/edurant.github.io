@@ -8,26 +8,28 @@ close all
 N = [4 20]; % fundamental periods of sinusoidal components
 Omega = (2*pi)./N; % fundamental frequencies, radians/sample
 N0 = lcm(N(1), N(2)); % fundamental period of sum of signals
+% Can change N and N0 above. If N0 is not multiple of all N, will illustrate DTFS, etc.
+% for periodic signals that are not clean sinusoid.
 
 n = 0:(N0-1);
 x = cos(Omega(1)*n) + cos(Omega(2)*n);
 plot(n,x,'bo-'), title('x(n)')
 
-% DTFS - signal is periodic
+%% DTFS - signal is periodic
 Omega0 = 2*pi/N0;
 for k = 0:(N0-1)
-    X_FS(k+1) = exp(-1j*Omega0*k*n)*x'; % Riemann sum
+    X_FS(k+1) = exp(-1j*Omega0*k*n)*x';
 end
 figure, plot(Omega0*(0:(N0-1)), abs(X_FS), 'b*-'), grid
 xlabel('Frequency (rad/sample)'),ylabel('Level (V)')
 title('DTFS')
 
-% DTFT
+%% DTFT
 f = 0:0.0002:1; % normalized frequency, (half cycles)/sample
 Omega = pi*f; % digital frequency, radians/sample
 n = 0:length(x)-1;
 for k = 1:length(f)
-    X_FT(k) = exp(-1j*Omega(k)*n)*x'; % Riemann sum
+    X_FT(k) = exp(-1j*Omega(k)*n)*x';
 end
 figure, plot(Omega, abs(X_FT)), grid
 xlabel('Frequency (rad/sample)'),ylabel('Level (V)')
@@ -43,7 +45,7 @@ title('DTFT')
 % is technically not allowed since we don't know the signal is periodic. If
 % we go ahead with the sampling, though, we have the DFT.
 
-% DFT - for periodic signals, the DFT equals the DTFS (except for a
+%% DFT - for periodic signals, the DFT equals the DTFS (except for a
 % constant scaling factor related to signal length in some definitions).
 % Recognizing that the loop for the DTFS is N0 inner products, we can
 % recast this as a matrix multiplication problem...
