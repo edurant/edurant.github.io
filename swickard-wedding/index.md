@@ -1,4 +1,6 @@
-# Eric and Scott's Wedding
+---
+title: "Eric and Scott's Wedding"
+---
 
 Sunday, July 9, 2023 — Milwaukee, WI
 
