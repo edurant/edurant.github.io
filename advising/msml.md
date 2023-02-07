@@ -91,7 +91,7 @@ MTH5810 | Background | Mathematical Methods for Machine Learning | 4-0-4 | fall 
 PHL6001 | Required | AI Ethics and Governance | 4-0-4 | likely summers beginning &lsquo;24 | Dr. McAninch | None
 
 * Students may not receive credit for CSC5610 if they have completed CSC2611 AI Tools and CSC2621 Intro to Data Science.
-* In summer, 2023, MSOE will be on the quarter system and CSC5120 will be offered as 2, 3-credit classes in consecutive subterms. (3+3 quarter credits) &times; &frac23; = 4 semester credits
+* In summer, 2023, MSOE will be on the quarter system and CSC5120 will be offered as CS5980. See the [summer timetable](https://msoe.s3.amazonaws.com/files/resources/2023-q4-schedule-of-classes.pdf) for details; the graduate section is located near the end. It will be offered as 6 quarter credits, which is equivalent to the standard 4 semester credits.
 * See [this document](semester-transition-ref.html) for information on undergraduate course numbers.
 
 ## Notes on Terms Offered
