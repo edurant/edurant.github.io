@@ -64,11 +64,9 @@ The MS can be taken as a 5-year early entry dual enrollment program with many MS
 
 MSOE CS students and graduates replace CSC5610 and MTH5810 with approved electives.
 
-## [4+1 Model Track with CE](https://csse.msoe.us/ceml/)
+## [4+1 Model Tracks—Early Entry](https://csse.msoe.us/mlms/)
 
-## [4+1 Model Track with CS](https://csse.msoe.us/csc/earlyentry/)
-
-## [4+1 Model Track with SE](https://csse.msoe.us/swe/earlyentry/)
+As of 2/14/23, model tracks are published for CE, CS, EE, and SE. A BME model track is being developed.
 
 # Course Details
 
