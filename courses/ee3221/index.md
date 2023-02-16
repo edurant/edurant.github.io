@@ -85,15 +85,16 @@ Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas
 	<a href="q07-w1314-ans.pdf">Quiz 7</a>
 
 ## Sample Exams
-* Final: <a href="final-w2021.pdf">2020-'21</a> <a href="final-w2021-ans.pdf">(solution)</a>
-* Midterm: <a href="midterm-w2021.pdf">2020-'21</a> <a href="midterm-w2021-ans.pdf">(solution)</a>
-* Final: <a href="final-w1617.pdf">2016-'17</a> <a href="final-w1617-ans.pdf">(solution)</a>
-* Final: <a href="final-w1314.pdf">2013-'14</a>
-* Final: <a href="final-w0910.pdf">2009-'10</a>
+* Final: <a href="final-w2122.pdf">2021–’22</a> <a href="final-w2122-ans.pdf">(solution)</a>
+* Final: <a href="final-w2021.pdf">2020–’21</a> <a href="final-w2021-ans.pdf">(solution)</a>
+* Midterm: <a href="midterm-w2021.pdf">2020–’21</a> <a href="midterm-w2021-ans.pdf">(solution)</a>
+* Final: <a href="final-w1617.pdf">2016–’17</a> <a href="final-w1617-ans.pdf">(solution)</a>
+* Final: <a href="final-w1314.pdf">2013–’14</a>
+* Final: <a href="final-w0910.pdf">2009–’10</a>
 
 ## Examples, Mostly MATLAB
 
-### 2020&ndash;'21 / 2021&ndash;'22
+### 2020&ndash;’21 / 2021&ndash;’22
 
 * [W1D2 Pulse Train Fourier Series](w1d2_pulseTrain_FS_m.txt)
 * [W1D3 Aliased Sampling](w2021/w1d3_aliased_sampling_m.txt)
@@ -110,7 +111,7 @@ Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas
 * [W10D2 FIR Design, Window Method](w2021/w10d2_fir_window_m.txt)
 * [W10D3 Oversampling](w2021/w10d3_upsampling_m.txt)
 
-### 2014&ndash;'15
+### 2014&ndash;’15
 
 * <a href="l4ep_m.txt">Lab 4: MATLAB solution to additional problems on linearity and time-invariance</a>
 * <a href="dftFrequencyResolution.pdf">DFT frequency resolution vs. density: detailed example</a>
@@ -119,7 +120,7 @@ Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas
 * <a href="w9exercise.wav">w9exercise.wav</a> for in-class exercise
 * <a href="quantex_m.txt">Quantization noise example</a> and <a href="quantex.xlsx">analysis spreadsheet</a>
 
-### 2013&ndash;'14
+### 2013&ndash;’14
 
 * <a href="p196_m.txt">Page 196 script (MATLAB FFT performance) with my updates and comments</a>
 * <a href="l4p_m.txt">Lab 4: Example of shifting and applying variable scaling to sequences</a>
@@ -178,5 +179,5 @@ Beginning in winter, 2020&ndash;2021, this course will live primarily in [Canvas
 
 ### Older Materials (Winter, 2016&ndash;2017)
 
-Lab 9: <a href="https://faculty-web.msoe.edu/prust/armdsp/">Dr. Prust's FM4 files</a>,
-<a href="https://faculty-web.msoe.edu/prust/c6713dsk/">Dr. Prust's C6713 files</a>
+Lab 9: <a href="https://faculty-web.msoe.edu/prust/armdsp/">Dr. Prust’s FM4 files</a>,
+<a href="https://faculty-web.msoe.edu/prust/c6713dsk/">Dr. Prust’s C6713 files</a>
