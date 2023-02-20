@@ -1,9 +1,9 @@
 ---
 title: "University of Michigan Milwaukee Alumni Book Club Selections"
-date: 2022-10-06 15:00:30 -0500
+date: 2023-02-20 09:32:30 -0600
 ---
 
-* [Chasing the Last Laugh: How Mark Twain Escaped Debt and Disgrace with a Round-The-World Comedy Tour](https://bookshop.org/books/chasing-the-last-laugh-how-mark-twain-escaped-debt-and-disgrace-with-a-round-the-world-comedy-tour/), by Richard Zacks, discussed on 2/2023 (TBD).
+* [Chasing the Last Laugh: How Mark Twain Escaped Debt and Disgrace with a Round-The-World Comedy Tour](https://bookshop.org/books/chasing-the-last-laugh-how-mark-twain-escaped-debt-and-disgrace-with-a-round-the-world-comedy-tour/), by Richard Zacks, date TBD.
 * [Desert Boys: Fiction](https://bookshop.org/books/desert-boys-fiction/), by Chris McCormick, discussed on 11/7/2022.
 * [Plunder: A Memoir of Family Property and Nazi Treasure](https://bookshop.org/books/plunder-a-memoir-of-family-property-and-nazi-treasure-9780358699170), by Menachem Kaiser, discussed on 8/8/2022.
 * [Tomorrow Will Be Better](https://bookshop.org/books/tomorrow-will-be-better/), by Betty Smith, discussed on 2022-05-18.
