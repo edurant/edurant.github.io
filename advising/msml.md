@@ -12,7 +12,9 @@ Students who were in the 2021–22 cohort of our applied ML graduate certificate
 
 We expect that many of the students in the program will have tuition support from their employers. Depending on the company, taking one course at a time might also be the best path from a financial perspective if the employer has annual limits on tuition support.
 
-More information will be posted soon. Please contact MSML program director [Dr. Durant](/) with any questions.
+Note that the MSML program (and our ML graduate certificates) do *not* require letters of recommendation, although they are listed as optional on MSOE's common application. Admission is strictly based on academic background and we personally reach out to applicants as needed to clarify any academic background that may be missing.
+
+Please contact MSML program director [Dr. Durant](/) with any questions.
 
 # Dual Enrollment with Bachelor's Degree
 The MS can be taken as a 5-year early entry dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees: BME, CE, CS, EE, and SE. Students should apply in their junior year (or ASAP for students in their senior year when this policy was announced).
