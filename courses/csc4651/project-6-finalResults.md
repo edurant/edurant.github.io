@@ -2,7 +2,7 @@
 title: "CSC4651/5651 Deep Learning In Signal Processing: Project Milestone 6: Final Results"
 ---
 
-This page describes the final milestone out of six and is due at the end of week 10.
+This page describes the final milestone out of six.
 
 You are encouraged to discuss these items with the professor and other students as you are working on this assignment. I am glad to help you with ideas on any parts that you're finding especially challenging.
 

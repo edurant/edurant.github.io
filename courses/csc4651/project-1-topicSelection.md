@@ -2,11 +2,12 @@
 title: "CSC4651/5651 Deep Learning In Signal Processing: Project Milestone 1: Topic Selection and References"
 ---
 
-This page describes the first of six project milestones and is due at the end of week 3.
+This page describes the first of six project milestones.
 
 For your term project, teams of 2 are recommended. Teams of 3 are allowed if the project has sufficient scope. You may work individually if you prefer. Make only 1 submission per team in Canvas (from any student on the team) and clearly identify the team members on the first page.
 
 All projects must *implement* and *evaluate* a DNN (deep neural network). [MATLAB's Deep Learning Toolbox](https://www.mathworks.com/help/deeplearning/) is recommended, but you may choose another appropriate tool/API if you prefer; [TensorFlow (including Keras)](https://www.tensorflow.org/) and [PyTorch](https://pytorch.org/) are acceptable—please check with the professor before choosing other APIs.
+[audioFlux](https://github.com/libAudioFlux/audioFlux) may be useful if you choose a Python API.
 
 You might expand the scope, especially if you are building on an existing solution; the scope may be adjusted as you research the topic. For example, you may choose to focus on *transfer learning*, *model pruning*, *quantization*, and/or *deployment*.
 
