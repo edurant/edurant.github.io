@@ -17,16 +17,14 @@ Note that the MSML program (and our ML graduate certificates) do *not* require l
 Please contact MSML program director [Dr. Durant](/) with any questions.
 
 # Dual Enrollment with Bachelor's Degree
-The MS can be taken as a 5-year early entry dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees: BME, CE, CS, EE, and SE. Students should apply in their junior year (or ASAP for students in their senior year when this policy was announced).
+The MS can be taken as a 5-year early entry dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees: BME, CE, CS, EE, and SE. Students must apply in their junior year (or ASAP for students in their senior year when this policy was announced), but should let their advisor know of their intent as early as possible.
 
 * Some tracks require one or more summer courses.
-* CE, CS, EE, and SE majors should be able to add the MS as late as their 4th year, but acting sooner when possible is recommended.
-* BMEs generally need to act earlier. BMEs entering in F23 or later should elect the "AI Focus" option and then can generally elect adding the MS as late as fall of the 4th year.
-* BMEs entering before F23 probably need to decide to pursue the MS by the start of year 3 in order to fit the required classes into 5 years.
+* BMEs entering in F23 or later should elect the "AI Focus" option.
 * Typically 2–4 of the 5000-level MSML courses can also meet BS program or free elective requirements at the discretion of the BS program.
   * CS and CE allow up to 3 of these to count as program or free electives.
   * These courses also count toward full-time undergraduate enrollment and normal undergraduate tuition applies prior to completing the undergraduate degree requirements.
-* As of January, 2023, MSOE is working internally to determine tuition for dual enrollment students after earning their BS degree. The goal is that for full-time students who meet GPA requirements, the cost per credit will be similar to their undergraduate cost based on the average MSOE student.
+* Dual enrollment students will receive discounted tuition on their remaining MSML classes after their BS is completed. The per-credit discount is 50% off of the MSML tuition for 2023–'24 and the same discount is planned for future years. There are GPA and full-time / time-to-completion requirements that were recently set and will be published soon. The goal is that the cost per credit will be similar to their undergraduate cost based on the average MSOE student.
 
 # Official Websites
 
@@ -75,7 +73,7 @@ As of 2/14/23, model tracks are published for CE, CS, EE, and SE. A BME model tr
 Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 -- | -- | -- | -- | -- | --
 CSC5120 | Background | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | Dr. Magaña | CSC1110 &#124; CSC1310 &#124; consent
-CSC5201 | Required | Microservices and Cloud Computing | 4-0-4 | spring | Dr. Hasker | SWE2710 &#124; (CSC3320 &amp; CSC3210) &#124; CPE2600 &#124; consent &#124; …
+CSC5201 | Required | Microservices and Cloud Computing | 4-0-4 | spring | Dr. Nowling | SWE2710 &#124; (CSC3320 &amp; CSC3210) &#124; CPE2600 &#124; consent &#124; …
 CSC5241 | Elective | GPU Programming | 4-0-4 | | Dr. Berisha
 CSC5601 | Elective | Theory of Machine Learning | 4-0-4 | spring, 2024 then every fall | Dr. Bukowy | (MTH2130 &amp; MTH2340 &amp; CSC2610) &#124; consent
 [CSC5610](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38207&) | Required | AI Tools and Paradigms | 4-0-4 | fall &amp; spring | Dr. Nowling | (MTH2130 &#124; MTH2340 &#124; MTH5810) &amp; (CSC1120 &#124; equivalent) &#124; consent
@@ -96,7 +94,7 @@ PHL6001 | Required | AI Ethics and Governance | 4-0-4 | likely summers beginning
 
 ## Notes on Terms Offered
 
-* Offering information for EECS courses is fairly firm but might change as of January, 2023.
+* Offering information for EECS courses is fairly firm but might change.
 * Offering information is tentative for non-EECS courses.
 * The goal is to support the 5-year BS+MS combinations listed above plus 3-semester, 2-year, and 4-year options for direct admit MSML students.
 
@@ -108,9 +106,15 @@ PHL6001 | Required | AI Ethics and Governance | 4-0-4 | likely summers beginning
   * CSC5651: Dr. Durant
   * CSC6605: Dr. Nowling
 * Spring, 2024
-  * CSC5201: Dr. Hasker
+  * CSC5201: Dr. Nowling
   * CSC5241: Dr. Berisha
   * CSC5601: TBD
   * CSC5610: TBD
   * CSC5611: TBD
   * CSC6621: Dr. Berisha
+* Summer, 2024
+  * CSC5120: TBD
+* Fall, 2024
+  * …
+  * CSC5980 (Topics: Reinforcement Learning) (*tentative*): Dr. Kedziora
+  * …
