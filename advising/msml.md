@@ -114,6 +114,7 @@ PHL6001 | Required | AI Ethics and Governance | 4-0-4 | likely summers beginning
   * CSC6621: Dr. Berisha
 * Summer, 2024
   * CSC5120: TBD
+  * CSC6605: TBD
 * Fall, 2024
   * …
   * CSC5980 (Topics: Reinforcement Learning) (*tentative*): Dr. Kedziora
