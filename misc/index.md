@@ -2,10 +2,11 @@
 title: "Dr. Durant: Miscellaneous"
 ---
 
+* [Wedding](../swickard-wedding/)
 * [CV](cv.pdf)
-* [CE IAC Homepage](../ceiac/)
 * [MSOE Faculty and Staff Book Club](bookClub.html)
 * [University of Michigan Milwaukee Alumni Book Club](bookClubUmMke.html)
+* [CE IAC Homepage](../ceiac/)
 * [Op Computer on Dr. Hasker's site](https://faculty-web.msoe.edu/hasker/opcomp/)
 * For MSOE Faculty
   * In-service presentation handouts
