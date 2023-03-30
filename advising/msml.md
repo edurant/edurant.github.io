@@ -24,7 +24,8 @@ The MS can be taken as a 5-year early entry dual enrollment program with many MS
 * Typically 2–4 of the 5000-level MSML courses can also meet BS program or free elective requirements at the discretion of the BS program.
   * CS and CE allow up to 3 of these to count as program or free electives.
   * These courses also count toward full-time undergraduate enrollment and normal undergraduate tuition applies prior to completing the undergraduate degree requirements.
-* Dual enrollment students will receive discounted tuition on their remaining MSML classes after their BS is completed. The per-credit discount is 50% off of the MSML tuition for 2023–'24 and the same discount is planned for future years. There are GPA and full-time / time-to-completion requirements that were recently set and will be published soon. The goal is that the cost per credit will be similar to their undergraduate cost based on the average MSOE student.
+
+## [General 4+1 / Early Entry Policies Including Tuition](earlyEntry.html)
 
 # Official Websites
 
