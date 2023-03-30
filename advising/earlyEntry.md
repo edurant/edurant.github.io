@@ -1,3 +1,7 @@
+﻿---
+title: "General 4+1 / Early Entry Policies"
+---
+
 This document summarizes key policies for 4+1 students, who typically begin graduate coursework in their 4th year, earn their undergraduate degree at the end of their 4th year, and complete their master's requirements about 1 year later.
 
 # Early Entry Status
