@@ -55,8 +55,12 @@ In future years:
 
 ## Scenario 1
 
-Early entry student is taking 14 credits of classes that meet UG requirements including 1 course that also meets an MSML requirement. The student is also taking a 4-credit class that meets an MSML requirement but not an UG requirement. In this case the tuition for the semester in AY24 is $23,193 (UG FT) + 4 × $750 (MSML class that doesn’t meet an UG requirement) = $26,193 less any FT UG scholarships, etc.
+*Preliminary answer; this scenario is under review as of 2023-04-04.* An early entry student is taking 14 credits of classes that meet UG requirements including 1 course that also meets an MSML requirement. The student is also taking a 4-credit class that meets an MSML requirement but not an UG requirement. In this case the tuition for the semester in AY24 is $23,193 (UG FT) + 4 × $750 (MSML class that doesn’t meet an UG requirement) = $26,193 less any FT UG scholarships, etc.
 
 ## Scenario 2
 
-Early entry student in final semester has only 11 required UG credits remaining, including an elective that can double-count for the MSML (under the 16-credit limit of graduate classes at UG tuition). The student is also taking a 4-credit class that meets an MSML requirement but not an UG requirement. In this case the tuition for the semester in AY24 is 11 × $1,215 (UG PT) + 4 × $750 (MSML class that doesn’t meet an UG requirement) = $16,365 less any PT/prorated UG scholarships.
+*Preliminary answer; this scenario is under review as of 2023-04-04.* An early entry student in final semester has only 11 required UG credits remaining, including an elective that can double-count for the MSML (under the 16-credit limit of graduate classes at UG tuition). The student is also taking a 4-credit class that meets an MSML requirement but not an UG requirement. In this case the tuition for the semester in AY24 is 11 × $1,215 (UG PT) + 4 × $750 (MSML class that doesn’t meet an UG requirement) = $16,365 less any PT/prorated UG scholarships.
+
+## Scenario 3
+
+A student wants to take both the DS minor and the MSML. However, the minor would fulfil major elective requirements that the student prefers to reserve for the MSML for tuition, financial aid, or other reasons. A student *may* declare that they want their minor courses to be *additional* requirements and not fulfil their UG elective requirements. A student who wishes to do this should first check with their academic advisor and then the student or the advisor will follow-up with the registrar's office, who will inform financial aid if needed.
