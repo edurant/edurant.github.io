@@ -109,7 +109,7 @@ PHL6001 | Required | AI Ethics and Governance | 4-0-4 | likely summers beginning
 * Spring, 2024
   * CSC5201: Dr. Nowling
   * CSC5241: Dr. Berisha
-  * CSC5601: TBD
+  * CSC5601: Dr. Bukowy
   * CSC5610: TBD
   * CSC5611: TBD
   * CSC6621: Dr. Berisha
