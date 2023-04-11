@@ -78,16 +78,17 @@ CSC5201 | Required | Microservices and Cloud Computing | 4-0-4 | spring | Dr. No
 CSC5241 | Elective | GPU Programming | 4-0-4 | | Dr. Berisha
 CSC5601 | Elective | Theory of Machine Learning | 4-0-4 | spring, 2024 then every fall | Dr. Bukowy | (MTH2130 &amp; MTH2340 &amp; CSC2610) &#124; consent
 [CSC5610](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38207&) | Required | AI Tools and Paradigms | 4-0-4 | fall &amp; spring | Dr. Nowling | (MTH2130 &#124; MTH2340 &#124; MTH5810) &amp; (CSC1120 &#124; equivalent) &#124; consent
-CSC5611 | Elective | Deep Learning | 4-0-4 | spring | Dr. Yoder | CSC4601 &#124; CSC5601 &#124; CSC6621 &#124; consent
+CSC5611 | Elective | Deep Learning | 4-0-4 | spring beginning 2025 | Dr. Yoder | CSC4601 &#124; CSC5601 &#124; CSC6621 &#124; consent
 CSC5651 | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | Dr. Durant
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
+CSC598Y | Elective | Applied Deep Learning | 3-2-4 | spring, 2024 (in person) | Dr. Yoder | CSC5610 &amp; linear algebra or multivariable calculus
 CSC6605 | Required | Machine Learning Production Systems | 4-0-4 | fall &amp; summer | Dr. Nowling | CSC6621 &#124; CSC4601 &#124; CSC5601 &#124; consent
 [CSC6621](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38208&) | Required | Applied Machine Learning | 4-0-4 | spring &amp; summer | Dr. Nowling | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
 CSC7901 | Required | Machine Learning Capstone | 4-0-4 | all terms | | ≤ 1 year to completion
 MTH5810 | Background | Mathematical Methods for Machine Learning | 4-0-4 | fall beginning &lsquo;24 | Dr. Armstrong | Enrolled in MSML
-PHL6001 | Required | AI Ethics and Governance | 4-0-4 | likely summers beginning &lsquo;24 | Dr. McAninch | None
+PHL6001 | Required | AI Ethics and Governance | 4-0-4 | summers beginning &lsquo;24 | Dr. McAninch | None
 
 * Students may not receive credit for CSC5610 if they have completed CSC2611 AI Tools and CSC2621 Intro to Data Science.
 * In summer, 2023, MSOE will be on the quarter system and CSC5120 will be offered as CS5980. See the [summer timetable](https://msoe.s3.amazonaws.com/files/resources/2023-q4-schedule-of-classes.pdf) for details; the graduate section is located near the end. It will be offered as 6 quarter credits, which is equivalent to the standard 4 semester credits.
@@ -111,11 +112,12 @@ PHL6001 | Required | AI Ethics and Governance | 4-0-4 | likely summers beginning
   * CSC5241: Dr. Berisha
   * CSC5601: Dr. Bukowy
   * CSC5610: TBD
-  * CSC5611: TBD
+  * CSC598Y: Dr. Yoder (in-person course)
   * CSC6621: Dr. Berisha
 * Summer, 2024
   * CSC5120: TBD
   * CSC6605: TBD
+  * PHL6001: Dr. McAninch (7-week subterm 1)
 * Fall, 2024
   * …
   * CSC5980 (Topics: Reinforcement Learning) (*tentative*): Dr. Kedziora
