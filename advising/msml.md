@@ -40,14 +40,14 @@ The MS can be taken as a 5-year early entry dual enrollment program with many MS
 * Graduate Certificate in Machine Learning Engineering - offered in fall, 2023; site coming soon
 
 ## Admissions
-* [Maching Learning Programs](https://online.msoe.edu/)
+* [Machine Learning Programs](https://online.msoe.edu/)
 * [MS in Machine Learning](https://online.msoe.edu/masters-machine-learning/)
 * [Graduate Certificate in Machine Learning](https://online.msoe.edu/graduate-certificates/machine-learning/)
 * Graduate Certificate in Machine Learning Engineering - offered in fall, 2023; site coming soon
 
 ## Landing / Information Request
 * [MS in Machine Learning](https://onlineinfo.msoe.edu/machine-learning-masters/)
-* [Graduate Certificate in Maching Learning](https://onlineinfo.msoe.edu/machine-learning-certificate/)
+* [Graduate Certificate in Machine Learning](https://onlineinfo.msoe.edu/machine-learning-certificate/)
 * Graduate Certificate in Machine Learning Engineering - offered in fall, 2023; site coming soon
 
 ## Direct Admit to MSML requirements (Graduate Certificate in Applied Machine Learning)
