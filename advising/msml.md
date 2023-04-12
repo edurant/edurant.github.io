@@ -19,11 +19,12 @@ Please contact MSML program director [Dr. Durant](/) with any questions.
 # Dual Enrollment with Bachelor's Degree
 The MS can be taken as a 5-year early entry dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees: BME, CE, CS, EE, and SE. Students must apply while they have junior standing (or ASAP for students who had senior standing when this policy was announced), but should let their advisor know of their intent as early as possible.
 
-* Some tracks require one or more summer courses.
-* BMEs entering in F23 or later should elect the “AI Focus” option.
-* Typically 2–4 of the 5000-level MSML courses can also meet BS program or free elective requirements at the discretion of the BS program.
-  * CS and CE allow up to 3 of these to count as program or free electives.
-  * These courses also count toward full-time undergraduate enrollment and normal undergraduate tuition applies prior to completing the undergraduate degree requirements.
+* One or more summer courses are usually required.
+* BMEs entering in F23 or later should choose the “AI Focus” option.
+* All EECS undergraduate majors allow their free and program elective requirements to be met by MSML courses. Check with your advisor if not in EECS.
+  * MSOE allows a maximum of 16 credits of graduate courses (i.e., 4 MSML courses) to be taken before the BS degree is confered.
+  * MSML courses *meeting an undergraduate requirement* count toward full-time undergraduate enrollment.
+  * Normal undergraduate tuition applies prior to completing the undergraduate degree requirements.
 
 ## [General 4+1 / Early Entry Policies Including Tuition](earlyEntry.html)
 
