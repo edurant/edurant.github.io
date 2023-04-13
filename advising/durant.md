@@ -1,9 +1,9 @@
 ﻿---
-title: "CE Academic Advising: Dr. Durant"
+title: "CPE Academic Advising: Dr. Durant"
 ---
 
-General CE advising information, including what you need to bring to your advising meeting, how to find who your advisor is, and who the CE advisors are, is available on the
-[CE advising information webpage](./).
+General CPE advising information, including what you need to bring to your advising meeting, how to find who your advisor is, and who the CPE advisors are, is available on the
+[CPE advising information webpage](./).
 
 ## Scheduling an advising appointment if I am your advisor
 

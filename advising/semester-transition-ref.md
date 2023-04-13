@@ -1,4 +1,4 @@
----
+﻿---
 title: "Reference: Understanding your Transition Plan"
 ---
 
@@ -61,7 +61,7 @@ SWE2710 | Software Tools and Process | 3-2-4 |  CSC1120 &#124; CS2852
 * ELC PROG – Technical Computer Engineering Program Elective
 * ELC SS – Social Science Course (Anthropology, Economics, Political Science, Psychology, Sociology)
 * PLC HU – Placeholder for an HU course: This is an administrative tool we use to replicate ELC HU.
-* PLC PROG – Placeholder for CE Elective course: This is an administrative tool we use to replicate ELC PROG.
+* PLC PROG – Placeholder for CPE Elective course: This is an administrative tool we use to replicate ELC PROG.
 * PLC SS – Placeholder for an SS course: This is an administrative tool we use to replicate ELC SS.
 
 Elective labels tagged with NONE are electives your advisor removed from the term as they balanced your course work.
@@ -90,7 +90,7 @@ For students who don't take or pass CS1011 in fall, 2022, there are two options:
 
 ## BA3411 in Spring
 
-BA3411 (off track) will run in spring, 2023 in addition to BA3423 (on track). These courses or their semester versions (BUS2411 and BUS3420) are required for all CEs regardless of curriculum version.
+BA3411 (off track) will run in spring, 2023 in addition to BA3423 (on track). These courses or their semester versions (BUS2411 and BUS3420) are required for all CPEs regardless of curriculum version.
 
 ## Circuits
 
@@ -99,13 +99,13 @@ Please note that EE2050 alone will not "count" for the first circuits course, EL
 ### Winter Offerings
 
 * EE2050. Registration will at first be limited to EE students as this is on their transition track.
-* EE2060. Registration will at first be limited to CE students as this is on their track. Note that EE2050+EE2060 will count for ELE2001 in the semester system. Those not taking EE2060 this term will still have the chance to take EE2980 next term for the ELE2001 equivalent.
+* EE2060. Registration will at first be limited to CPE students as this is on their track. Note that EE2050+EE2060 will count for ELE2001 in the semester system. Those not taking EE2060 this term will still have the chance to take EE2980 next term for the ELE2001 equivalent.
 * EE2070. Registration will at first be limited to BME and EE students as this is on their track. Note that completion of EE2070 is required for students to receive equivalent credit for both ELE2001 and ELE2011.
 
 ### Spring Offerings
 
 * EE2980. This 2-2-3 course will cover the remainder of the ELE2001 material beyond what is covered in EE2050. Registration will at first be limited to EE students as this is on their transition track. The course will be taught with MA137 as a strict co-req.
-* EE2070. Registration will at first be limited to CE students as this is on their track.
+* EE2070. Registration will at first be limited to CPE students as this is on their track.
 
 ### Some implications
 
@@ -124,7 +124,7 @@ MSOE and the EECS Department in particular are adding new minors with the switch
 
 (Not available to CS majors.)
 
-For CEs (and other majors that have a year of required software design courses), this minor consists of:
+For CPEs (and other majors that have a year of required software design courses), this minor consists of:
 
 * CSC2611 AI Tools (fall only, 3 credits)
 * CSC2621 Intro to Data Science (every spring, plus fall of 2023, 3 credits)
@@ -132,36 +132,36 @@ For CEs (and other majors that have a year of required software design courses),
 
 These courses must be taken in order, plus CSC4801 has a prerequisite of a statistics course such as MA262 or MTH2480. A practicum is an applied project course.
 
-These classes meet CE program/technical (and free) elective requirements.
+These classes meet CPE program/technical (and free) elective requirements.
 
 ## Electrical Engineering Minor
 
 (Not available to EE majors.)
 
-CEs are already required to take many courses in the EE minor. To earn the minor, CEs follow the rule that they must take at least 6 credits not specifically required for their major. Note that these courses *can* be used to meet the CE program or free elective requirements.
+CPEs are already required to take many courses in the EE minor. To earn the minor, CPEs follow the rule that they must take at least 6 credits not specifically required for their major. Note that these courses *can* be used to meet the CPE program or free elective requirements.
 
 COURSE | TITLE | SEMESTER CREDITS | NOTES
 -- | -- | -- | --
 ELE3111 | Electronics II | 3
 ELE3201 | Electromagnetic Fields | 3
 ELE3211 | Electromagnetic Waves and T-lines | 2
-ELE3310 | Introduction to Probability and Random Processes | 3 | Need to confirm that this can be taken by majors like CE for whom MTH2480 is required.
+ELE3310 | Introduction to Probability and Random Processes | 3 | Need to confirm that this can be taken by majors like CPE for whom MTH2480 is required.
 ELE3401 | Electric Power and Machines | 4
-ELE3510 | Digital Systems | 4 | Need to determine whether this course will be allowed for CEs.
+ELE3510 | Digital Systems | 4 | Need to determine whether this course will be allowed for CPEs.
 ELE3701 | Control Systems | 4
 
 ## Computer Engineering Minor
 
-(Not available to CE majors.)
+(Not available to CPE majors.)
 
 ## Math Minor
 
 This applies to 2022 freshmen and to most 2022 sophomores. Students further along in the curriculum should consult with their advisor if they will not complete the minor on the quarter system.
 
-Distilling the new, semester-based, math minor requirements relative to the CE major requirements, CEs need to take 2 additional math classes to earn the math minor, which may be 0, 1, or 2 additional classes in total beyond their CE major requirements:
+Distilling the new, semester-based, math minor requirements relative to the CPE major requirements, CPEs need to take 2 additional math classes to earn the math minor, which may be 0, 1, or 2 additional classes in total beyond their CPE major requirements:
 
-1. Fulfills CE free elective: MTH2130 Calculus III (3rd semester calculus) for 4 credits
-1. For students *entering* on the semester system, fulfills MSOE General Education 6d elective: A 3000- or 4000- level class from an approved list. More options may be added. All of these have 3 credits and the prerequisites are from among CE-required classes or MTH2130 Calculus III:
+1. Fulfills CPE free elective: MTH2130 Calculus III (3rd semester calculus) for 4 credits
+1. For students *entering* on the semester system, fulfills MSOE General Education 6d elective: A 3000- or 4000- level class from an approved list. More options may be added. All of these have 3 credits and the prerequisites are from among CPE-required classes or MTH2130 Calculus III:
    * MTH3340 Abstract Algebra with Applications
    * MTH3410 Applied Regression Analysis
    * MTH4130 Complex Analysis

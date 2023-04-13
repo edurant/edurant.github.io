@@ -17,7 +17,7 @@ Note that the MSML program (and our ML graduate certificates) do *not* require l
 Please contact MSML program director [Dr. Durant](/) with any questions.
 
 # Dual Enrollment with Bachelor's Degree
-The MS can be taken as a 5-year early entry dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees: BME, CE, CS, EE, and SE. Students must apply while they have junior standing (or ASAP for students who had senior standing when this policy was announced), but should let their advisor know of their intent as early as possible.
+The MS can be taken as a 5-year early entry dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees: BME, CPE, CS, EE, and SE. Students must apply while they have junior standing (or ASAP for students who had senior standing when this policy was announced), but should let their advisor know of their intent as early as possible.
 
 * One or more summer courses are usually required.
 * BMEs entering in F23 or later should choose the “AI Focus” option.
@@ -68,7 +68,7 @@ MSOE CS students and graduates replace CSC5610 and MTH5810 with approved electiv
 
 ## [4+1 Model Tracks—Early Entry](https://csse.msoe.us/mlms/)
 
-Model tracks are published for BME, CE, CS, EE, and SE.
+Model tracks are published for BME, CPE, CS, EE, and SE.
 
 # Course Details
 

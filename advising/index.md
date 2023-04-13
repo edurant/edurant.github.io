@@ -1,11 +1,11 @@
 ---
-title: "CE Academic Advising"
+title: "CPE Academic Advising"
 date: 2023-01-18 16:05:30 -0600
 ---
 
 ## Advising policy
 
-Computer engineering students see their advisors regularly to discuss academic and career plans and progress. In most terms, CE students must receive their advisors' clearance before registering; the online registration system enforces this. Beat the registration rush by contacting your advisor early in the quarter. You are welcomed and encouraged to meet with your advisor even in terms when it is not required to discuss your internship search, career goals, etc.
+Computer engineering students see their advisors regularly to discuss academic and career plans and progress. In most terms, CPE students must receive their advisors' clearance before registering; the online registration system enforces this. Beat the registration rush by contacting your advisor early in the quarter. You are welcomed and encouraged to meet with your advisor even in terms when it is not required to discuss your internship search, career goals, etc.
 
 The policy is:
 * First year students: meet with advisor every quarter
@@ -32,7 +32,7 @@ MSOE transitions to semesters in F'23.
 * For students who are *exactly* on the standard track, there are [standard transition plans](standardTransitionPlans.pdf). For students who are not *exactly* on the standard track, the transition plans will look somewhat different to ensure total credits, topical coverage, etc. come out correctly. These students will need to refer to their customized transition plans.
 
 ## What to have available during the meeting with your advisor
-* A copy (physical or virtual) of the CE curriculum flowchart for your curriculum version marked with the courses you have successfully completed.
+* A copy (physical or virtual) of the CPE curriculum flowchart for your curriculum version marked with the courses you have successfully completed.
   * Students first enrolled in F'23 follow curriculum 5.0. <a href="curriculum-5.0rev01.pdf">Flowchart</a>
   * Students first enrolled in F'22, <a href="https://catalog.msoe.edu/preview_program.php?catoid=24&poid=1200&returnto=711">F'21</a>, <a href="https://catalog.msoe.edu/preview_program.php?catoid=22&poid=1101&returnto=630">F'20</a>, and <a href="https://catalog.msoe.edu/preview_program.php?catoid=20&poid=1001&returnto=562">F'19</a> follow curriculum 4.3. <a href="curriculum-4.3rev01.pdf">Flowchart</a>
   * Students first enrolled in <a href="https://catalog.msoe.edu/preview_program.php?catoid=10&poid=506&returnto=364">F'15</a>,
@@ -54,7 +54,7 @@ The MSOE Registrar keeps track of the advisor assigned to each student. If you a
   * Click Academic Info within the My Info window
   * Your advisors will be listed in the first section.
 
-The CE advisors are Profs. <a href="durant.html">Durant</a>, Livingston, Meier, Rothe, and Varnell. All their offices are located on the 3rd floor of the Library.
+The CPE advisors are Profs. <a href="durant.html">Durant</a>, Livingston, Meier, Rothe, and Varnell. All their offices are located on the 3rd floor of the Library.
 
 ## Elective Options, Planned Offerings
 
@@ -63,7 +63,7 @@ Follow the link at <a href="https://www.msoe.edu/academics/departments/registrar
 * EECS electives, updated annually
 * Summer classes, published approximately each February
 
-## <a href="ceElectiveRules.html">CE Elective Rules, etc.</a>
+## <a href="cpeElectiveRules.html">CPE Elective Rules, etc.</a>
 
 ## Closed Sections
 After your registration time, you may request entry into a closed section; every effort will be made to arrange a schedule with your on-track courses. Each department has its own policies for handling closed section requests.
@@ -75,7 +75,7 @@ After your registration time, you may request entry into a closed section; every
 Forms for declaring a minor, changing/adding a major, etc., are available on the <a href="https://www.msoe.edu/academics/departments/registrar/#Student+Forms">Registrar's website</a>.
 
 ## Two-degree Tracks
-Two-degree tracks exist for CE in combination with CS, EE and SE. These tracks are laid out for 5 years, but students have accelerated the course sequence and finished in one or two quarters beyond 4 years. Please see your advisor or program director for more information.
+Two-degree tracks exist for CPE in combination with CS, EE and SE. These tracks are laid out for 5 years, but students have accelerated the course sequence and finished in one or two quarters beyond 4 years. Please see your advisor or program director for more information.
 
 ## Internship and Job Search Resources
 * Talk with your faculty and advisor
