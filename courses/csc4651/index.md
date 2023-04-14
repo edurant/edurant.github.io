@@ -6,24 +6,20 @@ title: "Dr. Durant: CSC4651/5651 Deep Learning in Signal Processing"
 
 This elective course provides an overview of deep learning methods and models as used in digital signal processing (DSP), including key DSP concepts that appear in and adjacent to such models in both real-time and off-line applications. Key topics include training pipelines, loss functions including perceptual losses, confusion matrices and performance metrics, convolutional layers of various dimensions used on both time series and time-frequency representations of data, dropout, principal components analysis, autoencoders, various types of RNNs, common network architectures, mitigation of overfitting, frequency response, discrete Fourier transforms, spectrograms and windowing, and perfect reconstruction. Topics of student interest will be addressed by special lecture topics and course projects. Laboratory exercises include several weeks of guided exercises and culimnate with a term project.
 
+Beginning in fall of 2023, this course will be asynchronous and online. Small teams will likely need to schedule some synchronous meetings. The professor is also glad to (and expects to) meet with you in-person or virtually when you have questions or items to discuss.
+
 ### CSC4651 (Undergraduate) Details
-* Majors: BME, CE, CS, EE, and SE
+* Majors: BME, CPE, CS, EE, and SE
 * Structure: 2-2-3
-* Scheduled times overlap with graduate version. Students may participate online instead of in-person if they prefer.
+* See details including prerequisites in the [undergraduate catalog entry](https://catalog.msoe.edu/preview_course.php?catoid=31&coid=38752)
 
 ### CSC5651 (Graduate) Details
 * Majors: MSML, MSE
-* Structure: 4-0-4, online synchronous
-* Scheduled times overlap with undergraduate version. Students may participate in-person instead of online if they prefer.
+* Structure: 4-0-4
+* See details including prerequisites in the [graduate catalog entry](https://catalog.msoe.edu/preview_course.php?catoid=30&coid=38753)
+* Instructor consent to enroll will be given for students with other appropriate background from transfer credit or other MSOE courses.
 
 Graduate students enrolled in the course will prepare critical summaries of published research papers in addition to meeting the requirements of the undergraduate course. Milestones of these summaries will include regular reviews and feedback from the faculty member and presentations to the class.
-
-### Prerequisites
-1 from each category:
-* MTH5810 or MTH2340 or MTH2130 or MA383 or BE2200
-* CSC5610 or ELE3320 or CSC3310 or CSC2621 or CS2040 or CS3210 or EE3221
-
-Instructor consent will be given for students with other appropriate background from transfer credit and other MSOE courses.
 
 ## Course in Canvas
 * [Fall, 2022](https://msoe.instructure.com/courses/10863)
