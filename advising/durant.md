@@ -27,7 +27,7 @@ General CPE advising information, including what you need to bring to your advis
 * Week 7 Times
   * Monday 4/24: (no times available)
   * Tuesday 4/25: 1:00–1:45, 3–5 PM
-  * Wednesday 4/26: 10:30 AM–12:45 PM, 3-4:30 PM
+  * Wednesday 4/26: 11:45 AM–12:45 PM, 3-4:30 PM
   * Thursday 4/27: 10:30 AM–4 PM
   * Friday 4/28: 1:00–1:45 PM
 
