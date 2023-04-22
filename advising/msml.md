@@ -70,21 +70,33 @@ MSOE CS students and graduates replace CSC5610 and MTH5810 with approved electiv
 
 Model tracks are published for BME, CPE, CS, EE, and SE.
 
+# Alternate CSC6605 Prerequisites
+
+CSC2621 Introduction to Data Science (a course in the DS minor) is a sufficient prerequisite to take this course.
+
+Generally, CSC and SWE students will meet these requirements by the time they have early entry status.
+
+                 | Quarter | Semester
+---              | ---     | ---
+(Databases and   | CS3860  | CSC3320
+Web Apps) or     | SE2840  | SWE2511
+Machine Learning | CS3400  | CSC4601
+
 # Course Details
 
 Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
--- | -- | -- | -- | -- | --
-CSC5120 | Background | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | Dr. Magaña | CSC1110 &#124; CSC1310 &#124; consent
+--- | --- | --- | --- | --- | ---
+[CSC5120](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38606) | Background | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | Dr. Magaña | CSC1110 &#124; CSC1310 &#124; consent
 CSC5201 | Required | Microservices and Cloud Computing | 4-0-4 | spring | Dr. Nowling | SWE2710 &#124; (CSC3320 &amp; CSC3210) &#124; CPE2600 &#124; consent &#124; …
 CSC5241 | Elective | GPU Programming | 4-0-4 | | Dr. Berisha
-CSC5601 | Elective | Theory of Machine Learning | 4-0-4 | spring, 2024 then every fall | Dr. Bukowy | (MTH2130 &amp; MTH2340 &amp; CSC2610) &#124; consent
-[CSC5610](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38207&) | Required | AI Tools and Paradigms | 4-0-4 | fall &amp; spring | Dr. Nowling | (MTH2130 &#124; MTH2340 &#124; MTH5810) &amp; (CSC1120 &#124; equivalent) &#124; consent
+[CSC5601](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38389) | Elective | Theory of Machine Learning | 4-0-4 | spring, 2024 then every fall | Dr. Bukowy | (MTH2130 &amp; MTH2340 &amp; CSC2610) &#124; consent
+[CSC5610](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38207) | Required | AI Tools and Paradigms | 4-0-4 | fall &amp; spring | Dr. Nowling | (MTH2130 &#124; MTH2340 &#124; MTH5810) &amp; (CSC1120 &#124; equivalent) &#124; consent
 CSC5611 | Elective | Deep Learning | 4-0-4 | spring beginning 2025 | Dr. Yoder | CSC4601 &#124; CSC5601 &#124; CSC6621 &#124; consent
 CSC5651 | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | Dr. Durant
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
 CSC598Y | Elective | Applied Deep Learning | 3-2-4 | spring, 2024 (in person) | Dr. Yoder | CSC5610 &amp; linear algebra or multivariable calculus
 CSC6605 | Required | Machine Learning Production Systems | 4-0-4 | fall &amp; summer | Dr. Nowling | CSC6621 &#124; CSC4601 &#124; CSC5601 &#124; consent
-[CSC6621](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38208&) | Required | Applied Machine Learning | 4-0-4 | spring &amp; summer | Dr. Nowling | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
+[CSC6621](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38208) | Required | Applied Machine Learning | 4-0-4 | spring &amp; summer | Dr. Nowling | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
 CSC7901 | Required | Machine Learning Capstone | 4-0-4 | all terms | | ≤ 1 year to completion
