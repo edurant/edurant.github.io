@@ -76,7 +76,7 @@ CSC2621 Introduction to Data Science (a course in the DS minor) is a sufficient 
 
 Generally, CSC and SWE students will meet these requirements by the time they have early entry status.
 
-                 | Quarter | Semester
+Requirement      | Quarter | Semester
 ---              | ---     | ---
 (Databases and   | CS3860  | CSC3320
 Web Apps) or     | SE2840  | SWE2511
