@@ -1,7 +1,11 @@
 ---
 title: "CPE Academic Advising: Elective Rules"
-date: 2023-04-13 13:42:30 -0600
+date: 2023-04-25 16:25:30 -0500
 ---
+
+## Honors Students
+
+* The required HON2980 class (3 credits) can count for an HU elective for students with transition plans; TBD for students who enter on semesters.
 
 ## Sci EL = Science Elective, 3+ credits
 * BI102
