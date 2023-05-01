@@ -68,15 +68,20 @@ Elective labels tagged with NONE are electives your advisor removed from the ter
 
 # Common Freshman Variations
 
-## F22 Freshmen Starting in MA120
+## Partial Calculus Completion in 2022–'23
 
-In 2022, freshmen who start the math sequence in MA120 in fall will take MA120-MA136-MA137 on quarters. In fall of 2023 they will take MTH2980T, a special transition course.
+### Students With Credit for MA 136
+* OPTION 1: Take the bridge course MA 2980T “Bridge to Calculus II” over the summer. This course serves as a prerequisite for 1120. Take MTH 1120 in the fall.
+* OPTION 2: Take MA 137 over the summer. Take MTH 2980T “Quarter Calculus III” or MTH 2980U “Quarter Calculus III and IV” in the fall.
+* OPTION 3: Take MA 137 during summer subterm 2 (early part of summer). Take MA 2314 during summer subterm 3 (late part of summer).
+* OPTION 4: Take MTH 1110 in the fall.
 
-## CS1011 Not Finished In F22
+Transferring a course from another institution is challenging in this case.
 
-For students who don't take or pass CS1011 in fall, 2022, there are two options:
-* Take CS1011/1021/2852 in winter/spring/summer. Summer classes are usually not covered by scholarships; check with financial aid for details.
-* Take CS1011/1021/CSC1120 in winter/spring/fall.
+### Students With Credit for MA 137
+* OPTION 1: Take MA 2314 over the summer.
+* OPTION 2: Take MTH 2980T “Quarter Calculus III” or MTH 2980U “Quarter Calculus III and IV” in the fall.
+* OPTION 3: Take Semester Calculus II at a different university over the summer and transfer it to MSOE as MA 2314.
 
 # Planned Offerings
 
@@ -87,34 +92,6 @@ For students who don't take or pass CS1011 in fall, 2022, there are two options:
 * Math
   * MA 137, MA 2314, MA 2323, MA 235, MA 262, MA 330, MA 383
   * MA 2980: Topics in Mathematics (2 quarter credits). This course covers CALCULUS I (MTH 1110) material that was not included in MA 136. Upon successful completion of this course, a student can take MTH 1120.
-
-## BA3411 in Spring
-
-BA3411 (off track) will run in spring, 2023 in addition to BA3423 (on track). These courses or their semester versions (BUS2411 and BUS3420) are required for all CPEs regardless of curriculum version.
-
-## Circuits
-
-Please note that EE2050 alone will not "count" for the first circuits course, ELE2001 in the semester system. EECS will be offering a special topics course EE2980 as a 2-2-3 in Spring as an "add-on" to EE2050 to provide equivalent credit for ELE2001.
-
-### Winter Offerings
-
-* EE2050. Registration will at first be limited to EE students as this is on their transition track.
-* EE2060. Registration will at first be limited to CPE students as this is on their track. Note that EE2050+EE2060 will count for ELE2001 in the semester system. Those not taking EE2060 this term will still have the chance to take EE2980 next term for the ELE2001 equivalent.
-* EE2070. Registration will at first be limited to BME and EE students as this is on their track. Note that completion of EE2070 is required for students to receive equivalent credit for both ELE2001 and ELE2011.
-
-### Spring Offerings
-
-* EE2980. This 2-2-3 course will cover the remainder of the ELE2001 material beyond what is covered in EE2050. Registration will at first be limited to EE students as this is on their transition track. The course will be taught with MA137 as a strict co-req.
-* EE2070. Registration will at first be limited to CPE students as this is on their track.
-
-### Some implications
-
-* Students will not be able to begin circuits in Spring. These students will need to wait until fall to take ELE2001 Circuits 1, which has a co-requisite of MTH1110 Calculus I.
-* Math co-reqs will be strictly enforced. Students with grades of F* in previous courses (MA120 F* for EE2050, MA136 F* or EE2050 F* for EE2980) will not be allowed to continue.
-
-# Semester Academic Catalog
-
-The updated academic catalog for 2023-24 will be published in January, 2023. Until it is published, you may need to check with your advisor with for certain questions (e.g., what are the exact prerequisites of new semester course) that you would normally look to the catalog for.
 
 # Minors
 
