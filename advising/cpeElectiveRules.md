@@ -1,11 +1,11 @@
 ---
 title: "CPE Academic Advising: Elective Rules"
-date: 2023-04-25 16:25:30 -0500
+date: 2023-05-01 12:52:30 -0500
 ---
 
 ## Honors Students
 
-* The required HON2980 class (3 credits) can count for an HU elective for students with transition plans; TBD for students who enter on semesters.
+* The required HON2980 class (3 credits) can count for an HU elective for students with transition plans; this is a transition class for AY24.
 
 ## Sci EL = Science Elective, 3+ credits
 * BI102
@@ -24,7 +24,7 @@ date: 2023-04-25 16:25:30 -0500
   * Any course listed for the math minor counts as a MA elective
   * Most non-required MA1xxx/MA2xxx classes are only for actuarial science majors and cannot be taken by engineers
 
-## HU/SS EL = Humanities or Social Science Elective
+## HU/SS EL = Humanities or Social Science Elective (pre-semester transition)
 * Students must have a total of 5, and at least 2 in each category
 * Includes all numbered HU4\* and SS4\*. There is a button to show just these in Scheduler 2008.
 * Should include anything listed in Scheduler 2008. Note that some classes are &ldquo;closed&rdquo; from the beginning; these are often classes that involve an overseas trip. The student needs to talk to the professor if they are interested in these classes.
@@ -44,7 +44,6 @@ date: 2023-04-25 16:25:30 -0500
 * Effective with a 2018-02-06 email to all CPE students, the GE elective is now functionally the same as the free elective. This is based on new flexibility that MSOE granted the programs in designating classes as meeting the GE elective.
 * The program has discretion on these since they are not used to meet any other department or ABET requirement.
 * Generally anything that adds breadth&mdash;but not duplicative classes (e.g., Java intro from business school) or intro courses from other majors.
-* Any PLTW classes except DE (digital electronics). $200 fee. [Form, updated 2019](https://msoe.s3.amazonaws.com/files/resources/2019-update-pltw-credit-app.pdf)
 * EE1000, for students who took it during their initial term of enrollment.
 * Includes anything listed above, plus most sophomore level classes from other majors that aren't significantly duplicative of CPE content, even if they don't count as a program elective.
 * UGR498x I-II, without III, consists of 3 credits and meets one of these electives. This combination does not meet a CPE technical elective.
