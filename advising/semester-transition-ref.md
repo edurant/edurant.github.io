@@ -120,7 +120,7 @@ The updated academic catalog for 2023-24 will be published in January, 2023. Unt
 
 MSOE and the EECS Department in particular are adding new minors with the switch to semesters. These include the following. Full information will be available when the updated academic catalog is published in January, 2023.
 
-## Data Science Minor
+## [Data Science Minor](https://catalog.msoe.edu/preview_program.php?catoid=31&poid=1729)
 
 (Not available to CS majors.)
 
@@ -134,23 +134,13 @@ These courses must be taken in order, plus CSC4801 has a prerequisite of a stati
 
 These classes meet CPE program/technical (and free) elective requirements.
 
-## Electrical Engineering Minor
+## [Electrical Engineering Minor](https://catalog.msoe.edu/preview_program.php?catoid=31&poid=1737)
 
 (Not available to EE majors.)
 
 CPEs are already required to take many courses in the EE minor. To earn the minor, CPEs follow the rule that they must take at least 6 credits not specifically required for their major. Note that these courses *can* be used to meet the CPE program or free elective requirements.
 
-COURSE | TITLE | SEMESTER CREDITS | NOTES
--- | -- | -- | --
-ELE3111 | Electronics II | 3
-ELE3201 | Electromagnetic Fields | 3
-ELE3211 | Electromagnetic Waves and T-lines | 2
-ELE3310 | Introduction to Probability and Random Processes | 3 | Need to confirm that this can be taken by majors like CPE for whom MTH2480 is required.
-ELE3401 | Electric Power and Machines | 4
-ELE3510 | Digital Systems | 4 | Need to determine whether this course will be allowed for CPEs.
-ELE3701 | Control Systems | 4
-
-## Computer Engineering Minor
+## [Computer Engineering Minor](https://catalog.msoe.edu/preview_program.php?catoid=31&poid=1730)
 
 (Not available to CPE majors.)
 
