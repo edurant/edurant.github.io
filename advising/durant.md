@@ -37,9 +37,16 @@ If you need MSML advising, senior design project advising, etc., you can also si
 * Week 8 Times
   * Monday 5/1: (no times available)
   * Tuesday 5/2: 1–5 PM
-  * Wednesday 5/3: 10:45 AM–11:30 PM, 3-4:30 PM
-  * Thursday 5/4: 10:30 AM–11:30 AM, 1–3:45 PM
-  * Friday 5/5: 1:00–1:45 PM
+  * Wednesday 5/3: 11:15 AM–11:30 AM, 3-4:30 PM
+  * Thursday 5/4: 1–3:45 PM
+  * Friday 5/5: 1:30–1:45 PM
 
-* Week 9–10 Times
+* Week 9 Times (for CPE follow-up meetings and MSML)
+  * Monday 5/8: (no times available)
+  * Tuesday 5/9: 1–4:30 PM
+  * Wednesday 5/10: 10:45 AM–11:30 AM, 3-4:30 PM
+  * Thursday 5/11: (no times available)
+  * Friday 5/12: (no times available)
+
+* Week 10 Times
   * Scheduled in extenuating circumstances only.
