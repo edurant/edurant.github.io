@@ -56,10 +56,10 @@ SWE2710 | Software Tools and Process | 3-2-4 |  CSC1120 &#124; CS2852
 # Special Elective Codes on Transition Plans
 
 * ELC Free – Free Elective
-* ELC HU – Humanities Course (Art History, Fine Arts, German, History, Literature, Philosophy, Spanish)
+* ELC HU – Humanities Course (AHT Art History, FNA Fine Arts, GER German, HST History, LIT Literature, PHL Philosophy, SPN Spanish, ARE3821/AE3321)
 * ELC HUSS – Humanities or Social Science Course
 * ELC PROG – Technical Computer Engineering Program Elective
-* ELC SS – Social Science Course (Anthropology, Economics, Political Science, Psychology, Sociology)
+* ELC SS – Social Science Course (ANT Anthropology, Economics, PSC Political Science, PSY Psychology, SOC Sociology, BUS2221/2222, BA1220/2220/2222)
 * PLC HU – Placeholder for an HU course: This is an administrative tool we use to replicate ELC HU.
 * PLC PROG – Placeholder for CPE Elective course: This is an administrative tool we use to replicate ELC PROG.
 * PLC SS – Placeholder for an SS course: This is an administrative tool we use to replicate ELC SS.
