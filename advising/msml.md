@@ -75,15 +75,16 @@ Model tracks are published for BME, CPE, CS, EE, and SE.
 Completing this certificate at MSOE meets the CSC5610 and CSC6621 requirements by substitution, reducing the number of additional courses needed to earn the MSML.
 
 # CSC5201 Microservices & Cloud Computing
-Students with coursework in *both* web apps and cloud computing replace this course with an approved elective.
+Students with sufficient coursework in *both* web apps and cloud computing replace this course with an approved elective.
 
 ## Acceptable Web Apps Coursework
 * SE2840 Web Application Development, Required for CS and SE
 * SWE2511 Web Apps, Required for SWE
 
 ## Acceptable Cloud Computing Coursework
-* SWE2410 Design and Cloud Patterns, Required for CSC and SWE
 * CS4230 / CSC4981 Distributed and Cloud Computing, Elective
+
+Note: SWE2410 Design and Cloud Patterns is *not* sufficient to meet this requirement.
 
 # Alternate CSC6605 Prerequisites
 
