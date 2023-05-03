@@ -70,6 +70,10 @@ MSOE CS students and graduates replace CSC5610 and MTH5810 with approved electiv
 
 Model tracks are published for BME, CPE, CS, EE, and SE.
 
+# Quarter System Applied ML Graduate Certificate (2021–'22 and 2022–'23)
+
+Completing this certificate at MSOE meets the CSC5610 and CSC6621 requirements by substitution, reducing the number of additional courses needed to earn the MSML.
+
 # CSC5201 Microservices & Cloud Computing
 Students with coursework in *both* web apps and cloud computing replace this course with an approved elective.
 
