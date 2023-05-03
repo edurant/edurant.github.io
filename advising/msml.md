@@ -70,6 +70,17 @@ MSOE CS students and graduates replace CSC5610 and MTH5810 with approved electiv
 
 Model tracks are published for BME, CPE, CS, EE, and SE.
 
+# CSC5201 Microservices & Cloud Computing
+Students with coursework in *both* web apps and cloud computing replace this course with an approved elective.
+
+## Acceptable Web Apps Coursework
+* SE2840 Web Application Development, Required for CS and SE
+* SWE2511 Web Apps, Required for SWE
+
+## Acceptable Cloud Computing Coursework
+* SWE2410 Design and Cloud Patterns, Required for CSC and SWE
+* CS4230 / CSC4981 Distributed and Cloud Computing, Elective
+
 # Alternate CSC6605 Prerequisites
 
 CSC2621 Introduction to Data Science (a course in the DS minor) is a sufficient prerequisite to take this course.
