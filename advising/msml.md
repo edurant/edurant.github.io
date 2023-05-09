@@ -50,7 +50,7 @@ The MS can be taken as a 5-year early entry dual enrollment program with many MS
 * [Graduate Certificate in Machine Learning](https://onlineinfo.msoe.edu/machine-learning-certificate/)
 * Graduate Certificate in Machine Learning Engineering - offered in fall, 2023; site coming soon
 
-## Direct Admit to MSML requirements (Graduate Certificate in Applied Machine Learning)
+# Direct Admit Requirements (also apply to Graduate Certificate in Applied Machine Learning)
 
 * Technical bachelor's degree
 * Programming experience with a modern language such as Python, C#, or Java. One year of college coursework (culminating in e.g., CS2852, CSC1120, or CSC2611) or equivalent minimum.
@@ -70,23 +70,25 @@ MSOE CS students and graduates replace CSC5610 and MTH5810 with approved electiv
 
 Model tracks are published for BME, CPE, CS, EE, and SE.
 
-# Quarter System Applied ML Graduate Certificate (2021–'22 and 2022–'23)
+# Notes on Specific Courses
+
+## Quarter System Applied ML Graduate Certificate (2021–'22 and 2022–'23)
 
 Completing this certificate at MSOE meets the CSC5610 and CSC6621 requirements by substitution, reducing the number of additional courses needed to earn the MSML.
 
-# CSC5201 Microservices & Cloud Computing
+## CSC5201 Microservices & Cloud Computing
 Students with sufficient coursework in *both* web apps and cloud computing replace this course with an approved elective.
 
-## Acceptable Web Apps Coursework
+### Acceptable Web Apps Coursework
 * SE2840 Web Application Development, Required for CS and SE
 * SWE2511 Web Apps, Required for SWE
 
-## Acceptable Cloud Computing Coursework
+### Acceptable Cloud Computing Coursework
 * CS4230 / CSC4981 Distributed and Cloud Computing, Elective
 
 Note: SWE2410 Design and Cloud Patterns is *not* sufficient to meet this requirement.
 
-# Alternate CSC6605 Prerequisites
+## Alternate CSC6605 Prerequisites
 
 CSC2621 Introduction to Data Science (a course in the DS minor) is a sufficient prerequisite to take this course.
 
@@ -97,6 +99,9 @@ Requirement      | Quarter | Semester
 (Databases and   | CS3860  | CSC3320
 Web Apps) or     | SE2840  | SWE2511
 Machine Learning | CS3400  | CSC4601
+
+## CS Major and MSML Elective CSC5601 Theory of Machine Learning
+Early entry CS majors have the option of taking this course to simultaneously satisfy their undergraduate requirement of CS3400 or CSC4601. Students who have credit for CS3400 or CSC4601 may not take CSC5601.
 
 # Course Details
 
@@ -111,7 +116,7 @@ CSC5611 | Elective | Deep Learning | 4-0-4 | spring beginning 2025 | Dr. Yoder |
 CSC5651 | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | Dr. Durant
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
 CSC598Y | Elective | Applied Deep Learning | 3-2-4 | spring, 2024 (in person) | Dr. Yoder | CSC5610 &amp; linear algebra or multivariable calculus
-CSC6605 | Required | Machine Learning Production Systems | 4-0-4 | fall &amp; summer | Dr. Nowling | CSC6621 &#124; CSC4601 &#124; CSC5601 &#124; consent
+CSC6605 | Required | Machine Learning Production Systems | 4-0-4 | fall &amp; summer | Dr. Nowling | CSC6621 &#124; CS3400 &#124; CSC4601 &#124; CSC5601 &#124; consent
 [CSC6621](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38208) | Required | Applied Machine Learning | 4-0-4 | spring &amp; summer | Dr. Nowling | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
@@ -129,7 +134,7 @@ PHL6001 | Required | AI Ethics and Governance | 4-0-4 | summers beginning &lsquo
 * Offering information is tentative for non-EECS courses.
 * The goal is to support the 5-year BS+MS combinations listed above plus 3-semester, 2-year, and 4-year options for direct admit MSML students.
 
-## Tentative Offerings and Faculty Assignments
+# Tentative Offerings and Faculty Assignments
 * Summer, 2023
   * CSC5120: Dr. Magaña
 * Fall, 2023
@@ -139,7 +144,7 @@ PHL6001 | Required | AI Ethics and Governance | 4-0-4 | summers beginning &lsquo
 * Spring, 2024
   * CSC5201: Dr. Nowling
   * CSC5241: Dr. Berisha
-  * CSC5601: Dr. Bukowy
+  * CSC5601: Dr. Durant
   * CSC5610: TBD
   * CSC598Y: Dr. Yoder (in-person course)
   * CSC6621: Dr. Berisha
