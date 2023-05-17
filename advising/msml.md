@@ -100,6 +100,12 @@ Requirement      | Quarter | Semester
 Web Apps) or     | SE2840  | SWE2511
 Machine Learning | CS3400  | CSC4601
 
+## PHL6001
+
+For MSOE undergraduates, this class cannot meet the undergraduate ethics requirement, and the undergraduate ethics requirement cannot meet this MSML requirement.
+
+Many undergraduate majors allow a choice of ethics class. Students in these majors, if intending to pursue the MSML, should consider taking PHL3101 (engineering ethics) or PHL3103 (bioethics), which have almost no overlap with PHL6001. They may also take PHL3102 (AI/digital technology ethics), which has a partial overlap with PHL6001.
+
 ## CS Major and MSML Elective CSC5601 Theory of Machine Learning
 Early entry CS majors have the option of taking this course to simultaneously satisfy their undergraduate requirement of CS3400 or CSC4601. Students who have credit for CS3400 or CSC4601 may not take CSC5601.
 
