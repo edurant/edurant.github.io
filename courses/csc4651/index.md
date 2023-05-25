@@ -22,9 +22,9 @@ Beginning in fall of 2023, this course will be asynchronous and online. Small te
 Graduate students enrolled in the course will prepare critical summaries of published research papers in addition to meeting the requirements of the undergraduate course. Milestones of these summaries will include regular reviews and feedback from the faculty member and presentations to the class.
 
 ## Course in Canvas
-* [Fall, 2022](https://msoe.instructure.com/courses/10863)
-* [Spring, 2022](https://msoe.instructure.com/courses/10080)
 * Fall, 2023: Not yet available
+* [Spring, 2022](https://msoe.instructure.com/courses/10080)
+* [Fall, 2022](https://msoe.instructure.com/courses/10863)
 
 ## [Course Outline and Grading (PDF), Quarter Version](outline.pdf)
 

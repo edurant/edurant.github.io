@@ -60,7 +60,7 @@ After your registration time, you may request entry into a closed section; every
 * <a href="https://www.msoe.edu/academics/departments/registrar/independent-study-and-closed-section/">Policies for each department</a>
 
 ## Forms
-Forms for declaring a minor, changing/adding a major, etc., are available on the <a href="https://www.msoe.edu/academics/departments/registrar/#Student+Forms">Registrar&rsquo;s website</a>.
+Forms for declaring a minor, changing/adding a major, etc., are available on the <a href="https://www.msoe.edu/academics/departments/registrar/#Student%20Forms">Registrar&rsquo;s website</a>.
 
 ## Two-degree Tracks
 Two-degree tracks exist for CPE in combination with CS, EE and SE. These tracks are laid out for 5 years, but students have accelerated the course sequence and finished in one or two quarters beyond 4 years. Please see your advisor or program director for more information.
