@@ -1,8 +1,8 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2023-04-25 10:28:30 -0500
+date: 2023-05-26 12:35:30 -0500
 ---
-* [Siddhartha](https://bookshop.org/books/siddhartha-8596a466-5e6b-42a1-b2d9-0324e5a988d3/9780553208849), by Herman Hesse, discussed on 2023-07-TBD.
+* [Siddhartha](https://bookshop.org/books/siddhartha-8596a466-5e6b-42a1-b2d9-0324e5a988d3/9780553208849), by Herman Hesse, discussed on 2023-07-17.
 * [Secret City: The Hidden History of Gay Washington](https://bookshop.org/p/books/secret-city-the-hidden-history-of-gay-washington-james-kirchick/15926093), by James Kirchick, discussed on 2023-06-12.
 * [Crying in H Mart](https://bookshop.org/p/books/crying-in-h-mart-a-memoir-michelle-zauner/19630554), by Michelle Zauner, discussed on 2023-05-22.
 * [A Beginner's Guide to America: For the Immigrant and the Curious](https://bookshop.org/p/books/a-beginner-s-guide-to-america-for-the-immigrant-and-the-curious-roya-hakakian/14619722?ean=9780525565925), by Roya Hakakian, discussed on 2023-04-24.
