@@ -8,6 +8,10 @@ Sunday, July 9, 2023 — Milwaukee, WI
 
 Invitations were mailed in early April and RSVPs requested by May 9.
 
+## Photos
+
+We had our first [photo session](https://www.happygnomephotography.com/ClientGalleries/Eric-and-Scott/) with our photographer on May 25.
+
 ## Rehearsal Dinner
 
 Our out-of-town guests, wedding party, and close family are invited to our rehearsal dinner at 6 PM on Saturday, July 8 at [Onesto's](https://onestomke.com/) ([map](https://goo.gl/maps/xjsHmUtSTwKb1FfU7)) upstairs event space.
