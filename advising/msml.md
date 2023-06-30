@@ -17,7 +17,7 @@ Note that the MSML program (and our ML graduate certificates) do *not* require l
 Please contact MSML program director [Dr. Durant](/) with any questions.
 
 # Dual Enrollment with Bachelor's Degree
-The MS can be taken as a 5-year early entry dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees: BME, CPE, CS, EE, and SE. Students must apply while they have junior standing (or ASAP for students who had senior standing when this policy was announced), but should let their advisor know of their intent as early as possible.
+The MS can be taken as a 5-year early entry dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees: BME, CE, CS, EE, and SE. Students must apply while they have junior standing, but should let their advisor know of their intent as early as possible.
 
 * One or more summer courses are usually required.
 * BMEs entering in F23 or later should choose the “AI Focus” option.
@@ -53,8 +53,8 @@ The MS can be taken as a 5-year early entry dual enrollment program with many MS
 # Direct Admit Requirements (also apply to Graduate Certificate in Applied Machine Learning)
 
 * Technical bachelor's degree
-* Programming experience with a modern language such as Python, C#, or Java. One year of college coursework (culminating in e.g., CS2852, CSC1120, or CSC2611) or equivalent minimum.
-  * Students with less experience (similar to CS1021, CSC1110, or CSC1310) will be encouraged to take CSC5120 Software Development for Machine Learning over the summer. This can count as an elective in the Master of Science in Machine Learning.
+* Programming experience with a modern language such as Python, C#, or Java. One year of college coursework (culminating in e.g., CS2852, [CSC1120](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40106), or [CSC2611](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40196)) or equivalent minimum.
+  * Students with less experience (similar to CS1021, [CSC1110](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40105), or [CSC1310](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40339)) will be encouraged to take CSC5120 Software Development for Machine Learning over the summer. This can count as an elective in the Master of Science in Machine Learning.
 * At least a year of differential and integral calculus required. Multivariable calculus or linear algebra preferred.
   * Students who don't have both topics will take MTH5810 Mathematical Methods for Machine Learning in one of the MSML elective slots.
 
@@ -68,7 +68,7 @@ MSOE CS students and graduates replace CSC5610 and MTH5810 with approved electiv
 
 ## [4+1 Model Tracks—Early Entry](https://csse.msoe.us/mlms/)
 
-Model tracks are published for BME, CPE, CS, EE, and SE.
+Model tracks are published for BME, CE, CS, EE, and SE.
 
 # Notes on Specific Courses
 
@@ -114,34 +114,32 @@ Early entry CS majors have the option of taking this course to simultaneously sa
 Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 --- | --- | --- | --- | --- | ---
 [CSC5120](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38606) | Background | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | Dr. Magaña | CSC1110 &#124; CSC1310 &#124; consent
-CSC5201 | Required | Microservices and Cloud Computing | 4-0-4 | spring '24, then fall | Dr. Nowling | SWE2710 &#124; (CSC3320 &amp; CSC3210) &#124; CPE2600 &#124; consent &#124; …
-CSC5241 | Elective | GPU Programming | 4-0-4 | | Dr. Berisha
+[CSC5201](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41210) | Required | Microservices and Cloud Computing | 4-0-4 | spring '24, then fall | Dr. Nowling | SWE2710 &#124; (CSC3320 &amp; CSC3210) &#124; CPE2600 &#124; consent &#124; …
+[CSC5241](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41271) | Elective | GPU Programming | 4-0-4 | | Dr. Berisha
 [CSC5601](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38389) | Elective | Theory of Machine Learning | 4-0-4 | spring, 2024 then every fall | Dr. Bukowy | (MTH2130 &amp; MTH2340 &amp; CSC2610) &#124; consent
-[CSC5610](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38207) | Required | AI Tools and Paradigms | 4-0-4 | fall &amp; spring? | Dr. Nowling | (MTH2130 &#124; MTH2340 &#124; MTH5810) &amp; (CSC1120 &#124; equivalent) &#124; consent
-CSC5611 | Elective | Deep Learning | 4-0-4 | spring beginning 2025 | Dr. Yoder | CSC4601 &#124; CSC5601 &#124; CSC6621 &#124; consent
-CSC5651 | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | Dr. Durant
+[CSC5610](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38207) | Required | AI Tools and Paradigms | 4-0-4 | fall &amp; most springs | Dr. Nowling | (MTH2130 &#124; MTH2340 &#124; MTH5810) &amp; (CSC1120 &#124; equivalent) &#124; consent
+[CSC5611](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41213) | Elective | Deep Learning | 4-0-4 | spring beginning 2025 | Dr. Yoder | CSC4601 &#124; CSC5601 &#124; CSC6621 &#124; consent
+[CSC5651](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41270) | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | Dr. Durant
 CSC5661 | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | Dr. Kedziora | TBD
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
-CSC6605 | Required | Machine Learning Production Systems | 4-0-4 | (fall '23, then spring) &amp; summer? | Dr. Nowling | CSC6621 &#124; CS3400 &#124; CSC4601 &#124; CSC5601 &#124; consent
+[CSC6605](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41211&) | Required | Machine Learning Production Systems | 4-0-4 | (fall '23, then spring) &amp; summer? | Dr. Nowling | CSC6621 &#124; CS3400 &#124; CSC4601 &#124; CSC5601 &#124; consent
 [CSC6621](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38208) | Required | Applied Machine Learning | 4-0-4 | spring &amp; summer? | Dr. Nowling | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
-CSC6711 | Elective | Recommendation Systems | 4-0-4 | | Dr. Nowling | CSC6605 &amp; (MTH2340 &#124; MTH5810) &#124; instructor consent
+[CSC6711](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41282) | Elective | Recommendation Systems | 4-0-4 | | Dr. Nowling | CSC6605 &amp; (MTH2340 &#124; MTH5810) &#124; instructor consent
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
-CSC7901 | Required | Machine Learning Capstone | 4-0-4 | all terms | | ≤ 1 year to completion
-MTH5810 | Background | Mathematical Methods for Machine Learning | 4-0-4 | fall beginning &lsquo;24 | Dr. Armstrong | Enrolled in MSML
-PHL6001 | Required | AI Ethics and Governance | 4-0-4 | summers beginning &lsquo;24 | Dr. McAninch | None
+[CSC7901](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41212) | Required | Machine Learning Capstone | 4-0-4 | all terms | | ≤ 1 year to completion
+[MTH5810](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41224) | Background | Mathematical Methods for Machine Learning | 4-0-4 | fall beginning &lsquo;24 | Dr. Armstrong | Enrolled in MSML
+[PHL6001](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41209) | Required | AI Ethics and Governance | 4-0-4 | summers beginning &lsquo;24 | Dr. McAninch | None
 
-* Students may not receive credit for CSC5610 if they have completed CSC2611 AI Tools and CSC2621 Intro to Data Science.
+* Students may not receive credit for CSC5610 if they have completed CSC2611 AI Tools and CSC2621 Intro to Data Science. Instead, they take an MSML elective.
 * In summer, 2023, MSOE will be on the quarter system and CSC5120 will be offered as CS5980. See the [summer timetable](https://msoe.s3.amazonaws.com/files/resources/2023-q4-schedule-of-classes.pdf) for details; the graduate section is located near the end. It will be offered as 6 quarter credits, which is equivalent to the standard 4 semester credits.
 * See [this document](semester-transition-ref.html) for information on undergraduate course numbers.
 
 ## Notes on Terms Offered
 
-* Offering information for EECS courses is fairly firm but might change.
-* Offering information is tentative for non-EECS courses.
-* The goal is to support the 5-year BS+MS combinations listed above plus 3-semester, 2-year, and 4-year options for direct admit MSML students.
+* Offering information is fairly firm but might change.
 
-# Tentative Offerings and Faculty Assignments
+# Planned Offerings and Faculty Assignments
 * Summer, 2023
   * CSC5120: Dr. Magaña
 * Fall, 2023
@@ -152,6 +150,7 @@ PHL6001 | Required | AI Ethics and Governance | 4-0-4 | summers beginning &lsquo
   * CSC5201: Dr. Nowling
   * CSC5241: Dr. Berisha (in person)
   * CSC5601: Dr. Durant (in person)
+  * CSC5610: TBD
   * CSC6621: Dr. Berisha
 * Summer, 2024
   * CSC5120: TBD
