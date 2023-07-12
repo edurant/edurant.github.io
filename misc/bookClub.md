@@ -1,7 +1,17 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2023-07-12 16:57:30 -0500
+date: 2023-07-12 17:15:30 -0500
 ---
+
+## Month Not Yet Assigned
+
+* [The Lemon Tree: An Arab, a Jew, and the Heart of the Middle East](https://bookshop.org/books/the-lemon-tree-an-arab-a-jew-and-the-heart-of-the-middle-east/9781596913431), by Sandy Tolan.
+* [The Peking Express: The Bandits Who Stole a Train, Stunned the West, and Broke the Republic of China](https://www.boswellbooks.com/book/9781541701700), by James M Zimmerman.
+* [The Posthumous Memoirs of Brás Cubas](https://bookshop.org/p/books/the-posthumous-memoirs-of-bras-cubas-joaquim-maria-machado-de-assis/13441055), by Machado de Assis.
+* [Sea of Tranquility](https://bookshop.org/p/books/sea-of-tranquility-emily-st-john-mandel/17768221), by Emily St John Mandel.
+
+## Month Assigned
+* [Khirbet Khizeh](https://bookshop.org/p/books/khirbet-khizeh-s-yizhar/8483324), by S. Yizhar, discussed on TBD 2023-10-TBD.
 * [Things we lost in the fire. (Or: The Dangers of Smoking in Bed)](https://bookshop.org/p/books/things-we-lost-in-the-fire-stories-mariana-enriquez/11163596), by Mariana Enriquez, discussed on 2023-09-TBD.
 * [The Monster's Bones: The Discovery of T. Rex and How It Shook Our World](https://bookshop.org/p/books/the-monster-s-bones-the-discovery-of-t-rex-and-how-it-shook-our-world-david-k-randall/17088901?ean=9781324006534), by David K. Randall, discussed on 2023-08-TBD.
 * [Siddhartha](https://bookshop.org/books/siddhartha-8596a466-5e6b-42a1-b2d9-0324e5a988d3/9780553208849), by Herman Hesse, discussed on 2023-07-17.
