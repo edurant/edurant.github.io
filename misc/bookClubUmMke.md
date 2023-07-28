@@ -1,9 +1,12 @@
 ---
 title: "University of Michigan Milwaukee Alumni Book Club Selections"
-date: 2023-02-20 09:32:30 -0600
+date: 2023-07-28 18:09:30 -0500
 ---
-
-* [Chasing the Last Laugh: How Mark Twain Escaped Debt and Disgrace with a Round-The-World Comedy Tour](https://bookshop.org/books/chasing-the-last-laugh-how-mark-twain-escaped-debt-and-disgrace-with-a-round-the-world-comedy-tour/), by Richard Zacks, date TBD.
+* [The Secret Life of Sunflowers](https://bookshop.org/p/books/the-secret-life-of-sunflowers-dana-marton/18833289), by Marta Molnar, discussed on 2024-TBD.
+* [All the Broken Places](https://bookshop.org/p/books/all-the-broken-places-john-boyne/18490723), by John Boyne, discussed on 2024-TBD.
+* [Anxious People](https://bookshop.org/p/books/anxious-people-fredrik-backman/18771844), by Fredrik Backman, discussed on 2023-11-13.
+* [Rebecca](https://bookshop.org/p/books/rebecca-daphne-du-maurier/8585579), by Daphne DuMaurier, discussed on 2023-09-18.
+* [Chasing the Last Laugh: How Mark Twain Escaped Debt and Disgrace with a Round-The-World Comedy Tour](https://bookshop.org/books/chasing-the-last-laugh-how-mark-twain-escaped-debt-and-disgrace-with-a-round-the-world-comedy-tour/), by Richard Zacks, discussed on 2023-07-26.
 * [Desert Boys: Fiction](https://bookshop.org/books/desert-boys-fiction/), by Chris McCormick, discussed on 11/7/2022.
 * [Plunder: A Memoir of Family Property and Nazi Treasure](https://bookshop.org/books/plunder-a-memoir-of-family-property-and-nazi-treasure-9780358699170), by Menachem Kaiser, discussed on 8/8/2022.
 * [Tomorrow Will Be Better](https://bookshop.org/books/tomorrow-will-be-better/), by Betty Smith, discussed on 2022-05-18.
