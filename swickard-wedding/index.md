@@ -10,7 +10,7 @@ Sunday, July 9, 2023 — Milwaukee, WI
 
 We had our first [photo session](https://www.happygnomephotography.com/ClientGalleries/Eric-and-Scott/) with our photographer on May 25.
 
-We expect our wedding photos to be available in the August–September timeframe.
+And, here are photos from our photographers from [our rehearsal dinner](https://www.happygnomephotography.com/ClientGalleries/Eric-and-Scott-Rehearsal/) and our [wedding day](https://www.happygnomephotography.com/ClientGalleries/Eric-Scott/).
 
 ## Rehearsal Dinner
 
