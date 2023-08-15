@@ -35,7 +35,7 @@ Graduate students enrolled in the course will prepare critical summaries of publ
 * [Week 1 Lab](week1lab.html)
 * [Week 2 Lab](week2lab.html)
 * [Week 3 Lab](week3lab.html)
-* [Week 4 Lab](week4lab.html)
+* [Week 4 Lab: Bayesian Optimization](bayesLab.html)
 
 ## Project
 
