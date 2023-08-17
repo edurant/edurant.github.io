@@ -13,7 +13,7 @@ title: "Dr. Durant: Miscellaneous"
     * [2015: Getting Things Done](2015inserviceGtd.html)
     * [2007: Senior Design (PDF)](2007inserviceSeniorProjectTeams.pdf)
     * [2006: Developmental Advising (PDF)](2006InServiceDevelopmentalAdvising.pdf)
-  * [Boice's feedback survey (Word)](boiceSurvey.doc)
+  * Boice's feedback survey: [Word](boiceSurvey.doc), [PDF](boiceSurvey.pdf)
     * [Analysis spreadsheet (Excel)](boiceSurveyAnalysis.xlsx)
   * [Instructor evaluation summary (New format) (Excel)](eval.xls)
   * [Load calculation (Excel)](load.xls)
