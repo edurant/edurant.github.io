@@ -1,5 +1,5 @@
 ---
-title: "CSC4651/5651 Deep Learning In Signal Processing: Week 1 Lab"
+title: "CSC4651/5651 Deep Learning In Signal Processing: Introductory Lab"
 ---
 
 1. If you didn't already have a Rosie account, one has been created for you. You will be prompted to change the default password (see Canvas message or professor) on first login. Follow the instructions in [the Shell Access section of the User Guide](https://docs.hpc.msoe.edu/#/access?id=shell-access) under "Shell Access." If you don't have an ssh (secure shell) client on your laptop from a previous class, it is recommended that you install PuTTY as described under "SSH Terminal Program."

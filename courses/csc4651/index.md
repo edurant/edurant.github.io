@@ -23,8 +23,8 @@ Graduate students enrolled in the course will prepare critical summaries of publ
 
 ## Course in Canvas
 * Fall, 2023: Not yet available
-* [Spring, 2022](https://msoe.instructure.com/courses/10080)
 * [Fall, 2022](https://msoe.instructure.com/courses/10863)
+* [Spring, 2022](https://msoe.instructure.com/courses/10080)
 
 ## [Course Outline and Grading (PDF), Quarter Version](outline.pdf)
 
@@ -32,10 +32,12 @@ Graduate students enrolled in the course will prepare critical summaries of publ
 
 ## Labs
 
-* [Week 1 Lab](week1lab.html)
-* [Week 2 Lab](week2lab.html)
-* [Week 3 Lab](week3lab.html)
-* [Week 4 Lab: Bayesian Optimization](bayesLab.html)
+* M1: [Rosie and MATLAB Deep Learning Toolbox Introduction](introLab.html)
+* M2: [Transfer Learning in MATLAB or Signal Representation](xferLearningLab.html)
+* M3: [Pruning](pruningLab.html)
+* M4: TBD
+* M5: TBD
+* M6: [Bayesian Optimization](bayesLab.html)
 
 ## Project
 

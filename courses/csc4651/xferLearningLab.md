@@ -1,5 +1,5 @@
 ---
-title: "CSC4651/5651 Deep Learning In Signal Processing: Week 2 Lab"
+title: "CSC4651/5651 Deep Learning In Signal Processing: Transfer Learning in MATLAB or Signal Representation Lab"
 ---
 
 The Week 2 Lab has two options, depending on your previous experience with machine learning.
@@ -21,7 +21,7 @@ We will be using the [UCI Machine Learning Repository: Hill-Valley Data Set](htt
 
 The dataset consists of 1212 signals of &ldquo;clean&rdquo; data, in which each signal is smooth and clearly shows a hill or valley. Each signal consists of 100 points.
 
-Examples of the signals when plotted: ![Three plotted signals](week3lab_hillvaley.png "Three plotted signals")
+Examples of the signals when plotted: ![Three plotted signals](hillValley.png "Three plotted signals")
 
 For additional challenge, the dataset also provides 1212 signals of &ldquo;noisy&rdquo; data, where the hill or valley can still be discerned by the human eye, but the classification is more difficult.
 
