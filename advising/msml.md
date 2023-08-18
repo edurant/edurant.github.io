@@ -54,6 +54,12 @@ The MS can be taken as a 5-year early entry dual enrollment program with many MS
 
 Please see [MSOE's Accreditations](https://www.msoe.edu/about-msoe/who-we-are/accreditations/) for information accreditation at the university and program levels, including accreditation of all undergraduate programs in the EECS Department. Note that as of 2023 ABET does not offer offer accreditation for masters programs in any computing disciplines.
 
+# Machine Learning Careers In The News
+
+* [2023-07-28 MSOE post on ML Careers and Industry Growth](https://online.msoe.edu/engineering/blog/machine-learning-careers-and-industry-growth)
+* [2022-08-19 MSOE Post for Employers on Developing ML Talent](https://online.msoe.edu/engineering/employers)
+* [2023-08-14 Wall Street Journal article on demand for AI experts](https://www.wsj.com/articles/artificial-intelligence-jobs-pay-netflix-walmart-230fc3cb)
+
 # Direct Admit Requirements (also apply to Graduate Certificate in Applied Machine Learning)
 
 * Technical bachelor's degree
