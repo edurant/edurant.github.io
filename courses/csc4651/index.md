@@ -52,4 +52,4 @@ Graduate students enrolled in the course will prepare critical summaries of publ
 
 Rosie is MSOE's high performance supercomputer, which we will be using in this class. Please see the [Rosie User Guide](https://docs.hpc.msoe.edu/).
 
-Please see the [user guide section on running MATLAB's Deep Learning Toolbox running on Rosie](https://docs.hpc.msoe.edu/#/tips/matlab?id=deep-learning-toolbox). This is the recommended environment for this course. The course does not assume prior knowledge of MATLAB or Python, etc.
+Please see the [user guide section on running MATLAB on Rosie using VNC Desktop in local browser](https://docs.hpc.msoe.edu/#/matlab/desktop?id=rosie-vnc-desktop-in-local-browser). This is the recommended environment for this course. The course does not assume prior knowledge of MATLAB or Python, etc.
