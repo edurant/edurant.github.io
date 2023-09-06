@@ -66,15 +66,30 @@ Please see [MSOE's Accreditations](https://www.msoe.edu/about-msoe/who-we-are/ac
 * Programming experience with a modern language such as Python, C#, or Java. One year of college coursework (culminating in e.g., CS2852, [CSC1120](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40106), or [CSC2611](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40196)) or equivalent minimum.
   * Students with less experience (similar to CS1021, [CSC1110](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40105), or [CSC1310](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40339)) will be encouraged to take CSC5120 Software Development for Machine Learning over the summer. This can count as an elective in the Master of Science in Machine Learning.
 * At least a year of differential and integral calculus required. Multivariable calculus or linear algebra preferred.
-  * Students who don't have both topics will take MTH5810 Mathematical Methods for Machine Learning in one of the MSML elective slots.
+  * Students who don't have both topics will take MTH5810 Mathematical Methods for Machine Learning; students who do will take an additional elective.
 
-# Model Tracks
+# Curriculum
 
-## 2-year Model Track
+## Required Courses
 
-<img src="msml-2y-1x.png" width="749" height="248" border="0" srcset="msml-2y-1x.png 1x, msml-2y-2x.png 2x, msml-2y-4x.png 4x"/>
+The 8 required courses comprise 2, 2-course subsets that each meet the requirements for a graduate certificate, plus 4 additional courses. Key prerequisites are noted here; more detailed prerequisites are noted below and in the graduate catalog.
+
+* Subset 1: Applied Machine Learning Graduate Certificate
+  * CSC5610 AI Tools and Paradigms
+  * CSC6621 Applied ML (prerequisite of CSC5610)
+* Subset 2: Machine Learning Engineering Graduate Certificate
+  * CSC6605 ML Production Systems (prerequisite of CSC6621)
+  * CSC5201 Microservices &amp; Cloud Computing
+* MTH5810 Math Methods for ML
+* PHL6001 AI Ethics and Governance
+* CSC5xxx Elective (can be met with CSC5120 if this course is needed)
+* CSC7901 Capstone
 
 MSOE CS students and graduates replace CSC5610 and MTH5810 with approved electives.
+
+## Advising
+
+As each student enters the program, the program director prepares a draft advising plan of which semester the student will take each course. Please contact the program director if you need a copy of your plan, and to make changes, such as increasing or decreasing how many classes you plan to take each semseter.
 
 ## [4+1 Model Tracks—Early Entry](https://csse.msoe.us/mlms/)
 
@@ -142,7 +157,6 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 [PHL6001](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41209) | Required | AI Ethics and Governance | 4-0-4 | summers beginning &lsquo;24 | Dr. McAninch | None
 
 * Students may not receive credit for CSC5610 if they have completed CSC2611 AI Tools and CSC2621 Intro to Data Science. Instead, they take an MSML elective.
-* In summer, 2023, MSOE will be on the quarter system and CSC5120 will be offered as CS5980. See the [summer timetable](https://msoe.s3.amazonaws.com/files/resources/2023-q4-schedule-of-classes.pdf) for details; the graduate section is located near the end. It will be offered as 6 quarter credits, which is equivalent to the standard 4 semester credits.
 * See [this document](semester-transition-ref.html) for information on undergraduate course numbers.
 
 ## Notes on Terms Offered
