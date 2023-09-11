@@ -78,7 +78,7 @@ The 8 required courses comprise 2, 2-course subsets that each meet the requireme
   * CSC5610 AI Tools and Paradigms
   * CSC6621 Applied ML (prerequisite of CSC5610)
 * Subset 2: Machine Learning Engineering Graduate Certificate
-  * CSC6605 ML Production Systems (prerequisite of CSC6621)
+  * CSC6605 ML Production Systems (prerequisite of CSC5610)
   * CSC5201 Microservices &amp; Cloud Computing
 * MTH5810 Math Methods for ML
 * PHL6001 AI Ethics and Governance
@@ -147,7 +147,7 @@ Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 [CSC5651](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41270) | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | Dr. Durant
 CSC5661 | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | Dr. Kedziora | TBD
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
-[CSC6605](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41211&) | Required | Machine Learning Production Systems | 4-0-4 | (fall '23, then spring) &amp; summer? | Dr. Nowling | CSC6621 &#124; CS3400 &#124; CSC4601 &#124; CSC5601 &#124; consent
+[CSC6605](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41211&) | Required | Machine Learning Production Systems | 4-0-4 | (fall '23, then spring) &amp; summer? | Dr. Nowling | CSC5610 &#124; CS3400 &#124; CSC4601 &#124; CSC5601 &#124; consent
 [CSC6621](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38208) | Required | Applied Machine Learning | 4-0-4 | spring &amp; summer? | Dr. Nowling | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
 [CSC6711](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41282) | Elective | Recommendation Systems | 4-0-4 | | Dr. Nowling | CSC6605 &amp; (MTH2340 &#124; MTH5810) &#124; instructor consent
 CSC6980 | Elective | Topics in Computer Science | varies
