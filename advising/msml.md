@@ -2,6 +2,9 @@
 title: "Master of Science in Machine Learning"
 ---
 
+* TOC
+{:toc}
+
 # Overview
 
 This is a new degree offering beginning in the fall of 2023, coinciding with MSOE's transition to a semester system. It consists of 8, 4-credit courses.
@@ -87,6 +90,9 @@ The 8 required courses comprise 2, 2-course subsets that each meet the requireme
 
 MSOE CS students and graduates replace CSC5610 and MTH5810 with approved electives.
 
+## Example Plan
+<img src="msml-2y-1x.png" width="806" height="395" border="0" srcset="msml-2y-1x.png 1x, msml-2y-2x.png 2x, msml-2y-4x.png 4x" alt="2-year, 5-semester (including 1 summer) flowchart with key prerequisites"/>
+
 ## Advising
 
 As each student enters the program, the program director prepares a draft advising plan of which semester the student will take each course. Please contact the program director if you need a copy of your plan, and to make changes, such as increasing or decreasing how many classes you plan to take each semseter.
@@ -147,8 +153,8 @@ Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 [CSC5651](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41270) | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | Dr. Durant
 CSC5661 | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | Dr. Kedziora | TBD
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
-[CSC6605](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41211&) | Required | Machine Learning Production Systems | 4-0-4 | (fall '23, then spring) &amp; summer? | Dr. Nowling | CSC5610 &#124; CS3400 &#124; CSC4601 &#124; CSC5601 &#124; consent
-[CSC6621](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38208) | Required | Applied Machine Learning | 4-0-4 | spring &amp; summer? | Dr. Nowling | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
+[CSC6605](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41211&) | Required | Machine Learning Production Systems | 4-0-4 | fall '23, then spring | Dr. Nowling | CSC5610 &#124; CS3400 &#124; CSC4601 &#124; CSC5601 &#124; consent
+[CSC6621](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38208) | Required | Applied Machine Learning | 4-0-4 | spring | Dr. Nowling | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
 [CSC6711](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41282) | Elective | Recommendation Systems | 4-0-4 | | Dr. Nowling | CSC6605 &amp; (MTH2340 &#124; MTH5810) &#124; instructor consent
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
@@ -167,14 +173,13 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 * Summer, 2023
   * CSC5120: Dr. Magaña
 * Fall, 2023
-  * CSC5610: Dr. Nowling
+  * CSC5610: Dr. Nowling and Dr. Bukowy
   * CSC5651: Dr. Durant
   * CSC6605: Dr. Nowling
 * Spring, 2024
-  * CSC5201: Dr. Nowling
-  * CSC5241: Dr. Berisha (in person)
+  * CSC5201: Dr. Urbain
   * CSC5601: Dr. Durant (in person)
-  * CSC6621: Dr. Berisha
+  * CSC6621: Dr. Berisha (2 sections)
 * Summer, 2024
   * CSC5120: TBD
   * PHL6001: Dr. McAninch (7-week subterm 1)
@@ -182,6 +187,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC5201: TBD
   * CSC5610: TBD
   * CSC5661: Dr. Kedziora
+  * MTH5810: Dr. Armstrong
   * …
 * Spring, 2025
   * CSC5611: TBD
