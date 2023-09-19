@@ -31,6 +31,8 @@ The MS can be taken as a 5-year early entry dual enrollment program with many MS
 
 ## [General 4+1 / Early Entry Policies Including Tuition](earlyEntry.html)
 
+## [8 MB PowerPoint Overview Presentation on MSOE ML Programs](https://www.dropbox.com/scl/fi/xc7ardi0jz1v6v068azk3/ML-Grad-Programs-Overview.pptx?rlkey=1gvt6u2ihl8j07h7n4teude3a&dl=0)
+
 # Official Websites
 
 ## Catalog
