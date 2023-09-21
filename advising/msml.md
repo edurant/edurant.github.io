@@ -144,6 +144,8 @@ Early entry CS majors have the option of taking this course to simultaneously sa
 
 # Course Details
 
+Click on course numbers below to see catalog entries with course details.
+
 Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 --- | --- | --- | --- | --- | ---
 [CSC5120](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38606) | Background | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | Dr. Magaña | CSC1110 &#124; CSC1310 &#124; consent
@@ -181,7 +183,9 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 * Spring, 2024
   * CSC5201: Dr. Urbain
   * CSC5601: Dr. Durant (in person)
+  * CSC5610: Dr. Nowling (tentative)
   * CSC6621: Dr. Berisha (2 sections)
+  * CSC6711: Dr. Nowling
 * Summer, 2024
   * CSC5120: TBD
   * PHL6001: Dr. McAninch (7-week subterm 1)
