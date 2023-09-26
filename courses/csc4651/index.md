@@ -22,7 +22,7 @@ Beginning in fall of 2023, this course will be asynchronous and online. Small te
 Graduate students enrolled in the course will prepare critical summaries of published research papers in addition to meeting the requirements of the undergraduate course. Milestones of these summaries will include regular reviews and feedback from the faculty member and presentations to the class.
 
 ## Course in Canvas
-* Fall, 2023: Not yet available
+* [Fall, 2023](https://msoe.instructure.com/courses/16647)
 * [Fall, 2022](https://msoe.instructure.com/courses/10863)
 * [Spring, 2022](https://msoe.instructure.com/courses/10080)
 
@@ -35,11 +35,11 @@ Graduate students enrolled in the course will prepare critical summaries of publ
 * M1: [Rosie and MATLAB Deep Learning Toolbox Introduction](introLab.html)
 * M2: [Transfer Learning in MATLAB or Signal Representation](xferLearningLab.html)
 * M3: [Pruning](pruningLab.html)
-* M4: TBD
-* M5: TBD
+* M4: Vanishing Gradients
+* M5: Speech Command Recognition
 * M6: [Bayesian Optimization](bayesLab.html)
 
-## Project
+## Applied Project
 
 * [Milestone 1: Topic Selection and References](project-1-topicSelection.html)
 * [Milestone 2: Background Paper](project-2-backgroundPaper.html)
@@ -47,6 +47,10 @@ Graduate students enrolled in the course will prepare critical summaries of publ
 * [Milestone 4: Presentation Draft](project-4-presentationDraft.html)
 * Milestone 5: Presentation
 * [Milestone 6: Final Paper](project-6-finalResults.html)
+
+## Research Projects
+
+See Canvas.
 
 ## Toolset
 
