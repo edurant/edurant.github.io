@@ -35,8 +35,8 @@ Graduate students enrolled in the course will prepare critical summaries of publ
 * M1: [Rosie and MATLAB Deep Learning Toolbox Introduction](introLab.html)
 * M2: [Transfer Learning in MATLAB or Signal Representation](xferLearningLab.html)
 * M3: [Pruning](pruningLab.html)
-* M4: Vanishing Gradients
-* M5: Speech Command Recognition
+* M4: [Vanishing Gradients](vanishingGradientsLab.html)
+* M5: [Speech Command Recognition](speechRecognitionLab.html)
 * M6: [Bayesian Optimization](bayesLab.html)
 
 ## Applied Project
@@ -50,7 +50,13 @@ Graduate students enrolled in the course will prepare critical summaries of publ
 
 ## Research Projects
 
-See Canvas.
+* Milestone 1: Paper Selection
+* Milestone 2: Critical Notes
+* Milestone 3: Critical Notes Revision
+* Milestone 4: Presentation Draft
+* Milestone 5: Presentation
+
+Two papers will be selected in milestone 1, then milestones 2-5 will be repeated for each paper. See Canvas for further details.
 
 ## Toolset
 
