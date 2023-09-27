@@ -1,4 +1,4 @@
----
+﻿---
 title: "CSC4651/5651 Deep Learning In Signal Processing: Vanishing Gradients Lab"
 ---
 
@@ -20,7 +20,7 @@ Notice that when you run a section, a dark blue highlight appears to the left of
 
 When you get to the end of the part of the Train Models section that shows in the Live Editor, you'll need to return to the original webpage to view the rest of the example.
 
-If you haven't already, you should save your Live Script. Go to the Live Editor Tab, click the triangle below the Save button, and select Save As� Click the Home button, optionally select or create a subdirectory for your work, give the file a shorter name (such as vanishingGradients.mlx), and click Save.
+If you haven't already, you should save your Live Script. Go to the Live Editor Tab, click the triangle below the Save button, and select Save As… Click the Home button, optionally select or create a subdirectory for your work, give the file a shorter name (such as vanishingGradients.mlx), and click Save.
 
 Notice that the working directory in MATLAB, shown just below the button bar, or accessible with the pwd function from the Command Window, is still the long directory where the original example was stored. Click on your username after /home, and then double-click on the directory you selected above to store your code for this lab, which is located in the Current Folder area near the upper left of the MATLAB window.
 
