@@ -109,7 +109,7 @@ Model tracks are published for BME, CE, CS, EE, and SE.
 
 Completing this certificate at MSOE meets the CSC5610 and CSC6621 requirements by substitution, reducing the number of additional courses needed to earn the MSML.
 
-## CSC5201 Microservices & Cloud Computing
+## CSC5201 Microservices & Cloud Computing: Alternate Prerequisites
 Students with sufficient coursework in *both* web apps and cloud computing replace this course with an approved elective.
 
 ### Acceptable Web Apps Coursework
@@ -121,7 +121,10 @@ Students with sufficient coursework in *both* web apps and cloud computing repla
 
 Note: SWE2410 Design and Cloud Patterns is *not* sufficient to meet this requirement.
 
-## Alternate CSC6605 Prerequisites
+## CSC5601 Theory of Machine Learning: CS Major and MSML Elective
+Early entry CS majors have the option of taking this course to simultaneously satisfy their undergraduate requirement of CS3400 or CSC4601. Students who have credit for CS3400 or CSC4601 may not take CSC5601.
+
+## CSC6605: Alternate Prerequisites
 
 [CSC2621 Introduction to Data Science](https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40219) (a course in the DS minor) is a sufficient prerequisite to take this course.
 
@@ -133,14 +136,17 @@ Requirement      | Quarter | Semester
 Web Apps) or     | SE2840  | [SWE2511](https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40238)
 Machine Learning | CS3400  | [CSC4601](https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40224)
 
+## CSC7901 Advisors
+
+The following faculty are *some* of the potential capstone project advisors. Feel free to contact them to see if your areas of interest align with their expertise.
+* [Dr. Durant](/): Signal processing, real-time systems, audio
+* [Dr. Nowling](https://rnowling.github.io/): Data science, ML and data-intensive systems (production, recommendation, distributed, etc.)
+
 ## PHL6001
 
 For MSOE undergraduates, this class cannot meet the undergraduate ethics requirement, and the undergraduate ethics requirement cannot meet this MSML requirement.
 
 Many undergraduate majors allow a choice of ethics class. Students in these majors, if intending to pursue the MSML, should consider taking PHL3101 (engineering ethics) or PHL3103 (bioethics), which have almost no overlap with PHL6001. They may also take PHL3102 (AI/digital technology ethics), which has a partial overlap with PHL6001.
-
-## CS Major and MSML Elective CSC5601 Theory of Machine Learning
-Early entry CS majors have the option of taking this course to simultaneously satisfy their undergraduate requirement of CS3400 or CSC4601. Students who have credit for CS3400 or CSC4601 may not take CSC5601.
 
 # Course Details
 
@@ -157,7 +163,7 @@ Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 [CSC5651](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41270) | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | Dr. Durant
 CSC5661 | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | Dr. Kedziora | TBD
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
-[CSC6605](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41211&) | Required | Machine Learning Production Systems | 4-0-4 | fall '23, then spring | Dr. Nowling | CSC5610 &#124; CS3400 &#124; CSC4601 &#124; CSC5601 &#124; consent
+[CSC6605](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41211&) | Required | Machine Learning Production Systems | 4-0-4 | fall '23, springs starting '25 | Dr. Nowling | CSC5610 &#124; CS3400 &#124; CSC4601 &#124; CSC5601 &#124; consent
 [CSC6621](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38208) | Required | Applied Machine Learning | 4-0-4 | spring | Dr. Nowling | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
 [CSC6711](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41282) | Elective | Recommendation Systems | 4-0-4 | | Dr. Nowling | CSC6605 &amp; (MTH2340 &#124; MTH5810) &#124; instructor consent
 CSC6980 | Elective | Topics in Computer Science | varies
