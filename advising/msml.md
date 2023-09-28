@@ -166,7 +166,7 @@ CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
 [CSC6605](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41211&) | Required | Machine Learning Production Systems | 4-0-4 | fall '23, springs starting '25 | Dr. Nowling | CSC5610 &#124; CS3400 &#124; CSC4601 &#124; CSC5601 &#124; consent
 [CSC6621](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38208) | Required | Applied Machine Learning | 4-0-4 | spring | Dr. Nowling | (CSC5610 &#124; CSC2621) &amp; (MTH2130 &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
 [CSC6711](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41282) | Elective | Recommendation Systems | 4-0-4 | | Dr. Nowling | CSC6605 &amp; (MTH2340 &#124; MTH5810) &#124; instructor consent
-CSC6712 | Elective | Distributed Database Systems | 4-0-4 | Dr. Nowling | CSC5201
+CSC6712 | Elective | Distributed Database Systems | 4-0-4 | | Dr. Nowling | CSC5201 &#124; instructor consent
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
 [CSC7901](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41212) | Required | Machine Learning Capstone | 4-0-4 | all terms | | ≤ 1 year to completion
