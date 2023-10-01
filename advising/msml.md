@@ -141,6 +141,7 @@ Machine Learning | CS3400  | [CSC4601](https://catalog.msoe.edu/preview_course.p
 The following faculty are *some* of the potential capstone project advisors. Feel free to contact them to see if your areas of interest align with their expertise.
 * [Dr. Durant](/): Signal processing, real-time systems, audio
 * [Dr. Nowling](https://rnowling.github.io/): Data science, ML and data-intensive systems (production, recommendation, distributed, etc.)
+* [Dr. Urbain](https://github.com/jayurbain): Natural language processing, medical image processing, graph machine learning
 
 ## PHL6001
 
