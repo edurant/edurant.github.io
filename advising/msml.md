@@ -192,7 +192,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 * Spring, 2024
   * CSC5201: Dr. Urbain
   * CSC5601: Dr. Durant (in person)
-  * CSC5610: Dr. Nowling (tentative)
+  * CSC5610: Dr. Nowling
   * CSC6621: Dr. Berisha (2 sections)
   * CSC6711: Dr. Nowling
 * Summer, 2024
