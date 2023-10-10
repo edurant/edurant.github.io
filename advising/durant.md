@@ -1,9 +1,9 @@
 ﻿---
-title: "CPE Academic Advising: Dr. Durant"
+title: "CE Academic Advising: Dr. Durant"
 ---
 
-General CPE advising information, including what you need to bring to your advising meeting, how to find who your advisor is, and who the CPE advisors are, is available on the
-[CPE advising information webpage](./).
+General CE advising information, including what you need to bring to your advising meeting, how to find who your advisor is, and who the CE advisors are, is available on the
+[CE advising information webpage](./).
 
 If you need MSML advising, senior design project advising, etc., you can also sign up using this process. Please choose a clear meeting title.
 
@@ -27,26 +27,23 @@ If you need MSML advising, senior design project advising, etc., you can also si
 
 ## Advising times
 
-* Week 7 Times
-  * Monday 4/24: (no times available)
-  * Tuesday 4/25: 1:00–1:45, 4–5 PM
-  * Wednesday 4/26: 3-4:30 PM
-  * Thursday 4/27: 10:30 AM–11:30 AM, 1–4 PM
-  * Friday 4/28: 1:00–1:45 PM
-
-* Week 8 Times
-  * Monday 5/1: (no times available)
-  * Tuesday 5/2: 1–5 PM
-  * Wednesday 5/3: 11:15 AM–11:30 AM, 3-4:30 PM
-  * Thursday 5/4: 1–3:45 PM
-  * Friday 5/5: 1:30–1:45 PM
-
-* Week 9 Times (for CPE follow-up meetings and MSML)
-  * Monday 5/8: (no times available)
-  * Tuesday 5/9: 1–2:45 PM
-  * Wednesday 5/10: 10:45 AM–11:30 AM, 3-4:30 PM
-  * Thursday 5/11: (no times available)
-  * Friday 5/12: (no times available)
+* Week 9 Times
+  * Monday 10/23: 2–4:30 PM
+  * Tuesday 10/24: 1–2:45 PM
+  * Wednesday 10/25: 10:00–11:45 AM, 1–4 PM
+  * Thursday 10/26: 12–4 PM
+  * Friday 10/27: 10:30 AM–11:30 AM, 1–3 PM
 
 * Week 10 Times
-  * Scheduled in extenuating circumstances only.
+  * Monday 10/30: 2–4:30 PM
+  * Tuesday 10/31: 1–2:45 PM
+  * Wednesday 11/1: (no times available)
+  * Thursday 11/2: (no times available)
+  * Friday 11/3: (no times available)
+
+* Week 11 Times
+  * Monday 11/6: 2–4:30 PM
+  * Tuesday 11/7: 1–1:45 PM
+  * Wednesday 11/8: 10:00–11:45 AM
+  * Thursday 11/9: 3:15–4 PM
+  * Friday 11/10: 10:30 AM–11:30 AM, 1–3:30 PM
