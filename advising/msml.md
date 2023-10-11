@@ -204,7 +204,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC6621: Dr. Berisha (2 sections)
   * CSC6711: Dr. Nowling
 * Summer, 2024
-  * CSC5120: TBD
+  * CSC5120: Dr. Magaña
   * CSC6621: Dr. Berisha (off-term offering)
   * CSC6712: Dr. Nowling
   * PHL6001: Dr. McAninch (7-week subterm 1)

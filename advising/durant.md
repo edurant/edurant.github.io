@@ -23,7 +23,7 @@ If you need MSML advising, senior design project advising, etc., you can also si
 * Advising appointments start at hh:00, hh:15, hh:30, and hh:45.
 * Advising appointments usually last 15 minutes, but you may schedule a 30-minute appointment if you wish.
 * In some clients the combo box picks, etc., are only for 30-minute intervals; you need to select the widget and type the minute for 15-minute boundaries and intervals.
-* Sometimes I'll suggest an alternate but similar time, e.g., 15 minutes later if another student got the time you wanted. Please accept or decline; if you don't accept, the proposed time doesn't show up on my calendar.
+* Sometimes I'll suggest an alternate but similar time, e.g., 15 minutes later if another student got the time you wanted. Please accept or decline; if you don't accept, the proposed time doesn&rsquo;t show up on my calendar.
 
 ## Advising times
 
