@@ -69,7 +69,7 @@ Please see [MSOE's Accreditations](https://www.msoe.edu/about-msoe/who-we-are/ac
 
 * Technical bachelor's degree
 * Programming experience with a modern language such as Python, C#, or Java. One year of college coursework (culminating in e.g., CS2852, [CSC1120](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40106), or [CSC2611](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40196)) or equivalent minimum.
-  * Students with less experience (similar to CS1021, [CSC1110](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40105), or [CSC1310](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40339)) will be encouraged to take [CSC5120 Software Development for Machine Learning][CSC5120] Software Development for Machine Learning over the summer. This can count as an elective in the Master of Science in Machine Learning.
+  * Students with less experience (similar to CS1021, [CSC1110](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40105), or [CSC1310](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40339)) will be encouraged to take [CSC5120 Software Development for Machine Learning][CSC5120] over the summer. This can count as an elective in the Master of Science in Machine Learning.
 * At least a year of differential and integral calculus required. Multivariable calculus or linear algebra preferred.
   * Students who don't have both topics will take MTH5810 Mathematical Methods for Machine Learning; students who do will take an additional elective.
 
@@ -210,6 +210,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * PHL6001: Dr. McAninch (7-week subterm 1)
 * Fall, 2024
   * CSC5201: TBD
+  * CSC5601: TBD (in person)
   * CSC5610: TBD
   * CSC5661: Dr. Kedziora
   * MTH5810: Dr. Armstrong
