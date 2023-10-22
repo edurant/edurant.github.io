@@ -50,13 +50,13 @@ Graduate students enrolled in the course will prepare critical summaries of publ
 
 ## Research Projects
 
-* Milestone 1: Paper Selection
-* Milestone 2: Critical Notes
-* Milestone 3: Critical Notes Revision
-* Milestone 4: Presentation Draft
-* Milestone 5: Presentation
+* [Milestone 1: Paper Selection](graduateProject-1-paperSelection.html)
+* [Milestone 2: Critical Notes](graduateProject-2-criticalNotes.html)
+* [Milestone 3: Critical Notes Revision](graduateProject-3-criticalNotesRevision.html)
+* [Milestone 4: Presentation Draft](graduateProject-4-presentationDraft.html)
+* [Milestone 5: Presentation](graduateProject-5-presentationExecution.html)
 
-Two papers will be selected in milestone 1, then milestones 2-5 will be repeated for each paper. See Canvas for further details.
+Two papers will be selected in milestone 1, then milestones 2–5 will be repeated for each paper. See Canvas for further details.
 
 ## Toolset
 
