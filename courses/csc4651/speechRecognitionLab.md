@@ -5,7 +5,7 @@ title: "CSC4651/5651 Deep Learning In Signal Processing: Speech Command Recognit
 ## Instructions
 This week's MATLAB assignment is to complete the “[Train Speech Command Recognition Model Using Deep Learning](https://www.mathworks.com/help/deeplearning/ug/deep-learning-speech-recognition.html)” example.
 
-I have [provided a modified version of this example with additional explanatory text and modifications](speechRecognition.mlx) provided a modified version of this example with additional explanatory text and modificationsto let it run correctly on Rosie. Be sure your are running the modified version.
+I have [provided a modified version of this example with additional explanatory text and modifications](speechRecognition.mlx) provided to let it run correctly on Rosie. Be sure your are running the modified version.
 
 Less guidance will be given than on last week's lab, but please ask questions and make observations in this week's discussion board. The professor will answer questions and you may answer each other's questions.
 
