@@ -68,10 +68,10 @@ Please see [MSOE's Accreditations](https://www.msoe.edu/about-msoe/who-we-are/ac
 # Direct Admit Requirements (also apply to Graduate Certificate in Applied Machine Learning)
 
 * Technical bachelor's degree
-* Programming experience with a modern language such as Python, C#, or Java. One year of college coursework (culminating in e.g., CS2852, [CSC1120](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40106), or [CSC2611](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40196)) or equivalent minimum.
-  * Students with less experience (similar to CS1021, [CSC1110](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40105), or [CSC1310](https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40339)) will be encouraged to take [CSC5120 Software Development for Machine Learning][CSC5120] over the summer. This can count as an elective in the Master of Science in Machine Learning.
+* Programming experience with a modern language such as Python, C#, or Java. One year of college coursework (culminating in e.g., CS2852, [CSC1120][CSC1120], or [CSC2611][CSC2611] or equivalent minimum.
+  * Students with less experience (similar to CS1021, [CSC1110][CSC1110], or [CSC1310][CSC1310]) will be encouraged to take [CSC5120 Software Development for Machine Learning][CSC5120] over the summer. This can count as an elective in the Master of Science in Machine Learning.
 * At least a year of differential and integral calculus required. Multivariable calculus or linear algebra preferred.
-  * Students who don't have both topics will take MTH5810 Mathematical Methods for Machine Learning; students who do will take an additional elective.
+  * Students who don't have both topics will take [MTH5810 Mathematical Methods for Machine Learning][MTH5810]; students who do will take an additional elective.
 
 # Curriculum
 
@@ -80,17 +80,17 @@ Please see [MSOE's Accreditations](https://www.msoe.edu/about-msoe/who-we-are/ac
 The 8 required courses comprise 2, 2-course subsets that each meet the requirements for a graduate certificate, plus 4 additional courses. Key prerequisites are noted here; more detailed prerequisites are noted below and in the graduate catalog.
 
 * Subset 1: Applied Machine Learning Graduate Certificate
-  * [CSC5610][CSC5610] AI Tools and Paradigms
-  * CSC6621 Applied ML (prerequisite of [CSC5610][CSC5610])
+  * [CSC5610 AI Tools and Paradigms][CSC5610]
+  * [CSC6621 Applied ML][CSC6621] (prerequisite of [CSC5610][CSC5610])
 * Subset 2: Machine Learning Engineering Graduate Certificate
-  * CSC6605 ML Production Systems (prerequisite of [CSC5610][CSC5610])
+  * [CSC6605 ML Production Systems][CSC6605] (prerequisite of [CSC5610][CSC5610])
   * [CSC5201 Microservices &amp; Cloud Computing][CSC5201]
-* MTH5810 Math Methods for ML
-* PHL6001 AI Ethics and Governance
+* [MTH5810 Math Methods for ML][MTH5810]
+* [PHL6001 AI Ethics and Governance][PHL6001]
 * CSC5xxx Elective (can be met with [CSC5120][CSC5120] if this course is needed)
-* CSC7901 Capstone
+* [CSC7901 Capstone][CSC7901]
 
-MSOE CS students and graduates replace [CSC5610][CSC5610] and MTH5810 with approved electives.
+MSOE CS students and graduates replace [CSC5610][CSC5610] and [MTH5810][MTH5810] with approved electives.
 
 ## Example Plan
 <img src="msml-2y-1x.png" width="806" height="395" border="0" srcset="msml-2y-1x.png 1x, msml-2y-2x.png 2x, msml-2y-4x.png 4x" alt="2-year, 5-semester (including 1 summer) flowchart with key prerequisites"/>
@@ -107,14 +107,14 @@ Model tracks are published for BME, CE, CS, EE, and SE.
 
 ## Quarter System Applied ML Graduate Certificate (2021–'22 and 2022–'23)
 
-Completing this certificate at MSOE meets the [CSC5610][CSC5610] and CSC6621 requirements by substitution, reducing the number of additional courses needed to earn the MSML.
+Completing this certificate at MSOE meets the [CSC5610][CSC5610] and [CSC6621][CSC6621] requirements by substitution, reducing the number of additional courses needed to earn the MSML.
 
 ## [CSC5201 Microservices &amp; Cloud Computing][CSC5201]: Alternate Prerequisites
 Students with sufficient coursework in *both* web apps and cloud computing replace this course with an approved elective.
 
 ### Acceptable Web Apps Coursework
 * SE2840 Web Application Development, Required for CS and SE
-* SWE2511 Web Apps, Required for SWE
+* [SWE2511 Web Apps][SWE2511], Required for SWE
 
 ### Acceptable Cloud Computing Coursework
 * CS4230 / CSC4981 Distributed and Cloud Computing, Elective
@@ -122,21 +122,21 @@ Students with sufficient coursework in *both* web apps and cloud computing repla
 Note: SWE2410 Design and Cloud Patterns is *not* sufficient to meet this requirement.
 
 ## [CSC5601 Theory of Machine Learning][CSC5601]: CS Major and MSML Elective
-Early entry CS majors have the option of taking this course to simultaneously satisfy their undergraduate requirement of CS3400 or CSC4601. Students who have credit for CS3400 or CSC4601 may not take CSC5601.
+Early entry CS majors have the option of taking this course to simultaneously satisfy their undergraduate requirement of CS3400 or [CSC4601][CSC4601]. Students who have credit for CS3400 or [CSC4601][CSC4601] may not take [CSC5601][CSC5601].
 
-## CSC6605: Alternate Prerequisites
+## [CSC6605][CSC6605]: Alternate Prerequisites
 
-[CSC2621 Introduction to Data Science](https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40219) (a course in the DS minor) is a sufficient prerequisite to take this course.
+[CSC2621 Introduction to Data Science][CSC2621] (a course in the DS minor) is a sufficient prerequisite to take this course.
 
 Generally, CSC and SWE students will meet these requirements by the time they have early entry status.
 
 Requirement      | Quarter | Semester
 ---              | ---     | ---
-(Databases and   | CS3860  | [CSC3320](https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40218)
-Web Apps) or     | SE2840  | [SWE2511](https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40238)
-Machine Learning | CS3400  | [CSC4601](https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40224)
+(Databases and   | CS3860  | [CSC3320][CSC3320]
+Web Apps) or     | SE2840  | [SWE2511][SWE2511]
+Machine Learning | CS3400  | [CSC4601][CSC4601]
 
-## CSC7901 Advisors
+## [CSC7901][CSC7901] Advisors
 
 The following faculty are *some* of the potential capstone project advisors. Feel free to contact them to see if your areas of interest align with their expertise.
 * [Dr. Berisha](https://www.msoe.edu/directory/profile/sebastian.berisha/): Machine/deep learning, image processing, time-series data analysis. In general, my research centers around the application of machine learning algorithms in the fields of biomedicine and remote sensing. My most recent efforts have concentrated on two significant applications. Firstly, I have been exploring the integration of deep learning with hyperspectral mid-infrared imaging to enhance cancer diagnosis. Secondly, my research is dedicated to the application of deep learning techniques in the analysis of ECG data for the diagnosis of cardiovascular, brain injury, and respiratory diseases.
@@ -145,11 +145,11 @@ The following faculty are *some* of the potential capstone project advisors. Fee
 * [Dr. Nowling](https://rnowling.github.io/): Data science, ML and data-intensive systems (production, recommendation, distributed, etc.)
 * [Dr. Urbain](https://github.com/jayurbain): Natural language processing, medical image processing, graph machine learning
 
-## PHL6001
+## [PHL6001][PHL6001]
 
 For MSOE undergraduates, this class cannot meet the undergraduate ethics requirement, and the undergraduate ethics requirement cannot meet this MSML requirement.
 
-Many undergraduate majors allow a choice of ethics class. Students in these majors, if intending to pursue the MSML, should consider taking PHL3101 (engineering ethics) or PHL3103 (bioethics), which have almost no overlap with PHL6001. They may also take PHL3102 (AI/digital technology ethics), which has a partial overlap with PHL6001.
+Many undergraduate majors allow a choice of ethics class. Students in these majors, if intending to pursue the MSML, should consider taking PHL3101 (engineering ethics) or PHL3103 (bioethics), which have almost no overlap with [PHL6001][PHL6001]. They may also take PHL3102 (AI/digital technology ethics), which has a partial overlap with [PHL6001][PHL6001].
 
 # Course Details
 
@@ -157,34 +157,55 @@ Click on course numbers below to see catalog entries with course details.
 
 Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 --- | --- | --- | --- | --- | ---
-[CSC5120][CSC5120] | Background | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | Dr. Magaña | CSC1110 &#124; CSC1310 &#124; consent
-[CSC5201][CSC5201] | Required | Microservices and Cloud Computing | 4-0-4 | spring '24, then fall | Dr. Nowling | SWE2710 &#124; (CSC3320 &amp; CSC3210) &#124; CPE2600 &#124; consent &#124; …
+[CSC5120][CSC5120] | Background | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | Dr. Magaña | [CSC1110][CSC1110] &#124; [CSC1310][CSC1310] &#124; consent
+[CSC5201][CSC5201] | Required | Microservices and Cloud Computing | 4-0-4 | spring '24, then fall | Dr. Nowling | CSC5120 &#124; [SWE2710][SWE2710] &#124; ([CSC3320][CSC3320] &amp; [CSC3210][CSC3210]) &#124; [CPE2600][CPE2600] &#124; consent &#124; …
 [CSC5241][CSC5241] | Elective | GPU Programming | 4-0-4 | | Dr. Berisha
-[CSC5601][CSC5601] | Elective | Theory of Machine Learning | 4-0-4 | spring, 2024 then every fall | Dr. Bukowy | ((([MTH2130][MTH2130] &amp; MTH2340) &#124; MTH5810) &amp; (CSC2621 &#124; [CSC5610][CSC5610])) &#124; consent
-[CSC5610][CSC5610] | Required | AI Tools and Paradigms | 4-0-4 | fall | Dr. Nowling | ([MTH2130][MTH2130] &#124; MTH2340 &#124; MTH5810) &amp; (CSC1120 &#124; equivalent) &#124; consent
-[CSC5611](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41213) | Elective | Deep Learning | 4-0-4 | spring beginning 2025 | Dr. Yoder | CSC4601 &#124; [CSC5601][CSC5601] &#124; CSC6621 &#124; consent
-[CSC5651](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41270) | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | Dr. Durant
+[CSC5601][CSC5601] | Elective | Theory of Machine Learning | 4-0-4 | spring, 2024 then every fall | Dr. Bukowy | ((([MTH2130][MTH2130] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610])) &#124; consent
+[CSC5610][CSC5610] | Required | AI Tools and Paradigms | 4-0-4 | fall | Dr. Nowling | ([MTH1120][MTH1120] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &amp; (CSC1120 &#124; equivalent) &#124; consent
+[CSC5611][CSC5611] | Elective | Deep Learning | 4-0-4 | spring beginning 2025 | Dr. Yoder | [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; [CSC6621][CSC6621] &#124; consent
+[CSC5651][CSC5651] | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | Dr. Durant
 CSC5661 | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | Dr. Kedziora | TBD
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
-[CSC6605](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41211&) | Required | Machine Learning Production Systems | 4-0-4 | fall '23, springs starting '25 | Dr. Nowling | [CSC5610][CSC5610] &#124; CS3400 &#124; CSC4601 &#124; [CSC5601][CSC5601] &#124; consent
-[CSC6621](https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38208) | Required | Applied Machine Learning | 4-0-4 | spring | Dr. Nowling | ([CSC5610][CSC5610] &#124; CSC2621) &amp; ([MTH2130][MTH2130] &#124; MTH2340 &#124; MTH5810) &#124; consent &#124; CS2300
-[CSC6711](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41282) | Elective | Recommendation Systems | 4-0-4 | | Dr. Nowling | CSC6605 &amp; (MTH2340 &#124; MTH5810) &#124; instructor consent
+[CSC6605][CSC6605] | Required | Machine Learning Production Systems | 4-0-4 | fall '23, springs starting '25 | Dr. Nowling | [CSC5610][CSC5610] &#124; CS3400 &#124; [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; consent
+[CSC6621][CSC6621] | Required | Applied Machine Learning | 4-0-4 | spring | Dr. Nowling | ([CSC5610][CSC5610] &#124; [CSC2621][CSC2621]) &amp; ([MTH2130][MTH2130] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &#124; consent &#124; CS2300
+[CSC6711][CSC6711] | Elective | Recommendation Systems | 4-0-4 | | Dr. Nowling | [CSC6605][CSC6605] &amp; ([MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &#124; instructor consent
 CSC6712 | Elective | Distributed Database Systems | 4-0-4 | | Dr. Nowling | [CSC5201][CSC5201] &#124; instructor consent
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
-[CSC7901](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41212) | Required | Machine Learning Capstone | 4-0-4 | all terms | | ≤ 1 year to completion
-[MTH5810](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41224) | Background | Mathematical Methods for Machine Learning | 4-0-4 | fall beginning &lsquo;24 | Dr. Armstrong | Enrolled in MSML
-[PHL6001](https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41209) | Required | AI Ethics and Governance | 4-0-4 | summers beginning &lsquo;24 | Dr. McAninch | None
+[CSC7901][CSC7901] | Required | Machine Learning Capstone | 4-0-4 | all terms | | ≤ 1 year to completion
+[MTH5810][MTH5810] | Background | Mathematical Methods for Machine Learning | 4-0-4 | fall beginning &lsquo;24 | Dr. Armstrong | Enrolled in MSML
+[PHL6001][PHL6001] | Required | AI Ethics and Governance | 4-0-4 | summers beginning &lsquo;24 | Dr. McAninch | None
 
-* Students may not receive credit for [CSC5610][CSC5610] if they have completed CSC2611 AI Tools and CSC2621 Intro to Data Science. Instead, they take an MSML elective.
+* Students may not receive credit for [CSC5610][CSC5610] if they have completed [CSC2611 AI Tools][CSC2611] and [CSC2621 Intro to Data Science][CSC2621]. Instead, they take an MSML elective.
 * See [this document](semester-transition-ref.html) for information on undergraduate course numbers.
 
+[CPE2600]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40390
+[CSC1110]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40105
+[CSC1120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40106
+[CSC1310]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40339
+[CSC3210]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40217
+[CSC3320]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40218
+[CSC2611]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40196
+[CSC2621]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40219
+[CSC4601]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40224
 [CSC5120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38606
 [CSC5201]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41210
 [CSC5241]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41271
 [CSC5601]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38389
 [CSC5610]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38207
+[CSC5611]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41213
+[CSC5651]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41270
+[CSC6605]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41211
+[CSC6621]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=30&coid=38208
+[CSC6711]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41282
+[CSC7901]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41212
+[MTH1120]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40139
 [MTH2130]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40111
+[MTH2340]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40136
+[MTH5810]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41224
+[SWE2511]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40238
+[SWE2710]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40231
+[PHL6001]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41209
 
 ## Notes on Terms Offered
 
