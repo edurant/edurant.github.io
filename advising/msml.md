@@ -124,7 +124,7 @@ Note: SWE2410 Design and Cloud Patterns is *not* sufficient to meet this require
 ## [CSC5601 Theory of Machine Learning][CSC5601]: CS Major and MSML Elective
 Early entry CS majors have the option of taking this course to simultaneously satisfy their undergraduate requirement of CS3400 or [CSC4601][CSC4601]. Students who have credit for CS3400 or [CSC4601][CSC4601] may not take [CSC5601][CSC5601].
 
-## [CSC6605][CSC6605]: Alternate Prerequisites
+## [CSC6605 Machine Learning Production Systems][CSC6605]: Alternate Prerequisites
 
 [CSC2621 Introduction to Data Science][CSC2621] (a course in the DS minor) is a sufficient prerequisite to take this course.
 
@@ -136,7 +136,13 @@ Requirement      | Quarter | Semester
 Web Apps) or     | SE2840  | [SWE2511][SWE2511]
 Machine Learning | CS3400  | [CSC4601][CSC4601]
 
-## [CSC7901][CSC7901] Advisors
+## [CSC7901 Machine Learning Capstone][CSC7901]
+
+The steps for enrolling in the capstone project course are:
+1. Get approval from the program director to begin your capstone in a particular semester.
+1. Find a capstone advisor and discuss and refine your project idea.
+1. Work with your capstone advisor to identify 2 other MSOE faculty members to serve on your committee.
+1. Complete the form (pending final approval and publication as of 11/8/2023), get required signatures, and submit it. Then the class is added to your schedule for the next semester.
 
 The following faculty are *some* of the potential capstone project advisors. Feel free to contact them to see if your areas of interest align with their expertise.
 * [Dr. Berisha](https://www.msoe.edu/directory/profile/sebastian.berisha/): Machine/deep learning, image processing, time-series data analysis. In general, my research centers around the application of machine learning algorithms in the fields of biomedicine and remote sensing. My most recent efforts have concentrated on two significant applications. Firstly, I have been exploring the integration of deep learning with hyperspectral mid-infrared imaging to enhance cancer diagnosis. Secondly, my research is dedicated to the application of deep learning techniques in the analysis of ECG data for the diagnosis of cardiovascular, brain injury, and respiratory diseases.
@@ -178,6 +184,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 
 * Students may not receive credit for [CSC5610][CSC5610] if they have completed [CSC2611 AI Tools][CSC2611] and [CSC2621 Intro to Data Science][CSC2621]. Instead, they take an MSML elective.
 * See [this document](semester-transition-ref.html) for information on undergraduate course numbers.
+* Offering information is fairly firm but might change.
 
 [CPE2600]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40390
 [CSC1110]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40105
@@ -206,10 +213,6 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 [SWE2511]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40238
 [SWE2710]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40231
 [PHL6001]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41209
-
-## Notes on Terms Offered
-
-* Offering information is fairly firm but might change.
 
 # Planned Offerings and Faculty Assignments
 * Summer, 2023
