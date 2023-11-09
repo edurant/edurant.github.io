@@ -3,7 +3,7 @@ title: "University of Michigan Milwaukee Alumni Book Club Selections"
 date: 2023-08-20 12:32:30 -0500
 ---
 * [The Secret Life of Sunflowers](https://bookshop.org/p/books/the-secret-life-of-sunflowers-dana-marton/18833289), by Marta Molnar, discussed on 2024-TBD.
-* [All the Broken Places](https://bookshop.org/p/books/all-the-broken-places-john-boyne/18490723), by John Boyne, discussed on 2024-TBD.
+* [All the Broken Places](https://bookshop.org/p/books/all-the-broken-places-john-boyne/18490723), by John Boyne, discussed on 2024-03-06.
 * [Anxious People](https://bookshop.org/p/books/anxious-people-fredrik-backman/18771844), by Fredrik Backman, discussed on 2023-11-08.
 * [Rebecca](https://bookshop.org/p/books/rebecca-daphne-du-maurier/8585579), by Daphne DuMaurier, discussed on 2023-09-18.
 * [Chasing the Last Laugh: How Mark Twain Escaped Debt and Disgrace with a Round-The-World Comedy Tour](https://bookshop.org/books/chasing-the-last-laugh-how-mark-twain-escaped-debt-and-disgrace-with-a-round-the-world-comedy-tour/), by Richard Zacks, discussed on 2023-07-26.
