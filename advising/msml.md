@@ -161,7 +161,7 @@ The following faculty are *some* of the potential capstone project advisors. Fee
 
 For MSOE undergraduates, this class cannot meet the undergraduate ethics requirement, and the undergraduate ethics requirement cannot meet this MSML requirement.
 
-Many undergraduate majors allow a choice of ethics class. Students in these majors, if intending to pursue the MSML, should consider taking PHL3101 (engineering ethics) or PHL3103 (bioethics), which have almost no overlap with [PHL6001][PHL6001]. They may also take PHL3102 (AI/digital technology ethics), which has a partial overlap with [PHL6001][PHL6001].
+Many undergraduate majors allow a choice of ethics class. Students in these majors, if intending to pursue the MSML, should consider taking [PHL3101 Ethics for Professional Managers and Engineers][PHL3101] or [PHL3103 Bioethics][PHL3103], which have almost no overlap with [PHL6001][PHL6001]. They may also take [PHL3102 Ethics of Digital Technologies and AI][PHL3102], which has a partial overlap with [PHL6001][PHL6001].
 
 # Course Details
 
@@ -218,6 +218,9 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 [MTH5810]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41224
 [SWE2511]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40238
 [SWE2710]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40231
+[PHL3101]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40120
+[PHL3102]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40121
+[PHL3103]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40122
 [PHL6001]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41209
 
 # Planned Offerings and Faculty Assignments
