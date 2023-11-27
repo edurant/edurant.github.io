@@ -148,7 +148,7 @@ The steps for enrolling in the capstone project course are:
 1. Get approval from the program director to begin your capstone in a particular semester.
 1. Find a capstone advisor and discuss and refine your project idea.
 1. Work with your capstone advisor to identify 2 other MSOE faculty members to serve on your committee.
-1. Complete the form (pending final approval and publication as of 11/8/2023), get required signatures, and submit it. Then the class is added to your schedule for the next semester.
+1. Complete the [form](https://msoe.s3.amazonaws.com/files/resources/msml-capstone-request-form-eecs-semesters-fillable.pdf) posted on the [Registrar's website](https://www.msoe.edu/academics/departments/registrar/independent-study-forms/), get required signatures, and submit it. Then the class is added to your schedule for the next semester.
 
 The following faculty are *some* of the potential capstone project advisors. Feel free to contact them to see if your areas of interest align with their expertise.
 * [Dr. Berisha](https://www.msoe.edu/directory/profile/sebastian.berisha/): Machine/deep learning, image processing, time-series data analysis. In general, my research centers around the application of machine learning algorithms in the fields of biomedicine and remote sensing. My most recent efforts have concentrated on two significant applications. Firstly, I have been exploring the integration of deep learning with hyperspectral mid-infrared imaging to enhance cancer diagnosis. Secondly, my research is dedicated to the application of deep learning techniques in the analysis of ECG data for the diagnosis of cardiovascular, brain injury, and respiratory diseases.
@@ -176,7 +176,7 @@ Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 [CSC5610][CSC5610] | Required | AI Tools and Paradigms | 4-0-4 | fall | Dr. Nowling | ([MTH1120][MTH1120] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &amp; (CSC1120 &#124; equivalent) &#124; consent
 [CSC5611][CSC5611] | Elective | Deep Learning | 4-0-4 | F24 and spring beginning 2025 | Dr. Yoder | [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; [CSC6621][CSC6621] &#124; consent
 [CSC5651][CSC5651] | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | Dr. Durant
-CSC5661 | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | Dr. Kedziora | TBD
+CSC5661 | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | Dr. Kedziora | (([MTH2480][MTH2480] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610]) &#124; consent
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
 [CSC6605][CSC6605] | Required | Machine Learning Production Systems | 4-0-4 | fall '23, springs starting '25 | Dr. Nowling | [CSC5610][CSC5610] &#124; CS3400 &#124; [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; consent
 [CSC6621][CSC6621] | Required | Applied Machine Learning | 4-0-4 | spring | Dr. Nowling | ([CSC5610][CSC5610] &#124; [CSC2621][CSC2621]) &amp; ([MTH2130][MTH2130] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &#124; consent &#124; CS2300
@@ -215,6 +215,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 [MTH1120]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40139
 [MTH2130]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40111
 [MTH2340]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40136
+[MTH2480]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40132
 [MTH5810]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41224
 [SWE2511]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40238
 [SWE2710]: https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40231
