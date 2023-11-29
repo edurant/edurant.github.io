@@ -17,7 +17,7 @@ We expect that many of the students in the program will have tuition support fro
 
 Note that the MSML program (and our ML graduate certificates) do *not* require letters of recommendation, although they are listed as optional on MSOE's common application. Admission is strictly based on academic background and we personally reach out to applicants as needed to clarify any academic background that may be missing.
 
-Please contact MSML program director [Dr. Durant](/) with any questions.
+Please contact MSML program director [Dr. Durant][Dr. Durant] with any questions.
 
 # Dual Enrollment with Bachelor's Degree
 The MS can be taken as a 5-year early entry dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees: BME, CE, CS, EE, and SE. Students must apply while they have junior standing, but should let their advisor know of their intent as early as possible.
@@ -151,11 +151,17 @@ The steps for enrolling in the capstone project course are:
 1. Complete the [form](https://msoe.s3.amazonaws.com/files/resources/msml-capstone-request-form-eecs-semesters-fillable.pdf) posted on the [Registrar's website](https://www.msoe.edu/academics/departments/registrar/independent-study-forms/), get required signatures, and submit it. Then the class is added to your schedule for the next semester.
 
 The following faculty are *some* of the potential capstone project advisors. Feel free to contact them to see if your areas of interest align with their expertise.
-* [Dr. Berisha](https://www.msoe.edu/directory/profile/sebastian.berisha/): Machine/deep learning, image processing, time-series data analysis. In general, my research centers around the application of machine learning algorithms in the fields of biomedicine and remote sensing. My most recent efforts have concentrated on two significant applications. Firstly, I have been exploring the integration of deep learning with hyperspectral mid-infrared imaging to enhance cancer diagnosis. Secondly, my research is dedicated to the application of deep learning techniques in the analysis of ECG data for the diagnosis of cardiovascular, brain injury, and respiratory diseases.
-* [Dr. Durant](/): Signal processing, real-time systems, audio
-* [Dr. Kedziora](https://www.linkedin.com/in/jeremy-kedziora/): Data science, statistics, machine learning, reinforcement learning
-* [Dr. Nowling](https://rnowling.github.io/): Data science, ML and data-intensive systems (production, recommendation, distributed, etc.)
-* [Dr. Urbain](https://github.com/jayurbain): Natural language processing, medical image processing, graph machine learning
+* [Dr. Berisha][Dr. Berisha]: Machine/deep learning, image processing, time-series data analysis. In general, my research centers around the application of machine learning algorithms in the fields of biomedicine and remote sensing. My most recent efforts have concentrated on two significant applications. Firstly, I have been exploring the integration of deep learning with hyperspectral mid-infrared imaging to enhance cancer diagnosis. Secondly, my research is dedicated to the application of deep learning techniques in the analysis of ECG data for the diagnosis of cardiovascular, brain injury, and respiratory diseases.
+* [Dr. Durant][Dr. Durant]: Signal processing, real-time systems, audio
+* [Dr. Kedziora][Dr. Kedziora]: Data science, statistics, machine learning, reinforcement learning
+* [Dr. Nowling][Dr. Nowling]: Data science, ML and data-intensive systems (production, recommendation, distributed, etc.)
+* [Dr. Urbain][Dr. Urbain]: Natural language processing, medical image processing, graph machine learning
+
+[Dr. Berisha]: https://www.msoe.edu/directory/profile/sebastian.berisha/
+[Dr. Durant]: /
+[Dr. Kedziora]: https://www.linkedin.com/in/jeremy-kedziora/
+[Dr. Nowling]: https://rnowling.github.io/
+[Dr. Urbain]: https://github.com/jayurbain
 
 ## [PHL6001][PHL6001]
 
@@ -169,24 +175,25 @@ Click on course numbers below to see catalog entries with course details.
 
 Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 --- | --- | --- | --- | --- | ---
+BME5210 | Elective | Medical Imaging Systems | 3-2-4 | | Dr. Imas | [ELE3300][ELE3300] &#124; CSC4651 &#124; [CSC5651][CSC5651] &#124; CSC4611 &#124; [CSC5611][CSC5611] &#124; [CSC6621][CSC6621]
 [CSC5120][CSC5120] | Elective | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | Dr. Magaña | [CSC1110][CSC1110] &#124; [CSC1310][CSC1310] &#124; consent
-[CSC5201][CSC5201] | Required | Microservices and Cloud Computing | 4-0-4 | spring '24, then fall | Dr. Nowling | CSC5120 &#124; [SWE2710][SWE2710] &#124; ([CSC3320][CSC3320] &amp; [CSC3210][CSC3210]) &#124; [CPE2600][CPE2600] &#124; consent &#124; …
-[CSC5241][CSC5241] | Elective | GPU Programming | 4-0-4 | | Dr. Berisha
+[CSC5201][CSC5201] | Required | Microservices and Cloud Computing | 4-0-4 | spring '24, then fall | [Dr. Nowling][Dr. Nowling] | [CSC5120][CSC5120] &#124; [SWE2710][SWE2710] &#124; ([CSC3320][CSC3320] &amp; [CSC3210][CSC3210]) &#124; [CPE2600][CPE2600] &#124; consent &#124; …
+[CSC5241][CSC5241] | Elective | GPU Programming | 4-0-4 | | [Dr. Berisha][Dr. Berisha]
 [CSC5601][CSC5601] | Elective | Theory of Machine Learning | 4-0-4 | spring, 2024 then every fall | Dr. Bukowy | ((([MTH2130][MTH2130] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610])) &#124; consent
-[CSC5610][CSC5610] | Required | AI Tools and Paradigms | 4-0-4 | fall | Dr. Nowling | ([MTH1120][MTH1120] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &amp; (CSC1120 &#124; equivalent) &#124; consent
+[CSC5610][CSC5610] | Required | AI Tools and Paradigms | 4-0-4 | fall | [Dr. Nowling][Dr. Nowling] | ([MTH1120][MTH1120] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &amp; ([CSC1120][CSC1120] &#124; equivalent) &#124; consent
 [CSC5611][CSC5611] | Elective | Deep Learning | 4-0-4 | F24 and spring beginning 2025 | Dr. Yoder | [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; [CSC6621][CSC6621] &#124; consent
-[CSC5651][CSC5651] | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | Dr. Durant
-CSC5661 | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | Dr. Kedziora | (([MTH2480][MTH2480] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610]) &#124; consent
+[CSC5651][CSC5651] | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | [Dr. Durant][Dr. Durant]
+CSC5661 | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | [Dr. Kedziora][Dr. Kedziora] | (([MTH2480][MTH2480] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610]) &#124; consent
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
-[CSC6605][CSC6605] | Required | Machine Learning Production Systems | 4-0-4 | fall '23, springs starting '25 | Dr. Nowling | [CSC5610][CSC5610] &#124; CS3400 &#124; [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; consent
-[CSC6621][CSC6621] | Required | Applied Machine Learning | 4-0-4 | spring | Dr. Nowling | ([CSC5610][CSC5610] &#124; [CSC2621][CSC2621]) &amp; ([MTH2130][MTH2130] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &#124; consent &#124; CS2300
-[CSC6711][CSC6711] | Elective | Recommendation Systems | 4-0-4 | | Dr. Nowling | [CSC6605][CSC6605] &amp; ([MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &#124; instructor consent
-CSC6712 | Elective | Distributed Database Systems | 4-0-4 | | Dr. Nowling | [CSC5201][CSC5201] &#124; instructor consent
+[CSC6605][CSC6605] | Required | Machine Learning Production Systems | 4-0-4 | fall '23, springs starting '25 | [Dr. Nowling][Dr. Nowling] | [CSC5610][CSC5610] &#124; CS3400 &#124; [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; consent
+[CSC6621][CSC6621] | Required | Applied Machine Learning | 4-0-4 | spring | [Dr. Nowling][Dr. Nowling] | ([CSC5610][CSC5610] &#124; [CSC2621][CSC2621]) &amp; ([MTH2130][MTH2130] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &#124; consent &#124; CS2300
+[CSC6711][CSC6711] | Elective | Recommendation Systems | 4-0-4 | | [Dr. Nowling][Dr. Nowling] | [CSC6605][CSC6605] &amp; ([MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &#124; instructor consent
+CSC6712 | Elective | Distributed Database Systems | 4-0-4 | | [Dr. Nowling][Dr. Nowling] | [CSC5201][CSC5201] &#124; instructor consent
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
-[CSC7901][CSC7901] | Required | Machine Learning Capstone | 4-0-4 | all terms | Dr. Durant | ≤ 1 year to completion
+[CSC7901][CSC7901] | Required | Machine Learning Capstone | 4-0-4 | all terms | [Dr. Durant][Dr. Durant] | ≤ 1 year to completion
 [MTH5810][MTH5810] | Required | Mathematical Methods for Machine Learning | 4-0-4 | fall beginning &lsquo;24 | Dr. Armstrong | Enrolled in MSML
-[PHL6001][PHL6001] | Required | AI Ethics and Governance | 4-0-4 | summers beginning &lsquo;24 | Dr. McAninch | None
+[PHL6001][PHL6001] | Required | AI Ethics and Governance | 4-0-4 | summers beginning &lsquo;24 | Dr. McAninch | Enrolled in MSML
 
 * Students may not receive credit for [CSC5610][CSC5610] if they have completed [CSC2611 AI Tools][CSC2611] and [CSC2621 Intro to Data Science][CSC2621]. Instead, they take an MSML elective.
 * Offering information is fairly firm but might change.
@@ -211,6 +218,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 [CSC6621]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41158
 [CSC6711]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41282
 [CSC7901]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41212
+[ELE3300]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40279
 [MTH1120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40139
 [MTH2130]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40111
 [MTH2340]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40136
