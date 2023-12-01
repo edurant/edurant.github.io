@@ -49,7 +49,7 @@ In future years:
 
 If a student wants to apply to the MSML but doesn't meet the 3.0 GPA requirement they may apply through the normal process and must include a discussion in a personal statement of how they plan to meet the additional challenges of graduate coursework so that they can earn at least a minimum of a 3.0 GPA each term going forward (both overall and in their MS classes) through completion of the MSML.
 
-The MSML program director will review this statement and the student’s transcript and make an admission decision based on the totality of the information. It is very unlikely that students with GPAs below about 2.7 would be admitted.
+The MSML program director will review this statement and the student’s transcript and make an admission decision based on the totality of the information. Students with an MSOE undergraduate GPA below 2.7 will not be considered at this time.
 
 Students admitted who do not meet the 3.0 GPA will need to earn at least a 3.0 GPA overall and in their graduate classes each term going forward to maintain early entry status and to keep the tuition discount after the bachelor's degree is conferred.
 
