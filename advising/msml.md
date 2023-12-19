@@ -86,8 +86,8 @@ The 8 required courses comprise 2, 2-course subsets that each meet the requireme
   * [CSC5610 AI Tools and Paradigms][CSC5610]
   * [CSC6621 Applied ML][CSC6621] (prerequisite of [CSC5610][CSC5610])
 * Subset 2: Machine Learning Engineering Graduate Certificate
-  * [CSC6605 ML Production Systems][CSC6605] (prerequisite of [CSC5610][CSC5610])
   * [CSC5201 Microservices &amp; Cloud Computing][CSC5201]
+  * [CSC6605 ML Production Systems][CSC6605] (prerequisite of [CSC5610][CSC5610])
 * [MTH5810 Math Methods for ML][MTH5810]
 * [PHL6001 AI Ethics and Governance][PHL6001]
 * CSC5xxx Elective (can be met with [CSC5120][CSC5120] if this course is needed)
@@ -134,6 +134,8 @@ Note: SWE2410 Design and Cloud Patterns is *not* sufficient to meet this require
 Early entry CS majors have the option of taking this course to simultaneously satisfy their undergraduate requirement of CS3400 or [CSC4601][CSC4601]. Students who have credit for CS3400 or [CSC4601][CSC4601] may not take [CSC5601][CSC5601].
 
 ## [CSC6605 Machine Learning Production Systems][CSC6605]: Alternate Prerequisites
+
+Although [CSC5201][CSC5201] is *not* a prerequisite for this class, students will benefit from having CSC5201 first whenever possible.
 
 [CSC2621 Introduction to Data Science][CSC2621] (a course in the DS minor) is a sufficient prerequisite to take this course.
 
