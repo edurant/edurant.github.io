@@ -106,6 +106,10 @@ As each student enters the program, the program director prepares a draft advisi
 
 Model tracks are published for BME, CE, CS, EE, and SE.
 
+## Grade Replacement
+
+MSOE's machine learning programs automatically grant requests to retake and grade replace classes. This means that students in machine learning programs may re-enroll in a class without explicit permission. It also means that, if a grade below a B was earned the first time, the second grade will replace the original grade in GPA calculations.
+
 # Notes on Specific Courses
 
 ## Quarter System Applied ML Graduate Certificate (2021–'22 and 2022–'23)
