@@ -108,7 +108,7 @@ Model tracks are published for BME, CE, CS, EE, and SE.
 
 ## Grade Replacement
 
-MSOE's machine learning programs automatically grant requests to retake and grade replace classes. This means that students in machine learning programs may re-enroll in a class without explicit permission. It also means that, if a grade below a B was earned the first time, the second grade will replace the original grade in GPA calculations.
+MSOE's machine learning programs automatically grant requests to retake and grade replace classes. This means that students in machine learning programs may re-enroll in a class without explicit permission. It also means that, if a grade below a B was earned the first time, the second grade can replace the original grade in GPA calculations. To take advantage of this option, students must notify their program director or coordinator. They will forward the request to the registrar's office, which will then process the replacement at the end of the term. This must be done between week 2 and the week before exam week, preferably early in the term.
 
 # Notes on Specific Courses
 
