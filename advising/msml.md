@@ -192,7 +192,7 @@ BME5210 | Elective | Medical Imaging Systems | 3-2-4 | | Dr. Imas | [ELE3300][EL
 [CSC5601][CSC5601] | Elective | Theory of Machine Learning | 4-0-4 | spring, 2024 then every fall | Dr. Bukowy | ((([MTH2130][MTH2130] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610])) &#124; consent
 [CSC5610][CSC5610] | Required | AI Tools and Paradigms | 4-0-4 | fall | [Dr. Nowling][Dr. Nowling] | ([MTH1120][MTH1120] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &amp; ([CSC1120][CSC1120] &#124; equivalent) &#124; consent
 [CSC5611][CSC5611] | Elective | Deep Learning | 4-0-4 | F24 and spring beginning 2025 | Dr. Yoder | [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; [CSC6621][CSC6621] &#124; consent
-[CSC5651][CSC5651] | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | [Dr. Durant][Dr. Durant]
+[CSC5651][CSC5651] | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | [Dr. Durant][Dr. Durant] | ([MTH5810][MTH5810] &#124; [MTH2340][MTH2340] &#124; [MTH2130][MTH2130]) &amp; ([CSC5610][CSC5610] &#124; [ELE3320][ELE3320] &#124; [CSC3310][CSC3310] &#124; [CSC2621][CSC2621])
 CSC5661 | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | [Dr. Kedziora][Dr. Kedziora] | (([MTH2480][MTH2480] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610]) &#124; consent
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
 [CSC6605][CSC6605] | Required | Machine Learning Production Systems | 4-0-4 | fall '23, springs starting '25 | [Dr. Nowling][Dr. Nowling] | [CSC5610][CSC5610] &#124; CS3400 &#124; [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; consent
@@ -212,10 +212,11 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 [CSC1110]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40105
 [CSC1120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40106
 [CSC1310]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40339
-[CSC3210]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40217
-[CSC3320]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40218
 [CSC2611]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40196
 [CSC2621]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40219
+[CSC3210]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40217
+[CSC3310]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40223
+[CSC3320]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40218
 [CSC4601]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40224
 [CSC5120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41247
 [CSC5201]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41210
@@ -229,17 +230,18 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 [CSC6711]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41282
 [CSC7901]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41212
 [ELE3300]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40279
+[ELE3320]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40346
 [MTH1120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40139
 [MTH2130]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40111
 [MTH2340]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40136
 [MTH2480]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40132
 [MTH5810]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41224
-[SWE2511]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40238
-[SWE2710]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40231
 [PHL3101]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40120
 [PHL3102]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40121
 [PHL3103]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40122
 [PHL6001]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41209
+[SWE2511]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40238
+[SWE2710]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40231
 
 # Planned Offerings and Faculty Assignments
 * Summer, 2023
