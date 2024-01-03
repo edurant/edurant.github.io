@@ -1,6 +1,6 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2023-12-27 12:42:30 -0600
+date: 2024-01-03 15:45:30 -0600
 ---
 
 ## Month Not Yet Assigned
@@ -9,7 +9,7 @@ date: 2023-12-27 12:42:30 -0600
 * [Sea of Tranquility](https://bookshop.org/p/books/sea-of-tranquility-emily-st-john-mandel/17768221), by Emily St John Mandel.
 
 ## Month Assigned
-* [Looking for Lorraine](https://bookshop.org/p/books/looking-for-lorraine-the-radiant-and-radical-life-of-lorraine-hansberry-imani-perry/9004066), by Imani Perry, discussed on 2024-02-TBD.
+* [Looking for Lorraine](https://bookshop.org/p/books/looking-for-lorraine-the-radiant-and-radical-life-of-lorraine-hansberry-imani-perry/9004066), by Imani Perry, discussed on 2024-02-26.
 * [The Posthumous Memoirs of Brás Cubas](https://bookshop.org/p/books/the-posthumous-memoirs-of-bras-cubas-joaquim-maria-machado-de-assis/13441055), by Machado de Assis, discussed on 2024-01-29.
 * [The Peking Express: The Bandits Who Stole a Train, Stunned the West, and Broke the Republic of China](https://www.boswellbooks.com/book/9781541701700), by James M Zimmerman, discussed on 2023-12-13.
 * [There There](https://bookshop.org/p/books/there-there-tommy-orange/12066826), by Tommy Orange, discussed on 2023-11-20.
