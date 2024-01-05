@@ -64,7 +64,7 @@ Please see [MSOE's Accreditations](https://www.msoe.edu/about-msoe/who-we-are/ac
 
 # Machine Learning Careers In The News
 
-* [2023-12-22 Milwaukee Business Journal / Wisconsin Inno Fire Awards](https://www.bizjournals.com/milwaukee/inno/stories/awards/2023/12/22/2023-fire-awards-winners.html)
+* [2023-12-22 Milwaukee Business Journal / MSOE ML Programs Win Wisconsin Inno Fire Award](https://www.bizjournals.com/milwaukee/inno/stories/awards/2023/12/22/2023-fire-awards-winners.html) ([PDF](2023-12mkeBusJ-msoeMLGradAward.pdf))
 * [2023-08-14 Wall Street Journal article on demand for AI experts](https://www.wsj.com/articles/artificial-intelligence-jobs-pay-netflix-walmart-230fc3cb)
 * [2023-07-28 MSOE post on ML Careers and Industry Growth](https://online.msoe.edu/engineering/blog/machine-learning-careers-and-industry-growth)
 * [2022-08-19 MSOE Post for Employers on Developing ML Talent](https://online.msoe.edu/engineering/employers)
