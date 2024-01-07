@@ -53,6 +53,6 @@ Here you discuss your results and evaluate how successful you were. Are the resu
 
 Here you succinctly evaluate the success or lack thereof of your work and give key lessons learned. It is also common to discuss future work or what you think the next steps should be in this area and why.
 
-### Appendex: Source Code
+### Appendix: Source Code
 
 Include either or both of a full listing of all your source code and a link to an online version of your code (e.g., git repository).
