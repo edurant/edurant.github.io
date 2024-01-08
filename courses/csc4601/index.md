@@ -30,7 +30,7 @@ Graduate students enrolled in the course will complete all the undergraduate ass
 
 ## Problem Sets
 * [Week 1](ps/week01.pdf)
-* Week 2: [Overview](ps/week02), [IRIS data set](lab/01/IRIS.csv), [Peak LFC data set](ps/peaklfc.csv)
+* Week 2: [Overview](ps/week02.pdf), [IRIS data set](lab/01/IRIS.csv), [Peak LFC data set](ps/peak_lfc.csv)
 
 ## Labs
 * Week 1: [Overview](lab/01/lab01.pdf), Jupyter Notebook Stub: [IPYNB](lab/01/username_lab01_stub.ipynb) [PDF](lab/01/username_lab01_stub.pdf), [IRIS data set](lab/01/IRIS.csv)
