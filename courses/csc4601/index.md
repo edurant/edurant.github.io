@@ -24,7 +24,7 @@ laboratory exercises.
 Graduate students enrolled in the course will complete all the undergraduate assignments plus some additional assignments. The graduate section meets simultaneously with the undergraduate section per the published schedule.
 
 ## Course in Canvas
-* Spring, 2024: Link will be posted when available. Until then, please use this website and submit completed assignments via email.
+* [Spring, 2024](https://msoe.instructure.com/courses/18316)
 
 ## [General Course Policies](../policies.html)
 
