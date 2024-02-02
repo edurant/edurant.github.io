@@ -1,6 +1,6 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2024-01-30 17:51:30 -0600
+date: 2024-02-02 14:49:30 -0600
 ---
 
 ## Month Not Yet Assigned
@@ -10,8 +10,8 @@ date: 2024-01-30 17:51:30 -0600
 
 ## Month Assigned
 
-* [The Good Life: Lessons from the World's Longest Scientific Study of Happiness](https://bookshop.org/p/books/the-good-life-life-changing-lessons-from-the-world-s-longest-study-of-happiness-marc-schulz/18716303), by Robert Waldinger and Marc Schulz, discussed on 2024-04-TBD.
-* [Hood Feminism: Notes from the Women That a Movement Forgot](https://bookshop.org/books/hood-feminism-notes-from-the-women-that-a-movement-forgot/9780525560548), by Mikki Kendall, discussed on 2024-03-TBD.
+* [The Good Life: Lessons from the World's Longest Scientific Study of Happiness](https://bookshop.org/p/books/the-good-life-life-changing-lessons-from-the-world-s-longest-study-of-happiness-marc-schulz/18716303), by Robert Waldinger and Marc Schulz, discussed on 2024-04-25.
+* [Hood Feminism: Notes from the Women That a Movement Forgot](https://bookshop.org/books/hood-feminism-notes-from-the-women-that-a-movement-forgot/9780525560548), by Mikki Kendall, discussed on 2024-03-27.
 * [Looking for Lorraine](https://bookshop.org/p/books/looking-for-lorraine-the-radiant-and-radical-life-of-lorraine-hansberry-imani-perry/9004066), by Imani Perry, discussed on 2024-02-26.
 * [The Posthumous Memoirs of Brás Cubas](https://bookshop.org/p/books/the-posthumous-memoirs-of-bras-cubas-joaquim-maria-machado-de-assis/13441055), by Machado de Assis, discussed on 2024-01-29.
 * [The Peking Express: The Bandits Who Stole a Train, Stunned the West, and Broke the Republic of China](https://www.boswellbooks.com/book/9781541701700), by James M Zimmerman, discussed on 2023-12-13.
