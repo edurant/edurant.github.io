@@ -157,8 +157,10 @@ Machine Learning | CS3400  | [CSC4601][CSC4601]
 The steps for enrolling in the capstone project course are:
 1. Get approval from the program director to begin your capstone in a particular semester.
 1. Find a capstone advisor and discuss and refine your project idea.
-1. Work with your capstone advisor to identify 2 other MSOE faculty members to serve on your committee.
+1. Work with your capstone advisor to identify 2 other MSOE faculty members to serve on your committee. Outside committee members (e.g., the chief data scientist at your company) are allowed via adjunct appointments if they have appropriate experience and background, including at a minimum a relevant master's degree.
 1. Complete the [form](https://msoe.s3.amazonaws.com/files/resources/msml-capstone-request-form-eecs-semesters-fillable.pdf) posted on the [Registrar's website](https://www.msoe.edu/academics/departments/registrar/independent-study-forms/), get required signatures, and submit it. Then the class is added to your schedule for the next semester.
+
+Capstone students may work individually, as part of a loosely affiliated group (e.g., regular lab meetings with advisor(s) to get feedback on work in progress), or as a team of two on a large project with clearly defined individual goals. Regardless, each student must submit their own capstone request form.
 
 The following faculty are *some* of the potential capstone project advisors. Feel free to contact them to see if your areas of interest align with their expertise.
 * [Dr. Berisha][Dr. Berisha]: Machine/deep learning, image processing, time-series data analysis. In general, my research centers around the application of machine learning algorithms in the fields of biomedicine and remote sensing. My most recent efforts have concentrated on two significant applications. Firstly, I have been exploring the integration of deep learning with hyperspectral mid-infrared imaging to enhance cancer diagnosis. Secondly, my research is dedicated to the application of deep learning techniques in the analysis of ECG data for the diagnosis of cardiovascular, brain injury, and respiratory diseases.
