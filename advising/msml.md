@@ -119,11 +119,11 @@ Completing this certificate at MSOE meets the [CSC5610][CSC5610] and [CSC6621][C
 
 ## [CSC5201 Microservices &amp; Cloud Computing][CSC5201]
 
-### Substitutions Allowed
+### Substitutions Allowed: Graduate Courses
 
 There are opportunities to substitute certain courses for the CSC5201 requirement in the MSML and in the ML Engineering Graduate Certificate. [CSC5201][CSC5201], [CSC6711][CSC6711], or CSC6712 can satisfy the CSC5201 requirement. If MSML students take more than 1 of these classes, the additional courses are counted as MSML electives.
 
-### Alternate Prerequisites
+### Substitutions Allowed: Undergraduate Courses
 Students with sufficient coursework in *both* web apps and cloud computing replace this course with an approved elective.
 
 #### Acceptable Web Apps Coursework
@@ -144,7 +144,7 @@ Although [CSC5201][CSC5201] is *not* a prerequisite for this class, students wil
 
 [CSC2621 Introduction to Data Science][CSC2621] (a course in the DS minor) is a sufficient prerequisite to take this course.
 
-Generally, CSC and SWE students will meet these requirements by the time they have early entry status.
+Also, CS and SE students will generally meet the following alternate prerequisites by the time they have early entry status.
 
 Requirement      | Quarter | Semester
 ---              | ---     | ---
@@ -171,11 +171,14 @@ The following faculty are *some* of the potential capstone project advisors. Fee
 * [Dr. Urbain][Dr. Urbain]: Natural language processing, medical image processing, graph machine learning
 
 [Dr. Berisha]: https://www.msoe.edu/directory/profile/sebastian.berisha/
+[Dr. Bukowy]: https://www.msoe.edu/directory/profile/john.bukowy/
 [Dr. Durant]: /
+[Dr. Imas]: https://www.linkedin.com/in/olgaimas/
 [Dr. Kedziora]: https://www.linkedin.com/in/jeremy-kedziora/
 [Dr. Magaña]: https://www.msoe.edu/directory/profile/jonathon.magana/
 [Dr. Nowling]: https://rnowling.github.io/
 [Dr. Urbain]: https://github.com/jayurbain
+[Dr. Yoder]: https://www.msoe.edu/directory/profile/josiah.yoder/
 
 ## [PHL6001][PHL6001]
 
@@ -189,13 +192,13 @@ Click on course numbers below to see catalog entries with course details.
 
 Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 --- | --- | --- | --- | --- | ---
-BME5210 | Elective | Medical Imaging Systems | 3-2-4 | | Dr. Imas | [ELE3300][ELE3300] &#124; CSC4651 &#124; [CSC5651][CSC5651] &#124; CSC4611 &#124; [CSC5611][CSC5611] &#124; [CSC6621][CSC6621]
-[CSC5120][CSC5120] | Elective | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | Dr. Magaña | [CSC1110][CSC1110] &#124; [CSC1310][CSC1310] &#124; consent
+BME5210 | Elective | Medical Imaging Systems | 3-2-4 | | [Dr. Imas][Dr. Imas] | [ELE3300][ELE3300] &#124; CSC4651 &#124; [CSC5651][CSC5651] &#124; CSC4611 &#124; [CSC5611][CSC5611] &#124; [CSC6621][CSC6621]
+[CSC5120][CSC5120] | Elective | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | [Dr. Magaña][Dr. Magaña] | [CSC1110][CSC1110] &#124; [CSC1310][CSC1310] &#124; consent
 [CSC5201][CSC5201] | Required | Microservices and Cloud Computing | 4-0-4 | spring '24, then fall | [Dr. Nowling][Dr. Nowling] | [CSC5120][CSC5120] &#124; [SWE2710][SWE2710] &#124; ([CSC3320][CSC3320] &amp; [CSC3210][CSC3210]) &#124; [CPE2600][CPE2600] &#124; consent &#124; …
 [CSC5241][CSC5241] | Elective | GPU Programming | 4-0-4 | | [Dr. Berisha][Dr. Berisha]
-[CSC5601][CSC5601] | Elective | Theory of Machine Learning | 4-0-4 | spring, 2024 then every fall | Dr. Bukowy | ((([MTH2130][MTH2130] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610])) &#124; consent
+[CSC5601][CSC5601] | Elective | Theory of Machine Learning | 4-0-4 | spring, 2024 then every fall | [Dr. Bukowy][Dr. Bukowy] | ((([MTH2130][MTH2130] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610])) &#124; consent
 [CSC5610][CSC5610] | Required | AI Tools and Paradigms | 4-0-4 | fall | [Dr. Nowling][Dr. Nowling] | ([MTH1120][MTH1120] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &amp; ([CSC1120][CSC1120] &#124; equivalent) &#124; consent
-[CSC5611][CSC5611] | Elective | Deep Learning | 4-0-4 | F24 and spring beginning 2025 | Dr. Yoder | [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; [CSC6621][CSC6621] &#124; consent
+[CSC5611][CSC5611] | Elective | Deep Learning | 4-0-4 | F24 and spring beginning 2025 | [Dr. Yoder][Dr. Yoder] | [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; [CSC6621][CSC6621] &#124; consent
 [CSC5651][CSC5651] | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | [Dr. Durant][Dr. Durant] | ([MTH5810][MTH5810] &#124; [MTH2340][MTH2340] &#124; [MTH2130][MTH2130]) &amp; ([CSC5610][CSC5610] &#124; [ELE3320][ELE3320] &#124; [CSC3310][CSC3310] &#124; [CSC2621][CSC2621])
 CSC5661 | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | [Dr. Kedziora][Dr. Kedziora] | (([MTH2480][MTH2480] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610]) &#124; consent
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
