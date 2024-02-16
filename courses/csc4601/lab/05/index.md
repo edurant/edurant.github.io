@@ -1,5 +1,6 @@
-# CSC 4601/5601 Theory of Machine Learning
-# Lab 5: Feedforward Neural Network
+---
+title: "CSC 4601/5601 Theory of Machine Learning: Lab 5: Feedforward Neural Network"
+---
 
 ## Overview
 In your previous courses, you were exposed to basic neural networks (NNs). Early forms of NNs were developed in the 1950s but have seen a resurgence of popularity in the last decade. The popularity is fueled by massive increases in data and compute power as well as new activation functions and optimization methods that solve the “vanishing gradient” problem to enable the construction of large networks with many layers that outperform classical machine learning models on a variety of tasks.
@@ -20,7 +21,10 @@ For this lab, we are omitting a train/test split - not because you shouldn't do 
 
 ### Experimental Setup.
 
-Import the necessary libraries and modules and then set the numpy.random.seed value to 42.
+Import the necessary libraries and modules and then set NumPy random number generator seed value to 42:
+    np.random.seed(42)
+
+This makes successive runs of your code repeatable. SGDClassifier (stochastic gradient descent) and many other functions use pseudorandom numbers to sequence the data, etc. In your final version, you could remove this and re-run your code several times to see how consistent your results are (that is, are your results overly sensitive to random, lucky chances in the model fitting, etc., or are your results robust to these effects). In practice, it is challenging to make modern ML algorithms fully repeatable since there are many sources of variation: random number generator in each library you use, library code that uses non-deterministic sources of randomness (network packet timing, keyboard input timing, current time in nanoseconds, etc.), and libraries that automatically tune their implementation to achieve maximum performance on your GPU hardware, to name a few.
 
 ### Experiment 1: Data Loading, Data Visualization, and Baseline Models.
 
