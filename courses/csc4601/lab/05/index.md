@@ -1,4 +1,5 @@
 ---
+usemathjax: true
 title: "CSC 4601/5601 Theory of Machine Learning: Lab 5: Feedforward Neural Network"
 ---
 
