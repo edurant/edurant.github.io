@@ -1,5 +1,8 @@
 encoding: utf-8
 
+# Build settings
+markdown: kramdown
+
 defaults:
   -
     scope:
@@ -7,5 +10,3 @@ defaults:
       type: "pages" # avoid applying to everything, including .css, etc.
     values:
       layout: "default"
-    # Build settings
-    markdown: kramdown
