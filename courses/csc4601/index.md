@@ -35,6 +35,9 @@ Graduate students enrolled in the course will complete all the undergraduate ass
 ## Labs
 * Week 1: [Overview](lab/01/lab01.pdf), Jupyter Notebook Stub: [IPYNB](lab/01/username_lab01_stub.ipynb) [PDF](lab/01/username_lab01_stub.pdf), [IRIS data set](lab/01/IRIS.csv)
 * Week 2: [Overview](lab/02/lab02.pdf), Data Files: [Gaussian Distribution](lab/02/gaussdist.csv), [Advertising](lab/02/advertising.csv)
+* Week 3: See Canvas
+* Week 4: See Canvas
+* [Week 5: Feedforward Neural Network](lab/05/)
 
 ## Toolset
 
