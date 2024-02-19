@@ -1,4 +1,7 @@
-# Problem Set: Decision Trees and Logistic Regression
+---
+usemathjax: true
+title: "CSC 4601/5601 Theory of Machine Learning: Problem Set: Decision Trees and Logistic Regression"
+---
 
 You may complete the following entirely in a Jupyter notebook. Ensure that the notebook has your name on it. Save the notebook as a PDF and submit the PDF through Canvas.
 
