@@ -31,6 +31,10 @@ Graduate students enrolled in the course will complete all the undergraduate ass
 ## Problem Sets
 * [Week 1](ps/week01.pdf)
 * Week 2: [Overview](ps/week02.pdf), [IRIS data set](lab/01/IRIS.csv), [Peak LFC data set](ps/peak_lfc.csv)
+* Week 3: See Canvas
+* Week 4: See Canvas
+* Week 5: See Canvas
+* Week 6: [Decision Trees and Logistic Regression](ps/06/)
 
 ## Labs
 * Week 1: [Overview](lab/01/lab01.pdf), Jupyter Notebook Stub: [IPYNB](lab/01/username_lab01_stub.ipynb) [PDF](lab/01/username_lab01_stub.pdf), [IRIS data set](lab/01/IRIS.csv)
