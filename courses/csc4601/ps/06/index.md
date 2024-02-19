@@ -23,7 +23,7 @@ which simplifies to:
 
 $x_2 = -4 + 1.175x_1$
 
-We can now use NumPy's \texttt{linspace} function to generate the $x_1$ values and then plug them into the line's equation to generate the values for $x_2$. (For this case, a line as opposed to a more general curve, using a NumPy \texttt{array} of 2 elements will also work.) Lastly, we can plot the line defined by the two arrays of $x_1$ and $x_2$ values.
+We can now use NumPy's ``linspace`` function to generate the $x_1$ values and then plug them into the line's equation to generate the values for $x_2$. (For this case, a line as opposed to a more general curve, using a NumPy ``array`` of 2 elements will also work.) Lastly, we can plot the line defined by the two arrays of $x_1$ and $x_2$ values.
 
 Your turn! Find the equation of the line/plane for each fitted model below and plot the line/plane.
 
@@ -139,7 +139,7 @@ How do you interpret the weights for the following features: gender and serum cr
 
 ## Problem 4: Growing Trees and the Gini Index
 
-There are various algorithms to construct a decision tree. The classification and regression trees (CART) algorithm is the most popular algorithm. It consists of a top-down greedy approach known as \textit{recursive binary splitting} that aims at dividing the feature space into non-overlapping regions: it begins at the root or top of the tree, finds the best split at the root and then successively repeats the same steps for each child node (top-down: it starts from the root, greedy: it chooses the best split at each step). When constructing a classification tree, the best split is chosen according to a measure that indicates the node impurity - node impurity refers to how much the data in each node or region are mixed. An example of such measure is the Gini index.
+There are various algorithms to construct a decision tree. The classification and regression trees (CART) algorithm is the most popular algorithm. It consists of a top-down greedy approach known as *recursive binary splitting* that aims at dividing the feature space into non-overlapping regions: it begins at the root or top of the tree, finds the best split at the root and then successively repeats the same steps for each child node (top-down: it starts from the root, greedy: it chooses the best split at each step). When constructing a classification tree, the best split is chosen according to a measure that indicates the node impurity - node impurity refers to how much the data in each node or region are mixed. An example of such measure is the Gini index.
 
 __Steps of CART algorithm (classification)__
 
