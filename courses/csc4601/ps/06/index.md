@@ -9,7 +9,7 @@ You may complete the following entirely in a Jupyter notebook. Ensure that the n
 
 Let's practice plotting the linear decision boundary learned by a logistic regression model. Assume you are given the following fitted model:
 
-$P(y = 1 | \vec{x}) = \frac{1}{1+e^{-(32 - 9.4x_1 + 8x_2)}}$
+$P(y = 1 &vert; \vec{x}) = \frac{1}{1+e^{-(32 - 9.4x_1 + 8x_2)}}$
 
 First, we want to pull out the part of the equation corresponding to the plane and set it equal to 0:
 
@@ -27,31 +27,31 @@ We can now use NumPy's \texttt{linspace} function to generate the $x_1$ values a
 
 Your turn! Find the equation of the line/plane for each fitted model below and plot the line/plane.
 
-- $P(y = 1 | x) = \frac{1}{1+e^{-(-20.96-123.08x_1+40.46x_2)}}$
-- $P(y = 1 | x) = \frac{1}{1+e^{-(259.55-27.15x_1-30.49x_2)}}$
-- $P(y = 1 | x) = \frac{1}{1+e^{-(-26.7-284.7x_1+284.9x_2-64.6x_3)}}$
+- $P(y = 1 &vert; x) = \frac{1}{1+e^{-(-20.96-123.08x_1+40.46x_2)}}$
+- $P(y = 1 &vert; x) = \frac{1}{1+e^{-(259.55-27.15x_1-30.49x_2)}}$
+- $P(y = 1 &vert; x) = \frac{1}{1+e^{-(-26.7-284.7x_1+284.9x_2-64.6x_3)}}$
 
 ## Problem 2: Log-Likelihood
 
 A logistic regression model is trained by finding weights which optimize the logistic likelihood function:
 
-$L = \prod_{i=1}^N P(y^{(i)} = 1 | x^{(i)})^{y^{(i)}} (1 - P(y^{(i)} = 1 | x^{(i)}))^{1 - y^{(i)}}$
+$L = \prod_{i=1}^N P(y^{(i)} = 1 &vert; x^{(i)})^{y^{(i)}} (1 - P(y^{(i)} = 1 &vert; x^{(i)}))^{1 - y^{(i)}}$
 
 where $x^{(i)}$ represents the feature vector of the $i^{th}$ sample and $y^{(i)}$ represents the label of the $i^{th}$ sample.
 
-Logistic regression computes the probability that each sample $x^{(i)}$ belongs to class 1. Formally, the logistic regression model is referred to as $P(y^{(i)} = 1 | x^{(i)})$. Since logistic regression only assumes two possible outcomes, the probability that the sample is not in class 1 is given by $1 - P(y^{(i)} = 1 | x^{(i)})$. Depending on which class (designated 0 or 1) the sample is in, the exponent of one term will be 1 and the other will be 0. So only one term is used per sample in the calculation of the likelihood.
+Logistic regression computes the probability that each sample $x^{(i)}$ belongs to class 1. Formally, the logistic regression model is referred to as $P(y^{(i)} = 1 &vert; x^{(i)})$. Since logistic regression only assumes two possible outcomes, the probability that the sample is not in class 1 is given by $1 - P(y^{(i)} = 1 &vert; x^{(i)})$. Depending on which class (designated 0 or 1) the sample is in, the exponent of one term will be 1 and the other will be 0. So only one term is used per sample in the calculation of the likelihood.
 
-For example, assume we are trying to distinguish between ``setosa`` and ``non-setosa`` samples. If a sample $i=5$ has relatively small petal lengths and widths, there is a high probability (e.g., 99\%) that the sample belongs to the ``setosa`` class. We would write this as $P(y^{(5)} = setosa | x^{(5)}) = 0.99$. Assume that the sample genuinely does belong to the ``setosa`` species so $y^{(5)} = 1$. Since $1 - y^{(5)} = 1 - 1 = 0$, the $1 - P(y^{(5)} = 1 | x^{(5)})$ is reduced to 1. We then calculate the rest to get the likelihood for that sample:
+For example, assume we are trying to distinguish between ``setosa`` and ``non-setosa`` samples. If a sample $i=5$ has relatively small petal lengths and widths, there is a high probability (e.g., 99\%) that the sample belongs to the ``setosa`` class. We would write this as $P(y^{(5)} = setosa &vert; x^{(5)}) = 0.99$. Assume that the sample genuinely does belong to the ``setosa`` species so $y^{(5)} = 1$. Since $1 - y^{(5)} = 1 - 1 = 0$, the $1 - P(y^{(5)} = 1 &vert; x^{(5)})$ is reduced to 1. We then calculate the rest to get the likelihood for that sample:
 
-$L_i = P(y^{(i)} = 1 | x^{(i)})^{y^{(i)}} (1 - P(y^{(i)} = 1 | x^{(i)}))^{1 - y^{(i)}}$
+$L_i = P(y^{(i)} = 1 &vert; x^{(i)})^{y^{(i)}} (1 - P(y^{(i)} = 1 &vert; x^{(i)}))^{1 - y^{(i)}}$
 
 $L_5 = 0.99^1 (1 - 0.99)^{1 - 1}$
 
 $L_5 = 0.99$
 
-Now, let's look at the case where the species of sample $7$'s species is not setosa but the model predicts that it is. Assume the model gives us a probability of 75\% of being in setosa: $P(y^{(7)} = setosa | x^{(7)}) = 0.75$. The true class of the sample is 0 so $y^{(7)} = 0$.
+Now, let's look at the case where the species of sample $7$'s species is not setosa but the model predicts that it is. Assume the model gives us a probability of 75\% of being in setosa: $P(y^{(7)} = setosa &vert; x^{(7)}) = 0.75$. The true class of the sample is 0 so $y^{(7)} = 0$.
 
-$L_i = P(y^{(i)} = 1 | x^{(i)})^{y^{(i)}} (1 - P(y^{(i)} = 1 | x^{(i)}))^{1 - y^{(i)}}$
+$L_i = P(y^{(i)} = 1 &vert; x^{(i)})^{y^{(i)}} (1 - P(y^{(i)} = 1 &vert; x^{(i)}))^{1 - y^{(i)}}$
 
 $L_7 = 0.75^0 (1 - 0.75)^{1 - 0}$
 
@@ -109,13 +109,13 @@ Linear models such as linear regression and logistic regression are considered i
 
 1. Your answer to the last question is the way we interpret the weights in linear regression. In logistic regression, the interpretability of the weights differ. A logistic regression model predicts the probability that an instance belongs to class 1 (assuming here a binary classification, $y \in \{0, 1\}$):
 
-    $P(y=1|x) = \frac{1}{1+e^{-( b + \beta_1x_1 + \beta_2x_2 + \cdots + \beta_mx_m)}} \;\;\; (1)$
+    $P(y=1&vert;x) = \frac{1}{1+e^{-( b + \beta_1x_1 + \beta_2x_2 + \cdots + \beta_mx_m)}} \;\;\; (1)$
 
     To interpret the weights correctly for a logistic model, we need to reformulate the above equation.
 
       1. Use (1) to express the following ratio in terms of features and their weights:
 
-         $$\frac{P(y=1|x)}{P(y=0|x)}$$
+         $$\frac{P(y=1&vert;x)}{P(y=0&vert;x)}$$
 
          The ratio (probability of $y=1$ divided by probability of $y=0$) is called the __odds__. For example, if you have odds of 2, it means that the probability for $y=1$ is twice as high as the probability for $y=0$.
 
