@@ -41,7 +41,7 @@ where $x^{(i)}$ represents the feature vector of the $i^{th}$ sample and $y^{(i)
 
 Logistic regression computes the probability that each sample $x^{(i)}$ belongs to class 1. Formally, the logistic regression model is referred to as $P(y^{(i)} = 1{\vert}x^{(i)})$. Since logistic regression only assumes two possible outcomes, the probability that the sample is not in class 1 is given by $1 - P(y^{(i)} = 1{\vert}x^{(i)})$. Depending on which class (designated 0 or 1) the sample is in, the exponent of one term will be 1 and the other will be 0. So only one term is used per sample in the calculation of the likelihood.
 
-For example, assume we are trying to distinguish between ``setosa`` and ``non-setosa`` samples. If a sample $i=5$ has relatively small petal lengths and widths, there is a high probability (e.g., 99\%) that the sample belongs to the ``setosa`` class. We would write this as $P(y^{(5)} = setosa{\vert}x^{(5)}) = 0.99$. Assume that the sample genuinely does belong to the ``setosa`` species so $y^{(5)} = 1$. Since $1 - y^{(5)} = 1 - 1 = 0$, the $1 - P(y^{(5)} = 1{\vert}x^{(5)})$ is reduced to 1. We then calculate the rest to get the likelihood for that sample:
+For example, assume we are trying to distinguish between ``setosa`` and ``non-setosa`` samples. If a sample $i=5$ has relatively small petal lengths and widths, there is a high probability (e.g., 99%) that the sample belongs to the ``setosa`` class. We would write this as $P(y^{(5)} = setosa{\vert}x^{(5)}) = 0.99$. Assume that the sample genuinely does belong to the ``setosa`` species so $y^{(5)} = 1$. Since $1 - y^{(5)} = 1 - 1 = 0$, the $1 - P(y^{(5)} = 1{\vert}x^{(5)})$ is reduced to 1. We then calculate the rest to get the likelihood for that sample:
 
 $L_i = P(y^{(i)} = 1{\vert}x^{(i)})^{y^{(i)}} (1 - P(y^{(i)} = 1{\vert}x^{(i)}))^{1 - y^{(i)}}$
 
@@ -49,7 +49,7 @@ $L_5 = 0.99^1 (1 - 0.99)^{1 - 1}$
 
 $L_5 = 0.99$
 
-Now, let's look at the case where the species of sample $7$'s species is not setosa but the model predicts that it is. Assume the model gives us a probability of 75\% of being in setosa: $P(y^{(7)} = setosa+x^{(7)}) = 0.75$. The true class of the sample is 0 so $y^{(7)} = 0$.
+Now, let's look at the case where the species of sample $7$'s species is not setosa but the model predicts that it is. Assume the model gives us a probability of 75% of being in setosa: $P(y^{(7)} = setosa+x^{(7)}) = 0.75$. The true class of the sample is 0 so $y^{(7)} = 0$.
 
 $L_i = P(y^{(i)} = 1{\vert}x^{(i)})^{y^{(i)}} (1 - P(y^{(i)} = 1{\vert}x^{(i)}))^{1 - y^{(i)}}$
 
@@ -199,7 +199,7 @@ $$ \frac{N_1}{N} G(R_1) + \frac{N_2}{N}G(R_2)$$
 
 where $N_1$ is the total number of data points in $R_1$ and $N_2$ is the total number of data points in $R_2$.
 
-c. Consider now the feature __cigsPerDay__. The possible values that this feature has taken are: 0, 3, 10, 20 and 30. Then the possible thresholds are: 1.5, 6.5, 15, 25 (middle points between each possible value). For the cut-point 1.5, compute the Gini index of the two region it creates (region where __cigsPerDay<1.5__ and region where __cigsPerDay>=1.5__) and then compute their weighted average. For the remaining thresholds (6.5, 15, 25), the weighted average of the Gini indices are respectively: 0.4, 0.417, 0.375. Which threshold for the feature __cigsPerDay__ does have the lowest impurity?
+c. Consider now the feature __cigsPerDay__. The possible values that this feature has taken are: 0, 3, 10, 20 and 30. Then the possible thresholds are: 1.5, 6.5, 15, 25 (middle points between each possible value). For the cut-point 1.5, compute the Gini index of the two region it creates (region where __cigsPerDay<1.5__ and region where __cigsPerDay>=1.5__) and then compute their weighted average. For the remaining thresholds (6.5, 15, 25), the weighted average of the Gini indices are respectively: 0.4, 0.45, 0.4. Which threshold for the feature __cigsPerDay__ does have the lowest impurity?
 
 d. Which feature should be chosen for the root node?
 
