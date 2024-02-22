@@ -31,7 +31,7 @@ Your turn! Find the equation of the line/plane for each fitted model below and p
 - $P(y = 1\vert{x}) = \frac{1}{1+e^{-(259.55-27.15x_1-30.49x_2)}}$
 - $P(y = 1\vert{x}) = \frac{1}{1+e^{-(-26.7-284.7x_1+284.9x_2-64.6x_3)}}$
 
-## Problem 2: Log-Likelihood
+## Problem 2: Likelihood
 
 A logistic regression model is trained by finding weights which optimize the logistic likelihood function:
 
@@ -221,11 +221,13 @@ c. Trace DT 1 to classify the following samples:
 
 d. For samples in (c), trace the path from the root to the leaf and provide the corresponding Boolean expression.
 
-e. On the proline and color intensity and flavonoids and alcohol feature pair scatter plots from (a), plot the decision lines for every non-leaf node of the tree.
+e. On the proline and color intensity and flavonoids and alcohol feature pair scatter plots from (a), plot the decision lines for every non-leaf node of the DT1.
 
 f. The two trees are of very different sizes. Why do you think that is?
 
 g. For logistic regression, we need to use a one-versus-all scheme with multiple models to handle multi-class problems. How are multi-class problems handled with decision trees?
+
+### Figure 1: Two Decision Trees
 
 ![Decision Tree 1](tree1.png)
 
