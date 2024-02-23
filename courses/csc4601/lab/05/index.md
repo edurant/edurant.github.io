@@ -35,7 +35,7 @@ This makes successive runs of your code repeatable. SGDClassifier (stochastic gr
 
   3. Train a logistic regression model [SGDClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html) on the data set.
 
-  4. Calculate the true positive rate (TPR) and false positive rate (FPR) on the predictions and plot the results in an ROC. The ROC plot should include a line of identity (typically dashed, indicating performance of a baseline model that guesses randomly, thus TPR=FPR). Additionally, include the area under curve ([AUC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.auc.html)) for the model in the legend.
+  4. Calculate the true positive rate (TPR) and false positive rate (FPR) on the predictions and plot the results in an [ROC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html). The ROC plot should include a line of identity (typically dashed, indicating performance of a baseline model that guesses randomly, thus TPR=FPR). Additionally, include the area under curve ([AUC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.auc.html)) for the model in the legend.
 
 ### Experiment 2: Training and Visualizing Layers of a MultiLayer Perceptron (MLP)
 
@@ -60,11 +60,11 @@ This makes successive runs of your code repeatable. SGDClassifier (stochastic gr
 
 #### Visualize Decision Boundaries Resulting from Planes and ReLU Activation Function
 
-  1. Create a mesh grid in the range of [-2, 2] along each dimension.
+  1. Create a meshgrid in the range of [-2, 2] along each dimension.
 
   2. Plot the grid of synthetic points as a scatter plot.
 
-  3. Use the Input and Neuron classes in the provided [neurons.py](neurons.py) file to calculate the value for the first hidden layer neuron at each grid point. (Pass the grid points into the predict() method as X).
+  3. Use the Input and Neuron classes in the provided [neurons.py](neurons.py) file to calculate the value for the first hidden layer neuron at each grid point. Pass the grid points into the predict() method as an $N^2 \times 2$ matrix, where N is the edge length of your meshgrid matrices. You'll need to use some [NumPy Array Manipulation Routines](https://numpy.org/doc/stable/reference/routines.array-manipulation.html#changing-array-shape).
 
     input = Input()
     p_layer = Neuron([input], mlp_models[0, :])
