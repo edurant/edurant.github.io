@@ -1,13 +1,13 @@
 ---
 title: "CE Academic Advising"
-date: 2023-10-11 14:34:30 -0500
+date: 2024-02-27 08:45:30 -0600
 ---
 
 ## Advising policy
 
-Computer engineering students see their advisors regularly to discuss academic and career plans and progress. In most terms, CE students must receive their advisors&rsquo; clearance before registering; the online registration system enforces this. Beat the registration rush by contacting your advisor early in the quarter. You are welcomed and encouraged to meet with your advisor even in terms when it is not required to discuss your internship search, career goals, etc.
+Computer engineering students see their advisors regularly to discuss academic and career plans and progress. In most terms, CE students must receive their advisors&rsquo; clearance before registering; the online registration system enforces this. Beat the registration rush by contacting your advisor early in the semester. You are welcomed and encouraged to meet with your advisor even in terms when it is not required to discuss your internship search, career goals, etc.
 
-Advising appointments start in week 9. You will be notified of your advisor&rsquo;s appointment sign-up procedures in week 8.
+Advising appointments start in week 8. You will be notified of your advisor&rsquo;s appointment sign-up procedures in week 7.
 
 ## Semester transition
 MSOE transitioned to semesters in F&rsquo;23.
@@ -31,7 +31,7 @@ If you you attended MSOE as an undergraduate through the semester transition, yo
 
 ## What to have available during the meeting with your advisor
 * Your individual transition plan or a copy (physical or virtual) of the CE curriculum flowchart for your curriculum version marked with the courses you have successfully completed.
-* Your preliminary plans for the next quarter&rsquo;s schedule
+* Your preliminary plans for the next semester&rsquo;s schedule
 * Your curriculum track (course list). Electronic copies are available at the links above. Or, go to <https://catalog.msoe.edu/> and select the catalog year that you first enrolled at MSOE.
 * Any questions you may have
 
@@ -56,14 +56,13 @@ Follow the link at [Registrar&rsquo;s Registration Resources](https://www.msoe.e
 ## Closed Sections
 After your registration time, you may request entry into a closed section; every effort will be made to arrange a schedule with your on-track courses. Each department has its own policies for handling closed section requests.
 
-* [EECS closed section request form](https://s3.amazonaws.com/msoe/files/resources/request_to_enter_closed_eecs_course_fill_in_form.pdf)
-* [Policies for each department](https://www.msoe.edu/academics/departments/registrar/independent-study-and-closed-section/)
+* [Policies and forms for each department](https://www.msoe.edu/academics/departments/registrar/independent-study-and-closed-section/)
 
 ## Forms
 Forms for declaring a minor, changing/adding a major, etc., are available on the [Registrar&rsquo;s website](https://www.msoe.edu/academics/departments/registrar/#Student%20Forms).
 
 ## Two-degree Tracks
-Two-degree tracks exist for CE in combination with CS, EE and SE. These tracks are laid out for 5 years, but students have accelerated the course sequence and finished in one or two quarters beyond 4 years. Please see your advisor or program director for more information.
+Two-degree tracks exist for CE in combination with CS, EE and SE. These tracks are laid out for 5 years, but students have accelerated the course sequence and finished one or two terms early. Please see your advisor or program director for more information.
 
 ## Internship and Job Search Resources
 * Talk with your faculty and advisor

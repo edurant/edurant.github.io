@@ -10,7 +10,7 @@ If you need MSML advising, senior design project advising, etc., you can also si
 ## Scheduling an advising appointment
 
 * Send me an Outlook meeting request.
-  * I try to accept all requests upon receipt, but may reject requests received within 24 hours of the appointment time.
+  * I try to accept all requests promptly, but may reject requests received within 24 hours of the appointment time.
   * Available times are those that *both* appear in the list below and appear as &ldquo;tentative&rdquo; in my availability. Times that are already taken by another student appear as &ldquo;busy&rdquo;.
   * Note: Some clients may treat &ldquo;tentative&rdquo; times as busy and will tell you I'm unavailable during all advising times. You can override and send the invitation regardless, but may get a decline from me if another student has that time.
 * Use the option that requires me to confirm the meeting (usually the default).
@@ -27,23 +27,25 @@ If you need MSML advising, senior design project advising, etc., you can also si
 
 ## Advising times
 
+* Week 8 Times
+  * Monday 3/4: 2:30–5:30 PM
+  * Tuesday 3/5: 1–4 PM
+  * Wednesday 3/6: 2–4 PM
+  * Thursday 3/7: (no times available)
+  * Friday 3/8: 2–4:30 PM
+
+* (Spring Break Week)
+
 * Week 9 Times
-  * Monday 10/23: 2–4:30 PM
-  * Tuesday 10/24: 1–2:45 PM
-  * Wednesday 10/25: 10:00–11:45 AM, 1–4 PM
-  * Thursday 10/26: 12–4 PM
-  * Friday 10/27: 10:30 AM–11:30 AM, 1–3 PM
+  * Monday 3/18: 2:30–5:30 PM
+  * Tuesday 3/19: 1–4 PM
+  * Wednesday 3/20: 2–3:30 PM
+  * Thursday 3/21: 4–5:30 PM
+  * Friday 3/22: 2–4:30 PM
 
 * Week 10 Times
-  * Monday 10/30: 2–4:30 PM
-  * Tuesday 10/31: (no times available)
-  * Wednesday 11/1: (no times available)
-  * Thursday 11/2: (no times available)
-  * Friday 11/3: (no times available)
-
-* Week 11 Times
-  * Monday 11/6: 2–4:30 PM
-  * Tuesday 11/7: 1–1:45 PM
-  * Wednesday 11/8: 10:00–11:45 AM
-  * Thursday 11/9: 3:15–4 PM
-  * Friday 11/10: 10:30 AM–11:30 AM, 1–3:30 PM
+  * Monday 3/25: 2:30–4 PM
+  * Tuesday 3/26: 1–4 PM
+  * Wednesday 3/27: 2–4:30 PM
+  * Thursday 3/28: 4–5:30 PM
+  * Friday 3/29: 2–4:30 PM
