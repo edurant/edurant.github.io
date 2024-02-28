@@ -39,6 +39,7 @@ space. Are these same observations now linearly separable?
 a hyperplane and a threshold to classify the points.
         - $\hat{n} = \langle 0, 1 \rangle \quad \text{and} \quad \mathbf{r_0} = (0,5)$
         - <span>$y = \begin{cases} 0 & \text{if } f(x) < 0 \\ 1 & \text{if } f(x) \geq 1 \end{cases}$</span>
+        - ![PNG rendering of above equation](classdef.png)
 3. 2-D to 3-D example
     1. Load the dataset `kernel_problem_3.csv`. Rows are observations,
 the first and second columns refer to features, the third column is
