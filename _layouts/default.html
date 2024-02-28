@@ -4,17 +4,21 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/css/default.css">
     <!-- for mathjax support -->
+
     {% if page.usemathjax %}
-      <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-        TeX: { equationNumbers: { autoNumber: "AMS" } },
-        tex2jax: {
-          inlineMath: [['$', '$'], ["\\(", "\\)"]],
-          displayMath: [['$$', '$$'], ["\\[", "\\]"]],
-          processEscapes: true }
-        });
+      <script>
+        window.MathJax = {
+          loader: {load: ['[tex]/cases']},
+          tex: {
+            packages: {'[+]': ['cases']},
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],
+            processEscapes: true,
+            equationNumbers: { autoNumber: "AMS" }
+          }
+        };
       </script>
-      <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"></script>
     {% endif %}
   </head>
   <body>
