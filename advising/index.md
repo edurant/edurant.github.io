@@ -51,7 +51,7 @@ Follow the link at [Registrar&rsquo;s Registration Resources](https://www.msoe.e
 * EECS electives, updated annually
 * Summer classes, published approximately each February
 
-## [CE Elective Rules, etc.](ceElectiveRules.html)</a>
+## [CE Elective Rules, etc.](ceElectiveRules.html)
 
 ## Closed Sections
 After your registration time, you may request entry into a closed section; every effort will be made to arrange a schedule with your on-track courses. Each department has its own policies for handling closed section requests.
