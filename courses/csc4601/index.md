@@ -44,6 +44,8 @@ Graduate students enrolled in the course will complete all the undergraduate ass
 * Week 4: See Canvas
 * [Week 5: Feedforward Neural Network](lab/05/)
 
+## [Term Project](project.html)
+
 ## Toolset
 
 For the first few weeks, I recommend that you work locally on your laptop. The faculty are working on a Singularity image for [Rosie](https://docs.hpc.msoe.edu/) that includes all the needed packages; until then, you may encounter additional challenges trying to complete some parts of the assignment on Rosie.
