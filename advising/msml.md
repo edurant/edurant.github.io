@@ -270,7 +270,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * PHL6001: Dr. McAninch (7-week subterm 1)
 * Fall, 2024
   * CSC5201: Dr. Urbain
-  * CSC5601: Dr. Wang (in person)
+  * CSC5601: Dr. Bukowy (in person)
   * CSC5610: Dr. Nowling (2 sections)
   * CSC5611: Dr. Yoder (in person)
   * CSC5661: Dr. Kedziora
