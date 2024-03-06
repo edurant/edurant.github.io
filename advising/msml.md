@@ -204,7 +204,7 @@ CSC5661 | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | [Dr.
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
 [CSC6605][CSC6605] | Required | Machine Learning Production Systems | 4-0-4 | fall '23, springs starting '25 | [Dr. Nowling][Dr. Nowling] | [CSC5610][CSC5610] &#124; CS3400 &#124; [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; consent
 [CSC6621][CSC6621] | Required | Applied Machine Learning | 4-0-4 | spring | [Dr. Nowling][Dr. Nowling] | ([CSC5610][CSC5610] &#124; [CSC2621][CSC2621]) &amp; ([MTH2130][MTH2130] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &#124; consent &#124; CS2300
-[CSC6711][CSC6711] | Elective | Recommendation Systems | 4-0-4 | | [Dr. Nowling][Dr. Nowling] | [CSC6605][CSC6605] &amp; ([MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &#124; instructor consent
+[CSC6711][CSC6711] | Elective | Recommendation Systems | 4-0-4 | | [Dr. Nowling][Dr. Nowling] | ([CSC5610][CSC5610] &#124; ([CSC2611][CSC2611] &amp; [CSC3310][CSC3310]) &#124 [CSC6621][CSC6621]) &amp; ([MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &#124; instructor consent
 CSC6712 | Elective | Distributed Database Systems | 4-0-4 | | [Dr. Nowling][Dr. Nowling] | [CSC5201][CSC5201] &#124; instructor consent
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
@@ -274,6 +274,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC5610: Dr. Nowling (2 sections)
   * CSC5611: Dr. Yoder (in person)
   * CSC5661: Dr. Kedziora
+  * CSC6711: Dr. Nowling
   * MTH5810: Dr. Armstrong
   * …
 * Spring, 2025
