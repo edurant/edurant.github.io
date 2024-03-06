@@ -25,7 +25,7 @@ The MS can be taken as a 5-year early entry dual enrollment program with many MS
 * One or more summer courses are usually required.
 * BMEs entering in F23 or later should choose the “AI Focus” option.
 * All EECS undergraduate majors allow their free and program elective requirements to be met by MSML courses. Check with your advisor if not in EECS.
-  * MSOE allows a maximum of 16 credits of graduate courses (i.e., 4 MSML courses) to be taken before the BS degree is confered.
+  * MSOE allows a maximum of 16 credits of graduate courses (i.e., 4 MSML courses) to be taken before the BS degree is conferred.
   * MSML courses *meeting an undergraduate requirement* count toward full-time undergraduate enrollment.
   * Normal undergraduate tuition applies prior to completing the undergraduate degree requirements.
 * Juniors: [apply here][MSML early entry application]
@@ -101,7 +101,7 @@ MSOE CS students and graduates replace [CSC5610][CSC5610] and [MTH5810][MTH5810]
 
 ## Advising
 
-As each student enters the program, the program director prepares a draft advising plan of which semester the student will take each course. Please contact the program director if you need a copy of your plan, and to make changes, such as increasing or decreasing how many classes you plan to take each semseter.
+As each student enters the program, the program director prepares a draft advising plan of which semester the student will take each course. Please contact the program director if you need a copy of your plan, and to make changes, such as increasing or decreasing how many classes you plan to take each semester.
 
 ## [4+1 Model Tracks—Early Entry](https://csse.msoe.us/mlms/)
 
@@ -278,7 +278,11 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * MTH5810: Dr. Armstrong
   * …
 * Spring, 2025
+  * CSC5610: TBD
   * CSC5611: TBD
   * CSC6605: TBD
+  * CSC6621: TBD
+  * …
+* Summer, 2025
   * CSC6621: TBD
   * …
