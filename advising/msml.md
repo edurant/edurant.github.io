@@ -267,13 +267,14 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC5120: Dr. Magaña
   * CSC6621: Dr. Berisha (off-term offering)
   * CSC6712: Dr. Nowling
-  * PHL6001: Dr. McAninch (7-week subterm 1)
+  * PHL6001: Dr. McAninch (2 sections, 7-week subterm 1)
 * Fall, 2024
   * CSC5201: Dr. Urbain
   * CSC5601: Dr. Bukowy (in person)
   * CSC5610: Dr. Nowling (2 sections)
   * CSC5611: Dr. Yoder (in person)
   * CSC5661: Dr. Kedziora
+  * CSC5980 An Engineering Approach to Game Theory and Economics: Dr. Thomas (probably in person)
   * CSC6711: Dr. Nowling
   * MTH5810: Dr. Armstrong
   * …
