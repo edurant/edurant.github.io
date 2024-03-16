@@ -38,7 +38,7 @@ If you need MSML advising, senior design project advising, etc., you can also si
 
 * Week 9 Times
   * Monday 3/18: 2:30–5:30 PM
-  * Tuesday 3/19: 1–4 PM
+  * Tuesday 3/19: (no times available)
   * Wednesday 3/20: 2–3:30 PM
   * Thursday 3/21: 4–5:30 PM
   * Friday 3/22: 2–4:30 PM
