@@ -36,6 +36,7 @@ Graduate students enrolled in the course will complete all the undergraduate ass
 * Week 5: See Canvas
 * Week 6: [Decision Trees and Logistic Regression](ps/06/)
 * Week 7: [Support Vector Machines](ps/07/), Datafiles: [one](ps/07/Kernel_Problem_1.csv), [two](ps/07/Kernel_Problem_2.csv), [three](ps/07/Kernel_Problem_3.csv)
+* Week 9: [Calculus Review](ps/09)
 
 ## Labs
 * Week 1: [Overview](lab/01/lab01.pdf), Jupyter Notebook Stub: [IPYNB](lab/01/username_lab01_stub.ipynb) [PDF](lab/01/username_lab01_stub.pdf), [IRIS data set](lab/01/IRIS.csv)
