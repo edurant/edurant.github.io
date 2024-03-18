@@ -1,4 +1,7 @@
-# Problem Set: Calculus Review
+---
+usemathjax: true
+title: "CSC 4601/5601 Theory of Machine Learning: Problem Set: Calculus Review"
+---
 
 You may complete the following entirely in a Jupyter notebook.
 Use the LaTeX interpreter in a markdown cell where needed.
