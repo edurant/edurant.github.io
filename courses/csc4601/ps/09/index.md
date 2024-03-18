@@ -27,7 +27,7 @@ Many optimization algorithms use a tangent line to approximate a curve at a give
 
 1. Calculate the value $y_1$ of the function $f(x)$ at $x_1$
 2. Calculate the slope $m$ of the function at $x_1$ using the first derivative $m = f'(x_1)$
-3. Plug the point $(x_1, y_1)$ and slope $m$ into the point-slope line equation \\ $y = mx + b$ \\\\ Use $y - y_1 = m (x - x_1)$ to solve for the equation of a line $y = mx + b$
+3. Plug the point $(x_1, y_1)$ and slope $m$ into the point-slope line equation $y = mx + b$. Use $y - y_1 = m (x - x_1)$ to solve for the equation of a line $y = mx + b$
 
 For each of the points below, find the equations for the tangent lines for $f(x) = 5(x-3)^2 + 4$ and draw the tangent lines on a plot of $f(x)$. Do you notice anything about the slopes as $x$ gets farther away from the minima?
 
@@ -52,7 +52,7 @@ $$
 Using a starting point of $x_1 = -5$, use Newton's method to find the zero of the function $f(x) = 5(x-3)^3 + 4$.
 
 - Calculate the first and second derivatives of $f(x)$
-- Repeatedly apply Newton's method starting at $x_1 = -5$. The value of $x_i$ will stop changing after a few iterations. This means that the iterative algorithm has converged and found a zero. Create a table of $x_i$, $f'(x_i)$, and $f''(x_i)$ for each iteration.
+- Repeatedly apply Newton's method starting at $x_1 = -5$. The value of $x_i$ will stop changing after a few iterations. This means that the iterative algorithm has converged and found a zero. Create a table of $x_i$, $f'(x_i)$, and $f’’(x_i)$ for each iteration.
 - Finally, plot $f(x)$ and the points (e.g., $(x_1, f(x_1)), (x_2, f(x_2)), \cdots$) of each step connected by lines.
 
 ## Problem 5: $\nabla$-licious!
