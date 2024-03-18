@@ -103,10 +103,6 @@ MSOE CS students and graduates replace [CSC5610][CSC5610] and [MTH5810][MTH5810]
 
 As each student enters the program, the program director prepares a draft advising plan of which semester the student will take each course. Please contact the program director if you need a copy of your plan, and to make changes, such as increasing or decreasing how many classes you plan to take each semester.
 
-## [4+1 Model Tracks—Early Entry](https://csse.msoe.us/mlms/)
-
-Model tracks are published for BME, CE, CS, EE, and SE.
-
 ## Grade Replacement
 
 MSOE's machine learning programs automatically grant requests to retake and grade replace classes. This means that students in machine learning programs may re-enroll in a class without explicit permission. It also means that, if a grade below a B was earned the first time, the second grade can replace the original grade in GPA calculations. To take advantage of this option, students must notify their program director or coordinator. They will forward the request to the registrar's office, which will then process the replacement at the end of the term. This must be done between week 2 and the week before exam week, preferably early in the term.
@@ -277,7 +273,6 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC5980 An Engineering Approach to Game Theory and Economics: Dr. Thomas (probably in person)
   * CSC6711: Dr. Nowling
   * MTH5810: Dr. Armstrong
-  * …
 * Spring, 2025
   * CSC5610: TBD
   * CSC5611: TBD

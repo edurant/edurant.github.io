@@ -58,7 +58,16 @@ Using a starting point of $x_1 = -5$, use Newton's method to find the zero of th
 ## Problem 5: $\nabla$-licious!
 Many functions used in machine learning take a vector as input and return a scalar. These are called scalar fields or scalar-valued functions of a vector. For example, the function $f(c)$ takes a vector $v$ of length $N$ and returns a scalar. Formally, we write $f : R^N \to R$ to describe such a function. To optimize this function, we need to take the derivative. The derivative of scalar field is called a gradient. The gradient of $f(v)$ is indicated by $\nabla f(v)$ and is a vector of partial derivatives:
 
-![Gradient](gradient.png)
+$$
+\nabla f(v) =
+\begin{bmatrix}
+\frac{\partial f}{\partial v_1} \\
+\frac{\partial f}{\partial v_2} \\
+\frac{\partial f}{\partial v_3} \\
+\vdots \\
+\frac{\partial f}{\partial v_N} \\
+\end{bmatrix}
+$$
 
 Use the following function in the problems below:
 
