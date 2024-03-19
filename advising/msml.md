@@ -267,6 +267,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC6712: Dr. Nowling
   * PHL6001: Dr. McAninch (2 sections, 7-week subterm 1)
 * Fall, 2024
+  * BME5210: Dr. Imas (2 sections, in person)
   * CSC5201: Dr. Urbain
   * CSC5601: Dr. Bukowy (in person)
   * CSC5610: Dr. Nowling (2 sections)
@@ -282,5 +283,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC6621: TBD
   * …
 * Summer, 2025
+  * CSC5120: TBD
   * CSC6621: TBD
+  * PHL6001: TBD
   * …
