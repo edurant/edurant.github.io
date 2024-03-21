@@ -63,7 +63,7 @@ Blindly guessing at good parameters is no way to go through life. Now that you h
 ### Grid Search – Refinement Pass
 An issue with grid search is that it can be dependent on picking the correct line spacing, or resolution. You may not always get it on the first try.
 1. Repeat the steps in Grid Search – Coarse using the same number of grid samples, but this time use:
-   - 6 ≥ σ ≥ 5
+   - 6 ≥ μ ≥ 5
    - 1.75 ≥ σ ≥ 1
 2. Plot your resulting 2-dimensional array of error values using a heatmap. Through visual inspection of the heatmap, pick a combination of parameters that produce a low error.
 3. Use the selected parameters to calculate your model predictions and plot this output against the given data on a separate plot. Make sure to label the plot with the model error from using your choice of parameters.
