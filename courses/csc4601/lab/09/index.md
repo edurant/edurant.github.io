@@ -55,7 +55,7 @@ Each of the following steps should be performed in individual cells in your jupy
 Blindly guessing at good parameters is no way to go through life. Now that you have a function that accepts a set of parameters and returns the error, let’s explore the error space by evaluating an evenly spaced set of model parameters – a grid search.
 1. Create two new vectors that hold a set of values for each parameter (μ and σ).
 2. The set of values should be evenly spaced so that you are sampling uniform regions in the “parameter space”. For this experiment, range your μ and σ vectors from 0 to 10 and 0.5 to 2 respectively. Sample at 100 divisions for μ and 50 divisions for σ. Hint: don’t forget about [numpy.linspace](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html).
-3. Plot your resulting 2-dimensional array of error values using a heatmap. Make sure to label your axis and legends! For a place to begin with heatmaps, look at [seaborn.heatmap](https://seaborn.pydata.org/generated/seaborn.heatmap.html). Notice here that the color values for the heatmap represent error.
+3. Plot your resulting 2-dimensional array of error values using a heatmap. Make sure to label your axis and legends! For a place to begin with heatmaps, look at [seaborn.heatmap](https://seaborn.pydata.org/generated/seaborn.heatmap.html) or [matplotlib.pyplot.contourf](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.contourf.html). Notice here that the color values for the heatmap represent error.
 4. Using the results for the heatmap, pick a combination of parameters that produce a low error.
 5. Use the selected parameters to calculate your model predictions and plot this output against the given data on a separate plot. Make sure to label the plot with the model error from using your choice of parameters.
 
@@ -81,7 +81,7 @@ Once we progress into higher dimensional spaces, we have to learn to rely more o
 ## Questions
 After you run all the experiments create a markdown cell to answer questions in. Copy and paste each question into the cell prior to answering it.
 1. By looking at the provided `cost_functions.py`, use 1–2 sentences to describe in detail the purpose of each of the methods. To guide this description, discuss the method input, method output, and what function each method serves for the cost function.
-2. For the heatmaps that you generated, what do they describe? What do the “valleys” and “peaks” of this heat map represent?
+2. For the heatmaps that you generated, what do they describe? What do the “valleys” and “peaks” of this heatmap represent?
 3. For experiment 2, you increased the number of samples within the specified range.
    1. Describe how the heatmap representation changed due to this increase in sampling.
    2. What benefit did this higher sampling rate have for finding the set of parameters with the minimum error?
