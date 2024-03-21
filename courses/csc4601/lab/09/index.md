@@ -78,6 +78,34 @@ Once we progress into higher dimensional spaces, we have to learn to rely more o
   -	Use the same argmin approach from experiment 2 to find the combination of model parameters that results in the lowest possible error.
   -	Create another plot of the model prediction versus response using your found set of parameters and label the plot with the resulting error. Make sure to also plot the line of identity.
 
+## Grid Search Hints
+
+`conda install tqdm` in your environment and and `from tqdm.notebook import tqdm` to get acccess to a progress bar for long-running operations (e.g., 4-D grid search).
+
+Here's one approach with a 3-D (3-weight) cost function. Note how .flat is used to avoid creating extra variables with .reshape.
+
+    def do_linear_opt(costLinear, w1, w2, w3):
+        W1, W2, W3 = np.meshgrid(w1, w2, w3)
+        err_surf = np.empty((W1.size,)) # They're all the same size; note 1-D for iteration
+        for row in tqdm(range(err_surf.size), desc="Grid Search Progress"):
+            # 1 index in N-D structures; use .flat...
+            err_surf[row] = costLinear.cost(np.array((W1.flat[row], W2.flat[row], W3.flat[row])))
+
+        err_surf = err_surf.reshape(W1.shape) # change back to N-D
+
+        idx = err_surf.argmin() # index where minimum value occurs
+        params = np.array((W1.flat[idx], W2.flat[idx], W3.flat[idx]))
+        print(params)
+
+        y_pred = costLinear.predict(costLinear.features, params)
+
+        plt.scatter(y_true, y_pred)
+        plt.xlabel("True Sales")
+        plt.ylabel("Predicted Sales")
+        plt.title(f"Grid Search Optimum: Linear model, Cost = {costLinear.cost(params)}")
+        # axline is useful for plotting the x=y line
+        plt.show()
+
 ## Questions
 After you run all the experiments create a markdown cell to answer questions in. Copy and paste each question into the cell prior to answering it.
 1. By looking at the provided `cost_functions.py`, use 1–2 sentences to describe in detail the purpose of each of the methods. To guide this description, discuss the method input, method output, and what function each method serves for the cost function.
