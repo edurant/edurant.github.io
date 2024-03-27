@@ -20,7 +20,7 @@ Let’s use a trivial function as an example. If we have the following function,
 
 $$f(x)=x^2+e^x$$
 
-![Plot of f(x) from -5 to 5](Image1.png "Plot of f(x) from -5 to 5")
+![Plot of f(x) from -5 to 5](Picture1.png "Plot of f(x) from -5 to 5")
 
 we can appreciate that this function is $dependent$ on x. To explore this function, we can control x and see how the function responds. In this case we can sweep x over the range 5 ≥ x ≥ -5.
 
@@ -28,7 +28,7 @@ We can then use our calculus toolbox to solve for exact form of the first deriva
 
 $$f'(x)=2x+e^x$$
 
-![Plot of f'(x) from -5 to 5](Image2.png "Plot of f'(x) from -5 to 5")
+![Plot of f'(x) from -5 to 5](Picture2.png "Plot of f'(x) from -5 to 5")
 
 This lab will explore some interesting properties of the first derivative that we can leverage for our own goals.
 
@@ -36,7 +36,7 @@ While these are analytical solutions, we want to build out methods for solving t
 
 $$f'(x)≈\frac{f(x+h)-f(x)}{h}$$
 
-![Plot of f'(x) approximation from f(x) and f(x+h)](Image 3 "Plot of f'(x) approximation from f(x) and f(x+h)")
+![Plot of f'(x) approximation from f(x) and f(x+h)](Picture3.png "Plot of f'(x) approximation from f(x) and f(x+h)")
 
 Here you should appreciate that f(x) refers to a function that is dependent on the x variable. The h (sometimes also represented as Δ) is a constant that we can specify that relates to our resolution, or $step size$. Take a moment to build a little intuition about what this approximation is doing. Specifically consider what the numerator and denominator each represent. Hint: What does a derivative evaluated at a single point tell you about the function?
 
@@ -54,9 +54,7 @@ Each of the following steps should be performed in individual cells in your jupy
 
 In experiment 1 you will be comparing analytical solutions to a numerical approximation. The introduction gave you a numerical method for approximating the derivative. You will implement this method on the given function and investigate the role that constant h plays in the approximation.
 
-Cubic Model:
-
-$$f(x) = x^3-3x^2-144x+432$$
+Cubic Model: $f(x) = x^3-3x^2-144x+432$
 
 1. Use a markdown cell in your notebook and solve (analytically) for the exact form of the derivative: *f'(x)*.
 2. In the notebook, plot the function, *f(x)*, within the bounds of -12 ≤ *x* ≤ 15 with a step size of 0.01. In the same plot, graph *f'(x)* over the same range using the analytical solution that you found. Observe the shape and values of each function.
@@ -94,7 +92,7 @@ $$
 While that may look like a mess, there is some good news! We have all of the tools to approximate partial derivatives with our numerical methods. Following the above 2-dimensional gradient example, our numerical techniques expand to:
 
 $$
-\frac{\partial f}{\partial x} \approx \frac{f(x + h, y) - f(x, y)}{h}
+\frac{\partial f}{\partial x} \approx \frac{f(x + h, y) - f(x, y)}{h} \\
 \frac{\partial f}{\partial y} \approx \frac{f(x, y + h) - f(x, y)}{h}
 $$
 
