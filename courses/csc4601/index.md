@@ -43,8 +43,9 @@ Graduate students enrolled in the course will complete all the undergraduate ass
 * Week 2: [Overview](lab/02/lab02.pdf), Data Files: [Gaussian Distribution](lab/02/gaussdist.csv), [Advertising](lab/02/advertising.csv)
 * Week 3: See Canvas
 * Week 4: See Canvas
-* [Week 5: Feedforward Neural Network](lab/05/)
+* Week 5: [Feedforward Neural Network](lab/05/)
 * Week 9: [Cost Functions and Parameter Space](lab/09/)
+* Week 10: [Analytical and Numerical Differentiation](lab/10/)
 
 ## [Term Project](project.html)
 
