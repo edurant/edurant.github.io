@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""Provides unit tests for numerical differentiation class"""
+
 import unittest
 import numpy as np
 import numerical_diff
 
 class ParabolicCostFunction:
+    """Provides parabolic cost function for testing differentiation"""
     def cost(self, params):
         """
         Implements the parabola:
@@ -24,7 +27,8 @@ class ParabolicCostFunction:
         """
         return 10 * (params - 3)
 
-class ParabaloidCostFunction:
+class ParaboloidCostFunction:
+    """Provides paraboloid cost function for testing differentiation"""
     def cost(self, params):
         """
         Implements the parabola:
@@ -46,14 +50,13 @@ class ParabaloidCostFunction:
         return np.array([dx, dy])
 
 class TestOptimizer(unittest.TestCase):
+    """Provides various tests of numeric differentiation/gradient calculation"""
     NUMERIC_DIFF_DELTA = 1e-5
     GRADIENT_TOL = 1e-2
 
     def test_gradient_parabola(self):
-        """
-        Tests the gradient method using a parabolic cost function with a single parameter.
-        """
-        nd = Numerical_Differentiation.NumericalDifferentiation(self.NUMERIC_DIFF_DELTA)
+        """Tests the gradient method using a parabolic cost function with a single parameter."""
+        nd = numerical_diff.NumericalDifferentiation(self.NUMERIC_DIFF_DELTA)
         cost = ParabolicCostFunction()
 
         # cost function is 1D therefore params should be a 1D array
@@ -74,11 +77,9 @@ class TestOptimizer(unittest.TestCase):
         self.assertLess(norm, self.GRADIENT_TOL)
 
     def test_gradient_paraboloid(self):
-        """
-        Tests the gradient method using a paraboloid cost function with two parameters.
-        """
-        nd = Numerical_Differentiation.NumericalDifferentiation(self.NUMERIC_DIFF_DELTA)
-        cost = ParabaloidCostFunction()
+        """Tests the gradient method using a paraboloid cost function with two parameters."""
+        nd = numerical_diff.NumericalDifferentiation(self.NUMERIC_DIFF_DELTA)
+        cost = ParaboloidCostFunction()
 
         # cost function is 2D therefore params should be a 2D array
         params = np.zeros(2)

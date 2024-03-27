@@ -110,7 +110,11 @@ If you then calculate this gradient over the these two dimensions you can perfor
 ## Questions
 After you run all the experiments create a markdown cell to answer questions in. Copy and paste each question into the cell prior to answering it.
 
-**Coming soon**
+1. For experiment 1, how did your approximated derivatives (numerical solutions) compare to the analytical solution. Describe what effect the h term had on the accuracy of the approximation. Discuss considerations/tradeoffs when picking an optimal h value.
+2. In experiment 2 you should have found both local extrema of the function. Describe what information the derivative provides and how you found these extrema. If each numerical approximation of the derivative didn’t always lead to both extrema of the function, explain why.
+3. Be creative - brainstorm a way that you could leverage the information of the derivative to only find the minima, not all extrema.
+4. For experiment 3, you performed another grid search. Compare and contrast what features you were looking for in the error-space grid search (lab 06) and the derivative-space grid search. Make sure to compare the computational complexity between these spaces. Depending on your answer do you think it makes more sense to perform a grid search in error space or derivative space?
+5. Be even more creative – brainstorm a way (or algorithm) that you could use to leverage the gradient, without having to use a grid search method.
  
 ## Submission Instructions
 
