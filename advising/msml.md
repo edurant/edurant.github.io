@@ -136,6 +136,14 @@ Note: SWE2410 Design and Cloud Patterns is *not* sufficient to meet this require
 ## [CSC5601 Theory of Machine Learning][CSC5601]: CS Major and MSML Elective
 Early entry CS majors have the option of taking this course to simultaneously satisfy their undergraduate requirement of CS3400 or [CSC4601][CSC4601]. Students who have credit for CS3400 or [CSC4601][CSC4601] may not take [CSC5601][CSC5601].
 
+## CSC5980 Special Topics: An Engineering Approach to Game Theory and Economics
+
+For decades, the study of strategic interactions between rational decision makers has formed the basis of game theory. This course, using a two-volume textbook, extends game theory concepts to focus on dynamic games, introducing students to a new take on game theory referred to as the field theory of games. The course prioritizes conceptual understanding over mathematical equation solving, making the text accessible to not only engineering students but also to a more general audience, including business students.
+
+By using a toolkit based on the Wolfram Language, students can bypass the need to solve linear programming problems and partial differential equations by hand, allowing them to arrive at solutions with practical applications more efficiently. An introduction to the Wolfram Language symbolic programming, Mathematica, is provided. Mathematica is used to study both empirical trends as well as engineering model simulations based on the engineering extension of game theory. A review of the concepts from physics and mathematics that underlie the approach is given. Along with these introductory foundations, economic applications will be presented and shown to depend on aspects of modern theories of differential geometry.
+
+Though this course begins with classical game theory, it differs from the usual approaches to dynamic games and deals with incomplete information by using constraints in a geometric theory, where the shortest path provides a deterministic prediction of future behaviors. Students will learn to apply introductory ideas to a system without constraints. Next, students will explore the consequences of adding constraints and will be provided an application guide.
+
 ## [CSC6605 Machine Learning Production Systems][CSC6605]: Alternate Prerequisites
 
 Although [CSC5201][CSC5201] is *not* a prerequisite for this class, students will benefit from having CSC5201 first whenever possible.
