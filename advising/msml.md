@@ -274,8 +274,8 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC5610: Dr. Nowling (2 sections)
   * CSC5611: Dr. Yoder (in person)
   * CSC5661: Dr. Kedziora
-  * CSC5980 An Engineering Approach to Game Theory and Economics: Dr. Thomas (probably in person)
-  * CSC6711: Dr. Nowling
+  * CSC5980 An Engineering Approach to Game Theory and Economics: Dr. Thomas
+  * CSC6711: Dr. Nowling (very limited capacity; closed section requests will be considered in August)
   * MTH5810: Dr. Armstrong
 * Spring, 2025
   * CSC5610: TBD
