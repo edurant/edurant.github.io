@@ -46,6 +46,7 @@ Graduate students enrolled in the course will complete all the undergraduate ass
 * Week 5: [Feedforward Neural Network](lab/05/)
 * Week 9: [Cost Functions and Parameter Space](lab/09/)
 * Week 10: [Analytical and Numerical Differentiation](lab/10/)
+* Week 11: [Gradient Descent](lab/11/)
 
 ## [Term Project](project.html)
 

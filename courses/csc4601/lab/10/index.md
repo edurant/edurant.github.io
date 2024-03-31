@@ -123,12 +123,12 @@ In Canvas, submit:
 1. PDF or HTML: Rendered version of your jupyter notebook
 1. ipynb: Your jupyter notebook with graphs rendered
 
-Please see the rubric on Canvas for grading critera.
+Please see the rubric on Canvas for grading criteria.
 
 I will be looking for the following:
 - An introduction (including your own statement of the problem/lab purpose) and a written summary of your results at the top of the notebook in Markdown. Make sure to put your name at the top of the notebook.
 - That all of the tests pass
-- That you used Numpy functions as much as possible and avoided writing loops where possible
+- That you used NumPy functions as much as possible and avoided writing loops where possible
 - You avoided unnecessary calculations and memory copies where reasonable
 - That your plots look reasonable. I will be checking for proper axis labels.
 - Obvious effort went into answering the questions.
