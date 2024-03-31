@@ -62,7 +62,7 @@ Experiment 1 will use a cubic expression as an objective function. For this lab 
 Cubic Model: f(x) = x³-3x²-144x+432
 
 Remember that the f(x) can be interpreted the same as the error metric (like MSE) from the cost functions that you previously implemented.
-1. In the notebook, plot the cost function above within the bounds of -15 ≤ x ≤ 18 with a step size of 0.01. Observe the shape of this function and at what values of x the function has extrema.
+1. In the notebook, plot the cost function above within the bounds of -15 ≤ x ≤ 18 with a step size of 0.01. ([numpy.arange](https://numpy.org/doc/stable/reference/generated/numpy.arange.html) is useful for specifying an exact step size, while numpy.linspace is useful for specifying an exact number of samples.) Observe the shape of this function and at what values of x the function has extrema.
 2. In a new figure, plot the numerical derivative of the cubic model within the same bounds and using the same step size. Search through the numerical derivative for the first 2 points of the that are equal (or closest) to zero.
 3. In a new cell in your notebook create a new objective function class. This class should implement the given objective function in a method called cost. Hint: Follow the cost_function API – but you will only need to implement the cost method.
 4. Import your optim classes, create an object with it, and supply the cost function that you wrote. Use the following *hyperparameters*
@@ -71,6 +71,7 @@ Remember that the f(x) can be interpreted the same as the error metric (like MSE
    - tol = 1e-5
    - delta = 1e-4
 5. Using a starting point of 0, solve for the minimum using your optimizer. Plot a line from this starting point to the minima on your objective function plot.
+
 ### Experiment 2: Quartic Model
 
 Quartic Model: f(x) = 3x⁴-16x³-18x²
