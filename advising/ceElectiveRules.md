@@ -1,6 +1,6 @@
 ---
 title: "CE Academic Advising: Elective Rules"
-date: 2023-10-11 14:49:30 -0500
+date: 2024-04-02 10:53:30 -0500
 ---
 
 ## Technical Elective = Tech EL = Prog EL = PE = Program Elective
@@ -19,7 +19,7 @@ date: 2023-10-11 14:49:30 -0500
 * EE1000/ELE1000, for students who took it during their initial term of enrollment.
 * Includes anything listed above, plus most sophomore level classes from other majors that aren't significantly duplicative of CE content, even if they don't count as a program elective.
 * UGR498x I-II, without III, consists of 3 credits and meets one of these electives. This combination does not meet a CE technical elective.
-* MA120/[MTH1080](https://catalog.msoe.edu/preview_course.php?catoid=35&coid=40133) can be used by students who were required to take it prior to entry to calculus.
+* MA120/[MTH1080](https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41372) can be used by students who were required to take it prior to entry to calculus.
 
 ## Policies Only For Students Who Started On Quarters
 

@@ -7,9 +7,9 @@ title: "Master of Science in Machine Learning"
 
 # Overview
 
-This is a new degree offering beginning in the fall of 2023, coinciding with MSOE's transition to a semester system. It consists of 8, 4-credit courses.
+The MS in Machine Learning program was first offered in fall of 2023, coinciding with MSOE's transition to a semester system. It consists of 8, 4-credit courses.
 
-All courses will be offered online (fully virtual or in classroom with technology enabling remote participation). Many courses will be synchronous. The 4 classes that are part of graduate certificates (see track below) will be offered in the evening.
+All required courses are available online (fully virtual or in classroom with technology enabling remote participation). Many courses will be synchronous. The 4 classes that are part of graduate certificates (see track below) will be offered in the evening.
 
 Students who were in the 2021–22 cohort of our applied ML graduate certificate, upon which the core classes in the MSML are based, were generally working full-time and said that it was better for them to take 1 course at a time instead of 2. So, for the master's degree, that would translate to 3+ years depending on how many summer classes are taken. The program could be done in 2 years or a bit less if someone took 2 courses at a time.
 
@@ -20,7 +20,7 @@ Note that the MSML program (and our ML graduate certificates) do *not* require l
 Please contact MSML program director [Dr. Durant][Dr. Durant] with any questions.
 
 # Dual Enrollment with Bachelor's Degree
-The MS can be taken as a 5-year early entry dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees(BME, CE, CS, EE, and SE), AE, and CVE. Students [must apply][MSML early entry application] while they have junior standing, but should let their advisor know of their intent as early as possible.
+The MS can be taken as a 5-year early entry dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees (BME, CE, CS, EE, and SE), AE, and CVE. Students [must apply][MSML early entry application] while they have junior standing, but should let their advisor know of their intent as early as possible.
 
 * One or more summer courses are usually required.
 * BMEs entering in F23 or later should choose the “AI Focus” option.
@@ -42,7 +42,7 @@ The MS can be taken as a 5-year early entry dual enrollment program with many MS
 
 ## Catalog
 
-* [https://catalog.msoe.edu/](https://catalog.msoe.edu/). Select 2023-2024 Graduate Catalog.
+* [https://catalog.msoe.edu/](https://catalog.msoe.edu/). Select the latest Graduate Catalog.
 
 ## Academics
 * [MS in Machine Learning](https://www.msoe.edu/academics/graduate-degrees/m-s-in-machine-learning/)
@@ -199,7 +199,7 @@ Click on course numbers below to see catalog entries with course details.
 
 Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 --- | --- | --- | --- | --- | ---
-BME5210 | Elective | Medical Imaging Systems | 3-2-4 | | [Dr. Imas][Dr. Imas] | [ELE3300][ELE3300] &#124; CSC4651 &#124; [CSC5651][CSC5651] &#124; CSC4611 &#124; [CSC5611][CSC5611] &#124; [CSC6621][CSC6621]
+[BME5210][BME5210] | Elective | Medical Imaging Systems | 3-2-4 | | [Dr. Imas][Dr. Imas] | [ELE3300][ELE3300] &#124; CSC4651 &#124; [CSC5651][CSC5651] &#124; CSC4611 &#124; [CSC5611][CSC5611] &#124; [CSC6621][CSC6621]
 [CSC5120][CSC5120] | Elective | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | [Dr. Magaña][Dr. Magaña] | [CSC1110][CSC1110] &#124; [CSC1310][CSC1310] &#124; consent
 [CSC5201][CSC5201] | Required | Microservices and Cloud Computing | 4-0-4 | spring '24, then fall | [Dr. Nowling][Dr. Nowling] | [CSC5120][CSC5120] &#124; [CSC1120][CSC1120] &#124; CS2852 &#124; equiv. software background &#124; consent &#124;
 [CSC5241][CSC5241] | Elective | GPU Programming | 4-0-4 | | [Dr. Berisha][Dr. Berisha]
@@ -207,12 +207,12 @@ BME5210 | Elective | Medical Imaging Systems | 3-2-4 | | [Dr. Imas][Dr. Imas] | 
 [CSC5610][CSC5610] | Required | AI Tools and Paradigms | 4-0-4 | fall | [Dr. Nowling][Dr. Nowling] | ([MTH1120][MTH1120] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &amp; ([CSC1120][CSC1120] &#124; equivalent) &#124; consent
 [CSC5611][CSC5611] | Elective | Deep Learning | 4-0-4 | F24 and spring beginning 2025 | [Dr. Yoder][Dr. Yoder] | [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; [CSC6621][CSC6621] &#124; consent
 [CSC5651][CSC5651] | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | [Dr. Durant][Dr. Durant] | ([MTH5810][MTH5810] &#124; [MTH2340][MTH2340] &#124; [MTH2130][MTH2130]) &amp; ([CSC5610][CSC5610] &#124; [ELE3320][ELE3320] &#124; [CSC3310][CSC3310] &#124; [CSC2621][CSC2621])
-CSC5661 | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | [Dr. Kedziora][Dr. Kedziora] | (([MTH2480][MTH2480] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610]) &#124; consent
+[CSC5661][CSC5661] | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | [Dr. Kedziora][Dr. Kedziora] | (([MTH2480][MTH2480] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610]) &#124; consent
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
 [CSC6605][CSC6605] | Required | Machine Learning Production Systems | 4-0-4 | fall '23, springs starting '25 | [Dr. Nowling][Dr. Nowling] | [CSC5610][CSC5610] &#124; CS3400 &#124; [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; consent
 [CSC6621][CSC6621] | Required | Applied Machine Learning | 4-0-4 | spring | [Dr. Nowling][Dr. Nowling] | ([CSC5610][CSC5610] &#124; [CSC2621][CSC2621]) &amp; ([MTH2130][MTH2130] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &#124; consent &#124; CS2300
 [CSC6711][CSC6711] | Elective | Recommendation Systems | 4-0-4 | | [Dr. Nowling][Dr. Nowling] | ([CSC5610][CSC5610] &#124; ([CSC2611][CSC2611] &amp; [CSC3310][CSC3310]) &#124; [CSC6621][CSC6621]) &amp; ([MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &#124; instructor consent
-CSC6712 | Elective | Distributed Database Systems | 4-0-4 | | [Dr. Nowling][Dr. Nowling] | [CSC5201][CSC5201] &#124; instructor consent
+[CSC6712][CSC6712] | Elective | Distributed Database Systems | 4-0-4 | | [Dr. Nowling][Dr. Nowling] | [CSC5201][CSC5201] &#124; instructor consent
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
 [CSC7901][CSC7901] | Required | Machine Learning Capstone | 4-0-4 | all terms | [Dr. Durant][Dr. Durant] | ≤ 1 year to completion
@@ -222,42 +222,46 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 * Students may not receive credit for [CSC5610][CSC5610] if they have completed [CSC2611 AI Tools][CSC2611] and [CSC2621 Intro to Data Science][CSC2621]. Instead, they take an MSML elective.
 * Offering information is fairly firm but might change.
 
-[CPE2600]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40390
-[CSC1110]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40105
-[CSC1120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40106
-[CSC1310]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40339
-[CSC2611]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40196
-[CSC2621]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40219
-[CSC3210]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40217
-[CSC3310]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40223
-[CSC3320]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40218
-[CSC4601]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40224
-[CSC5120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41247
-[CSC5201]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41210
-[CSC5241]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41271
-[CSC5601]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41215
-[CSC5610]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41157
-[CSC5611]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41213
-[CSC5651]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41270
-[CSC6605]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41211
-[CSC6621]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41158
-[CSC6711]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41282
-[CSC7901]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41212
-[ELE3300]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40279
-[ELE3320]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40346
-[MTH1120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40139
-[MTH2130]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40111
-[MTH2340]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40136
-[MTH2480]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40132
-[MTH5810]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41224
-[PHL3101]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40120
-[PHL3102]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40121
-[PHL3103]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40122
-[PHL6001]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=36&coid=41209
-[SWE2511]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40238
-[SWE2710]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=35&coid=40231
+[CPE2600]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41629
+[CSC1110]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41344
+[CSC1120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41345
+[CSC1310]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41578
+[CSC2611]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41800
+[CSC2621]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41458
+[CSC3210]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41456
+[CSC3310]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41462
+[CSC3320]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41457
+[CSC4601]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41463
+[ELE3300]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41518
+[ELE3320]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41585
+[MTH1120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41378
+[MTH2130]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41354
+[MTH2340]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41375
+[MTH2480]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41371
+[PHL3101]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41359
+[PHL3102]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41360
+[PHL3103]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41361
+[SWE2511]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41477
+[SWE2710]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41470
 
-# Planned Offerings and Faculty Assignments
+[BME5210]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42526
+[CSC5120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42485
+[CSC5201]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42448
+[CSC5241]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42509
+[CSC5601]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42453
+[CSC5610]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42395
+[CSC5611]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42451
+[CSC5651]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42508
+[CSC5661]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42527
+[CSC6605]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42449
+[CSC6621]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42396
+[CSC6711]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42513
+[CSC6712]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42520
+[CSC7901]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42450
+[MTH5810]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42462
+[PHL6001]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42447
+
+# Past and Planned Offerings
 * Summer, 2023
   * CSC5120: Dr. Magaña
 * Fall, 2023
