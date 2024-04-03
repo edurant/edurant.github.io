@@ -119,7 +119,7 @@ Completing this certificate at MSOE meets the [CSC5610][CSC5610] and [CSC6621][C
 
 ### Substitutions Allowed: Graduate Courses
 
-There are opportunities to substitute certain courses for the CSC5201 requirement in the MSML and in the ML Engineering Graduate Certificate. [CSC5201][CSC5201], [CSC6711][CSC6711], or CSC6712 can satisfy the CSC5201 requirement. If MSML students take more than 1 of these classes, the additional courses are counted as MSML electives.
+There are opportunities to substitute certain courses for the CSC5201 requirement in the MSML and in the ML Engineering Graduate Certificate. [CSC5201][CSC5201], [CSC6711][CSC6711], or [CSC6712][CSC6712] can satisfy the [CSC5201][CSC5201] requirement. If MSML students take more than 1 of these classes, the additional courses are counted as MSML electives.
 
 ### Substitutions Allowed: Undergraduate Courses
 Students with sufficient coursework in *both* web apps and cloud computing replace this course with an approved elective.
@@ -277,7 +277,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 * Summer, 2024
   * CSC5120: Dr. Magaña
   * CSC6621: Dr. Berisha (off-term offering)
-  * CSC6712: Dr. Nowling
+  * CSC6712: Dr. Nowling (3 sections)
   * PHL6001: Dr. McAninch (2 sections, 7-week subterm 1)
 * Fall, 2024
   * BME5210: Dr. Imas (2 sections, in person)
