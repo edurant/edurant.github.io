@@ -200,24 +200,24 @@ Click on course numbers below to see catalog entries with course details.
 Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 --- | --- | --- | --- | --- | ---
 [BME5210][BME5210] | Elective | Medical Imaging Systems | 3-2-4 | | [Dr. Imas][Dr. Imas] | [ELE3300][ELE3300] &#124; CSC4651 &#124; [CSC5651][CSC5651] &#124; CSC4611 &#124; [CSC5611][CSC5611] &#124; [CSC6621][CSC6621]
-[CSC5120][CSC5120] | Elective | Software Development for Machine Learning | 4-0-4 | summer beginning '23 | [Dr. Magaña][Dr. Magaña] | [CSC1110][CSC1110] &#124; [CSC1310][CSC1310] &#124; consent
-[CSC5201][CSC5201] | Required | Microservices and Cloud Computing | 4-0-4 | spring '24, then fall | [Dr. Nowling][Dr. Nowling] | [CSC5120][CSC5120] &#124; [CSC1120][CSC1120] &#124; CS2852 &#124; equiv. software background &#124; consent &#124;
+[CSC5120][CSC5120] | Elective | Software Development for Machine Learning | 4-0-4 | summer | [Dr. Magaña][Dr. Magaña] | [CSC1110][CSC1110] &#124; [CSC1310][CSC1310] &#124; consent
+[CSC5201][CSC5201] | Required | Microservices and Cloud Computing | 4-0-4 | fall | [Dr. Nowling][Dr. Nowling] | [CSC5120][CSC5120] &#124; [CSC1120][CSC1120] &#124; CS2852 &#124; equiv. software background &#124; consent &#124;
 [CSC5241][CSC5241] | Elective | GPU Programming | 4-0-4 | | [Dr. Berisha][Dr. Berisha]
-[CSC5601][CSC5601] | Elective | Theory of Machine Learning | 4-0-4 | spring, 2024 then every fall | [Dr. Bukowy][Dr. Bukowy] | ((([MTH2130][MTH2130] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610])) &#124; consent
+[CSC5601][CSC5601] | Elective | Theory of Machine Learning | 4-0-4 | fall | [Dr. Bukowy][Dr. Bukowy] | ((([MTH2130][MTH2130] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610])) &#124; consent
 [CSC5610][CSC5610] | Required | AI Tools and Paradigms | 4-0-4 | fall | [Dr. Nowling][Dr. Nowling] | ([MTH1120][MTH1120] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &amp; ([CSC1120][CSC1120] &#124; equivalent) &#124; consent
-[CSC5611][CSC5611] | Elective | Deep Learning | 4-0-4 | F24 and spring beginning 2025 | [Dr. Yoder][Dr. Yoder] | [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; [CSC6621][CSC6621] &#124; consent
-[CSC5651][CSC5651] | Elective | Deep Learning in Signal Processing | 4-0-4 | fall, 2023 then again in 2025-&lsquo;26 | [Dr. Durant][Dr. Durant] | ([MTH5810][MTH5810] &#124; [MTH2340][MTH2340] &#124; [MTH2130][MTH2130]) &amp; ([CSC5610][CSC5610] &#124; [ELE3320][ELE3320] &#124; [CSC3310][CSC3310] &#124; [CSC2621][CSC2621])
+[CSC5611][CSC5611] | Elective | Deep Learning | 4-0-4 | spring | [Dr. Yoder][Dr. Yoder] | [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; [CSC6621][CSC6621] &#124; consent
+[CSC5651][CSC5651] | Elective | Deep Learning in Signal Processing | 4-0-4 | 2025-&lsquo;26 | [Dr. Durant][Dr. Durant] | ([MTH5810][MTH5810] &#124; [MTH2340][MTH2340] &#124; [MTH2130][MTH2130]) &amp; ([CSC5610][CSC5610] &#124; [ELE3320][ELE3320] &#124; [CSC3310][CSC3310] &#124; [CSC2621][CSC2621])
 [CSC5661][CSC5661] | Elective | Reinforcement Learning | 4-0-4 | fall, 2024 then TBD | [Dr. Kedziora][Dr. Kedziora] | (([MTH2480][MTH2480] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610]) &#124; consent
 CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
-[CSC6605][CSC6605] | Required | Machine Learning Production Systems | 4-0-4 | fall '23, springs starting '25 | [Dr. Nowling][Dr. Nowling] | [CSC5610][CSC5610] &#124; CS3400 &#124; [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; consent
+[CSC6605][CSC6605] | Required | Machine Learning Production Systems | 4-0-4 | spring | [Dr. Nowling][Dr. Nowling] | [CSC5610][CSC5610] &#124; CS3400 &#124; [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; consent
 [CSC6621][CSC6621] | Required | Applied Machine Learning | 4-0-4 | spring | [Dr. Nowling][Dr. Nowling] | ([CSC5610][CSC5610] &#124; [CSC2621][CSC2621]) &amp; ([MTH2130][MTH2130] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &#124; consent &#124; CS2300
 [CSC6711][CSC6711] | Elective | Recommendation Systems | 4-0-4 | | [Dr. Nowling][Dr. Nowling] | ([CSC5610][CSC5610] &#124; ([CSC2611][CSC2611] &amp; [CSC3310][CSC3310]) &#124; [CSC6621][CSC6621]) &amp; ([MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &#124; instructor consent
 [CSC6712][CSC6712] | Elective | Distributed Database Systems | 4-0-4 | | [Dr. Nowling][Dr. Nowling] | [CSC5201][CSC5201] &#124; instructor consent
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
 [CSC7901][CSC7901] | Required | Machine Learning Capstone | 4-0-4 | all terms | [Dr. Durant][Dr. Durant] | ≤ 1 year to completion
-[MTH5810][MTH5810] | Required | Mathematical Methods for Machine Learning | 4-0-4 | fall beginning &lsquo;24 | Dr. Armstrong | Enrolled in MSML
-[PHL6001][PHL6001] | Required | AI Ethics and Governance | 4-0-4 | summers beginning &lsquo;24 | Dr. McAninch | Enrolled in MSML
+[MTH5810][MTH5810] | Required | Mathematical Methods for Machine Learning | 4-0-4 | fall | Dr. Armstrong | Enrolled in MSML
+[PHL6001][PHL6001] | Required | AI Ethics and Governance | 4-0-4 | summer | Dr. McAninch | Enrolled in MSML
 
 * Students may not receive credit for [CSC5610][CSC5610] if they have completed [CSC2611 AI Tools][CSC2611] and [CSC2621 Intro to Data Science][CSC2621]. Instead, they take an MSML elective.
 * Offering information is fairly firm but might change.
