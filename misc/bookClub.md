@@ -1,6 +1,6 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2024-04-03 15:24:30 -0500
+date: 2024-04-05 12:25:30 -0500
 ---
 
 ## Month Not Yet Assigned
@@ -10,7 +10,7 @@ date: 2024-04-03 15:24:30 -0500
 
 ## Month Assigned
 
-* [The Loneliest Americans](https://bookshop.org/p/books/the-loneliest-americans-jay-caspian-kang/18590073), by Jay Caspian Kang, discussed on 2024-05-TBD.
+* [The Loneliest Americans](https://bookshop.org/p/books/the-loneliest-americans-jay-caspian-kang/18590073), by Jay Caspian Kang, discussed on 2024-05-16.
 * [The Good Life: Lessons from the World's Longest Scientific Study of Happiness](https://bookshop.org/p/books/the-good-life-life-changing-lessons-from-the-world-s-longest-study-of-happiness-marc-schulz/18716303), by Robert Waldinger and Marc Schulz, discussed on 2024-04-25.
 * [Hood Feminism: Notes from the Women That a Movement Forgot](https://bookshop.org/books/hood-feminism-notes-from-the-women-that-a-movement-forgot/9780525560548), by Mikki Kendall, discussed on 2024-03-27.
 * [Looking for Lorraine](https://bookshop.org/p/books/looking-for-lorraine-the-radiant-and-radical-life-of-lorraine-hansberry-imani-perry/9004066), by Imani Perry, discussed on 2024-02-26.
