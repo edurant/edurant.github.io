@@ -235,7 +235,8 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 [ELE3300]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41518
 [ELE3320]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41585
 [MTH1120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41378
-[MTH2130]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41354
+[MTH2130]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41350
+[MTH2310]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41354
 [MTH2340]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41375
 [MTH2480]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41371
 [PHL3101]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41359
