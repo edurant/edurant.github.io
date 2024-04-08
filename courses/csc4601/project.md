@@ -2,7 +2,47 @@
 title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
 ---
 
-Your project will take the final form of a 15-minute presentation on a machine learning algorithm. The purpose of this project, and subsequent presentation, is to add more breadth to this class by discussing different machine learning techniques. It is therefore your responsibility to learn how a single algorithm works, apply the algorithm to a set of data, and then present the method and the application to the class as the teacher.
+## Spring, 2024 Presentation Schedule
+
+* Week 14
+  * Thursday
+    1. SVD++, 3 students
+    1. Hierarchical Clustering, 2 students
+    1. (open)
+    1. (open)
+    1. (open)
+  * Friday
+    1. (open)
+    1.  DBSCAN, 2 students
+* Week 15
+  * Monday
+    1. (open)
+    1. (open)
+  * Thursday
+    1. (open)
+    1. (open)
+    1. (open)
+    1. (open)
+    1. (open)
+  * Friday: Review Day, No Presentations
+* Pending Scheduling
+  * Gradient-Boosted Trees, 1 student
+  * Isolation Forest, 2 students
+  * K-Means, 2 students
+  * Multi-layer Perceptron, 2 students
+  * NEAT, 3 students
+  * Random Forests, 2 students
+  * Trees, 1 student
+  * UMAP, 2 students
+  * 2 students unassigned
+
+Presentations should last 16–18 minutes. That will leave at least 4 minutes for questions and changeover.
+
+Each team should propose at least 2 questions for understanding. The professor will include several of these on the final exam, making up roughly 15% of the final exam weight. Questions should be short answer or include a brief calculation or algorithm step.
+
+## Overview
+
+Your project will take the final form of a 16–18-minute presentation on a machine learning algorithm. The purpose of this project, and subsequent presentation, is to add more breadth to this class by discussing different machine learning techniques. It is therefore your responsibility to learn how a single algorithm works, apply the algorithm to a set of data, and then present the method and the application to the class as the teacher.
 
 Course and project outcomes:
 * Understand the basic process of machine learning.
@@ -27,7 +67,7 @@ While you are not limited to these choices, some data sets are available from th
 
 ## Presentation Requirements
 
-Your will create and deliver a 15-minute PowerPoint presentation on your chosen model / algorithm. In your presentation you should identify and explain the following:
+Your will create and deliver a PowerPoint presentation on your chosen model / algorithm. In your presentation you should identify and explain the following:
 * The type of machine learning problem solved (e.g., regression or classification)
 * The model used by the method
 * The cost function that is optimized in order to fit the model (where appropriate)
@@ -40,7 +80,7 @@ Your will create and deliver a 15-minute PowerPoint presentation on your chosen 
 
 * 10 points: Team and Topic Choices (Only 1 team member should submit in Canvas): End of week 8
 * 50 points: Draft of Presentation Slides: End of week 13
-* 100 points: Give Presentation: Throughout week 15
+* 100 points: Give Presentation: Throughout weeks 14 and 15
 * 10 points: Submit Final Slides, Code, etc.: End of week 15
 
 ## Grading
