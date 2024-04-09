@@ -16,7 +16,7 @@ title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
     1.  DBSCAN, 2 students
 * Week 15
   * Monday
-    1. (open)
+    1. Gradient-Boosted Trees, 1 student
     1. (open)
   * Thursday
     1. (open)
@@ -26,7 +26,6 @@ title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
     1. (open)
   * Friday: Review Day, No Presentations
 * Pending Scheduling
-  * Gradient-Boosted Trees, 1 student
   * Isolation Forest, 2 students
   * Multi-layer Perceptron, 2 students
   * NEAT, 3 students
