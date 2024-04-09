@@ -8,7 +8,7 @@ title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
   * Thursday
     1. SVD++, 3 students
     1. Hierarchical Clustering, 2 students
-    1. (open)
+    1. K-Means, 2 students
     1. (open)
     1. (open)
   * Friday
@@ -28,7 +28,6 @@ title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
 * Pending Scheduling
   * Gradient-Boosted Trees, 1 student
   * Isolation Forest, 2 students
-  * K-Means, 2 students
   * Multi-layer Perceptron, 2 students
   * NEAT, 3 students
   * Random Forests, 2 students
@@ -38,7 +37,7 @@ title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
 
 Presentations should last 16–18 minutes. That will leave at least 4 minutes for questions and changeover.
 
-Each team should propose at least 2 questions for understanding. The professor will include several of these on the final exam, making up roughly 15% of the final exam weight. Questions should be short answer or include a brief calculation or algorithm step.
+Each team should propose at least 2 questions for understanding. The professor will include several of these on the final exam, making up roughly 15% of the final exam weight. Questions should be short answer or include a brief calculation or algorithm step. Please include your questions on your slides that you submit for review, and in your presentation.
 
 ## Overview
 

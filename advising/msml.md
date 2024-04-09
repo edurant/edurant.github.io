@@ -176,6 +176,7 @@ The following faculty are *some* of the potential capstone project advisors. Fee
 * [Dr. Magaña][Dr. Magaña]: Software Development, Software Process, Databases, Video Game Development. I’m interested in serving as a committee member on capstone projects, particularly when those projects involve aspects of software development or database integration.
 * [Dr. Nowling][Dr. Nowling]: Data science, ML and data-intensive systems (production, recommendation, distributed, etc.)
 * [Dr. Urbain][Dr. Urbain]: Natural language processing, medical image processing, graph machine learning
+* [Dr. Yoder][Dr. Yoder]: Large Language Models (LLMs, e.g., chat agents), Systems built on LLMs, Diffusion (image synthesis), theory of deep learning, Rosie-scale deep-learning experiments
 
 [Dr. Berisha]: https://www.msoe.edu/directory/profile/sebastian.berisha/
 [Dr. Bukowy]: https://www.msoe.edu/directory/profile/john.bukowy/
