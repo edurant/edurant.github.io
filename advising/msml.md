@@ -96,7 +96,9 @@ The 8 required courses comprise 2, 2-course subsets that each meet the requireme
 * CSC5xxx Elective (can be met with [CSC5120][CSC5120] if this course is needed)
 * [CSC7901 Capstone][CSC7901]
 
-MSOE CS students and graduates replace [CSC5610][CSC5610] and [MTH5810][MTH5810] with approved electives.
+Early entry students should take both [MTH2130 Calculus III][MTH2130] and [MTH2340 Linear Algebra with Applications][MTH2340] and replace [MTH5810][MTH5810] with an approved elective.
+
+MSOE CS students and any student who has completed the data science sequence through [CSC2621][CSC2621] replace [CSC5610][CSC5610] with an approved elective.
 
 ## Example Plan
 <img src="msml-2y-1x.png" width="806" height="395" border="0" srcset="msml-2y-1x.png 1x, msml-2y-2x.png 2x, msml-2y-4x.png 4x" alt="2-year, 5-semester (including 1 summer) flowchart with key prerequisites"/>
