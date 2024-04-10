@@ -190,6 +190,10 @@ The following faculty are *some* of the potential capstone project advisors. Fee
 [Dr. Urbain]: https://github.com/jayurbain
 [Dr. Yoder]: https://www.msoe.edu/directory/profile/josiah.yoder/
 
+A capstone committee member is available as a technical resource when needed throughout the project. Additionally, they receive the student's draft final report about a week before the final presentation and provide feedback and any requested changes by the end of the presentation. The advisor reviews changes and consults with each committee member as needed.
+
+CSC7901 reports approaching final form are due to the committee by midweek prior to finals week. The presentation should be scheduled with a day or so of Monday of finals week. Feedback including changes requested by the committee are to be conveyed immediately after the presentation has concluded and incorporated over finals week, with the advisor determining whether to ask for further review from the committee.
+
 ## [PHL6001][PHL6001]
 
 For MSOE undergraduates, this class cannot meet the undergraduate ethics requirement, and the undergraduate ethics requirement cannot meet this MSML requirement.
