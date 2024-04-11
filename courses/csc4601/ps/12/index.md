@@ -45,7 +45,7 @@ important to scale the data before performing regularization.
 is known as the L1 norm of the weight vector. An important characteristic of the Lasso regression is
 that it can force some of the weights to be exactly equal to zero when the hyperparameter λ is high enough. On the other hand, ridge regression shrinks all of the weights toward zero but does not set any of them to zero.
 
-- Load the [Boston dataset](https://scikit-learn.org/0.15/modules/generated/sklearn.datasets.load_boston.html#sklearn.datasets.load_boston)
+- Load the [California housing dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html)
 - Split the data into 80% for training and 20% for testing using ```train_test_split```. Set the ```random_state``` to 23.
 - Part 1: Use the [ridge regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ridge_regression.html?highlight=ridge\%20regression\#) implementation in scikit-learn and fit several ridge regression models to the training data. Use a different λ - (α in scikit-learn) for each of these models (you can try values in ```np.arange(0,100,0.1)```. For each fitted model extract its coefficients and compute their norms. How is the norm of the coefficients changing by varying the hyperparameter λ? Make sure to scale the data before fitting each model.
 - Part 2: Perform cross validation on the training dataset, to select the best model between:
