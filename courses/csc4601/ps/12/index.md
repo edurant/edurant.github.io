@@ -78,5 +78,5 @@ One way to mitigate the class imbalances is to modify the cost function to the f
   -  The last column represents the class label. Check the proportion of each class and comment on the severity of the class imbalance.
   -  Split the data into training and testing (20% for testing).
   -  Process the training set by scaling the features using ```StandardScaler```, scale the testing set in the same way.
-  -  Fit two models on the training data: logistic regression and weighted logistic regression (by setting ```class_weight``` to "balanced").
+  -  Fit two models on the training data: standard [LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) and weighted logistic regression (by setting ```class_weight``` to "balanced").
   -  Test the two models on the testing set using the recall score.
