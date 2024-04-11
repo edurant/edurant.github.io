@@ -19,7 +19,7 @@ title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
     1. Gradient-Boosted Trees, 1 student
     1. (open)
   * Thursday
-    1. (open)
+    1. NEAT, 3 students
     1. (open)
     1. (open)
     1. (open)
@@ -28,7 +28,6 @@ title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
 * Pending Scheduling
   * Isolation Forest, 2 students
   * Multi-layer Perceptron, 2 students
-  * NEAT, 3 students
   * Random Forests, 2 students
   * Trees, 1 student
   * UMAP, 2 students
