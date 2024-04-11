@@ -46,10 +46,10 @@ is known as the L1 norm of the weight vector. An important characteristic of the
 that it can force some of the weights to be exactly equal to zero when the hyperparameter λ is high enough. On the other hand, ridge regression shrinks all of the weights toward zero but does not set any of them to zero.
 
 - Load the [Boston dataset](https://scikit-learn.org/0.15/modules/generated/sklearn.datasets.load_boston.html#sklearn.datasets.load_boston)
-- Split the data into 80% for training and 20% for testing using ```train_test_split```. Set the ```random_state``` to 23.
-- Part 1: Use the [ridge regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ridge_regression.html?highlight=ridge\%20regression\#) implementation in scikit-learn and fit several ridge regression models to the training data. Use a different λ - (α in scikit-learn) for each of these models (you can try values in ```np.arange(0,100,0.1)```. For each fitted model extract its coefficients and compute their norms. How is the norm of the coefficients changing by varying the hyperparameter λ? Make sure to scale the data before fitting each model.
+- Split the data into 80% for training and 20% for testing using ```[train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)```.
+- Part 1: Use the [ridge regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ridge_regression.html?highlight=ridge\%20regression\#) implementation in scikit-learn and fit several ridge regression models to the training data. Use a different λ - (α in scikit-learn) for each of these models (you can try values in ```np.arange(0,MAXIMUM,STEP)``` or ```np.linspace(0,MAXIMUM,STEPS)```. For each fitted model extract its coefficients and compute their norms. How is the norm of the coefficients changing by varying the hyperparameter λ? Choose MAXIMUM so that you see a wide range of coefficient norms; make it large enough so you can see asymptotic performance.  Make sure to [scale the training data](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) before fitting each model.
 - Part 2: Perform cross validation on the training dataset, to select the best model between:
-  * [```LinearRegression```](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html\#sklearn.linear_model.LinearRegression),
+  * [```LinearRegression```](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html),
   * [```Lasso```](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html),
   * and [```ridge_regression```](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ridge_regression.html?highlight=ridge\%20regression\#).
 
@@ -74,7 +74,7 @@ One way to mitigate the class imbalances is to modify the cost function to the f
 *v₁* and *v₀* are weights assigned to each class, where the *v* hyperparameters are chosen in order to draw the attention of the learning algorithm to the minority class. When the weighted version of the cost function is implemented, we refer to the modified version of the algorithm as the class weighted algorithm or weighted algorithm.
 
 - If class 1 is the minority class, how should *v₁* be chosen with respect to *v₀*?
-- Load the ```[creditcard.csv](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data)``` data.
+- Load the [```creditcard.csv```](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data) data.
   -  The last column represents the class label. Check the proportion of each class and comment on the severity of the class imbalance.
   -  Split the data into training and testing (20% for testing).
   -  Process the training set by scaling the features using ```StandardScaler```, scale the testing set in the same way.
