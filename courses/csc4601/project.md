@@ -21,7 +21,7 @@ title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
   * Thursday
     1. NEAT, 3 students
     1. Gradient-Boosted Trees, 1 student
-    1. (open)
+    1. UMAP, 2 students
     1. (open)
     1. (open)
   * Friday: Review Day, No Presentations
@@ -30,7 +30,6 @@ title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
   * Multi-layer Perceptron, 2 students
   * Random Forests, 2 students
   * Trees, 1 student
-  * UMAP, 2 students
   * 2 students unassigned
 
 Presentations should last 16–18 minutes. That will leave at least 4 minutes for questions and changeover.
