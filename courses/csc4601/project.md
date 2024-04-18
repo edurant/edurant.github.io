@@ -9,15 +9,15 @@ title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
     1. SVD++, 3 students
     1. Hierarchical Clustering, 2 students
     1. K-Means, 2 students
-    1. (open)
+    1. Multi-layer Perceptron, 2 students
     1. (open)
   * Friday
-    1. (open)
-    1.  DBSCAN, 2 students
+    1. Random Forests, 2 students
+    1. DBSCAN, 2 students
 * Week 15
   * Monday
-    1. (open)
-    1. (open)
+    1. ARIMA, 1 student
+    1. Isolation Forest, 2 students
   * Thursday
     1. NEAT, 3 students
     1. Gradient-Boosted Trees, 1 student
@@ -26,11 +26,8 @@ title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
     1. (open)
   * Friday: Review Day, No Presentations
 * Pending Scheduling
-  * Isolation Forest, 2 students
-  * Multi-layer Perceptron, 2 students
-  * Random Forests, 2 students
   * Trees, 1 student
-  * 2 students unassigned
+  * 1 (?) student unassigned
 
 Presentations should last 16–18 minutes. That will leave at least 4 minutes for questions and changeover.
 
