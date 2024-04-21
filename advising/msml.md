@@ -209,7 +209,7 @@ Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 [BME5210][BME5210] | Elective | Medical Imaging Systems | 3-2-4 | | [Dr. Imas][Dr. Imas] | [ELE3300][ELE3300] &#124; CSC4651 &#124; [CSC5651][CSC5651] &#124; CSC4611 &#124; [CSC5611][CSC5611] &#124; [CSC6621][CSC6621]
 [CSC5120][CSC5120] | Elective | Software Development for Machine Learning | 4-0-4 | summer | [Dr. Magaña][Dr. Magaña] | [CSC1110][CSC1110] &#124; [CSC1310][CSC1310] &#124; consent
 [CSC5201][CSC5201] | Required | Microservices and Cloud Computing | 4-0-4 | fall | [Dr. Nowling][Dr. Nowling] | [CSC5120][CSC5120] &#124; [CSC1120][CSC1120] &#124; CS2852 &#124; equiv. software background &#124; consent &#124;
-[CSC5241][CSC5241] | Elective | GPU Programming | 4-0-4 | | [Dr. Berisha][Dr. Berisha]
+[CSC5241][CSC5241] | Elective | GPU Programming | 4-0-4 | | [Dr. Berisha][Dr. Berisha] | [CSC2210][CSC2210] &#124; consent
 [CSC5601][CSC5601] | Elective | Theory of Machine Learning | 4-0-4 | fall | [Dr. Bukowy][Dr. Bukowy] | ((([MTH2130][MTH2130] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610])) &#124; consent
 [CSC5610][CSC5610] | Required | AI Tools and Paradigms | 4-0-4 | fall | [Dr. Nowling][Dr. Nowling] | ([MTH1120][MTH1120] &#124; [MTH2340][MTH2340] &#124; [MTH5810][MTH5810]) &amp; ([CSC1120][CSC1120] &#124; equivalent) &#124; consent
 [CSC5611][CSC5611] | Elective | Deep Learning | 4-0-4 | spring | [Dr. Yoder][Dr. Yoder] | [CSC4601][CSC4601] &#124; [CSC5601][CSC5601] &#124; [CSC6621][CSC6621] &#124; consent
@@ -233,6 +233,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 [CSC1110]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41344
 [CSC1120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41345
 [CSC1310]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41578
+[CSC2210]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41459
 [CSC2611]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41800
 [CSC2621]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41458
 [CSC3210]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41456
