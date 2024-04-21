@@ -100,6 +100,8 @@ Early entry students should take both [MTH2130 Calculus III][MTH2130] and [MTH23
 
 MSOE CS students and any student who has completed the data science sequence through [CSC2621][CSC2621] replace [CSC5610][CSC5610] with an approved elective.
 
+MSML students may have either or both of the certificates conferred when they meet the course requirements by selecting “Completion of Certificate Program” on the [registrar's website](https://www.msoe.edu/academics/departments/registrar/). MSOE early entry students are generally not eligible for this since MSOE does not allow a course to be counted for more than 2 credentials and these students are typically using the MSML courses to also meet an undergraduate degree requirement.
+
 ## Example Plan
 <img src="msml-2y-1x.png" width="806" height="395" border="0" srcset="msml-2y-1x.png 1x, msml-2y-2x.png 2x, msml-2y-4x.png 4x" alt="2-year, 5-semester (including 1 summer) flowchart with key prerequisites"/>
 
