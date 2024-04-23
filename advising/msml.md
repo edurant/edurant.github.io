@@ -301,7 +301,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC6711: Dr. Nowling (very limited capacity; closed section requests will be considered in August)
   * MTH5810: Dr. Armstrong
 * Spring, 2025
-  * CSC5201: TBD
+  * CSC5201: TBD (off-term offering)
   * CSC5610: TBD
   * CSC5611: TBD
   * CSC6605: TBD
@@ -311,4 +311,12 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC5120: TBD
   * CSC6621: TBD
   * PHL6001: TBD
+  * …
+* Fall, 2025
+  * BME5210: TBD
+  * CSC5201: TBD
+  * CSC5601: TBD (likely in person)
+  * CSC5610: TBD
+  * CSC6605: TBD (off-term offering)
+  * MTH5810: TBD
   * …
