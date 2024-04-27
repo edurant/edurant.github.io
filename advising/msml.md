@@ -117,7 +117,7 @@ MSOE's machine learning programs automatically grant requests to retake and grad
 
 ## Quarter System Applied ML Graduate Certificate (2021–'22 and 2022–'23)
 
-Completing this certificate at MSOE meets the [CSC5610][CSC5610] and [CSC6621][CSC6621] requirements by substitution, reducing the number of additional courses needed to earn the MSML.
+Completing [this certificate at MSOE (CS6230, CS6330, CS6340)](https://catalog.msoe.edu/preview_program.php?catoid=33&poid=1675) meets the [CSC5610][CSC5610] and [CSC6621][CSC6621] requirements by substitution, reducing the number of additional courses needed to earn the MSML.
 
 ## [CSC5201 Microservices &amp; Cloud Computing][CSC5201]
 
