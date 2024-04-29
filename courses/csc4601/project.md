@@ -10,16 +10,26 @@ title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
     1. Hierarchical Clustering, 2 students
     1. K-Means, 2 students
     1. Multi-layer Perceptron, 2 students
+       * What is the role of activation functions in an MLP?
+       * How does backpropagation help in training an MLP?
   * Friday
     1. Random Forests, 2 students
+       * What are some similarities or differences between the feature selection of Decision trees or Random Forests?
+       * How does bagging contribute to the robustness and accuracy of a random forest model?
     1. DBSCAN, 2 students
+       * Under what conditions is a point labeled as noise?
+       * What are the two hyperparameters for DBSCAN?
 * Week 15
   * Monday
     1. ARIMA, 1 student
+       * What are the 3 parts of the ARIMA model and how do they relate to the input timeseries?
+       * True or False: ARIMA is a type of regression?
     1. Isolation Forest, 2 students
   * Thursday
     1. NEAT, 3 students
     1. Gradient-Boosted Trees, 1 student
+       * What is the initial guess used by a gradient boosted decision tree?
+       * What is one drawback of a gradient boosted decision tree?
     1. UMAP, 2 students
     1. Naive Bayes, 1 student
   * Friday: Review Day, No Presentations
