@@ -43,7 +43,7 @@ Graduate students enrolled in the course will complete all the undergraduate ass
 * Week 1: [Overview](lab/01/lab01.pdf), Jupyter Notebook Stub: [IPYNB](lab/01/username_lab01_stub.ipynb) [PDF](lab/01/username_lab01_stub.pdf), [IRIS data set](lab/01/IRIS.csv)
 * Week 2: [Overview](lab/02/lab02.pdf), Data Files: [Gaussian Distribution](lab/02/gaussdist.csv), [Advertising](lab/02/advertising.csv)
 * Week 3: See [GitHub](https://github.com/edurant/msoe/tree/master/csc4601/lab-03)
-* Week 4: See Canvas for GitHub Classroom link
+* Week 4: [k-Nearest Neighbors](lab/04/)
 * Week 5: [Feedforward Neural Network](lab/05/)
 * Week 9: [Cost Functions and Parameter Space](lab/09/)
 * Week 10: [Analytical and Numerical Differentiation](lab/10/)
