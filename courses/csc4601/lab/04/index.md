@@ -33,14 +33,11 @@ For each query point q:
 
 ## Instructions
 ### Implement the KNN Algorithm
-You have been provided with 2 .py files ([knn.py](knn.py), [test_knn.py](test_knn.py)). knn.py contains stub functions for a KNN class. Your job is to finish that implementation. The file test_knn.py contains unit tests designed to help you check the correctness of each method.
+You have been provided with 2 .py files ([knn.py](knn.py), [test_knn.py](test_knn.py)). knn.py contains stub functions for a KNN class. Your job is to finish that implementation. The file test_knn.py contains unit tests designed to help you check the correctness of each method. Implement the following methods:
 
-1. Rename knn_stub.py to knn.py.
-2. Implement the following methods:
-
-       __init__(self, k, aggregation_function)
-       fit(X, y)
-       predict(X)
+    __init__(self, k, aggregation_function)
+    fit(X, y)
+    predict(X)
 
 You can test your code by running the following in a notebook:
 
