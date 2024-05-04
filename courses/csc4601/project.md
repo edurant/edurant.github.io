@@ -8,7 +8,11 @@ title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
   * Thursday
     1. SVD++, 3 students
     1. Hierarchical Clustering, 2 students
+       * Is agglomerative clustering an O(n²) algorithm in the general case? If not, name a case in which it can run in O(n²) time.
+       * During a run of agglomerative clustering, there are three clusters in a two-dimensional space. The first includes the point (1, 1). The second includes the point (1, 5). The third includes two points: (4, 1) and (6, 1). Using complete linkage and Manhattan distance, which two clusters should be merged next? ![Image of 4 points in 3 clusters](project-agglomerative-clustering.png)
     1. K-Means, 2 students
+       * What is the first step of K-Means?
+       * What is one downside to the elbow method?
     1. Multi-layer Perceptron, 2 students
        * What is the role of activation functions in an MLP?
        * How does backpropagation help in training an MLP?
@@ -27,6 +31,9 @@ title: "Dr. Durant: CSC4601/5601 Theory of Machine Learning: Final Project"
     1. Isolation Forest, 2 students
   * Thursday
     1. NEAT, 3 students
+       * What advantage does an evolutionary algorithm like NEAT have over more traditional algorithms?
+       * In what environments is it most successful?
+       * What are the 3 steps of the training loop for evolutionary algorithms?
     1. Gradient-Boosted Trees, 1 student
        * What is the initial guess used by a gradient boosted decision tree?
        * What is one drawback of a gradient boosted decision tree?
