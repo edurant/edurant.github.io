@@ -1,5 +1,5 @@
 ---
-usemathjax: false
+usemathjax: true
 title: "CSC 4601/5601 Theory of Machine Learning: Problem Set: Cost Function Fun"
 ---
 
@@ -24,7 +24,7 @@ the data but also to keep the weights of the model as small as possible.
 One way to regularize linear regression is to modify the cost
 function as follows:
 
-![Ridge](RidgeMSE.png)
+$$ \frac{1}{N} \sum_{j=1}^N \left( w_0 + \sum_{i=1}^m w_i x_i^{(j)} - y^{(j)} \right)^2 + \lambda \sum_{i=1}^m w_i^2 $$
 
 The penalty term with coefficient λ is known as the L2 norm of
 the weight vector. It is the regularization term or shrinkage penalty
@@ -41,7 +41,7 @@ Regularizing linear regression using the L2 norm is known as the ridge regressio
 
 2. There is another version of regularized linear regression known as the Lasso regression, defined as follows:
 
-![LASSO](LASSOMSE.png)
+$$ \frac{1}{N} \sum_{j=1}^N \left( w_0 + \sum_{i=1}^m w_i x_i^{(j)} - y^{(j)} \right)^2 + \lambda \sum_{i=1}^m |w_i| $$
 
 Lasso regression uses the L1 norm of the weight vector. An important characteristic of the Lasso regression is
 that it can force some of the weights to be exactly equal to zero when the hyperparameter λ is high enough. On the other hand, ridge regression shrinks all of the weights toward zero but does not set any of them to zero.
@@ -79,14 +79,17 @@ function. The regularization term can be in terms of the L2 norm or L1 norm of t
 
 We've seen that the cost functions used in training the machine models can be written as:
 
-![Cost Function](LossFunction.png)
+$$ \sum_{j=1}^N \text{Loss}(y_{\text{pred}}^{(j)}, y_{\text{true}}^{(j)}) $$
 
 ML models used for classification assume that there is an equal number of samples observed from each class, and that all losses incurred due to misclassification are the same. However, this is not always the case,
 as the data might be imbalanced and where the minority class is the class of interest for us.
 
 One way to mitigate the class imbalances is to modify the cost function to the following:
 
-![Class Weighted Cost Function](ClassWeightedCostFunction.png)
+$$
+v_1 \sum_{j \in \text{Class 1}} \text{Loss}(y_{\text{pred}}^{(j)}, y_{\text{true}}^{(j)}) +
+v_0 \sum_{j \in \text{Class 0}} \text{Loss}(y_{\text{pred}}^{(j)}, y_{\text{true}}^{(j)})
+$$
 
 *v₁* and *v₀* are weights assigned to each class, where the *v* hyperparameters are chosen in order to draw the attention of the learning algorithm to the minority class. When the weighted version of the cost function is implemented, we refer to the modified version of the algorithm as the class weighted algorithm or weighted algorithm.
 

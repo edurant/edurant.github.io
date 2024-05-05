@@ -180,6 +180,7 @@ The following faculty are *some* of the potential capstone project advisors. Fee
 * [Dr. Magaña][Dr. Magaña]: Software Development, Software Process, Databases, Video Game Development. I’m interested in serving as a committee member on capstone projects, particularly when those projects involve aspects of software development or database integration.
 * [Dr. Nowling][Dr. Nowling]: Data science, ML and data-intensive systems (production, recommendation, distributed, etc.)
 * [Dr. Urbain][Dr. Urbain]: Natural language processing, medical image processing, graph machine learning
+* [Dr. Wright][Dr. Wright]: I am an astronomer with experience using machine learning for background rejection and object classification in optical images. I look forward to advising projects that involve astronomical data sets of any kind.
 * [Dr. Yoder][Dr. Yoder]: Large Language Models (LLMs, e.g., chat agents), Systems built on LLMs, Diffusion (image synthesis), theory of deep learning, Rosie-scale deep-learning experiments
 
 [Dr. Berisha]: https://www.msoe.edu/directory/profile/sebastian.berisha/
@@ -190,6 +191,7 @@ The following faculty are *some* of the potential capstone project advisors. Fee
 [Dr. Magaña]: https://www.msoe.edu/directory/profile/jonathon.magana/
 [Dr. Nowling]: https://rnowling.github.io/
 [Dr. Urbain]: https://github.com/jayurbain
+[Dr. Wright]: https://www.linkedin.com/in/adam-wright-msoe/
 [Dr. Yoder]: https://www.msoe.edu/directory/profile/josiah.yoder/
 
 A capstone committee member is available as a technical resource when needed throughout the project. Additionally, they receive the student's draft final report about a week before the final presentation and provide feedback and any requested changes by the end of the presentation. The advisor reviews changes and consults with each committee member as needed.

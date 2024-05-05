@@ -55,7 +55,7 @@ Using a starting point of $x_1 = -5$, use Newton's method to find the zero of th
 - Repeatedly apply Newton's method starting at $x_1 = -5$. The value of $x_i$ will stop changing after a few iterations. This means that the iterative algorithm has converged and found a zero. Create a table of $x_i$, $f'(x_i)$, and $f’’(x_i)$ for each iteration.
 - Finally, plot $f(x)$ and the points (e.g., $(x_1, f(x_1)), (x_2, f(x_2)), \cdots$) of each step connected by lines.
 
-## Problem 5: $\nabla$-licious!
+## Problem 5: Gradients
 Many functions used in machine learning take a vector as input and return a scalar. These are called scalar fields or scalar-valued functions of a vector. For example, the function $f(c)$ takes a vector $v$ of length $N$ and returns a scalar. Formally, we write $f : R^N \to R$ to describe such a function. To optimize this function, we need to take the derivative. The derivative of scalar field is called a gradient. The gradient of $f(v)$ is indicated by $\nabla f(v)$ and is a vector of partial derivatives:
 
 $$
