@@ -141,7 +141,6 @@ Note: SWE2410 Design and Cloud Patterns is *not* sufficient to meet this require
 Early entry CS majors have the option of taking this course to simultaneously satisfy their undergraduate requirement of CS3400 or [CSC4601][CSC4601]. Students who have credit for CS3400 or [CSC4601][CSC4601] may not take [CSC5601][CSC5601].
 
 ## CSC5980 Special Topics: An Engineering Approach to Game Theory and Economics
-
 For decades, the study of strategic interactions between rational decision makers has formed the basis of game theory. This course, using a two-volume textbook, extends game theory concepts to focus on dynamic games, introducing students to a new take on game theory referred to as the field theory of games. The course prioritizes conceptual understanding over mathematical equation solving, making the text accessible to not only engineering students but also to a more general audience, including business students.
 
 By using a toolkit based on the Wolfram Language, students can bypass the need to solve linear programming problems and partial differential equations by hand, allowing them to arrive at solutions with practical applications more efficiently. An introduction to the Wolfram Language symbolic programming, Mathematica, is provided. Mathematica is used to study both empirical trends as well as engineering model simulations based on the engineering extension of game theory. A review of the concepts from physics and mathematics that underlie the approach is given. Along with these introductory foundations, economic applications will be presented and shown to depend on aspects of modern theories of differential geometry.
@@ -149,7 +148,6 @@ By using a toolkit based on the Wolfram Language, students can bypass the need t
 Though this course begins with classical game theory, it differs from the usual approaches to dynamic games and deals with incomplete information by using constraints in a geometric theory, where the shortest path provides a deterministic prediction of future behaviors. Students will learn to apply introductory ideas to a system without constraints. Next, students will explore the consequences of adding constraints and will be provided an application guide.
 
 ## [CSC6605 Machine Learning Production Systems][CSC6605]: Alternate Prerequisites
-
 Although [CSC5201][CSC5201] is *not* a prerequisite for this class, students will benefit from having CSC5201 first whenever possible.
 
 [CSC2621 Introduction to Data Science][CSC2621] (a course in the DS minor) is a sufficient prerequisite to take this course.
@@ -163,16 +161,32 @@ Web Apps) or     | SE2840  | [SWE2511][SWE2511]
 Machine Learning | CS3400  | [CSC4601][CSC4601]
 
 ## [CSC7901 Machine Learning Capstone][CSC7901]
+### Enrollment Steps
 
-The steps for enrolling in the capstone project course are:
-1. Get approval from the program director to begin your capstone in a particular semester.
-1. Find a capstone advisor and discuss and refine your project idea.
-1. Work with your capstone advisor to identify 2 other MSOE faculty members to serve on your committee. Outside committee members (e.g., the chief data scientist at your company) are allowed via adjunct appointments if they have appropriate experience and background, including at a minimum a relevant master's degree.
-1. Complete the [form](https://msoe.s3.amazonaws.com/files/resources/msml-capstone-request-form-eecs-semesters-fillable.pdf) posted on the [Registrar's website](https://www.msoe.edu/academics/departments/registrar/independent-study-forms/), get required signatures, and submit it. Then the class is added to your schedule for the next semester.
+The capstone coordinator is [Dr. Kedziora][Dr. Kedziora]. The steps for enrolling in the capstone project course are:
 
-Capstone students may work individually, as part of a loosely affiliated group (e.g., regular lab meetings with advisor(s) to get feedback on work in progress), or as a team of two on a large project with clearly defined individual goals. Regardless, each student must submit their own capstone request form.
+1. About a year before your capstone begins:
+   1. Receive approval from the capstone coordinator to begin your capstone in a particular semester.
+   1. Submit a paragraph describing your project idea to the capstone coordinator.
+   1. Discuss and refine your project idea with potential capstone advisors.
+   1. Keep the capstone coordinator updated if your project idea changes significantly and on any advisor preferences.
+1. About a semester before your capstone begins:
+   1. The capstone coordinator notifies you who your advisor will be.
+   1. Discuss and further refine your project idea in consultation with your advisor.
+   1. Work with your capstone advisor to identify 2 other MSOE faculty members to serve on your committee. Outside committee members (e.g., the chief data scientist at your company) are allowed via adjunct appointments if they have appropriate experience and background, including at a minimum a relevant master's degree.
+   1. Complete the [form](https://msoe.s3.amazonaws.com/files/resources/msml-capstone-request-form-eecs-semesters-fillable.pdf) posted on the [Registrar's website](https://www.msoe.edu/academics/departments/registrar/independent-study-forms/), get required signatures, and submit it. See the form for the deadline, but submit it sooner if possible. Then the class is added to your schedule for the next semester.
 
-The following faculty are *some* of the potential capstone project advisors. Feel free to contact them to see if your areas of interest align with their expertise.
+### Capstone Project Options
+Students may work:
+
+* Individually,
+* As part of a loosely affiliated group (e.g., regular lab meetings with advisor(s) for feedback on work in progress),
+* As a team of two on a large project with clearly defined individual goals.
+Each student must submit their own capstone request form regardless of the project type.
+
+### Potential Capstone Project Advisors:
+Please contact these faculty and others to help refine your project idea:
+
 * [Dr. Berisha][Dr. Berisha]: Machine/deep learning, image processing, time-series data analysis. In general, my research centers around the application of machine learning algorithms in the fields of biomedicine and remote sensing. My most recent efforts have concentrated on two significant applications. Firstly, I have been exploring the integration of deep learning with hyperspectral mid-infrared imaging to enhance cancer diagnosis. Secondly, my research is dedicated to the application of deep learning techniques in the analysis of ECG data for the diagnosis of cardiovascular, brain injury, and respiratory diseases.
 * [Dr. Durant][Dr. Durant]: Signal processing, real-time systems, audio
 * [Dr. Imas][Dr. Imas]: Medical imaging processing applications in neurology, cardiology and oncology, as well as electrophysiological applications of digital signal processing (e.g., EEG, ECG, EGM signals)
@@ -194,9 +208,12 @@ The following faculty are *some* of the potential capstone project advisors. Fee
 [Dr. Wright]: https://www.linkedin.com/in/adam-wright-msoe/
 [Dr. Yoder]: https://www.msoe.edu/directory/profile/josiah.yoder/
 
-A capstone committee member is available as a technical resource when needed throughout the project. Additionally, they receive the student's draft final report about a week before the final presentation and provide feedback and any requested changes by the end of the presentation. The advisor reviews changes and consults with each committee member as needed.
-
-CSC7901 reports approaching final form are due to the committee by midweek prior to finals week. The presentation should be scheduled with a day or so of Monday of finals week. Feedback including changes requested by the committee are to be conveyed immediately after the presentation has concluded and incorporated over finals week, with the advisor determining whether to ask for further review from the committee.
+### Capstone Project Process:
+1. **Committee Role**: A capstone committee member is available as a technical resource throughout the project and participates in the midterm review and final presentation.
+1. **Weekly Meetings**: The advisor and student will discuss project planning and intermediate results. The advisor may request a memo or slides to guide weekly discussions.
+1. **Initial Meeting**: In the first week of the term, the student presents a preliminary project timeline, outlining tasks such as background research, addressing ethical and governance issues, data collection, data preprocessing and exploration, model exploration, implementation, preliminary results, model refinements, evaluation, final paper writing, and presentation preparation. Students may share drafts for input before this meeting.
+1. **Midterm Review**: Early in the term, the student must contact the committee to schedule a 50–80 minute meeting at least one month prior to the final presentation to present preliminary results in detail and a revised plan for project completion.
+1. **Final Presentation**: By mid-term, the student must contact the committee to schedule a 50–80 minute final presentation around the Monday of finals week. One week prior, the near-final report is due to the committee. The committee provides feedback before, during, or immediately after the final presentation. The student incorporates this feedback, including any changes requested, and submits an updated final report during finals week. The advisor will determine if further review from the committee is necessary.
 
 ## [PHL6001][PHL6001]
 
