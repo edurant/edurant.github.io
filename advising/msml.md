@@ -163,7 +163,7 @@ Machine Learning | CS3400  | [CSC4601][CSC4601]
 ## [CSC7901 Machine Learning Capstone][CSC7901]
 ### Enrollment Steps
 
-The capstone coordinator is [Dr. Kedziora][Dr. Kedziora]. The steps for enrolling in the capstone project course are:
+The steps for enrolling in the capstone project course are:
 
 1. About a year before your capstone begins:
    1. Receive approval from the capstone coordinator to begin your capstone in a particular semester.
@@ -184,7 +184,7 @@ Students may work:
 * As a team of two on a large project with clearly defined individual goals.
 Each student must submit their own capstone request form regardless of the project type.
 
-### Potential Capstone Project Advisors:
+### Potential Capstone Project Advisors
 Please contact these faculty and others to help refine your project idea:
 
 * [Dr. Berisha][Dr. Berisha]: Machine/deep learning, image processing, time-series data analysis. In general, my research centers around the application of machine learning algorithms in the fields of biomedicine and remote sensing. My most recent efforts have concentrated on two significant applications. Firstly, I have been exploring the integration of deep learning with hyperspectral mid-infrared imaging to enhance cancer diagnosis. Secondly, my research is dedicated to the application of deep learning techniques in the analysis of ECG data for the diagnosis of cardiovascular, brain injury, and respiratory diseases.
@@ -208,7 +208,7 @@ Please contact these faculty and others to help refine your project idea:
 [Dr. Wright]: https://www.linkedin.com/in/adam-wright-msoe/
 [Dr. Yoder]: https://www.msoe.edu/directory/profile/josiah.yoder/
 
-### Capstone Project Process:
+### Capstone Project Process
 1. **Committee Role**: A capstone committee member is available as a technical resource throughout the project and participates in the midterm review and final presentation.
 1. **Weekly Meetings**: The advisor and student will discuss project planning and intermediate results. The advisor may request a memo or slides to guide weekly discussions.
 1. **Initial Meeting**: In the first week of the term, the student presents a preliminary project timeline, outlining tasks such as background research, addressing ethical and governance issues, data collection, data preprocessing and exploration, model exploration, implementation, preliminary results, model refinements, evaluation, final paper writing, and presentation preparation. Students may share drafts for input before this meeting.
@@ -243,7 +243,7 @@ CSC5980(1) | Elective | Topics in Computer Science (with Laboratory) | varies
 [CSC6712][CSC6712] | Elective | Distributed Database Systems | 4-0-4 | | [Dr. Nowling][Dr. Nowling] | [CSC5201][CSC5201] &#124; instructor consent
 CSC6980 | Elective | Topics in Computer Science | varies
 CSC6999 | Elective | Computer Science Independent Study | varies
-[CSC7901][CSC7901] | Required | Machine Learning Capstone | 4-0-4 | all terms | [Dr. Durant][Dr. Durant] | ≤ 1 year to completion
+[CSC7901][CSC7901] | Required | Machine Learning Capstone | 4-0-4 | all terms | [Dr. Kedziora][Dr. Kedziora] | ≤ 1 year to completion
 [MTH5810][MTH5810] | Required | Mathematical Methods for Machine Learning | 4-0-4 | fall | Dr. Armstrong | Enrolled in MSML
 [PHL6001][PHL6001] | Required | AI Ethics and Governance | 4-0-4 | summer | Dr. McAninch | Enrolled in MSML
 
