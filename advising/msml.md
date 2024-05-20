@@ -119,6 +119,12 @@ MSOE's machine learning programs automatically grant requests to retake and grad
 
 Completing [this certificate at MSOE (CS6230, CS6330, CS6340)](https://catalog.msoe.edu/preview_program.php?catoid=33&poid=1675) meets the [CSC5610][CSC5610] and [CSC6621][CSC6621] requirements by substitution, reducing the number of additional courses needed to earn the MSML.
 
+## Graduate Certificate in Advanced Business Strategy Using AI and Analytics
+
+The combination of [BUS6121 Data Wrangling and Exploration][BUS6121] and [BUS6131 Predictive Analytics][BUS6131] meets the [CSC5610][CSC5610] requirement by substitution in the MSML.
+
+The 3 credits in [BUS6141 Analytics Leadership and Strategy][BUS6141] can be used as MSML elective credits.
+
 ## [CSC5201 Microservices &amp; Cloud Computing][CSC5201]
 
 ### Substitutions Allowed: Graduate Courses
@@ -167,8 +173,8 @@ The steps for enrolling in the capstone project course are:
 
 1. About a year before your capstone begins:
    1. Receive approval from the capstone coordinator to begin your capstone in a particular semester.
-   1. Submit a paragraph describing your project idea to the capstone coordinator.
    1. Discuss and refine your project idea with potential capstone advisors.
+   1. Submit a paragraph describing your project idea to the capstone coordinator.
    1. Keep the capstone coordinator updated if your project idea changes significantly and on any advisor preferences.
 1. About a semester before your capstone begins:
    1. The capstone coordinator notifies you who your advisor will be.
@@ -275,6 +281,9 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 [SWE2710]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=37&coid=41470
 
 [BME5210]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42526
+[BUS6121]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42441
+[BUS6131]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42445
+[BUS6141]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42440
 [CSC5120]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42485
 [CSC5201]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42448
 [CSC5241]: https://catalog.msoe.edu/preview_course_nopop.php?catoid=38&coid=42509
@@ -320,6 +329,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC6711: Dr. Nowling (very limited capacity; closed section requests will be considered in August)
   * MTH5810: Dr. Armstrong
 * Spring, 2025
+  * BUS6141: TBD
   * CSC5201: TBD (off-term offering)
   * CSC5610: TBD
   * CSC5611: TBD
