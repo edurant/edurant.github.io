@@ -177,7 +177,7 @@ The steps for enrolling in the capstone project course are:
    1. Submit a paragraph describing your project idea to the capstone coordinator.
    1. Keep the capstone coordinator updated if your project idea changes significantly and on any advisor preferences.
 1. About a semester before your capstone begins:
-   1. The capstone coordinator notifies you who your advisor will be.
+   1. The capstone coordinator notifies you who your advisor will be. (Beginning with Spring, 2025 projects; in earlier semesters students find their advisors by mutual agreement with the advisor.)
    1. Discuss and further refine your project idea in consultation with your advisor.
    1. Work with your capstone advisor to identify 2 other MSOE faculty members to serve on your committee. Outside committee members (e.g., the chief data scientist at your company) are allowed via adjunct appointments if they have appropriate experience and background, including at a minimum a relevant master's degree.
    1. Complete the form, get required signatures, and submit it. See the form for the deadline, but submit it sooner if possible. Then the class is added to your schedule for the next semester.
