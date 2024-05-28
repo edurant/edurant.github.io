@@ -180,7 +180,9 @@ The steps for enrolling in the capstone project course are:
    1. The capstone coordinator notifies you who your advisor will be.
    1. Discuss and further refine your project idea in consultation with your advisor.
    1. Work with your capstone advisor to identify 2 other MSOE faculty members to serve on your committee. Outside committee members (e.g., the chief data scientist at your company) are allowed via adjunct appointments if they have appropriate experience and background, including at a minimum a relevant master's degree.
-   1. Complete the [form](https://msoe.s3.amazonaws.com/files/resources/msml-capstone-request-form-eecs-semesters-fillable.pdf) posted on the [Registrar's website](https://www.msoe.edu/academics/departments/registrar/independent-study-forms/), get required signatures, and submit it. See the form for the deadline, but submit it sooner if possible. Then the class is added to your schedule for the next semester.
+   1. Complete the form, get required signatures, and submit it. See the form for the deadline, but submit it sooner if possible. Then the class is added to your schedule for the next semester.
+      * Fall 2024 Projects: Use [this form](https://www.dropbox.com/scl/fi/60ul651u146v0owmw5ac5/2024-05-28-MSML-Capstone-Request-Form_CSSE_Semesters_fillable.pdf?rlkey=q5z57tqp4fmhpht06e1wxr1u9&st=el739pte&dl=0) and submit it to your *project advisor* who will send the form on to the next steps in the process.
+      * Spring 2025 Projects and Beyond: The form will be posted after August 1 on the [Registrar's website](https://www.msoe.edu/academics/departments/registrar/independent-study-forms/).
 
 ### Capstone Project Options
 Students may work:
