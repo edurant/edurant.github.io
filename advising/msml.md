@@ -208,9 +208,9 @@ Please contact these faculty and others to help refine your project idea:
 [Dr. Berisha]: https://www.msoe.edu/directory/profile/sebastian.berisha/
 [Dr. Bukowy]: https://www.msoe.edu/directory/profile/john.bukowy/
 [Dr. Durant]: /
+[Dr. Flynn]: https://www.msoe.edu/directory/profile/jonathon.magana/
 [Dr. Imas]: https://www.linkedin.com/in/olgaimas/
 [Dr. Kedziora]: https://www.linkedin.com/in/jeremy-kedziora/
-[Dr. Magaña]: https://www.msoe.edu/directory/profile/jonathon.magana/
 [Dr. Nowling]: https://rnowling.github.io/
 [Dr. Urbain]: https://github.com/jayurbain
 [Dr. Wright]: https://www.linkedin.com/in/adam-wright-msoe/
