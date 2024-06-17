@@ -196,6 +196,7 @@ Each student must submit their own capstone request form regardless of the proje
 Please contact these faculty and others to help refine your project idea:
 
 * [Dr. Berisha][Dr. Berisha]: Machine/deep learning, image processing, time-series data analysis. In general, my research centers around the application of machine learning algorithms in the fields of biomedicine and remote sensing. My most recent efforts have concentrated on two significant applications. Firstly, I have been exploring the integration of deep learning with hyperspectral mid-infrared imaging to enhance cancer diagnosis. Secondly, my research is dedicated to the application of deep learning techniques in the analysis of ECG data for the diagnosis of cardiovascular, brain injury, and respiratory diseases.
+* [Dr. Bukowy][Dr. Bukowy]: Data Science, Experimental Design, Machine Learning, and Image Processing. Specifically, I have a lot of experience in medical image processing in bright field histology and MRI sequences for object detection.
 * [Dr. Durant][Dr. Durant]: Signal processing, real-time systems, audio
 * [Dr. Imas][Dr. Imas]: Medical imaging processing applications in neurology, cardiology and oncology, as well as electrophysiological applications of digital signal processing (e.g., EEG, ECG, EGM signals)
 * [Dr. Kedziora][Dr. Kedziora]: Data science, statistics, machine learning, reinforcement learning
