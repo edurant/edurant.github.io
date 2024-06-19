@@ -1,9 +1,12 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2024-06-13 10:15:30 -0500
+date: 2024-06-19 09:09:30 -0500
 ---
 
-* [Sea of Tranquility](https://bookshop.org/p/books/sea-of-tranquility-emily-st-john-mandel/17768221), by Emily St John Mandel, discussed on 2024-08-TBD.
+* [Sea of Tranquility](https://bookshop.org/p/books/sea-of-tranquility-emily-st-john-mandel/17768221), by Emily St John Mandel, discussed on 2024-12-TBD.
+* Native American Heritage Month Book TBD, 2024-11-TBD
+* Hispanic Heritage Month Book TBD, 2024-10-TBD
+* Banned Books Week Book TBD, 2024-09-TBD
 * [The Lemon Tree: An Arab, a Jew, and the Heart of the Middle East](https://bookshop.org/books/the-lemon-tree-an-arab-a-jew-and-the-heart-of-the-middle-east/9781596913431), by Sandy Tolan, discussed on 2024-07-08.
 * [The Thirty Names of Night: A Novel](https://bookshop.org/p/books/the-thirty-names-of-night-zeyn-joukhadar/13318077), by Zeyn Joukhadar, discussed on 2024-06-12.
 * [The Loneliest Americans](https://bookshop.org/p/books/the-loneliest-americans-jay-caspian-kang/18590073), by Jay Caspian Kang, discussed on 2024-05-16.
