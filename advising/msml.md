@@ -166,6 +166,10 @@ Requirement      | Quarter | Semester
 Web Apps) or     | SE2840  | [SWE2511][SWE2511]
 Machine Learning | CS3400  | [CSC4601][CSC4601]
 
+## [CSC6712 Distributed Storage Systems][CSC6712]
+
+Students with a background in data structures, operating systems, or databases and a working knowledge of a systems language such as C, C++, or Java will be particularly well-prepared to succeed in this class. Those without this background may face an especially high level of challenge.
+
 ## [CSC7901 Machine Learning Capstone][CSC7901]
 ### Enrollment Steps
 
@@ -224,7 +228,7 @@ Please contact these faculty and others to help refine your project idea:
 1. **Midterm Review**: Early in the term, the student must contact the committee to schedule a 50–80 minute meeting at least one month prior to the final presentation to present preliminary results in detail and a revised plan for project completion.
 1. **Final Presentation**: By mid-term, the student must contact the committee to schedule a 50–80 minute final presentation around the Monday of finals week. One week prior, the near-final report is due to the committee. The committee provides feedback before, during, or immediately after the final presentation. The student incorporates this feedback, including any changes requested, and submits an updated final report during finals week. The advisor will determine if further review from the committee is necessary.
 
-## [PHL6001][PHL6001]
+## [PHL6001 AI Ethics and Governance][PHL6001]
 
 For MSOE undergraduates, this class cannot meet the undergraduate ethics requirement, and the undergraduate ethics requirement cannot meet this MSML requirement.
 
