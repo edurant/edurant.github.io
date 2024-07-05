@@ -1,11 +1,11 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2024-07-01 11:22:30 -0500
+date: 2024-07-05 12:00:30 -0500
 ---
 
 * [Sea of Tranquility](https://bookshop.org/p/books/sea-of-tranquility-emily-st-john-mandel/17768221), by Emily St John Mandel, discussed on 2024-12-TBD.
 * Native American Heritage Month Book TBD, 2024-11-TBD
-* [The Invention of Morel / Morel's Invention](https://bookshop.org/books/the-invention-of-morel/9781590170571), by Adolfo Bioy Casares, discussed on 2024-10-TBD.
+* [The Invention of Morel / Morel's Invention](https://bookshop.org/books/the-invention-of-morel/9781590170571), by Adolfo Bioy Casares, discussed on 2024-10-07.
 * [The Bluest Eye](https://bookshop.org/p/books/the-bluest-eye-toni-morrison/8492901), by Toni Morrison, discussed on 2024-09-04.
 * [The Lemon Tree: An Arab, a Jew, and the Heart of the Middle East](https://bookshop.org/books/the-lemon-tree-an-arab-a-jew-and-the-heart-of-the-middle-east/9781596913431), by Sandy Tolan, discussed on 2024-07-08.
 * [The Thirty Names of Night: A Novel](https://bookshop.org/p/books/the-thirty-names-of-night-zeyn-joukhadar/13318077), by Zeyn Joukhadar, discussed on 2024-06-12.
