@@ -342,6 +342,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC5611: TBD
   * CSC6605: TBD
   * CSC6621: TBD
+  * PHL6001: Dr. McAninch
   * …
 * Summer, 2025
   * CSC5120: TBD
