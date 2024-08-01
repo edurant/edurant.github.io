@@ -20,11 +20,11 @@ Note that the MSML program (and our ML graduate certificates) do *not* require l
 Please contact MSML program director [Dr. Durant][Dr. Durant] with any questions.
 
 # Dual Enrollment with Bachelor's Degree
-The MS can be taken as a 5-year early entry dual enrollment program with many MSOE undergraduate degrees including all EECS undergraduate degrees (BME, CE, CS, EE, and SE), AE, and CVE. Students [must apply][MSML early entry application] while they have junior standing, but should let their advisor know of their intent as early as possible.
+The MS can be taken as a 5-year early entry dual enrollment program with many MSOE undergraduate degrees including all CSSE (CS and SE) and ECBE (BME, CE, and EE) undergraduate degrees, and AE and CVE. Students [must apply][MSML early entry application] while they have junior standing, but should let their advisor know of their intent as early as possible.
 
 * One or more summer courses are usually required.
 * BMEs entering in F23 or later should choose the “AI Focus” option.
-* All EECS undergraduate majors allow their free and program elective requirements to be met by MSML courses. Check with your advisor if not in EECS.
+* All CSSE and ECBE undergraduate majors allow their free and program elective requirements to be met by MSML courses. Check with your advisor if not in one of these departments.
   * MSOE allows a maximum of 16 credits of graduate courses (i.e., 4 MSML courses) to be taken before the BS degree is conferred.
   * MSML courses *meeting an undergraduate requirement* count toward full-time undergraduate enrollment.
   * Normal undergraduate tuition applies prior to completing the undergraduate degree requirements.
@@ -62,7 +62,7 @@ The MS can be taken as a 5-year early entry dual enrollment program with many MS
 
 # Accreditation
 
-Please see [MSOE's Accreditations](https://www.msoe.edu/about-msoe/who-we-are/accreditations/) for information accreditation at the university and program levels, including accreditation of all undergraduate programs in the EECS Department. Note that as of 2023 ABET does not offer offer accreditation for masters programs in any computing disciplines.
+Please see [MSOE's Accreditations](https://www.msoe.edu/about-msoe/who-we-are/accreditations/) for information accreditation at the university and program levels, including accreditation of all undergraduate programs in the CSSE Department. Note that as of 2023 ABET does not offer offer accreditation for masters programs in any computing disciplines.
 
 # Machine Learning Careers In The News
 

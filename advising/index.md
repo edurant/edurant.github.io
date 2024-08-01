@@ -71,7 +71,7 @@ The CE advisors are Profs. [Durant](durant.html), Livingston, Meier, Rothe, and 
 
 Follow the link at [Registrar&rsquo;s Registration Resources](https://www.msoe.edu/academics/departments/registrar/#Registration) for
 
-* EECS electives, updated annually
+* CSSE and ECBE electives, updated annually
 * Summer classes, published approximately each February
 
 # [CE Elective Rules, etc.](ceElectiveRules.html)
@@ -86,7 +86,7 @@ Forms for declaring a minor, changing/adding a major, etc., are available on the
 
 # Minors
 
-MSOE and the EECS Department offer a variety of minors of interest to CE students. These include the following.
+MSOE and the CSSE and ECBE departmentd offer a variety of minors of interest to CE students. These include the following.
 
 ## [Data Science Minor](https://catalog.msoe.edu/preview_program.php?catoid=37&poid=1938)
 
