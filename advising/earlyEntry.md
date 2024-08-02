@@ -20,6 +20,8 @@ Students must apply for early entry status while they have junior standing.
 
 # Discounted Tuition Rate
 
+MSOE is phasing out the discounted graduate MSML tuition rate that early entry students received after their BS degree was conferred if they met various criteria. Information on how and when this will apply to various MSML cohorts is expected to be available in September, 2024.
+
 This section was copied from the [“Graduate Tuition and Fees” section of the 2023–2024 Graduate Catalog—June Update](https://catalog.msoe.edu/content.php?catoid=36&navoid=1164#tuitionfees):
 > Early Entry Master’s Degree Program Charges
 >
@@ -34,16 +36,6 @@ Note that that undergraduate tuition and financial aid normally applies during t
 In any cases where MSOE’s offerings do not make it possible to enroll in at least 8 credits in a term, that restriction will be waived.
 
 In any cases where MSOE’s offerings do not make it possible to complete the master’s degree within the 1 year deadline, the deadline will be extended by the minimum amount needed to make it possible to complete the degree.
-
-The 2023–2024 graduate tuition rates for 4+1 students are:
-* Architectural Engineering and Civil Engineering 4+1 students — $560 per credit hour (as opposed to $1,400 per credit hour for non-4+1 graduate students)
-* Engineering Management 4+1 students — $TBD per credit hour (as opposed to $1,160 per credit hour for non-4+1 graduate students)
-* Machine Learning 4+1 students — $750 per credit hour (as opposed to $1,500 per credit hour for non-4+1 graduate students)
-
-In future years:
-* The architectural engineering and civil engineering 4+1 graduate tuition rate will be set at 40% of the regular tuition rate.
-* The engineering management 4+1 graduate tuition rate will be set at TBD% of the regular tuition rate.
-* The machine learning 4+1 graduate tuition rate will be set at 50% of the regular tuition rate.
 
 # MSML Early Entry GPA Requirement Exception Policy
 
