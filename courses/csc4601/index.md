@@ -33,7 +33,7 @@ Graduate students enrolled in the course will complete all the undergraduate ass
 * Week 2: [Overview](ps/week02.pdf), [IRIS data set](lab/01/IRIS.csv), [Peak LFC data set](ps/peak_lfc.csv)
 * Week 3: See Canvas
 * Week 4: See Canvas
-* Week 5: See Canvas
+* Week 5: [Logistic Regression](ps/05/)
 * Week 6: [Decision Trees and Logistic Regression](ps/06/)
 * Week 7: [Support Vector Machines](ps/07/), Datafiles: [one](ps/07/Kernel_Problem_1.csv), [two](ps/07/Kernel_Problem_2.csv), [three](ps/07/Kernel_Problem_3.csv)
 * Week 9: [Calculus Review](ps/09/)
