@@ -6,7 +6,7 @@ This document summarizes key policies for 4+1 students, who typically begin grad
 
 # Early Entry Status
 
-This section was copied from [“Types of Acceptance” section of the 2023-2024 Graduate Catalog—June Update](https://catalog.msoe.edu/content.php?catoid=36&navoid=1157#Types_of_Acceptance):
+This section was copied from [“Types of Acceptance” section of the 2024-2025 Graduate Catalog—June Update](https://catalog.msoe.edu/content.php?catoid=41&navoid=1445#Types_of_Acceptance):
 
 > Conditional Acceptance of Early Entry Graduate Students
 >
@@ -18,24 +18,20 @@ The application process for early entry status varies by program. Please check w
 
 Students must apply for early entry status while they have junior standing.
 
-# Discounted Tuition Rate
+# Tuition
 
-MSOE is phasing out the discounted graduate MSML tuition rate that early entry students received after their BS degree was conferred if they met various criteria. Information on how and when this will apply to various MSML cohorts is expected to be available in September, 2024.
-
-This section was copied from the [“Graduate Tuition and Fees” section of the 2023–2024 Graduate Catalog—June Update](https://catalog.msoe.edu/content.php?catoid=36&navoid=1164#tuitionfees):
+This section was copied from the [“Graduate Tuition and Fees” section of the 2024–2025 Graduate Catalog—June Update](https://catalog.msoe.edu/content.php?catoid=41&navoid=1452#tuitionfees):
 > Early Entry Master’s Degree Program Charges
 >
 > Early entry master’s programs offer the ability for MSOE students to complete both a bachelor’s and a master’s degree in five years. Students in this program are considered undergraduate students until their undergraduate degree is conferred. Depending on the program, students may take up to 16 graduate-level credits as an undergraduate student, and those credits may apply to both degrees.
 >
-> Students in the graduate phase of an early entry master’s program are eligible for a discounted tuition rate. Students must have their undergraduate degree conferred in order to be considered for the discounted rate. Students must be enrolled in at least 8 graduate-level credits per term and meet Satisfactory Academic Progress to receive the discounted tuition rate. Tuition will be charged on a per-credit basis by the Student Accounts Office. This discounted tuition rate only applies to the credits and courses required to complete the master’s degree during the graduate phase of the program. This discounted tuition rate is available for up to one year after conferral of the undergraduate degree.
+> Full-time students (12 credits or more) accepted into an early entry program are charged full-time undergraduate tuition rates and will receive undergraduate financial aid until their undergraduate degree is conferred. In the student’s fifth year, they are charged the graduate per credit rate for their program of study.
 
-Full-time students (12 credits or more) accepted into early entry programs are charged full-time undergraduate tuition rates and will receive undergraduate financial aid, even though they may be taking graduate courses. If a student enrolls in more than 19 credits, they will be charged the undergraduate per-credit rate for any credits above 19.
+In rare cases where MSOE’s offerings do not make it possible to enroll in at least 8 credits in a term, that restriction will generally be waived.
 
-Note that that undergraduate tuition and financial aid normally applies during the fourth year, specifically until the undergraduate degree is conferred. Once the undergraduate degree is conferred, graduate tuition applies.
+In rare cases where MSOE’s offerings do not make it possible to complete the master’s degree within the 1 year deadline, the deadline will generally be extended by the minimum amount needed to make it possible to complete the degree.
 
-In any cases where MSOE’s offerings do not make it possible to enroll in at least 8 credits in a term, that restriction will be waived.
-
-In any cases where MSOE’s offerings do not make it possible to complete the master’s degree within the 1 year deadline, the deadline will be extended by the minimum amount needed to make it possible to complete the degree.
+Please talk with your program director regarding requesting official approval for such waivers and extensions.
 
 # MSML Early Entry GPA Requirement Exception Policy
 
@@ -49,11 +45,11 @@ Students admitted who do not meet the 3.0 GPA will need to earn at least a 3.0 G
 
 ## Scenario 1
 
-An early entry student is taking 14 credits of classes that meet UG requirements including 1 course that also meets an MSML requirement. The student is also taking a 4-credit class that meets an MSML requirement but not an UG requirement. In this case the tuition for the semester in AY24 is $23,193 (UG FT since 12 ≤ total credits ≤ 19) less any FT UG scholarships, etc.
+An early entry student is taking 14 credits of classes that meet UG requirements including 1 course that also meets an MSML requirement. The student is also taking a 4-credit class that meets an MSML requirement but not an UG requirement. In this case the tuition for the semester is the standard UG FT tuition (since 12 ≤ total credits ≤ 19) less any FT UG scholarships, etc.
 
 ## Scenario 2
 
-An early entry student in their final undergraduate semester has only 11 required UG credits remaining, including an elective that can double-count for the MSML (under the 16-credit limit of graduate classes at UG tuition). The student is also taking a 4-credit class that meets an MSML requirement but not an UG requirement. In this case the tuition for the semester in AY24 is $23,193 (UG FT status can apply in *final* semester when UG required credits < 12) less any FT UG scholarships.
+An early entry student in their final undergraduate semester has only 11 required UG credits remaining, including an elective that can double-count for the MSML (under the 16-credit limit of graduate classes at UG tuition). The student is also taking a 4-credit class that meets an MSML requirement but not an UG requirement. In this case the tuition for the semester is the standard UG FT tuition (UG FT status can apply in *final* semester when UG required credits < 12) less any FT UG scholarships.
 
 ## Scenario 3
 
