@@ -27,9 +27,13 @@ This section was copied from the [“Graduate Tuition and Fees” section of the
 >
 > Full-time students (12 credits or more) accepted into an early entry program are charged full-time undergraduate tuition rates and will receive undergraduate financial aid until their undergraduate degree is conferred. In the student’s fifth year, they are charged the graduate per credit rate for their program of study.
 
-In rare cases where MSOE’s offerings do not make it possible to enroll in at least 8 credits in a term, that restriction will generally be waived.
+## Timeline for MSML Completion
 
-In rare cases where MSOE’s offerings do not make it possible to complete the master’s degree within the 1 year deadline, the deadline will generally be extended by the minimum amount needed to make it possible to complete the degree.
+These requirements only apply to students who are completing their BS degree in 5/2025 or earlier and they apply to the phase after the BS is conferred.
+
+With the exception of summer term, you must enroll in at least 8 credits in a term. In rare cases where MSOE’s offerings do not make it possible to do this, this restriction will generally be waived.
+
+You must complete the master’s within 1 year of completing your BS. In rare cases where MSOE’s offerings do not make it possible to do this, the deadline will generally be extended by the minimum amount needed to meet the course requirements.
 
 Please talk with your program director regarding requesting official approval for such waivers and extensions.
 
