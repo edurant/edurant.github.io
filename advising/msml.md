@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Master of Science in Machine Learning"
 ---
 
@@ -165,6 +165,10 @@ Requirement      | Quarter | Semester
 (Databases and   | CS3860  | [CSC3320][CSC3320]
 Web Apps) or     | SE2840  | [SWE2511][SWE2511]
 Machine Learning | CS3400  | [CSC4601][CSC4601]
+
+## CSC67XX
+
+CSC67XX-prefixed courses are conducted in a combined seminar/project format. Instead of traditional lectures, these courses focus on reading and discussing papers from the literature. Like our other courses, CSC67XX courses involve multi-week, hands-on technical projects. Small groups meet with the instructor once per week to discuss the readings and projects. These courses require more out-of-class work than others in our program. To succeed, students should be comfortable working independently and possess strong time management skills.
 
 ## [CSC6712 Distributed Storage Systems][CSC6712]
 
