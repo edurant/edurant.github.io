@@ -232,6 +232,13 @@ Please contact these faculty and others to help refine your project idea:
 1. **Midterm Review**: Early in the term, the student must contact the committee to schedule a 50–80 minute meeting at least one month prior to the final presentation to present preliminary results in detail and a revised plan for project completion.
 1. **Final Presentation**: By mid-term, the student must contact the committee to schedule a 50–80 minute final presentation around the Monday of finals week. One week prior, the near-final report is due to the committee. The committee provides feedback before, during, or immediately after the final presentation. The student incorporates this feedback, including any changes requested, and submits an updated final report during finals week. The advisor will determine if further review from the committee is necessary.
 
+### Final Report
+The final report length varies depending on the project content, but it is typically 25–40 pages, single-spaced, excluding any appendices. It is a formal report and should include a cover page and a table of contents. Typical sections include: Abstract, Introduction, Background (problem context and, optionally, research), Data (covering sources, acquisition, cleaning if applicable, and exploration), Methods (e.g., metrics used and general analysis methods), Baseline Model, Machine Learning Model, Discussion, Future Work, Conclusions, References, and Appendices.
+
+The model sections often include many of the following subsections: Data Augmentation, Feature Engineering, Model Architecture, Hyperparameter Search, Results, and Discussion. Appendices can be used to delve deeper into architectures used, present detailed results that might interrupt the flow of the main paper, and discuss source code design and repository organization. Sections may be added or removed as appropriate to the project content.
+
+[Here are some examples of high-quality final reports.](https://www.dropbox.com/scl/fo/mjlnjshnryokd3asm7bg5/AHL94l6ZJG4IIIUtNUms56Y?rlkey=e1xlj3rpu7lx99bq5go0p8zvt&st=kfzg9hx3&dl=0)
+
 ## [PHL6001 AI Ethics and Governance][PHL6001]
 
 For MSOE undergraduates, this class cannot meet the undergraduate ethics requirement, and the undergraduate ethics requirement cannot meet this MSML requirement.
