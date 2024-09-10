@@ -1,10 +1,10 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2024-09-05 12:11:30 -0500
+date: 2024-09-10 16:20:30 -0500
 ---
 
 * [Sea of Tranquility](https://bookshop.org/p/books/sea-of-tranquility-emily-st-john-mandel/17768221), by Emily St John Mandel, discussed on 2024-12-TBD.
-* [The Sentence](https://www.goodreads.com/book/show/56816904-the-sentence), by Louise Erdrich, discussed on 2024-11-TBD.
+* [The Sentence](https://www.goodreads.com/book/show/56816904-the-sentence), by Louise Erdrich, discussed on 2024-11-06.
 * [The Invention of Morel / Morel's Invention](https://bookshop.org/books/the-invention-of-morel/9781590170571), by Adolfo Bioy Casares, discussed on 2024-10-07.
 * [The Bluest Eye](https://bookshop.org/p/books/the-bluest-eye-toni-morrison/8492901), by Toni Morrison, discussed on 2024-09-04.
 * [The Lemon Tree: An Arab, a Jew, and the Heart of the Middle East](https://bookshop.org/books/the-lemon-tree-an-arab-a-jew-and-the-heart-of-the-middle-east/9781596913431), by Sandy Tolan, discussed on 2024-07-08.
