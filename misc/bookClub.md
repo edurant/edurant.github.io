@@ -1,8 +1,15 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2024-09-10 16:20:30 -0500
+date: 2024-09-11 09:12:30 -0500
 ---
 
+* [Death in the Haymarket: A Story of Chicago, the First Labor Movement and the Bombing That Divided Gilded Age America](https://bookshop.org/p/books/death-in-the-haymarket-a-story-of-chicago-the-first-labor-movement-and-the-bombing-that-divided-gilded-age-america-james-green/7831023), by James Green, discussed on 2024-07-TBD.
+* TBD for Pride Month, discussed on 2024-06-TBD.
+* TBD for Asian and Pacific American Heritage Month, discussed on 2024-05-TBD.
+* [Memory of Departure](https://bookshop.org/p/books/memory-of-departure-by-the-winner-of-the-nobel-prize-in-literature-2021-abdulrazak-gurnah/17772589), by Abdulrazak Gurnah, discussed on 2025-04-TBD.
+* TBD for International Women's Day, discussed on 2025-03-TBD.
+* TBD for Black History Month, discussed on 2025-02-TBD.
+* [A Gentleman in Moscow](https://bookshop.org/books/a-gentleman-in-moscow/9780143110439), by Amor Towles, discussed on 2025-01-TBD.
 * [Sea of Tranquility](https://bookshop.org/p/books/sea-of-tranquility-emily-st-john-mandel/17768221), by Emily St John Mandel, discussed on 2024-12-TBD.
 * [The Sentence](https://www.goodreads.com/book/show/56816904-the-sentence), by Louise Erdrich, discussed on 2024-11-06.
 * [The Invention of Morel / Morel's Invention](https://bookshop.org/books/the-invention-of-morel/9781590170571), by Adolfo Bioy Casares, discussed on 2024-10-07.
