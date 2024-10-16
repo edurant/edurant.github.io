@@ -347,14 +347,14 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC6711: Dr. Nowling (very limited capacity; closed section requests will be considered in August)
   * MTH5810: Dr. Armstrong
 * Spring, 2025
-  * BUS6141: TBD
-  * CSC5201: TBD (off-term offering)
+  * BUS6141: Dr. Hrdlicka (asynchronous)
+  * CSC5201: Prof. DeMastri (off-term offering, online)
   * CSC5610: TBD
-  * CSC5611: TBD
-  * CSC6605: TBD
-  * CSC6621: TBD
-  * PHL6001: Dr. McAninch
-  * …
+  * CSC5611: Dr. Yoder, (in-person)
+  * CSC5980 AI for Search: Dr. Urbain (online)
+  * CSC6605: Dr. Nowling (2 sections, online)
+  * CSC6621: Dr. Berisha (2 sections, online)
+  * PHL6001: Dr. McAninch (online)
 * Summer, 2025
   * CSC5120: TBD
   * CSC6621: TBD
