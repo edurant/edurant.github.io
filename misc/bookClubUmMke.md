@@ -1,8 +1,12 @@
 ---
 title: "University of Michigan Milwaukee Alumni Book Club Selections"
-date: 2023-08-20 12:32:30 -0500
+date: 2024-10-22 16:00:30 -0500
 ---
-* [The Secret Life of Sunflowers](https://bookshop.org/p/books/the-secret-life-of-sunflowers-dana-marton/18833289), by Marta Molnar, discussed on 2024-TBD.
+* [The Maid](https://bookshop.org/p/books/the-maid/18862540), by Nita Prose, discussed on 2025-TBD.
+* [Master Slave Husband Wife](https://bookshop.org/p/books/master-slave-husband-wife-an-epic-journey-from-slavery-to-freedom-ilyon-woo/18573757), by Ilon Woo, discussed on 2025-TBD.
+* [Shoe Dog: A Memoir by the Creator of Nike](https://bookshop.org/p/books/shoe-dog-a-memoir-by-the-creator-of-nike-phil-knight/6702889), by Phil Knight, discussed on 2024-11-18.
+* [The First Ladies](https://bookshop.org/p/books/the-first-ladies/18883473), by Marie Benedict, discussed on 2024-09-04.
+* [The Secret Life of Sunflowers](https://bookshop.org/p/books/the-secret-life-of-sunflowers-dana-marton/18833289), by Marta Molnar, discussed on 2024-06-12.
 * [All the Broken Places](https://bookshop.org/p/books/all-the-broken-places-john-boyne/18490723), by John Boyne, discussed on 2024-03-06.
 * [Anxious People](https://bookshop.org/p/books/anxious-people-fredrik-backman/18771844), by Fredrik Backman, discussed on 2023-11-08.
 * [Rebecca](https://bookshop.org/p/books/rebecca-daphne-du-maurier/8585579), by Daphne DuMaurier, discussed on 2023-09-18.
