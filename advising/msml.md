@@ -349,7 +349,6 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 * Spring, 2025
   * BUS6141: Dr. Hrdlicka (asynchronous)
   * CSC5201: Prof. DeMastri (off-term offering, online)
-  * CSC5610: TBD
   * CSC5611: Dr. Yoder, (in-person)
   * CSC5980 AI for Search: Dr. Urbain (online)
   * CSC6605: Dr. Nowling (2 sections, online)
