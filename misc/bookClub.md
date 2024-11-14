@@ -9,7 +9,7 @@ date: 2024-09-20 10:07:30 -0500
 * [Memory of Departure](https://bookshop.org/p/books/memory-of-departure-by-the-winner-of-the-nobel-prize-in-literature-2021-abdulrazak-gurnah/17772589), by Abdulrazak Gurnah, discussed on 2025-04-TBD.
 * [Lessons in Chemistry](https://bookshop.org/p/books/lessons-in-chemistry-bonnie-garmus/19638865), by Bonnie Garmus, discussed on 2025-03-TBD.
 * TBD for Black History Month, discussed on 2025-02-TBD.
-* [A Gentleman in Moscow](https://bookshop.org/books/a-gentleman-in-moscow/9780143110439), by Amor Towles, discussed on 2025-01-TBD.
+* [A Gentleman in Moscow](https://bookshop.org/books/a-gentleman-in-moscow/9780143110439), by Amor Towles, discussed on 2025-01-22.
 * [Sea of Tranquility](https://bookshop.org/p/books/sea-of-tranquility-emily-st-john-mandel/17768221), by Emily St John Mandel, discussed on 2024-12-02.
 * [The Sentence](https://www.goodreads.com/book/show/56816904-the-sentence), by Louise Erdrich, discussed on 2024-11-06.
 * [The Invention of Morel / Morel's Invention](https://bookshop.org/books/the-invention-of-morel/9781590170571), by Adolfo Bioy Casares, discussed on 2024-10-07.
