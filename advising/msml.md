@@ -208,7 +208,7 @@ Please contact these faculty and others to help refine your project idea:
 * [Dr. Durant][Dr. Durant]: Signal processing, real-time systems, audio
 * [Dr. Imas][Dr. Imas]: Medical imaging processing applications in neurology, cardiology and oncology, as well as electrophysiological applications of digital signal processing (e.g., EEG, ECG, EGM signals)
 * [Dr. Kedziora][Dr. Kedziora]: Data science, statistics, machine learning, reinforcement learning
-* [Dr. Magaña][Dr. Magaña]: Software Development, Software Process, Databases, Video Game Development. I’m interested in serving as a committee member on capstone projects, particularly when those projects involve aspects of software development or database integration.
+* [Dr. Flynn][Dr. Flynn]: Software Development, Software Process, Databases, Video Game Development. I’m interested in serving as a committee member on capstone projects, particularly when those projects involve aspects of software development or database integration.
 * [Dr. Nowling][Dr. Nowling]: Data science, ML and data-intensive systems (production, recommendation, distributed, etc.)
 * [Dr. Urbain][Dr. Urbain]: Natural language processing, medical image processing, graph machine learning
 * [Dr. Wright][Dr. Wright]: I am an astronomer with experience using machine learning for background rejection and object classification in optical images. I look forward to advising projects that involve astronomical data sets of any kind.
@@ -252,7 +252,7 @@ Click on course numbers below to see catalog entries with course details.
 Course | Type | Title | Structure | Offered | Coordinator | Prerequisites
 --- | --- | --- | --- | --- | ---
 [BME5210][BME5210] | Elective | Medical Imaging Systems | 3-2-4 | | [Dr. Imas][Dr. Imas] | [ELE3300][ELE3300] &#124; CSC4651 &#124; [CSC5651][CSC5651] &#124; CSC4611 &#124; [CSC5611][CSC5611] &#124; [CSC6621][CSC6621]
-[CSC5120][CSC5120] | Elective | Software Development for Machine Learning | 4-0-4 | summer | [Dr. Magaña][Dr. Magaña] | [CSC1110][CSC1110] &#124; [CSC1310][CSC1310] &#124; consent
+[CSC5120][CSC5120] | Elective | Software Development for Machine Learning | 4-0-4 | summer | [Dr. Flynn][Dr. Flynn] | [CSC1110][CSC1110] &#124; [CSC1310][CSC1310] &#124; consent
 [CSC5201][CSC5201] | Required | Microservices and Cloud Computing | 4-0-4 | fall | [Dr. Nowling][Dr. Nowling] | [CSC5120][CSC5120] &#124; [CSC1120][CSC1120] &#124; CS2852 &#124; equiv. software background &#124; consent &#124;
 [CSC5241][CSC5241] | Elective | GPU Programming | 4-0-4 | | [Dr. Berisha][Dr. Berisha] | [CSC2210][CSC2210] &#124; consent
 [CSC5601][CSC5601] | Elective | Theory of Machine Learning | 4-0-4 | fall | [Dr. Bukowy][Dr. Bukowy] | ((([MTH2130][MTH2130] &amp; [MTH2340][MTH2340]) &#124; [MTH5810][MTH5810]) &amp; ([CSC2621][CSC2621] &#124; [CSC5610][CSC5610])) &#124; consent
@@ -320,7 +320,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
 
 # Past and Planned Offerings
 * Summer, 2023
-  * CSC5120: Dr. Magaña
+  * CSC5120: Dr. Flynn
 * Fall, 2023
   * CSC5610: Dr. Nowling and Dr. Bukowy
   * CSC5651: Dr. Durant
@@ -332,7 +332,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC6621: Dr. Berisha (2 sections)
   * CSC6711: Dr. Nowling
 * Summer, 2024
-  * CSC5120: Dr. Magaña
+  * CSC5120: Dr. Flynn
   * CSC6621: Dr. Berisha (off-term offering)
   * CSC6712: Dr. Nowling (3 sections)
   * PHL6001: Dr. McAninch (2 sections, 7-week subterm 1)
