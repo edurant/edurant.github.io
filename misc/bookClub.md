@@ -1,13 +1,13 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2024-11-21 10:54:30 -0600
+date: 2025-01-23 12:11:30 -0600
 ---
 
 * [Death in the Haymarket: A Story of Chicago, the First Labor Movement and the Bombing That Divided Gilded Age America](https://bookshop.org/p/books/death-in-the-haymarket-a-story-of-chicago-the-first-labor-movement-and-the-bombing-that-divided-gilded-age-america-james-green/7831023), by James Green, discussed on 2024-07-TBD.
 * TBD for Pride Month, discussed on 2024-06-TBD.
 * TBD for Asian and Pacific American Heritage Month, discussed on 2024-05-TBD.
-* [Memory of Departure](https://bookshop.org/p/books/memory-of-departure-by-the-winner-of-the-nobel-prize-in-literature-2021-abdulrazak-gurnah/17772589), by Abdulrazak Gurnah, discussed on 2025-04-TBD.
-* [Lessons in Chemistry](https://bookshop.org/p/books/lessons-in-chemistry-bonnie-garmus/19638865), by Bonnie Garmus, discussed on 2025-03-TBD.
+* [Memory of Departure](https://bookshop.org/p/books/memory-of-departure-by-the-winner-of-the-nobel-prize-in-literature-2021-abdulrazak-gurnah/17772589), by Abdulrazak Gurnah, discussed on 2025-04-23.
+* [Lessons in Chemistry](https://bookshop.org/p/books/lessons-in-chemistry-bonnie-garmus/19638865), by Bonnie Garmus, discussed on 2025-03-12.
 * [Kindred](https://bookshop.org/p/books/kindred-octavia-e-butler/11629395), by Octavia Butler, discussed on 2025-02-12.
 * [A Gentleman in Moscow](https://bookshop.org/books/a-gentleman-in-moscow/9780143110439), by Amor Towles, discussed on 2025-01-22.
 * [Sea of Tranquility](https://bookshop.org/p/books/sea-of-tranquility-emily-st-john-mandel/17768221), by Emily St John Mandel, discussed on 2024-12-02.
