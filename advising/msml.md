@@ -360,6 +360,7 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC6621 Applied ML: Dr. Berisha
   * CSC6711 Rec Sys: Dr. Nowling (2 sections)
   * CSC6712 Distributed Storage Systems: Dr. Nowling (2 sections)
+  * PHL6001: Dr. Talamentez (full term)
 * Fall, 2025
   * CSC5201 Microservices and Cloud Computing: Dr. Urbain
   * CSC5601 Theory of ML: Dr. Bukowy (in person)
@@ -367,3 +368,4 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC5661 Reinforcement Learning: Dr. Kedziora
   * CSC5980 Survey of Deep Learning: Dr. Yoder (online, late afternoon)
   * CSC6605 ML Production Systems: Dr. Nowling
+  * MTH5810: (to be confirmed)
