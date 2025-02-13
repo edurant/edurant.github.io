@@ -355,15 +355,15 @@ CSC6999 | Elective | Computer Science Independent Study | varies
   * CSC6621: Dr. Berisha (2 sections, online)
   * PHL6001: Dr. McAninch (online)
 * Summer, 2025
-  * CSC5120: TBD
-  * CSC6621: TBD
-  * PHL6001: TBD
-  * …
+  * BUS6141 Analytics Leadership and Strategy:  Dr. Hrdlicka (May 19–July 5)
+  * CSC5120 Soft Dev for ML: Dr. Flynn
+  * CSC6621 Applied ML: Dr. Berisha
+  * CSC6711 Rec Sys: Dr. Nowling (2 sections)
+  * CSC6712 Distributed Storage Systems: Dr. Nowling (2 sections)
 * Fall, 2025
-  * BME5210: TBD
-  * CSC5201: TBD
-  * CSC5601: TBD (likely in person)
-  * CSC5610: TBD
-  * CSC6605: TBD (off-term offering)
-  * MTH5810: TBD
-  * …
+  * CSC5201 Microservices and Cloud Computing: Dr. Urbain
+  * CSC5601 Theory of ML: Dr. Bukowy (in person)
+  * CSC5610 AI Tools and Paradigms: Dr. Nowling (1 section)
+  * CSC5661 Reinforcement Learning: Dr. Kedziora
+  * CSC5980 Survey of Deep Learning: Dr. Yoder (online, late afternoon)
+  * CSC6605 ML Production Systems: Dr. Nowling
