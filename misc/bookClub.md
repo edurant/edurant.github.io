@@ -1,11 +1,11 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2025-02-13 12:21:30 -0600
+date: 2025-03-13 13:50:30 -0500
 ---
 
 * [Death in the Haymarket: A Story of Chicago, the First Labor Movement and the Bombing That Divided Gilded Age America](https://bookshop.org/p/books/death-in-the-haymarket-a-story-of-chicago-the-first-labor-movement-and-the-bombing-that-divided-gilded-age-america-james-green/7831023), by James Green, discussed on 2024-07-TBD.
 * [Biography of X: A Novel](https://bookshop.org/p/books/biography-of-x-catherine-lacey/18411158), by Catherine Lacey, discussed on 2024-06-TBD.
-* [Feeding Ghosts: A Graphic Memoir](https://bookshop.org/p/books/feeding-ghosts-a-memoir-tessa-hulls/19994803), by Tessa Hulls, discussed on 2024-05-TBD.
+* [Feeding Ghosts: A Graphic Memoir](https://bookshop.org/p/books/feeding-ghosts-a-memoir-tessa-hulls/19994803), by Tessa Hulls, discussed on 2024-05-28.
 * [Memory of Departure](https://bookshop.org/p/books/memory-of-departure-by-the-winner-of-the-nobel-prize-in-literature-2021-abdulrazak-gurnah/17772589), by Abdulrazak Gurnah, discussed on 2025-04-23.
 * [Lessons in Chemistry](https://bookshop.org/p/books/lessons-in-chemistry-bonnie-garmus/19638865), by Bonnie Garmus, discussed on 2025-03-12.
 * [Kindred](https://bookshop.org/p/books/kindred-octavia-e-butler/11629395), by Octavia Butler, discussed on 2025-02-24.
