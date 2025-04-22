@@ -16,4 +16,4 @@ I am an inventor on 8 US patents in the areas of:
   * [9930456](https://patents.google.com/patent/US9930456B2/en)
 * Intelligent spoken command response systems
   * [11412333](https://patents.google.com/patent/US11412333B2/en)
-  * [Application US20220295194A1, pending as of 2023-01](https://patents.google.com/patent/US20220295194A1)
+  * [Application US20220295194A1, pending as of 2025-04](https://patents.google.com/patent/US20220295194A1)
