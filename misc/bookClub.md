@@ -1,7 +1,14 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2025-05-29 11:37:30 -0600
+date: 2025-06-02 10:31:30 -0600
 ---
+
+# Books Confirmed, Month Not Confirmed
+
+* [Finding Margaret Fuller: A Novel](https://bookshop.org/p/books/finding-margaret-fuller-allison-pataki/20143991), by Pataki, Allison, likely 2024-12.
+* [Drawdown: The Most Comprehensive Plan Ever Proposed to Reverse Global Warming](https://bookshop.org/p/books/drawdown-the-most-comprehensive-plan-ever-proposed-to-reverse-global-warming-paul-hawken/15277859), by Hawken, Paul, likely 2024-08.
+
+# Books Assigned a Month
 
 * [Death in the Haymarket: A Story of Chicago, the First Labor Movement and the Bombing That Divided Gilded Age America](https://bookshop.org/p/books/death-in-the-haymarket-a-story-of-chicago-the-first-labor-movement-and-the-bombing-that-divided-gilded-age-america-james-green/7831023), by James Green, discussed on 2024-07-TBD.
 * [Biography of X: A Novel](https://bookshop.org/p/books/biography-of-x-catherine-lacey/18411158), by Catherine Lacey, discussed on 2025-06-11.
