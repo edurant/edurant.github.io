@@ -1,6 +1,6 @@
 ---
 title: "CE Academic Advising"
-date: 2024-05-08 15:35:30 -0500
+date: 2025-06-11 10:44:30 -0600
 ---
 
 * TOC
@@ -65,7 +65,7 @@ The MSOE Registrar keeps track of the advisor assigned to each student. If you a
   * Click Academic Info within the My Info window
   * Your advisors will be listed in the first section.
 
-The CE advisors are Profs. [Durant](durant.html), Livingston, Meier, Rothe, and Varnell. All their offices are located on the 3rd floor of the Library.
+The CE advisors are Profs. Livingston, Meier, Rothe, and Varnell. All their offices are located on the 3rd floor of the Library.
 
 # Elective Options, Planned Offerings
 

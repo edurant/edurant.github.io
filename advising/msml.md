@@ -40,25 +40,21 @@ The MS can be taken as a 5-year early entry dual enrollment program with many MS
 
 # Official Websites
 
+## [Inquiry Form For All Graduate Programs](https://graduate.msoe.edu/inquiryform)
+
 ## Catalog
 
 * [https://catalog.msoe.edu/](https://catalog.msoe.edu/). Select the latest Graduate Catalog.
 
 ## Academics
 * [MS in Machine Learning](https://www.msoe.edu/academics/graduate-degrees/m-s-in-machine-learning/)
-* [Graduate Certificate in Machine Learning](https://www.msoe.edu/academics/certificates/graduate-certificate-machine-learning/)
-* Graduate Certificate in Machine Learning Engineering - offered in fall, 2023; site coming soon
+* [Graduate Certificate in Applied Machine Learning](https://www.msoe.edu/academics/certificates/graduate-certificate-machine-learning/)
+* Graduate Certificate in Machine Learning Engineering - site coming soon
 
 ## Admissions
-* [Machine Learning Programs](https://online.msoe.edu/#machine-learning)
 * [MS in Machine Learning](https://online.msoe.edu/masters-machine-learning/)
-* [Graduate Certificate in Machine Learning](https://online.msoe.edu/graduate-certificates/machine-learning/)
-* Graduate Certificate in Machine Learning Engineering - offered in fall, 2023; site coming soon
-
-## Landing / Information Request
-* [MS in Machine Learning](https://onlineinfo.msoe.edu/machine-learning-masters/)
-* [Graduate Certificate in Machine Learning](https://onlineinfo.msoe.edu/machine-learning-certificate/)
-* Graduate Certificate in Machine Learning Engineering - offered in fall, 2023; site coming soon
+* [Graduate Certificate in Applied Machine Learning](https://onlineinfo.msoe.edu/machine-learning-certificate/)
+* [Graduate Certificate in Machine Learning Engineering](https://www.msoe.edu/academics/certificates/graduate-certificate-in-machine-learning-engineering/)
 
 # Accreditation
 
@@ -66,12 +62,15 @@ Please see [MSOE's Accreditations](https://www.msoe.edu/about-msoe/who-we-are/ac
 
 # Machine Learning Careers In The News
 
+* [2025-05-19 TechGuide ranking: MSOE’s M.S. in Machine Learning ranked #11 among Best Master’s in ML Programs](https://techguide.org/computer-science/masters-in-machine-learning/)
+* [2025‑04‑18 Spectrum News 1: “MSOE looks to become AI education leader through new campaign”](https://spectrumnews1.com/wi/milwaukee/news/2025/04/17/msoe-next-bold-step)
+* [2025‑03‑03 MSOE announces the Next Bold Step campaign: a $125 M initiative to elevate AI and ML education](https://www.msoe.edu/about-msoe/news/details/msoe-announces-the-next-bold-step-the-campaign-to-accelerate-innovation/)
+* [2024‑09‑26 MSOE Center for Professional Education launches AI certificate programs](https://www.msoe.edu/about-msoe/news/details/msoe-center-for-professional-education-launches-ai-certificate-programs/)
 * [2023-12-22 Milwaukee Business Journal / MSOE ML Programs Win Wisconsin Inno Fire Award](https://www.bizjournals.com/milwaukee/inno/stories/awards/2023/12/22/2023-fire-awards-winners.html) ([PDF](2023-12mkeBusJ-msoeMLGradAward.pdf))
 * [2023-08-14 Wall Street Journal article on demand for AI experts](https://www.wsj.com/articles/artificial-intelligence-jobs-pay-netflix-walmart-230fc3cb)
-* [2023-07-28 MSOE post on ML Careers and Industry Growth](https://online.msoe.edu/engineering/blog/machine-learning-careers-and-industry-growth)
-* [2022-08-19 MSOE Post for Employers on Developing ML Talent](https://online.msoe.edu/engineering/employers)
 
-# Direct Admit Requirements (also apply to Graduate Certificate in Applied Machine Learning)
+# Direct Admit Requirements (also apply to Graduate Certificate in Applied
+Machine Learning)
 
 * Technical bachelor's degree
 * Programming experience with a modern language such as Python, C#, or Java. One year of college coursework (culminating in e.g., CS2852, [CSC1120][CSC1120], or [CSC2611][CSC2611] or equivalent minimum.
