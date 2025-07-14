@@ -1,6 +1,6 @@
 ﻿---
 title: "MSOE Faculty and Staff Book Club Selections"
-date: 2025-06-13 11:57:30 -0600
+date: 2025-07-14 10:54:30 -0600
 ---
 
 # Books Confirmed, Month Not Confirmed
@@ -11,7 +11,7 @@ date: 2025-06-13 11:57:30 -0600
 
 * [1984](https://bookshop.org/p/books/1984-george-orwell/14834241?ean=9780451524935), by George Orwell, discussed on 2025-10-TBD.
 * [Woman of Light](https://bookshop.org/p/books/woman-of-light-kali-fajardo-anstine/17439206), by Kali Fajardo-Anstine, discussed on 2025-09-TBD.
-* [Drawdown: The Most Comprehensive Plan Ever Proposed to Reverse Global Warming](https://bookshop.org/p/books/drawdown-the-most-comprehensive-plan-ever-proposed-to-reverse-global-warming-paul-hawken/15277859), by Paul Hawken, discussed on 2025-08-TBD.
+* [Drawdown: The Most Comprehensive Plan Ever Proposed to Reverse Global Warming](https://bookshop.org/p/books/drawdown-the-most-comprehensive-plan-ever-proposed-to-reverse-global-warming-paul-hawken/15277859), by Paul Hawken, discussed on 2025-08-13.
 * [Death in the Haymarket: A Story of Chicago, the First Labor Movement and the Bombing That Divided Gilded Age America](https://bookshop.org/p/books/death-in-the-haymarket-a-story-of-chicago-the-first-labor-movement-and-the-bombing-that-divided-gilded-age-america-james-green/7831023), by James Green, discussed on 2025-07-09.
 * [Biography of X: A Novel](https://bookshop.org/p/books/biography-of-x-catherine-lacey/18411158), by Catherine Lacey, discussed on 2025-06-11.
 * [Feeding Ghosts: A Graphic Memoir](https://bookshop.org/p/books/feeding-ghosts-a-memoir-tessa-hulls/19994803), by Tessa Hulls, discussed on 2024-05-28.
