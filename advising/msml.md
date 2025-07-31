@@ -36,9 +36,9 @@ The MS can be taken as a 5-year early entry dual enrollment program with many MS
 
 ## [General 4+1 / Early Entry Policies Including Tuition](earlyEntry.html)
 
-## [8 MB PowerPoint Overview Presentation on MSOE ML Programs](https://www.dropbox.com/scl/fi/xc7ardi0jz1v6v068azk3/ML-Grad-Programs-Overview.pptx?rlkey=1gvt6u2ihl8j07h7n4teude3a&dl=0)
-
 # Official Websites
+
+## [Application for All Graduate Programs](https://graduate.msoe.edu/applynow18/inquiryform)
 
 ## [Inquiry Form For All Graduate Programs](https://graduate.msoe.edu/inquiryform)
 
@@ -52,7 +52,7 @@ The MS can be taken as a 5-year early entry dual enrollment program with many MS
 * Graduate Certificate in Machine Learning Engineering - site coming soon
 
 ## Admissions
-* [MS in Machine Learning](https://online.msoe.edu/masters-machine-learning/)
+* [MS in Machine Learning](https://www.msoe.edu/academics/graduate-degrees/online-machine-learning-programs/online-machine-learning-program-admissions/)
 * [Graduate Certificate in Applied Machine Learning](https://onlineinfo.msoe.edu/machine-learning-certificate/)
 * [Graduate Certificate in Machine Learning Engineering](https://www.msoe.edu/academics/certificates/graduate-certificate-in-machine-learning-engineering/)
 
@@ -67,7 +67,7 @@ Please see [MSOE's Accreditations](https://www.msoe.edu/about-msoe/who-we-are/ac
 * [2025‑03‑03 MSOE announces the Next Bold Step campaign: a $125 M initiative to elevate AI and ML education](https://www.msoe.edu/about-msoe/news/details/msoe-announces-the-next-bold-step-the-campaign-to-accelerate-innovation/)
 * [2024‑09‑26 MSOE Center for Professional Education launches AI certificate programs](https://www.msoe.edu/about-msoe/news/details/msoe-center-for-professional-education-launches-ai-certificate-programs/)
 * [2023-12-22 Milwaukee Business Journal / MSOE ML Programs Win Wisconsin Inno Fire Award](https://www.bizjournals.com/milwaukee/inno/stories/awards/2023/12/22/2023-fire-awards-winners.html) ([PDF](2023-12mkeBusJ-msoeMLGradAward.pdf))
-* [2023-08-14 Wall Street Journal article on demand for AI experts](https://www.wsj.com/articles/artificial-intelligence-jobs-pay-netflix-walmart-230fc3cb)
+* [2023-08-14 Wall Street Journal article on demand for AI experts](https://www.wsj.com/tech/ai/artificial-intelligence-jobs-pay-netflix-walmart-230fc3cb?st=kjBUq1&reflink=desktopwebshare_permalink)
 
 # Direct Admit Requirements (also apply to Graduate Certificate in Applied
 Machine Learning)
