@@ -17,7 +17,7 @@
 main:   MOVS R4,#4     ; R4 = memory address           2404
         MOVS R7,#0     ; temp = 0                      2700
         STR R7,[R4]    ; MEM[4] = 0 : init memory      6027
-        MOVS R7,#SLIDE ; address of sliders            27f4 ; 8 LSB is 8b simmediate
+        MOVS R7,#SLIDE ; address of sliders            27f4 ; 8 LSB is 8b immediate
         LDR R6,[R7]    ; i = n                         683e
         MOVS R5,#0     ; sum = 0                       2500
         CMP R6,#0      ; i=0?                          2e00
@@ -40,12 +40,12 @@ print:  MOVS R7,#SEG7  ; seg7 data reg address         27fc
         STR R3,[R7]    ; leds = mem[4]: LED0 on if >32 603b
 done:   B done         ;                               e7fe
 
-; Assessembly/disassembly examples for Thumb:
+; Assembly/disassembly examples for Thumb:
 ; MOVS R4,#4: 001 00 100 0000_0100 = 2404
 ; ADDS R5,R6: 00011 0 0 101 110 101 = 1975, format 2 allows 3 operands
 ;             00011 0 0 101 101 110 = 196e, ...other source order
 ;             010001 00 00 110 101 = 4435, format 5 also works
-; Format 2 is 3-operand add/subtrack, format 5 is 2-operand more general ALU ops with high reg support.
+; Format 2 is 3-operand add/subtract, format 5 is 2-operand more general ALU ops with high reg support.
 ; Formats 2 and 5 BOTH work for this ADDS instruction!
 ; Some assemblers will use MOV/ADD, but it is understood that these Thumb instructions set the flag bits!
 ; Thumb does not have versions of these instructions that do NOT set the flag bits.
