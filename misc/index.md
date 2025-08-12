@@ -6,9 +6,12 @@ title: "Dr. Durant: Miscellaneous"
 * [CV](cv.pdf)
 * [MSOE Faculty and Staff Book Club](bookClub.html)
 * [University of Michigan Milwaukee Alumni Book Club](bookClubUmMke.html)
-* [CE IAC Homepage](../ceiac/)
-* [Op Computer on Dr. Hasker's site](https://faculty-web.msoe.edu/hasker/opcomp/)
-* For MSOE Faculty
+* MSOE Faculty
+  * [Courses Taught at MSOE](../courses/)
+  * [Student Recommendation Requests](../rec.html)
+  * [CE IAC Homepage](../ceiac/)
+  * [CE Advising](../advising/)
+  * [Op Computer on Dr. Hasker's site](https://faculty-web.msoe.edu/hasker/opcomp/)
   * In-service presentation handouts
     * [2015: Getting Things Done](2015inserviceGtd.html)
     * [2007: Senior Design (PDF)](2007inserviceSeniorProjectTeams.pdf)
