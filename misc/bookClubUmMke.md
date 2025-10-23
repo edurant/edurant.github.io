@@ -1,9 +1,13 @@
----
+﻿---
 title: "University of Michigan Milwaukee Alumni Book Club Selections"
-date: 2024-10-22 16:00:30 -0500
+date: 2025-10-23 15:04:30 -0500
 ---
-* [The Maid](https://bookshop.org/p/books/the-maid/18862540), by Nita Prose, discussed on 2025-TBD.
-* [Master Slave Husband Wife](https://bookshop.org/p/books/master-slave-husband-wife-an-epic-journey-from-slavery-to-freedom-ilyon-woo/18573757), by Ilon Woo, discussed on 2025-TBD.
+* [The Measure](https://bookshop.org/p/books/the-measure-a-novel-nikki-erlick/be8f8d2b5f49b7df), by Nikki Erlick, discussed on 2026-06-TBD.
+* [The Wedding People](https://bookshop.org/p/books/the-wedding-people-a-novel-alison-espach/2a6b95a3104be2ea), by Alison Espach, discussed on 2026-03-TBD.
+* [The Demon of Unrest](https://bookshop.org/p/books/the-demon-of-unrest-a-saga-of-hubris-heartbreak-and-heroism-at-the-dawn-of-the-civil-war-erik-larson/49cbb34e27e50282), by Erik Larson, discussed on 2025-11-20.
+* [How to Age Disgracefully](https://bookshop.org/p/books/how-to-age-disgracefully-clare-pooley/294b851a9ac647cd), by Clare Pooley, discussed on 2025-09-18.
+* [The Maid](https://bookshop.org/p/books/the-maid/18862540), by Nita Prose, discussed on 2025-06-26.
+* [Master Slave Husband Wife](https://bookshop.org/p/books/master-slave-husband-wife-an-epic-journey-from-slavery-to-freedom-ilyon-woo/18573757), by Ilon Woo, discussed on 2025-03-13.
 * [Shoe Dog: A Memoir by the Creator of Nike](https://bookshop.org/p/books/shoe-dog-a-memoir-by-the-creator-of-nike-phil-knight/6702889), by Phil Knight, discussed on 2024-11-18.
 * [The First Ladies](https://bookshop.org/p/books/the-first-ladies/18883473), by Marie Benedict, discussed on 2024-09-04.
 * [The Secret Life of Sunflowers](https://bookshop.org/p/books/the-secret-life-of-sunflowers-dana-marton/18833289), by Marta Molnar, discussed on 2024-06-12.

@@ -1,8 +1,8 @@
----
-title: "Dr. Durant: Patents"
+﻿---
+title: "Eric Durant, PhD, MBA, PE: Patents"
 ---
 
-I am an inventor on 8 US patents in the areas of:
+I am an inventor on 9 US patents in the areas of:
 * [Genetic algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm) for efficiently fitting audio processing parameters in hearing aids
   * [7650004](https://patents.google.com/patent/US7650004B2/en)
   * [9049529](https://patents.google.com/patent/US9049529B2/en)
@@ -16,4 +16,5 @@ I am an inventor on 8 US patents in the areas of:
   * [9930456](https://patents.google.com/patent/US9930456B2/en)
 * Intelligent spoken command response systems
   * [11412333](https://patents.google.com/patent/US11412333B2/en)
-  * [Application US20220295194A1, pending as of 2025-04](https://patents.google.com/patent/US20220295194A1)
+  * [12279092](https://patents.google.com/patent/US12279092B2/en)
+  * [US19/025,798 pending, continuation of 11412333](https://patents.google.com/patent/US20250159418A1/en)
