@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.5em;
 }
 
+a img {
+    border: 0;
+}
+
 @media (prefers-color-scheme: dark) {
 	body {
 		background: #000;
@@ -29,4 +33,20 @@ h1, h2, h3, h4, h5, h6 {
 	a:active {
 	    color: Magenta;
 	}
+    img.portrait {
+        opacity: 0.95;
+    }
+}
+
+img.portrait {
+    float: left;
+    margin: 4px 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
 }

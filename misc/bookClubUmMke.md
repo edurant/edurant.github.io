@@ -1,9 +1,9 @@
 ﻿---
 title: "University of Michigan Milwaukee Alumni Book Club Selections"
-date: 2025-10-23 15:04:30 -0500
+date: 2026-04-28 09:45:30 -0500
 ---
 * [The Measure](https://bookshop.org/p/books/the-measure-a-novel-nikki-erlick/be8f8d2b5f49b7df), by Nikki Erlick, discussed on 2026-06-TBD.
-* [The Wedding People](https://bookshop.org/p/books/the-wedding-people-a-novel-alison-espach/2a6b95a3104be2ea), by Alison Espach, discussed on 2026-03-TBD.
+* [The Wedding People](https://bookshop.org/p/books/the-wedding-people-a-novel-alison-espach/2a6b95a3104be2ea), by Alison Espach, discussed on 2026-03-26.
 * [The Demon of Unrest](https://bookshop.org/p/books/the-demon-of-unrest-a-saga-of-hubris-heartbreak-and-heroism-at-the-dawn-of-the-civil-war-erik-larson/49cbb34e27e50282), by Erik Larson, discussed on 2025-11-20.
 * [How to Age Disgracefully](https://bookshop.org/p/books/how-to-age-disgracefully-clare-pooley/294b851a9ac647cd), by Clare Pooley, discussed on 2025-09-18.
 * [The Maid](https://bookshop.org/p/books/the-maid/18862540), by Nita Prose, discussed on 2025-06-26.

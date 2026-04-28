@@ -8,17 +8,17 @@ Sunday, July 9, 2023 — Milwaukee, WI
 
 ## Photos
 
-We had our first [photo session](https://edurant.smugmug.com/Family/2023/05-25-Engagement-Photos/) with our photographer on May 25.
+We had our first [photo session](https://edurant.smugmug.com/Family/2023/05-25-Engagement-Photos/) with our photographer on May 25, 2023.
 
 And, here are photos from our photographers from [our rehearsal dinner](https://edurant.smugmug.com/Family/2023/07-08-Rehearsal-Dinner/) and our [wedding day](https://www.happygnomephotography.com/ClientGalleries/Eric-Scott/) ([alternate link](https://edurant.smugmug.com/Family/2023/07-09-Wedding/)).
 
 ## Rehearsal Dinner
 
-Our out-of-town guests, wedding party, and close family received invitations to our rehearsal dinner at 6 PM on Saturday, July 8 at [Onesto's](https://onestomke.com/) ([map](https://goo.gl/maps/xjsHmUtSTwKb1FfU7)) upstairs event space.
+Our out-of-town guests, wedding party, and close family received invitations to our rehearsal dinner at 6 PM on Saturday, July 8, 2023 at [Onesto's](https://onestomke.com/) ([map](https://goo.gl/maps/xjsHmUtSTwKb1FfU7)) upstairs event space.
 
 ## Wedding and Reception
 
-Our wedding and reception was held at 4 PM on Sunday, July 9 at [Pritzlaff 325](https://pritzlaffevents.com/) ([map](https://goo.gl/maps/evad1c8pV1Kxz9HH6)).
+Our wedding and reception was held at 4 PM on Sunday, July 9, 2023 at [Pritzlaff 325](https://pritzlaffevents.com/) ([map](https://goo.gl/maps/evad1c8pV1Kxz9HH6)).
 
 ## Gifts
 
