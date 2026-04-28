@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Eric Durant: Personal & Archives"
 ---
 
