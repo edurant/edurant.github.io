@@ -2,16 +2,16 @@
 title: "Quals 2 Abstract: Efficiently Fitting Low Order HRTF Models"
 ---
 
-Eric Alan Durant<br/>
-Department of Electrical Engineering and Computer Science<br/>
-The University of Michigan<br/>
+Eric Alan Durant<br/>
+Department of Electrical Engineering and Computer Science<br/>
+The University of Michigan<br/>
 Ann Arbor, MI, USA
 
 Professor Gregory H. Wakefield, Research Advisor
 
-Quals II Examining Committee:<br/>
-Professor Jeffrey A. Fessler<br/>
-Professor Kimberly M. Wasserman<br/>
+Quals II Examining Committee:<br/>
+Professor Jeffrey A. Fessler<br/>
+Professor Kimberly M. Wasserman<br/>
 Professor William J. Williams
 
 Friday 21 April 2000
