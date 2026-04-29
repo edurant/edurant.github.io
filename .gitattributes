@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+*.md   text eol=lf
+*.html text eol=lf
+*.css  text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+.ruby-version text eol=lf

@@ -23,8 +23,8 @@ title: "Eric Durant: Personal & Archives"
 
 * **Main site:** [edurant.smugmug.com](https://edurant.smugmug.com/)
 * [Dr. Steven Reyer's Milwaukee Architecture Website](/mke/)
-* Canon Camera/Lens Interactions: [PDF](cameraLens.pdf), [Excel](cameraLens.xls)
-* AoV Multiplier (FF over 10D/1.6&times;): [PDF](AoVmultiplier.pdf), [Excel](AoVmultiplier.xls)
+* Canon Camera/Lens Interactions: [PDF](cameraLens.pdf), [Excel (.xlsx)](cameraLens.xlsx)
+* AoV Multiplier (FF over 10D/1.6&times;): [PDF](AoVmultiplier.pdf), [Excel (.xlsx)](AoVmultiplier.xlsx)
 
 ## Education archive
 
